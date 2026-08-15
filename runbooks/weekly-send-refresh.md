@@ -104,11 +104,47 @@ Mark a file `needs-you` (with a one-line `ask`) **only** when it is genuinely bl
 contractor: their approval of an estimate, a scope of work, a homeowner signature they must
 chase. Not for anything that is merely waiting on the carrier.
 
-**Per-rep mode (Linear, Stronghouse).** Build the rep index in bulk, not per file:
-`to:<domain> newer_than:180d` and `from:<domain> newer_than:180d` with
-`view: "THREAD_VIEW_MINIMAL"`. Subjects name the insured
-("Khang truong appraisal invoice"), recipients name the rep. Map surname → rep.
-Unmatched or ambiguous files go on that company's **unassigned** page. Never guess between reps.
+### Per-rep mode (Linear, Stronghouse) — attribution cascade
+
+Every claim is tied to a rep somewhere in email. Work the cheap bulk pass first, then fall
+back to per-file identifiers for whatever is left. Do not stop at the surname pass — on its
+own it left roughly half of Stronghouse's files unattributed.
+
+**Pass 1 — bulk surname index (one or two searches, covers most files).**
+`view: "THREAD_VIEW_MINIMAL"`, `pageSize: 50`:
+```
+to:<domain> newer_than:180d
+from:<domain> newer_than:180d
+```
+Subjects name the insured ("Khang truong appraisal invoice"); recipients/sender name the rep.
+Map surname → rep. Cheap, and it resolves the bulk in a handful of calls.
+
+**Pass 2 — claim number (per remaining file, and the most reliable signal there is).**
+Take the claim # off the card and search it verbatim:
+```
+"0820277473"
+```
+Claim numbers are unique, so a hit is unambiguous in a way a surname never is. Read the
+recipients/sender of any hit and map to a rep. Try the claim number both with and without
+punctuation — the board stores forms like `7010350940-1-1` and `600-1348144`.
+
+**Pass 3 — loss address (per file still unresolved).**
+Search the street portion only — no city, no state, no ZIP:
+```
+"906 CAMBRIDGE DR"
+```
+House number plus street name is specific enough to be safe, and it survives the formatting
+differences between the card and the email body.
+
+Only after all three passes does a file go to the **unassigned** page. Report the count that
+got there and which pass resolved the rest, so the cascade can be tuned.
+
+Never guess between two reps. If two reps appear on the same claim, prefer the one on the most
+recent thread, and if that is still ambiguous, use the unassigned page and say so.
+
+**Cost control.** Passes 2 and 3 are one search per unresolved file, so they only ever run on
+the residue Pass 1 could not place — never on the full file list. Batch them inside the
+client's own subagent; do not fan out one subagent per file.
 
 ## Phase 3 — Write back (orchestrator)
 
