@@ -1,0 +1,382 @@
+{
+  "batch": 7,
+  "results": [
+    {
+      "cardId": "69a09c7845a859ce44f2ca82",
+      "update": "The file is in active umpire review: both appraisers' positions and documents have been submitted, and the umpire is now requesting wind/hail data before finalizing a decision. Joseph is compiling that additional documentation.",
+      "needed": null,
+      "asOf": "2026-08-14",
+      "timeline": [
+        {"date": "2026-02-26", "event": "Pre-appraisal settlement demand sent to the carrier before invoking formal appraisal."},
+        {"date": "2026-05-08", "event": "Formal appraisal invoked with the carrier; Joseph Dittman named as the insured's appraiser."},
+        {"date": "2026-05-19", "event": "A solo inspection by the carrier's appraiser was scheduled."},
+        {"date": "2026-06-05", "event": "The carrier's appraiser completed a solo inspection and sent over a position disputing roof damage."},
+        {"date": "2026-06-20", "event": "Joseph's appraiser completed the interior inspection; rain postponed the exterior and roof portions."},
+        {"date": "2026-06-21", "event": "The exterior and roof inspection was completed."},
+        {"date": "2026-06-27", "event": "Joseph sent his position and estimate to the carrier's appraiser."},
+        {"date": "2026-07-09", "event": "The carrier's appraiser questioned the scope of Joseph's estimate and asked to discuss."},
+        {"date": "2026-08-01", "event": "Joseph agreed to move the file to umpire review after the two appraisers could not agree."},
+        {"date": "2026-08-10", "event": "An umpire was named and accepted the assignment; both appraisers' positions and supporting documents were forwarded to the umpire."},
+        {"date": "2026-08-12", "event": "Joseph sent a supporting photo report to the umpire."},
+        {"date": "2026-08-14", "event": "The umpire requested wind/hail reports for the date of loss; Joseph confirmed he has them and will send them shortly."}
+      ],
+      "trelloItemsAdded": 12,
+      "noEmail": false
+    },
+    {
+      "cardId": "69fa312f9ce313f36aaf8e44",
+      "update": "The file has moved past impasse into umpire review: Joseph submitted his position to the named umpire and the file is awaiting the umpire's retainer invoice before further review begins.",
+      "needed": null,
+      "asOf": "2026-08-06",
+      "timeline": [
+        {"date": "2026-05-05", "event": "Contractor referred a new denied claim in Colleyville; the appraisal demand letter was sent to the homeowner for signature."},
+        {"date": "2026-05-06", "event": "Formal appraisal invoked with the carrier."},
+        {"date": "2026-05-08", "event": "Carrier scheduled a required reinspection for 5/17."},
+        {"date": "2026-05-22", "event": "Reinspection occurred; the carrier again denied roof replacement."},
+        {"date": "2026-05-27", "event": "The carrier's appraiser was assigned to the file and a solo inspection was set for 6/10."},
+        {"date": "2026-06-02", "event": "Both sides exchanged umpire candidates; the carrier's appraiser selected one and asked Joseph to sign and return the appraisal agreement."},
+        {"date": "2026-06-07", "event": "Inspection dates confirmed with the homeowner: carrier's appraiser on 6/10, Joseph's appraiser on 6/12."},
+        {"date": "2026-06-15", "event": "Joseph followed up with the carrier's appraiser to confirm the 6/10 inspection had been completed."},
+        {"date": "2026-07-07", "event": "The carrier's appraiser's position was received and placed under review."},
+        {"date": "2026-07-16", "event": "The two appraisers reached an impasse; the file began being prepared for the umpire."},
+        {"date": "2026-08-06", "event": "The file and Joseph's position were sent to the named umpire; awaiting the umpire's retainer invoice."}
+      ],
+      "trelloItemsAdded": 11,
+      "noEmail": false
+    },
+    {
+      "cardId": "699f7ed7ef9d93473c54efc1",
+      "update": "The carrier has already agreed to cover the roof and its share of the umpire fee is paid, but the file is stalled because the insured's portion of the umpire fee still has not been paid, which is holding up the final award.",
+      "needed": "The umpire's fee invoice for this file remains unpaid; since the homeowner has been reluctant, your team may need to decide whether to cover it so the umpire can issue the award.",
+      "asOf": "2026-08-04",
+      "timeline": [
+        {"date": "2026-02-25", "event": "Adjuster and contractor documents received to begin the appraisal review."},
+        {"date": "2026-03-13", "event": "Solo inspection dates set: carrier's appraiser for 3/18, Joseph for 3/24."},
+        {"date": "2026-03-20", "event": "The carrier's appraiser's solo inspection took place, rescheduled from 3/18 due to the homeowner's availability."},
+        {"date": "2026-03-24", "event": "Joseph's own inspection was completed."},
+        {"date": "2026-04-21", "event": "Joseph's office reported the carrier's initial offer was too low and both estimates were under comparison."},
+        {"date": "2026-05-12", "event": "The two appraisers reached an impasse and requested umpire service."},
+        {"date": "2026-05-18", "event": "The umpire accepted the assignment and set the panel communication protocol."},
+        {"date": "2026-06-21", "event": "The umpire's invoice was sent to the homeowner for payment, required before the umpire can issue a determination."},
+        {"date": "2026-07-02", "event": "The carrier had already agreed to cover the roof; the file needs the umpire fee paid to receive the award."},
+        {"date": "2026-07-07", "event": "A formal umpire fee invoice was resent, noting the carrier had already paid its portion."},
+        {"date": "2026-07-19 to 2026-08-04", "event": "Repeated follow-ups chasing payment of the umpire fee; still unpaid as of the most recent check."}
+      ],
+      "trelloItemsAdded": 11,
+      "noEmail": false
+    },
+    {
+      "cardId": "6872b7b43d21fee0af22f904",
+      "update": "This file stalled in late 2025: the carrier asked for photos of the roof damage to proceed with the appraisal, but the roof had already been fully repaired by the time the carrier asked, and the contractor said the job was already completed, paid, and closed on their end. No further activity has been found since.",
+      "needed": "The carrier's stated blocker was a lack of roof damage photos before repair. If your team has any pre-repair damage photos for this property that were not already sent, forwarding them would help restart the file.",
+      "asOf": "2025-12-11",
+      "timeline": [
+        {"date": "2025-07-12", "event": "Contractor submitted a supplement estimate request for roof and gutter damage."},
+        {"date": "2025-07-15", "event": "Estimate reviewed and returned; contractor confirmed it was ready to send."},
+        {"date": "2025-07-17", "event": "Joseph explained the carrier's appraisal submission process to the insured."},
+        {"date": "2025-08-25 to 2025-09-19", "event": "Follow-ups checking for a carrier response; none had been received."},
+        {"date": "2025-10-13", "event": "Formal appraisal demand sent to the carrier; shortly after, Joseph told the carrier the insured no longer wanted to pursue it, based on word the matter had settled."},
+        {"date": "2025-10-21 to 2025-10-22", "event": "Insured reversed course, telling the carrier directly he wanted to continue pursuing appraisal after a miscommunication."},
+        {"date": "2025-10-31", "event": "Carrier confirmed the claim was under review, with a response expected by 11/11."},
+        {"date": "2025-11-05 to 2025-11-06", "event": "Carrier sent a written response/objection regarding the appraisal, forwarded to Joseph's office."},
+        {"date": "2025-12-03 to 2025-12-04", "event": "Carrier requested roof damage photos to proceed; the contractor reported the roof had already been fully repaired and could not supply proof of the prior damage."},
+        {"date": "2025-12-11", "event": "The contractor confirmed the roofing job was already completed and paid on their end, and that the file had never actually been taken to appraisal."}
+      ],
+      "trelloItemsAdded": 10,
+      "noEmail": false
+    },
+    {
+      "cardId": "69bad1ae861bc5abe177df60",
+      "update": "This is an estimate-only engagement, not a formal appraisal invocation. The revised estimate (with the added gutter line item) was delivered on 3/19 and no reply has been received since.",
+      "needed": "Joseph sent the revised estimate with the added gutter detach-and-reset line on 3/19 and asked for confirmation or further revisions; please confirm it's good to go or flag any remaining changes.",
+      "asOf": "2026-03-19",
+      "timeline": [
+        {"date": "2026-03-16", "event": "Contractor requested a supplement estimate (not an appraisal) to support increasing the carrier's scope on an ACV-only policy, providing an EagleView report and the carrier's estimate."},
+        {"date": "2026-03-18", "event": "Supplement estimate sent back for review."},
+        {"date": "2026-03-18", "event": "Contractor requested adding detach and reset of the gutters to the estimate."},
+        {"date": "2026-03-19", "event": "Revised estimate sent with the added gutter line item; awaiting confirmation."}
+      ],
+      "trelloItemsAdded": 4,
+      "noEmail": false
+    },
+    {
+      "cardId": "69cbc29aa329a43beef4020f",
+      "update": "The requested estimate (revised to a premium shake-style shingle) was delivered on 4/1; no confirmation or further movement has been logged since, and the file has not yet moved to formal appraisal.",
+      "needed": "Joseph sent the revised estimate with the requested premium shake-style shingle on 4/1 and asked for confirmation; please confirm it's approved or flag any further changes needed before it moves to the carrier.",
+      "asOf": "2026-04-01",
+      "timeline": [
+        {"date": "2026-03-26", "event": "Contractor requested an estimate (roof, gutters, interior, O&P) to help get coverage opened with the carrier; noted the file is likely headed to appraisal."},
+        {"date": "2026-03-31", "event": "Estimate drafted and sent for review."},
+        {"date": "2026-04-01", "event": "Contractor asked to revise the estimate to a premium shake-style shingle instead of a 30-year architectural shingle."},
+        {"date": "2026-04-01", "event": "Revised estimate sent with the updated shingle type; awaiting confirmation."}
+      ],
+      "trelloItemsAdded": 4,
+      "noEmail": false
+    },
+    {
+      "cardId": "69ced71f6da9f7aa921818bc",
+      "update": "The requested estimate, including both copper awnings and a premium shake-style shingle, was delivered on 4/2; no confirmation or further movement has been logged since, and the file has not yet been onboarded to formal appraisal.",
+      "needed": "Joseph sent the estimate on 4/2 and asked for confirmation or revisions before it can move forward to opening coverage with the carrier; please confirm it's ready or flag any changes needed.",
+      "asOf": "2026-04-02",
+      "timeline": [
+        {"date": "2026-04-01", "event": "Contractor requested an estimate (roof, gutters, downspouts, both copper awnings, premium shake-style shingle) to get coverage opened before the file can be onboarded to appraisal."},
+        {"date": "2026-04-02", "event": "Estimate drafted and sent for review; awaiting confirmation."}
+      ],
+      "trelloItemsAdded": 2,
+      "noEmail": false
+    },
+    {
+      "cardId": "69d5d15fbea62e784269a9cb",
+      "update": "The estimate covering the roof plus additional gutter and fence damage was revised and delivered by 4/8; Joseph confirmed on 4/10 that both contractor contacts have the same copy and is waiting to hear if further adjustments are needed.",
+      "needed": "Joseph resent the revised estimate on 4/10 and asked whether any further adjustments are needed before it can move forward; please confirm it's ready or flag changes.",
+      "asOf": "2026-04-10",
+      "timeline": [
+        {"date": "2026-04-01", "event": "Contractor requested an estimate for gutter, downspout, and fence damage in addition to the roof, with measurement guidance for the carrier's request."},
+        {"date": "2026-04-01", "event": "Contractor shared damage photos to support the estimate."},
+        {"date": "2026-04-06", "event": "Contractor followed up twice asking for a status update on the estimate."},
+        {"date": "2026-04-07 to 2026-04-08", "event": "Estimate drafted and sent, with a revised version following shortly after."},
+        {"date": "2026-04-10", "event": "Joseph confirmed with both contractor contacts that the revised estimate had already been sent and asked if further adjustments were needed."}
+      ],
+      "trelloItemsAdded": 5,
+      "noEmail": false
+    },
+    {
+      "cardId": "69d641e75371ceeb1c665095",
+      "update": "Joseph delivered the initial supplement request on 4/8; the contractor confirmed it was ready to submit and asked whether more photos were needed before sending it in, which is still open.",
+      "needed": null,
+      "asOf": "2026-04-08",
+      "timeline": [
+        {"date": "2026-04-04", "event": "Contractor requested a full supplement covering roof, gutters, interior damage, and O&P, noting the carrier's prior payment was too low."},
+        {"date": "2026-04-08", "event": "Supplement estimate drafted and sent for review."},
+        {"date": "2026-04-08", "event": "Contractor confirmed this would be an initial supplement; Joseph confirmed that was correct."},
+        {"date": "2026-04-08", "event": "Contractor confirmed readiness to submit and asked whether any more photos were needed before sending it in."}
+      ],
+      "trelloItemsAdded": 4,
+      "noEmail": false
+    },
+    {
+      "cardId": "69d9f8eb48f73ede819925e1",
+      "update": "The requested supplement estimate was delivered on 4/11 and the contractor confirmed receipt with thanks; no further correspondence has followed, and the file has not yet moved to formal appraisal.",
+      "needed": null,
+      "asOf": "2026-04-11",
+      "timeline": [
+        {"date": "2026-04-09", "event": "Contractor requested a supplement estimate for a Kansas property, including O&P and accounting for a missing ice and water shield."},
+        {"date": "2026-04-11", "event": "Estimate drafted and sent for review."},
+        {"date": "2026-04-11", "event": "Contractor confirmed receipt with thanks."}
+      ],
+      "trelloItemsAdded": 3,
+      "noEmail": false
+    },
+    {
+      "cardId": "6a1de15ace6e2a60f2d99232",
+      "update": "The revised supplement estimate has been sent per the contractor's requested adjustments, but Joseph has repeatedly asked (6/5, 6/15, and again 6/18) whether it is acceptable and who is responsible for sending it to the carrier, with no answer received yet.",
+      "needed": "Joseph has asked twice, most recently followed up on 6/18, whether the revised supplement estimate is acceptable and who is responsible for sending it to the carrier — please confirm both so the file can move forward.",
+      "asOf": "2026-06-18",
+      "timeline": [
+        {"date": "2026-05-30", "event": "Contractor requested a supplement estimate to help the homeowner get a better ACV/upfront amount, given the client's repayment schedule."},
+        {"date": "2026-06-01", "event": "Supplement estimate drafted and sent for review."},
+        {"date": "2026-06-05", "event": "Joseph's office asked the contractor to confirm the estimate was acceptable and clarify who would send it to the carrier."},
+        {"date": "2026-06-08", "event": "After a follow-up, the contractor asked for some adjustments to be made to the estimate."},
+        {"date": "2026-06-09", "event": "Revised estimate sent per the contractor's requested adjustments."},
+        {"date": "2026-06-15", "event": "Joseph's office again asked the contractor to confirm the revised estimate was acceptable and clarify responsibility for sending it to the carrier."},
+        {"date": "2026-06-18", "event": "Joseph followed up again; no reply found since."}
+      ],
+      "trelloItemsAdded": 7,
+      "noEmail": false
+    },
+    {
+      "cardId": "6a170c81c3e52f899f072856",
+      "update": "Formal appraisal has been invoked with the carrier twice (most recently 5/27) but the carrier has not yet named its own appraiser or responded further; the file remains at intake awaiting a carrier response.",
+      "needed": null,
+      "asOf": "2026-05-27",
+      "timeline": [
+        {"date": "2025-11-13", "event": "Pre-appraisal settlement demand sent to the carrier before invoking formal appraisal."},
+        {"date": "2026-04-30", "event": "Formal appraisal invocation sent to the carrier, naming Joseph Dittman as the insured's appraiser."},
+        {"date": "2026-05-27", "event": "Appraisal invocation resent to the carrier; still awaiting the carrier's appraiser designation."}
+      ],
+      "trelloItemsAdded": 3,
+      "noEmail": false
+    },
+    {
+      "cardId": "6a187139a04dc4a7fa28c924",
+      "update": "Formal appraisal was invoked with the carrier back in May (and resent once); nearly 80 days later the carrier still had not named its own appraiser, and Joseph has been checking in with the referring adjuster's office to confirm the file is still active.",
+      "needed": null,
+      "asOf": "2026-07-28",
+      "timeline": [
+        {"date": "2026-05-06", "event": "Formal appraisal invoked with the carrier, naming Joseph Dittman as the insured's appraiser."},
+        {"date": "2026-05-28", "event": "Appraisal invocation resent to the carrier."},
+        {"date": "2026-07-20", "event": "Status check to the referring public adjuster's office confirmed the carrier still had not named an appraiser."},
+        {"date": "2026-07-28", "event": "Follow-up status check confirmed the carrier still had not named an appraiser."}
+      ],
+      "trelloItemsAdded": 4,
+      "noEmail": false
+    },
+    {
+      "cardId": "6a21caedf67d42993bfa17d3",
+      "update": "Formal appraisal was invoked with the carrier on 6/4; no response naming a carrier appraiser has been received since.",
+      "needed": null,
+      "asOf": "2026-06-04",
+      "timeline": [
+        {"date": "2026-06-04", "event": "Formal appraisal invoked with the carrier, naming Joseph Dittman as the insured's appraiser; receipt acknowledged the same day."}
+      ],
+      "trelloItemsAdded": 1,
+      "noEmail": false
+    },
+    {
+      "cardId": "6a1e1dcb4ad172b381395b8f",
+      "update": "The appraisal demand and estimate are in place and contractor-approved, but the carrier has not yet appointed its own appraiser, and none had made contact as of the last check on 7/7.",
+      "needed": null,
+      "asOf": "2026-07-07",
+      "timeline": [
+        {"date": "2026-06-01", "event": "Contractor referred the file, noting the carrier issued a partial approval but a full roof replacement is needed; damage documentation shared."},
+        {"date": "2026-06-02", "event": "Appraisal demand letter sent to the homeowner for review and signature."},
+        {"date": "2026-06-03", "event": "Estimate drafted and sent to the contractor for review."},
+        {"date": "2026-06-03", "event": "Contractor confirmed the estimate looked fine."},
+        {"date": "2026-07-07", "event": "Contractor followed up for a status update; Joseph confirmed the carrier had not yet appointed an appraiser and none had made contact."}
+      ],
+      "trelloItemsAdded": 5,
+      "noEmail": false
+    },
+    {
+      "cardId": "6a2c4aa8137380456988c831",
+      "update": "This file already went through one appraisal award cycle in the spring; a fresh appraisal invocation was then sent to the carrier in April and again in June, and the carrier confirmed in June it had received and routed the request but has not yet named an appraiser.",
+      "needed": null,
+      "asOf": "2026-06-12",
+      "timeline": [
+        {"date": "2026-01-19", "event": "Pre-appraisal settlement demand submitted to the carrier; the carrier acknowledged receipt and asked for supporting photos pending since December."},
+        {"date": "2026-03-29", "event": "A signed appraisal award and invoice were sent to the referring adjuster's office for processing."},
+        {"date": "2026-04-03", "event": "Executed award forwarded again; office confirmed it was noted on their records."},
+        {"date": "2026-04-10", "event": "A fresh appraisal invocation was sent to the carrier for this claim."},
+        {"date": "2026-06-12", "event": "Appraisal invocation resent to the carrier; the carrier confirmed it had received and routed the request but has not yet named an appraiser."}
+      ],
+      "trelloItemsAdded": 5,
+      "noEmail": false
+    },
+    {
+      "cardId": "6a317497fa833448ea1e29c6",
+      "update": "Formal appraisal has been invoked with the carrier twice (June and July); no carrier appraiser has been named yet.",
+      "needed": null,
+      "asOf": "2026-07-27",
+      "timeline": [
+        {"date": "2026-06-16", "event": "Formal appraisal invoked with the carrier, naming Joseph Dittman as the insured's appraiser."},
+        {"date": "2026-07-27", "event": "Appraisal invocation resent to the carrier; still awaiting a named carrier appraiser."}
+      ],
+      "trelloItemsAdded": 2,
+      "noEmail": false
+    },
+    {
+      "cardId": "6a3aaa0101533bd73328fb95",
+      "update": "Formal appraisal was invoked with the carrier back in early June; as of the most recent check (6/23), the carrier still had not named an appraiser and the appraisal process had not begun.",
+      "needed": null,
+      "asOf": "2026-06-23",
+      "timeline": [
+        {"date": "2026-06-04", "event": "Formal appraisal invoked with the carrier, naming Joseph Dittman as the insured's appraiser."},
+        {"date": "2026-06-22 to 2026-06-23", "event": "The referring adjuster's office checked whether the client had been onboarded and requested any vendor/mitigation/tarping invoices and photos on file."},
+        {"date": "2026-06-23", "event": "Joseph's office confirmed the appraisal process had not started yet, as the carrier had not named an appraiser nor made contact."}
+      ],
+      "trelloItemsAdded": 3,
+      "noEmail": false
+    },
+    {
+      "cardId": "6a3998f421f504db032cadef",
+      "update": "The file is still waiting on additional intake documents (EagleView report, damage photos, damage description, homeowner contact info) that the contractor said were sent on 6/22 but never arrived; Joseph's office asked for a resend on 6/24.",
+      "needed": "The EagleView report/roof sketch, damage photos, a brief damage description, and the homeowner's contact information were requested on 6/22 and reported as sent, but only the denial letter came through — please resend the rest so the appraisal demand can go out.",
+      "asOf": "2026-06-24",
+      "timeline": [
+        {"date": "2026-06-20", "event": "Contractor forwarded the homeowner's partial denial letter from the carrier."},
+        {"date": "2026-06-22", "event": "Joseph's office requested additional intake items: EagleView report/roof sketch, damage photos, a brief damage description, and the homeowner's email and phone number to start the appraisal demand."},
+        {"date": "2026-06-22", "event": "Contractor said the requested items were sent, tagged with the claim number."},
+        {"date": "2026-06-24", "event": "Joseph's office noted only the denial letter had actually arrived and asked for the rest to be resent."}
+      ],
+      "trelloItemsAdded": 4,
+      "noEmail": false
+    },
+    {
+      "cardId": "6a3d3846ff9fa998dc74b9ea",
+      "update": "Formal appraisal was invoked with the carrier on 6/25; no response naming a carrier appraiser has been received since.",
+      "needed": null,
+      "asOf": "2026-06-25",
+      "timeline": [
+        {"date": "2026-06-25", "event": "Formal appraisal invoked with the carrier, naming Joseph Dittman as the insured's appraiser; receipt acknowledged the same day."}
+      ],
+      "trelloItemsAdded": 1,
+      "noEmail": false
+    },
+    {
+      "cardId": "6a3e9ceadb17387f6b18c9e9",
+      "update": "Formal appraisal was invoked with the carrier on 6/26 along with supporting documents; no carrier response naming an appraiser has followed.",
+      "needed": null,
+      "asOf": "2026-06-26",
+      "timeline": [
+        {"date": "2026-06-26", "event": "Formal appraisal invoked with the carrier, naming Joseph Dittman as the insured's appraiser."},
+        {"date": "2026-06-26", "event": "Additional supporting files sent to the carrier; receipt acknowledged the same day."}
+      ],
+      "trelloItemsAdded": 2,
+      "noEmail": false
+    },
+    {
+      "cardId": "6a4691255a06c6b045c9ca71",
+      "update": "Formal appraisal was invoked with the carrier on 7/1; no response naming a carrier appraiser has been received since.",
+      "needed": null,
+      "asOf": "2026-07-02",
+      "timeline": [
+        {"date": "2026-07-01", "event": "Formal appraisal invoked with the carrier, naming Joseph Dittman as the insured's appraiser."},
+        {"date": "2026-07-02", "event": "Joseph's office acknowledged receipt; still awaiting a named carrier appraiser."}
+      ],
+      "trelloItemsAdded": 2,
+      "noEmail": false
+    },
+    {
+      "cardId": "6a56dad3dbed9e56bd00dcf1",
+      "update": "Formal appraisal was invoked with the carrier on 7/14; no response naming a carrier appraiser has been received since.",
+      "needed": null,
+      "asOf": "2026-07-15",
+      "timeline": [
+        {"date": "2026-07-14", "event": "Formal appraisal invoked with the carrier, naming Joseph Dittman as the insured's appraiser."},
+        {"date": "2026-07-15", "event": "Joseph's office acknowledged receipt; still awaiting a named carrier appraiser."}
+      ],
+      "trelloItemsAdded": 2,
+      "noEmail": false
+    },
+    {
+      "cardId": "6a62553c659c2026d9605141",
+      "update": "Formal appraisal was invoked with the carrier on 7/23; no response naming a carrier appraiser has been received since.",
+      "needed": null,
+      "asOf": "2026-07-23",
+      "timeline": [
+        {"date": "2026-07-23", "event": "Pre-appraisal settlement demand and formal appraisal invocation sent to the carrier together."},
+        {"date": "2026-07-23", "event": "Joseph's office acknowledged receipt; still awaiting a named carrier appraiser."}
+      ],
+      "trelloItemsAdded": 2,
+      "noEmail": false
+    },
+    {
+      "cardId": "6a6bd7e9315695d6f0443be1",
+      "update": "Formal appraisal was invoked with the carrier on 7/29; the carrier confirmed receipt and said it was forwarding the claim for further handling, but no carrier appraiser has been named yet.",
+      "needed": null,
+      "asOf": "2026-08-01",
+      "timeline": [
+        {"date": "2026-07-29", "event": "Formal appraisal invoked with the carrier, naming Joseph Dittman as the insured's appraiser."},
+        {"date": "2026-07-30", "event": "Joseph's office acknowledged receipt."},
+        {"date": "2026-08-01", "event": "Carrier confirmed receipt of the appraisal demand and said the claim was being forwarded for further handling."}
+      ],
+      "trelloItemsAdded": 3,
+      "noEmail": false
+    },
+    {
+      "cardId": "6a711111660995dbc05640f7",
+      "update": "Formal appraisal was invoked with the carrier on 8/3; no response naming a carrier appraiser has been received since.",
+      "needed": null,
+      "asOf": "2026-08-03",
+      "timeline": [
+        {"date": "2026-08-03", "event": "Formal appraisal invoked with the carrier, naming Joseph Dittman as the insured's appraiser."},
+        {"date": "2026-08-03", "event": "Joseph's office acknowledged receipt; still awaiting a named carrier appraiser."}
+      ],
+      "trelloItemsAdded": 2,
+      "noEmail": false
+    }
+  ],
+  "withEmail": 26,
+  "noEmail": 0,
+  "flaggedNeeded": 8
+}

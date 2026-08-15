@@ -203,6 +203,41 @@ if os.path.exists(_lbl):
             APPROVED.add(canon(_line.strip().strip('|').split('|')[0].strip()))
 
 
+BANNED = [
+    (re.compile(r'\bDOA\b'), 'the signed agreement'),
+    (re.compile(r'\bOA\b'), "the carrier's appraiser"),
+    (re.compile(r'\bSOU\b'), 'the scope of work'),
+    (re.compile(r'\bCN\b'), 'claim'),
+    (re.compile(r'\bff\b'), 'follow up'),
+    (re.compile(r'\$\s?[\d,]+(?:\.\d{2})?'), '[amount withheld]'),
+    (re.compile(r'\b(Erwin|Imee|Geralden|Sheila|Kristelle|Stephanie|Jia Ever|Mark Tirones)\b'),
+     'our office'),
+    (re.compile(r'\b(debt collections?|past due|charge ?backs?)\b', re.I), 'the open invoice'),
+    (re.compile(r'\(\d{3}\)\s?\d{3}-\d{4}'), ''),
+    (re.compile(r'[\w.+-]+@[\w.-]+\.[a-z]{2,}'), ''),
+]
+
+
+def scrub(text):
+    """Last line of defence before anything reaches a client page.
+
+    The enrichment agents are told never to emit internal shorthand, dollar
+    figures, staff names or homeowner contact details -- but across hundreds of
+    files one will slip, and it did. Rendering is the only place every string
+    passes through, so it enforces the rule rather than trusting the writer.
+    """
+    if not text:
+        return text
+    for pat, repl in BANNED:
+        text = pat.sub(repl, text)
+    # Expansions like OA -> "the carrier's appraiser" collide with an article already
+    # in the sentence ("the OA" -> "the the carrier's appraiser"). Collapse those.
+    text = re.sub(r'\b(the|a|an)\s+the\b', 'the', text, flags=re.I)
+    text = re.sub(r'\bthe\s+the\b', 'the', text, flags=re.I)
+    text = re.sub(r'\s+([,.;:])', r'\1', text)
+    return re.sub(r'\s{2,}', ' ', text).strip(' ,;')
+
+
 ENRICH = {}
 for _f in sorted(glob.glob(os.path.join(os.path.dirname(__file__), '..', 'work', 'updates', 'out*.json'))):
     try:
@@ -248,14 +283,16 @@ def main(csv_path, outdir='work/pages'):
                 'addr': addr, 'claim': claim,
                 'activity': (r.get('Last Activity Date') or '')[:10],
                 'stage': st,
-                'timeline': en.get('timeline') or [],
-                'ask': en.get('needed') or ('Need from you: approval of the estimate, or a signed '
-                                            'agreement from the homeowner, before this can move.'),
+                'timeline': [{'date': e.get('date', ''), 'event': scrub(e.get('event', ''))}
+                             for e in (en.get('timeline') or [])],
+                'ask': scrub(en.get('needed')) or ('Need from you: approval of the estimate, or a '
+                                                   'signed agreement from the homeowner, before this '
+                                                   'can move.'),
                 'needs_you': bool(en.get('needed')) or st['order'] == 3,
                 # Prefer the email-derived status; fall back to the stage blurb.
                 # The trailing [YYYY-MM-DD] card notes are never used -- they are
                 # internal (staff names, dollar figures, carrier strategy).
-                'what': en.get('update') or st['blurb'],
+                'what': scrub(en.get('update')) or st['blurb'],
             })
 
     manifest = []
@@ -278,11 +315,13 @@ def main(csv_path, outdir='work/pages'):
             combuckets[lab].append({
                 'insured': clean_insured(name, desc), 'addr': addr, 'claim': claim,
                 'activity': (r.get('Last Activity Date') or '')[:10], 'stage': st,
-                'timeline': en.get('timeline') or [],
-                'ask': en.get('needed') or ('Need from you: approval of the estimate, or a signed '
-                                            'agreement from the homeowner, before this can move.'),
+                'timeline': [{'date': e.get('date', ''), 'event': scrub(e.get('event', ''))}
+                             for e in (en.get('timeline') or [])],
+                'ask': scrub(en.get('needed')) or ('Need from you: approval of the estimate, or a '
+                                                   'signed agreement from the homeowner, before this '
+                                                   'can move.'),
                 'needs_you': bool(en.get('needed')) or st['order'] == 3,
-                'what': en.get('update') or st['blurb'],
+                'what': scrub(en.get('update')) or st['blurb'],
             })
     for lab, files in combuckets.items():
         cfg = COMPANY_LABELS[lab]

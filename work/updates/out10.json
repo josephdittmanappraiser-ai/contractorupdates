@@ -1,0 +1,380 @@
+{
+ "batch": 10,
+ "results": [
+  {
+   "cardId": "6a5abd8d865a34fda9f63440",
+   "update": "Allstate rejected the initial appraisal demand and ran a reinspection; the carrier's adjuster then flagged an error in the revised estimate and sent it back for review, promising a callback. The file is waiting on the carrier's corrected estimate.",
+   "needed": null,
+   "asOf": "2026-08-06",
+   "timeline": [
+    {"date": "2026-07-17", "event": "Contractor referred the file for appraisal and described the damage (roof, gutters, metal cover, A/C unit, garage, siding)."},
+    {"date": "2026-07-17", "event": "Appraisal demand letter sent to the homeowner."},
+    {"date": "2026-07-23", "event": "Contractor sent photos of the roof damage."},
+    {"date": "2026-07-26", "event": "Draft demand package sent to the contractor for review, and approved."},
+    {"date": "2026-07-27", "event": "Appraisal demand sent to the carrier (Allstate), claim 0830970018."},
+    {"date": "2026-07-28", "event": "Homeowner confirmed receipt of the demand."},
+    {"date": "2026-07-28", "event": "Carrier rejected the demand, citing a single inspection and no code coverage, and requested a reinspection."},
+    {"date": "2026-07-29", "event": "Contractor's contact info was forwarded to the carrier to coordinate the reinspection."},
+    {"date": "2026-08-05", "event": "Carrier issued a revised estimate after the reinspection; contractor flagged discrepancies (fence added, metal cover missing)."},
+    {"date": "2026-08-06", "event": "Carrier's adjuster said a line item was inadvertently deleted, sent the estimate back for review, and promised a callback; contractor confirmed nothing received yet."}
+   ],
+   "trelloItemsAdded": 11,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a56d721d2cb603237a60fc8",
+   "update": "The carrier (AAA) sent the homeowner a direct payment on the claim, and the file is now waiting to hear whether the homeowner wants to settle on that payment or continue with the appraisal.",
+   "needed": null,
+   "asOf": "2026-08-13",
+   "timeline": [
+    {"date": "2026-07-14", "event": "Contractor referred the file and sent a demand letter draft, flagging items to increase (roof, gutters, fence, garage doors, window screens, overhead and profit); appraisal to wait on an EagleView report."},
+    {"date": "2026-07-27", "event": "Estimate sent to the contractor for approval; contractor approved moving to the demand letter."},
+    {"date": "2026-07-28", "event": "Revised demand package sent to the contractor for review; contractor confirmed it looked good."},
+    {"date": "2026-07-28", "event": "Appraisal demand sent to the carrier (AAA), claim 017901269, with the homeowner copied."},
+    {"date": "2026-08-11", "event": "Followed up with the homeowner; homeowner confirmed receiving a response from the carrier and was asked to share it for review."},
+    {"date": "2026-08-13", "event": "Followed up again asking the homeowner to share the carrier's response."},
+    {"date": "2026-08-13", "event": "Homeowner forwarded notice that the carrier had made a direct payment to them; homeowner was asked whether they intend to settle directly or continue with the appraisal."}
+   ],
+   "trelloItemsAdded": 7,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a5fa7668aee2e634b54488f",
+   "update": "The demand was sent to Safeco two weeks ago and the carrier confirmed receipt and promised the homeowner an update; that update has not been confirmed yet, so the office followed up with both the homeowner and the contractor.",
+   "needed": null,
+   "asOf": "2026-08-11",
+   "timeline": [
+    {"date": "2026-07-20", "event": "Contractor referred the file for appraisal with a roof estimate."},
+    {"date": "2026-07-22", "event": "Draft demand package sent to the contractor for review; contractor approved it."},
+    {"date": "2026-07-22", "event": "Contractor asked to help get the homeowner's signature on the demand letter; contractor agreed to reach out."},
+    {"date": "2026-07-28", "event": "Appraisal demand sent to the carrier (Safeco), claim 060914168."},
+    {"date": "2026-08-11", "event": "Followed up with the homeowner; carrier had confirmed receipt of the files two weeks earlier and promised the homeowner an update."},
+    {"date": "2026-08-11", "event": "Contractor asked for a status update; office explained the carrier won't disclose details by phone and that a follow-up was sent to the homeowner."}
+   ],
+   "trelloItemsAdded": 6,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a63c4350fa816aab4ffafb8",
+   "update": "The demand was sent to Country Financial two weeks ago, but the assigned adjuster has not picked up or confirmed receipt despite repeated calls, so the office escalated to the adjuster's supervisor.",
+   "needed": null,
+   "asOf": "2026-08-12",
+   "timeline": [
+    {"date": "2026-07-29", "event": "Appraisal demand sent to the carrier (Country Financial), claim 6001332852, with the homeowner and contractor copied."},
+    {"date": "2026-08-03", "event": "Followed up with the adjuster to confirm receipt; calls went to voicemail."},
+    {"date": "2026-08-05", "event": "Checked with the homeowner whether anyone had reached out; homeowner confirmed no contact and no files received."},
+    {"date": "2026-08-10", "event": "Followed up again with the adjuster, noting the homeowner is requesting a status update."},
+    {"date": "2026-08-10", "event": "Contractor supplied the adjuster's supervisor's contact info after being unable to reach the adjuster."},
+    {"date": "2026-08-12", "event": "Followed up with both the adjuster and supervisor again to confirm receipt and status; still no response."}
+   ],
+   "trelloItemsAdded": 6,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a637d5922bae829574ab521",
+   "update": "Allied Trust reassigned the claim to a new claims manager, who has acknowledged receipt of the appraisal demand and the disputed estimate from the contractor and is reviewing before following up.",
+   "needed": null,
+   "asOf": "2026-08-05",
+   "timeline": [
+    {"date": "2026-07-23", "event": "Contractor referred the file, noting the claim was already approved at ACV and asking about increasing funds; described damage to roof, gutters, fence, garage doors and window screens."},
+    {"date": "2026-07-27", "event": "Draft demand package sent to the contractor for review; contractor approved it."},
+    {"date": "2026-07-27", "event": "Contractor asked to help get the homeowner's signature on the demand letter."},
+    {"date": "2026-08-04", "event": "Appraisal demand sent to the carrier (Allied Trust), claim 2620065, with the homeowner copied."},
+    {"date": "2026-08-04", "event": "Contractor asked for a status update; office confirmed the files had been sent to the carrier."},
+    {"date": "2026-08-05", "event": "Carrier reassigned the claim to a new claims manager, who acknowledged receipt of the demand and disputed estimate and said they would follow up."}
+   ],
+   "trelloItemsAdded": 6,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a5ebbe8d413f95bf9cdafb7",
+   "update": "The carrier (Foremost) confirmed receipt of the demand on a direct call, and today the homeowner forwarded a document received from the carrier shortly afterward that the office has not yet reviewed.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-07-17", "event": "Contractor referred the file for appraisal with the homeowner's contact details."},
+    {"date": "2026-07-17", "event": "Contractor shared damage photos."},
+    {"date": "2026-07-21", "event": "Appraisal demand letter sent to the homeowner."},
+    {"date": "2026-07-22", "event": "Draft demand package sent to the contractor for review; contractor approved it."},
+    {"date": "2026-07-22", "event": "Contractor asked to help get the homeowner's signature on the demand letter."},
+    {"date": "2026-08-04", "event": "Appraisal demand sent to the carrier (Foremost), claim 5043629174-1-2."},
+    {"date": "2026-08-10", "event": "Followed up with the homeowner after the adjuster stopped answering calls; homeowner said no one had contacted them."},
+    {"date": "2026-08-12", "event": "Spoke with the adjuster directly, who confirmed receipt of the files."},
+    {"date": "2026-08-15", "event": "Homeowner forwarded a document received from the carrier shortly after that call, for review."}
+   ],
+   "trelloItemsAdded": 9,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a6a7921b317e23973a9cdfe",
+   "update": "This is one of seven rental properties for the same homeowner being appraised together; Liberty Mutual has acknowledged receipt of this property's demand (claim 061798958) and is reviewing the file and policy before giving next steps.",
+   "needed": null,
+   "asOf": "2026-08-10",
+   "timeline": [
+    {"date": "2026-07-27", "event": "Contractor referred this property (one of seven for the same landlord) for appraisal, describing damage to roof, gutters, siding, windows, chimney, garage/trim, and A/C unit."},
+    {"date": "2026-07-29", "event": "Appraisal demand letter sent to the homeowner as part of the batch of seven properties."},
+    {"date": "2026-08-05", "event": "Draft demand package for this property sent to the contractor for review; contractor approved it."},
+    {"date": "2026-08-05", "event": "Appraisal demand sent to the carrier (Liberty Mutual), claim 061798958."},
+    {"date": "2026-08-10", "event": "Carrier acknowledged receipt of the demand and said it is reviewing the file and policy, with next steps to follow."}
+   ],
+   "trelloItemsAdded": 5,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a6a769bba35839cc23da7f6",
+   "update": "This is one of seven rental properties for the same homeowner being appraised together; Liberty Mutual placed this property's demand (claim 061798649) in abeyance citing a policy exclusion, so a revised estimate limited to the covered scope of direct physical damage was sent back to the carrier today.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-07-27", "event": "Contractor referred this property (one of seven for the same landlord) for appraisal, describing damage to roof, windows, gutters, porch staining, chimney, garage, wood, and A/C unit."},
+    {"date": "2026-07-29", "event": "Appraisal demand letter sent to the homeowner as part of the batch of seven properties."},
+    {"date": "2026-08-05", "event": "Draft demand package for this property sent to the contractor for review; contractor approved it."},
+    {"date": "2026-08-05", "event": "Appraisal demand sent to the carrier (Liberty Mutual), claim 061798649."},
+    {"date": "2026-08-07", "event": "Carrier confirmed receipt of the demand, said it was under review with follow-up expected the next week, and asked for the roof measurement provider's contact info."},
+    {"date": "2026-08-12", "event": "Carrier placed the demand in abeyance, citing a policy exclusion of causation/coverage disputes from appraisal, but invited supporting documentation on the disputed cost of covered damages."},
+    {"date": "2026-08-15", "event": "Revised estimate reflecting the covered scope of direct physical damage sent to the carrier for review."}
+   ],
+   "trelloItemsAdded": 7,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a6a85e2f0bc15b089b1001c",
+   "update": "The demand was sent to USAA on 8/7, but the assigned adjuster has not answered calls or contacted the homeowner as of 8/13, despite the homeowner having signed the reappraisal demand letter.",
+   "needed": null,
+   "asOf": "2026-08-13",
+   "timeline": [
+    {"date": "2026-07-29", "event": "Contractor referred the file with scope of work (roof, gutters, pergola, deck) and asked to add overhead and profit."},
+    {"date": "2026-07-29", "event": "Appraisal demand letter sent to the homeowner; contractor asked to share the EagleView report."},
+    {"date": "2026-07-31", "event": "Contractor provided the EagleView report."},
+    {"date": "2026-08-07", "event": "Draft demand package sent to the contractor for review; contractor asked to add gutters, then approved it."},
+    {"date": "2026-08-07", "event": "Appraisal demand sent to the carrier (USAA), claim 024204333, with the homeowner copied."},
+    {"date": "2026-08-13", "event": "Followed up with the homeowner after the adjuster stopped answering calls; homeowner confirmed no contact from the carrier or the assigned adjuster since signing."}
+   ],
+   "trelloItemsAdded": 6,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a557535ac17ff1b5bdc07d9",
+   "update": "Allstate denied the appraisal request as premature and is scheduling a second inspection with the homeowner; the available inspection dates were forwarded to the contractor.",
+   "needed": null,
+   "asOf": "2026-08-13",
+   "timeline": [
+    {"date": "2026-07-16", "event": "Contractor inspected the roof, reported storm/hail damage and an active interior leak, and requested a reinspection and consideration for a full roof replacement."},
+    {"date": "2026-07-21", "event": "Draft demand package sent to the contractor for review."},
+    {"date": "2026-07-28", "event": "Followed up with the homeowner for a signature on the demand letter; homeowner asked it be resent to her personal email, and it was resent."},
+    {"date": "2026-07-30", "event": "Homeowner signed the demand letter; contractor asked to review the estimate."},
+    {"date": "2026-08-05", "event": "Contractor confirmed the estimate should reflect a full roof replacement rather than spot repairs, citing hail damage and interior leaks."},
+    {"date": "2026-08-07", "event": "Appraisal demand sent to the carrier (Allstate), claim 0828700435, with the homeowner and contractor copied."},
+    {"date": "2026-08-09", "event": "Carrier acknowledged the demand was submitted to its appraisal team for review."},
+    {"date": "2026-08-13", "event": "Carrier denied the appraisal request as premature and said a second inspection would be scheduled, offering available inspection dates."},
+    {"date": "2026-08-13", "event": "The carrier's inspection schedule was forwarded to the contractor."}
+   ],
+   "trelloItemsAdded": 9,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a6a9e6c9835b80574dafa85",
+   "update": "MDOW initially cited a prior SIU investigation and denied the claim for pre-existing damage, but after confirming the homeowner still wants to proceed, the office asked the carrier to name its appraiser; awaiting that response.",
+   "needed": null,
+   "asOf": "2026-08-07",
+   "timeline": [
+    {"date": "2026-07-29", "event": "Contractor referred the file, asked for help getting the claim approved, and described the damage (roof, gutters, downspouts, stained fence)."},
+    {"date": "2026-07-29", "event": "Appraisal demand letter sent to the homeowner."},
+    {"date": "2026-08-06", "event": "Draft demand package sent to the contractor for review; contractor approved it."},
+    {"date": "2026-08-07", "event": "Appraisal demand sent to the carrier (MDOW Insurance), claim CMDH42101032, with the homeowner and contractor copied."},
+    {"date": "2026-08-07", "event": "Carrier cited a prior SIU investigation and said the claim determination was based on pre-existing damage, and asked whether to proceed with the appraisal."},
+    {"date": "2026-08-07", "event": "Confirmed the homeowner wants to proceed with the appraisal and asked the carrier to name its appraiser, resending the files."}
+   ],
+   "trelloItemsAdded": 6,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a693f92ba536d5f0d846583",
+   "update": "The appraisal demand was sent to Allstate after the homeowner finally signed the contingency and gave the go-ahead; the file now awaits the carrier's response.",
+   "needed": null,
+   "asOf": "2026-08-10",
+   "timeline": [
+    {"date": "2026-07-28", "event": "Contractor referred the file, sending inspection, weather, and roof reports plus the carrier's partial approval, and asked to send the demand letter to the homeowner."},
+    {"date": "2026-07-28", "event": "Appraisal demand letter sent to the homeowner; contractor described the damage (gutters/downspouts, siding chipping, hail damage to shingles, an active leak)."},
+    {"date": "2026-07-30", "event": "Contractor followed up requesting the estimate to show the homeowner for sign-off."},
+    {"date": "2026-07-31", "event": "Draft demand package sent to the contractor for review."},
+    {"date": "2026-08-08", "event": "Contractor confirmed the homeowner signed the contingency and gave the okay to proceed."},
+    {"date": "2026-08-10", "event": "Appraisal demand sent to the carrier (Allstate), claim 0831267059, with the homeowner and contractor copied."}
+   ],
+   "trelloItemsAdded": 6,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a63986918ad08d13b8f88cd",
+   "update": "The appraisal demand was sent to the carrier after the contractor corrected the fence replacement scope in the estimate; the file now awaits the carrier's response.",
+   "needed": null,
+   "asOf": "2026-08-12",
+   "timeline": [
+    {"date": "2026-07-24", "event": "Contractor referred the file, noting the carrier denied the roof claim and that damage items were missing (hail-damaged railing paint, an obsolete plastic fence that can't be repaired)."},
+    {"date": "2026-07-24", "event": "Appraisal demand letter sent to the homeowner."},
+    {"date": "2026-07-27", "event": "Draft demand package sent to the contractor for review."},
+    {"date": "2026-08-03", "event": "Contractor provided a fence replacement estimate."},
+    {"date": "2026-08-11", "event": "Contractor flagged the fence line item was still incorrect and sent the correct quote for a full 800-foot fence replacement."},
+    {"date": "2026-08-11", "event": "Revised draft sent to the contractor; contractor approved it."},
+    {"date": "2026-08-12", "event": "Appraisal demand sent to the carrier."}
+   ],
+   "trelloItemsAdded": 7,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a73b5008c66474f04f99229",
+   "update": "The appraisal demand was sent to AAA after the homeowner signed; the file now awaits the carrier's response.",
+   "needed": null,
+   "asOf": "2026-08-12",
+   "timeline": [
+    {"date": "2026-08-05", "event": "Contractor referred the file, sending the denial letter, hail report, Roofr report, and inspection report."},
+    {"date": "2026-08-05", "event": "Contractor provided the damage description (hail damage to the roof and exterior, missing shingles) and homeowner contact info."},
+    {"date": "2026-08-11", "event": "Draft demand package sent to the contractor for review; contractor approved it."},
+    {"date": "2026-08-11", "event": "Followed up asking the contractor to help get the homeowner's signature; contractor spoke with the homeowner."},
+    {"date": "2026-08-12", "event": "Appraisal demand sent to the carrier (AAA), claim 017936054, with the homeowner and contractor copied."}
+   ],
+   "trelloItemsAdded": 5,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a7cdfe5b7eda5a149de6982",
+   "update": "The appraisal demand and photos were sent to Allstate after the homeowner signed and the contractor's reports were incorporated; the file now awaits the carrier's response.",
+   "needed": null,
+   "asOf": "2026-08-13",
+   "timeline": [
+    {"date": "2026-08-12", "event": "Contractor forwarded the homeowner's Allstate denial letter and estimate and confirmed the homeowner signed the contingency agreement, asking to push to appraisal."},
+    {"date": "2026-08-12", "event": "Contractor sent the roof report, hail report, and inspection photos."},
+    {"date": "2026-08-12", "event": "Homeowner signed the appraisal demand letter."},
+    {"date": "2026-08-13", "event": "Draft demand package sent to the contractor for review; contractor approved it."},
+    {"date": "2026-08-13", "event": "Appraisal demand and photos sent to the carrier (Allstate), claim 0828640730, with the homeowner and contractor copied."}
+   ],
+   "trelloItemsAdded": 5,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a710d4f5f5dc30479858bf6",
+   "update": "The appraisal demand was sent to Allstate after the contractor confirmed the homeowner had signed the contingency agreement; the file now awaits the carrier's response.",
+   "needed": null,
+   "asOf": "2026-08-13",
+   "timeline": [
+    {"date": "2026-08-02", "event": "Contractor referred the file, noting Allstate denied the claim (0833122229) and describing damage (roof, gutters, fence)."},
+    {"date": "2026-08-03", "event": "Appraisal demand letter sent to the homeowner."},
+    {"date": "2026-08-03", "event": "Contractor confirmed the homeowner signed the contingency agreement and forwarded the claim information."},
+    {"date": "2026-08-10", "event": "Contractor forwarded correspondence the homeowner received from Allstate."},
+    {"date": "2026-08-13", "event": "Draft demand package sent to the contractor for review; contractor approved it."},
+    {"date": "2026-08-13", "event": "Appraisal demand sent to the carrier (Allstate), claim 0833122229, with the homeowner and contractor copied."}
+   ],
+   "trelloItemsAdded": 6,
+   "noEmail": false
+  },
+  {
+   "cardId": "69dd1eb132d8f32032cea361",
+   "update": "Allstate ultimately rejected the appraisal demand outright, saying there was no covered loss for appraisal to resolve; the file has since moved to referred-out status.",
+   "needed": null,
+   "asOf": "2026-07-20",
+   "timeline": [
+    {"date": "2026-04-11", "event": "Contractor referred the file for appraisal, sending the carrier's denial paperwork and estimate."},
+    {"date": "2026-04-13", "event": "Followed up requesting the EagleView report, photos, damage description, and homeowner contact info."},
+    {"date": "2026-04-18", "event": "Draft demand package sent to the contractor for review; contractor approved it."},
+    {"date": "2026-04-22", "event": "Homeowner signed and the appraisal demand was sent to the carrier (Allstate), claim 0822421608."},
+    {"date": "2026-04-22", "event": "Carrier acknowledged receipt of the demand."},
+    {"date": "2026-05-15", "event": "Contractor forwarded the carrier's denial; office raised whether to refer the file to a public adjuster."},
+    {"date": "2026-07-20", "event": "Followed up with the carrier on the overdue appraiser naming; carrier confirmed the claim was rejected outright because there was no covered loss, so appraisal does not apply."}
+   ],
+   "trelloItemsAdded": 7,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a0cb3db002f595233d35cbb",
+   "update": "Nationwide refused to proceed with appraisal, citing a Limited Roof Endorsement it says already covers the scope of loss, and reiterated that refusal even after the office insisted the revised estimate was still insufficient; the file has since moved to referred-out status.",
+   "needed": null,
+   "asOf": "2026-06-22",
+   "timeline": [
+    {"date": "2026-05-19", "event": "Contractor referred the file, describing damage the carrier missed (roof, gutters, downspouts, soft metals, garage door, swing set)."},
+    {"date": "2026-06-06", "event": "Contractor sent the EagleView report and a full damage list (roof, soft metals, gutters/downspouts, deck, window screens, fascia, window trim)."},
+    {"date": "2026-06-09", "event": "Contractor sent photos."},
+    {"date": "2026-06-10", "event": "Draft demand package sent to the contractor for review; contractor approved it, and the appraisal demand was sent to the carrier (Nationwide), claim 075512-GR."},
+    {"date": "2026-06-12", "event": "Carrier acknowledged receipt and said the demand was under review."},
+    {"date": "2026-06-16", "event": "Carrier updated its coverage position (full roof replacement, deck staining, gutter priming/painting) under the policy's Limited Roof Endorsement, issued payment, and declined to proceed with appraisal."},
+    {"date": "2026-06-19", "event": "Insisted on proceeding with the appraisal, saying the carrier's revised scope was still insufficient, and resent the files."},
+    {"date": "2026-06-22", "event": "Carrier reiterated it will not agree to appraisal, saying its coverage position under the Limited Roof Endorsement aligns with the scope of loss."}
+   ],
+   "trelloItemsAdded": 8,
+   "noEmail": false
+  },
+  {
+   "cardId": "69dd57c31e122f8d50becbe2",
+   "update": "The carrier's denial letter surfaced only after being stuck in the homeowner's spam folder; the office is now reviewing it, and the file has moved to referred-out status.",
+   "needed": null,
+   "asOf": "2026-06-03",
+   "timeline": [
+    {"date": "2026-04-11", "event": "Contractor referred the file for appraisal."},
+    {"date": "2026-04-16", "event": "Contractor sent the claim information; homeowner had the carrier's denial letter, and an EagleView report was ordered."},
+    {"date": "2026-04-21", "event": "Draft demand package sent to the contractor for review; contractor flagged it as an ACV policy with a large deductible and asked to maximize the claim."},
+    {"date": "2026-04-23", "event": "Revised draft sent to the contractor; contractor approved it."},
+    {"date": "2026-04-22", "event": "Followed up repeatedly with the homeowner for a signature on the demand letter."},
+    {"date": "2026-05-07", "event": "Appraisal demand sent to the carrier (Progressive/ASI), claim 1599154-260125, with the homeowner and contractor copied."},
+    {"date": "2026-05-14", "event": "Carrier sent the homeowner a reassignment status letter (new adjuster assigned)."},
+    {"date": "2026-05-22", "event": "Carrier sent the homeowner an appraisal denial response status letter."},
+    {"date": "2026-06-03", "event": "Homeowner's denial letter surfaced after being caught in spam and was forwarded by the contractor; office had already asked the homeowner directly for any carrier updates."}
+   ],
+   "trelloItemsAdded": 9,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a0cb09929eb20e922423007",
+   "update": "Allstate declined to agree to appraisal and instead ordered an independent engineering inspection of the property; the file has since moved to referred-out status.",
+   "needed": null,
+   "asOf": "2026-06-17",
+   "timeline": [
+    {"date": "2026-05-21", "event": "Appraisal demand sent to the carrier (Allstate), claim 0824149462, with the homeowner and contractor copied."},
+    {"date": "2026-06-12", "event": "Followed up with the homeowner; homeowner reported the carrier refused to agree to appraisal."},
+    {"date": "2026-06-12", "event": "Contractor noted the carrier wanted to send an engineer; office asked for the inspection date."},
+    {"date": "2026-06-17", "event": "Carrier assigned an engineer liaison and requested an independent professional engineering inspection of the property."},
+    {"date": "2026-06-17", "event": "Carrier agreed to a reinspection; the file moved to the attorney-referral track."}
+   ],
+   "trelloItemsAdded": 5,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a3d88d4f759b6c42bddbba7",
+   "update": "The office referred the file to attorney Kevin Weisser at Wek Law, who has confirmed receipt and scheduled a call with the homeowner, while the estimate draft was separately finalized with the contractor.",
+   "needed": null,
+   "asOf": "2026-07-14",
+   "timeline": [
+    {"date": "2026-06-25", "event": "Contractor sent the carrier's (American Family) denial letter and estimate, plus photos of the property."},
+    {"date": "2026-06-25", "event": "Followed up requesting the homeowner's email and phone number."},
+    {"date": "2026-06-27", "event": "Case information forwarded to attorney Kevin Weisser at Wek Law for the homeowner's claim."},
+    {"date": "2026-06-28", "event": "Attorney confirmed receipt."},
+    {"date": "2026-06-30", "event": "Attorney followed up for the homeowner's phone number; it was provided and a call was scheduled."},
+    {"date": "2026-07-02", "event": "Draft demand package sent to the contractor for review."},
+    {"date": "2026-07-13", "event": "Contractor confirmed the scope was accurate, clarifying the roofer is completing only roofing and guttering items."},
+    {"date": "2026-07-14", "event": "Revised draft sent to the contractor."}
+   ],
+   "trelloItemsAdded": 8,
+   "noEmail": false
+  },
+  {
+   "cardId": "69e654e7dc95b4dba2b0bba3",
+   "update": "State Farm has neither answered calls nor sent any update since the demand was filed; the homeowner and contractor confirm nothing has been received beyond the carrier's original denial, and the file has moved to referred-out status.",
+   "needed": null,
+   "asOf": "2026-06-26",
+   "timeline": [
+    {"date": "2026-04-20", "event": "Contractor referred the file, describing damage (roof, gutters, fence, mailbox, garage door, window screens); homeowner had only received a phone call from the carrier, no documentation yet."},
+    {"date": "2026-04-21", "event": "Draft demand package sent to the contractor for review."},
+    {"date": "2026-04-24", "event": "Contractor approved the draft and was asked to help get the homeowner's signature."},
+    {"date": "2026-04-29", "event": "Appraisal demand sent to the carrier (State Farm), claim 0197J649T, with the homeowner and contractor copied."},
+    {"date": "2026-05-04", "event": "Followed up with the homeowner; the carrier's phone system would not connect to a representative, and the homeowner reported no updates."},
+    {"date": "2026-05-07", "event": "Confirmed the carrier had acknowledged receipt of the files; asked the homeowner to check for any response."},
+    {"date": "2026-06-15", "event": "Followed up with the contractor for the carrier's email response; contractor had nothing on file."},
+    {"date": "2026-06-17", "event": "Followed up directly with the carrier, noting the office could not reach a representative by phone."},
+    {"date": "2026-06-26", "event": "Contractor confirmed the homeowner still had not heard from the carrier; the only document on hand remains the carrier's original denial from the adjuster meeting."}
+   ],
+   "trelloItemsAdded": 9,
+   "noEmail": false
+  }
+ ],
+ "withEmail": 22,
+ "noEmail": 0,
+ "flaggedNeeded": 0
+}

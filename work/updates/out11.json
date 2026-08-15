@@ -1,0 +1,216 @@
+{
+ "batch": 11,
+ "results": [
+  {
+   "cardId": "6a186f82d89e425294d100a5",
+   "update": "Allstate twice declined the appraisal request as a coverage dispute rather than a value dispute, so on 6/17 the file was referred to attorney Kevin Weisser. The attorney sent the homeowner a retainer and is waiting for it to come back; no further movement since.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-05-28", "event": "Strong House Pro referred the file to Joseph for appraisal of roof, garage door, gutter and downspout damage."},
+    {"date": "2026-05-30", "event": "Contractor provided the carrier estimate and supporting documentation requested."},
+    {"date": "2026-06-01", "event": "Appraisal demand letter sent to the homeowner for review and signature."},
+    {"date": "2026-06-03", "event": "Demand for appraisal sent to Allstate."},
+    {"date": "2026-06-05", "event": "Allstate denied the appraisal request, stating the dispute was over coverage rather than value."},
+    {"date": "2026-06-12", "event": "Joseph advised the file would need to be pushed toward appraisal or endorsed to an attorney."},
+    {"date": "2026-06-15", "event": "Renewed demand for appraisal sent to Allstate."},
+    {"date": "2026-06-17", "event": "Allstate denied appraisal again for the same coverage reason."},
+    {"date": "2026-06-17", "event": "File referred to an attorney for representation."},
+    {"date": "2026-06-17", "event": "Attorney confirmed receipt and reported the retainer was sent to the homeowner."}
+   ],
+   "trelloItemsAdded": 10,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a5ab6d3638945ca23a21f44",
+   "update": "Farm Bureau declined to participate in appraisal, citing no appraisal provision in the policy and Kansas case law, so the file was referred to attorney Kevin Weisser on 8/9. On 8/13 the attorney asked whether the homeowner has a signed contract with a roofer, since nothing was on file; awaiting an answer.",
+   "needed": "Confirm whether the homeowner has a signed roofing contract and provide a copy — the attorney asked for this on 8/13 and none is in the file.",
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-07-17", "event": "Strong House Pro referred Max Holthaus's Kansas claim for appraisal, providing the initial estimate, policy document, and signed appraisal agreement."},
+    {"date": "2026-07-21", "event": "Contractor supplied the EagleView report, photos, and a written damage description."},
+    {"date": "2026-07-25", "event": "Estimate drafted and sent to the contractor for review."},
+    {"date": "2026-07-27", "event": "Contractor requested a full re-deck be added for the house and shed; revised estimate sent and approved by the contractor."},
+    {"date": "2026-07-28", "event": "Demand for appraisal sent to Farm Bureau (claim B226474P00); homeowner confirmed receipt."},
+    {"date": "2026-07-29", "event": "Farm Bureau's adjuster rejected the office-submitted files and required the homeowner to submit the invocation himself."},
+    {"date": "2026-08-04", "event": "Homeowner submitted the appraisal invocation directly to Farm Bureau with the correct claim number."},
+    {"date": "2026-08-04", "event": "Farm Bureau declined to participate in appraisal, citing no appraisal provision in the policy and Kansas case law."},
+    {"date": "2026-08-09", "event": "File referred to attorney Kevin Weisser at WEK Law, with full documentation shared."},
+    {"date": "2026-08-13", "event": "Attorney asked whether the homeowner is under a signed contract with a roofer, noting nothing was on file."}
+   ],
+   "trelloItemsAdded": 10,
+   "noEmail": false
+  },
+  {
+   "cardId": "68630385733c798e0d274053",
+   "update": "USAA partially denied the claim as below deductible and excluded, so Joseph's office (acting as public adjuster) sent USAA a Letter of Representation on 7/28 seeking the policy, estimates, and prior correspondence. USAA responded on 8/4 asking whether a reinspection with a different adjuster was wanted; Joseph confirmed on 8/5 and is waiting on USAA to offer dates.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-06-22", "event": "USAA determined the roof damage did not exceed the deductible and issued a partial denial citing wear-and-tear and mechanical breakdown exclusions."},
+    {"date": "2026-06-23", "event": "Homeowner forwarded USAA's decision, partial denial, inspector report, and policy documents to Joseph for review."},
+    {"date": "2026-07-20", "event": "PA Agreement and Letter of Representation sent to the homeowner for signature."},
+    {"date": "2026-07-21", "event": "Supporting estimates, EagleView measurements, and property report provided for the file."},
+    {"date": "2026-07-28", "event": "Letter of Representation sent to USAA, requesting the certified policy, statement of loss, estimates, reports, and correspondence."},
+    {"date": "2026-08-03", "event": "Joseph followed up with USAA to confirm receipt of the Letter of Representation and request a status update."},
+    {"date": "2026-08-04", "event": "USAA acknowledged the Letter of Representation, sent claim documents, and asked whether a reinspection with a new adjuster was needed."},
+    {"date": "2026-08-05", "event": "Joseph requested that a different adjuster conduct the reinspection and asked for available dates."}
+   ],
+   "trelloItemsAdded": 8,
+   "noEmail": false
+  },
+  {
+   "cardId": "681057affabeef4e9bc65fb7",
+   "update": "USAA agreed to a narrower reinspection scope after Joseph disputed their causation ruling, and LINEAR Roofing confirmed in July 2025 that the file had been approved for reinspection rather than pushed further toward appraisal. No further correspondence on this claim has come in since, so the file appears to be sitting with the carrier.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2025-04-09", "event": "Richard Armstrong, via LINEAR Roofing, sent the demand letter for claim 004588283-800."},
+    {"date": "2025-05-21", "event": "Homeowner resubmitted the demand letter through USAA's portal after no response; Joseph forwarded it directly to the desk adjuster, noting the 20-day deadline had passed."},
+    {"date": "2025-05-22", "event": "Joseph called USAA's main line and left a voicemail after being unable to reach the desk adjuster directly."},
+    {"date": "2025-05-30", "event": "USAA offered to reappraise only a narrow list of items and excluded the shingles; Joseph disputed the interpretation, asserting the full roof scope should be open under Texas causation rules."},
+    {"date": "2025-06-03", "event": "LINEAR Roofing asked Joseph to push for a reinspection or move the file to appraisal."},
+    {"date": "2025-07-19", "event": "Joseph prepared to send a Letter of Representation to press USAA; LINEAR Roofing confirmed the file had instead been approved for reinspection."}
+   ],
+   "trelloItemsAdded": 6,
+   "noEmail": false
+  },
+  {
+   "cardId": "684b593d310e794f76743511",
+   "update": "Joseph's office referred Darren Jones's claim (9699259) to public adjuster Miles Kamp at PALCO Claims in late July 2025. PALCO asked for the carrier's scope of the damage; as of 8/9/25 Joseph had not located one on file and said he would request it from the contractor. No further correspondence has come in since.",
+   "needed": "Provide a copy of the carrier's estimate/scope for the roof so it can be forwarded to the public adjuster handling the file.",
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2025-06-13", "event": "Joseph sent the contractor estimate for Darren Jones to LINEAR Roofing for review."},
+    {"date": "2025-06-17", "event": "LINEAR Roofing sent the appraisal demand for claim 9699259 (Hochheim), with initial insurance and appraisal estimates."},
+    {"date": "2025-07-28", "event": "PA Agreement for Darren Jones sent to public adjuster Miles Kamp at PALCO Claims."},
+    {"date": "2025-07-30", "event": "Public adjuster Miles Kamp requested all documents on file and said he would schedule an inspection within about a week."},
+    {"date": "2025-08-02", "event": "Joseph sent the estimate, photos, and prior demand letter to the public adjuster."},
+    {"date": "2025-08-04", "event": "Public adjuster asked whether Joseph had the carrier's scope of the damage."},
+    {"date": "2025-08-09", "event": "Joseph reported no carrier estimate on file and said he would request one from the contractor."}
+   ],
+   "trelloItemsAdded": 7,
+   "noEmail": false
+  },
+  {
+   "cardId": "681ce17c279159567a8bcfbd",
+   "update": "After Allstate's initial denial, Joseph took the file on as public adjuster and pursued supplemental coverage. Allstate paid the main dwelling/structures supplement in September 2025 and a fence supplement in January 2026. One item — a 'double felt' supplement — is still outstanding as of the 2/3/26 exchange, when Allstate asked Joseph to resend the supporting photos.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2025-05-21", "event": "LINEAR Roofing referred Steve Irwin's roof claim (0779300433, Allstate) and sent the EagleView report."},
+    {"date": "2025-05-26", "event": "Allstate issued a straight denial; Joseph elected to take the file on as public adjuster rather than appraiser."},
+    {"date": "2025-06-12", "event": "Contractor estimate finalized using Hover measurements supplied by LINEAR Roofing."},
+    {"date": "2025-07-12", "event": "Letter of Representation sent to Allstate requesting the policy, statement of loss, estimates, reports, and correspondence."},
+    {"date": "2025-08-09", "event": "Joseph elected to pursue supplemental coverage and requested a reinspection; Allstate said no reinspection was warranted without additional time-stamped photos."},
+    {"date": "2025-09-09", "event": "Joseph sent Allstate the Hover measurements and ESX estimate file to support the supplemental request."},
+    {"date": "2025-09-11", "event": "Allstate issued a supplemental payment covering the dwelling and other structures."},
+    {"date": "2025-10-22", "event": "Allstate asked for the itemized replacement-cost estimate to evaluate additional funds; the current estimate was forwarded."},
+    {"date": "2025-10-26", "event": "Joseph submitted the certificate of completion so recoverable depreciation could be released."},
+    {"date": "2025-11-03", "event": "LINEAR Roofing sent an updated fence repair bid as a supplemental item on the claim."},
+    {"date": "2025-11-10", "event": "Allstate confirmed a depreciation check would be mailed to the public adjuster's office; Joseph also requested statutory interest on the delayed payment."},
+    {"date": "2026-01-01", "event": "Joseph asked Allstate to reissue an unreceived supplemental check to the correct suite address and to process the fence-related \"double felt\" supplement."},
+    {"date": "2026-01-09", "event": "Allstate issued payment on the updated fence bid."},
+    {"date": "2026-02-03", "event": "Joseph followed up on the still-outstanding \"double felt\" supplemental payment; Allstate asked for the supporting photos to be resent, which Joseph did."}
+   ],
+   "trelloItemsAdded": 14,
+   "noEmail": false
+  },
+  {
+   "cardId": "67db6a4e858987b263dae5b1",
+   "update": "This USAA claim (Duncan, claim 012815937) went through a reinspection in May 2025 but stalled after that. When Joseph asked in August 2025 about moving it to public adjusting, LINEAR Roofing said the homeowner had gone unresponsive for months and it was a no-go. No further activity has come in since.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2025-03-19", "event": "Homeowner's appraisal form submission failed; LINEAR Roofing resent it on his behalf."},
+    {"date": "2025-03-21", "event": "Contractor estimate for Duncan (claim 012815937) sent to the desk adjuster."},
+    {"date": "2025-05-07", "event": "LINEAR Roofing sent claim photos (roof, patio roof, fence) so the homeowner could upload them to the carrier's portal to move the appraisal forward."},
+    {"date": "2025-05-13", "event": "USAA proposed a property reinspection; homeowner confirmed agreement to it."},
+    {"date": "2025-05-27", "event": "Reinspection held as scheduled."},
+    {"date": "2025-08-24", "event": "Joseph asked LINEAR Roofing whether the homeowner wanted to move to public adjusting since USAA was resisting appraisal."},
+    {"date": "2025-08-26", "event": "LINEAR Roofing reported no response from the homeowner in months and declined to pursue the public adjuster route further."}
+   ],
+   "trelloItemsAdded": 7,
+   "noEmail": false
+  },
+  {
+   "cardId": "68813fc7f93936617c1d5903",
+   "update": "Farmers Insurance's engineering firm (Donan) completed an onsite assessment in early November 2025 after Joseph, acting as public adjuster, supplied hail reports, photos, and property history to support Michael Hall's claim. As of the 11/15/25 follow-up the office was still waiting on the engineer's report; no further correspondence has come in since.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2025-07-23", "event": "LINEAR Roofing referred Michael Hall's claim (7009151115-1, Farmers) to be signed up as a public adjuster file."},
+    {"date": "2025-08-25", "event": "Letter of Representation sent to Farmers Insurance; office awaiting documents to build an accurate estimate."},
+    {"date": "2025-09-11", "event": "Farmers' adjuster shared prior claim correspondence, including the denial letter, following a call with Joseph."},
+    {"date": "2025-09-22", "event": "Independent inspection held at the property; photos and EagleView report shared with the inspector."},
+    {"date": "2025-10-14", "event": "Joseph submitted three independent hail reports confirming hail during the loss period to support causation."},
+    {"date": "2025-10-21", "event": "Requested photo support for the observed hail damage submitted to Farmers."},
+    {"date": "2025-10-26", "event": "Property-history questions from the carrier's engineering firm (year built, ownership history) relayed to and answered by the homeowner."},
+    {"date": "2025-11-03", "event": "Onsite engineering assessment scheduled through the carrier's engineering firm."},
+    {"date": "2025-11-15", "event": "Joseph followed up requesting the engineering report following the onsite assessment."}
+   ],
+   "trelloItemsAdded": 9,
+   "noEmail": false
+  },
+  {
+   "cardId": "689390eb7b2e9e6b6d127c2f",
+   "update": "LINEAR Roofing flagged Mark Pinter's Plano tile roof claim for Joseph's personal approval on 8/6/25 due to a partial denial; Joseph said he'd send his PA contract, but the same materials were resent on 8/15/25 with no PA contract yet issued. No further correspondence has come in since.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2025-08-06", "event": "LINEAR Roofing sent photos and the carrier's estimate for Mark Pinter's Plano claim, flagging it for Joseph's personal approval given a partial denial; Joseph said he would send his PA contract."},
+    {"date": "2025-08-11", "event": "LINEAR Roofing followed up asking for the PA contract."},
+    {"date": "2025-08-15", "event": "LINEAR Roofing resent the same photos and estimate, again noting Joseph's personal approval was needed."}
+   ],
+   "trelloItemsAdded": 3,
+   "noEmail": false
+  },
+  {
+   "cardId": "6909369b70aa8d0fafc5a6df",
+   "update": "The homeowner retained attorney Chidi Oha in late February 2026 while Safeco continued to maintain there was no additional hail damage beyond the home's 2016 roof replacement. Joseph's office sent the homeowner a status update on 4/1/26 and no further correspondence has been found since.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2025-11-04", "event": "LINEAR Roofing referred Michael Whisman's Safeco claim (060366274-01); contractor estimate sent to LINEAR for review."},
+    {"date": "2025-11-05", "event": "LINEAR Roofing suggested taking the file the public-adjuster route instead of straight appraisal."},
+    {"date": "2025-11-15", "event": "PA Letter of Representation sent to the homeowner and LINEAR Roofing."},
+    {"date": "2025-11-16", "event": "Signature documents resent to the homeowner via DocuSign after an initial delivery issue."},
+    {"date": "2025-12-04", "event": "Letter of Representation sent to Safeco/Liberty Mutual."},
+    {"date": "2025-12-09", "event": "Safeco acknowledged the Letter of Representation and sent a certified copy of the policy and denial letter."},
+    {"date": "2025-12-15", "event": "Estimate and photo report submitted to Safeco."},
+    {"date": "2025-12-17", "event": "Safeco issued a partial-denial estimate, approving only the gutters, downspouts, and window screens."},
+    {"date": "2025-12-25", "event": "Joseph requested a reinspection."},
+    {"date": "2025-12-26", "event": "Safeco reviewed the submitted photos and found no new roof damage beyond wear; Joseph asked for a supervisor's contact."},
+    {"date": "2025-12-27", "event": "Joseph escalated to Safeco's claims manager, disputing that the initial inspection fully documented the damage."},
+    {"date": "2026-02-20", "event": "Joseph challenged Safeco's position, noting the roof was fully replaced in 2016 with no prior claims, and asked them to add soft metals or proceed to appraisal."},
+    {"date": "2026-02-24", "event": "A retainer agreement between the homeowner and attorney Chidi Oha was completed, referring the file to an attorney."},
+    {"date": "2026-02-25", "event": "Safeco updated its position, acknowledging the 2016 replacement but maintaining no hail damage was found."},
+    {"date": "2026-04-01", "event": "Appraisal claim status report sent to the homeowner, with additional PA status reports to follow."}
+   ],
+   "trelloItemsAdded": 15,
+   "noEmail": false
+  },
+  {
+   "cardId": "691368743a951db9b6578207",
+   "update": "After some confusion in December about whether the claim had been withdrawn, Joseph sent Safeco a formal Letter of Representation and pushed through a reinspection request in January. Safeco issued its coverage position on 2/9/26; Joseph pushed back on 2/17/26, arguing items — particularly interior damage — may have been missed, and requested another reinspection. No further correspondence has come in since.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2025-11-11", "event": "LINEAR Roofing referred Marilyn Gregory's tile roof claim (060390543), including garage door and gutter damage; photos shared."},
+    {"date": "2025-11-13", "event": "Appraisal demand letter sent for signature via DocuSign and as a soft copy at LINEAR's request."},
+    {"date": "2025-11-17", "event": "Appraisal demand and estimate sent to Liberty Mutual (Safeco) at the homeowner's request."},
+    {"date": "2025-12-19", "event": "Joseph learned from the carrier's claim specialist that the claim may have been withdrawn on 12/8; LINEAR confirmed the homeowner was still onboard and followed up with her directly."},
+    {"date": "2025-12-29", "event": "Letter of Representation sent to Liberty Mutual/Safeco for Marilyn Gregory's claim."},
+    {"date": "2026-01-12", "event": "Safeco requested reinspection photos and an estimate, and sent a certified policy copy with its coverage position."},
+    {"date": "2026-01-27", "event": "Reinspection photos and estimate submitted to Safeco."},
+    {"date": "2026-02-09", "event": "Safeco sent its formal response and coverage position after reviewing the photos and report."},
+    {"date": "2026-02-17", "event": "Joseph disputed Safeco's position, arguing it didn't rule out items missed at the initial inspection (particularly interior damage), and requested a reinspection."}
+   ],
+   "trelloItemsAdded": 9,
+   "noEmail": false
+  }
+ ],
+ "withEmail": 11,
+ "noEmail": 0,
+ "flaggedNeeded": 2
+}

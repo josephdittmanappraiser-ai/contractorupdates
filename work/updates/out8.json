@@ -44,9 +44,336 @@
    ],
    "trelloItemsAdded": 1,
    "noEmail": false
+  },
+  {
+   "cardId": "6a721f9e3486038970346b1d",
+   "update": "This claim first went through the appraisal-estimate process in late 2024 and early 2025, but the client opted for litigation instead in May 2025; a fresh appraisal demand for the same claim was sent to State Farm on August 4, 2026, so appraisal is being pursued again.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2024-12-26", "event": "An estimate and statement of loss were sent to the public adjuster's office for review on this Hurricane Beryl claim with State Farm."},
+    {"date": "2025-03-23", "event": "Joseph's office followed up asking whether the insured had signed off on the estimate yet."},
+    {"date": "2025-04-26", "event": "Joseph's office followed up asking whether State Farm had named a carrier appraiser."},
+    {"date": "2025-05-19", "event": "Joseph's office followed up again asking whether State Farm had accepted appraisal, without a substantive update."},
+    {"date": "2025-05-20", "event": "The public adjuster's office reported the client had decided to pursue litigation instead of appraisal."},
+    {"date": "2026-08-04", "event": "A new appraisal demand invoking the appraisal clause was sent to State Farm for the same claim (53-70K6-81K), naming Joseph Dittman as the insured's appraiser."}
+   ],
+   "trelloItemsAdded": 4,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a7a62ee83c8cf8474f5e334",
+   "update": "The appraisal demand was submitted to State Farm on August 10, 2026 for claim 53-65T-768Z; the carrier has not yet responded or named an appraiser.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-08-10", "event": "Appraisal demand invoking the appraisal clause was sent to State Farm for claim 53-65T-768Z, naming Joseph Dittman as the insured's appraiser."}
+   ],
+   "trelloItemsAdded": 1,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a7bbc18fff77f7bee656f1b",
+   "update": "The appraisal demand was submitted to Kin Insurance on August 11, 2026 for claim HO-3243277; the carrier has not yet responded or named an appraiser.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-08-11", "event": "Appraisal demand invoking the appraisal clause was sent to Kin Insurance for claim HO-3243277, naming Joseph Dittman as the insured's appraiser."}
+   ],
+   "trelloItemsAdded": 1,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a7cf3dd7cab9e252553b135",
+   "update": "The appraisal demand was submitted to Travelers on August 12, 2026 for claim JDM4166; the carrier has not yet responded or named an appraiser.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-08-12", "event": "Appraisal demand invoking the appraisal clause was sent to Travelers for claim JDM4166, naming Joseph Dittman as the insured's appraiser."}
+   ],
+   "trelloItemsAdded": 1,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a7cf9a7e796f5172dbf1630",
+   "update": "The appraisal demand was submitted to Allstate on August 12, 2026 for claim 0830790135; Allstate acknowledged receipt the next day and said a team member would follow up.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-08-12", "event": "Appraisal demand invoking the appraisal clause was sent to Allstate for claim 0830790135, naming Joseph Dittman as the insured's appraiser."},
+    {"date": "2026-08-13", "event": "Allstate acknowledged receipt of the appraisal request and said a team member would follow up."}
+   ],
+   "trelloItemsAdded": 2,
+   "noEmail": false
+  },
+  {
+   "cardId": "68a4d3894c9818874d9cb2fd",
+   "update": "This is a long-running Hurricane Beryl file where the carrier still has not named an appraiser well past the standard response window; Joseph's office most recently asked in May 2026 whether the file is instead headed to litigation so it can be closed out, and has not heard back.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2025-08-05", "event": "Carrier documents (adjuster's report, PA estimate and photos) were sent for review to see if Joseph could take on this Hurricane Beryl claim for appraisal."},
+    {"date": "2025-08-19", "event": "Joseph's office agreed to take the file on for appraisal."},
+    {"date": "2025-12-05", "event": "The Appraisal Demand Letter was sent for claim 0761309426."},
+    {"date": "2025-12-29", "event": "Joseph's office followed up on claim status and asked the public adjuster's office to resend the demand to the carrier."},
+    {"date": "2026-01-13", "event": "Joseph's office noted it was still waiting on the carrier to name an appraiser, past the 20-day period, and asked that the demand letter be resent."},
+    {"date": "2026-03-16", "event": "Joseph's office flagged this claim as one of several open more than 30 days without a carrier appraiser named and supplied the claim number."},
+    {"date": "2026-05-18", "event": "Joseph's office asked whether this file was being pursued through litigation instead so it could be removed from the system; no response has been logged since."}
+   ],
+   "trelloItemsAdded": 7,
+   "noEmail": false
+  },
+  {
+   "cardId": "68dff1484affd3a65d5ef7f4",
+   "update": "This claim (Assurant) has been through a full appraisal demand and estimate exchange since late 2025, including a claim-number mix-up that was cleared up in April; Joseph's office last asked in May 2026 whether the file is now headed to litigation instead, and is still waiting on an answer.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2025-09-24", "event": "Carrier documents were submitted for review to see if this claim could move forward to appraisal."},
+    {"date": "2025-09-26", "event": "Joseph's office confirmed the file looked ready for appraisal."},
+    {"date": "2025-11-25", "event": "Joseph's office confirmed the appraisal demand had been sent to the carrier (Assurant), claim 00201811479."},
+    {"date": "2025-12-12", "event": "A renewed Appraisal Demand Letter was sent to Assurant."},
+    {"date": "2026-01-13", "event": "Joseph's office followed up on the demand letter sent 12/12/2025."},
+    {"date": "2026-01-15", "event": "An itemized estimate was sent to the carrier."},
+    {"date": "2026-01-23", "event": "Assurant asked for clarification on which additional items were being requested beyond its own estimate."},
+    {"date": "2026-03-19", "event": "Joseph's office asked the public adjuster's office to follow up with the carrier again."},
+    {"date": "2026-04-09", "event": "A claim-number mix-up was resolved after Joseph's office flagged that the insured has two separate claims for the same loss address."},
+    {"date": "2026-04-10", "event": "Assurant sent its latest supplement on the claim."},
+    {"date": "2026-05-18", "event": "Joseph's office asked whether this file was being pursued through litigation instead so it could be removed from the system; no response has been logged since."}
+   ],
+   "trelloItemsAdded": 10,
+   "noEmail": false
+  },
+  {
+   "cardId": "68718855f2eb64c0d46e054d",
+   "update": "This Allstate file has sat without a named appraiser since mid-2025; Joseph's office most recently followed up in May 2026 asking whether it has moved to litigation, and has not heard back.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2025-06-05", "event": "Allstate sent a partial denial letter and supplement documents for claim 0788749810."},
+    {"date": "2025-12-29", "event": "Joseph's office followed up on claim status, including this file, asking for an update."},
+    {"date": "2026-01-28", "event": "Joseph's office clarified it was following up because no carrier appraiser had been named on this file and asked whether it was still pursuing appraisal, since many similar files were moving to litigation."},
+    {"date": "2026-02-02", "event": "The public adjuster's office acknowledged the request and said it would confirm status."},
+    {"date": "2026-03-16", "event": "Joseph's office again flagged this file as over 30 days without a carrier appraiser named."},
+    {"date": "2026-05-18", "event": "Joseph's office followed up again asking whether this file had been sent to litigation due to the delays; no response has been logged since."}
+   ],
+   "trelloItemsAdded": 6,
+   "noEmail": false
+  },
+  {
+   "cardId": "6966c0e6740b63c19cee4664",
+   "update": "State Farm was sent a pre-appraisal settlement offer in January 2026 that never produced a named carrier appraiser; Joseph's office most recently followed up in May 2026 asking whether this file has moved to litigation, without a reply yet.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-01-13", "event": "A pre-appraisal settlement demand was sent to State Farm for claim 53-70L8-84F, proposing to resolve the claim before entering formal appraisal, with the file to proceed to appraisal if no agreement was reached within five business days."},
+    {"date": "2026-03-16", "event": "Joseph's office flagged this file as over 30 days without a carrier appraiser named and supplied the claim number."},
+    {"date": "2026-05-18", "event": "Joseph's office followed up again asking whether this and similar files had moved to litigation due to the delays; no response has been logged since."}
+   ],
+   "trelloItemsAdded": 3,
+   "noEmail": false
+  },
+  {
+   "cardId": "6931ac83fb79f67e8541a6df",
+   "update": "This file is with the public adjuster/attorney, not the carrier directly; it was confirmed suitable for appraisal in December 2025 and the PA also pursued a direct settlement attempt, but the card has been sitting in a PA-follow-up stage since March 2026 and Joseph's office is still waiting to hear whether it moved to litigation.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2025-12-02", "event": "The public adjuster's office forwarded the carrier's estimate, its own estimate, and homeowner invoices, asking whether the file was ready for appraisal."},
+    {"date": "2025-12-04", "event": "Joseph's office asked for clarification on which estimate applied to the file, then received it."},
+    {"date": "2025-12-04", "event": "Joseph's office confirmed the file looked suitable to move forward to appraisal."},
+    {"date": "2025-12-04", "event": "The public adjuster's office noted it had also submitted a request to the carrier seeking a direct settlement before proceeding to appraisal."},
+    {"date": "2026-03-16", "event": "The card was moved to a stage for files open with the public adjuster/attorney more than two months, to be followed up with the PA every two weeks rather than the carrier directly."},
+    {"date": "2026-03-16", "event": "This file was also flagged in the \"over 30 days no appraiser named\" tracking list."},
+    {"date": "2026-05-18", "event": "Joseph's office asked whether this file was being pursued through litigation instead so it could be removed from the system; the public adjuster's office said it would check and follow up."}
+   ],
+   "trelloItemsAdded": 7,
+   "noEmail": false
+  },
+  {
+   "cardId": "6920e917a489f15366bf457c",
+   "update": "A pre-appraisal demand went to Garfield Insurance twice (November 2025 and again February 2026) and the carrier acknowledged a formal response was coming; that response has not arrived, and Joseph's office followed up again in May 2026 asking whether the file moved to litigation.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2025-11-21", "event": "A pre-appraisal demand and signed appraisal agreement were sent to Garfield Insurance for claim W25-00163, proposing to resolve the claim before entering formal appraisal, with the file to proceed to appraisal if no agreement was reached within five business days."},
+    {"date": "2026-02-03", "event": "The pre-appraisal demand was resent to Garfield Insurance."},
+    {"date": "2026-02-08", "event": "Garfield Insurance acknowledged receipt and said a formal response would follow."},
+    {"date": "2026-03-16", "event": "Joseph's office flagged this file as over 30 days without a carrier appraiser named and supplied the claim number."},
+    {"date": "2026-05-18", "event": "Joseph's office followed up again asking whether this and similar files had moved to litigation due to the delays; no response has been logged since."}
+   ],
+   "trelloItemsAdded": 5,
+   "noEmail": false
+  },
+  {
+   "cardId": "691660b7e3d2fb96fb979806",
+   "update": "This Homesite/AFICS claim has become unusually contentious: after months of no named appraiser, the carrier began questioning in April 2026 whether the policy even allows appraisal and asked for policy copies rather than moving forward.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2025-11-13", "event": "A pre-appraisal demand was sent to Homesite Insurance (via AFICS) for claim 01009263145, proposing to resolve the claim before entering formal appraisal, with the file to proceed to appraisal if no agreement was reached within five business days."},
+    {"date": "2025-11-14", "event": "The carrier's adjuster acknowledged the demand and said it would review and provide an update within 3-5 business days."},
+    {"date": "2026-03-10", "event": "Joseph's office followed up asking the carrier's adjuster for the named appraiser."},
+    {"date": "2026-03-16", "event": "Joseph's office flagged this file as over 30 days without a carrier appraiser named and supplied the claim number."},
+    {"date": "2026-04-20", "event": "The carrier asked for a copy of the policy to review the appraisal provision, questioning why the claim could not proceed to appraisal."},
+    {"date": "2026-04-29", "event": "The carrier requested a certified copy of the policy for this claim."}
+   ],
+   "trelloItemsAdded": 6,
+   "noEmail": false
+  },
+  {
+   "cardId": "69274d2eee9f3b9c0d02c4d7",
+   "update": "State Farm has not named an appraiser since the pre-appraisal demand went out in November 2025; Joseph's office followed up in May 2026 asking whether the file moved to litigation, and is still waiting on an answer.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2025-11-26", "event": "A pre-appraisal demand was sent to State Farm for claim 53-71C1-08T, proposing to resolve the claim before entering formal appraisal, with the file to proceed to appraisal if no agreement was reached within five business days."},
+    {"date": "2025-11-27", "event": "Joseph's office asked the public adjuster's office whether any contractor bid, invoice, or other supporting file existed beyond what had already been sent."},
+    {"date": "2026-03-16", "event": "Joseph's office flagged this file as over 30 days without a carrier appraiser named and supplied the claim number."},
+    {"date": "2026-05-18", "event": "Joseph's office followed up again asking whether this and similar files had moved to litigation due to the delays; no response has been logged since."}
+   ],
+   "trelloItemsAdded": 4,
+   "noEmail": false
+  },
+  {
+   "cardId": "691655cce03a9cf823e34b33",
+   "update": "Allstate cleared this file for appraisal back in November 2025 but never named its own appraiser; Joseph's office flagged it in the over-30-day tracker in March and again asked in May 2026 whether it had moved to litigation.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2025-11-13", "event": "A pre-appraisal demand and supporting documents were sent to Allstate for claim 0798016614, proposing to resolve the claim before entering formal appraisal, with the file to proceed to appraisal if no agreement was reached within five business days."},
+    {"date": "2025-11-16", "event": "Allstate confirmed no additional items would be added to its estimate and said the file could proceed to appraisal."},
+    {"date": "2026-03-16", "event": "Joseph's office flagged this file as over 30 days without a carrier appraiser named and supplied the claim number."},
+    {"date": "2026-05-18", "event": "Joseph's office followed up again asking whether this and similar files had moved to litigation due to the delays; no response has been logged since."}
+   ],
+   "trelloItemsAdded": 4,
+   "noEmail": false
+  },
+  {
+   "cardId": "691654284e1b89148e8cd225",
+   "update": "The appraisal demand has now been sent to Safeco three times (November 2025, April 2026, May 2026) without the carrier ever naming an appraiser.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2025-11-13", "event": "A pre-appraisal demand was sent to Safeco (Liberty Mutual) for claim 060193325-01, proposing to resolve the claim before entering formal appraisal, with the file to proceed to appraisal if no agreement was reached within five business days."},
+    {"date": "2026-03-16", "event": "Joseph's office flagged this file as over 30 days without a carrier appraiser named and supplied the claim number."},
+    {"date": "2026-04-30", "event": "The appraisal demand was resent to Safeco."},
+    {"date": "2026-05-18", "event": "Joseph's office followed up asking whether this and similar files had moved to litigation due to the delays."},
+    {"date": "2026-05-27", "event": "The appraisal demand was resent to Safeco once more; no carrier response has been logged since."}
+   ],
+   "trelloItemsAdded": 5,
+   "noEmail": false
+  },
+  {
+   "cardId": "6914fecc98e13290f045db5c",
+   "update": "This is the oldest file still waiting on a named appraiser in Joseph's tracking (over 250 days since the November 2025 demand); Allstate said an adjuster would call to discuss it before appraisal, but no appraiser has ever been named despite two broad status-check emails in July 2026.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2025-11-12", "event": "A pre-appraisal demand was sent to Allstate for claim 0790074272, naming Joseph Dittman as the insured's appraiser."},
+    {"date": "2025-11-12", "event": "Allstate acknowledged receipt and said an adjuster would call to discuss the claim and estimate before appraisal."},
+    {"date": "2026-03-16", "event": "Joseph's office flagged this file as over 30 days without a carrier appraiser named and supplied the claim number."},
+    {"date": "2026-07-20", "event": "Joseph's office sent a broader status-check to the public adjuster's office listing files over 60 days old without a named appraiser, including this file (about 249 days in the system at that point)."},
+    {"date": "2026-07-28", "event": "Joseph's office sent a follow-up status-check listing this file again (about 254 days in the system); no response has been logged since."}
+   ],
+   "trelloItemsAdded": 5,
+   "noEmail": false
+  },
+  {
+   "cardId": "69139dd59bb570198a0f4bdd",
+   "update": "The appraisal demand for this Homeowners of America claim was sent and resent with full documentation in November 2025; it has sat over 30 days without a named carrier appraiser since March 2026.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2025-11-05", "event": "An appraisal demand invoking the appraisal clause was sent to Homeowners of America for claim 2025-05270035, naming Joseph Dittman as the insured's appraiser."},
+    {"date": "2025-11-11", "event": "The demand was resent with supporting documents (certified policy, estimate, LOR contract)."},
+    {"date": "2026-03-16", "event": "Joseph's office flagged this file as over 30 days without a carrier appraiser named and supplied the claim number."}
+   ],
+   "trelloItemsAdded": 3,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a2c85b1c83d98e45abfdc27",
+   "update": "SageSure rejected the appraisal demand the same day it was sent because it was not accompanied by a signed appraisal demand from the named insured; the public adjuster's office was asked to provide one and has not yet responded.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-06-12", "event": "An appraisal demand was sent to SageSure for claim HO-2026-192938389, naming Joseph Dittman as the insured's appraiser."},
+    {"date": "2026-06-12", "event": "SageSure confirmed receipt but said it could not recognize the demand because it was not accompanied by a signed appraisal demand from a named insured, and asked the public adjuster's office to provide one."}
+   ],
+   "trelloItemsAdded": 2,
+   "noEmail": false
+  },
+  {
+   "cardId": "69d8012b3965d6a8fa1ca7d8",
+   "update": "This file has stalled since April 2026 because the contractor never supplied the EagleView report, photos, damage description, or homeowner contact information Joseph's office needs to send the Appraisal Demand Letter, despite roughly weekly follow-ups.",
+   "needed": "Please send the EagleView report/roof sketch, photos, a brief damage description, and the homeowner's contact information for the Housh file so the Appraisal Demand Letter can be sent, or let us know if they no longer want to proceed.",
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-04-09", "event": "LINEAR Roofing asked whether this claim (Leawood, Kansas) could be taken to appraisal."},
+    {"date": "2026-04-09", "event": "Joseph's office agreed to take the file and asked for the EagleView report/roof sketch, photos, a damage description, and the homeowner's contact information needed to send the Appraisal Demand Letter."},
+    {"date": "2026-04-14", "event": "Joseph's office sent repeated follow-up requests (roughly weekly) for the same missing items through late May; no documents or reply were received from the contractor."},
+    {"date": "2026-07-28", "event": "Joseph's office sent a final follow-up asking whether Mr. and Mrs. Housh still wanted to move forward with the appraisal process."}
+   ],
+   "trelloItemsAdded": 4,
+   "noEmail": false
+  },
+  {
+   "cardId": "69c5a057014e312b94dc0a27",
+   "update": "The Appraisal Demand Letter has been sent to the homeowner twice, and an engineer's report/estimate came in from the contractor in May, but the file is stalled because the EagleView report the contractor was asked for has not arrived despite repeated follow-ups.",
+   "needed": "Please send the EagleView report for the Gershom file so we can move the appraisal forward, and let us know if the homeowner has signed the Appraisal Demand Letter.",
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-03-26", "event": "The contractor shared photos and reported the insurer had called to say it was not approving the claim, and provided the homeowner's contact information."},
+    {"date": "2026-03-26", "event": "Joseph's office confirmed the Appraisal Demand Letter had been sent to the homeowner and asked for the carrier estimate, EagleView report/roof sketch, and a damage description."},
+    {"date": "2026-04-01", "event": "The contractor asked whether the EagleView report was still needed or whether to wait for the carrier estimate first; Joseph's office also noted the homeowner had not yet signed the demand letter."},
+    {"date": "2026-04-10", "event": "Joseph's office followed up directly with the homeowner asking for the demand letter to be signed."},
+    {"date": "2026-05-18", "event": "The contractor forwarded an engineer's report and estimate for the claim."},
+    {"date": "2026-05-19", "event": "Joseph's office acknowledged receipt, asked for the EagleView Report, and re-sent the Appraisal Demand Letter to the homeowner for signature."},
+    {"date": "2026-05-20", "event": "Joseph's office repeatedly followed up through late May asking for the EagleView Report; no response has been logged since."}
+   ],
+   "trelloItemsAdded": 8,
+   "noEmail": false
+  },
+  {
+   "cardId": "69aef32550b4361891fd0c1e",
+   "update": "This file has been idle since March 2026 waiting on the contractor to confirm with the homeowner whether to proceed; a July follow-up specifically about this file has not been answered.",
+   "needed": "Please confirm with Mr. Kadam whether he wants to move forward with the appraisal, and if so, send the EagleView report, damage description, and his contact information so we can send the Appraisal Demand Letter.",
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-03-07", "event": "The contractor shared inspection photos for a potential claim not yet filed."},
+    {"date": "2026-03-09", "event": "Joseph's office asked for the carrier estimate, EagleView report, damage description, and homeowner contact information; the contractor clarified no claim had been filed yet and asked whether it was worth pursuing."},
+    {"date": "2026-03-12", "event": "Joseph's office asked whether the claim would proceed to appraisal and repeated the same document requirements."},
+    {"date": "2026-03-13", "event": "The contractor said they were still waiting on the homeowner."},
+    {"date": "2026-07-20", "event": "Joseph's office followed up, noting the file was on hold while confirming the homeowner's decision, and asked the contractor to check with the homeowner on whether to proceed; no answer specific to this file has been logged since."}
+   ],
+   "trelloItemsAdded": 5,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a2c4c7e3ce5f51e0561df46",
+   "update": "State Farm issued a partial denial in July, calling the roof damage wear and tear rather than storm-related; Joseph's office proposed pursuing this through an attorney and is waiting to hear whether the contractor/homeowner want to go that route.",
+   "needed": "Please let us know if Ms. Morgan is open to pursuing this claim through an attorney given State Farm's partial denial, so we can move forward.",
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-05-18", "event": "LINEAR Roofing/Stronghouse forwarded this file as another State Farm claim."},
+    {"date": "2026-05-19", "event": "Joseph's office noted State Farm does not go to formal appraisal in Alabama and offered to write an estimate and review the insured's options to dispute the claim."},
+    {"date": "2026-05-20", "event": "Joseph's office requested the EagleView report, photos, and a damage description to proceed."},
+    {"date": "2026-05-29", "event": "The file was handed to a different contact at the same contractor, who was asked to provide the requirements."},
+    {"date": "2026-06-02", "event": "The contractor described the damage (hail strikes on all slopes, metal roof, gutters/downspouts)."},
+    {"date": "2026-06-08", "event": "Joseph's office sent the completed estimate for review."},
+    {"date": "2026-06-12", "event": "The contractor confirmed the estimate could be sent and shared additional close-up photos; the estimate was then forwarded to State Farm."},
+    {"date": "2026-06-27", "event": "The contractor reported the homeowner remained committed to pursuing the claim."},
+    {"date": "2026-07-02", "event": "State Farm issued a partial denial, citing wear, tear, and deterioration rather than storm damage for the roof."},
+    {"date": "2026-07-02", "event": "Joseph's office proposed pursuing the matter through an attorney and followed up for a decision."},
+    {"date": "2026-08-04", "event": "The contractor reconnected, resending the damage description and a new photo album after the earlier file had expired."},
+    {"date": "2026-08-08", "event": "Joseph's office noted State Farm would likely try to deny appraisal again and asked whether the contractor/homeowner were open to pursuing this through an attorney if needed."}
+   ],
+   "trelloItemsAdded": 12,
+   "noEmail": false
   }
  ],
- "withEmail": 4,
+ "withEmail": 26,
  "noEmail": 0,
- "flaggedNeeded": 0
+ "flaggedNeeded": 4
 }
