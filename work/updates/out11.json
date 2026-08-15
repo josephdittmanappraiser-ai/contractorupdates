@@ -296,9 +296,51 @@
    ],
    "trelloItemsAdded": 10,
    "noEmail": false
+  },
+  {
+   "cardId": "699ca27259abc8c1c3d1d82d",
+   "update": "Stillwater has not moved this claim past automatic acknowledgments since sending the policy in mid-April 2026, despite repeated follow-ups. Legacy Roofing was still asking on 5/14/26 how the denial dispute was progressing; no further correspondence has been found since.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-02-23", "event": "Legacy Roofing asked Joseph to help move Roman Goncharuk's claim from a full denial to an approval; appraisal demand letter sent to the homeowner with roof/gutter damage photos."},
+    {"date": "2026-02-27", "event": "Homeowner sent the carrier's denial letter to Legacy Roofing, which forwarded it for review."},
+    {"date": "2026-03-10", "event": "PA introduction/Letter of Representation sent to the homeowner."},
+    {"date": "2026-03-14", "event": "Homeowner signed the PA documents."},
+    {"date": "2026-03-16", "event": "Letter of Representation sent to Stillwater Insurance (claim H00001121692)."},
+    {"date": "2026-03-19", "event": "Joseph repeatedly followed up with Stillwater through mid-April requesting a reinspection/status, receiving only automatic acknowledgments."},
+    {"date": "2026-04-16", "event": "Stillwater sent the claim's policy and named the assigned adjuster."},
+    {"date": "2026-05-04", "event": "Joseph again followed up on the reinspection assessment."},
+    {"date": "2026-05-14", "event": "Legacy Roofing asked how the denial dispute was progressing so they could update the homeowner."}
+   ],
+   "trelloItemsAdded": 9,
+   "noEmail": false
+  },
+  {
+   "cardId": "699350b41c7ee5539bbca4a8",
+   "update": "This State Farm appraisal (Frank Ivy) reached a signed award in June 2026 and the settlement check was processed 6/25/26. State Farm withheld the recoverable depreciation until it received a contract, completion photos, and a certificate of completion, which Joseph's office sent on 7/28/26; no confirmation yet that the depreciation has been released.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-02-18", "event": "LINEAR Roofing referred Frank Ivy's claim; Joseph asked for carrier and approval details and began drafting the estimate (roof, garage door, gutters)."},
+    {"date": "2026-02-19", "event": "Appraisal process formally initiated with State Farm (claim 53-96H0-59Q)."},
+    {"date": "2026-02-27", "event": "Letter of Representation sent to State Farm after LINEAR flagged the carrier's handling as unusual."},
+    {"date": "2026-03-11", "event": "State Farm sent the policy and said photos and a supplemental estimate were needed to qualify for reinspection."},
+    {"date": "2026-04-01", "event": "Estimate and photos submitted to State Farm."},
+    {"date": "2026-04-04", "event": "Homeowner approved moving forward with formal appraisal using appraiser John Wynn."},
+    {"date": "2026-04-07", "event": "Joseph asserted a dispute over scope, price, and causation, citing case law supporting appraisal rights."},
+    {"date": "2026-04-17", "event": "State Farm agreed to appraisal and named its appraiser; Joseph coordinated scheduling through the appraisal firm."},
+    {"date": "2026-06-03", "event": "ESX estimate file provided to the opposing appraiser at their request."},
+    {"date": "2026-06-14", "event": "After negotiating the opposing appraiser's position, Joseph authorized getting the award signed."},
+    {"date": "2026-06-22", "event": "Signed appraisal award sent to State Farm, with payment directed to the public adjusting office; the check was processed 6/25/26."},
+    {"date": "2026-07-24", "event": "State Farm stated no depreciation had been released because it hadn't received a contract, completion photos, or certificate of completion."},
+    {"date": "2026-07-28", "event": "Requested completion documentation sent to State Farm; file moved to depreciation-requested status."}
+   ],
+   "trelloItemsAdded": 13,
+   "noEmail": false
   }
  ],
- "withEmail": 15,
+ "withEmail": 17,
  "noEmail": 0,
  "flaggedNeeded": 3
 }
