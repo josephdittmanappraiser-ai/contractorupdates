@@ -97,7 +97,8 @@
       "matchers": [
         "inspected",
         "estimate under review",
-        "further ressearch"
+        "further ressearch",
+        "estimate done but reassigned"
       ]
     },
     {

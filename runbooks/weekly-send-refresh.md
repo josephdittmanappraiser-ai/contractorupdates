@@ -93,6 +93,17 @@ summary — it usually means a new list was added to the board and `stageMap` ne
 **Voice.** One or two plain sentences per file. A roofer must understand it without knowing
 the trade's jargon.
 
+**Sanitize the card name — it is not safe to print.** Joseph appends operator notes directly
+to card names, and they leak straight onto a client page. Caught in testing:
+`Jerrel Hofman - DO NOT MESSAGE ANYONE ( BEN DITTMAN IS OA)`,
+`Jeff McCulloch - I paid $1,250 for umpire fee. charge back.`,
+`Rong Dai [CN: 033232/14003 Goodman St]`, `MARY KRANIG - roofer/ ff 08-14`.
+
+Reduce every card name to the insured's name: drop bracketed and parenthesised segments, cut
+at the first note separator (` - `, `/`, `,`), and drop tokens containing a digit, `$`, or
+internal shorthand. If the remainder is not plainly a person's name, take the name from the
+card description instead. Never guess, and never print the raw name as a fallback.
+
 Never put on a page:
 - raw Trello list names (they contain operator instructions)
 - internal shorthand — OA, AD, DOA, ff, "position", "comparison"

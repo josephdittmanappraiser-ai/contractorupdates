@@ -20,6 +20,15 @@
   and repeats the .stage block per stage, .file block per file.
 
   RULES:
+    - NEVER print a Trello card name raw. Joseph appends operator notes to card names and
+      they WILL leak onto a client page. Real examples caught in testing:
+        "Jerrel Hofman - DO NOT MESSAGE ANYONE ( BEN DITTMAN IS OA)"
+        "Jeff McCulloch - I paid $1,250 for umpire fee. charge back."
+        "MARY KRANIG - roofer/ ff 08-14"          "Rong Dai [CN: 033232/14003 Goodman St]"
+      Sanitize to the insured name only: drop bracketed and parenthesised segments, cut at
+      the first note separator (" - ", "/", ","), and drop any token containing a digit, "$",
+      or internal shorthand (OA, AD, DOA, ff, SOU, CN). If what remains is not plainly a
+      person's name, use the name from the card description instead — never guess.
     - Stages descend: Settled first, New / intake last. Skip stages with no files.
     - "What's happening" is one or two plain sentences. No Trello list names, no
       internal shorthand (OA, AD, DOA, ff), no dollar figures, no carrier-strategy
