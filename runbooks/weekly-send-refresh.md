@@ -57,6 +57,16 @@ A count landing on exactly 50 or exactly 100 is a truncation signal, not a real 
 in the run summary and add a footer line to that client's page noting older files are not
 shown. Do not silently present a truncated list as complete.
 
+### Never cap the file list
+
+Show **every** open file the client has. No per-stage caps, no "top N most recent", no
+trimming a long page for readability. A client with 372 open files gets all 372 — they are
+the ones most likely to be chasing a status, and a file missing from the page reads as a file
+nobody is working. Send handles large pages; a 66KB page published fine.
+
+The only acceptable omission is one the tooling forced (a genuine pagination cap), and that
+must be stated in the page footer and the run summary.
+
 ---
 
 ## Phase 1 — Roster (orchestrator)
