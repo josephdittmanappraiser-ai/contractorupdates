@@ -12,6 +12,12 @@
     "id": "ari:cloud:trello::board/workspace/65d7eb00496a914bf3ffb423/666e58adc67768660a580af4",
     "url": "https://trello.com/b/lAdc1ZW8/insured-appraisals"
   },
+  "_repLabelComment": [
+    "Rep attribution reads a Trello LABEL on the card first -- authoritative, see runbook Pass 0.",
+    "'labelName' overrides the display 'name' when the Trello label is spelled differently.",
+    "The connector can attach an existing label but CANNOT create one: new rep labels must be",
+    "made in the Trello UI before a run can attach or read them."
+  ],
   "gmail": {
     "contractorInboundLabel": "AA - Roofers emailing us",
     "contractorInboundLabelId": "Label_889619139836162734",

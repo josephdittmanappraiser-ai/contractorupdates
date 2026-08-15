@@ -137,6 +137,19 @@ Every claim is tied to a rep somewhere in email. Work the cheap bulk pass first,
 back to per-file identifiers for whatever is left. Do not stop at the surname pass — on its
 own it left roughly half of Stronghouse's files unattributed.
 
+**Pass 0 — the rep label on the card. Authoritative. Always check this first.**
+If a card carries a label matching a rep in that company's `reps[]` (by `name`, or by
+`labelName` when set), that rep owns the file. Full stop — do not run the email passes for
+that card, and never let an email match override a label. Joseph puts the roofer on the card
+deliberately; email inference is only a fallback for cards he has not labelled yet.
+
+Rep labels sit alongside the company label, e.g. `LINEAR roofing` + `DFW` + `Zach Khan`.
+Company labels, market labels and everything in `nonClientLabels` are not rep labels.
+
+Note: the connector can **attach** an existing label (`trelloWriteCard action:"attach_label"`)
+but **cannot create** one. New rep labels have to be made in the Trello UI first; after that a
+run can attach them.
+
 **Pass 1 — bulk surname index (one or two searches, covers most files).**
 `view: "THREAD_VIEW_MINIMAL"`, `pageSize: 50`:
 ```
