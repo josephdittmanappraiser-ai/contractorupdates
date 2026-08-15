@@ -1,0 +1,118 @@
+[
+ {
+  "cardId": "6a47c72aa447b548c59bddd6",
+  "update": "Both appraisers inspected the property on August 4, 2026, with interior access, and the file has moved into position exchange with the carrier's appraiser.",
+  "needed": null,
+  "asOf": "2026-08-15",
+  "timeline": [
+   {"date": "2026-07-01", "event": "File received from the contractor (Strong House Pro), forwarding the homeowner's State Farm claim correspondence."},
+   {"date": "2026-07-03", "event": "Appraisal demand letter sent to the homeowner for signature."},
+   {"date": "2026-07-08", "event": "Contractor's estimate finalized and sent to the contractor for review."},
+   {"date": "2026-07-15", "event": "Signed appraisal demand sent to State Farm, formally opening the appraisal."},
+   {"date": "2026-07-21", "event": "State Farm acknowledged the demand and named Wayne Wagner as its appraiser."},
+   {"date": "2026-07-22", "event": "Joseph's office contacted the carrier's appraiser to request an umpire list and inspection date."},
+   {"date": "2026-07-28", "event": "Carrier's appraiser proposed an August 4 inspection and sent the signed agreement for signature."},
+   {"date": "2026-07-29", "event": "Carrier's appraiser proposed an umpire; a revised signed agreement naming him was exchanged."},
+   {"date": "2026-07-30", "event": "Homeowners confirmed the August 4 inspection date and time."},
+   {"date": "2026-08-04", "event": "Inspection held at the property with interior access."}
+  ],
+  "trelloItemsAdded": 10,
+  "noEmail": false
+ },
+ {
+  "cardId": "6a3daffdb92a8c571401f808",
+  "update": "The carrier's appraiser had a solo inspection scheduled for August 12, 2026 after receiving Joseph's photo report and estimate; no further correspondence has followed since the reminder was sent.",
+  "needed": null,
+  "asOf": "2026-08-15",
+  "timeline": [
+   {"date": "2026-06-25", "event": "File received from the contractor (LINEAR roofing) with claim details and photos."},
+   {"date": "2026-06-29", "event": "Appraisal demand letter sent to the homeowner; signed copy returned by the contractor."},
+   {"date": "2026-07-03", "event": "Contractor's estimate finalized and sent to the contractor for review, then approved."},
+   {"date": "2026-07-06", "event": "Signed appraisal demand sent to State Farm, formally opening the appraisal."},
+   {"date": "2026-07-09", "event": "State Farm acknowledged the demand and confirmed it was under review."},
+   {"date": "2026-07-20", "event": "State Farm confirmed it named Tim Case as its appraiser."},
+   {"date": "2026-07-22", "event": "Joseph's office contacted the carrier's appraiser to request an umpire list and inspection date."},
+   {"date": "2026-07-28", "event": "Carrier's appraiser proposed an August 12 inspection and sent a list of suggested umpires; Joseph selected an umpire."},
+   {"date": "2026-07-30", "event": "Signed agreement naming the umpire exchanged; homeowner confirmed the August 12 inspection."},
+   {"date": "2026-08-01", "event": "Photo report and estimate sent to the carrier's appraiser ahead of the inspection."},
+   {"date": "2026-08-12", "event": "Reminder sent confirming the scheduled solo inspection with the carrier's appraiser."}
+  ],
+  "trelloItemsAdded": 11,
+  "noEmail": false
+ },
+ {
+  "cardId": "69af12d83846431d8c356436",
+  "update": "The file went through an investigation hold and an examination-under-oath request earlier this year before Mercury named its appraiser in July; the carrier's appraiser confirmed he would attend the August 4 inspection and no further correspondence has followed since.",
+  "needed": null,
+  "asOf": "2026-08-15",
+  "timeline": [
+   {"date": "2026-03-09", "event": "File received from the contractor (LINEAR roofing) with damage photos and insurance estimate; appraisal demand letter sent to the homeowner."},
+   {"date": "2026-03-10", "event": "Contractor's estimate finalized and sent to Mercury Insurance, with the homeowner and contractor copied."},
+   {"date": "2026-04-28", "event": "Mercury Insurance advised the appraisal demand was on hold pending its investigation."},
+   {"date": "2026-05-08", "event": "Carrier's counsel sent the homeowner correspondence requesting an examination under oath."},
+   {"date": "2026-07-16", "event": "Mercury named its appraiser, who sent a list of proposed umpires."},
+   {"date": "2026-07-21", "event": "Joseph selected an umpire from the list; signed agreement exchanged; carrier's appraiser proposed an August 4 inspection."},
+   {"date": "2026-07-22", "event": "Homeowner confirmed the August 4 inspection."},
+   {"date": "2026-07-30", "event": "Photo report and estimate sent to the carrier's appraiser ahead of the inspection."},
+   {"date": "2026-08-04", "event": "Carrier's appraiser confirmed he would attend the scheduled solo inspection."}
+  ],
+  "trelloItemsAdded": 9,
+  "noEmail": false
+ },
+ {
+  "cardId": "69f0e7c3c6e96fbfe9dfe81f",
+  "update": "The carrier's appraiser inspected the property on July 15, 2026; Joseph's estimate has since been sent and re-sent at the appraiser's request, and the file is awaiting his position.",
+  "needed": null,
+  "asOf": "2026-08-15",
+  "timeline": [
+   {"date": "2026-04-23", "event": "Homeowner sent the list of four rental properties and the contractor's contact information to begin the appraisals."},
+   {"date": "2026-06-08", "event": "Contractor (LINEAR roofing) sent the claim file for 4309 Gables St, claim N0009712."},
+   {"date": "2026-06-10", "event": "Contractor's estimate finalized and sent to the contractor for review."},
+   {"date": "2026-06-25", "event": "Signed appraisal demand sent to the carrier."},
+   {"date": "2026-06-26", "event": "Carrier named its appraiser for all four claims."},
+   {"date": "2026-07-02", "event": "Joseph's office contacted the carrier's appraiser to request an umpire list and inspection date."},
+   {"date": "2026-07-06", "event": "Inspection scheduled; homeowner confirmed the appointment."},
+   {"date": "2026-07-15", "event": "Solo inspection held with the carrier's appraiser."},
+   {"date": "2026-07-30", "event": "Estimate sent to the carrier's appraiser following the inspection."},
+   {"date": "2026-08-07", "event": "Carrier's appraiser requested Joseph's signed estimate file; Joseph sent it and receipt was confirmed."}
+  ],
+  "trelloItemsAdded": 10,
+  "noEmail": false
+ },
+ {
+  "cardId": "69f226ad9998f72b7b600b3d",
+  "update": "Joseph's estimate was sent to the carrier's appraiser on July 18, 2026 and re-sent on August 7 at his request; the file is awaiting his position.",
+  "needed": null,
+  "asOf": "2026-08-15",
+  "timeline": [
+   {"date": "2026-04-23", "event": "Homeowner sent the list of four rental properties and the contractor's contact information to begin the appraisals."},
+   {"date": "2026-06-08", "event": "Contractor (LINEAR roofing) sent the claim file for 3203 S. Tyler Street, claim N97710."},
+   {"date": "2026-06-10", "event": "Contractor's estimate finalized and sent to the contractor for review."},
+   {"date": "2026-06-25", "event": "Signed appraisal demand sent to the carrier."},
+   {"date": "2026-06-26", "event": "Carrier named its appraiser for all four claims."},
+   {"date": "2026-07-02", "event": "Joseph's office contacted the carrier's appraiser to request an umpire list and inspection date."},
+   {"date": "2026-07-18", "event": "Estimate sent to the carrier's appraiser."},
+   {"date": "2026-08-07", "event": "Carrier's appraiser requested Joseph's signed estimate file; Joseph sent it and receipt was confirmed."}
+  ],
+  "trelloItemsAdded": 8,
+  "noEmail": false
+ },
+ {
+  "cardId": "69f225d5041541cde95b51f0",
+  "update": "The carrier's appraiser held a solo inspection on July 15, 2026 and Joseph's estimate has since been sent and re-sent at his request; the file is awaiting his position.",
+  "needed": null,
+  "asOf": "2026-08-15",
+  "timeline": [
+   {"date": "2026-04-23", "event": "Homeowner sent the list of four rental properties and the contractor's contact information to begin the appraisals."},
+   {"date": "2026-06-08", "event": "Contractor (LINEAR roofing) sent the claim file for 1510 S. Lipscomb St, claim N97711 (H3 Rentals LLC)."},
+   {"date": "2026-06-10", "event": "Contractor's estimate finalized and sent to the contractor for review."},
+   {"date": "2026-06-25", "event": "Signed appraisal demand sent to the carrier."},
+   {"date": "2026-06-26", "event": "Carrier named its appraiser for all four claims."},
+   {"date": "2026-07-02", "event": "Joseph's office contacted the carrier's appraiser to request an umpire list and inspection date."},
+   {"date": "2026-07-06", "event": "Carrier's appraiser scheduled a solo inspection for July 15."},
+   {"date": "2026-08-07", "event": "Carrier's appraiser requested Joseph's signed estimate file; Joseph sent it and receipt was confirmed."}
+  ],
+  "trelloItemsAdded": 8,
+  "noEmail": false
+ }
+]
