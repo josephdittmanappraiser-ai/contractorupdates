@@ -208,9 +208,97 @@
    ],
    "trelloItemsAdded": 9,
    "noEmail": false
+  },
+  {
+   "cardId": "6952bb96047f1f3c785015d1",
+   "update": "This State Farm appraisal (Dave Ciambrone) went all the way through: a signed award was reached in May 2026 and payment was mailed by early June. The last remaining step is releasing recoverable depreciation, which needs proof the roof work is complete — LINEAR Roofing confirmed on 7/24/26 that the work finished 6/8, but completion photos for the carrier weren't confirmed as sent.",
+   "needed": "Send proof-of-completion photos for the roof work (finished 6/8) so State Farm can release the recoverable depreciation.",
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-01-13", "event": "Letter of Representation sent to State Farm for Dave Ciambrone's claim (53-94G8-82K)."},
+    {"date": "2026-01-28", "event": "Estimate and photos submitted to State Farm."},
+    {"date": "2026-02-04", "event": "Joseph requested a reinspection."},
+    {"date": "2026-03-03", "event": "State Farm denied the additional inspection request but sent policy documents and its report."},
+    {"date": "2026-03-07", "event": "Joseph pushed to escalate to a supervisor after getting no response on the estimate and photos."},
+    {"date": "2026-04-14", "event": "State Farm responded to the appraisal demand with follow-up questions; Joseph confirmed no permanent repairs had been made and fees were understood."},
+    {"date": "2026-04-15", "event": "State Farm named its appraiser; Joseph passed the information to the umpire/appraisal firm to coordinate a joint inspection."},
+    {"date": "2026-05-06", "event": "Joseph submitted his position on disputed items (roof component removal, turtle vents, satellite dish restoration) for the appraisal."},
+    {"date": "2026-05-14", "event": "The umpire/appraisal firm sent the signed appraisal award and estimate."},
+    {"date": "2026-05-16", "event": "Fully executed award sent to State Farm, requesting payment to the public adjusting office."},
+    {"date": "2026-05-26", "event": "Joseph pressed State Farm to process the award payment within the statutory timeframe."},
+    {"date": "2026-06-01", "event": "State Farm confirmed the award check was mailed to the office."},
+    {"date": "2026-06-09", "event": "Request submitted to State Farm to release the recoverable depreciation."},
+    {"date": "2026-07-24", "event": "Joseph asked LINEAR Roofing for the completion date and proof-of-work photos needed to finalize the depreciation release; LINEAR confirmed the work was completed June 8."}
+   ],
+   "trelloItemsAdded": 14,
+   "noEmail": false
+  },
+  {
+   "cardId": "6938b1198d253e996f3bfd90",
+   "update": "Travelers denied Roberto Terrazas's roof claim on 3/3/26, attributing the roof's condition to normal wear and tear rather than a covered cause of loss. No further correspondence has been found since.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2025-12-09", "event": "LINEAR Roofing referred Roberto Terrazas's claim (JCL4183, Travelers); appraisal demand sent to the homeowner for DocuSign signature."},
+    {"date": "2025-12-11", "event": "LINEAR Roofing provided the carrier letter and photos on file for the claim."},
+    {"date": "2025-12-12", "event": "Demand for appraisal sent to Travelers with supporting photos."},
+    {"date": "2026-01-06", "event": "Joseph followed up with Travelers on claim status; the adjuster indicated an update had been sent to the homeowner."},
+    {"date": "2026-01-13", "event": "Homeowner forwarded Travelers' response and the prior denial letter; Joseph advised the file needed to proceed to public adjusting."},
+    {"date": "2026-01-26", "event": "Letter of Representation sent to the homeowner."},
+    {"date": "2026-01-27", "event": "PA fee structure explained to the homeowner; contract language confirming no cost if there is no recovery was added at the homeowner's request."},
+    {"date": "2026-02-09", "event": "Letter of Representation sent to Travelers; Travelers requested a certified policy and sent the declaration pages."},
+    {"date": "2026-02-12", "event": "Joseph followed up requesting a reinspection."},
+    {"date": "2026-03-02", "event": "Estimate and photos submitted to Travelers; Travelers sent the certified policy."},
+    {"date": "2026-03-03", "event": "Travelers denied the claim, attributing the roof condition to normal wear and tear rather than a covered cause of loss."}
+   ],
+   "trelloItemsAdded": 11,
+   "noEmail": false
+  },
+  {
+   "cardId": "6993648c36167ff0baf32a33",
+   "update": "This Allstate appraisal (Dan Jitaru) reached a signed award on 7/14/26, with the settlement check going through the office's digital check-endorsement platform. On 8/12/26 the endorsement needed a correction — the homeowner's email — before it could keep processing; funds were otherwise expected around 8/17/26.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-03-19", "event": "Allstate sent available documents on claim 0788030302, including a prior claim's estimate; Joseph asked about reinspection availability."},
+    {"date": "2026-04-11", "event": "LINEAR Roofing (Patrick Davis) forwarded Allstate's paperwork for Dan Jitaru's property, asking about next steps."},
+    {"date": "2026-04-12", "event": "Joseph confirmed the corrected claim number and date of loss in the Letter of Representation with the homeowner."},
+    {"date": "2026-04-23", "event": "Letter of Representation sent to Allstate, requesting notice of any prior payments."},
+    {"date": "2026-04-24", "event": "Allstate sent a copy of its estimate."},
+    {"date": "2026-05-02", "event": "Joseph's estimate and photos submitted to Allstate."},
+    {"date": "2026-05-10", "event": "Allstate questioned the basis for appraisal; Joseph responded that a dispute over the amount of loss existed and appraisal could proceed."},
+    {"date": "2026-05-16", "event": "Appraisal demand letter formally sent to Allstate."},
+    {"date": "2026-05-20", "event": "The appraisal firm and the opposing appraiser agreed on a joint inspection date of 6/19/26."},
+    {"date": "2026-06-26", "event": "The opposing appraiser's position was shared; Joseph authorized pursuing the maximum supportable amount."},
+    {"date": "2026-07-14", "event": "Appraisers reached an agreement; Allstate issued the signed award, with the settlement check to be mailed to the office and a certificate of completion required later to release recoverable depreciation."},
+    {"date": "2026-08-12", "event": "The settlement check's digital endorsement needed a correction (homeowner's email) before processing could continue."}
+   ],
+   "trelloItemsAdded": 12,
+   "noEmail": false
+  },
+  {
+   "cardId": "69962dcecea7166c293a21b4",
+   "update": "This Allstate appraisal (Niranjan Mohan) reached a signed award on 4/16/26. Legacy Roofing shared completion photos on 7/25/26, likely to support release of the remaining recoverable depreciation; no confirmation yet that Allstate has processed it.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-02-18", "event": "Legacy Roofing sent Niranjan Mohan's partial estimate and the carrier's denial letter; Joseph moved the file to public adjusting and had Legacy inform the homeowner that PA/LOR forms were coming."},
+    {"date": "2026-02-20", "event": "Letter of Representation sent to Allstate."},
+    {"date": "2026-02-26", "event": "Joseph requested a reinspection; Allstate said it was gathering certified policy documents."},
+    {"date": "2026-03-05", "event": "Estimate and photos submitted to Allstate."},
+    {"date": "2026-03-09", "event": "Allstate maintained no changes to the estimate and its supervisor confirmed a reinspection was not warranted after Joseph's escalation."},
+    {"date": "2026-03-18", "event": "Allstate confirmed receipt of the formal appraisal request and moved the claim under review."},
+    {"date": "2026-03-20", "event": "Allstate assigned an appraisal adjuster and sent appraisal acceptance instructions."},
+    {"date": "2026-04-09", "event": "Joseph and the opposing appraiser reached agreement on positions (O&P, high roof charge, removal activities) through the appraisal firm."},
+    {"date": "2026-04-16", "event": "Allstate issued the signed appraisal award, estimate, and settlement breakdown, noting depreciation would be released once a final invoice/certificate of completion is submitted."},
+    {"date": "2026-05-22", "event": "Joseph sent Legacy Roofing a bid requested by the mortgage company."},
+    {"date": "2026-07-25", "event": "Legacy Roofing shared completion photos for the claim, likely to support release of the remaining recoverable depreciation."}
+   ],
+   "trelloItemsAdded": 10,
+   "noEmail": false
   }
  ],
- "withEmail": 11,
+ "withEmail": 15,
  "noEmail": 0,
- "flaggedNeeded": 2
+ "flaggedNeeded": 3
 }

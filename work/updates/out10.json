@@ -372,9 +372,72 @@
    ],
    "trelloItemsAdded": 9,
    "noEmail": false
+  },
+  {
+   "cardId": "69c69518d51b611e9e45bf96",
+   "update": "State Farm formally refused the appraisal demand, saying the claim raises coverage questions appraisal cannot resolve; the office has confirmed to the contractor that an attorney referral is now the only path forward on this file.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-03-27", "event": "Contractor referred the file, describing hail damage to the garage door, gutters, roof, stairs, and fire pit; a measurement report was ordered."},
+    {"date": "2026-04-01", "event": "Appraisal demand package was finalized and sent to State Farm (claim 01-97L8-32S) with the homeowner's confirmation to proceed."},
+    {"date": "2026-04-28", "event": "Office followed up repeatedly with the homeowner and contractor through mid-May for any carrier response; homeowner forwarded prior State Farm correspondence."},
+    {"date": "2026-06-03", "event": "State Farm formally declined the appraisal demand, stating the claim raises coverage questions that appraisal cannot resolve."},
+    {"date": "2026-08-15", "event": "Office confirmed to the contractor that, since the carrier denied appraisal, an attorney is now the only path forward for this file."}
+   ],
+   "trelloItemsAdded": 5,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a6caf24f8d0200e38622641",
+   "update": "The appraisal demand was sent to Nationwide, which acknowledged receipt and said it would route the file to the appropriate department; the file now awaits the carrier's response.",
+   "needed": null,
+   "asOf": "2026-08-07",
+   "timeline": [
+    {"date": "2026-08-06", "event": "Draft demand package sent to the contractor for review; contractor approved it."},
+    {"date": "2026-08-06", "event": "Appraisal demand sent to the carrier (Nationwide), claim 120806-GR, with the homeowner copied."},
+    {"date": "2026-08-07", "event": "Carrier acknowledged receipt of the demand letter and said it would route it to the appropriate department."}
+   ],
+   "trelloItemsAdded": 3,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a0e3e552f96924b245dc8ce",
+   "update": "USAA refused to invoke the appraisal process, saying the dispute is over scope of damages rather than an issue appraisal can resolve; the office is now working to get the homeowner connected with an out-of-state attorney, and the file has moved to referred-out status.",
+   "needed": null,
+   "asOf": "2026-07-02",
+   "timeline": [
+    {"date": "2026-05-20", "event": "Contractor referred the file, describing damage (roof, gutters, garage doors, broken window)."},
+    {"date": "2026-05-20", "event": "Appraisal demand letter sent to the homeowner."},
+    {"date": "2026-05-23", "event": "Draft demand package sent to the contractor for review."},
+    {"date": "2026-05-27", "event": "Homeowner signed and contractor approved the estimate."},
+    {"date": "2026-05-27", "event": "Appraisal demand sent to the carrier (USAA), claim 006204399, with the homeowner and contractor copied."},
+    {"date": "2026-05-29", "event": "Files resent after the carrier reported not receiving them two days earlier."},
+    {"date": "2026-05-29", "event": "Carrier rejected the appraisal request outright, stating appraisal cannot be invoked for a disagreement in scope of damages."},
+    {"date": "2026-07-02", "event": "Contractor asked for a status update; office confirmed it is working on referring the file to an attorney."}
+   ],
+   "trelloItemsAdded": 0,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a0b6d014108beb2ad90c403",
+   "update": "This file was flagged in May for referral to an attorney, but follow-through stalled; the office has since asked the contractor twice for the carrier's estimate and updated property photos, since the original photo link expired, without a response.",
+   "needed": "Re-share the property photos (the previous link expired) and provide the carrier's estimate for this claim.",
+   "asOf": "2026-07-29",
+   "timeline": [
+    {"date": "2026-05-18", "event": "Contractor referred the file with the homeowner's contact information; office asked for the carrier estimate, EagleView report, photos, and damage description."},
+    {"date": "2026-05-19", "event": "Appraisal demand letter sent to the homeowner."},
+    {"date": "2026-05-19", "event": "Contractor shared the EagleView report."},
+    {"date": "2026-05-19", "event": "Contractor shared photos of the property damage."},
+    {"date": "2026-05-19", "event": "Contractor advised the file needs to be routed to an attorney; office asked whether to proceed, cancel, or archive."},
+    {"date": "2026-07-27", "event": "Followed up with the contractor asking to re-share the property photos, since the link had expired, and to provide the carrier's estimate."},
+    {"date": "2026-07-29", "event": "Followed up again with the contractor for the photos and carrier estimate; no response received yet."}
+   ],
+   "trelloItemsAdded": 7,
+   "noEmail": false
   }
  ],
- "withEmail": 22,
+ "withEmail": 26,
  "noEmail": 0,
- "flaggedNeeded": 0
+ "flaggedNeeded": 1
 }

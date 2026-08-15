@@ -248,5 +248,92 @@
   ],
   "trelloItemsAdded": 10,
   "noEmail": false
+ },
+ {
+  "cardId": "69fb9db811f2ee9bf0c7d150",
+  "update": "As of today, Joseph flagged a quantity discrepancy in the carrier appraiser's revised estimate and proposed working toward a final number so the file can close.",
+  "needed": null,
+  "asOf": "2026-08-15",
+  "timeline": [
+   {"date": "2026-05-06", "event": "Contractor submitted the file with inspection photos, the carrier's estimate, and a roof report."},
+   {"date": "2026-05-08", "event": "Office sent a draft estimate to the contractor, who approved it, and the demand package was sent to the carrier to formally invoke appraisal."},
+   {"date": "2026-05-27", "event": "Homeowner contacted the carrier directly proposing settlement figures, and the carrier named its appraiser."},
+   {"date": "2026-06-03", "event": "Umpire candidates were exchanged and a solo inspection date proposed."},
+   {"date": "2026-06-06", "event": "Office agreed to an umpire candidate."},
+   {"date": "2026-06-11", "event": "Homeowner confirmed the June 19 inspection."},
+   {"date": "2026-06-19", "event": "Carrier's appraiser fell ill and the inspection had to be rescheduled."},
+   {"date": "2026-06-26", "event": "Inspection was rescheduled to July 7; homeowner confirmed."},
+   {"date": "2026-07-07", "event": "Carrier's appraiser inspected the property; no separate Joseph inspection was needed since this is a pricing-only dispute."},
+   {"date": "2026-07-30", "event": "Homeowner checked on status; office confirmed it was still waiting on the carrier appraiser's report."},
+   {"date": "2026-07-31", "event": "Carrier's appraiser sent his estimate."},
+   {"date": "2026-08-01", "event": "Office reviewed the estimate and requested several additions."},
+   {"date": "2026-08-03", "event": "Carrier's appraiser sent a revised estimate, agreeing to some items and declining others."},
+   {"date": "2026-08-14", "event": "Carrier's appraiser followed up asking whether Joseph could agree to the revised estimate."},
+   {"date": "2026-08-15", "event": "Office flagged a quantity discrepancy and proposed working toward a final number to close the file."}
+  ],
+  "trelloItemsAdded": 15,
+  "noEmail": false
+ },
+ {
+  "cardId": "69af1741d0eb471d8522de97",
+  "update": "As of August 10, the contractor supplied proof that the mitigation and contents portions of the claim were already paid in full, supporting Joseph's proposal to narrow the appraisal to just the rebuild scope; the file is now waiting on the carrier's appraiser to respond to that proposal.",
+  "needed": null,
+  "asOf": "2026-08-15",
+  "timeline": [
+   {"date": "2026-03-09", "event": "Contractor's public adjuster sent a pre-appraisal settlement demand to the carrier; the carrier rejected it and proceeded to formal appraisal."},
+   {"date": "2026-03-17", "event": "Carrier named its appraiser; the two appraisers agreed on an umpire and a solo inspection date."},
+   {"date": "2026-03-18", "event": "Carrier confirmed the appraiser designation, noting the appraisal process typically runs 60-120 days."},
+   {"date": "2026-03-20", "event": "Homeowner confirmed the inspection schedule."},
+   {"date": "2026-03-30", "event": "Carrier's appraiser completed his inspection; office signed and returned the appraisal agreement."},
+   {"date": "2026-04-28", "event": "Carrier checked in on status since it hadn't logged the inspection on its end."},
+   {"date": "2026-04-30", "event": "Carrier's appraiser sent his position and estimate."},
+   {"date": "2026-05-15", "event": "Office reviewed the position and requested revisions, including the flooring pricing and the mitigation invoice."},
+   {"date": "2026-06-16", "event": "Carrier's appraiser responded to each item, agreeing to include some and requesting supporting documentation on others."},
+   {"date": "2026-07-06", "event": "Office thanked him for the detailed review and asked to align flooring pricing with the carrier's own allowance."},
+   {"date": "2026-08-07", "event": "Joseph proposed narrowing the appraisal to just the rebuild scope, since mitigation and contents were already paid to an agreed amount."},
+   {"date": "2026-08-10", "event": "Contractor sent proof of the paid-in-full mitigation and contents receipts."}
+  ],
+  "trelloItemsAdded": 12,
+  "noEmail": false
+ },
+ {
+  "cardId": "6a556994626512cba2967820",
+  "update": "As of today, the wind/hail claim (202503310173) is close to resolution: Joseph told the carrier's appraiser what still needs to be added to the estimate and said he is ready to sign off once it is. A separate water-damage claim on the same property (202605310012) is still in the pre-appraisal stage, waiting on a carrier-required re-inspection.",
+  "needed": null,
+  "asOf": "2026-08-15",
+  "timeline": [
+   {"date": "2026-07-13", "event": "Contractor's public adjuster formally invoked appraisal with the carrier on both claims tied to this property: the wind/hail claim (202503310173) and a separate water-damage claim (202605310012)."},
+   {"date": "2026-07-27", "event": "Carrier named its appraiser on the wind/hail claim, who proposed a July 31 inspection, an umpire candidate, and sent the appraisal agreement."},
+   {"date": "2026-07-28", "event": "Joseph agreed to the July 31 inspection date and to the proposed umpire."},
+   {"date": "2026-07-29", "event": "Office signed and returned the appraisal agreement to the carrier's appraiser."},
+   {"date": "2026-07-30", "event": "Homeowner confirmed the inspection window; the carrier's appraiser was asked to inspect solo since Joseph had a scheduling conflict."},
+   {"date": "2026-07-31", "event": "Carrier's appraiser inspected the property."},
+   {"date": "2026-08-03", "event": "Carrier's appraiser sent his estimate and asked to revisit the property for roof photos that had been corrupted."},
+   {"date": "2026-08-05", "event": "Homeowner confirmed availability for the carrier appraiser's roof re-visit; separately, on the water-damage claim, the carrier said it had not received the appraisal invocation and required a re-inspection before proceeding."},
+   {"date": "2026-08-06", "event": "Office acknowledged the carrier's response on the water-damage claim."},
+   {"date": "2026-08-08", "event": "Joseph reviewed the wind/hail estimate and requested several additions; the carrier's appraiser responded item by item, agreeing to some and declining others."},
+   {"date": "2026-08-15", "event": "Carrier's appraiser followed up, and Joseph outlined the last items needed to reach agreement, saying he is ready to sign off once they are included."}
+  ],
+  "trelloItemsAdded": 11,
+  "noEmail": false
+ },
+ {
+  "cardId": "69f27995e2c2ca78c69ab7aa",
+  "update": "As of today, the file is stalled in a pricing dispute over roof overhead-and-profit and the roof measurement; the carrier's appraiser has followed up twice asking how Joseph wants to proceed and is waiting on a reply.",
+  "needed": "Provide any roof measurement report showing a higher square footage than the carrier's appraiser used, if one exists, so Joseph can substantiate the requested measurement adjustment.",
+  "asOf": "2026-08-15",
+  "timeline": [
+   {"date": "2026-04-29", "event": "The referring firm assigned Joseph as the insured's appraiser and identified the carrier's appraiser."},
+   {"date": "2026-05-04", "event": "Carrier's appraiser sent his umpire list; office asked for his solo-inspection availability."},
+   {"date": "2026-05-21", "event": "Office selected an umpire and signed and returned the appraisal agreement."},
+   {"date": "2026-07-01", "event": "After several rounds of rescheduling around the homeowner's travel and work schedule, the inspection proceeded with the carrier's appraiser."},
+   {"date": "2026-07-14", "event": "The two appraisers spoke by phone to review the carrier appraiser's estimate."},
+   {"date": "2026-07-18", "event": "Joseph reviewed the estimate and requested several additions, including overhead and profit and a roof measurement adjustment."},
+   {"date": "2026-07-22", "event": "Carrier's appraiser declined the overhead-and-profit and measurement changes, citing his own pricing and roof sketch, but agreed to add a few minor items."},
+   {"date": "2026-07-29", "event": "Joseph reported the file was still in negotiation while he worked to get more documentation to support his requests."},
+   {"date": "2026-08-11", "event": "Carrier's appraiser followed up asking how Joseph wants to proceed."}
+  ],
+  "trelloItemsAdded": 9,
+  "noEmail": false
  }
 ]
