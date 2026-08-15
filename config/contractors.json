@@ -1,0 +1,241 @@
+{
+  "_comment": [
+    "Roster + overrides for the contractor update agent.",
+    "This file is NOT the source of truth for which contractors exist -- Trello is.",
+    "Each weekly run discovers every label on the Insured Appraisals board that has at",
+    "least one open card, and treats it as a client unless it appears in 'nonClientLabels'.",
+    "This file supplies the things Trello cannot know: display names, email domains,",
+    "per-rep splits, and the Send shareId once a page has been published."
+  ],
+
+  "board": {
+    "name": "Insured Appraisals",
+    "id": "ari:cloud:trello::board/workspace/65d7eb00496a914bf3ffb423/666e58adc67768660a580af4",
+    "url": "https://trello.com/b/lAdc1ZW8/insured-appraisals"
+  },
+
+  "gmail": {
+    "contractorInboundLabel": "AA - Roofers emailing us",
+    "contractorInboundLabelId": "Label_889619139836162734",
+    "owner": "josephdittmanappraiser@gmail.com"
+  },
+
+  "_stageMapComment": [
+    "Internal Trello list names are blunt and full of operator instructions.",
+    "Contractors see the client-facing stage, never the raw list name.",
+    "matchers are lowercase substrings tested against the lowercased list name, in order.",
+    "First stage whose matcher hits wins, so order matters -- most specific first."
+  ],
+  "stageMap": [
+    {
+      "stage": "Settled / invoicing",
+      "order": 9,
+      "blurb": "Position agreed or award signed. Invoice out.",
+      "matchers": ["paid", "invoice + payment link"]
+    },
+    {
+      "stage": "In umpire",
+      "order": 8,
+      "blurb": "The two appraisers did not agree. An umpire is deciding.",
+      "matchers": ["in umpire"]
+    },
+    {
+      "stage": "Negotiating with the carrier's appraiser",
+      "order": 7,
+      "blurb": "Positions exchanged. We are working the gap.",
+      "matchers": [
+        "sent oa my position",
+        "need to review oa",
+        "reviewed oa's position",
+        "carrier appraiser responded",
+        "2nd offer is to low",
+        "awaiting on opposing appraiser",
+        "joseph did first review"
+      ]
+    },
+    {
+      "stage": "Inspected / building our position",
+      "order": 6,
+      "blurb": "Property inspected. Our estimate and position are being prepared.",
+      "matchers": ["inspected", "estimate under review", "further ressearch", "admin work"]
+    },
+    {
+      "stage": "Inspection scheduling",
+      "order": 5,
+      "blurb": "Carrier's appraiser is named. Locking in the inspection date.",
+      "matchers": [
+        "carrier appraisers info provided",
+        "carrier appraiser info provided",
+        "need to confirm schedule",
+        "scheduled",
+        "for rescheduling"
+      ]
+    },
+    {
+      "stage": "Appraisal demanded / waiting on carrier",
+      "order": 4,
+      "blurb": "Demand is with the carrier. Waiting for them to name their appraiser.",
+      "matchers": [
+        "demand letters sent",
+        "appraiser named but no",
+        "no appraiser named",
+        "homesite files",
+        "state farm claims",
+        "sent to attorney",
+        "out of state"
+      ]
+    },
+    {
+      "stage": "Estimate sent - needs sign-off",
+      "order": 3,
+      "blurb": "Estimate is with you and/or the homeowner. We need approval or a signed AD to move.",
+      "matchers": ["estimates sent", "waiting for roofer's go signal"]
+    },
+    {
+      "stage": "Estimate being prepared",
+      "order": 2,
+      "blurb": "We are writing the estimate.",
+      "matchers": ["estimates prepared to send", "for supplement/or estimate only"]
+    },
+    {
+      "stage": "New / intake",
+      "order": 1,
+      "blurb": "File received. Confirming details before we demand appraisal.",
+      "matchers": [
+        "roofing company inquires",
+        "still verifying",
+        "pa inquires",
+        "pa's and attorney inquires",
+        "call homeowners",
+        "triage"
+      ]
+    }
+  ],
+
+  "_nonClientComment": "Labels that are markets, difficulty tags, staff assignments or workflow flags -- never a client. Matched case-insensitively.",
+  "nonClientLabels": [
+    "Houston", "Austin", "DFW", "San Antonio",
+    "payments", "Mid level", "Easy", "Hard", "On Hold",
+    "Lacking Info - need to follow up", "Call/ Follow up", "FOR RESCHEDULING",
+    "Appraiser: joseph Dittman", "Needs PA (Joseph)",
+    "Mark's task", "Erwin's task", "Direct Customer"
+  ],
+
+  "_contractorComment": [
+    "pageMode 'per-rep'  -> one Send page per named rep, plus one catch-all page for that",
+    "                      company's files with no rep resolved yet.",
+    "pageMode 'company'  -> one Send page for the whole company (the default).",
+    "shareId is written back by the weekly run the first time it publishes a page.",
+    "aliasLabels folds duplicate/typo labels into one client."
+  ],
+  "contractors": [
+    {
+      "label": "LINEAR roofing",
+      "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/6789f096f28b3d90d7c62897",
+      "aliasLabels": ["linear roofing"],
+      "company": "Linear Roofing & General Contractors",
+      "domains": ["linearroofing.com"],
+      "pageMode": "per-rep",
+      "affiliatedWith": "Strong House Pro",
+      "reps": [
+        { "name": "Rusty Coffman", "emails": ["rustyc@linearroofing.com", "rcoffman@stronghousepro.com"], "shareId": null },
+        { "name": "Zach Khan", "emails": ["zachariask@linearroofing.com", "zkhan@stronghousepro.com"], "shareId": null },
+        { "name": "Andres Soto", "emails": ["andres@linearroofing.com", "asoto@stronghousebrands.com"], "shareId": null },
+        { "name": "Travis Elliott", "emails": ["telliott@linearroofing.com", "telliott@stronghousepro.com"], "shareId": null },
+        { "name": "D. Webster", "emails": ["dwebster@linearroofing.com", "dwebster@stronghousepro.com"], "shareId": null },
+        { "name": "Andrew P.", "emails": ["andrewp@linearroofing.com"], "shareId": null },
+        { "name": "B. Serros", "emails": ["bserros@linearroofing.com"], "shareId": null },
+        { "name": "D. Hassenmiller", "emails": ["dhassenmiller@linearroofing.com"], "shareId": null },
+        { "name": "K. Bigham", "emails": ["kbigham@linearroofing.com"], "shareId": null },
+        { "name": "De Hoyos", "emails": ["dehoyos@linearroofing.com"], "shareId": null },
+        { "name": "A. Queen", "emails": ["aqueen@linearroofing.com"], "shareId": null },
+        { "name": "Robert F.", "emails": ["robertf@linearroofing.com"], "shareId": null },
+        { "name": "M. Meredith", "emails": ["mmeredith@linearroofing.com"], "shareId": null },
+        { "name": "I. Ausby", "emails": ["iausby@linearroofing.com"], "shareId": null },
+        { "name": "Justin K.", "emails": ["justink@linearroofing.com"], "shareId": null },
+        { "name": "G. Reber", "emails": ["greber@linearroofing.com"], "shareId": null }
+      ],
+      "shareId": null
+    },
+    {
+      "label": "Strong House Pro",
+      "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/69c177f6ee6b083568b6a6b3",
+      "company": "Stronghouse Pro",
+      "domains": ["stronghousepro.com", "stronghousebrands.com"],
+      "pageMode": "per-rep",
+      "affiliatedWith": "LINEAR roofing",
+      "reps": [
+        { "name": "M. Pierce", "emails": ["mpierce@stronghousepro.com"], "shareId": null },
+        { "name": "A. Mobalegh", "emails": ["amobalegh@stronghousepro.com"], "shareId": null }
+      ],
+      "shareId": null
+    },
+    {
+      "label": "Legacy Roofing",
+      "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/68e1a336e2496ed38981c6db",
+      "company": "Legacy Roofing GC",
+      "domains": ["legacyroofinggc.com"],
+      "pageMode": "company",
+      "reps": [
+        { "name": "Jazhiel M.", "emails": ["jazhielm@legacyroofinggc.com"] },
+        { "name": "Alex C.", "emails": ["alexc@legacyroofinggc.com"] },
+        { "name": "Roberto M.", "emails": ["robertom@legacyroofinggc.com"] },
+        { "name": "Jose G.", "emails": ["joseg@legacyroofinggc.com"] }
+      ],
+      "shareId": null
+    },
+    {
+      "label": "No Stress Claims",
+      "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/675bbb8fe256c9a8d7b12815",
+      "company": "No Stress Claims",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": null
+    },
+    {
+      "label": "Vince - assured value claims",
+      "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/666e58ad1dc51400eb5238fe",
+      "company": "Assured Value Claims",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": null
+    },
+    {
+      "label": "Cross country Public Adjusting",
+      "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/6842b18b2c83590ef73b83e2",
+      "company": "Cross Country Public Adjusting",
+      "domains": ["crosscountrypublicadjusting.com"],
+      "pageMode": "company",
+      "shareId": null
+    },
+    {
+      "label": "TCB Elite Fleet",
+      "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/69c5478508edf5cd6a0c082c",
+      "company": "TCB Elite Fleet LLC",
+      "domains": ["tcbelitefleet.com"],
+      "pageMode": "company",
+      "reps": [
+        { "name": "A. Stevens", "emails": ["astevens@tcbelitefleet.com"] },
+        { "name": "C. Schick", "emails": ["cschick@tcbelitefleet.com"] }
+      ],
+      "shareId": null
+    },
+    {
+      "label": "The lawgical firm",
+      "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/68e3a67e4b628e6f90368b9e",
+      "company": "The Lawgical Firm",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": null
+    },
+    {
+      "label": "ADC Roofing",
+      "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/69a71e042e5bf39d4ecc8b0d",
+      "company": "ADC Roofing",
+      "domains": ["adcroofing.com"],
+      "pageMode": "company",
+      "reps": [{ "name": "Farhan", "emails": ["farhan@adcroofing.com"] }],
+      "shareId": null
+    }
+  ]
+}
