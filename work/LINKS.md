@@ -1,6 +1,6 @@
 # Contractor status links — current as of this run
 
-90 live rep pages. Send each rep ONLY the link on their row.
+93 live rep pages. Send each rep ONLY the link on their row.
 
 ## LINEAR roofing
 
@@ -79,18 +79,18 @@
 | Baha Abushehab | 5 | https://www.send.co/a/spdevhk0 |
 | Clayton Grassi | 5 | https://www.send.co/a/zXWmm7Tj |
 | Omar Haner | 5 | https://www.send.co/a/HDqyl7Pa |
-| Christopher Mathis | 4 | https://www.send.co/a/Wdh4SK41 |
+| Christopher Mathis | 4 | https://www.send.co/a/Wdh4SK41 *(refresh pending)* |
 | Jacob Diaz | 4 | https://www.send.co/a/HyFEhfbE |
 | Luis Garcia | 4 | https://www.send.co/a/NmAH7dr2 |
-| Trey Elliott | 4 | https://www.send.co/a/56Mrout2 |
+| Trey Elliott | 4 | https://www.send.co/a/56Mrout2 *(refresh pending)* |
 | Amir Mobalegh | 3 | https://www.send.co/a/NifVZq81 |
 | Kevin Shuford | 3 | https://www.send.co/a/UsCWiuFS |
 | Melvin Pierce | 3 | https://www.send.co/a/IVL76bWg |
 | Rusty Coffman | 3 | https://www.send.co/a/rfKqhxtS |
 | Tim Berry | 3 | https://www.send.co/a/zCdvSAvl |
-| Aaron Faughn | 2 | https://www.send.co/a/eRCpUFsw |
-| Daniel Rodriguez | 2 | https://www.send.co/a/srHxOk2y |
-| Jeffrey Speight | 2 | https://www.send.co/a/XEJ8aIkj |
+| Aaron Faughn | 2 | https://www.send.co/a/eRCpUFsw *(refresh pending)* |
+| Daniel Rodriguez | 2 | https://www.send.co/a/srHxOk2y *(refresh pending)* |
+| Jeffrey Speight | 2 | https://www.send.co/a/XEJ8aIkj *(refresh pending)* |
 | Jose Diaz | 2 | https://www.send.co/a/MZbmhkIV |
 | Michael Shemas | 2 | https://www.send.co/a/iLdQjjop |
 | Ricardo Hernandez | 2 | https://www.send.co/a/Ydo49muU |
@@ -100,6 +100,9 @@
 | Garritt Doyle | 1 | https://www.send.co/a/BObKXMhK |
 | Jose Hernandez | 1 | https://www.send.co/a/VTYG7Q8l |
 | Marcus Stein | 1 | https://www.send.co/a/CdSdKzBe |
+| Patrick Nations | 1 | https://www.send.co/a/aIM59lx4 |
+| Samuel Peters | 1 | https://www.send.co/a/OrM1fbu1 |
+| Stephen Buttino | 1 | https://www.send.co/a/8IMjRXkV |
 | Tomas Cuevas | 1 | https://www.send.co/a/alXtyuZJ |
 
 ## Not yet published
@@ -107,9 +110,6 @@
 - Kevin Salazar (Strong House Pro, 4 files)
 - Joel Rivera (Strong House Pro, 4 files)
 - David Webster (Strong House Pro, 2 files)
-- Samuel Peters (Strong House Pro, 1 files)
-- Stephen Buttino (Strong House Pro, 1 files)
-- Patrick Nations (Strong House Pro, 1 files)
 
 ## Superseded links — do NOT send these
 

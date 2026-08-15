@@ -31,9 +31,13 @@ for extra in glob.glob(os.path.join(ROOT, 'work', 'publish', 'results*.json')):
 
 current, pending = [], []
 for m in MAN:
+    done = m['file'] in published
     sid = published.get(m['file']) or (m['shareId'] if m['action'] == 'edit' else None)
-    row = {'company': m['label'], 'rep': m['rep'], 'files': m['files'],
-           'shareId': sid, 'url': f"https://www.send.co/a/{sid}" if sid else None}
+    # An 'edit' page already has a URL, but until this run republishes it the page
+    # still shows the previous content. Say so rather than implying it is current.
+    row = {'company': m['label'], 'rep': m['rep'], 'files': m['files'], 'shareId': sid,
+           'url': f"https://www.send.co/a/{sid}" if sid else None,
+           'stale': bool(sid) and not done}
     (current if sid else pending).append(row)
 
 live_ids = {r['shareId'] for r in current if r['shareId']}
@@ -54,7 +58,9 @@ out = ["# Contractor status links — current as of this run", "",
        f"{len(current)} live rep pages. Send each rep ONLY the link on their row.", ""]
 for comp in sorted({r['company'] for r in current}):
     out += [f"## {comp}", "", "| Rep | Files | Link |", "|---|---|---|"]
-    out += [f"| {r['rep']} | {r['files']} | {r['url']} |" for r in current if r['company'] == comp]
+    out += [f"| {r['rep']} | {r['files']} | {r['url']}"
+            f"{' *(refresh pending)*' if r['stale'] else ''} |"
+            for r in current if r['company'] == comp]
     out.append("")
 if pending:
     out += ["## Not yet published", ""] + [f"- {r['rep']} ({r['company']}, {r['files']} files)" for r in pending] + [""]
@@ -67,5 +73,7 @@ if superseded:
 
 path = os.path.join(ROOT, 'work', 'LINKS.md')
 open(path, 'w').write("\n".join(out) + "\n")
-print(f"live: {len(current)}   pending: {len(pending)}   superseded: {len(superseded)}")
+fresh = sum(1 for r in current if not r['stale'])
+print(f"live+current: {fresh}   awaiting refresh: {len(current)-fresh}   "
+      f"not yet created: {len(pending)}   superseded: {len(superseded)}")
 print(f"written: work/LINKS.md")
