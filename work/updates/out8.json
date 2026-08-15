@@ -1,0 +1,52 @@
+{
+ "batch": 8,
+ "results": [
+  {
+   "cardId": "6a7111ed1bc516d92bf1c376",
+   "update": "The appraisal demand was submitted to Allstate on August 3, 2026 for claim 0830953030; the carrier has not yet responded or named an appraiser.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-08-03", "event": "Appraisal demand invoking the appraisal clause was sent to Allstate for claim 0830953030, naming Joseph Dittman as the insured's appraiser."}
+   ],
+   "trelloItemsAdded": 1,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a71126736620bca9cd963a3",
+   "update": "The appraisal demand was submitted to Allstate on August 3, 2026 for claim 0830451829; the carrier has not yet responded or named an appraiser.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-08-03", "event": "Appraisal demand invoking the appraisal clause was sent to Allstate for claim 0830451829, naming Joseph Dittman as the insured's appraiser."}
+   ],
+   "trelloItemsAdded": 1,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a71270bb252230c80d3afbe",
+   "update": "The appraisal demand was submitted to SageSure on August 3, 2026 for claim HO-2026-589318010; the carrier has not yet responded or named an appraiser.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-08-03", "event": "Appraisal demand invoking the appraisal clause was sent to SageSure for claim HO-2026-589318010, naming Joseph Dittman as the insured's appraiser."}
+   ],
+   "trelloItemsAdded": 1,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a71ff3c8f6cb653484f1163",
+   "update": "The appraisal demand was submitted to Farmers/Foremost on August 3, 2026 for claim 7009785804-1-1; the carrier has not yet responded or named an appraiser.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-08-03", "event": "Appraisal demand invoking the appraisal clause was sent to Farmers/Foremost for claim 7009785804-1-1, naming Joseph Dittman as the insured's appraiser."}
+   ],
+   "trelloItemsAdded": 1,
+   "noEmail": false
+  }
+ ],
+ "withEmail": 4,
+ "noEmail": 0,
+ "flaggedNeeded": 0
+}
