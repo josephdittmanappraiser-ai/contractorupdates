@@ -67,9 +67,16 @@ The nine client-facing stages, defined in `config/contractors.json`:
 config/contractors.json          roster, stage map, non-client labels, shareIds
 runbooks/daily-email-to-trello.md
 runbooks/weekly-send-refresh.md
+runbooks/schedules.md            cron + the exact trigger prompts
 templates/status-page.html       reference page: structure, CSS, writing rules
 logs/                            one line per run
 ```
+
+> **One manual step before this runs on its own.** Both Routines exist but are disabled:
+> Routines created through the API cannot carry connector grants on this account, so a fired
+> session would start with no Gmail, Trello or Send tools. Recreate them in the claude.ai
+> Routines UI with those three connectors attached — prompts and cron are in
+> [`runbooks/schedules.md`](runbooks/schedules.md).
 
 ---
 
