@@ -166,6 +166,13 @@
     "new list"
   ],
 
+  "_excludeCardMarkersComment": [
+    "Markers Joseph writes into a card's name or description to say it is not a live appraisal",
+    "file. A card carrying one never reaches a status page, whatever list it sits in.",
+    "Matched case-insensitively against card name + description."
+  ],
+  "excludeCardMarkers": ["[NOT AN APPRAISAL]", "NOT AN APPRAISAL", "DO NOT SHOW", "TEST CARD"],
+
   "_nonClientComment": "Labels that are markets, difficulty tags, staff assignments or workflow flags -- never a client. Matched case-insensitively.",
   "nonClientLabels": [
     "Houston", "Austin", "DFW", "San Antonio",
@@ -236,7 +243,8 @@
         { "name": "Roberto M.", "emails": ["robertom@legacyroofinggc.com"] },
         { "name": "Jose G.", "emails": ["joseg@legacyroofinggc.com"] }
       ],
-      "shareId": null
+      "shareId": "do5DL1Om",
+      "url": "https://www.send.co/a/do5DL1Om"
     },
     {
       "label": "No Stress Claims",
@@ -294,7 +302,8 @@
       "domains": ["adcroofing.com"],
       "pageMode": "company",
       "reps": [{ "name": "Farhan", "emails": ["farhan@adcroofing.com"] }],
-      "shareId": null
+      "shareId": "HEIQwf7s",
+      "url": "https://www.send.co/a/HEIQwf7s"
     }
   ]
 }

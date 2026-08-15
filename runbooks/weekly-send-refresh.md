@@ -74,10 +74,14 @@ shown. Do not silently present a truncated list as complete.
 Each subagent gets: its label(s), the board ARI, `stageMap`, the page-mode, the existing
 `shareId` (or null), and `templates/status-page.html` to follow.
 
-**Drop non-file cards first.** If the card's list name matches anything in `excludeLists`,
-discard it. Those lists hold contact records, agent rules, dividers and staff tasks — not
-files. A "Repeat clients" contact card showing up as a file on a status page is the most
-likely way this run embarrasses itself.
+**Drop non-file cards first.** Discard a card if either:
+- its list name matches anything in `excludeLists` — those lists hold contact records, agent
+  rules, dividers and staff tasks, not files; or
+- its name or description contains an `excludeCardMarkers` string, e.g. `[NOT AN APPRAISAL]`,
+  which Joseph writes on a card to take it out of the appraisal pipeline.
+
+A "Repeat clients" contact card showing up as a file on a status page is the most likely way
+this run embarrasses itself.
 
 **Stage mapping.** Lowercase the Trello list name, test `stageMap[].matchers` as substrings,
 first hit wins. Unmatched → `New / intake`. Order stages descending by `order`
