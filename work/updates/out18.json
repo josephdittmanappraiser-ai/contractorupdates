@@ -180,9 +180,145 @@
    ],
    "trelloItemsAdded": 7,
    "noEmail": false
+  },
+  {
+   "cardId": "67cc71e760349263a5ce7b17",
+   "update": "The two appraisers reached and executed an appraisal award in late June 2025, but the carrier denied the award, so the file has been referred out for litigation and is no longer active as an appraisal matter.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2025-03-06", "event": "The insured invoked appraisal on the carrier, naming Joseph Dittman as the appraiser."},
+    {"date": "2025-04-05", "event": "The carrier named its appraiser, and the two appraisers exchanged umpire options and signed the DOA."},
+    {"date": "2025-05-29", "event": "Joseph and the carrier's appraiser held the joint inspection at the property."},
+    {"date": "2025-06-07", "event": "The carrier's appraiser sent his initial estimate."},
+    {"date": "2025-06-22", "event": "Joseph pressed for a fuller scope on the roof; the carrier's appraiser initially disagreed but agreed to reconsider."},
+    {"date": "2025-06-24", "event": "The carrier's appraiser sent a revised estimate reflecting their phone conversation."},
+    {"date": "2025-06-26", "event": "Joseph agreed to sign off on the revised estimate."},
+    {"date": "2025-06-30", "event": "Both appraisers executed the appraisal agreement and award."},
+    {"date": "2025-07-01", "event": "Joseph's office forwarded the appraisal invoice and final award documents to the public adjuster's staff."},
+    {"date": "2025-08-11", "event": "The public adjuster's office reported the carrier denied the appraisal award, so the claim will now need to go to litigation to be settled."}
+   ],
+   "trelloItemsAdded": 10,
+   "noEmail": false
+  },
+  {
+   "cardId": "67a1879d4770a07ba9e7cd7f",
+   "update": "The insureds withdrew from the formal appraisal process in May 2025 after the carrier limited its scope; Joseph billed for the work already performed, and the matter is now being pursued outside the appraisal process.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2025-02-03", "event": "Public adjuster invoked appraisal on the carrier, naming Joseph Dittman as the insureds' appraiser."},
+    {"date": "2025-02-12", "event": "The carrier named its appraiser."},
+    {"date": "2025-03-25", "event": "A joint inspection was scheduled with the carrier's appraiser."},
+    {"date": "2025-05-27", "event": "The insureds withdrew their invocation of appraisal, citing the carrier's restricted scope, and asked that all appraisal activity stop."},
+    {"date": "2025-06-03", "event": "The carrier confirmed receipt and acknowledged the appraisal withdrawal."},
+    {"date": "2025-06-04", "event": "The carrier said the previously issued claim check would be reissued to list the insured and the public adjusting firm as payees."},
+    {"date": "2025-06-21", "event": "Joseph's office sent an invoice for appraisal services rendered prior to the withdrawal."}
+   ],
+   "trelloItemsAdded": 7,
+   "noEmail": false
+  },
+  {
+   "cardId": "67200d91b93a0a2730b34fc8",
+   "update": "The appraisal for this file stalled over an unpaid umpire fee that the insured never settled, and on September 25, 2025 the public adjuster formally withdrew the file from appraisal to pursue litigation instead.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2024-11-16", "event": "Joseph flagged to the public adjuster that he had not yet received the carrier appraiser's info for this file."},
+    {"date": "2024-12-07", "event": "Joseph continued following up for the carrier appraiser's contact info."},
+    {"date": "2025-06-21", "event": "Joseph flagged this file as needing the insured to pay the outstanding umpire fee."},
+    {"date": "2025-07-19", "event": "Joseph again flagged the unpaid umpire fee and asked the public adjuster for a status update."},
+    {"date": "2025-08-13", "event": "The public adjuster reported the opposing appraiser said he had not received an update from Joseph."},
+    {"date": "2025-09-01", "event": "Joseph sent the umpire invoice to the public adjuster to relay to the insured for payment."},
+    {"date": "2025-09-13", "event": "Joseph followed up asking whether the insured had paid; the public adjuster had been unable to reach him."},
+    {"date": "2025-09-25", "event": "The public adjuster formally withdrew the file from appraisal, saying the matter is now best suited for litigation."}
+   ],
+   "trelloItemsAdded": 8,
+   "noEmail": false
+  },
+  {
+   "cardId": "682ce4f5865b5efd1362d283",
+   "update": "Joseph and the carrier's appraiser both completed their property inspections and the file moved into negotiation between the two sides; no further correspondence was found after that point, consistent with the file having since been referred out.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2025-05-20", "event": "The contractor referred the file to Joseph as a potential appraisal client."},
+    {"date": "2025-05-29", "event": "Joseph sent the contractor's estimate for review."},
+    {"date": "2025-06-10", "event": "The contractor confirmed the estimate was ready to send to the carrier."},
+    {"date": "2025-06-16", "event": "Joseph sent the signed appraisal demand letter to the carrier."},
+    {"date": "2025-06-24", "event": "Joseph informed the homeowner that his inspection was set for June 30 and the carrier's appraiser's for July 7."},
+    {"date": "2025-07-07", "event": "Both appraisers completed their inspections of the property."},
+    {"date": "2025-07-17", "event": "Joseph told the homeowner the file was in negotiation following both inspections."}
+   ],
+   "trelloItemsAdded": 7,
+   "noEmail": false
+  },
+  {
+   "cardId": "686ed56fdacdfd7e3616d00b",
+   "update": "The two appraisers reached and signed a final appraisal award on October 3, 2025, resolving the claim through the appraisal process; Joseph had already sent his invoice for services to the contractor before the award closed out.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2025-07-09", "event": "The contractor flagged that repairs were already approved but some damages were unaccounted for, and requested the appraisal process begin."},
+    {"date": "2025-07-15", "event": "Joseph sent his estimate for the contractor's review before sending it to the carrier."},
+    {"date": "2025-07-16", "event": "The carrier's desk adjuster confirmed receipt of the appraisal demand."},
+    {"date": "2025-07-23", "event": "The carrier named its appraiser."},
+    {"date": "2025-08-05", "event": "Joint inspection dates were set for both appraisers."},
+    {"date": "2025-08-10", "event": "Joseph's inspection date was revised to August 26."},
+    {"date": "2025-08-11", "event": "Both appraisers signed the DOA/SOU agreement."},
+    {"date": "2025-09-19", "event": "Joseph sent the appraisal invoice to the contractor for payment."},
+    {"date": "2025-10-03", "event": "The two appraisers completed and signed the final appraisal award."}
+   ],
+   "trelloItemsAdded": 9,
+   "noEmail": false
+  },
+  {
+   "cardId": "685d86741eae1c3db6ed993b",
+   "update": "The file was referred to the insured's attorney after a dispute arose over prior-loss information referenced in the carrier's award; the attorney has stayed in contact with Joseph since, most recently confirming the parties' roles on the file, but no further appraisal resolution has been reported.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2025-06-26", "event": "The carrier's appraiser reached out; Joseph selected an umpire and provided inspection availability."},
+    {"date": "2025-07-07", "event": "An inspection was scheduled with the homeowner for July 24."},
+    {"date": "2025-07-19", "event": "Joseph arranged a substitute inspector for his side and the inspection was rescheduled to July 26."},
+    {"date": "2025-08-06", "event": "The carrier's appraiser sent an award letter with his position, including prior-loss information."},
+    {"date": "2025-08-22", "event": "Joseph raised concerns to all parties that coverage decisions appeared to be made within the appraisal, asking for clarification on scope."},
+    {"date": "2025-08-27", "event": "The carrier's adjuster clarified the prior-loss info was context, not a coverage decision, and the carrier's appraiser sent a revised award letter."},
+    {"date": "2025-09-02", "event": "Joseph told the public adjuster he believed the file would be going to an attorney, and sent his invoice to be paid upon file closure."},
+    {"date": "2025-09-15", "event": "The carrier's appraiser continued asking how Joseph wanted to proceed to resolve the matter."},
+    {"date": "2025-11-05", "event": "The insured's attorney requested photos of the property damage, which Joseph provided."},
+    {"date": "2026-04-28", "event": "The attorney followed up, confirming Vince had been the public adjuster and Joseph the appraiser on the file."}
+   ],
+   "trelloItemsAdded": 10,
+   "noEmail": false
+  },
+  {
+   "cardId": "67b13ed83d83b06a42b09504",
+   "update": "The appraisal concluded with a signed award in July 2025, but the appraisal and public adjuster fees have gone unpaid since; Joseph has escalated the matter to the insured's attorney, who has requested supporting documentation to resolve payment.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2025-02-16", "event": "The carrier's appraiser sent Joseph the umpire candidate list."},
+    {"date": "2025-02-20", "event": "Joseph selected an umpire and the carrier's appraiser sent the signed agreement for the file."},
+    {"date": "2025-02-21", "event": "The carrier's appraiser sent his position, based on a third-party engineer's report excluding certain disputed damage."},
+    {"date": "2025-03-21", "event": "Joseph sent his position along with a supporting photo report and comparison analysis."},
+    {"date": "2025-03-24", "event": "After the two appraisers failed to reach agreement, the carrier's appraiser moved to formally invoke the umpire."},
+    {"date": "2025-03-29", "event": "The umpire signed the agreement and both appraisers agreed to a solo inspection."},
+    {"date": "2025-04-18", "event": "The carrier's appraiser submitted his position to the umpire."},
+    {"date": "2025-05-02", "event": "Joseph submitted his position to the umpire, which was substantially higher than his earlier estimate and prompted a dispute over the increase."},
+    {"date": "2025-05-10", "event": "Joseph provided additional supporting documentation from the insured, including a witness statement and a property value assessment."},
+    {"date": "2025-05-29", "event": "The umpire completed a solo inspection of the property."},
+    {"date": "2025-07-25", "event": "The umpire issued a proposed estimate; Joseph agreed to sign, but the carrier's appraiser declined to sign."},
+    {"date": "2025-07-30", "event": "The umpire issued the final award."},
+    {"date": "2025-08-02", "event": "Joseph sent his appraisal invoice and the umpire fee to the public adjuster's office for payment."},
+    {"date": "2025-08-25", "event": "The homeowner raised concerns that the invoice didn't match what she understood from the insurance company, and Joseph forwarded her concerns to the public adjuster's office."},
+    {"date": "2025-12-07", "event": "After the fees remained unpaid, Joseph escalated the matter, looping in the insured's attorney, who requested supporting contract documentation that Joseph provided."}
+   ],
+   "trelloItemsAdded": 15,
+   "noEmail": false
   }
  ],
- "withEmail": 8,
+ "withEmail": 15,
  "noEmail": 0,
  "flaggedNeeded": 1
 }

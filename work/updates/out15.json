@@ -147,9 +147,263 @@
    ],
    "trelloItemsAdded": 6,
    "noEmail": false
+  },
+  {
+   "cardId": "6a62919c1e65ff831c20c940",
+   "update": "The August 7 solo inspection was confirmed and completed as scheduled after a brief carrier-side delay from an adjuster on leave; the file is now in the position-building stage.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-07-23", "event": "Referring public adjuster formally invoked appraisal with Allstate."},
+    {"date": "2026-07-27", "event": "Allstate advised the previously assigned adjuster was on extended leave, delaying the file."},
+    {"date": "2026-08-02", "event": "Allstate confirmed the claim was forwarded to its Appraisal Department for further review."},
+    {"date": "2026-08-04", "event": "Carrier's appraiser (Thomas Vincent) reached out with a DOA/SOU; office scheduled a solo inspection for August 7."},
+    {"date": "2026-08-04", "event": "Carrier's appraisal firm sent its acknowledgment of the claim."},
+    {"date": "2026-08-05", "event": "Office sent the inspection-schedule notice to the homeowner; PA's scheduling team confirmed August 7 at 12:30 PM."},
+    {"date": "2026-08-05", "event": "Office confirmed the August 7 inspection to the carrier's appraiser, including interior access."}
+   ],
+   "trelloItemsAdded": 7,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a74a3151b32ea51d238b30e",
+   "update": "The joint inspection was scheduled for August 14 (adjusted to a 2:00 PM arrival per Joseph's appraiser) with an umpire already agreed with the carrier's appraiser; the homeowner has been supplying extensive supporting documentation directly.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-07-31", "event": "Referring public adjuster forwarded a claim status update to the office."},
+    {"date": "2026-08-06", "event": "Homeowner sent supporting documentation directly: interior/exterior photos, AC installation records, and HVAC and roof estimates, noting items missing from the carrier's estimate."},
+    {"date": "2026-08-06", "event": "Carrier's appraiser asked the homeowner to loop Joseph into future correspondence; documents were forwarded to Joseph."},
+    {"date": "2026-08-07", "event": "Carrier's appraiser (Justin Drouant) reached out with the SOU; office proposed a joint inspection for August 14 and requested umpire selection."},
+    {"date": "2026-08-08", "event": "Office sent the DOA/SOU to the carrier's appraiser."},
+    {"date": "2026-08-10", "event": "Joseph's appraiser requested an earlier arrival time; office adjusted the August 14 inspection to 2:00 PM and notified the carrier's appraiser."},
+    {"date": "2026-08-10", "event": "Carrier's appraiser confirmed the inspection date and umpire were already settled."}
+   ],
+   "trelloItemsAdded": 7,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a5e938d4bbe12aea94219c6",
+   "update": "Two related Texas Farm Bureau claims on this property are moving together: the windstorm claim's joint inspection was held August 11 with Ty Patch as umpire, and the hurricane claim's inspection was scheduled for August 13 with Wayne Wagner as the carrier's appraiser.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-06-15", "event": "Referring public adjuster formally invoked appraisal with Texas Farm Bureau for the hurricane-damage claim."},
+    {"date": "2026-06-16", "event": "Referring public adjuster formally invoked appraisal for a second, windstorm-damage claim on the same property."},
+    {"date": "2026-07-20", "event": "Carrier's appraiser (Cody Butler) reached out on the windstorm claim; office proposed a joint inspection."},
+    {"date": "2026-07-21", "event": "After a scheduling conflict, office and carrier's appraiser agreed on Ty Patch as umpire and rescheduled the windstorm-claim joint inspection to August 11."},
+    {"date": "2026-07-29", "event": "Homeowner confirmed the August 11 joint inspection for the windstorm claim, including interior access."},
+    {"date": "2026-08-05", "event": "Office followed up with Texas Farm Bureau on the hurricane claim after no appraiser had been named; carrier resent its June notification letter."},
+    {"date": "2026-08-05", "event": "Carrier named its appraiser (Wayne Wagner) on the hurricane claim; office requested his availability for a joint inspection."},
+    {"date": "2026-08-07", "event": "Carrier's appraiser confirmed availability for August 13; office added it to the calendar."},
+    {"date": "2026-08-11", "event": "Homeowner confirmed the August 13 inspection for the hurricane claim, including interior access."},
+    {"date": "2026-08-13", "event": "Office reminded the carrier's appraiser of the scheduled August 13 inspection."}
+   ],
+   "trelloItemsAdded": 10,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a60dd97f6edd165382d07b1",
+   "update": "The solo inspection was scheduled and confirmed for August 11 with Scott Schmidt as umpire; the file has moved into the position-building stage since.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-07-22", "event": "Contractor referred the file after AAA denied the claim on a sub-inspector re-inspection, sending an estimate and photos."},
+    {"date": "2026-07-22", "event": "Office asked the contractor for the carrier estimate and photos to prepare a new estimate."},
+    {"date": "2026-07-23", "event": "Contractor provided the requested photo files; appraisal demand letter sent to the homeowner."},
+    {"date": "2026-07-26", "event": "Draft demand package sent to the contractor for review; contractor approved it."},
+    {"date": "2026-07-28", "event": "Office followed up on the still-unsigned demand letter; contractor got the homeowner to sign it."},
+    {"date": "2026-07-28", "event": "Demand package sent to AAA, copying the homeowner and contractor."},
+    {"date": "2026-07-31", "event": "Carrier's appraiser (Richard Jasbring) reached out; office proposed a solo inspection for August 11."},
+    {"date": "2026-08-01", "event": "Homeowner confirmed the August 11 inspection."},
+    {"date": "2026-08-03", "event": "Joseph selected Scott Schmidt as umpire; carrier's appraiser confirmed the inspection and sent the DOA/SOU."}
+   ],
+   "trelloItemsAdded": 9,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a6230e4ce385fa197ea01b1",
+   "update": "The joint inspection was confirmed for August 11 with the carrier's appraiser after umpire options were exchanged; the file has since moved to the position-building stage.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-07-23", "event": "Referring public adjuster formally invoked appraisal with State Farm."},
+    {"date": "2026-07-28", "event": "State Farm named its appraiser (Dakota McCombs)."},
+    {"date": "2026-07-28", "event": "Carrier's appraiser reached out; office proposed a joint inspection for August 11."},
+    {"date": "2026-07-28", "event": "Carrier's appraiser confirmed the August 11 inspection on their calendar."},
+    {"date": "2026-07-29", "event": "Joseph shared umpire options with the carrier's appraiser."},
+    {"date": "2026-07-29", "event": "Carrier's appraiser asked for the signed DOA/SOU."}
+   ],
+   "trelloItemsAdded": 6,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a736b4fd5df9b2de9a6609e",
+   "update": "Since the carrier's appraiser reported he had already inspected the property, the office is coordinating a solo-inspection date (proposed August 11) and awaiting his umpire list before building the position.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-06-29", "event": "Carrier's settlement-status letter on the underlying claim was added to the file for reference."},
+    {"date": "2026-07-13", "event": "Office sent a pre-appraisal demand to Progressive/ASI in an effort to resolve the claim before invoking appraisal."},
+    {"date": "2026-07-29", "event": "Office formally invoked appraisal with Progressive/ASI on the insureds' behalf."},
+    {"date": "2026-08-03", "event": "Carrier sent its appraisal demand response naming its appraiser."},
+    {"date": "2026-08-04", "event": "Carrier's appraiser (Stephen Medeiros) reached out; he indicated he had already inspected the property and requested Joseph's umpire list."},
+    {"date": "2026-08-04", "event": "Office confirmed the file would proceed as a solo inspection and asked the carrier's appraiser for his inspection date."},
+    {"date": "2026-08-05", "event": "Office proposed August 11 at 3:00 PM for the inspection."},
+    {"date": "2026-08-07", "event": "File moved to the office's biweekly scheduled-review tracking."}
+   ],
+   "trelloItemsAdded": 8,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a4453393179de57567429ba",
+   "update": "Since the home was sold and the roof already replaced before an inspection could occur, the appraisal is proceeding on pre-replacement photos that the homeowner and contractor have now supplied; the carrier's appraiser is still finalizing his DOA/inspection logistics.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-06-30", "event": "Contractor referred the file; appraisal demand letter sent to the homeowner."},
+    {"date": "2026-07-02", "event": "Homeowner signed the demand letter."},
+    {"date": "2026-07-05", "event": "Demand package sent to Allstate, copying the homeowner and contractor."},
+    {"date": "2026-07-06", "event": "Allstate said a second inspection was required before its appraisal department would take over; homeowner offered additional photos."},
+    {"date": "2026-07-15", "event": "Allstate said there were no supporting documents on file yet and asked for the appraiser's name and dispute reasoning."},
+    {"date": "2026-07-18", "event": "Allstate sent the homeowner a deductible estimate."},
+    {"date": "2026-07-20", "event": "Office followed up with Allstate on the outstanding appraisal demand."},
+    {"date": "2026-07-21", "event": "Carrier's appraisal firm sent its acknowledgment of the claim."},
+    {"date": "2026-07-22", "event": "Carrier's appraiser (William Arko) reached out with an umpire list; office requested his availability for a solo inspection."},
+    {"date": "2026-07-23", "event": "Carrier's appraiser said he would confirm availability once the signed DOA was received, citing high volume."},
+    {"date": "2026-07-31", "event": "Homeowner reported the house had been sold and the roof already replaced; asked whether the appraisal could proceed on photos and requested the contractor's pre-replacement pictures."},
+    {"date": "2026-08-01", "event": "Office relayed the photo request to the contractor; homeowner also sent one set of pre-replacement photos directly."},
+    {"date": "2026-08-07", "event": "Contractor sent photos taken before the roof tear-off."}
+   ],
+   "trelloItemsAdded": 13,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a20b302452677803b649e18",
+   "update": "The solo inspection was confirmed for August 12 with the carrier's newly assigned appraiser after a prolonged wait for Assurant to name one; the file should now be moving into the position-building stage.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-05-28", "event": "Contractor shared a photo album to refer the file; office requested the carrier estimate, EagleView report, and other supporting details."},
+    {"date": "2026-06-03", "event": "Contractor sent the EagleView report; office asked for photos and a damage description."},
+    {"date": "2026-06-08", "event": "Draft demand package sent to the contractor for review; contractor approved it."},
+    {"date": "2026-06-09", "event": "Demand package sent to Assurant, copying the homeowner and contractor."},
+    {"date": "2026-06-11", "event": "Files resent to Assurant at the adjuster's request."},
+    {"date": "2026-06-25", "event": "Homeowner confirmed no carrier updates had been received yet."},
+    {"date": "2026-07-09", "event": "Office followed up with Assurant on the homeowner's behalf after continued silence."},
+    {"date": "2026-07-15", "event": "Assurant acknowledged the appraisal demand and said it would provide its appraiser's contact information."},
+    {"date": "2026-07-27", "event": "Office sent further follow-ups to Assurant on the still-outstanding appraiser assignment."},
+    {"date": "2026-08-04", "event": "Carrier named its appraiser (Jay Adame, Sedgwick); office requested his umpire list and exchanged the DOA."},
+    {"date": "2026-08-08", "event": "Office signed and returned the DOA to the carrier's appraiser."},
+    {"date": "2026-08-10", "event": "Carrier's appraiser confirmed a solo inspection for August 12 around 10:30 AM; office added it to the calendar."}
+   ],
+   "trelloItemsAdded": 12,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a6bd9576dc67e3de6bfe335",
+   "update": "The joint inspection was held August 12 as scheduled with the carrier's appraiser; the file has moved to the position-building stage.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-07-30", "event": "Referring public adjuster formally invoked appraisal with Homebound."},
+    {"date": "2026-07-31", "event": "Carrier named its appraiser (Reginald Douglas)."},
+    {"date": "2026-07-31", "event": "Office reached out to the carrier's appraiser requesting his umpire list and inspection availability."},
+    {"date": "2026-08-03", "event": "Carrier's appraiser sent his umpire list and mid-August availability; office proposed a joint inspection for August 12."},
+    {"date": "2026-08-11", "event": "Office sent the inspection-schedule notice to the homeowner; PA's scheduling team confirmed August 12 at 10:00-11:00 AM."},
+    {"date": "2026-08-12", "event": "Joint inspection held as scheduled; file moved to Inspected stage."}
+   ],
+   "trelloItemsAdded": 6,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a7260731ce5c57f6a502346",
+   "update": "The joint inspection was confirmed for August 13 after the homeowner's confirmation came through the day before; umpire selection (Jeremy Settles proposed) is still being finalized with the carrier's appraiser.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-08-04", "event": "Referring public adjuster formally invoked appraisal with HOAIC."},
+    {"date": "2026-08-05", "event": "HOAIC agreed to move forward with appraisal and named its appraiser (Michael Mattammal)."},
+    {"date": "2026-08-06", "event": "Office reached out to the carrier's appraiser requesting his umpire list and inspection availability."},
+    {"date": "2026-08-07", "event": "Carrier's appraiser sent his umpire list and availability; office proposed a joint inspection for August 13."},
+    {"date": "2026-08-08", "event": "Joseph proposed Jeremy Settles as umpire."},
+    {"date": "2026-08-12", "event": "Office sent the inspection-schedule notice to the homeowner; PA's scheduling team confirmed August 13 at 9:45-10:45 AM."}
+   ],
+   "trelloItemsAdded": 6,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a394e61c399533150eaa97d",
+   "update": "A solo inspection was confirmed and scheduled for August 15 with Jamie Lemon as umpire; the file should be entering the position-building stage today.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-06-22", "event": "Contractor referred the file after Allstate denied full roof replacement; appraisal demand letter sent to the homeowner."},
+    {"date": "2026-06-26", "event": "Homeowner said he never received the demand letter; office resent it, copying the contractor."},
+    {"date": "2026-07-29", "event": "Demand package sent to Allstate, copying the homeowner and contractor."},
+    {"date": "2026-07-30", "event": "Allstate confirmed receipt and forwarded the documentation for review."},
+    {"date": "2026-08-03", "event": "Carrier's appraiser reached out with a DOA naming Jamie Lemon as umpire and offered inspection dates."},
+    {"date": "2026-08-04", "event": "Office sent the signed DOA/SOU and scheduled a solo inspection for August 15 at 9:00 AM; carrier's appraiser confirmed."}
+   ],
+   "trelloItemsAdded": 6,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a7126a67d672bc6e46cc0c1",
+   "update": "The joint inspection took place August 14 as scheduled, with Jimmy Heilander as umpire; the referring PA has since sent an updated estimate for the demand to be resent with, and the card has moved to Inspected.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-08-03", "event": "Referring public adjuster formally invoked appraisal with Allstate."},
+    {"date": "2026-08-07", "event": "Allstate confirmed receipt of the appraisal request."},
+    {"date": "2026-08-07", "event": "Carrier's appraiser (Frank Liddell) reached out requesting an inspection as soon as possible; office proposed August 14 due to a scheduling conflict on the 13th."},
+    {"date": "2026-08-08", "event": "Carrier's appraiser confirmed August 14; Joseph selected Jimmy Heilander as umpire."},
+    {"date": "2026-08-10", "event": "Office adjusted the arrival time due to a prior inspection and asked for the signed DOA/SOU."},
+    {"date": "2026-08-11", "event": "Referring public adjuster forwarded a tarp invoice and requested additional kitchen items be added to the estimate."},
+    {"date": "2026-08-12", "event": "Office sent the inspection-schedule notice to the homeowner; PA's scheduling team confirmed August 14 at 11:30 AM-12:30 PM."},
+    {"date": "2026-08-13", "event": "Referring public adjuster sent an updated estimate and asked that the demand be resent to include it."},
+    {"date": "2026-08-14", "event": "Joint inspection held; file moved to Inspected stage."}
+   ],
+   "trelloItemsAdded": 9,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a5f9d9e9ff626fc8cb78755",
+   "update": "The joint inspection was held August 14 as scheduled, with Ty Patch on record as umpire; the file has moved to the position-building stage.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-07-19", "event": "Contractor referred the file, noting the claim was approved but had a high deductible and metal exclusion; sent the roof report and carrier estimate."},
+    {"date": "2026-07-22", "event": "Draft demand package sent to the contractor for review; contractor approved it, and office asked for help getting the homeowner to sign."},
+    {"date": "2026-07-28", "event": "Signed demand package sent to the carrier, copying the homeowner and contractor."},
+    {"date": "2026-08-04", "event": "Contractor followed up for a status update; office confirmed the carrier had acknowledged receipt and the claim was under review."},
+    {"date": "2026-08-07", "event": "Carrier's appraiser (Adam Cabrera) reached out with a DOA naming Ty Patch as umpire; office proposed a joint inspection for August 14."},
+    {"date": "2026-08-08", "event": "Carrier's appraiser confirmed August 14 at 12:30 PM."},
+    {"date": "2026-08-10", "event": "Office confirmed the August 14 joint inspection on the calendar, pending homeowner confirmation."},
+    {"date": "2026-08-14", "event": "Joint inspection held; file moved to Inspected stage."}
+   ],
+   "trelloItemsAdded": 8,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a6a56cc78c8ec2c20251f75",
+   "update": "The August 14 joint inspection was held as confirmed, with Scott Schmidt on record as umpire; the file should be moving into the position-building stage.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-07-27", "event": "Referring public adjuster shared the claim file via ClaimWizard; office confirmed receipt."},
+    {"date": "2026-07-28", "event": "Carrier's appraiser reached out; office requested any claim documents and asked who referred the file."},
+    {"date": "2026-07-29", "event": "Office confirmed the necessary documents were in hand and asked for the carrier's appraiser's inspection availability, noting Joseph would review umpire options."},
+    {"date": "2026-08-03", "event": "Joseph shared umpire candidates; carrier's appraiser selected Scott Schmidt as umpire and said he would send the signed agreement."},
+    {"date": "2026-08-05", "event": "Office and carrier's appraiser settled on a joint inspection for August 14 at 10:00 AM; signed agreement exchanged."},
+    {"date": "2026-08-07", "event": "Homeowner confirmed the August 14 joint inspection."},
+    {"date": "2026-08-14", "event": "Joint inspection held as scheduled with the carrier's appraiser."}
+   ],
+   "trelloItemsAdded": 7,
+   "noEmail": false
   }
  ],
- "withEmail": 8,
+ "withEmail": 22,
  "noEmail": 0,
  "flaggedNeeded": 0
 }
