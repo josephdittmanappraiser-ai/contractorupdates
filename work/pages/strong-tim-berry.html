@@ -10,12 +10,13 @@
 <div class="tile alert"><span class="n">0</span><span class="l">Need you</span></div>
 <div class="tile good"><span class="n">1</span><span class="l">Settled</span></div>
 </section>
-<section class="stage"><div class="stage-head"><h2>Settled - paid</h2><span class="count">1 file</span></div><p class="stage-blurb">Closed out and paid. Nothing outstanding.</p>
-<div class="file"><div class="file-top"><h3>SHEILA BARNETT</h3><span class="when">last activity 2026-07-03</span></div><p class="meta">5176 YORKSHIRE DRIVE PINSON, AL 35126-0075 &middot; Claim 0820350668</p><p class="what">Closed out and paid. Nothing outstanding.</p></div>
-</section>
 <section class="stage"><div class="stage-head"><h2>Referred out (attorney or public adjuster)</h2><span class="count">2 files</span></div><p class="stage-blurb">Appraisal was not the right route. The file has moved to an attorney or a public adjuster.</p>
 <div class="file"><div class="file-top"><h3>Alphonso And Mary Ransaw</h3><span class="when">last activity 2026-07-29</span></div><p class="what">Appraisal was not the right route. The file has moved to an attorney or a public adjuster.</p></div>
 <div class="file"><div class="file-top"><h3>JUSTIN LASAGNA</h3><span class="when">last activity 2026-07-21</span></div><p class="what">Appraisal was not the right route. The file has moved to an attorney or a public adjuster.</p></div>
+</section>
+<hr class="settled-divider"><p class="settled-lead">Closed files &mdash; nothing needed from you on these.</p>
+<section class="stage settled"><div class="stage-head"><h2>Settled - paid</h2><span class="count">1 file</span></div><p class="stage-blurb">Closed out and paid. Nothing outstanding.</p>
+<div class="file"><div class="file-top"><h3>SHEILA BARNETT</h3><span class="when">last activity 2026-07-03</span></div><p class="meta">5176 YORKSHIRE DRIVE PINSON, AL 35126-0075 &middot; Claim 0820350668</p><p class="what">Closed out and paid. Nothing outstanding.</p></div>
 </section>
 <section class="foot"><p>Questions on any file here? Reply to your last email thread with us, or call 737-258-3127.</p><p class="fine">This page refreshes every Monday morning. Bookmark it &mdash; the link stays the same.</p></section>
 <style>
@@ -84,6 +85,21 @@
     margin:10px 0 0; padding:9px 12px; border-radius:9px;
     background:rgba(194,65,12,.10); color:var(--alert);
     font-size:14px; font-weight:560;
+  }
+
+  /* Settled work sits at the bottom, greened out and struck through, so the files
+     still needing attention are what a contractor reads first. */
+  .stage.settled{opacity:.8}
+  .stage.settled .stage-head h2{color:var(--good)}
+  .stage.settled .file{border-color:color-mix(in srgb, var(--good) 35%, var(--line))}
+  .stage.settled .file h3{color:var(--good); text-decoration:line-through}
+  .stage.settled .meta,
+  .stage.settled .what{text-decoration:line-through; color:var(--muted)}
+  .settled-divider{
+    margin:34px 0 18px; border:0; border-top:2px solid var(--good); opacity:.45;
+  }
+  .settled-lead{
+    margin:-8px 0 18px; font-size:13.5px; color:var(--good); font-weight:600;
   }
 
   .foot{border-top:1px solid var(--line); padding-top:18px; color:var(--muted); font-size:14px}

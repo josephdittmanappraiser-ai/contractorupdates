@@ -10,7 +10,8 @@
 <div class="tile alert"><span class="n">0</span><span class="l">Need you</span></div>
 <div class="tile good"><span class="n">3</span><span class="l">Settled</span></div>
 </section>
-<section class="stage"><div class="stage-head"><h2>Settled - paid</h2><span class="count">3 files</span></div><p class="stage-blurb">Closed out and paid. Nothing outstanding.</p>
+<hr class="settled-divider"><p class="settled-lead">Closed files &mdash; nothing needed from you on these.</p>
+<section class="stage settled"><div class="stage-head"><h2>Settled - paid</h2><span class="count">3 files</span></div><p class="stage-blurb">Closed out and paid. Nothing outstanding.</p>
 <div class="file"><div class="file-top"><h3>CLAYTON COX</h3><span class="when">last activity 2026-04-16</span></div><p class="what">Closed out and paid. Nothing outstanding.</p></div>
 <div class="file"><div class="file-top"><h3>ESMAIL RIAZIAN</h3><span class="when">last activity 2025-12-12</span></div><p class="meta">420 Tower Drive, Kyle, TX 78640</p><p class="what">Closed out and paid. Nothing outstanding.</p></div>
 <div class="file"><div class="file-top"><h3>MAURICIO BORGES</h3><span class="when">last activity 2025-12-09</span></div><p class="what">Closed out and paid. Nothing outstanding.</p></div>
@@ -82,6 +83,21 @@
     margin:10px 0 0; padding:9px 12px; border-radius:9px;
     background:rgba(194,65,12,.10); color:var(--alert);
     font-size:14px; font-weight:560;
+  }
+
+  /* Settled work sits at the bottom, greened out and struck through, so the files
+     still needing attention are what a contractor reads first. */
+  .stage.settled{opacity:.8}
+  .stage.settled .stage-head h2{color:var(--good)}
+  .stage.settled .file{border-color:color-mix(in srgb, var(--good) 35%, var(--line))}
+  .stage.settled .file h3{color:var(--good); text-decoration:line-through}
+  .stage.settled .meta,
+  .stage.settled .what{text-decoration:line-through; color:var(--muted)}
+  .settled-divider{
+    margin:34px 0 18px; border:0; border-top:2px solid var(--good); opacity:.45;
+  }
+  .settled-lead{
+    margin:-8px 0 18px; font-size:13.5px; color:var(--good); font-weight:600;
   }
 
   .foot{border-top:1px solid var(--line); padding-top:18px; color:var(--muted); font-size:14px}

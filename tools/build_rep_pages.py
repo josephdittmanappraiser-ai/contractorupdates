@@ -12,6 +12,7 @@ import csv, json, re, sys, os, collections, html
 
 CFG = json.load(open(os.path.join(os.path.dirname(__file__), '..', 'config', 'contractors.json')))
 PER_REP_LABELS = {c['label']: c for c in CFG['contractors'] if c.get('pageMode') == 'per-rep'}
+COMPANY_LABELS = {c['label']: c for c in CFG['contractors'] if c.get('pageMode') != 'per-rep'}
 
 # Spelling variants of one person. Same surname + different first name is NEVER merged.
 ALIAS = {
@@ -117,8 +118,15 @@ def render(display_name, files, updated):
     by = collections.defaultdict(list)
     for f in files:
         by[f['stage']['stage']].append(f)
-    stages = sorted(by.items(), key=lambda kv: -next(
-        s['order'] for s in CFG['stageMap'] if s['stage'] == kv[0]))
+    def rank(stage_name):
+        o = next(s['order'] for s in CFG['stageMap'] if s['stage'] == stage_name)
+        # Contractors want what still needs attention first, so settled work drops
+        # to the bottom: unpaid-but-closed ahead of fully-paid, since an open
+        # invoice is the only settled thing they might still act on.
+        if stage_name.startswith('Settled'):
+            return (0, 1 if 'outstanding' in stage_name else 0)
+        return (1, o)
+    stages = sorted(by.items(), key=lambda kv: rank(kv[0]), reverse=True)
 
     total = len(files)
     active = sum(1 for f in files if 4 <= f['stage']['order'] <= 9)
@@ -138,10 +146,18 @@ def render(display_name, files, updated):
            f'<div class="tile good"><span class="n">{settled}</span><span class="l">Settled</span></div>',
            '</section>']
 
+    seen_settled = False
     for name, items in stages:
         st = next(s for s in CFG['stageMap'] if s['stage'] == name)
         items.sort(key=lambda f: f['activity'], reverse=True)
-        out.append('<section class="stage"><div class="stage-head">'
+        is_settled = name.startswith('Settled')
+        if is_settled and not seen_settled:
+            seen_settled = True
+            out.append('<hr class="settled-divider">'
+                       '<p class="settled-lead">Closed files &mdash; nothing needed from you '
+                       'on these.</p>')
+        out.append(f'<section class="stage{" settled" if is_settled else ""}">'
+                   '<div class="stage-head">'
                    f'<h2>{E(name)}</h2><span class="count">{len(items)} '
                    f'file{"s" if len(items) != 1 else ""}</span></div>'
                    f'<p class="stage-blurb">{E(st["blurb"])}</p>')
@@ -217,6 +233,35 @@ def main(csv_path, outdir='work/pages'):
             })
 
     manifest = []
+
+    # ---- company-mode clients: one page for the whole firm -------------------
+    combuckets = collections.defaultdict(list)
+    for r in rows:
+        labels = (r.get('Labels') or '')
+        for lab, cfg in COMPANY_LABELS.items():
+            if lab.lower() not in labels.lower():
+                continue
+            name, desc, lst = r.get('Card Name', ''), r.get('Card Description', ''), r.get('List Name', '')
+            if excluded(lst, name, desc):
+                continue
+            st = stage_for(lst)
+            addr, claim, note = extract(desc)
+            if not claim:
+                claim = (r.get('Claim #') or '').strip()
+            combuckets[lab].append({
+                'insured': clean_insured(name, desc), 'addr': addr, 'claim': claim,
+                'activity': (r.get('Last Activity Date') or '')[:10], 'stage': st,
+                'needs_you': st['order'] == 3, 'what': st['blurb'],
+            })
+    for lab, files in combuckets.items():
+        cfg = COMPANY_LABELS[lab]
+        slug = re.sub(r'[^a-z0-9]+', '-', f"company-{cfg['company']}".lower()).strip('-')
+        path = os.path.join(outdir, f"{slug}.html")
+        open(path, 'w').write(render(cfg['company'], files, updated))
+        manifest.append({'label': lab, 'rep': cfg['company'], 'title': cfg['company'],
+                         'file': path, 'shareId': cfg.get('shareId'), 'files': len(files),
+                         'action': 'edit' if cfg.get('shareId') else 'create'})
+
     for lab, reps in buckets.items():
         cfg = PER_REP_LABELS[lab]
         company = cfg['company']
