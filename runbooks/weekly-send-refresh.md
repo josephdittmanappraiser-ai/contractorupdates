@@ -111,6 +111,12 @@ Never put on a page:
 - staff names
 - another client's files — this is the one that actually hurts if it slips
 
+**A card carrying two client labels belongs on BOTH pages.** It is a file the two are working
+jointly — a PA firm and a law firm on the same claim, say — and each already knows the other
+is involved. Do not drop it from both as "ambiguous": that hides the file from everyone, which
+is worse than either client seeing it. The no-cross-client rule exists to stop a file appearing
+on the page of a client with *no* connection to it, not to suppress genuine joint work.
+
 Mark a file `needs-you` (with a one-line `ask`) **only** when it is genuinely blocked on the
 contractor: their approval of an estimate, a scope of work, a homeowner signature they must
 chase. Not for anything that is merely waiting on the carrier.
