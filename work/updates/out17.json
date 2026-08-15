@@ -70,9 +70,87 @@
    ],
    "trelloItemsAdded": 9,
    "noEmail": false
+  },
+  {
+   "cardId": "69bb0544436a84989ebf1c02",
+   "update": "Joseph and the carrier's appraiser are still exchanging positions on the scope of the roof replacement; a revised position was resent as of early July and no umpire has yet been formally invoked.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-03-18", "event": "Stronghouse Roofing (Clayton Grassi) submitted the appraisal demand package; Joseph confirmed receipt and began processing."},
+    {"date": "2026-03-19 to 2026-03-25", "event": "Joseph sent a draft demand for the contractor's review and followed up twice for feedback."},
+    {"date": "2026-03-26", "event": "Joseph sent the formal appraisal demand to Allstate, copying the homeowner and Stronghouse."},
+    {"date": "2026-04-27", "event": "Joseph confirmed to Allstate that the homeowner wanted to proceed with the appraisal."},
+    {"date": "2026-05-08", "event": "Longacre Appraisal & Adjustment acknowledged the claim; Joseph asked the carrier's appraiser, Stephen Bergeron, for an umpire list."},
+    {"date": "2026-05-10", "event": "Stephen Bergeron sent his umpire list and offered a solo inspection date."},
+    {"date": "2026-05-11", "event": "Joseph scheduled a solo inspection for May 19, pending the umpire selection."},
+    {"date": "2026-05-13 to 2026-05-14", "event": "Joseph and Stephen Bergeron exchanged possible umpire candidates without finalizing a choice."},
+    {"date": "2026-05-18", "event": "The homeowner was notified of the inspection date and asked to reschedule due to a conflict."},
+    {"date": "2026-06-12", "event": "Joseph's team noted the carrier's appraiser had not agreed to a full roof replacement; Joseph's position and photos had already been sent."},
+    {"date": "2026-06-30", "event": "Joseph's team resent the position to the carrier's appraiser."},
+    {"date": "2026-07-02", "event": "Joseph confirmed to Stronghouse that a revised position had been sent to the carrier's appraiser and was under review."}
+   ],
+   "trelloItemsAdded": 12,
+   "noEmail": false
+  },
+  {
+   "cardId": "69a0bb9f9a927fdd146b8ce4",
+   "update": "The umpire has been named after an impasse and is waiting on the invoice payment before proceeding; Joseph's office has repeatedly followed up with No Stress Claims for confirmation, with no update as of early August.",
+   "needed": "Confirm with the homeowner that the umpire's invoice has been paid so the umpire can move forward.",
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-02-26", "event": "No Stress Claims submitted a pre-appraisal demand to Assurant on behalf of Ana Galvan."},
+    {"date": "2026-03-27", "event": "The carrier's appraiser, Ryan Strohl, reached out to coordinate the joint appraisal and shared a proposed umpire list."},
+    {"date": "2026-03-27 to 2026-04-02", "event": "Joseph and Ryan Strohl settled on Jimmy Heilander as a candidate umpire and, after some rescheduling, finalized inspection dates of April 8 (carrier) and April 16 (Joseph)."},
+    {"date": "2026-04-20", "event": "Assurant sent a claim status update, which Joseph acknowledged."},
+    {"date": "2026-07-21", "event": "Ryan Strohl declared an impasse and asked Jimmy Heilander to serve as umpire."},
+    {"date": "2026-07-22", "event": "Jimmy Heilander accepted the umpire role, sending a signed agreement, invoices, and W-9."},
+    {"date": "2026-07-23", "event": "Joseph confirmed the umpire's invoice had been sent to the homeowner for payment."},
+    {"date": "2026-07-24", "event": "Joseph forwarded the umpire's invoice to No Stress Claims for review and payment."},
+    {"date": "2026-07-30 to 2026-08-04", "event": "Joseph's office repeatedly followed up with No Stress Claims for confirmation the umpire invoice had been paid, with no confirmation received."}
+   ],
+   "trelloItemsAdded": 9,
+   "noEmail": false
+  },
+  {
+   "cardId": "69fa344ff7806a9b45ac71b1",
+   "update": "The carrier's appraiser declared an impasse and Carl Johnson has accepted the umpire assignment; the umpire inspection has been rescheduled and is now set for September 1.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-05-05", "event": "No Stress Claims sent the appraisal demand to American Risk Insurance Company on behalf of Shajimon Joseph & Bindu Thomas."},
+    {"date": "2026-05-25", "event": "The carrier's appraiser sent a proposed umpire list and asked Joseph to select one."},
+    {"date": "2026-05-25 to 2026-06-02", "event": "Joseph proposed umpire candidates, but the carrier's appraiser did not recognize or accept them."},
+    {"date": "2026-07-01 to 2026-07-10", "event": "Solo inspections were scheduled and adjusted for both appraisers."},
+    {"date": "2026-07-18", "event": "The carrier's appraiser declared an impasse and asked Carl Johnson to serve as umpire."},
+    {"date": "2026-07-18", "event": "Carl Johnson accepted the umpire role and his office sent the signed appraiser agreement."},
+    {"date": "2026-07-20", "event": "Carl Johnson's office sent his retainer invoices and W-9 for both sides to submit for payment."},
+    {"date": "2026-08-06 to 2026-08-07", "event": "The umpire inspection was rescheduled from August 18 to September 1."}
+   ],
+   "trelloItemsAdded": 8,
+   "noEmail": false
+  },
+  {
+   "cardId": "69d807668214d283ec4c1a87",
+   "update": "The umpire has been named after an impasse and both sides have exchanged positions; the umpire's invoice was sent to the contractor on July 24 for payment. Joseph is still waiting on the contractor to send the inspection photos for this file.",
+   "needed": "Send Joseph the inspection photos for this file.",
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-04-09", "event": "Heather Griffiths (Stronghouse/LINEAR) sent exterior verification photos and asked Joseph to get the appraisal demand signed by the homeowner; Joseph confirmed the demand letter was sent."},
+    {"date": "2026-04-11", "event": "Joseph sent a draft demand file to the contractor for review, which she approved."},
+    {"date": "2026-04-13", "event": "After a follow-up, the homeowner signed the demand and Joseph submitted the completed demand package to the carrier, copying the homeowner and contractor."},
+    {"date": "2026-04-15", "event": "Joseph asked the carrier's appraiser, Bill George, for an umpire list and inspection availability."},
+    {"date": "2026-04-16", "event": "Bill George sent his umpire list and, after a scheduling mix-up, the solo inspection was set for April 28."},
+    {"date": "2026-05-20", "event": "Joseph asked the contractor for the inspection photos for this file."},
+    {"date": "2026-07-15", "event": "Bill George declared an impasse and asked Steve Jenkins to serve as umpire; Steve Jenkins agreed and asked both sides to submit their positions."},
+    {"date": "2026-07-16", "event": "Bill George sent his position and photo report to the umpire, who then sent his invoices and W-9; the claims examiner asked that wind and hail damage be itemized separately on the estimate."},
+    {"date": "2026-07-24", "event": "Joseph forwarded the umpire's invoice to the contractor for review and payment."}
+   ],
+   "trelloItemsAdded": 9,
+   "noEmail": false
   }
  ],
- "withEmail": 4,
+ "withEmail": 8,
  "noEmail": 0,
- "flaggedNeeded": 2
+ "flaggedNeeded": 4
 }

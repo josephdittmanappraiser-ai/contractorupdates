@@ -70,9 +70,144 @@
    ],
    "trelloItemsAdded": 8,
    "noEmail": false
+  },
+  {
+   "cardId": "6a62943cf62e844fab3e5082",
+   "update": "No Stress Claims invoked the appraisal with American Risk. The carrier's appraiser conducted a roof-only solo inspection around 8/14, and Joseph Dittman's own inspection is scheduled for 8/20 with an umpire now selected.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-07-23", "event": "No Stress Claims formally invoked the appraisal with American Risk, naming Joseph Dittman as appraiser."},
+    {"date": "2026-08-03", "event": "Signed appraisal documents sent to the carrier."},
+    {"date": "2026-08-12", "event": "The carrier's appraiser sent an umpire list and requested a solo roof-only inspection for 8/14."},
+    {"date": "2026-08-13", "event": "Inspection schedule confirmed: the carrier's appraiser on 8/14, and Joseph Dittman's own inspection on 8/20."},
+    {"date": "2026-08-15", "event": "Umpire selected for the carrier's appraiser."}
+   ],
+   "trelloItemsAdded": 5,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a6cb072f354e9212999a37f",
+   "update": "The signed demand letter went to Farmers Insurance, who named their appraiser. A solo inspection with interior access is confirmed for 8/17.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-07-30", "event": "LINEAR Roofing requested an appraisal demand letter, noting the homeowner was ready to sign."},
+    {"date": "2026-07-31", "event": "Appraisal demand letter sent to and signed by the homeowner."},
+    {"date": "2026-08-07", "event": "Contractor approved the demand letter draft; documents sent to Farmers Insurance to formally initiate the appraisal."},
+    {"date": "2026-08-11", "event": "Farmers Insurance named their appraiser, Jon Scheel, who requested a signed Declaration of Impartiality."},
+    {"date": "2026-08-12", "event": "Solo inspection date agreed with the carrier's appraiser for 8/17 at 10:00 AM."},
+    {"date": "2026-08-13", "event": "Homeowner confirmed the inspection for 8/17 at 10:00 AM, including interior access."}
+   ],
+   "trelloItemsAdded": 6,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a692e702569f544bc005f1b",
+   "update": "After a delivery hiccup with the demand letter, files went to Liberty Mutual, who named their appraiser. A solo inspection is confirmed for 8/25, and an umpire has now been selected.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-07-27", "event": "Strong House Pro requested a demand letter be sent to the homeowner; appraisal demand letter sent."},
+    {"date": "2026-07-30", "event": "Demand letter delivery issue resolved after obtaining the correct homeowner email; letter resent."},
+    {"date": "2026-07-31", "event": "Contractor approved the demand letter draft, and files sent to Liberty Mutual to formally initiate the appraisal."},
+    {"date": "2026-08-03", "event": "Liberty Mutual acknowledged the appraisal request."},
+    {"date": "2026-08-11", "event": "Liberty Mutual named their appraiser, who sent an umpire candidate list."},
+    {"date": "2026-08-13", "event": "Solo inspection date agreed with the carrier's appraiser for 8/25 at 1:45 PM."},
+    {"date": "2026-08-14", "event": "Homeowner confirmed the schedule for 8/25 at 1:45 PM."},
+    {"date": "2026-08-15", "event": "Umpire selected."}
+   ],
+   "trelloItemsAdded": 8,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a2afcf0e1c3c5165b5004b7",
+   "update": "After months of chasing USAA for a named appraiser and a partial denial of the claim, USAA's appraiser was named. A solo inspection is now confirmed for 8/19 with an umpire already selected.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-06-11", "event": "Strong House Pro requested a demand letter for hail damage to the roof and other structures."},
+    {"date": "2026-06-17", "event": "Contractor approved the demand letter draft, and files were sent to USAA to formally initiate the appraisal."},
+    {"date": "2026-07-22", "event": "Repeated follow-ups sent chasing USAA for a named appraiser; contractor helped connect USAA's adjuster for a reinspection."},
+    {"date": "2026-07-31", "event": "USAA issued a partial denial of the claim."},
+    {"date": "2026-08-07", "event": "USAA's appraiser was named and sent an umpire list."},
+    {"date": "2026-08-08", "event": "Umpire selected."},
+    {"date": "2026-08-12", "event": "DOA/SOU signed and returned; solo inspection proposed for 8/19 at 9:00 AM."},
+    {"date": "2026-08-14", "event": "Homeowner confirmed the inspection for 8/19 at 9:00 AM."}
+   ],
+   "trelloItemsAdded": 8,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a5abfa555133919fdfa8718",
+   "update": "Farmers Insurance named their appraiser, who has proposed a solo inspection for 9/26, confirmed by the homeowner. Additional umpire options were just sent for the carrier's appraiser to review.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-07-17", "event": "Strong House Pro requested a demand letter for hail damage to the roof, siding, garage, gutters, fence, and windows."},
+    {"date": "2026-07-22", "event": "Contractor approved the demand letter draft; documents sent to Farmers Insurance to formally initiate the appraisal."},
+    {"date": "2026-08-05", "event": "Followed up on the carrier's response; confirmed Farmers Insurance is handling the claim and had acknowledged receipt."},
+    {"date": "2026-08-10", "event": "Farmers Insurance named their appraiser, Jeffery Gorman."},
+    {"date": "2026-08-13", "event": "The carrier's appraiser proposed a solo inspection for 9/26 and sent an umpire list."},
+    {"date": "2026-08-13", "event": "Homeowner confirmed the inspection for 9/26 between 9:30-10:30 AM."},
+    {"date": "2026-08-15", "event": "Additional umpire options sent to the carrier's appraiser for selection."}
+   ],
+   "trelloItemsAdded": 7,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a47d318e4bdbdd6632aeb34",
+   "update": "After a deductible discrepancy pushed the file to appraisal, documents were sent to the carrier (AAA), who named their appraiser. A solo inspection is confirmed for 8/19 with an umpire already agreed via signed DOA/SOU.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-06-30", "event": "Contractor flagged a deductible discrepancy on the claim, and it was decided to proceed to appraisal."},
+    {"date": "2026-07-03", "event": "Appraisal demand letter sent to and signed by the homeowner."},
+    {"date": "2026-07-23", "event": "Formal appraisal documents sent to the carrier (AAA) to initiate the process."},
+    {"date": "2026-07-31", "event": "Follow-up sent asking the carrier to name their appraiser."},
+    {"date": "2026-08-11", "event": "The carrier's appraiser, Scott Lee, reached out, proposed an umpire, and a solo inspection date of 8/19 at 1:00 PM was set."},
+    {"date": "2026-08-12", "event": "DOA/SOU exchanged with the carrier's appraiser listing the agreed umpire."},
+    {"date": "2026-08-14", "event": "Contractor confirmed the homeowner's availability and the inspection schedule of 8/19 at 1:00 PM was confirmed."}
+   ],
+   "trelloItemsAdded": 7,
+   "noEmail": false
+  },
+  {
+   "cardId": "68eec7b858fd1a7dc526c96c",
+   "update": "The file has stalled since the carrier's appraiser sent his initial estimate back in October 2025 — despite repeated follow-ups through July 2026, no position has been returned. The file currently waits on the carrier's appraiser, not the contractor.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2025-10-13", "event": "The carrier's appraiser (Sedgwick, on behalf of USAA) reached out to schedule the inspection."},
+    {"date": "2025-10-15", "event": "Inspection confirmed for 11/5/25 at 8:00 AM, and the carrier's appraiser sent their estimate documents."},
+    {"date": "2025-10-29", "event": "No Stress Claims was asked to notify the homeowner of the scheduled inspection and given the carrier's appraiser's contact information."},
+    {"date": "2025-11-05", "event": "No Stress Claims reported being unable to reach the homeowner to confirm the inspection."},
+    {"date": "2025-11-28", "event": "No Stress Claims provided a contractor invoice and insurance check documentation for the file."},
+    {"date": "2026-07-09", "event": "Repeated follow-ups sent to the carrier's appraiser since February requesting his position; no response received."}
+   ],
+   "trelloItemsAdded": 6,
+   "noEmail": false
+  },
+  {
+   "cardId": "69dfa48abd7852a768d79a5c",
+   "update": "Joseph inspected the property on June 4 with an umpire already agreed via signed DOA. The file now awaits the carrier's appraiser's position.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-04-07", "event": "The carrier's appraiser, Kenneth Dotson, reached out with umpire options to discuss the claim and scheduling."},
+    {"date": "2026-04-08", "event": "Cross Country Public Adjusting shared the claim files."},
+    {"date": "2026-04-14", "event": "The carrier's appraiser shared the carrier's estimate and mitigation invoice."},
+    {"date": "2026-04-21", "event": "Umpire agreed with the carrier's appraiser: Jeremy Settles."},
+    {"date": "2026-05-20", "event": "Solo inspection date set with the carrier's appraiser for 5/28 at 11:00 AM."},
+    {"date": "2026-05-27", "event": "Homeowner confirmed the inspection schedule for 5/28 at 11:00 AM."},
+    {"date": "2026-06-04", "event": "Inspection conducted by Joseph Dittman."},
+    {"date": "2026-06-05", "event": "Signed DOA naming the agreed umpire sent to the carrier's appraiser."}
+   ],
+   "trelloItemsAdded": 8,
+   "noEmail": false
   }
  ],
- "withEmail": 4,
+ "withEmail": 12,
  "noEmail": 0,
  "flaggedNeeded": 0
 }

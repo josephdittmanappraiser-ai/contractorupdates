@@ -1,0 +1,188 @@
+{
+ "batch": 18,
+ "results": [
+  {
+   "cardId": "6966967cc1aebceeb868b104",
+   "update": "The umpire completed his property inspection and is preparing his estimate and award; the carrier has paid its share of his invoice, but the file is on hold waiting for the insured to pay their share of the umpire fee before the award can be issued.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-01-13", "event": "Public adjuster invoked appraisal on the carrier (Atlas), naming Joseph Dittman as the insured's appraiser."},
+    {"date": "2026-01-16", "event": "Carrier's appraiser reached out and joint inspection was scheduled for February 18."},
+    {"date": "2026-02-18", "event": "Joseph and the carrier's appraiser held the joint inspection at the property."},
+    {"date": "2026-03-12", "event": "Appraisers began exchanging umpire candidate lists."},
+    {"date": "2026-03-19", "event": "Carrier's appraiser rejected Joseph's umpire candidates and proposed the carrier's own choice."},
+    {"date": "2026-04-24", "event": "Both appraisers signed the agreement naming an umpire for the file."},
+    {"date": "2026-05-06", "event": "Carrier's appraiser sent the claim file to the umpire and proposed a solo umpire inspection."},
+    {"date": "2026-06-17", "event": "Both appraisers agreed to let the umpire inspect the property alone."},
+    {"date": "2026-06-30", "event": "Umpire inspection was scheduled for July 13."},
+    {"date": "2026-07-20", "event": "Umpire completed the inspection and began preparing the estimate and award, pending invoice payment from both sides."},
+    {"date": "2026-07-21", "event": "Joseph's office sent the umpire's invoice to the insured for payment."},
+    {"date": "2026-07-26", "event": "Carrier confirmed it had approved and was processing payment of its share of the umpire invoice."},
+    {"date": "2026-08-13", "event": "Umpire confirmed he had been paid by the carrier but was still waiting on payment from the insured."},
+    {"date": "2026-08-15", "event": "Joseph's office continued following up with the insured to secure the outstanding umpire payment."}
+   ],
+   "trelloItemsAdded": 14,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a01f838cc1e7079cf88ddc3",
+   "update": "The umpire issued his estimate and award, which Joseph signed, but the carrier's appraiser is now disputing the extent of the roof damage and has asked to re-inspect before finalizing the award, so the file remains in dispute.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-05-11", "event": "Public adjuster invoked appraisal on the carrier, naming Joseph Dittman as the insured's appraiser."},
+    {"date": "2026-05-13", "event": "Carrier assigned its appraiser to the file; Joseph requested his umpire list and inspection availability."},
+    {"date": "2026-05-28", "event": "Joseph and the carrier's appraiser held a joint inspection of the property; the carrier's appraiser sent a position for a partial roof repair."},
+    {"date": "2026-05-29", "event": "Joseph sent his position that the roof warranted full replacement."},
+    {"date": "2026-05-30", "event": "Both appraisers signed the agreement to bring in an umpire after failing to agree."},
+    {"date": "2026-06-04", "event": "Both appraisers submitted their positions and documents to the umpire."},
+    {"date": "2026-06-21", "event": "Joseph sent the umpire's invoice to the insured/contractor for payment."},
+    {"date": "2026-06-22", "event": "The contractor paid the umpire invoice."},
+    {"date": "2026-07-21", "event": "The umpire conducted the joint site inspection."},
+    {"date": "2026-07-24", "event": "The umpire issued his estimate and award for the panel's signature."},
+    {"date": "2026-07-25", "event": "Joseph signed the umpire's award."},
+    {"date": "2026-08-07", "event": "Carrier's appraiser disputed the extent of the roof damage and asked to hold off finalizing the award pending a re-inspection."}
+   ],
+   "trelloItemsAdded": 13,
+   "noEmail": false
+  },
+  {
+   "cardId": "69d8062160c4ba35df9dc35f",
+   "update": "The umpire conducted the panel inspection and issued a proposed award, but is withholding finalization pending a dispute over storm damage to the copper dormers; Joseph's latest photos on this point were found inconclusive, so the file remains open.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-04-06", "event": "The contractor referred the file to Joseph and requested an appraisal estimate."},
+    {"date": "2026-04-09", "event": "Joseph sent the appraisal demand letter to the homeowner."},
+    {"date": "2026-04-17", "event": "Joseph finalized the estimate with the contractor and sent the appraisal demand to the carrier (USAA), copying the homeowner."},
+    {"date": "2026-04-22", "event": "The carrier requested supporting photos, which Joseph provided."},
+    {"date": "2026-05-08", "event": "The carrier assigned its appraiser; Joseph requested his umpire list and inspection availability."},
+    {"date": "2026-05-15", "event": "The carrier's appraiser agreed to an umpire and sent the umpire agreement for signature."},
+    {"date": "2026-05-26", "event": "The carrier's appraiser inspected the property and disagreed that the damage was storm-related."},
+    {"date": "2026-06-19", "event": "Joseph and the carrier's appraiser reached an impasse and agreed to send the file to the umpire."},
+    {"date": "2026-06-28", "event": "Joseph submitted his position and supporting reports to the umpire, who accepted the assignment."},
+    {"date": "2026-07-11", "event": "Joseph's office sent the umpire's invoice to the insured for payment; both sides had paid by July 22."},
+    {"date": "2026-08-04", "event": "The umpire conducted the panel inspection at the property."},
+    {"date": "2026-08-07", "event": "The umpire issued a proposed award, flagging a dispute over a copper dormer allowance pending proof of storm damage."},
+    {"date": "2026-08-15", "event": "Joseph sent additional photos for the copper dormer dispute, which the umpire found inconclusive, leaving that item open."}
+   ],
+   "trelloItemsAdded": 13,
+   "noEmail": false
+  },
+  {
+   "cardId": "673800b57717dc6dd08a9526",
+   "update": "The umpire completed the panel inspection and issued his award, which the carrier's appraiser signed and forwarded to the carrier; the insured's attorney's office followed up with Joseph on August 11, so the file appears to be in final wrap-up after the award.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2025-03-19", "event": "Joseph submitted the claim to the carrier's appraiser and requested an inspection."},
+    {"date": "2025-05-19", "event": "The carrier's appraiser inspected and found no exterior wind damage, and declined to submit an estimate."},
+    {"date": "2025-10-16", "event": "The carrier's counsel sent correspondence to the insured about the appraisal and clarified how the umpire fee is owed."},
+    {"date": "2025-12-01", "event": "The carrier's appraiser sent the umpire selection form naming Jeremy Settles."},
+    {"date": "2025-12-02", "event": "Joseph agreed to send the file to the umpire and set his position."},
+    {"date": "2025-12-09", "event": "The umpire accepted the assignment."},
+    {"date": "2025-12-15", "event": "Joseph submitted his position report to the umpire."},
+    {"date": "2026-01-22", "event": "The umpire sent his invoice and W-9 for payment."},
+    {"date": "2026-02-13", "event": "Joseph reported he had not been able to get the panel inspection scheduled with the insured."},
+    {"date": "2026-04-13", "event": "The carrier's appraiser relayed that the carrier said the insured had sent the umpire fee."},
+    {"date": "2026-07-13", "event": "The panel resumed after a long gap and scheduled a joint inspection for July 20."},
+    {"date": "2026-07-20", "event": "The umpire conducted the inspection, issued his position and award, and the carrier's appraiser signed and forwarded the executed award to the carrier."},
+    {"date": "2026-08-11", "event": "The insured's attorney's office sent Joseph a follow-up letter on the claim."}
+   ],
+   "trelloItemsAdded": 13,
+   "noEmail": false
+  },
+  {
+   "cardId": "69c54769787eb09f2d5a030f",
+   "update": "The umpire conducted his solo inspection and Joseph resent a corrected estimate file after it failed to import; the file is now in final review with the umpire, with no award reported yet.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-03-25", "event": "The contractor referred the file and asked Joseph to take the claim to appraisal."},
+    {"date": "2026-03-26", "event": "Joseph sent the appraisal demand letter to the homeowner."},
+    {"date": "2026-04-07", "event": "The appraisal demand was sent to the carrier, copying the homeowner and contractor."},
+    {"date": "2026-04-13", "event": "The carrier's appraiser sent his umpire list and the DOA/SOU form and inspection scheduling began."},
+    {"date": "2026-04-18", "event": "Joseph selected an umpire for the file."},
+    {"date": "2026-04-20", "event": "The carrier's appraiser sent the signed umpire agreement."},
+    {"date": "2026-05-08", "event": "Joseph sent his position for a full roof replacement; the carrier's appraiser disagreed, reaching an impasse."},
+    {"date": "2026-06-22", "event": "The carrier's appraiser formally notified the umpire of the impasse and submitted his position."},
+    {"date": "2026-06-24", "event": "Joseph submitted his position and photo report to the umpire."},
+    {"date": "2026-07-06", "event": "The umpire sent invoices to both sides for payment."},
+    {"date": "2026-07-11", "event": "Joseph's office sent the umpire invoice to the insured for payment."},
+    {"date": "2026-07-20", "event": "The insured mailed the umpire fee payment after an earlier check needed reissuing."},
+    {"date": "2026-07-27", "event": "The carrier's appraiser agreed to a solo umpire inspection due to scheduling conflicts ahead of the umpire's surgery."},
+    {"date": "2026-08-05", "event": "The umpire conducted the solo inspection at the property."},
+    {"date": "2026-08-15", "event": "Joseph resent his estimate file to the umpire after it failed to import."}
+   ],
+   "trelloItemsAdded": 15,
+   "noEmail": false
+  },
+  {
+   "cardId": "69e26dff0e130bfc564e16a0",
+   "update": "The umpire fee has been paid and the umpire inspection was rescheduled to August 12; no outcome or award has been reported in email as of today.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-04-17", "event": "The public adjuster sent Joseph the claim documents and formally requested appraisal from the carrier."},
+    {"date": "2026-04-17", "event": "The carrier named its appraiser; Joseph requested his umpire list and a solo inspection date."},
+    {"date": "2026-04-18", "event": "Joseph selected an umpire and both appraisers signed the umpire agreement."},
+    {"date": "2026-05-04", "event": "The carrier's appraiser sent his position estimate."},
+    {"date": "2026-05-07", "event": "Joseph requested additional line items be added; the carrier's appraiser held firm on his position."},
+    {"date": "2026-05-11", "event": "The carrier's appraiser notified the umpire of the impasse."},
+    {"date": "2026-05-13", "event": "The umpire sent invoices to both sides for payment."},
+    {"date": "2026-06-14", "event": "Joseph's office sent the umpire invoice to the public adjuster and asked them to have the client pay it."},
+    {"date": "2026-07-02", "event": "The public adjuster's office began following up with the insured to get the umpire invoice paid."},
+    {"date": "2026-07-03", "event": "Joseph asked to schedule the umpire inspection for July 21."},
+    {"date": "2026-07-07", "event": "The insured was found unavailable through July 30 with no one else able to grant access, so the inspection had to be rescheduled."},
+    {"date": "2026-07-19", "event": "The umpire confirmed receipt of the invoice payment."},
+    {"date": "2026-07-24", "event": "The umpire inspection was rescheduled to August 12."}
+   ],
+   "trelloItemsAdded": 13,
+   "noEmail": false
+  },
+  {
+   "cardId": "6970f1954803571403ce9ad5",
+   "update": "The umpire has circulated a proposed award; the carrier's appraiser declined to sign off and left the decision to Joseph, who is now pressing to have an incurred pack-out cost included and the panel is asking for a paid invoice to support it before the award can be finalized.",
+   "needed": "Provide a paid invoice for the pack-out costs already incurred so the umpire panel can verify the amount and include it in the final award.",
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-01-20", "event": "Public adjuster invoked appraisal on the carrier, naming Joseph Dittman as the insured's appraiser."},
+    {"date": "2026-01-23", "event": "The carrier named its appraiser, who sent his umpire list and the DOA/SOU."},
+    {"date": "2026-01-27", "event": "A solo inspection by the carrier's appraiser was scheduled for February 11."},
+    {"date": "2026-03-30", "event": "The carrier's appraiser sent his position estimate and proposed award."},
+    {"date": "2026-05-15", "event": "Joseph and the carrier's appraiser agreed they were at an impasse and sent the file to the umpire."},
+    {"date": "2026-05-27", "event": "Payment of the umpire fee by the insured side was confirmed as issued."},
+    {"date": "2026-06-02", "event": "The umpire confirmed receipt of payment from both sides and scheduled a solo inspection for June 10."},
+    {"date": "2026-06-10", "event": "The umpire completed the solo inspection at the property."},
+    {"date": "2026-07-07", "event": "The umpire circulated his proposed award for panel comment."},
+    {"date": "2026-07-12", "event": "The carrier's appraiser raised detailed objections to the proposed award."},
+    {"date": "2026-07-21", "event": "Joseph raised his own remaining differences with the proposed award."},
+    {"date": "2026-08-13", "event": "The umpire responded to the objections; the carrier's appraiser declined to sign off but said he would let Joseph decide."},
+    {"date": "2026-08-14", "event": "Joseph asked the umpire to include an incurred pack-out cost in the award; the panel questioned the amount and asked for a paid invoice."}
+   ],
+   "trelloItemsAdded": 14,
+   "noEmail": false
+  },
+  {
+   "cardId": "67f0ba2505b211822c6a5eac",
+   "update": "The file was withdrawn from formal appraisal in May 2025 and referred out for litigation; Joseph signed the closing paperwork in June 2025 and it now sits with the attorney handling it directly.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2025-04-04", "event": "Public adjuster invoked appraisal on the carrier, naming Joseph Dittman as the insured's appraiser."},
+    {"date": "2025-04-13", "event": "Joseph began coordinating an inspection date with the carrier's appraiser."},
+    {"date": "2025-04-22", "event": "Joseph followed up repeatedly trying to confirm a joint inspection date, without success."},
+    {"date": "2025-05-22", "event": "The insured decided to withdraw from the appraisal process."},
+    {"date": "2025-05-24", "event": "Joseph asked the carrier to accept the withdrawal so the claim could move toward litigation; the carrier's appraiser accepted."},
+    {"date": "2025-05-30", "event": "Joseph's office forwarded his appraisal fee invoice to the public adjuster's staff for potential collection from the attorney once the file closes."},
+    {"date": "2025-06-11", "event": "Joseph signed the closing paperwork to formally close out the withdrawn appraisal file."}
+   ],
+   "trelloItemsAdded": 7,
+   "noEmail": false
+  }
+ ],
+ "withEmail": 8,
+ "noEmail": 0,
+ "flaggedNeeded": 1
+}

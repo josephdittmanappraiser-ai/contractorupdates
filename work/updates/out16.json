@@ -75,9 +75,80 @@
    ],
    "trelloItemsAdded": 7,
    "noEmail": false
+  },
+  {
+   "cardId": "6a2b42c46c02b62859eaae6f",
+   "update": "Joseph's office was scheduled to inspect the property August 13 after resolving confusion over which appraiser the carrier had named. Joseph and the carrier's appraiser are now discussing the loss-calculation approach for the claim.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-07-15", "event": "The rep requested a status update; Joseph reported that the appraiser he'd contacted was not the carrier's named appraiser for this claim."},
+    {"date": "2026-07-16", "event": "The rep identified the correct carrier's appraiser, Micah Harrison, and Joseph's office reached out to him."},
+    {"date": "2026-07-16", "event": "The carrier's appraiser said his own inspection was already complete and invited Joseph to complete his solo inspection whenever convenient; Joseph's office asked him to send his position."},
+    {"date": "2026-07-20", "event": "A scheduled inspection needed to be rescheduled at the rep's request, pending contact with the homeowner for access."},
+    {"date": "2026-08-03", "event": "Joseph proposed and the rep confirmed a new solo inspection date of August 13."},
+    {"date": "2026-08-08", "event": "Joseph and the carrier's appraiser discussed the loss-calculation approach for the claim."}
+   ],
+   "trelloItemsAdded": 6,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a468d9b1c536ec67fc5bef5",
+   "update": "The carrier's appraiser sent a revised position estimate today, addressing most of Joseph's requested corrections but declining to include a full roof replacement. The file is under Joseph's review as negotiations continue.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-07-01", "event": "Demand for appraisal was submitted to Allstate."},
+    {"date": "2026-07-06", "event": "The carrier's appraiser William Arko reached out with his umpire list and proposed inspection dates."},
+    {"date": "2026-07-07", "event": "The carrier's appraiser's solo inspection was confirmed and held."},
+    {"date": "2026-07-09", "event": "The signed agreement was sent to the carrier's appraiser."},
+    {"date": "2026-07-22", "event": "Joseph's own exterior verification inspection was scheduled, then rescheduled several times through early August."},
+    {"date": "2026-07-23", "event": "The carrier's appraiser sent his position estimate and an unsigned agreement award."},
+    {"date": "2026-07-29", "event": "Joseph's office told the rep the inspection was complete and the carrier's appraiser's position was under review."},
+    {"date": "2026-08-06", "event": "Joseph's exterior verification inspection was rescheduled to August 11 and confirmed."},
+    {"date": "2026-08-15", "event": "Joseph requested corrections to the carrier's appraiser's estimate, and the carrier's appraiser sent a revised position."}
+   ],
+   "trelloItemsAdded": 9,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a3061f0a35610e396b0a496",
+   "update": "The joint inspection with the carrier's appraiser was confirmed and went forward as scheduled on August 13; the file now awaits the carrier's appraiser's position.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-06-15", "event": "Demand for appraisal was submitted to Texas Farm Bureau."},
+    {"date": "2026-08-05", "event": "Joseph's office followed up on the carrier's appraiser selection; the carrier confirmed its appraiser, Wayne Wagner."},
+    {"date": "2026-08-05", "event": "Joseph's office notified the carrier's appraiser of his assignment and proposed a joint inspection for August 13."},
+    {"date": "2026-08-07", "event": "The carrier's appraiser confirmed his availability for August 13."},
+    {"date": "2026-08-11", "event": "The homeowner confirmed the joint inspection, including interior access."},
+    {"date": "2026-08-13", "event": "The joint inspection with the carrier's appraiser went forward as scheduled."}
+   ],
+   "trelloItemsAdded": 6,
+   "noEmail": false
+  },
+  {
+   "cardId": "69f4ca0e2212ffcc63b14cc3",
+   "update": "The carrier's appraiser sent her position estimate August 14 after months of follow-ups. Joseph requested revisions the same day, and she has agreed to several items while asking for more documentation on the gutters, A/C fins, rear soffit, shed, and fence.",
+   "needed": "Additional photos or documentation showing storm-related damage to the gutters, A/C fins, rear soffit, shed, and fence, to support the items the carrier's appraiser is still disputing.",
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-05-01", "event": "Appraisal formally invoked with Allstate."},
+    {"date": "2026-05-06", "event": "The carrier's appraiser Treasa Chumbley was assigned and reached out; umpire candidates were exchanged."},
+    {"date": "2026-05-13", "event": "Both sides agreed on Miles Kamp as umpire."},
+    {"date": "2026-05-22", "event": "The carrier's appraiser's inspection was rescheduled to June 1; the homeowner confirmed."},
+    {"date": "2026-05-26", "event": "The signed agreement naming the umpire was returned to the carrier's appraiser."},
+    {"date": "2026-05-29", "event": "Joseph sent his position/estimate to the carrier's appraiser."},
+    {"date": "2026-06-01", "event": "The carrier's appraiser completed her solo inspection."},
+    {"date": "2026-06-12", "event": "Joseph followed up with the carrier's appraiser for her written position (repeated through early July)."},
+    {"date": "2026-08-14", "event": "The carrier's appraiser sent her position estimate, and Joseph requested revisions the same day."},
+    {"date": "2026-08-15", "event": "The carrier's appraiser agreed to several revised items and asked for more documentation on the rest."}
+   ],
+   "trelloItemsAdded": 10,
+   "noEmail": false
   }
  ],
- "withEmail": 4,
+ "withEmail": 8,
  "noEmail": 0,
- "flaggedNeeded": 0
+ "flaggedNeeded": 1
 }

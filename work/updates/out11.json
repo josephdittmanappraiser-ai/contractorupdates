@@ -417,9 +417,90 @@
    ],
    "trelloItemsAdded": 11,
    "noEmail": false
+  },
+  {
+   "cardId": "6944a3c4e1eb2ec2490dea1b",
+   "update": "This Homesite/AFICS claim was referred to attorney Chidi Oha in April 2026 after the carrier denied appraisal and disputed Joseph's role on the file. The homeowner asked for an update on 7/21/26 with no response found since — the case appears to be sitting with the attorney with no visible movement in nearly four months.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2025-12-16", "event": "LINEAR Roofing referred Cedric Djomo's claim; Joseph requested the carrier estimate, photos, EagleView, and damage description to build the contractor's estimate."},
+    {"date": "2026-01-06", "event": "Contractor estimate finalized and sent to LINEAR Roofing."},
+    {"date": "2026-01-08", "event": "Demand for appraisal sent to Progressive; the carrier responded it appeared to actually be a Homesite policy, not ASI/Progressive Home."},
+    {"date": "2026-01-16", "event": "Demand for appraisal resent to the correct carrier (Homesite via AFICS); homeowner signed the carrier's letter."},
+    {"date": "2026-02-14", "event": "Contractor estimate submitted to the carrier as requested by the adjuster."},
+    {"date": "2026-02-23", "event": "Dispute over whether appraisal was being denied; the adjuster clarified she was only requesting an estimate reflecting covered damages, not denying appraisal."},
+    {"date": "2026-03-10", "event": "Letter of Representation sent to AFICS; homeowner signed the PA agreement."},
+    {"date": "2026-03-20", "event": "Adjuster asked Joseph to confirm his role on the claim, since records showed him as the named appraiser while Rise Public Adjusting was listed as the public adjuster."},
+    {"date": "2026-03-27", "event": "Carrier denied the appraisal request; Joseph informed the insured of his right to counsel and objected to the carrier's proposed engineering firm as biased, requesting a neutral firm."},
+    {"date": "2026-03-29", "event": "AFICS agreed to use a different engineering firm and remove the originally proposed firm from the claim."},
+    {"date": "2026-04-14", "event": "Attorney Chidi Oha took over the file, asking whether the carrier had formally denied appraisal."},
+    {"date": "2026-07-21", "event": "Homeowner asked for an update on the case; no response found on file since."}
+   ],
+   "trelloItemsAdded": 12,
+   "noEmail": false
+  },
+  {
+   "cardId": "6993b4f1ea5f465c5736ec2c",
+   "update": "AFICS denied the appraisal demand for this Homesite claim on 7/17/26 after months of back-and-forth over whether Joseph was acting as appraiser or public adjuster. Staff have been unable to reach the adjuster by phone since to discuss next steps (last attempt 7/31/26); he confirmed the denial in writing on 8/3/26.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-02-16", "event": "Legacy Roofing referred Andy Shah's claim, reporting a complete denial from the carrier."},
+    {"date": "2026-02-20", "event": "Demand for appraisal sent to Homesite (via AFICS), claim 01009078154."},
+    {"date": "2026-03-14", "event": "AFICS said appraisal was not warranted; Joseph pushed back citing Texas causation case law and asked for specifics on excluded items."},
+    {"date": "2026-03-16", "event": "Joseph told Legacy Roofing the claim would need to move to public adjusting, since Homesite was denying appraisal on most claims by misapplying case law."},
+    {"date": "2026-03-20", "event": "Letter of Representation sent to AFICS as public adjuster."},
+    {"date": "2026-03-25", "event": "AFICS acknowledged Joseph's role shift to PA, asked for a W9, and confirmed it would proceed with a reinspection."},
+    {"date": "2026-04-23", "event": "Legacy Roofing forwarded a new letter the homeowner had recently received."},
+    {"date": "2026-07-14", "event": "Joseph warned AFICS of the statutory 20-day deadline for a carrier response to an appraisal demand."},
+    {"date": "2026-07-17", "event": "AFICS issued a formal denial letter for the appraisal demand."},
+    {"date": "2026-07-31", "event": "Staff repeatedly tried calling the adjuster for a follow-up but could not reach him."},
+    {"date": "2026-08-03", "event": "Joseph followed up in writing on naming an appraiser; AFICS confirmed the appraisal demand was denied on 7/17/26 and provided the denial letter."}
+   ],
+   "trelloItemsAdded": 10,
+   "noEmail": false
+  },
+  {
+   "cardId": "6955455394e326bd6d1394d1",
+   "update": "Joseph's office moved this claim to public adjusting for Sequina Moore (Freedom Mortgage is the loss payee) in early 2026 and has since resent the Letter of Representation and estimate to three different carrier/mortgage contacts (an individual contact, NGIC, and PFIC) trying to get a response and a reinspection scheduled. No confirmation of a carrier response has been found since the 5/19/26 follow-up.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2025-12-30", "event": "LINEAR Roofing sent the appraisal demand letter and original estimate for Sequina Moore, who wished to invoke her right to appraisal."},
+    {"date": "2026-01-06", "event": "Contractor estimate finalized and sent to LINEAR Roofing for approval."},
+    {"date": "2026-02-04", "event": "Joseph confirmed the insurer had received the file and would follow up if no appraiser was assigned."},
+    {"date": "2026-03-20", "event": "Letter of Representation sent as public adjuster for Sequina Moore/Freedom Mortgage Corporation (claim NG4108259)."},
+    {"date": "2026-04-08", "event": "Joseph repeatedly followed up requesting a reinspection with no response."},
+    {"date": "2026-04-27", "event": "Joseph asked for the policy to be sent over."},
+    {"date": "2026-04-30", "event": "A scheduled inspection appointment ran late; Joseph coordinated with the homeowner and the inspector, who arrived shortly after."},
+    {"date": "2026-05-14", "event": "Estimate and photos resent to a claims contact, again requesting reinspection availability."},
+    {"date": "2026-05-19", "event": "Letter of Representation and estimate also sent to another claims contact after no response; a follow-up was sent the same week."}
+   ],
+   "trelloItemsAdded": 9,
+   "noEmail": false
+  },
+  {
+   "cardId": "69bb34d66958766861c0405d",
+   "update": "This USAA appraisal settlement for Billye Kopp was reached in spring 2026, with payment routing to the PA office confirmed by early May. On 7/25/26 Joseph asked LINEAR Roofing for the completion date and proof-of-work photos to finalize recoverable depreciation; LINEAR confirmed the roof was installed 5/19/26 and supplied photos, so the file is with USAA to process the depreciation release.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-03-18", "event": "LINEAR Roofing referred Billye Kopp as a new client after a USAA denial that opened coverage only for interior damage."},
+    {"date": "2026-03-19", "event": "Contractor estimate finalized; appraisal demand letter signed by the homeowner and forwarded to USAA."},
+    {"date": "2026-04-06", "event": "Letter of Representation sent to USAA as public adjuster (claim 008186820)."},
+    {"date": "2026-04-07", "event": "Joseph asked USAA for reinspection availability."},
+    {"date": "2026-04-29", "event": "USAA's adjuster followed up looking for the estimate."},
+    {"date": "2026-04-30", "event": "Files resent to USAA's adjuster."},
+    {"date": "2026-05-06", "event": "USAA confirmed it was entering the PA firm's information into its system prior to issuing payment."},
+    {"date": "2026-05-07", "event": "USAA sent claim settlement details; Joseph confirmed the payment should go to the PA office."},
+    {"date": "2026-07-25", "event": "Joseph asked LINEAR Roofing for the completion date and proof-of-work photos to finalize recoverable depreciation with USAA; LINEAR confirmed the roof was installed 5/19/26 and provided photos."}
+   ],
+   "trelloItemsAdded": 9,
+   "noEmail": false
   }
  ],
- "withEmail": 21,
+ "withEmail": 25,
  "noEmail": 0,
  "flaggedNeeded": 3
 }
