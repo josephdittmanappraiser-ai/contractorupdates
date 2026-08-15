@@ -21,23 +21,53 @@
   },
 
   "_stageMapComment": [
-    "Internal Trello list names are blunt and full of operator instructions.",
-    "Contractors see the client-facing stage, never the raw list name.",
-    "matchers are lowercase substrings tested against the lowercased list name, in order.",
-    "First stage whose matcher hits wins, so order matters -- most specific first."
+    "The board has ~84 lists whose names carry operator instructions. Contractors see the",
+    "client-facing stage, never the raw list name.",
+    "TWO different orderings live here, do not conflate them:",
+    "  * ARRAY ORDER = matching precedence. Lowercase the list name, walk this array in",
+    "    order, first stage with a matching substring wins. Most specific stages come first,",
+    "    which is why 'In umpire' precedes 'Settled' ('Umpire invoice paid' contains 'paid')",
+    "    and why the payment-outstanding stage precedes 'Settled - paid' ('closed but not",
+    "    paid' also contains 'paid').",
+    "  * 'order' FIELD = display order on the page, sorted descending, so the files closest",
+    "    to money appear first.",
+    "If a list matches nothing it falls to 'New / intake' -- which is usually wrong, so the",
+    "run must report any list that fell through and the matcher gets added here."
   ],
   "stageMap": [
     {
-      "stage": "Settled / invoicing",
-      "order": 9,
-      "blurb": "Position agreed or award signed. Invoice out.",
-      "matchers": ["paid", "invoice + payment link"]
-    },
-    {
       "stage": "In umpire",
       "order": 8,
-      "blurb": "The two appraisers did not agree. An umpire is deciding.",
-      "matchers": ["in umpire"]
+      "blurb": "The two appraisers did not agree, so an umpire is deciding the file.",
+      "matchers": ["umpire"]
+    },
+    {
+      "stage": "Settled - payment outstanding",
+      "order": 10,
+      "blurb": "The claim is resolved. Our appraisal invoice is still open.",
+      "matchers": [
+        "not paid",
+        "invoice + payment link",
+        "past dues",
+        "debt collection",
+        "in iink",
+        "legacy deals",
+        "waiting on payment to sign award",
+        "paid - waiting for appraiser",
+        "close out"
+      ]
+    },
+    {
+      "stage": "Settled - paid",
+      "order": 11,
+      "blurb": "Closed out and paid. Nothing outstanding.",
+      "matchers": ["paid"]
+    },
+    {
+      "stage": "Referred to an attorney",
+      "order": 9,
+      "blurb": "Appraisal was not the right route. The file has gone to an attorney.",
+      "matchers": ["sent to attorney", "send to attorney"]
     },
     {
       "stage": "Negotiating with the carrier's appraiser",
@@ -46,23 +76,24 @@
       "matchers": [
         "sent oa my position",
         "need to review oa",
-        "reviewed oa's position",
+        "reviewed oa",
         "carrier appraiser responded",
         "2nd offer is to low",
         "awaiting on opposing appraiser",
-        "joseph did first review"
+        "joseph did first review",
+        "position written"
       ]
     },
     {
       "stage": "Inspected / building our position",
       "order": 6,
       "blurb": "Property inspected. Our estimate and position are being prepared.",
-      "matchers": ["inspected", "estimate under review", "further ressearch", "admin work"]
+      "matchers": ["inspected", "estimate under review", "further ressearch"]
     },
     {
       "stage": "Inspection scheduling",
       "order": 5,
-      "blurb": "Carrier's appraiser is named. Locking in the inspection date.",
+      "blurb": "The carrier's appraiser is named. Locking in the inspection date.",
       "matchers": [
         "carrier appraisers info provided",
         "carrier appraiser info provided",
@@ -74,21 +105,20 @@
     {
       "stage": "Appraisal demanded / waiting on carrier",
       "order": 4,
-      "blurb": "Demand is with the carrier. Waiting for them to name their appraiser.",
+      "blurb": "The demand is with the carrier. Waiting for them to name their appraiser.",
       "matchers": [
         "demand letters sent",
         "appraiser named but no",
         "no appraiser named",
         "homesite files",
         "state farm claims",
-        "sent to attorney",
         "out of state"
       ]
     },
     {
       "stage": "Estimate sent - needs sign-off",
       "order": 3,
-      "blurb": "Estimate is with you and/or the homeowner. We need approval or a signed AD to move.",
+      "blurb": "The estimate is with you and/or the homeowner. We need approval to move.",
       "matchers": ["estimates sent", "waiting for roofer's go signal"]
     },
     {
@@ -107,9 +137,33 @@
         "pa inquires",
         "pa's and attorney inquires",
         "call homeowners",
+        "direct customers",
         "triage"
       ]
     }
+  ],
+
+  "_debtCollectionNote": [
+    "JUDGEMENT CALL, easy to change: files sitting in 'Need to send to debt collections',",
+    "'Sent to Debt Collections' and 'PAST DUES' are shown to the client as",
+    "'Settled - payment outstanding'. That is accurate -- the invoice IS open -- and it stops",
+    "an automated page from picking a fight with a client on Joseph's behalf. If Joseph wants",
+    "collections stated plainly, give those three lists their own stage here."
+  ],
+
+  "_excludeListsComment": [
+    "Lists that do NOT hold client files. A card sitting in one of these is a contact record,",
+    "an agent rule, a divider or a staff task -- never a file, so it must never reach a status",
+    "page. Applied BEFORE stage mapping. Matched as lowercased substrings of the list name."
+  ],
+  "excludeLists": [
+    "ai agent",
+    "repeat clients",
+    "appraisers info that works for us",
+    "interested roofers",
+    "admin work",
+    "assignments",
+    "new list"
   ],
 
   "_nonClientComment": "Labels that are markets, difficulty tags, staff assignments or workflow flags -- never a client. Matched case-insensitively.",
@@ -190,7 +244,8 @@
       "company": "No Stress Claims",
       "domains": [],
       "pageMode": "company",
-      "shareId": null
+      "shareId": "JTSciawp",
+      "url": "https://www.send.co/a/JTSciawp"
     },
     {
       "label": "Vince - assured value claims",
@@ -198,7 +253,8 @@
       "company": "Assured Value Claims",
       "domains": [],
       "pageMode": "company",
-      "shareId": null
+      "shareId": "CSIhM4fp",
+      "url": "https://www.send.co/a/CSIhM4fp"
     },
     {
       "label": "Cross country Public Adjusting",

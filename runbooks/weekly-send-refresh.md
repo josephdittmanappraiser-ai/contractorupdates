@@ -41,6 +41,22 @@ Subagent hygiene, non-negotiable:
 - Return compact JSON. No prose reports.
 - Dispatch every client subagent in one message so they run concurrently.
 
+### `trelloSearch` pagination loops — handle it explicitly
+
+On high-volume labels the `nextCursor` stops advancing and keeps returning the same page, so
+a naive paginate-until-`hasNextPage`-is-false loop never terminates. Observed on
+*No Stress Claims* and *Vince - assured value claims*, both of which capped at exactly 50
+unique cards.
+
+Every subagent must:
+1. Dedupe by card id as it pages.
+2. Stop when a page adds **zero** new ids, not when `hasNextPage` goes false.
+3. Report the unique count it actually reached, and whether it stopped on a loop.
+
+A count landing on exactly 50 or exactly 100 is a truncation signal, not a real total — say so
+in the run summary and add a footer line to that client's page noting older files are not
+shown. Do not silently present a truncated list as complete.
+
 ---
 
 ## Phase 1 — Roster (orchestrator)
@@ -58,9 +74,17 @@ Subagent hygiene, non-negotiable:
 Each subagent gets: its label(s), the board ARI, `stageMap`, the page-mode, the existing
 `shareId` (or null), and `templates/status-page.html` to follow.
 
+**Drop non-file cards first.** If the card's list name matches anything in `excludeLists`,
+discard it. Those lists hold contact records, agent rules, dividers and staff tasks — not
+files. A "Repeat clients" contact card showing up as a file on a status page is the most
+likely way this run embarrasses itself.
+
 **Stage mapping.** Lowercase the Trello list name, test `stageMap[].matchers` as substrings,
 first hit wins. Unmatched → `New / intake`. Order stages descending by `order`
 (Settled first, New/intake last). Skip empty stages.
+
+If a card lands in `New / intake` only because nothing matched, note the list name in the run
+summary — it usually means a new list was added to the board and `stageMap` needs an entry.
 
 **Voice.** One or two plain sentences per file. A roofer must understand it without knowing
 the trade's jargon.
