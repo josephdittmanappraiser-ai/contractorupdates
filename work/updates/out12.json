@@ -460,9 +460,60 @@
    ],
    "trelloItemsAdded": 14,
    "noEmail": false
+  },
+  {
+   "cardId": "6a7222f50e3c19ba4ed2ecf3",
+   "update": "Joseph has now selected an umpire and sent the choice to the carrier's appraiser; next step is the appraiser confirming and issuing the DOA to schedule an inspection.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-08-04", "event": "Formal invocation of appraisal sent to Allstate on behalf of Agustin Contreras Ledesma."},
+    {"date": "2026-08-05", "event": "Allstate acknowledged the demand and forwarded it to the appropriate department, citing a 5-7 day response window."},
+    {"date": "2026-08-10", "event": "Carrier's appraisal firm confirmed its appraiser had received the assignment."},
+    {"date": "2026-08-11", "event": "Joseph reached out to the carrier's appraiser requesting the umpire list."},
+    {"date": "2026-08-11", "event": "Carrier's appraiser sent the umpire list, noting the DOA and inspection would follow once an umpire was agreed upon."},
+    {"date": "2026-08-11", "event": "Carrier's appraiser reiterated the need to agree on an umpire before scheduling could proceed (through 8/14)."},
+    {"date": "2026-08-15", "event": "Joseph selected an umpire and sent the choice to the carrier's appraiser."}
+   ],
+   "trelloItemsAdded": 7,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a7a635d30076cf33a5f3ede",
+   "update": "Joseph has selected an umpire and is waiting on the carrier's appraiser to confirm his availability for a joint inspection, since the first proposed date didn't work due to travel distance.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-08-10", "event": "Formal invocation of appraisal sent to TWIA on behalf of Angelina Tindol."},
+    {"date": "2026-08-12", "event": "Carrier's claims system notified that the appraisal had been assigned to an independent appraiser."},
+    {"date": "2026-08-12", "event": "Joseph reached out to the carrier's appraiser requesting an umpire list."},
+    {"date": "2026-08-12", "event": "Carrier's appraiser confirmed his assignment; Joseph proposed a joint inspection date, but the appraiser could not make it due to travel distance and asked to propose his own availability instead."},
+    {"date": "2026-08-15", "event": "Joseph selected an umpire and sent the choice to the carrier's appraiser."}
+   ],
+   "trelloItemsAdded": 5,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a5fee7437a04f8b87dcc483",
+   "update": "Farmers has named its appraiser, and Joseph is now coordinating with them to schedule the inspection; there was some confusion in the homeowner's portal about the claim status, but Joseph confirmed the appraisal process is moving forward.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-07-18", "event": "LINEAR roofing referred the file, listing damage to the roof, back shed, flat roof, gutters, and decking."},
+    {"date": "2026-07-20", "event": "Appraisal Demand Letter sent to the homeowner."},
+    {"date": "2026-07-21", "event": "Homeowner signed the demand letter."},
+    {"date": "2026-07-22", "event": "Contractor reviewed the estimate and confirmed the flat roof portions around the house were included."},
+    {"date": "2026-07-23", "event": "Files sent to Farmers Insurance to formally initiate the appraisal, with the homeowner and contractor CC'd."},
+    {"date": "2026-08-07", "event": "Joseph confirmed with the homeowner that Farmers had received the files and would respond within a week."},
+    {"date": "2026-08-10", "event": "Homeowner reported no follow-up email from Farmers, only a phone call from an adjuster whose name she didn't catch."},
+    {"date": "2026-08-13", "event": "Homeowner reported confusion in the online portal over the claim's status while traveling with limited internet access."},
+    {"date": "2026-08-13", "event": "Joseph informed the homeowner that Farmers had named its appraiser and that scheduling coordination was underway."}
+   ],
+   "trelloItemsAdded": 9,
+   "noEmail": false
   }
  ],
- "withEmail": 23,
+ "withEmail": 26,
  "noEmail": 0,
  "flaggedNeeded": 1
 }
