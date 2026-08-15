@@ -32,7 +32,7 @@
 </section>
 <section class="stage"><div class="stage-head"><h2>Estimate being prepared</h2><span class="count">3 files</span></div><p class="stage-blurb">We are writing the estimate.</p>
 <div class="file"><div class="file-top"><h3>Raquel Garcia</h3><span class="when">last activity 2026-08-14</span></div><p class="what">We are writing the estimate.</p></div>
-<div class="file"><div class="file-top"><h3>BRIAN LAUGHLIN</h3><span class="when">last activity 2026-07-13</span></div><p class="what">We are writing the estimate.</p></div>
+<div class="file"><div class="file-top"><h3>BRIAN LAUGHLIN</h3><span class="when">last activity 2026-07-13</span></div><p class="what">On Jul 13 the contractor said the homeowner was completing the appraisal demand letter signature and sent measurements and photos of the replacement units; we&#x27;re waiting to hear the letter has been returned signed.</p></div>
 <div class="file"><div class="file-top"><h3>Francisco Munoz</h3><span class="when">last activity 2026-04-11</span></div><p class="what">We are writing the estimate.</p></div>
 </section>
 <hr class="settled-divider"><p class="settled-lead">Closed files &mdash; nothing needed from you on these.</p>
@@ -45,19 +45,19 @@
 <style>
   :root{
     --bg:#f7f7f5; --card:#ffffff; --ink:#1a1a17; --muted:#6b6b63;
-    --line:#e3e2dc; --accent:#7a5cff; --alert:#c2410c; --alert-bg:#fff4ed;
+    --line:#e3e2dc; --accent:#7a5cff; --alert:#d21414; --alert-bg:#fff1f1;
     --good:#15803d; --radius:14px;
   }
   @media (prefers-color-scheme:dark){
     :root:not([data-theme="light"]){
       --bg:#141413; --card:#1e1e1c; --ink:#f0efe9; --muted:#9a998f;
-      --line:#2e2e2a; --accent:#a58cff; --alert:#fb923c; --alert-bg:#2a1a10;
+      --line:#2e2e2a; --accent:#a58cff; --alert:#ff5a5a; --alert-bg:#2c1212;
       --good:#4ade80;
     }
   }
   :root[data-theme="dark"]{
     --bg:#141413; --card:#1e1e1c; --ink:#f0efe9; --muted:#9a998f;
-    --line:#2e2e2a; --accent:#a58cff; --alert:#fb923c; --alert-bg:#2a1a10;
+    --line:#2e2e2a; --accent:#a58cff; --alert:#ff5a5a; --alert-bg:#2c1212;
     --good:#4ade80;
   }
   *{box-sizing:border-box}
@@ -98,17 +98,18 @@
     background:var(--card); border:1px solid var(--line); border-radius:var(--radius);
     padding:16px 18px; margin-bottom:10px;
   }
-  .file.needs-you{border-color:var(--alert); background:var(--alert-bg)}
+  .file.needs-you{border-color:var(--alert); background:var(--alert-bg); border-width:2px}
   .file-top{display:flex; align-items:baseline; justify-content:space-between; gap:10px; flex-wrap:wrap}
   .file h3{margin:0; font-size:16.5px; letter-spacing:-.01em}
   .when{font-size:12.5px; color:var(--muted); white-space:nowrap}
   .meta{margin:3px 0 9px; font-size:13px; color:var(--muted)}
   .what{margin:0; font-size:14.5px}
   .ask{
-    margin:10px 0 0; padding:9px 12px; border-radius:9px;
-    background:rgba(194,65,12,.10); color:var(--alert);
-    font-size:14px; font-weight:560;
+    margin:10px 0 0; padding:10px 12px; border-radius:9px;
+    background:rgba(210,20,20,.12); color:var(--alert);
+    font-size:14px; font-weight:640; border-left:4px solid var(--alert);
   }
+  .ask::before{content:"\26A0\FE0E  "; font-weight:700}
 
   /* Settled work sits at the bottom, greened out and struck through, so the files
      still needing attention are what a contractor reads first. */
@@ -123,6 +124,32 @@
   }
   .settled-lead{
     margin:-8px 0 18px; font-size:13.5px; color:var(--good); font-weight:600;
+  }
+
+  /* Chain of events: the dated history of everything done on or received for a file,
+     built by back-reading the email threads and stored on the Trello card. */
+  details.chain{margin:11px 0 0; border-top:1px dashed var(--line); padding-top:9px}
+  details.chain>summary{
+    cursor:pointer; font-size:13px; color:var(--accent); font-weight:600;
+    list-style:none; user-select:none;
+  }
+  details.chain>summary::-webkit-details-marker{display:none}
+  details.chain>summary::before{content:"\25B8  "; display:inline-block; transition:transform .15s}
+  details.chain[open]>summary::before{transform:rotate(90deg)}
+  ol.events{margin:11px 0 2px; padding:0 0 0 4px; list-style:none}
+  ol.events li{
+    position:relative; padding:0 0 11px 20px; font-size:13.5px; line-height:1.5;
+    border-left:2px solid var(--line); margin-left:5px;
+  }
+  ol.events li:last-child{border-left-color:transparent; padding-bottom:0}
+  ol.events li::before{
+    content:""; position:absolute; left:-5px; top:6px; width:8px; height:8px;
+    border-radius:50%; background:var(--accent);
+  }
+  ol.events li:last-child::before{background:var(--good); box-shadow:0 0 0 3px rgba(21,128,61,.16)}
+  ol.events .d{
+    display:block; font-size:11.5px; letter-spacing:.04em; text-transform:uppercase;
+    color:var(--muted); font-weight:650; margin-bottom:1px;
   }
 
   .foot{border-top:1px solid var(--line); padding-top:18px; color:var(--muted); font-size:14px}

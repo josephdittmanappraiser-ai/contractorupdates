@@ -1,0 +1,288 @@
+[
+ {
+  "cardId": "6a42ebd8d5ede9f2d8986e1e",
+  "insured": "Brenda Tranchon",
+  "claim": "5394B831V",
+  "address": "11200 PENCEWOOD DR AUSTIN, TX 78750-2521",
+  "stage": "Inspected / building our position",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Patrick Nations"
+ },
+ {
+  "cardId": "6a4e6a7182fe2e977ec4c012",
+  "insured": "Lizbeth Cazares",
+  "claim": "202514152",
+  "address": "11232 Los Robles Cir Lot 416, Del Valle, TX 78617",
+  "stage": "Inspected / building our position",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "rep": ""
+ },
+ {
+  "cardId": "6a3ee5d09b5b333f3b7ca8b8",
+  "insured": "Sung Park",
+  "claim": "43-88C0-00S",
+  "address": "3124 Stonefield The Colony TX 75056-6507",
+  "stage": "Inspected / building our position",
+  "clients": [
+   "Strong House Pro"
+  ],
+  "rep": "Terronce Johnson"
+ },
+ {
+  "cardId": "6a4fa6c5891325899dfd584b",
+  "insured": "JUDY HOFFMAN",
+  "claim": "0825461874",
+  "address": "2207 VILLA CREEK DR, KINGWOOD, TX 77339",
+  "stage": "Inspected / building our position",
+  "clients": [
+   "Cross country Public Adjusting"
+  ],
+  "rep": "Erica Shamp"
+ },
+ {
+  "cardId": "6a29d844f9de83a174593d23",
+  "insured": "Bijou Chacko",
+  "claim": "ABPAC26030122",
+  "address": "3812 WOODLAWN Avenue PASADENA, TX 77504-1934",
+  "stage": "Inspected / building our position",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "rep": "Steven Lorenzo"
+ },
+ {
+  "cardId": "6a43e9f10de515a740bb3dda",
+  "insured": "AMERICA ROBLES",
+  "claim": "",
+  "address": "** 9607 Truscon Dr, Houston, TX 77080",
+  "stage": "Inspected / building our position",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "rep": ""
+ },
+ {
+  "cardId": "6a3460db31254b6db5ec98b1",
+  "insured": "Elaine Zuliani",
+  "claim": "006668108-800",
+  "address": "2505 Village Walk Austin, TX 78744-3610",
+  "stage": "Inspected / building our position",
+  "clients": [
+   "Strong House Pro"
+  ],
+  "rep": "Trey Elliott"
+ },
+ {
+  "cardId": "6a582865d5ffdba38a96dd72",
+  "insured": "Diana Ben Liles",
+  "claim": "",
+  "address": "** 5007 Moss Hollow Ct, Houston, TX 77018",
+  "stage": "Inspected / building our position",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "rep": "Steven Lorenzo"
+ },
+ {
+  "cardId": "6a62919c1e65ff831c20c940",
+  "insured": "CONSUELO DEJESUS LOA",
+  "claim": "",
+  "address": "** 19423 Remington Wick Dr,, Houston, TX 77073",
+  "stage": "Inspected / building our position",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "rep": "Steven Lorenzo"
+ },
+ {
+  "cardId": "6a74a3151b32ea51d238b30e",
+  "insured": "Duc Vu",
+  "claim": "HO-2026-011904813",
+  "address": "9514 SECRET CANYON DR HOUSTON TX 77095",
+  "stage": "Inspected / building our position",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "rep": ""
+ },
+ {
+  "cardId": "6a5e938d4bbe12aea94219c6",
+  "insured": "ABEL RAMIREZ",
+  "claim": "",
+  "address": "** 252 Pine Arbol, Buda, TX 78610",
+  "stage": "Inspected / building our position",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "rep": "Steven Lorenzo"
+ },
+ {
+  "cardId": "6a60dd97f6edd165382d07b1",
+  "insured": "Koteshwar Pilla Rao",
+  "claim": "",
+  "address": "",
+  "stage": "Inspected / building our position",
+  "clients": [
+   "Legacy Roofing"
+  ],
+  "rep": "Jon Taliaferro"
+ },
+ {
+  "cardId": "6a6230e4ce385fa197ea01b1",
+  "insured": "Dennis Sump",
+  "claim": "",
+  "address": "** 1111 Wealden Forest Dr Spring TX 77379",
+  "stage": "Inspected / building our position",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "rep": "Steven Lorenzo"
+ },
+ {
+  "cardId": "6a736b4fd5df9b2de9a6609e",
+  "insured": "Claim Appraisal Coordination For Irma Muralles Ortiz Gustavo Contreras",
+  "claim": "1622936-264402",
+  "address": "** 3447 Parker Trce Dr, Missouri City, TX 77459",
+  "stage": "Inspected / building our position",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "rep": "Steven Lorenzo"
+ },
+ {
+  "cardId": "6a4453393179de57567429ba",
+  "insured": "BART HARRINGTON",
+  "claim": "0830995857",
+  "address": "1560 KAREN DR ARGYLE, TX 76226-2946",
+  "stage": "Inspected / building our position",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Kevin Salazar"
+ },
+ {
+  "cardId": "6a20b302452677803b649e18",
+  "insured": "Roosevelt Trevino",
+  "claim": "00108712684",
+  "address": "2443 SENTRY PALM DR RIO GRANDE CITY,, TX 78582",
+  "stage": "Inspected / building our position",
+  "clients": [
+   "Strong House Pro"
+  ],
+  "rep": "Alberto Zenteno"
+ },
+ {
+  "cardId": "6a6bd9576dc67e3de6bfe335",
+  "insured": "JOSE VILLATORO",
+  "claim": "",
+  "address": "** 7315 Log Hollow Dr,, Houston, TX 77040",
+  "stage": "Inspected / building our position",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "rep": "Steven Lorenzo"
+ },
+ {
+  "cardId": "6a7260731ce5c57f6a502346",
+  "insured": "JOSE VILLALTA",
+  "claim": "202510250045",
+  "address": "1514 PENNYGENT LN CHANNELVIEW, TX 77530",
+  "stage": "Inspected / building our position",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "rep": "Steven Lorenzo"
+ },
+ {
+  "cardId": "6a394e61c399533150eaa97d",
+  "insured": "George Ochoa",
+  "claim": "0826517559",
+  "address": "10511 KICKING HORSE PASS CYPRESS, TX 77433-2829",
+  "stage": "Inspected / building our position",
+  "clients": [
+   "TCB Elite Fleet"
+  ],
+  "rep": "AleC Stevens"
+ },
+ {
+  "cardId": "6a7126a67d672bc6e46cc0c1",
+  "insured": "AXEL MEJIAS SANCHEZ",
+  "claim": "0830951620",
+  "address": "7538 ABBEY POINT LN HOUSTON, TX 77049-1287",
+  "stage": "Inspected / building our position",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "rep": "Steven Lorenzo"
+ },
+ {
+  "cardId": "6a5f9d9e9ff626fc8cb78755",
+  "insured": "Pace Tripp",
+  "claim": "01009977238",
+  "address": "2308 Windswept Dr Austin, TX 78738-5496",
+  "stage": "Inspected / building our position",
+  "clients": [
+   "Legacy Roofing"
+  ],
+  "rep": "Jerson Ordonez"
+ },
+ {
+  "cardId": "6a6a56cc78c8ec2c20251f75",
+  "insured": "Shane Robin Studdard",
+  "claim": "43-98P0-87W",
+  "address": "312 E HIRD ST gainesville, TX 76240",
+  "stage": "Inspected / building our position",
+  "clients": [
+   "Cross country Public Adjusting"
+  ],
+  "rep": "Erica Shamp"
+ },
+ {
+  "cardId": "69e937e66cb930dd462108fb",
+  "insured": "Luis Burgos",
+  "claim": "SWYBMHO08001",
+  "address": "21606 Mossey Pines Ct Humble, TX 77338",
+  "stage": "Inspected / building our position",
+  "clients": [
+   "The lawgical firm"
+  ],
+  "rep": ""
+ },
+ {
+  "cardId": "6a2c2e60d5ab2c05704c4c1d",
+  "insured": "Scott Povlick",
+  "claim": "0823730684",
+  "address": "7937W 140th Terrace, Overland Park, KS 66223",
+  "stage": "Inspected / building our position",
+  "clients": [
+   "Strong House Pro"
+  ],
+  "rep": "Joel Rivera"
+ },
+ {
+  "cardId": "69dfedf1d4b36ff84ab0911f",
+  "insured": "Celeste Gant",
+  "claim": "01009726050",
+  "address": "5417 W 132nd Ter, Overland Park, KS 66209",
+  "stage": "Inspected / building our position",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Nader Elsayed"
+ },
+ {
+  "cardId": "6a1dfbf17c61e4c01e938953",
+  "insured": "Marie Le Fevere",
+  "claim": "",
+  "address": "",
+  "stage": "Inspected / building our position",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Andres Soto"
+ }
+]

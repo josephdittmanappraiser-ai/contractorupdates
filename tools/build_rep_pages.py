@@ -8,7 +8,7 @@ only has to upload the result.
 
     python3 tools/build_rep_pages.py <board-export.csv> [outdir]
 """
-import csv, json, re, sys, os, collections, html
+import csv, json, re, sys, os, glob, collections, html
 
 CFG = json.load(open(os.path.join(os.path.dirname(__file__), '..', 'config', 'contractors.json')))
 PER_REP_LABELS = {c['label']: c for c in CFG['contractors'] if c.get('pageMode') == 'per-rep'}
@@ -114,6 +114,18 @@ CSS = CSS[CSS.index('<style>'):CSS.index('</style>') + 8]
 E = html.escape
 
 
+def chain_html(events):
+    """Collapsed, dated history of everything done on or received for the file."""
+    if not events:
+        return ''
+    rows = "".join(
+        f'<li><span class="d">{E(str(ev.get("date", ""))[:10])}</span>{E(ev.get("event", ""))}</li>'
+        for ev in events)
+    n = len(events)
+    return (f'<details class="chain"><summary>Chain of events ({n})</summary>'
+            f'<ol class="events">{rows}</ol></details>')
+
+
 def render(display_name, files, updated):
     by = collections.defaultdict(list)
     for f in files:
@@ -168,8 +180,8 @@ def render(display_name, files, updated):
                        f'<span class="when">last activity {E(f["activity"][:10])}</span></div>'
                        + (f'<p class="meta">{meta}</p>' if meta else '')
                        + f'<p class="what">{E(f["what"])}</p>'
-                       + ('<p class="ask">Need from you: approval of the estimate, or a signed agreement '
-                          'from the homeowner, before this can move.</p>' if f['needs_you'] else '')
+                       + (f'<p class="ask">{E(f["ask"])}</p>' if f['needs_you'] else '')
+                       + chain_html(f.get('timeline'))
                        + '</div>')
         out.append('</section>')
 
@@ -189,6 +201,17 @@ if os.path.exists(_lbl):
     for _line in open(_lbl):
         if _line.startswith('| ') and 'Label to create' not in _line and '---' not in _line:
             APPROVED.add(canon(_line.strip().strip('|').split('|')[0].strip()))
+
+
+ENRICH = {}
+for _f in sorted(glob.glob(os.path.join(os.path.dirname(__file__), '..', 'work', 'updates', 'out*.json'))):
+    try:
+        _d = json.load(open(_f))
+    except Exception:
+        continue
+    for _r in (_d.get('results') if isinstance(_d, dict) else _d) or []:
+        if _r.get('cardId'):
+            ENRICH[_r['cardId'].strip()] = _r
 
 
 def main(csv_path, outdir='work/pages'):
@@ -219,17 +242,20 @@ def main(csv_path, outdir='work/pages'):
             addr, claim, note = extract(desc)
             if not claim:
                 claim = (r.get('Claim #') or '').strip()
+            en = ENRICH.get(r['Card ID'].strip(), {})
             buckets[lab][rep].append({
                 'insured': clean_insured(name, desc),
                 'addr': addr, 'claim': claim,
                 'activity': (r.get('Last Activity Date') or '')[:10],
                 'stage': st,
-                'needs_you': st['order'] == 3,
-                # NOTE deliberately unused: the trailing [YYYY-MM-DD] notes are
-                # internal (staff names, dollar figures, carrier strategy). A
-                # deterministic builder cannot safely paraphrase them, so the page
-                # shows the stage's plain-language blurb.
-                'what': st['blurb'],
+                'timeline': en.get('timeline') or [],
+                'ask': en.get('needed') or ('Need from you: approval of the estimate, or a signed '
+                                            'agreement from the homeowner, before this can move.'),
+                'needs_you': bool(en.get('needed')) or st['order'] == 3,
+                # Prefer the email-derived status; fall back to the stage blurb.
+                # The trailing [YYYY-MM-DD] card notes are never used -- they are
+                # internal (staff names, dollar figures, carrier strategy).
+                'what': en.get('update') or st['blurb'],
             })
 
     manifest = []
@@ -248,10 +274,15 @@ def main(csv_path, outdir='work/pages'):
             addr, claim, note = extract(desc)
             if not claim:
                 claim = (r.get('Claim #') or '').strip()
+            en = ENRICH.get(r['Card ID'].strip(), {})
             combuckets[lab].append({
                 'insured': clean_insured(name, desc), 'addr': addr, 'claim': claim,
                 'activity': (r.get('Last Activity Date') or '')[:10], 'stage': st,
-                'needs_you': st['order'] == 3, 'what': st['blurb'],
+                'timeline': en.get('timeline') or [],
+                'ask': en.get('needed') or ('Need from you: approval of the estimate, or a signed '
+                                            'agreement from the homeowner, before this can move.'),
+                'needs_you': bool(en.get('needed')) or st['order'] == 3,
+                'what': en.get('update') or st['blurb'],
             })
     for lab, files in combuckets.items():
         cfg = COMPANY_LABELS[lab]

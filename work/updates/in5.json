@@ -1,0 +1,288 @@
+[
+ {
+  "cardId": "6a47c72aa447b548c59bddd6",
+  "insured": "Michael Viktoria Brown",
+  "claim": "53-73J6-85D",
+  "address": "902 Hedgestone Dr San Antonio, TX 78258",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "Strong House Pro"
+  ],
+  "rep": "Trey Elliott"
+ },
+ {
+  "cardId": "6a3daffdb92a8c571401f808",
+  "insured": "Kenneth Sweet",
+  "claim": "53-0F7R-587",
+  "address": "139 Joshua Dr Georgetown, TX 78633-1857",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Patrick Nations"
+ },
+ {
+  "cardId": "69af12d83846431d8c356436",
+  "insured": "SULAIMON SHOTONWA",
+  "claim": "TXHO-00043669",
+  "address": "29648 Winter Copper Bulverde, TX 78163-2522",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Robert Crotty"
+ },
+ {
+  "cardId": "69f0e7c3c6e96fbfe9dfe81f",
+  "insured": "Mackenzie Wesson",
+  "claim": "",
+  "address": "",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Samuel Peters"
+ },
+ {
+  "cardId": "6a1e1a348eae4d542b8572c9",
+  "insured": "Gary",
+  "claim": "5396K355W",
+  "address": "518 EVENING STAR KYLE, TX 78640-6134",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Heather Griffiths"
+ },
+ {
+  "cardId": "6a31b03b3909173bb6c0cc7d",
+  "insured": "Sandra And Brian Sears",
+  "claim": "01009895449",
+  "address": "7 Red Bud Trl Round Rock, TX 78665-9725",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "Legacy Roofing"
+  ],
+  "rep": "Alex Chavez"
+ },
+ {
+  "cardId": "6a4be23dc6e8dfa71821f45a",
+  "insured": "Viengken Manikapone",
+  "claim": "",
+  "address": "",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "Cross country Public Adjusting"
+  ],
+  "rep": "Erica Shamp"
+ },
+ {
+  "cardId": "6a399a63c06762f2e0fdf42e",
+  "insured": "Varun Sudunagunta",
+  "claim": "5039067174-1",
+  "address": "1705 Boscello Court, Leander, TX 78641",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "Legacy Roofing"
+  ],
+  "rep": "Daniel Evangelista"
+ },
+ {
+  "cardId": "69f26de5d4bfc1ae74735223",
+  "insured": "RAJESH SUNDARAM",
+  "claim": "0784119638",
+  "address": "10413 NICOLET WAY AUSTIN, TX 78717-4990",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "Legacy Roofing"
+  ],
+  "rep": "Johny Paredes"
+ },
+ {
+  "cardId": "6a270d36f8efa358d7b3e069",
+  "insured": "Jennifer Compian",
+  "claim": "019610888",
+  "address": "10930 Hollow Ridge Helotes, TX 78023-4255",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "David Webster"
+ },
+ {
+  "cardId": "6a2c33a51516fb6046767a45",
+  "insured": "Meredith Miner",
+  "claim": "022383390",
+  "address": "3332 Camelot Dr, Dallas, TX 75229-5905",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "Strong House Pro"
+  ],
+  "rep": "Amir Mobalegh"
+ },
+ {
+  "cardId": "6a3069026061fe297d0cc751",
+  "insured": "Gerald Kieschnick",
+  "claim": "53-0D4T-758",
+  "address": "1109 Eagle Point Dr Georgetown TX, 78628",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Rusty Coffman"
+ },
+ {
+  "cardId": "69f226ad9998f72b7b600b3d",
+  "insured": "Mackenzie Wesson",
+  "claim": "",
+  "address": "",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Samuel Peters"
+ },
+ {
+  "cardId": "69f225d5041541cde95b51f0",
+  "insured": "Mackenzie Wesson",
+  "claim": "N97711",
+  "address": "1510 S. LIPSCOMB ST. AMARILLO, TX 79102",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Samuel Peters"
+ },
+ {
+  "cardId": "6a1a19b3c7846876826c8ea9",
+  "insured": "RICHARD LAYTON",
+  "claim": "530B4V830",
+  "address": "134 Wilhem way, Uhland, Tx, 78640",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Garrett Lucas"
+ },
+ {
+  "cardId": "69e66b50b2382b3b3f201192",
+  "insured": "KEVIN VILLALOBOS",
+  "claim": "003320634",
+  "address": "3306 Brooktree Ct San Antonio, TX 78261-2688",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "Strong House Pro"
+  ],
+  "rep": "Omar Haner"
+ },
+ {
+  "cardId": "6a1dc4def7823c0bb5d66f41",
+  "insured": "Ioana Smith",
+  "claim": "",
+  "address": "6706 LAKEHURST AVE., DALLAS, TX 75230-5206",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Andres Soto"
+ },
+ {
+  "cardId": "69f8fdad2ec48a6f75b37b36",
+  "insured": "Norma Lopes",
+  "claim": "7010088915",
+  "address": "10316 Andover Dr, Dallas, TX 75228-2702",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Justin Bach"
+ },
+ {
+  "cardId": "6a187e9e94e687bed607b017",
+  "insured": "Edgar Garcia Valdez",
+  "claim": "43-0B3C-641",
+  "address": "1432 ARCHWAY CT JUSTIN, TX 76247-1953",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "Strong House Pro"
+  ],
+  "rep": "Joel Rivera"
+ },
+ {
+  "cardId": "69bb337321eaa03172a77072",
+  "insured": "Eva De La Garza",
+  "claim": "53-94X9-94B",
+  "address": "1302 MAYWEATHER LN RICHMOND, TX 77406-2331",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "rep": "Steven Lorenzo"
+ },
+ {
+  "cardId": "69f210fb4000625388646899",
+  "insured": "Michael Patterson",
+  "claim": "018034471",
+  "address": "609 Dubina Ave Georgetown, TX 78626-2615",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "Strong House Pro"
+  ],
+  "rep": "Heather Griffiths"
+ },
+ {
+  "cardId": "69f51b106f1edc68b4368cc0",
+  "insured": "Dalton McFarling",
+  "claim": "",
+  "address": "2814 Independence Dr, Melissa TX 75454",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Justin Bach"
+ },
+ {
+  "cardId": "69ef86aab727226dff9db1b7",
+  "insured": "ESTEVAN BOSQUEZ",
+  "claim": "5398R755T",
+  "address": "14211 FLYING W TRL HELOTES, TX 78023-4082",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Sergio DeHoyos"
+ },
+ {
+  "cardId": "69e7bbeadd8694321b8f7c37",
+  "insured": "Matthew Krowski",
+  "claim": "",
+  "address": "",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "rep": ""
+ },
+ {
+  "cardId": "6a2c512033cb0ef082d1cb10",
+  "insured": "Pradeep Parad And Anjana Parad",
+  "claim": "",
+  "address": "",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "Legacy Roofing"
+  ],
+  "rep": "Luis Toribio"
+ },
+ {
+  "cardId": "6a2720c535261e58b0480241",
+  "insured": "Sharla Mckee",
+  "claim": "5042824355-1",
+  "address": "2907 Tanglewood Drive Commerce, TX 75428",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "Strong House Pro"
+  ],
+  "rep": "Andres Soto"
+ }
+]

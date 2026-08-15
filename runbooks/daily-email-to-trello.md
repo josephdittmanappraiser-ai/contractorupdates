@@ -60,13 +60,19 @@ Give each subagent its batch of thread IDs and this brief:
 > boardIds `["ari:cloud:trello::board/workspace/65d7eb00496a914bf3ffb423/666e58adc67768660a580af4"]`.
 > If no card matches, or two match ambiguously, **do not create a card** — report it as unmatched.
 >
-> On the matched card, append to the checklist named `📧 Email log`:
+> On the matched card, append to the checklist named `📋 Chain of Events`. This is the same
+> timeline the weekly page renders, so an entry written here shows up on the contractor's page
+> at the next refresh — write it for them, not for internal notes:
 > - `mcp__Trello__trelloReadChecklist` action `list_by_card` to find it
-> - if absent, `trelloWriteChecklist` action `create`, name `📧 Email log`, pos `bottom`
+> - if absent, `trelloWriteChecklist` action `create`, name `📋 Chain of Events`, pos `bottom`
 > - `trelloWriteChecklist` action `add_item`, pos `bottom`, text:
->   `YYYY-MM-DD · <Who> (<Company>) → <direction>: <one sentence of what was actually said>`
+>   `YYYY-MM-DD — <one plain sentence naming the action taken or received>`
 >
-> Example: `2026-08-15 · Zach Khan (Linear) → us: asked for the approved scope of work before he pays the appraisal invoice.`
+> Example: `2026-08-15 — Zach Khan asked for the approved scope of work before paying the appraisal invoice.`
+>
+> Client-safe wording, because this reaches the contractor's page verbatim: no dollar figures,
+> no negotiation strategy, no staff names, no internal shorthand (OA, AD, DOA, ff, SOU, CN),
+> no homeowner phone or email.
 >
 > Idempotency: read the existing items first. If an item already covers that date + sender + substance, skip it. Never log the same exchange twice.
 > Write what was *said*, including the ask. Do not editorialise, do not add next steps, do not change the card's list, name, description, labels or due date.
@@ -75,7 +81,7 @@ Give each subagent its batch of thread IDs and this brief:
 ### Never write to Trello card descriptions
 `trelloWriteCard action:"update"` caps `desc` at 2048 characters and **replaces** it wholesale.
 Many cards on this board are longer than that, so a description write silently destroys file
-history. Dialogue goes in the `📧 Email log` checklist. Nothing else.
+history. Dialogue goes in the `📋 Chain of Events` checklist. Nothing else.
 
 ## Phase 3 — Run log (orchestrator)
 

@@ -1,0 +1,288 @@
+[
+ {
+  "cardId": "6a5a441a650791f5b520f25b",
+  "insured": "David Jacobs",
+  "claim": "",
+  "address": "",
+  "stage": "New / intake",
+  "clients": [
+   "Strong House Pro"
+  ],
+  "rep": "Joel Rivera"
+ },
+ {
+  "cardId": "6a7242d44cab8f4f83744886",
+  "insured": "BRANDON AND ERIN SMITH",
+  "claim": "",
+  "address": "",
+  "stage": "New / intake",
+  "clients": [
+   "Strong House Pro"
+  ],
+  "rep": "Garritt Doyle"
+ },
+ {
+  "cardId": "6a7cd87a2aad8157f0fd67a4",
+  "insured": "Patrick Mele",
+  "claim": "",
+  "address": "",
+  "stage": "New / intake",
+  "clients": [
+   "Strong House Pro"
+  ],
+  "rep": "Heather Griffiths"
+ },
+ {
+  "cardId": "6a7cf8d6ac6570eb9f11b29c",
+  "insured": "LINO BARRIOS",
+  "claim": "",
+  "address": "",
+  "stage": "New / intake",
+  "clients": [
+   "Strong House Pro"
+  ],
+  "rep": "Kevin Shuford"
+ },
+ {
+  "cardId": "6a80955a15b3b2c1ce85cbb5",
+  "insured": "Sergeant First Class JOE SANCHEZ",
+  "claim": "",
+  "address": "",
+  "stage": "New / intake",
+  "clients": [
+   "Strong House Pro"
+  ],
+  "rep": "Andrew Perales"
+ },
+ {
+  "cardId": "6a47f62e66acc647e7e3392d",
+  "insured": "Chad Raymond",
+  "claim": "",
+  "address": "",
+  "stage": "Estimate being prepared",
+  "clients": [
+   "Strong House Pro"
+  ],
+  "rep": "Clayton Grassi"
+ },
+ {
+  "cardId": "6a7e3ff131ea0fcdc452233a",
+  "insured": "Patrick Mele",
+  "claim": "",
+  "address": "",
+  "stage": "Estimate being prepared",
+  "clients": [
+   "Strong House Pro"
+  ],
+  "rep": "Heather Griffiths"
+ },
+ {
+  "cardId": "6a7e4b472ad852d6ba535474",
+  "insured": "KRISHNA METTEM",
+  "claim": "",
+  "address": "14925 Harmony Ln, Frisco, TX",
+  "stage": "Estimate being prepared",
+  "clients": [
+   "Legacy Roofing"
+  ],
+  "rep": "Zach Emminizer"
+ },
+ {
+  "cardId": "6a77785a48b81101af21c50b",
+  "insured": "Uma Koturu",
+  "claim": "",
+  "address": "",
+  "stage": "Estimate being prepared",
+  "clients": [
+   "Legacy Roofing"
+  ],
+  "rep": "Ryan Ikeda"
+ },
+ {
+  "cardId": "6a2af0a187c0a450a0bfda22",
+  "insured": "Eric Coleman",
+  "claim": "",
+  "address": "",
+  "stage": "Estimate sent - needs sign-off",
+  "clients": [
+   "Legacy Roofing"
+  ],
+  "rep": "Uriel Cedillo"
+ },
+ {
+  "cardId": "6a61485b11bec624f010a3dd",
+  "insured": "Pankaj Bansal",
+  "claim": "",
+  "address": "",
+  "stage": "Estimate sent - needs sign-off",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Anthony Perez"
+ },
+ {
+  "cardId": "6a5f8eb2e7a4a8a0ed3aba0d",
+  "insured": "Fawad Haider",
+  "claim": "",
+  "address": "",
+  "stage": "Appraisal demanded / waiting on carrier",
+  "clients": [
+   "Legacy Roofing"
+  ],
+  "rep": "Heyden Graham"
+ },
+ {
+  "cardId": "6a48414e201af36c1615a0e8",
+  "insured": "ROCIO RUVALCABA",
+  "claim": "",
+  "address": "",
+  "stage": "Appraisal demanded / waiting on carrier",
+  "clients": [
+   "Legacy Roofing"
+  ],
+  "rep": "Joshua Toyphommarath"
+ },
+ {
+  "cardId": "69e24d445440bcc948653610",
+  "insured": "RAVI TERALA",
+  "claim": "",
+  "address": "",
+  "stage": "Appraisal demanded / waiting on carrier",
+  "clients": [
+   "Strong House Pro"
+  ],
+  "rep": "Andres Soto"
+ },
+ {
+  "cardId": "6a299f7cedcd7c3a94099381",
+  "insured": "Willy Coulter",
+  "claim": "",
+  "address": "",
+  "stage": "Appraisal demanded / waiting on carrier",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Michael Shemas"
+ },
+ {
+  "cardId": "6a3d59cd0631c0ed4929af89",
+  "insured": "Jason Stumbaugh",
+  "claim": "",
+  "address": "",
+  "stage": "Appraisal demanded / waiting on carrier",
+  "clients": [
+   "Strong House Pro"
+  ],
+  "rep": "Christopher Mathis"
+ },
+ {
+  "cardId": "6a42d0a414bdd96935f3a62a",
+  "insured": "VENKATESH CUMBAKONAM GOKULRAJU",
+  "claim": "",
+  "address": "",
+  "stage": "Appraisal demanded / waiting on carrier",
+  "clients": [
+   "Legacy Roofing"
+  ],
+  "rep": "Amir Khobeisi"
+ },
+ {
+  "cardId": "6a4c5d8c3d4e4a504aec9ac1",
+  "insured": "Lyss Woods LLC",
+  "claim": "20",
+  "address": "",
+  "stage": "Appraisal demanded / waiting on carrier",
+  "clients": [
+   "Strong House Pro"
+  ],
+  "rep": "Zacharias Khan"
+ },
+ {
+  "cardId": "6a4c5cec413089b6c58504a1",
+  "insured": "Lyss Woods LLC",
+  "claim": "",
+  "address": "",
+  "stage": "Appraisal demanded / waiting on carrier",
+  "clients": [
+   "Strong House Pro"
+  ],
+  "rep": "Zacharias Khan"
+ },
+ {
+  "cardId": "6a5572183ca437ad06aa7e9b",
+  "insured": "RAMESH MUTHUKRISHNAN",
+  "claim": "",
+  "address": "",
+  "stage": "Appraisal demanded / waiting on carrier",
+  "clients": [
+   "Legacy Roofing"
+  ],
+  "rep": "Jonathan Perez"
+ },
+ {
+  "cardId": "6a504d5e5646093af1152793",
+  "insured": "SAL MARCUZ",
+  "claim": "",
+  "address": "",
+  "stage": "Appraisal demanded / waiting on carrier",
+  "clients": [
+   "Legacy Roofing"
+  ],
+  "rep": "Anthony Perez"
+ },
+ {
+  "cardId": "6a582a2ba309ced421c5b0f1",
+  "insured": "Isaac Wilson",
+  "claim": "",
+  "address": "2700 Mazaro Way, Round Rock, TX 78665",
+  "stage": "Appraisal demanded / waiting on carrier",
+  "clients": [
+   "Legacy Roofing"
+  ],
+  "rep": "Jerson Ordonez"
+ },
+ {
+  "cardId": "6a3ee269aab950e1ea8c5c2a",
+  "insured": "Siew Peng Teng",
+  "claim": "",
+  "address": "",
+  "stage": "Appraisal demanded / waiting on carrier",
+  "clients": [
+   "Legacy Roofing"
+  ],
+  "rep": "Anthony Perez"
+ },
+ {
+  "cardId": "6a582262a4f82f3d2970720b",
+  "insured": "BHARATH GANDLA",
+  "claim": "",
+  "address": "",
+  "stage": "Appraisal demanded / waiting on carrier",
+  "clients": [
+   "Legacy Roofing"
+  ],
+  "rep": "Ryan Ikeda"
+ },
+ {
+  "cardId": "6a5e30fdbf65d61eb0666ddf",
+  "insured": "Stephen Becker",
+  "claim": "",
+  "address": "",
+  "stage": "Appraisal demanded / waiting on carrier",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Eric Campoli"
+ },
+ {
+  "cardId": "6a502b7d083706c4926570dc",
+  "insured": "Kevin And Lourdes Mckenna",
+  "claim": "",
+  "address": "",
+  "stage": "Appraisal demanded / waiting on carrier",
+  "clients": [
+   "Legacy Roofing"
+  ],
+  "rep": "Ryan Ikeda"
+ }
+]

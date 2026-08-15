@@ -1,0 +1,290 @@
+[
+ {
+  "cardId": "6a4ef9916a728c0deee340ee",
+  "insured": "Alins Perez",
+  "claim": "HO-2026-973719128",
+  "address": "506 S Cougar Ave, Cedar Park, Tx 78613",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Rusty Coffman"
+ },
+ {
+  "cardId": "6a665739ce53a7cf5fa898e2",
+  "insured": "DAVETTE COOPER",
+  "claim": "0833383508",
+  "address": "",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "Strong House Pro"
+  ],
+  "rep": "Andres Soto"
+ },
+ {
+  "cardId": "6a6948b406c367502d0004eb",
+  "insured": "Rong Dai",
+  "claim": "201863AB",
+  "address": "14109 Goodman Street Overland Park, KS 66223",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Bo Serros"
+ },
+ {
+  "cardId": "6a7114fd29acb035824ddd97",
+  "insured": "Tharith Konh And Soeun Samnang",
+  "claim": "SWYBMHO13518",
+  "address": "2101 Stonewood Heights Ct Pearland TX 77581",
+  "stage": "Inspection scheduling",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "rep": "Steven Lorenzo"
+ },
+ {
+  "cardId": "6a72201beb2580622150a6e2",
+  "insured": "Chad West",
+  "claim": "",
+  "address": "** 220 ANTELOPE PLAINS RD BUDA, TX 78610-5144",
+  "stage": "Inspection scheduling",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "rep": "Steven Lorenzo"
+ },
+ {
+  "cardId": "6a6274f42e0c6156841dcd9d",
+  "insured": "Daniel Martin Fernandez Sr",
+  "claim": "PRAH-00020323",
+  "address": "601 Bunton Reserve Blvd Kyle, TX 78640",
+  "stage": "Inspection scheduling",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "rep": ""
+ },
+ {
+  "cardId": "6a42e26d2c31f49b5ecbbfae",
+  "insured": "Clarence Beasley III",
+  "claim": "60010714345",
+  "address": "215 W Maple St Whitewright, TX 75491-2526",
+  "stage": "Inspection scheduling",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Michael Shemas"
+ },
+ {
+  "cardId": "6a3c4cfe5cb3bcec5dcea75d",
+  "insured": "Idi And Cheri Lamour Ngendakumana",
+  "claim": "43-0D1V-043",
+  "address": "5101 Bristlecone CT Arlington TX 76018-1450",
+  "stage": "Inspection scheduling",
+  "clients": [
+   "Strong House Pro"
+  ],
+  "rep": "Baha AbuShehab"
+ },
+ {
+  "cardId": "6a2b3d5638100479a306c7a2",
+  "insured": "Extreme Group Inc",
+  "claim": "10003232",
+  "address": "14902 North Fwy, Houston , TX 77090",
+  "stage": "Inspection scheduling",
+  "clients": [
+   "No Stress Claims",
+   "The lawgical firm"
+  ],
+  "rep": "Gabriela Martinez"
+ },
+ {
+  "cardId": "6a064846ec96c1ab2fb81152",
+  "insured": "Daniel Romero",
+  "claim": "",
+  "address": "3513 Vahalla Dr, Corpus Christi, TX 78415",
+  "stage": "Inspection scheduling",
+  "clients": [
+   "The lawgical firm"
+  ],
+  "rep": "Gabriela Martinez"
+ },
+ {
+  "cardId": "6a306a519e76af69065e27d3",
+  "insured": "Joe Rebecca Peralez",
+  "claim": "5390S921B",
+  "address": "164 Hunter Creek Cove, Buda, TX 78610",
+  "stage": "Inspection scheduling",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "rep": "Steven Lorenzo"
+ },
+ {
+  "cardId": "6a42c137b5b4ad834998bc38",
+  "insured": "Travis Sauer",
+  "claim": "01-009-796070",
+  "address": "2639 Bret Avenue, Salina, KS 67401",
+  "stage": "Inspection scheduling",
+  "clients": [
+   "Strong House Pro"
+  ],
+  "rep": "Jake Mathew"
+ },
+ {
+  "cardId": "6a5023e20030684fab44763e",
+  "insured": "MUNIYARAJ MUNIYANDI-estimate Created",
+  "claim": "0830518726",
+  "address": "2945 DIEGO DR ROUND ROCK, TX 78665-2001",
+  "stage": "Inspection scheduling",
+  "clients": [
+   "Legacy Roofing"
+  ],
+  "rep": "Daniel Evangelista"
+ },
+ {
+  "cardId": "6a4daacf8d70f33b661b3c96",
+  "insured": "Sean Cooper",
+  "claim": "43-0G7N-754",
+  "address": "2108 Rheims Dr Carrollton TX 75006-4328",
+  "stage": "Inspection scheduling",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Garritt Doyle"
+ },
+ {
+  "cardId": "6969063d8294e933196151b6",
+  "insured": "Charles Paul",
+  "claim": "004787829",
+  "address": "2309 Miramar St Wichita Falls, TX 76308-1234",
+  "stage": "Inspection scheduling",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Andres Soto"
+ },
+ {
+  "cardId": "6a317e6c98f96afc8a35b439",
+  "insured": "Francine Nacarato",
+  "claim": "43-0B3C-870",
+  "address": "12051 Alysse Way Fort Worth, TX 76179",
+  "stage": "Inspection scheduling",
+  "clients": [
+   "Strong House Pro"
+  ],
+  "rep": "Jeffrey Speight"
+ },
+ {
+  "cardId": "6a42c7e6c5d44889a3a5c589",
+  "insured": "SATYASHREE MAHAPATRA AND DEEPA GOPALAN",
+  "claim": "01009898331",
+  "address": "9213 Ivalenes Hope Dr, Austin, TX 78717",
+  "stage": "Inspection scheduling",
+  "clients": [
+   "Legacy Roofing"
+  ],
+  "rep": "Roberto Martinez"
+ },
+ {
+  "cardId": "6a564ca75275822b96fca2a8",
+  "insured": "Michael Ruiz Brianna Lopez",
+  "claim": "",
+  "address": "** 19714 Rippling Brook Ln, Tomball, TX 77375",
+  "stage": "Inspection scheduling",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "rep": "Steven Lorenzo"
+ },
+ {
+  "cardId": "6a60027a566b28ab3b511b5b",
+  "insured": "Daniel Davis",
+  "claim": "5043478786-1",
+  "address": "1313 Edna St, Commerce, TX",
+  "stage": "Inspection scheduling",
+  "clients": [
+   "Strong House Pro"
+  ],
+  "rep": "Jacob Diaz"
+ },
+ {
+  "cardId": "6a50221a7f7c7f7381065a15",
+  "insured": "JOE GONZALES HEATHER GONZALES",
+  "claim": "",
+  "address": "** 2638 Misty Grove Dr., Manvel, TX 77578",
+  "stage": "Inspection scheduling",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "rep": "Steven Lorenzo"
+ },
+ {
+  "cardId": "6a692a416302e49818d8b038",
+  "insured": "RAHUL MAHASHANK",
+  "claim": "HO-2026-500338685",
+  "address": "241 TEQUILANA PASS LEANDER TX 78641",
+  "stage": "Inspection scheduling",
+  "clients": [
+   "Legacy Roofing"
+  ],
+  "rep": "Roberto Martinez"
+ },
+ {
+  "cardId": "6a638f478e63b5b6e89037fc",
+  "insured": "David Johnson",
+  "claim": "0826289761",
+  "address": "1890 Copper Ridge Circle, Rockwall TX 75032",
+  "stage": "Inspection scheduling",
+  "clients": [
+   "Strong House Pro"
+  ],
+  "rep": "Andres Soto"
+ },
+ {
+  "cardId": "6a693ba63023221a0cf9c7ec",
+  "insured": "Darryl Horton And Gerald Beauchamp",
+  "claim": "7010168392-1",
+  "address": "800 Panay Way Dr, Fort Worth, TX",
+  "stage": "Inspection scheduling",
+  "clients": [
+   "Cross country Public Adjusting"
+  ],
+  "rep": "Erica Shamp"
+ },
+ {
+  "cardId": "6a7112cf2d2fb673a37fedbd",
+  "insured": "GLORIA ARMAND",
+  "claim": "0830458824",
+  "address": "1808 SUNSET ST KILLEEN, TX 76543-6720",
+  "stage": "Inspection scheduling",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "rep": "Steven Lorenzo"
+ },
+ {
+  "cardId": "6a4c5f7fc10eaaf10a20be88",
+  "insured": "Donald Strahan",
+  "claim": "0821424645",
+  "address": "18818 YAUPON TRL HUMBLE, TX 77346-3164",
+  "stage": "Inspection scheduling",
+  "clients": [
+   "Cross country Public Adjusting"
+  ],
+  "rep": "Erica Shamp"
+ },
+ {
+  "cardId": "6a0cd208e5b80472f4164530",
+  "insured": "Mario Alvarado",
+  "claim": "CMDH42100869",
+  "address": "13218 Skyview Landing Dr, Houston, TX 77047",
+  "stage": "Inspection scheduling",
+  "clients": [
+   "No Stress Claims",
+   "The lawgical firm"
+  ],
+  "rep": "Gabriela Martinez"
+ }
+]

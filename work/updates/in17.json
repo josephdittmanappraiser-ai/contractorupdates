@@ -1,0 +1,288 @@
+[
+ {
+  "cardId": "69ea34cfd30fc18976cd84b0",
+  "insured": "Jose Alvarenga",
+  "claim": "PL2503551",
+  "address": "535 Gettysburg, Mesquite, Texas 75149",
+  "stage": "In umpire",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Andres Soto"
+ },
+ {
+  "cardId": "69bc2b4a431d01dc2e2cc522",
+  "insured": "Alcides Maldonado",
+  "claim": "",
+  "address": "** 6322 Diamond Rock Dr, Katy, TX 77449",
+  "stage": "In umpire",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "rep": "Steven Lorenzo"
+ },
+ {
+  "cardId": "69f0d1b1d25e0dfddb63270e",
+  "insured": "Gilbert Rocio Funes",
+  "claim": "",
+  "address": "** 17619 Burkhart Ridge Dr, Houston, TX 77095",
+  "stage": "In umpire",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "rep": "Steven Lorenzo"
+ },
+ {
+  "cardId": "687a6344246ed35e0d947707",
+  "insured": "Roslyn Williams",
+  "claim": "",
+  "address": "6918 Spring Creek Ct",
+  "stage": "In umpire",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "rep": "Mike - no stress"
+ },
+ {
+  "cardId": "69bb0544436a84989ebf1c02",
+  "insured": "WENDY ESTRADA-PEREZ",
+  "claim": "0820895125",
+  "address": "747 EVENING STAR KYLE, TX 78640-6659",
+  "stage": "In umpire",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Clayton Grassi"
+ },
+ {
+  "cardId": "69a0bb9f9a927fdd146b8ce4",
+  "insured": "Ana Galvan",
+  "claim": "",
+  "address": "1919 Laura Anne Dr, Houston, TX 77049",
+  "stage": "In umpire",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "rep": "Steven Lorenzo"
+ },
+ {
+  "cardId": "69fa344ff7806a9b45ac71b1",
+  "insured": "Shajimon Joseph Bindu Thomas-no Agreement To Invoke The Umpire Yet",
+  "claim": "",
+  "address": "** 2323 Alassio Isle Ct, Missouri City, TX 77459",
+  "stage": "In umpire",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "rep": "Steven Lorenzo"
+ },
+ {
+  "cardId": "69d807668214d283ec4c1a87",
+  "insured": "Don Lawson-No Inspection Photo",
+  "claim": "007361",
+  "address": "317 County Road 692, Buffalo Gap, TX 79508, USA, 79508",
+  "stage": "In umpire",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Heather Griffiths"
+ },
+ {
+  "cardId": "68129eea17e53372c1eaec00",
+  "insured": "Miguel Myers",
+  "claim": "",
+  "address": "",
+  "stage": "In umpire",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "rep": "Claims Adjuster Prosperity"
+ },
+ {
+  "cardId": "69ea406acf6619e5f819709f",
+  "insured": "Cruz Alberto Gomez Henriquez",
+  "claim": "100041",
+  "address": "12206 DONEGAL WAY HOUSTON TX 77047",
+  "stage": "In umpire",
+  "clients": [
+   "The lawgical firm"
+  ],
+  "rep": "Gabriela Martinez"
+ },
+ {
+  "cardId": "6924c33fa095eda883346483",
+  "insured": "Maria Ramos",
+  "claim": "9379",
+  "address": "5523 Sequin Dr., Spring, TX 77388",
+  "stage": "In umpire",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "rep": ""
+ },
+ {
+  "cardId": "697a37c8b46282f2a56f3ae2",
+  "insured": "Rocendo Garcia",
+  "claim": "",
+  "address": "104 Virginia St, South Houston, TX 77587",
+  "stage": "In umpire",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "rep": "Steven Lorenzo"
+ },
+ {
+  "cardId": "6983ddd1305dd34138a9fd96",
+  "insured": "Asaad Fakhir",
+  "claim": "",
+  "address": "",
+  "stage": "In umpire",
+  "clients": [
+   "Legacy Roofing"
+  ],
+  "rep": "Alexis Chavez"
+ },
+ {
+  "cardId": "69d7e40e7054a2d936880d86",
+  "insured": "STEVEN VALLEJO",
+  "claim": "5396Q033X",
+  "address": "10615 Rainbow Vw Helotes, TX 78023-3850",
+  "stage": "In umpire",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Robert Crotty"
+ },
+ {
+  "cardId": "69d58031b4e858e988cc3aee",
+  "insured": "SERGIO DAVILA",
+  "claim": "",
+  "address": "** 305 Parkwest Dr, Cedar Park, TX 78613",
+  "stage": "In umpire",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "rep": "Steven Lorenzo"
+ },
+ {
+  "cardId": "69ebd61c1dd6e6239c560383",
+  "insured": "ELIZABETH DUNAGAN",
+  "claim": "005764010",
+  "address": "4028 Fairmont Ct Bedford, TX 76021-2750",
+  "stage": "In umpire",
+  "clients": [
+   "Strong House Pro"
+  ],
+  "rep": "Amir Mobalegh"
+ },
+ {
+  "cardId": "69a6fbeff06aa9b43aa2a40e",
+  "insured": "DAVID WEIR And STEPHANIE WEIR",
+  "claim": "",
+  "address": "470 SOUTHERN OAKS DR, LAKE JACKSON, TX, 77566-4514",
+  "stage": "In umpire",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "rep": "Steven Lorenzo"
+ },
+ {
+  "cardId": "69cf01db396d7a8ade890065",
+  "insured": "Juanita Mascarenhas",
+  "claim": "017125712",
+  "address": "2921 Margarita Loop Round Rock TX 78665",
+  "stage": "In umpire",
+  "clients": [
+   "Legacy Roofing"
+  ],
+  "rep": "Alex Chavez"
+ },
+ {
+  "cardId": "69836934dbf3147b324011b1",
+  "insured": "Theodore Mendoza",
+  "claim": "0817155401",
+  "address": "113 Willow Run Georgetown, TX 78633",
+  "stage": "In umpire",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Rusty Coffman"
+ },
+ {
+  "cardId": "6923293e0bc424f92bea4da8",
+  "insured": "WILLIAM TUCKER",
+  "claim": "",
+  "address": "2207 CLARINDA AVE WICHITA FALLS, TX 76308",
+  "stage": "In umpire",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Noah Nichter"
+ },
+ {
+  "cardId": "69dfacd89ebdfcd1cbb05b51",
+  "insured": "Jose Bravo",
+  "claim": "PL2503507",
+  "address": "6824 Mountain Cedar Ln. Dallas Tx 75236",
+  "stage": "In umpire",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Tomas Cuevas"
+ },
+ {
+  "cardId": "69e15f85f9121db5bcca036f",
+  "insured": "Lorena De Leon Gonzalez",
+  "claim": "TXIMF0000577",
+  "address": "27602 County Road 3743 Splendora, TX 77372",
+  "stage": "In umpire",
+  "clients": [
+   "The lawgical firm"
+  ],
+  "rep": ""
+ },
+ {
+  "cardId": "6a0f754740aedab34c124a38",
+  "insured": "Miguel Rodriguez",
+  "claim": "",
+  "address": "",
+  "stage": "In umpire",
+  "clients": [
+   "The lawgical firm"
+  ],
+  "rep": "Gabriela Martinez"
+ },
+ {
+  "cardId": "685d64699ea5794701cb131f",
+  "insured": "Martha",
+  "claim": "",
+  "address": "",
+  "stage": "In umpire",
+  "clients": [
+   "Vince - assured value claims"
+  ],
+  "rep": ""
+ },
+ {
+  "cardId": "691206f033ca8da584cef61d",
+  "insured": "Robert Caballero",
+  "claim": "0800018947",
+  "address": "",
+  "stage": "In umpire",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "rep": ""
+ },
+ {
+  "cardId": "6916145e595fb6fbc3b9bb42",
+  "insured": "Jesal Shah",
+  "claim": "",
+  "address": "",
+  "stage": "In umpire",
+  "clients": [
+   "The lawgical firm"
+  ],
+  "rep": ""
+ }
+]
