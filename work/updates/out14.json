@@ -407,9 +407,48 @@
    ],
    "trelloItemsAdded": 4,
    "noEmail": false
+  },
+  {
+   "cardId": "6a0cb5de27ed7725c3d086f8",
+   "update": "Allstate accepted the appraisal and named their appraiser, and a joint inspection was held on 8/3 with inspection photos received afterward. The file is now moving into building a position.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-05-19", "event": "LINEAR Roofing sent the estimate for the property, which was approved."},
+    {"date": "2026-05-21", "event": "Appraisal formally initiated with Allstate."},
+    {"date": "2026-06-16", "event": "Homeowner confirmed he still wished to proceed; files resent to Allstate."},
+    {"date": "2026-07-01", "event": "Allstate scheduled a reinspection with its adjuster for 7/11; the contractor represented the file since Joseph could not attend before formal appraisal."},
+    {"date": "2026-07-20", "event": "Followed up on the appraisal demand after no response from Allstate."},
+    {"date": "2026-07-24", "event": "Allstate accepted the appraisal request and named their appraiser, Rodney Miles."},
+    {"date": "2026-07-25", "event": "Carrier's appraiser proposed a joint inspection for 8/3 at 10:00 AM and an umpire."},
+    {"date": "2026-07-30", "event": "Homeowner confirmed the joint inspection for 8/3 at 10:00 AM."},
+    {"date": "2026-08-03", "event": "Inspection photos from the joint inspection received for review."}
+   ],
+   "trelloItemsAdded": 9,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a47d422f42a4522a9a18185",
+   "update": "Inspection dates were set for both Joseph and the carrier's appraiser, but the homeowner has not yet confirmed either appointment despite a request routed through the contractor on 7/17.",
+   "needed": "Please help confirm with the homeowner whether the proposed inspection dates work so both appraisers' visits can be locked in.",
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-06-12", "event": "Cross Country Public Adjusting discussed the claim's status with Joseph ahead of proceeding to appraisal."},
+    {"date": "2026-06-15", "event": "The carrier sent a revised estimate for review."},
+    {"date": "2026-07-03", "event": "Allstate acknowledged the appraisal request."},
+    {"date": "2026-07-03", "event": "The carrier's appraiser sent a proposed agreement and umpire list for review."},
+    {"date": "2026-07-09", "event": "Signed agreement sent to the carrier's appraiser."},
+    {"date": "2026-07-09", "event": "Carrier's appraiser proposed a solo inspection for 8/3 at 11:00 AM."},
+    {"date": "2026-07-10", "event": "Reached out to the homeowner to schedule inspection appointments for both appraisers."},
+    {"date": "2026-07-13", "event": "Followed up with the homeowner to confirm the proposed inspection schedule."},
+    {"date": "2026-07-16", "event": "Updated inspection schedule sent to the homeowner, moving Joseph's own visit to 7/20."},
+    {"date": "2026-07-17", "event": "Asked Cross Country Public Adjusting to help confirm the updated schedule with the homeowner."}
+   ],
+   "trelloItemsAdded": 10,
+   "noEmail": false
   }
  ],
- "withEmail": 24,
+ "withEmail": 26,
  "noEmail": 0,
- "flaggedNeeded": 0
+ "flaggedNeeded": 1
 }

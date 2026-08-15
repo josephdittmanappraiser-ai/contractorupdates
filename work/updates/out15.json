@@ -401,9 +401,48 @@
    ],
    "trelloItemsAdded": 7,
    "noEmail": false
+  },
+  {
+   "cardId": "69e937e66cb930dd462108fb",
+   "update": "The onsite inspection was completed back in June and the file has been building its position since, with additional damage documentation and an estimate added as recently as August 13; still awaiting the carrier's appraiser's position.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-04-22", "event": "Referring law firm selected Joseph as appraiser for this claim and shared the file via ClaimWizard."},
+    {"date": "2026-04-29", "event": "Carrier's appraiser reached out, noting he had already inspected the property with the insured present, and sent the signed agreement naming an umpire."},
+    {"date": "2026-05-04", "event": "Umpire proposed inspecting the property himself in early May."},
+    {"date": "2026-05-19", "event": "Umpire asked that all further correspondence go through one shared email thread to avoid ex-parte issues, citing delays with the appraisal fees."},
+    {"date": "2026-06-02", "event": "Office confirmed to the law firm that the inspection had been completed and the file was awaiting the carrier's appraiser's position."},
+    {"date": "2026-06-25", "event": "Office requested the interior sketch from its contracted surveyor, who reported the file was lost and offered to re-measure if needed."},
+    {"date": "2026-06-26", "event": "A hurricane-damage estimate and supporting reports were added to the file to support the position."},
+    {"date": "2026-08-04", "event": "Additional exterior damage photos and a photo report were added to the file."},
+    {"date": "2026-08-13", "event": "A further estimate document was attached to the file ahead of finalizing the position."}
+   ],
+   "trelloItemsAdded": 9,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a2c2e60d5ab2c05704c4c1d",
+   "update": "The property inspection was completed in late July after two weather- and scheduling-related reschedules; the file is now in the position-building stage while the carrier's appraiser's own review proceeds.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-06-12", "event": "Contractor referred the file with photos and property scope; office requested the carrier estimate and homeowner's email for the demand letter."},
+    {"date": "2026-06-23", "event": "Demand package sent to Allstate to formally initiate the appraisal, copying the homeowner and contractor."},
+    {"date": "2026-06-25", "event": "Allstate acknowledged and said the claim had been forwarded to its appraisal team."},
+    {"date": "2026-06-30", "event": "Carrier named its appraiser (Rodney Miles), who proposed a July 13 inspection date."},
+    {"date": "2026-07-01", "event": "Carrier's appraiser asked to inspect jointly rather than solo; office said it would find a workable Kansas date."},
+    {"date": "2026-07-07", "event": "Carrier's appraiser followed up, pressing for an inspection date and the signed agreement."},
+    {"date": "2026-07-12", "event": "Office assigned its own inspector for a wind/hail exterior inspection and notified the homeowner of the schedule."},
+    {"date": "2026-07-13", "event": "Homeowner did not confirm the July 13 inspection; it had to be rescheduled."},
+    {"date": "2026-07-23", "event": "Rescheduled inspection had to be pushed again due to weather."},
+    {"date": "2026-07-27", "event": "Office's contracted inspector completed the property inspection and submitted photos."}
+   ],
+   "trelloItemsAdded": 10,
+   "noEmail": false
   }
  ],
- "withEmail": 22,
+ "withEmail": 24,
  "noEmail": 0,
  "flaggedNeeded": 0
 }

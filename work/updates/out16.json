@@ -316,9 +316,64 @@
    ],
    "trelloItemsAdded": 8,
    "noEmail": false
+  },
+  {
+   "cardId": "69a20077482ae888cdc798ba",
+   "update": "The carrier's appraiser sent an updated position on August 8 using a current price list, after months of back-and-forth over supervisor hours, overhead and profit, and disputed siding damage. The file remains under negotiation, and Joseph has not yet responded to the new position.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-02-27", "event": "Pre-appraisal demand was formally submitted to the carrier."},
+    {"date": "2026-03-25", "event": "Louis Irving was assigned as the carrier's appraiser and umpire lists were exchanged."},
+    {"date": "2026-03-26", "event": "Jimmy Heilander was agreed on as umpire."},
+    {"date": "2026-04-16", "event": "Both appraisers' solo inspections were held as scheduled."},
+    {"date": "2026-05-13", "event": "The carrier's appraiser sent his position estimate."},
+    {"date": "2026-05-14", "event": "Joseph requested several additional line items, and the two appraisers began negotiating specific disputed items including overhead/profit, supervisor hours, siding, and AC fins."},
+    {"date": "2026-07-03", "event": "Joseph sent a revised position; the carrier's appraiser held his position on the siding damage."},
+    {"date": "2026-07-11", "event": "Joseph asked the carrier's appraiser to update his price list to a more current one."},
+    {"date": "2026-08-08", "event": "The carrier's appraiser sent an updated position using the current price list, and asked how Joseph would like to proceed."}
+   ],
+   "trelloItemsAdded": 9,
+   "noEmail": false
+  },
+  {
+   "cardId": "6993826c12798733ab54469c",
+   "update": "The carrier reassigned the file to a new appraiser, David Preddy, who has raised a coverage dispute over landscaping and exterior items and, as of August 10, is questioning inconsistent dates on the contractor's fence/deck, tree-removal, and plumbing-repair invoices before he'll finalize his position.",
+   "needed": "Verify the dates and scope of the fence/deck, tree-removal, and plumbing-repair invoices submitted for this claim, since the carrier's appraiser flagged the dates as inconsistent with the described work.",
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-03-04", "event": "File materials were shared with Joseph by Erica Shamp."},
+    {"date": "2026-03-05", "event": "The carrier's appraiser Patrick McGrew reached out, and Joseph selected Shane Sosa as umpire."},
+    {"date": "2026-03-06", "event": "Solo inspection was scheduled for March 20 with the carrier's appraiser, and the signed agreement was sent."},
+    {"date": "2026-04-16", "event": "The carrier's appraiser requested the demand estimate."},
+    {"date": "2026-06-25", "event": "The file was reassigned to a new carrier's appraiser, David Preddy, who flagged a coverage dispute over landscaping and exterior features and requested inspection photos and the demand estimate."},
+    {"date": "2026-07-14", "event": "The new carrier's appraiser's re-inspection was held, including interior access."},
+    {"date": "2026-08-06", "event": "The carrier's appraiser shared the carrier's inspection photos and said he saw no wall damage, asking whether more photo documentation could be obtained before he finalizes his position."},
+    {"date": "2026-08-10", "event": "The carrier's appraiser questioned inconsistent dates on the contractor's fence/deck, tree-removal, and plumbing-repair invoices and asked Joseph to verify the details."}
+   ],
+   "trelloItemsAdded": 8,
+   "noEmail": false
+  },
+  {
+   "cardId": "690283822da9c01e102a2bd1",
+   "update": "Allstate confirmed in March that both appraisers were negotiating after inspections were complete, but the file has seen no further progress reported since; Joseph's most recent action was following up in June for garage measurements to finish his own position.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2025-10-29", "event": "Appraisal was formally invoked with the carrier."},
+    {"date": "2026-01-30", "event": "Pre-appraisal demand was submitted to the carrier."},
+    {"date": "2026-03-03", "event": "The carrier confirmed acceptance of appraisal, and the carrier's appraiser Stephen Peltier was assigned."},
+    {"date": "2026-03-05", "event": "Both sides agreed on an umpire, and the signed agreement was exchanged."},
+    {"date": "2026-03-06", "event": "Solo inspection dates were confirmed: the carrier's appraiser for March 18 and Joseph for March 25."},
+    {"date": "2026-03-20", "event": "The carrier reported the appraisers were actively negotiating following completed inspections."},
+    {"date": "2026-03-25", "event": "Joseph's solo inspection went forward as scheduled."},
+    {"date": "2026-04-09", "event": "Joseph followed up twice, through June, requesting garage measurements needed to finish his position."}
+   ],
+   "trelloItemsAdded": 8,
+   "noEmail": false
   }
  ],
- "withEmail": 17,
+ "withEmail": 20,
  "noEmail": 0,
- "flaggedNeeded": 1
+ "flaggedNeeded": 2
 }
