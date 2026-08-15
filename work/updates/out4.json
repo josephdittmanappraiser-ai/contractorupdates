@@ -1,0 +1,71 @@
+{
+ "batch": 4,
+ "results": [
+  {
+   "cardId": "6a3ea8ed04532d29c652f6fd",
+   "update": "The revised estimate for 3946 Springfield St was sent to the contractor in early July, but this is one of 11 Farassati properties whose Appraisal Demand Letter remains unsigned by the homeowner despite repeated reminders from June 26 through August 12; the file cannot move to the carrier until that signature comes back.",
+   "needed": "Please help get Mr. Farassati to sign the Appraisal Demand Letter for 3946 Springfield St so it can be submitted to the carrier.",
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-06-26", "event": "LINEAR Roofing submitted this property, one of 11 for Faris Farassati, after the carrier's estimate came in below the deductible, and asked for a revised estimate and an Appraisal Demand Letter."},
+    {"date": "2026-06-26", "event": "Joseph's office confirmed receipt and sent the Appraisal Demand Letter to the homeowner for claim 600-1348143."},
+    {"date": "2026-07-04", "event": "Joseph's office sent the completed estimate for 3946 Springfield St to the contractor for review."},
+    {"date": "2026-07-28", "event": "Joseph's office followed up with the homeowner because the Appraisal Demand Letter still had not been signed."},
+    {"date": "2026-08-12", "event": "Joseph's office resent the Appraisal Demand Letter to the homeowner for signature; it remains unsigned."}
+   ],
+   "trelloItemsAdded": 5,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a42e1a39872ef2c0c618aff",
+   "update": "The estimate for the Rhoades property was sent to LINEAR Roofing on July 6 and remains awaiting the contractor's approval despite four follow-ups through August 11; because the homeowner plans to sign a paper Appraisal Demand Letter in person, that step also cannot happen until the estimate is approved.",
+   "needed": "Please review and approve the estimate for the Barbra & Keith Rhoades property so we can move to the Appraisal Demand Letter with the homeowner.",
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-06-29", "event": "LINEAR Roofing submitted the file, provided photos and an EagleView report, and asked for an estimate ahead of the carrier's next steps."},
+    {"date": "2026-07-01", "event": "The contractor checked in asking whether the estimate was ready yet."},
+    {"date": "2026-07-06", "event": "Joseph's office sent the completed estimate to the contractor for review."},
+    {"date": "2026-07-28", "event": "Joseph's office followed up with the contractor for estimate approval, having heard nothing since July 6."},
+    {"date": "2026-08-11", "event": "Joseph's office sent a further follow-up to the contractor; the estimate remains unapproved and no Appraisal Demand Letter has gone out."}
+   ],
+   "trelloItemsAdded": 5,
+   "noEmail": false
+  },
+  {
+   "cardId": "697799a6c46efdde1f904a59",
+   "update": "The file has been ready with a completed estimate since late January, on hold since the homeowner wanted a reinspection and an ITEL report before involving a public adjuster; Joseph's office checked back in on July 20 for the contractor's go-ahead to formally start the appraisal process and has not heard back since.",
+   "needed": "Let us know if you're ready to give the go-ahead to start the appraisal process for Henry Hollomon so we can move forward.",
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-01-24", "event": "LINEAR Roofing forwarded the carrier's estimate and asked Joseph to take on the appraisal for Henry Hollomon, noting the homeowner was in the ICU."},
+    {"date": "2026-01-24", "event": "Joseph's office agreed to take the file."},
+    {"date": "2026-01-27", "event": "The contractor supplied the EagleView/roof sketch report Joseph's office had requested."},
+    {"date": "2026-01-28", "event": "Joseph's office sent the final draft estimate to the contractor for review."},
+    {"date": "2026-01-29", "event": "The contractor said the estimate looked good, but reported the homeowner wanted a reinspection and an ITEL report before involving a public adjuster."},
+    {"date": "2026-02-04", "event": "Joseph's office acknowledged and said it would wait for an update on the reinspection/ITEL report."},
+    {"date": "2026-07-20", "event": "Joseph's office checked back in with the contractor, noting the file was ready on their end and asking for the go-ahead to start the appraisal process."}
+   ],
+   "trelloItemsAdded": 7,
+   "noEmail": false
+  },
+  {
+   "cardId": "69457c2ca1af9ade7d1db71a",
+   "update": "The file has been stalled since the homeowner never signed the Appraisal Demand form after the contractor's December 27 note that the client wanted his realtor friends to review it first; the contractor confirmed on January 12 the client had gone silent, and Joseph's office checked back in on July 20 for a go-ahead but has not heard back since.",
+   "needed": "Let us know if you have an update on Drenzo Johnson or want us to proceed so we can move this file forward.",
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2025-12-19", "event": "Joseph's office followed up with the contractor requesting the EagleView, photos, and a damage description for the claim."},
+    {"date": "2025-12-20", "event": "The contractor provided photos and noted no EagleView is available since there is no roof to replace."},
+    {"date": "2025-12-24", "event": "Joseph's office sent the completed draft estimate to the contractor for review."},
+    {"date": "2025-12-27", "event": "The contractor advised holding off because the homeowner wanted his realtor friends to review it first, and confirmed the appraisal form was still unsigned."},
+    {"date": "2026-01-12", "event": "The contractor reported the homeowner had gone silent and had not responded since the appraisal form was sent."},
+    {"date": "2026-07-20", "event": "Joseph's office checked back in with the contractor, noting the file was ready on their end and asking for the go-ahead to start the appraisal process."}
+   ],
+   "trelloItemsAdded": 6,
+   "noEmail": false
+  }
+ ],
+ "withEmail": 4,
+ "noEmail": 0,
+ "flaggedNeeded": 4
+}
