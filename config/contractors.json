@@ -7,19 +7,16 @@
     "This file supplies the things Trello cannot know: display names, email domains,",
     "per-rep splits, and the Send shareId once a page has been published."
   ],
-
   "board": {
     "name": "Insured Appraisals",
     "id": "ari:cloud:trello::board/workspace/65d7eb00496a914bf3ffb423/666e58adc67768660a580af4",
     "url": "https://trello.com/b/lAdc1ZW8/insured-appraisals"
   },
-
   "gmail": {
     "contractorInboundLabel": "AA - Roofers emailing us",
     "contractorInboundLabelId": "Label_889619139836162734",
     "owner": "josephdittmanappraiser@gmail.com"
   },
-
   "_stageMapComment": [
     "The board has ~84 lists whose names carry operator instructions. Contractors see the",
     "client-facing stage, never the raw list name.",
@@ -39,7 +36,9 @@
       "stage": "In umpire",
       "order": 8,
       "blurb": "The two appraisers did not agree, so an umpire is deciding the file.",
-      "matchers": ["umpire"]
+      "matchers": [
+        "umpire"
+      ]
     },
     {
       "stage": "Settled - payment outstanding",
@@ -61,13 +60,20 @@
       "stage": "Settled - paid",
       "order": 11,
       "blurb": "Closed out and paid. Nothing outstanding.",
-      "matchers": ["paid"]
+      "matchers": [
+        "paid"
+      ]
     },
     {
-      "stage": "Referred to an attorney",
+      "stage": "Referred out (attorney or public adjuster)",
       "order": 9,
-      "blurb": "Appraisal was not the right route. The file has gone to an attorney.",
-      "matchers": ["sent to attorney", "send to attorney"]
+      "blurb": "Appraisal was not the right route. The file has moved to an attorney or a public adjuster.",
+      "matchers": [
+        "sent to attorney",
+        "send to attorney",
+        "in pa -",
+        "in pa-"
+      ]
     },
     {
       "stage": "Negotiating with the carrier's appraiser",
@@ -88,7 +94,11 @@
       "stage": "Inspected / building our position",
       "order": 6,
       "blurb": "Property inspected. Our estimate and position are being prepared.",
-      "matchers": ["inspected", "estimate under review", "further ressearch"]
+      "matchers": [
+        "inspected",
+        "estimate under review",
+        "further ressearch"
+      ]
     },
     {
       "stage": "Inspection scheduling",
@@ -119,13 +129,19 @@
       "stage": "Estimate sent - needs sign-off",
       "order": 3,
       "blurb": "The estimate is with you and/or the homeowner. We need approval to move.",
-      "matchers": ["estimates sent", "waiting for roofer's go signal"]
+      "matchers": [
+        "estimates sent",
+        "waiting for roofer's go signal"
+      ]
     },
     {
       "stage": "Estimate being prepared",
       "order": 2,
       "blurb": "We are writing the estimate.",
-      "matchers": ["estimates prepared to send", "for supplement/or estimate only"]
+      "matchers": [
+        "estimates prepared to send",
+        "for supplement/or estimate only"
+      ]
     },
     {
       "stage": "New / intake",
@@ -142,7 +158,6 @@
       ]
     }
   ],
-
   "_debtCollectionNote": [
     "JUDGEMENT CALL, easy to change: files sitting in 'Need to send to debt collections',",
     "'Sent to Debt Collections' and 'PAST DUES' are shown to the client as",
@@ -150,7 +165,6 @@
     "an automated page from picking a fight with a client on Joseph's behalf. If Joseph wants",
     "collections stated plainly, give those three lists their own stage here."
   ],
-
   "_excludeListsComment": [
     "Lists that do NOT hold client files. A card sitting in one of these is a contact record,",
     "an agent rule, a divider or a staff task -- never a file, so it must never reach a status",
@@ -165,23 +179,37 @@
     "assignments",
     "new list"
   ],
-
   "_excludeCardMarkersComment": [
     "Markers Joseph writes into a card's name or description to say it is not a live appraisal",
     "file. A card carrying one never reaches a status page, whatever list it sits in.",
     "Matched case-insensitively against card name + description."
   ],
-  "excludeCardMarkers": ["[NOT AN APPRAISAL]", "NOT AN APPRAISAL", "DO NOT SHOW", "TEST CARD"],
-
+  "excludeCardMarkers": [
+    "[NOT AN APPRAISAL]",
+    "NOT AN APPRAISAL",
+    "DO NOT SHOW",
+    "TEST CARD"
+  ],
   "_nonClientComment": "Labels that are markets, difficulty tags, staff assignments or workflow flags -- never a client. Matched case-insensitively.",
   "nonClientLabels": [
-    "Houston", "Austin", "DFW", "San Antonio",
-    "payments", "Mid level", "Easy", "Hard", "On Hold",
-    "Lacking Info - need to follow up", "Call/ Follow up", "FOR RESCHEDULING",
-    "Appraiser: joseph Dittman", "Needs PA (Joseph)",
-    "Mark's task", "Erwin's task", "Direct Customer"
+    "Houston",
+    "Austin",
+    "DFW",
+    "San Antonio",
+    "payments",
+    "Mid level",
+    "Easy",
+    "Hard",
+    "On Hold",
+    "Lacking Info - need to follow up",
+    "Call/ Follow up",
+    "FOR RESCHEDULING",
+    "Appraiser: joseph Dittman",
+    "Needs PA (Joseph)",
+    "Mark's task",
+    "Erwin's task",
+    "Direct Customer"
   ],
-
   "_contractorComment": [
     "pageMode 'per-rep'  -> one Send page per named rep, plus one catch-all page for that",
     "                      company's files with no rep resolved yet.",
@@ -193,28 +221,133 @@
     {
       "label": "LINEAR roofing",
       "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/6789f096f28b3d90d7c62897",
-      "aliasLabels": ["linear roofing"],
+      "aliasLabels": [
+        "linear roofing"
+      ],
       "company": "Linear Roofing & General Contractors",
-      "domains": ["linearroofing.com"],
+      "domains": [
+        "linearroofing.com"
+      ],
       "pageMode": "per-rep",
       "affiliatedWith": "Strong House Pro",
       "reps": [
-        { "name": "Rusty Coffman", "emails": ["rustyc@linearroofing.com", "rcoffman@stronghousepro.com"], "shareId": null },
-        { "name": "Zach Khan", "emails": ["zachariask@linearroofing.com", "zkhan@stronghousepro.com"], "shareId": null },
-        { "name": "Andres Soto", "emails": ["andres@linearroofing.com", "asoto@stronghousebrands.com"], "shareId": null },
-        { "name": "Travis Elliott", "emails": ["telliott@linearroofing.com", "telliott@stronghousepro.com"], "shareId": null },
-        { "name": "D. Webster", "emails": ["dwebster@linearroofing.com", "dwebster@stronghousepro.com"], "shareId": null },
-        { "name": "Andrew P.", "emails": ["andrewp@linearroofing.com"], "shareId": null },
-        { "name": "B. Serros", "emails": ["bserros@linearroofing.com"], "shareId": null },
-        { "name": "D. Hassenmiller", "emails": ["dhassenmiller@linearroofing.com"], "shareId": null },
-        { "name": "K. Bigham", "emails": ["kbigham@linearroofing.com"], "shareId": null },
-        { "name": "De Hoyos", "emails": ["dehoyos@linearroofing.com"], "shareId": null },
-        { "name": "A. Queen", "emails": ["aqueen@linearroofing.com"], "shareId": null },
-        { "name": "Robert F.", "emails": ["robertf@linearroofing.com"], "shareId": null },
-        { "name": "M. Meredith", "emails": ["mmeredith@linearroofing.com"], "shareId": null },
-        { "name": "I. Ausby", "emails": ["iausby@linearroofing.com"], "shareId": null },
-        { "name": "Justin K.", "emails": ["justink@linearroofing.com"], "shareId": null },
-        { "name": "G. Reber", "emails": ["greber@linearroofing.com"], "shareId": null }
+        {
+          "name": "Rusty Coffman",
+          "emails": [
+            "rustyc@linearroofing.com",
+            "rcoffman@stronghousepro.com"
+          ],
+          "shareId": null
+        },
+        {
+          "name": "Zach Khan",
+          "emails": [
+            "zachariask@linearroofing.com",
+            "zkhan@stronghousepro.com"
+          ],
+          "shareId": null
+        },
+        {
+          "name": "Andres Soto",
+          "emails": [
+            "andres@linearroofing.com",
+            "asoto@stronghousebrands.com"
+          ],
+          "shareId": null
+        },
+        {
+          "name": "Travis Elliott",
+          "emails": [
+            "telliott@linearroofing.com",
+            "telliott@stronghousepro.com"
+          ],
+          "shareId": null
+        },
+        {
+          "name": "D. Webster",
+          "emails": [
+            "dwebster@linearroofing.com",
+            "dwebster@stronghousepro.com"
+          ],
+          "shareId": null
+        },
+        {
+          "name": "Andrew P.",
+          "emails": [
+            "andrewp@linearroofing.com"
+          ],
+          "shareId": null
+        },
+        {
+          "name": "B. Serros",
+          "emails": [
+            "bserros@linearroofing.com"
+          ],
+          "shareId": null
+        },
+        {
+          "name": "D. Hassenmiller",
+          "emails": [
+            "dhassenmiller@linearroofing.com"
+          ],
+          "shareId": null
+        },
+        {
+          "name": "K. Bigham",
+          "emails": [
+            "kbigham@linearroofing.com"
+          ],
+          "shareId": null
+        },
+        {
+          "name": "De Hoyos",
+          "emails": [
+            "dehoyos@linearroofing.com"
+          ],
+          "shareId": null
+        },
+        {
+          "name": "A. Queen",
+          "emails": [
+            "aqueen@linearroofing.com"
+          ],
+          "shareId": null
+        },
+        {
+          "name": "Robert F.",
+          "emails": [
+            "robertf@linearroofing.com"
+          ],
+          "shareId": null
+        },
+        {
+          "name": "M. Meredith",
+          "emails": [
+            "mmeredith@linearroofing.com"
+          ],
+          "shareId": null
+        },
+        {
+          "name": "I. Ausby",
+          "emails": [
+            "iausby@linearroofing.com"
+          ],
+          "shareId": null
+        },
+        {
+          "name": "Justin K.",
+          "emails": [
+            "justink@linearroofing.com"
+          ],
+          "shareId": null
+        },
+        {
+          "name": "G. Reber",
+          "emails": [
+            "greber@linearroofing.com"
+          ],
+          "shareId": null
+        }
       ],
       "shareId": null
     },
@@ -222,26 +355,241 @@
       "label": "Strong House Pro",
       "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/69c177f6ee6b083568b6a6b3",
       "company": "Stronghouse Pro",
-      "domains": ["stronghousepro.com", "stronghousebrands.com"],
+      "domains": [
+        "stronghousepro.com",
+        "stronghousebrands.com"
+      ],
       "pageMode": "per-rep",
       "affiliatedWith": "LINEAR roofing",
       "reps": [
-        { "name": "M. Pierce", "emails": ["mpierce@stronghousepro.com"], "shareId": null },
-        { "name": "A. Mobalegh", "emails": ["amobalegh@stronghousepro.com"], "shareId": null }
+        {
+          "name": "Zach Khan",
+          "emails": [],
+          "shareId": "nTJcEreq",
+          "url": "https://www.send.co/a/nTJcEreq"
+        },
+        {
+          "name": "Andres Soto",
+          "emails": [],
+          "shareId": "ep99zSaB",
+          "url": "https://www.send.co/a/ep99zSaB"
+        },
+        {
+          "name": "Baha AbuShehab",
+          "emails": [],
+          "shareId": "spdevhk0",
+          "url": "https://www.send.co/a/spdevhk0"
+        },
+        {
+          "name": "Heather Griffiths",
+          "emails": [],
+          "shareId": "W0P3tNFw",
+          "url": "https://www.send.co/a/W0P3tNFw"
+        },
+        {
+          "name": "Luis Garcia",
+          "emails": [],
+          "shareId": "NmAH7dr2",
+          "url": "https://www.send.co/a/NmAH7dr2"
+        },
+        {
+          "name": "M. Pierce",
+          "emails": [
+            "mpierce@stronghousepro.com"
+          ],
+          "shareId": "9AwcUoBM",
+          "url": "https://www.send.co/a/9AwcUoBM"
+        },
+        {
+          "name": "Omar Haner",
+          "emails": [],
+          "shareId": "HDqyl7Pa",
+          "url": "https://www.send.co/a/HDqyl7Pa"
+        },
+        {
+          "name": "A. Mobalegh",
+          "emails": [
+            "amobalegh@stronghousepro.com"
+          ],
+          "shareId": "Wj5wFtfl",
+          "url": "https://www.send.co/a/Wj5wFtfl"
+        },
+        {
+          "name": "Christopher Mathis",
+          "emails": [],
+          "shareId": "Wdh4SK41",
+          "url": "https://www.send.co/a/Wdh4SK41"
+        },
+        {
+          "name": "Jacob Diaz",
+          "emails": [],
+          "shareId": "HyFEhfbE",
+          "url": "https://www.send.co/a/HyFEhfbE"
+        },
+        {
+          "name": "Kevin Shuford",
+          "emails": [],
+          "shareId": "UsCWiuFS",
+          "url": "https://www.send.co/a/UsCWiuFS"
+        },
+        {
+          "name": "Stephen Gossett",
+          "emails": [],
+          "shareId": "5766Rnc3",
+          "url": "https://www.send.co/a/5766Rnc3"
+        },
+        {
+          "name": "Aaron Faughn",
+          "emails": [],
+          "shareId": "eRCpUFsw",
+          "url": "https://www.send.co/a/eRCpUFsw"
+        },
+        {
+          "name": "Andrew Blackburn",
+          "emails": [],
+          "shareId": "Z5wsYcpa",
+          "url": "https://www.send.co/a/Z5wsYcpa"
+        },
+        {
+          "name": "Clayton Grassi",
+          "emails": [],
+          "shareId": "zXWmm7Tj",
+          "url": "https://www.send.co/a/zXWmm7Tj"
+        },
+        {
+          "name": "D. Hogan",
+          "emails": [],
+          "shareId": "y3aVAr68",
+          "url": "https://www.send.co/a/y3aVAr68"
+        },
+        {
+          "name": "D. Pagoada",
+          "emails": [],
+          "shareId": "PRWk2Mc3",
+          "url": "https://www.send.co/a/PRWk2Mc3"
+        },
+        {
+          "name": "Daniel Rodriguez",
+          "emails": [],
+          "shareId": "srHxOk2y",
+          "url": "https://www.send.co/a/srHxOk2y"
+        },
+        {
+          "name": "Edgar Zuniga",
+          "emails": [],
+          "shareId": "MjyG13vv",
+          "url": "https://www.send.co/a/MjyG13vv"
+        },
+        {
+          "name": "George Jackson",
+          "emails": [],
+          "shareId": "sJrTqUsp",
+          "url": "https://www.send.co/a/sJrTqUsp"
+        },
+        {
+          "name": "J. De La Cruz",
+          "emails": [],
+          "shareId": "JvuWDAa5",
+          "url": "https://www.send.co/a/JvuWDAa5"
+        },
+        {
+          "name": "Jake Mathew",
+          "emails": [],
+          "shareId": "VkAOIYXg",
+          "url": "https://www.send.co/a/VkAOIYXg"
+        },
+        {
+          "name": "Jeffrey Speight",
+          "emails": [],
+          "shareId": "XEJ8aIkj",
+          "url": "https://www.send.co/a/XEJ8aIkj"
+        },
+        {
+          "name": "Marcus Stein",
+          "emails": [],
+          "shareId": "CdSdKzBe",
+          "url": "https://www.send.co/a/CdSdKzBe"
+        },
+        {
+          "name": "Matt Godfrey",
+          "emails": [],
+          "shareId": "GLlVyw21",
+          "url": "https://www.send.co/a/GLlVyw21"
+        },
+        {
+          "name": "Ricardo Hernandez",
+          "emails": [],
+          "shareId": "Ydo49muU",
+          "url": "https://www.send.co/a/Ydo49muU"
+        },
+        {
+          "name": "Rusty Coffman",
+          "emails": [],
+          "shareId": "rfKqhxtS",
+          "url": "https://www.send.co/a/rfKqhxtS"
+        },
+        {
+          "name": "Terronce Johnson",
+          "emails": [],
+          "shareId": "L89aD0FN",
+          "url": "https://www.send.co/a/L89aD0FN"
+        },
+        {
+          "name": "Tomas Cuevas",
+          "emails": [],
+          "shareId": "alXtyuZJ",
+          "url": "https://www.send.co/a/alXtyuZJ"
+        },
+        {
+          "name": "Trevon Chaney",
+          "emails": [],
+          "shareId": "YcSBfyFx",
+          "url": "https://www.send.co/a/YcSBfyFx"
+        },
+        {
+          "name": "Trey Elliott",
+          "emails": [],
+          "shareId": "56Mrout2",
+          "url": "https://www.send.co/a/56Mrout2"
+        }
       ],
-      "shareId": null
+      "shareId": null,
+      "unassignedShareId": "PrXSVkbG",
+      "unassignedUrl": "https://www.send.co/a/PrXSVkbG"
     },
     {
       "label": "Legacy Roofing",
       "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/68e1a336e2496ed38981c6db",
       "company": "Legacy Roofing GC",
-      "domains": ["legacyroofinggc.com"],
+      "domains": [
+        "legacyroofinggc.com"
+      ],
       "pageMode": "company",
       "reps": [
-        { "name": "Jazhiel M.", "emails": ["jazhielm@legacyroofinggc.com"] },
-        { "name": "Alex C.", "emails": ["alexc@legacyroofinggc.com"] },
-        { "name": "Roberto M.", "emails": ["robertom@legacyroofinggc.com"] },
-        { "name": "Jose G.", "emails": ["joseg@legacyroofinggc.com"] }
+        {
+          "name": "Jazhiel M.",
+          "emails": [
+            "jazhielm@legacyroofinggc.com"
+          ]
+        },
+        {
+          "name": "Alex C.",
+          "emails": [
+            "alexc@legacyroofinggc.com"
+          ]
+        },
+        {
+          "name": "Roberto M.",
+          "emails": [
+            "robertom@legacyroofinggc.com"
+          ]
+        },
+        {
+          "name": "Jose G.",
+          "emails": [
+            "joseg@legacyroofinggc.com"
+          ]
+        }
       ],
       "shareId": "do5DL1Om",
       "url": "https://www.send.co/a/do5DL1Om"
@@ -268,7 +616,9 @@
       "label": "Cross country Public Adjusting",
       "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/6842b18b2c83590ef73b83e2",
       "company": "Cross Country Public Adjusting",
-      "domains": ["crosscountrypublicadjusting.com"],
+      "domains": [
+        "crosscountrypublicadjusting.com"
+      ],
       "pageMode": "company",
       "shareId": "696GL2Lq",
       "url": "https://www.send.co/a/696GL2Lq"
@@ -277,11 +627,23 @@
       "label": "TCB Elite Fleet",
       "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/69c5478508edf5cd6a0c082c",
       "company": "TCB Elite Fleet LLC",
-      "domains": ["tcbelitefleet.com"],
+      "domains": [
+        "tcbelitefleet.com"
+      ],
       "pageMode": "company",
       "reps": [
-        { "name": "A. Stevens", "emails": ["astevens@tcbelitefleet.com"] },
-        { "name": "C. Schick", "emails": ["cschick@tcbelitefleet.com"] }
+        {
+          "name": "A. Stevens",
+          "emails": [
+            "astevens@tcbelitefleet.com"
+          ]
+        },
+        {
+          "name": "C. Schick",
+          "emails": [
+            "cschick@tcbelitefleet.com"
+          ]
+        }
       ],
       "shareId": "93IB0fH1",
       "url": "https://www.send.co/a/93IB0fH1"
@@ -299,9 +661,18 @@
       "label": "ADC Roofing",
       "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/69a71e042e5bf39d4ecc8b0d",
       "company": "ADC Roofing",
-      "domains": ["adcroofing.com"],
+      "domains": [
+        "adcroofing.com"
+      ],
       "pageMode": "company",
-      "reps": [{ "name": "Farhan", "emails": ["farhan@adcroofing.com"] }],
+      "reps": [
+        {
+          "name": "Farhan",
+          "emails": [
+            "farhan@adcroofing.com"
+          ]
+        }
+      ],
       "shareId": "HEIQwf7s",
       "url": "https://www.send.co/a/HEIQwf7s"
     }
