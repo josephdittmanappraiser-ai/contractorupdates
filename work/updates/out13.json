@@ -1,0 +1,85 @@
+{
+ "batch": 13,
+ "results": [
+  {
+   "cardId": "6a4ef9916a728c0deee340ee",
+   "update": "The carrier named its appraiser, Corey Capps, who sent his declaration of appraisers and umpire list and proposed August 25 for the solo inspection. Joseph is now reviewing the umpire list and confirming the inspection date with the carrier's appraiser.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-07-08", "event": "LINEAR Roofing referred the file and requested an appraisal demand letter for signature."},
+    {"date": "2026-07-08", "event": "Joseph sent the appraisal demand letter to the contractor for the homeowner's signature."},
+    {"date": "2026-07-09", "event": "Joseph sent his umpire list to the contractor for review."},
+    {"date": "2026-07-24", "event": "Contractor confirmed the umpire list."},
+    {"date": "2026-07-24", "event": "Joseph sent the appraisal demand to the carrier, with the homeowner copied."},
+    {"date": "2026-07-27", "event": "Carrier acknowledged the demand and said it was under review."},
+    {"date": "2026-08-10", "event": "Joseph followed up with the carrier for a status update."},
+    {"date": "2026-08-11", "event": "Carrier said it was still working to name its appraiser."},
+    {"date": "2026-08-12", "event": "Carrier named its appraiser, Corey Capps, and sent the appraisal received letter."},
+    {"date": "2026-08-13", "event": "Joseph reached out to the carrier's appraiser requesting his umpire list and an inspection date."},
+    {"date": "2026-08-14", "event": "The carrier's appraiser tentatively noted August 15 pending his availability."},
+    {"date": "2026-08-15", "event": "The carrier's appraiser sent his declaration of appraisers and umpire list, and proposed August 25 for the solo inspection."}
+   ],
+   "trelloItemsAdded": 12,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a665739ce53a7cf5fa898e2",
+   "update": "The carrier's appraiser, Craig Vining, was assigned and reached out for an umpire and inspection date; Joseph proposed August 25 for a solo inspection and is now selecting an umpire from Craig's list. Separately, the carrier's adjuster completed his estimate review and issued payment on the approved items.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-07-26", "event": "Contractor flagged that the carrier underpaid the estimate and listed items to add for the appraisal demand."},
+    {"date": "2026-07-27", "event": "Joseph sent the appraisal demand letter to the homeowner for signature."},
+    {"date": "2026-07-30", "event": "Joseph sent a draft estimate to the contractor for review."},
+    {"date": "2026-07-30", "event": "Contractor requested revisions, adding the fence and the woodshake siding to the estimate."},
+    {"date": "2026-07-31", "event": "Joseph sent the revised estimate to the contractor."},
+    {"date": "2026-08-04", "event": "Contractor approved the revised estimate."},
+    {"date": "2026-08-04", "event": "Joseph submitted the appraisal demand to the carrier, with the homeowner copied."},
+    {"date": "2026-08-06", "event": "Carrier acknowledged receipt of the demand."},
+    {"date": "2026-08-12", "event": "Carrier's adjuster completed his line-item review of the estimate and issued payment on the approved items."},
+    {"date": "2026-08-14", "event": "The carrier named its appraiser, Craig Vining, who sent his umpire list; Joseph offered August 25 for a solo inspection."},
+    {"date": "2026-08-15", "event": "Joseph proposed two umpire names from the carrier appraiser's list for consideration."}
+   ],
+   "trelloItemsAdded": 11,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a6948b406c367502d0004eb",
+   "update": "The carrier assigned its appraiser for the 14109 Goodman Street claim and mailed the appraisal letter; Joseph has reached out to him requesting his umpire list and a solo inspection date.",
+   "needed": null,
+   "asOf": "2026-08-14",
+   "timeline": [
+    {"date": "2026-07-27", "event": "Contractor referred this property, along with several other rental properties for the same owner, for appraisal."},
+    {"date": "2026-07-29", "event": "Joseph sent the appraisal demand letter to the homeowner for signature."},
+    {"date": "2026-08-03", "event": "Contractor confirmed the homeowner had signed the demand letter for this property."},
+    {"date": "2026-08-07", "event": "Joseph submitted the appraisal demand to the carrier, with the homeowner copied."},
+    {"date": "2026-08-14", "event": "Carrier named its appraiser and mailed the appraisal letter to the homeowner."},
+    {"date": "2026-08-14", "event": "Joseph reached out to the carrier's appraiser requesting his umpire list and a solo inspection date."}
+   ],
+   "trelloItemsAdded": 6,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a7114fd29acb035824ddd97",
+   "update": "The carrier's appraiser proposed a 1:00-2:00 PM arrival window for the August 25 joint inspection after the homeowner asked for an afternoon time; Joseph sent this updated window to the homeowner for confirmation.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-08-03", "event": "Contractor submitted the appraisal demand to the carrier, naming Joseph as the insured's appraiser."},
+    {"date": "2026-08-04", "event": "Carrier acknowledged the demand and sent its appraisal acceptance letter."},
+    {"date": "2026-08-05", "event": "Carrier named its appraiser, Clay Heath, and Joseph offered joint inspection dates."},
+    {"date": "2026-08-06", "event": "Clay Heath proposed August 25 at 11:00 AM for the joint inspection; Joseph confirmed, pending homeowner availability."},
+    {"date": "2026-08-07", "event": "Joseph notified the homeowner of the scheduled August 25 joint inspection and asked them to confirm."},
+    {"date": "2026-08-10", "event": "Joseph followed up repeatedly with the contractor's staff for the homeowner's confirmation, without success (through 2026-08-13)."},
+    {"date": "2026-08-14", "event": "The homeowner asked that the inspection be moved to after noon; Joseph relayed the request to Clay Heath."},
+    {"date": "2026-08-15", "event": "Clay Heath offered a 1:00-2:00 PM arrival time; Joseph sent the updated window to the homeowner for confirmation."}
+   ],
+   "trelloItemsAdded": 8,
+   "noEmail": false
+  }
+ ],
+ "withEmail": 4,
+ "noEmail": 0,
+ "flaggedNeeded": 0
+}

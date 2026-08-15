@@ -1,0 +1,78 @@
+{
+ "batch": 14,
+ "results": [
+  {
+   "cardId": "6a6a84331f57c7dac71e563e",
+   "update": "The claim was referred by Legacy Roofing, a demand letter and documents went to SageSure, and the carrier accepted the appraisal request and named their appraiser. A joint inspection is scheduled for 8/17 and the homeowner has confirmed.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-07-28", "event": "Legacy Roofing referred the claim, providing the denial letter, roof report, and inspection photos."},
+    {"date": "2026-07-31", "event": "Appraisal demand letter sent to the homeowner and claim documents sent to the carrier."},
+    {"date": "2026-08-07", "event": "The carrier acknowledged and accepted the appraisal request."},
+    {"date": "2026-08-07", "event": "The carrier named their appraiser, Jerry Lerma."},
+    {"date": "2026-08-08", "event": "Umpire options were sent to the carrier's appraiser for selection."},
+    {"date": "2026-08-11", "event": "Joint inspection scheduled for 8/17 between 9:00-9:30 AM; homeowner confirmed the appointment."}
+   ],
+   "trelloItemsAdded": 6,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a4c60fcfa15c964bd054867",
+   "update": "After a long stretch chasing the homeowner's signature, the signed demand letter and estimate went to Allstate, who named their appraiser. A solo inspection with interior access is now scheduled for 8/18 and the homeowner has confirmed.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-07-06", "event": "Strong House Pro took over the file and confirmed the homeowner wants to pursue appraisal."},
+    {"date": "2026-07-07", "event": "Appraisal demand letter sent to the homeowner for signature."},
+    {"date": "2026-07-09", "event": "Contractor approved the demand letter draft."},
+    {"date": "2026-07-20", "event": "Demand letter re-sent multiple times for the homeowner's signature after it went unsigned; contractor helped track down the correct signing email."},
+    {"date": "2026-07-28", "event": "Signed demand letter and estimate sent to Allstate to formally initiate the appraisal."},
+    {"date": "2026-07-30", "event": "Allstate acknowledged receipt of the appraisal request."},
+    {"date": "2026-08-03", "event": "Allstate named their appraiser, Bobby Clark."},
+    {"date": "2026-08-08", "event": "Umpire selected and name sent to the carrier's appraiser."},
+    {"date": "2026-08-11", "event": "Solo inspection scheduled for 8/18 between 10:00-10:30 AM, including interior access; homeowner confirmed."}
+   ],
+   "trelloItemsAdded": 9,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a601121931dc29048918aed",
+   "update": "No Stress Claims formally invoked the appraisal and the carrier named their appraiser. A joint inspection with interior access is scheduled for 8/20, confirmed by the homeowner, with an umpire already selected in case of an impasse.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-07-21", "event": "No Stress Claims formally invoked the appraisal with the carrier, naming Joseph Dittman as appraiser."},
+    {"date": "2026-07-22", "event": "The carrier confirmed receipt of the claim files."},
+    {"date": "2026-08-05", "event": "The carrier named their appraiser, Kenny Cleveland, who proposed umpire candidates."},
+    {"date": "2026-08-07", "event": "Joint inspection date agreed with the carrier's appraiser for 8/20 at 10:30 AM."},
+    {"date": "2026-08-08", "event": "Umpire selected for use in case of an impasse."},
+    {"date": "2026-08-10", "event": "DOA/SOU form exchanged with the carrier's appraiser for signature."},
+    {"date": "2026-08-12", "event": "Homeowner confirmed the joint inspection for 8/20 at 10:30 AM, including interior access."}
+   ],
+   "trelloItemsAdded": 7,
+   "noEmail": false
+  },
+  {
+   "cardId": "69bb304dba9a3e61f841c0b0",
+   "update": "After an earlier pre-appraisal demand did not resolve the claim, formal appraisal was invoked with USAA, which named their appraiser. Following several rounds of rescheduling, a joint inspection with interior access is now confirmed for 8/20.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-03-19", "event": "Pre-appraisal demand sent to USAA in an effort to resolve before formal appraisal."},
+    {"date": "2026-07-23", "event": "Appraisal formally invoked with USAA."},
+    {"date": "2026-07-28", "event": "USAA confirmed the appraisal process and set an August 12 deadline to name appraisers."},
+    {"date": "2026-08-03", "event": "USAA named their appraiser, Craig Landry."},
+    {"date": "2026-08-05", "event": "Available joint inspection dates sent to the carrier's appraiser."},
+    {"date": "2026-08-06", "event": "Umpire selected; the carrier's appraiser proposed an alternate inspection date."},
+    {"date": "2026-08-10", "event": "Joint inspection agreed with the carrier's appraiser for 8/14 at 9:00 AM."},
+    {"date": "2026-08-12", "event": "Homeowner needed to reschedule; after coordinating a new date, joint inspection confirmed for Thursday, 8/20 at 1:30 PM, including interior access."}
+   ],
+   "trelloItemsAdded": 8,
+   "noEmail": false
+  }
+ ],
+ "withEmail": 4,
+ "noEmail": 0,
+ "flaggedNeeded": 0
+}

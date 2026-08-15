@@ -338,9 +338,88 @@
    ],
    "trelloItemsAdded": 13,
    "noEmail": false
+  },
+  {
+   "cardId": "699f864f8e8c6c28cc3d9261",
+   "update": "The carrier and Joseph reached a full-roof agreement in April 2026 without needing appraisal. The final open item was recoverable depreciation — a jointly-payable check the homeowner couldn't deposit alone, then confirmation of completed work — which Legacy Roofing supplied along with completion photos on 6/9/26.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-02-25", "event": "Legacy Roofing flagged items missed in the carrier's estimate (gable corners, ice & water shield, gutter detach/reset) and identified the carrier; appraisal demand letter sent to the homeowner."},
+    {"date": "2026-02-27", "event": "Letter of Representation sent to the carrier for claim 01009596547."},
+    {"date": "2026-03-11", "event": "Photos and a supplemental estimate submitted to the carrier's field adjuster; a reinspection requested."},
+    {"date": "2026-03-17", "event": "Carrier declined a second inspection, saying the supplement had already been reconciled and a payment sent."},
+    {"date": "2026-03-31", "event": "The carrier and Joseph reached agreement on the full roof scope; the appraisal demand was formally rescinded since it was no longer needed."},
+    {"date": "2026-04-23", "event": "Joseph followed up on outstanding checks and asked that future payments be sent to the public adjusting office instead of the homeowner's address."},
+    {"date": "2026-05-11", "event": "Joseph followed up again on where a check had been sent; the carrier confirmed it was mailed to the homeowner's address."},
+    {"date": "2026-05-12", "event": "Homeowner reported a jointly-payable check that the bank would not let him deposit without endorsement."},
+    {"date": "2026-05-31", "event": "Joseph asked whether the roof work was complete so he could request depreciation; Legacy Roofing confirmed the work was done."},
+    {"date": "2026-06-09", "event": "Joseph noted the check received appeared to exclude depreciation and asked for completion photos; Legacy Roofing shared photos of the completed work."}
+   ],
+   "trelloItemsAdded": 10,
+   "noEmail": false
+  },
+  {
+   "cardId": "6995e50d2232d1a901f540e9",
+   "update": "Tower Hill initially declined appraisal on a coverage-dispute basis, but after a Letter of Representation and reinspection it confirmed hail damage and approved the full roof plus supplemental solar/gutter/pressure-wash items. A pricing disagreement resurfaced in May 2026, but Tower Hill issued its agreed payment on 6/11/26 after the homeowner signed a policyholder release.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-02-18", "event": "LINEAR Roofing referred Obed Garza's claim (roof, gutters, fence splatter damage); appraisal demand letter sent to the homeowner."},
+    {"date": "2026-02-24", "event": "Contractor estimate revised at LINEAR's request (solar panel pricing) and finalized."},
+    {"date": "2026-02-25", "event": "Demand for appraisal sent to Tower Hill; Tower Hill declined it the same day, citing a coverage dispute rather than a value dispute."},
+    {"date": "2026-03-26", "event": "Letter of Representation sent to Tower Hill."},
+    {"date": "2026-03-27", "event": "Tower Hill acknowledged the LOR, sent the policy and claim payment letter, and said it would request a reinspection."},
+    {"date": "2026-04-09", "event": "Tower Hill confirmed hail damage on all roof slopes after reinspection and agreed to move forward with full roof replacement coverage."},
+    {"date": "2026-04-11", "event": "Joseph asked LINEAR for bids on solar panel removal/reset and fence staining to add to the claim now that the roof was approved."},
+    {"date": "2026-04-15", "event": "Tower Hill approved the supplemental payment request for solar panel removal/reset, gutters, and pressure washing."},
+    {"date": "2026-05-20", "event": "Homeowner disagreed with the carrier's pricing and invoked the right to appraisal; Joseph pushed back on the carrier's denial, citing Texas's revised mandatory-appraisal rules."},
+    {"date": "2026-06-11", "event": "Tower Hill issued an agreed-upon payment after receiving the executed policyholder release."}
+   ],
+   "trelloItemsAdded": 10,
+   "noEmail": false
+  },
+  {
+   "cardId": "69a709d45e662098c6d10e3e",
+   "update": "This AFICS/Homesite claim (Paul and Lakhena Em) moved to public adjusting in March 2026 after LINEAR flagged that the interior scope seemed insufficient. Correspondence since has centered on making sure claim payments are routed to the PA office rather than the homeowner, most recently confirmed on 6/27/26; no confirmation of a final resolution has been found since.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-03-03", "event": "LINEAR Roofing referred Paul and Lakhena Em's claim; the roof and interior had been approved but interior scope seemed insufficient, with interior damage possibly tied to another covered event."},
+    {"date": "2026-03-03", "event": "Joseph moved the file to public adjusting, citing difficulty getting the carrier (AFICS) to proceed with appraisal."},
+    {"date": "2026-03-04", "event": "Letter of Representation sent to AFICS for claim 01009617976."},
+    {"date": "2026-03-10", "event": "AFICS said it had ordered a certified policy and would follow with documents and estimates."},
+    {"date": "2026-03-17", "event": "AFICS sent the certified policy and claim documents; Joseph asked about reinspection availability."},
+    {"date": "2026-05-03", "event": "Joseph confirmed with AFICS that payment should be directed to the PA office."},
+    {"date": "2026-05-12", "event": "AFICS voided an original check and reissued payment directly to the PA office by overnight mail."},
+    {"date": "2026-06-27", "event": "Joseph again confirmed with AFICS that all payments should be sent to the PA office."}
+   ],
+   "trelloItemsAdded": 8,
+   "noEmail": false
+  },
+  {
+   "cardId": "69a863982872eaee578f4935",
+   "update": "This Homesite/AFICS claim moved into formal appraisal after the carrier denied a straight pricing dispute. The award was signed on 7/28/26 and, per an 8/11/26 status sweep, is awaiting the opposing appraiser's countersignature.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-03-04", "event": "Legacy Roofing shared damage photos; Letter of Representation sent to AFICS (Homesite) for claim 01-009-618387."},
+    {"date": "2026-03-16", "event": "AFICS confirmed receipt of the LOR/W9 and said it would request a certified copy of the policy."},
+    {"date": "2026-03-26", "event": "Inspection scheduled; Legacy Roofing confirmed no interior damage, so the homeowner didn't need to be present."},
+    {"date": "2026-03-31", "event": "AFICS said reinspection wasn't necessary since the roof was already covered and asked whether Joseph wanted to submit a supplement."},
+    {"date": "2026-04-01", "event": "Estimate and photos submitted to AFICS."},
+    {"date": "2026-05-27", "event": "Legacy Roofing checked in repeatedly; Joseph reported ongoing negotiations with the carrier over the estimate."},
+    {"date": "2026-05-19", "event": "Insured invoked the right to appraisal after a pricing disagreement."},
+    {"date": "2026-05-22", "event": "AFICS denied the appraisal request but asked for the estimate to be submitted for consideration; Joseph offered escalation to a dispute resolution specialist."},
+    {"date": "2026-06-15", "event": "The opposing appraiser requested the file through the appraisal firm; a joint inspection date of 7/17/26 was set."},
+    {"date": "2026-06-29", "event": "Joseph confirmed the inspection date with Legacy Roofing; the insured confirmed the schedule."},
+    {"date": "2026-08-11", "event": "Status sweep showed the appraisal award had been signed 7/28/26 and was awaiting the opposing appraiser's countersignature; a follow-up was sent."}
+   ],
+   "trelloItemsAdded": 11,
+   "noEmail": false
   }
  ],
- "withEmail": 17,
+ "withEmail": 21,
  "noEmail": 0,
  "flaggedNeeded": 3
 }

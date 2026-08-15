@@ -1,0 +1,78 @@
+{
+ "batch": 17,
+ "results": [
+  {
+   "cardId": "69ea34cfd30fc18976cd84b0",
+   "update": "An umpire, Steven Smallwood, has been named and is working to schedule the property inspection; the carrier's point of contact recently changed to Tere Garcia at Precise Adjustments after Kirby McCartney left the company.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-04-27", "event": "Joseph sent the appraisal demand to Conifer Insurance, copying the homeowner and LINEAR Roofing."},
+    {"date": "2026-05-05", "event": "Conifer Insurance confirmed receipt of the demand and assigned Kirby McCartney of Precise Adjustments as their appraiser."},
+    {"date": "2026-06-23", "event": "Precise Adjustments named Steven Smallwood as umpire after the two appraisers reached an impasse."},
+    {"date": "2026-06-25", "event": "Steven Smallwood signed on as umpire and Joseph forwarded him the file's supporting documents."},
+    {"date": "2026-07-11", "event": "Joseph confirmed with the umpire he'd check his calendar for an inspection date and sent the insured the umpire's invoice."},
+    {"date": "2026-07-11", "event": "Precise Adjustments confirmed Kirby McCartney has left the company; the carrier-side contact is now Tere Garcia."}
+   ],
+   "trelloItemsAdded": 6,
+   "noEmail": false
+  },
+  {
+   "cardId": "69bc2b4a431d01dc2e2cc522",
+   "update": "The umpire has received the carrier's share of the invoice and is waiting on the homeowner's payment before scheduling the inspection; once paid, both sides' positions will be reviewed and a ruling issued.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-03-19", "event": "No Stress Claims submitted a pre-appraisal demand to Allstate on behalf of Alcides Maldonado, naming Joseph as the insured's appraiser."},
+    {"date": "2026-03-26", "event": "Allstate accepted the appraisal demand and named its own appraiser, Dakota McCombs."},
+    {"date": "2026-04-24", "event": "The property inspection was rescheduled to May 18 at the homeowner's request."},
+    {"date": "2026-05-22", "event": "Allstate confirmed a site inspection date of May 29."},
+    {"date": "2026-06-15", "event": "The carrier's appraiser invoked an umpire, naming Kenny Cleveland, after reaching an impasse with Joseph."},
+    {"date": "2026-06-16", "event": "Kenny Cleveland accepted the umpire role and signed the appraiser agreement."},
+    {"date": "2026-06-25", "event": "Joseph sent his position and photo report to the umpire."},
+    {"date": "2026-07-09", "event": "Joseph sent the umpire's invoice to No Stress Claims."},
+    {"date": "2026-07-28", "event": "The umpire confirmed receipt of the carrier's portion of payment and will schedule the inspection once the homeowner's payment is received."}
+   ],
+   "trelloItemsAdded": 9,
+   "noEmail": false
+  },
+  {
+   "cardId": "69f0d1b1d25e0dfddb63270e",
+   "update": "The umpire's invoice has been outstanding since July 10 despite repeated follow-ups; the file cannot move forward on the umpire's ruling until the homeowner's payment is confirmed.",
+   "needed": "Confirm with the homeowner that the umpire's invoice has been paid so the umpire can proceed with the file.",
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-04-28", "event": "No Stress Claims sent the appraisal demand to Allstate on behalf of Gilbert & Rocio Funes, naming Joseph as their appraiser."},
+    {"date": "2026-05-15", "event": "Longacre Appraisal & Adjustment acknowledged the claim and the carrier's appraiser sent a proposed umpire list."},
+    {"date": "2026-05-18", "event": "The carrier's appraiser gave inspection availability and Joseph scheduled a solo inspection for May 26, pending the umpire being finalized."},
+    {"date": "2026-05-20", "event": "No Stress Claims relayed the carrier's appraiser's contact information."},
+    {"date": "2026-07-10", "event": "Joseph sent the umpire's invoice to No Stress Claims for review and payment."},
+    {"date": "2026-07-10 to 2026-08-15", "event": "Joseph's office repeatedly followed up with No Stress Claims for an update on the umpire invoice payment, with no confirmation received to date."}
+   ],
+   "trelloItemsAdded": 6,
+   "noEmail": false
+  },
+  {
+   "cardId": "687a6344246ed35e0d947707",
+   "update": "The umpire has been named and the appraisers reached an impasse; the umpire's invoice was sent for payment on July 23 and remains unconfirmed despite repeated follow-ups through mid-August.",
+   "needed": "Confirm with the homeowner that the umpire's invoice has been paid so the appraisal can move forward.",
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2025-07-14", "event": "No Stress Claims submitted the appraisal demand to Insurors Indemnity/Atlas General Agency on behalf of Roslyn Williams."},
+    {"date": "2025-08-11", "event": "No Stress Claims confirmed the claim had moved into the appraisal process."},
+    {"date": "2025-09-08 to 2025-10-28", "event": "Joseph and the carrier's appraiser worked out inspection dates after an initial homeowner cancellation, settling on October 28."},
+    {"date": "2026-04-21", "event": "Joseph confirmed the inspection was complete and the file was awaiting the carrier's appraiser's position."},
+    {"date": "2026-06-13", "event": "Joseph and the carrier's appraiser signed the agreement naming Kevin Mohr as umpire."},
+    {"date": "2026-07-06", "event": "The carrier's appraiser confirmed the two sides had reached an impasse and forwarded the signed umpire agreement."},
+    {"date": "2026-07-11", "event": "The umpire confirmed the assignment, sent his invoices, and asked for Joseph's position."},
+    {"date": "2026-07-23", "event": "Joseph forwarded the umpire's invoice to No Stress Claims for payment; the umpire again asked Joseph to send his position and supporting documents."},
+    {"date": "2026-07-23 to 2026-08-10", "event": "Joseph's office repeatedly followed up with No Stress Claims for confirmation that the umpire's invoice had been paid, with no confirmation received."}
+   ],
+   "trelloItemsAdded": 9,
+   "noEmail": false
+  }
+ ],
+ "withEmail": 4,
+ "noEmail": 0,
+ "flaggedNeeded": 2
+}

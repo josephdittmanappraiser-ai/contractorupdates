@@ -1,0 +1,83 @@
+{
+ "batch": 16,
+ "results": [
+  {
+   "cardId": "697cee458453b97cb67ec6b9",
+   "update": "The file has been with the carrier's appraiser since early March awaiting his written position. He has requested photos and asked to discuss the file by phone along the way, and the most recent status update went out on July 20.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-01-30", "event": "Demand submitted to Allstate; carrier held its position and moved the claim to appraisal."},
+    {"date": "2026-02-03", "event": "Carrier's appraiser Cedric Ledet was assigned and sent his umpire list and DOA forms."},
+    {"date": "2026-02-17", "event": "The signed agreement was exchanged and inspection scheduling finalized."},
+    {"date": "2026-02-26", "event": "The carrier's appraiser held his inspection."},
+    {"date": "2026-03-03", "event": "Carrier confirmed the appraisal panel is ongoing."},
+    {"date": "2026-03-10", "event": "Joseph sent his estimate/position to the carrier's appraiser."},
+    {"date": "2026-04-27", "event": "The carrier's appraiser requested additional photos."},
+    {"date": "2026-05-08", "event": "The full photo set was sent to the carrier's appraiser."},
+    {"date": "2026-05-18", "event": "Joseph followed up with the carrier's appraiser for his written position."},
+    {"date": "2026-06-08", "event": "The carrier's appraiser asked to discuss the file by phone."},
+    {"date": "2026-07-20", "event": "Joseph sent the contractor's rep a status update confirming the file awaits the carrier's appraiser's written position."}
+   ],
+   "trelloItemsAdded": 11,
+   "noEmail": false
+  },
+  {
+   "cardId": "69f223e527add9b607caff7a",
+   "update": "The carrier's appraiser inspected the property on July 15, and on August 8 Joseph sent him the estimate file for this claim. The file now awaits the carrier's appraiser's written position.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-04-23", "event": "Homeowner Mackenzie Wesson provided the property list and the contractor's contact, Samuel Peters at Linear Roofing."},
+    {"date": "2026-04-27", "event": "Homeowner sent the carrier's roof estimate for the property."},
+    {"date": "2026-06-10", "event": "Joseph's office sent the position estimate to the contractor's rep for review."},
+    {"date": "2026-06-25", "event": "The contractor's rep confirmed the estimate, and the file was sent to the carrier to formally invoke appraisal."},
+    {"date": "2026-06-26", "event": "The carrier named Scott Schmidt as its appraiser."},
+    {"date": "2026-07-02", "event": "Joseph's office notified the carrier's appraiser of his assignment and requested his umpire list and inspection availability."},
+    {"date": "2026-07-06", "event": "The carrier's appraiser's inspection was scheduled for July 15 and confirmed by the homeowner."},
+    {"date": "2026-08-07", "event": "The carrier's appraiser requested the estimate file for this property to work toward resolution."},
+    {"date": "2026-08-08", "event": "Joseph sent the estimate file to the carrier's appraiser."}
+   ],
+   "trelloItemsAdded": 9,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a4d7a3dbe6623289690f6e9",
+   "update": "Joseph's own inspection was delayed because the homeowner was slow to confirm and is now set for August 18. The carrier's appraiser already inspected the property and reported no roof damage, so Joseph's position is the next step once his inspection is complete.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-07-07", "event": "The carrier's appraiser reached out on the claim; Joseph's office requested the estimate since the file had not yet reached their desk, and he sent it over."},
+    {"date": "2026-07-08", "event": "Joseph's office confirmed the carrier's appraiser's proposed solo inspection date, including homeowner interior access."},
+    {"date": "2026-07-09", "event": "Joseph proposed umpire candidates to the carrier's appraiser."},
+    {"date": "2026-07-14", "event": "The carrier's appraiser met with the homeowner, but rain prevented him from completing the roof inspection."},
+    {"date": "2026-07-15", "event": "The rain-delayed inspection was rescheduled to July 20, confirmed by the homeowner."},
+    {"date": "2026-07-20", "event": "The carrier's appraiser agreed to an umpire candidate, and the signed agreement was exchanged."},
+    {"date": "2026-07-20", "event": "The carrier's appraiser sent his position, finding no roof damage, and asked if Joseph's inspection was scheduled yet."},
+    {"date": "2026-08-11", "event": "After a follow-up from the carrier's appraiser, Joseph's office reported the homeowner had been slow to confirm and rescheduled the inspection for August 18."}
+   ],
+   "trelloItemsAdded": 8,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a3c4d7e2e4482858efd305b",
+   "update": "The joint inspection was completed on July 23, and the carrier's appraiser's position arrived August 6. It is now under Joseph's review as the file works toward an agreement.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-06-25", "event": "Joseph's office notified the carrier's appraiser of his assignment and proposed a joint inspection date."},
+    {"date": "2026-07-02", "event": "The carrier's appraiser's office proposed inspection dates and an umpire list; the joint inspection was set for July 23."},
+    {"date": "2026-07-03", "event": "The homeowner confirmed the July 23 inspection, including interior access."},
+    {"date": "2026-07-10", "event": "The carrier's appraiser named an umpire, and the signed agreement was exchanged."},
+    {"date": "2026-07-23", "event": "The joint inspection was held, including the interior, and additional damage areas were documented."},
+    {"date": "2026-08-06", "event": "The carrier's appraiser sent his position for review."},
+    {"date": "2026-08-11", "event": "Joseph's office confirmed to the rep that the carrier's appraiser's position was received and under review."}
+   ],
+   "trelloItemsAdded": 7,
+   "noEmail": false
+  }
+ ],
+ "withEmail": 4,
+ "noEmail": 0,
+ "flaggedNeeded": 0
+}
