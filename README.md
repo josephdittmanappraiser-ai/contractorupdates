@@ -86,9 +86,20 @@ Both runs fan out to subagents. The orchestrator discovers and dispatches; it ne
 email bodies or full card descriptions into its own context. Subagents return a few fields,
 not narratives.
 
-Models are matched to the work: `opus` only for rep attribution, `sonnet` for ordinary page
-builds and email logging, `haiku` for counting and diffing. Discovery uses
-`THREAD_VIEW_MINIMAL`; body reads use `PLAIN_TEXT`. Never `FULL_CONTENT`.
+Models are matched to the work: `opus` only for rep attribution, `sonnet` for page builds,
+email logging and any loop of more than ~30 tool calls, `haiku` for short bounded jobs only.
+Discovery uses `THREAD_VIEW_MINIMAL`; body reads use `PLAIN_TEXT`. Never `FULL_CONTENT`.
+
+**Do not give `haiku` a long mechanical loop.** Six haiku workers were each handed ~79
+`attach_label` calls. Three stopped near 50, one managed 77, one reported 83 against a plan of
+79, and one reported 50 successes having written nothing to its progress log. The work that did
+land was correct — the reporting was not. Anything above roughly 30 sequential tool calls goes
+to `sonnet`.
+
+**Never trust a subagent's self-reported count for a write loop.** Verify against the system of
+record. For label attachments that means one `list_by_board` sweep, which returns every card
+with its current labels — 4 calls for the whole board, and it settles what actually happened
+regardless of what any worker claimed.
 
 ## Two things that will break it
 
