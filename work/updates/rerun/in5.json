@@ -1,0 +1,119 @@
+[
+ {
+  "cardId": "67200d91b93a0a2730b34fc8",
+  "insured": "Anthony Craig Curtis",
+  "claim": "",
+  "address": "",
+  "stage": "Referred out (attorney or public adjuster)",
+  "clients": [
+   "Vince - assured value claims"
+  ],
+  "rep": "",
+  "newestEventOnFile": "2025-09-25",
+  "cardLastActivity": "2026-08-15"
+ },
+ {
+  "cardId": "69d59926aca942018e05acb7",
+  "insured": "Dessarae Garza",
+  "claim": "5041669950-1",
+  "address": "2705 Viceroy Ct, Rio Grande City, TX",
+  "stage": "Inspected / building our position",
+  "clients": [
+   "Strong House Pro"
+  ],
+  "rep": "Omar Haner",
+  "newestEventOnFile": "2026-05-26",
+  "cardLastActivity": "2026-08-07"
+ },
+ {
+  "cardId": "69dd57c31e122f8d50becbe2",
+  "insured": "Alphonso And Mary Ransaw",
+  "claim": "",
+  "address": "",
+  "stage": "Referred out (attorney or public adjuster)",
+  "clients": [
+   "Strong House Pro"
+  ],
+  "rep": "Tim Berry",
+  "newestEventOnFile": "2026-06-03",
+  "cardLastActivity": "2026-07-29"
+ },
+ {
+  "cardId": "69d58031b4e858e988cc3aee",
+  "insured": "SERGIO DAVILA",
+  "claim": "",
+  "address": "** 305 Parkwest Dr, Cedar Park, TX 78613",
+  "stage": "In umpire",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "rep": "Steven Lorenzo",
+  "newestEventOnFile": "2026-07-06",
+  "cardLastActivity": "2026-08-15"
+ },
+ {
+  "cardId": "685d64699ea5794701cb131f",
+  "insured": "Martha",
+  "claim": "",
+  "address": "",
+  "stage": "In umpire",
+  "clients": [
+   "Vince - assured value claims"
+  ],
+  "rep": "",
+  "newestEventOnFile": "2026-01-02",
+  "cardLastActivity": "2026-02-01"
+ },
+ {
+  "cardId": "69dfacd89ebdfcd1cbb05b51",
+  "insured": "Jose Bravo",
+  "claim": "PL2503507",
+  "address": "6824 Mountain Cedar Ln. Dallas Tx 75236",
+  "stage": "In umpire",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Tomas Cuevas",
+  "newestEventOnFile": "2026-07-17",
+  "cardLastActivity": "2026-08-13"
+ },
+ {
+  "cardId": "699ca05de1e999f8500b5970",
+  "insured": "Prashanth Kumbala Harinika Nalla-no Agreement Yet To Invoke Umpire",
+  "claim": "",
+  "address": "** 3025 Lyme Ridge Dr, Leander, TX 78641",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "rep": "Steven Lorenzo",
+  "newestEventOnFile": "2026-07-26",
+  "cardLastActivity": "2026-08-14"
+ },
+ {
+  "cardId": "6a4be23dc6e8dfa71821f45a",
+  "insured": "Viengken Manikapone",
+  "claim": "",
+  "address": "",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "Cross country Public Adjusting"
+  ],
+  "rep": "Erica Shamp",
+  "newestEventOnFile": "2026-07-13",
+  "cardLastActivity": "2026-07-29"
+ },
+ {
+  "cardId": "6a3ec881f0235ef96b225b9d",
+  "insured": "Faris Farassati",
+  "claim": "",
+  "address": "",
+  "stage": "Estimate sent - needs sign-off",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Michael Shemas",
+  "newestEventOnFile": "2026-07-28",
+  "cardLastActivity": "2026-08-12"
+ }
+]

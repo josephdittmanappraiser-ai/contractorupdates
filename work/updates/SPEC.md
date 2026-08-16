@@ -31,16 +31,32 @@ Ignore `do-not-reply@trello.com` digests, marketing, and empty calendar invites.
 Many files appear only inside a **bulk status-check email covering several claims** — that still
 counts. Cite what it says about *this* claim.
 
-**2. Read each thread in full**, `messageFormat: "PLAIN_TEXT"`, every message oldest to newest.
-This is a back-read: the whole history is the point, not just the latest state.
+**2. Read each thread to its LAST message**, `messageFormat: "PLAIN_TEXT"`. Start at the newest
+message and work backwards. These threads run 30+ messages over many months; a thread you opened
+but did not finish is worse than one you never opened, because it produces a confident timeline
+that stops halfway.
 
-**3. Build the chain of events.** Every action taken or received, oldest first, as
-`{"date":"YYYY-MM-DD","event":"one plain sentence"}`. Typical events: file received from the
-contractor, demand sent to the carrier, carrier acknowledged, carrier named their appraiser,
-inspection scheduled / held / rescheduled, estimate written, estimate sent, approval received,
-agreement signed, positions exchanged, umpire named, award signed. Name who acted.
-Merge duplicates — several emails about one action is ONE event. Aim for 4–15. Skip auto-replies,
-read receipts and bounce noise.
+**3. Build the chain of events.** Every action taken or received, as
+`{"date":"YYYY-MM-DD","event":"one plain sentence"}`, output oldest first. Typical events: file
+received from the contractor, demand sent to the carrier, carrier acknowledged, carrier named
+their appraiser, inspection scheduled / held / rescheduled, estimate written, estimate sent,
+approval received, agreement signed, positions exchanged, umpire named, award signed. Name who
+acted. Merge duplicates — several emails about one action is ONE event. Skip auto-replies, read
+receipts and bounce noise.
+
+**Recency is the whole point.** A contractor checking this page wants to know what happened
+*lately*. So:
+
+- **Never drop a recent event to stay under a count.** If you must shed events, shed the oldest
+  ones and set `"olderTrimmed": true`. The most recent 90 days go in whole, however many that is.
+- **Your newest event must be no older than the newest email you found.** Before you return a
+  file, compare them. If your last event is months behind the last message in the thread, you
+  stopped reading early — go back and finish the thread.
+- Your prompt gives `cardLastActivity` for each file. If your newest event is more than ~14 days
+  behind it, say why in `staleReason` (e.g. "last email is from May; the card was touched later
+  for a Trello move"). Do not leave the gap unexplained.
+
+Aim for 6–20 events. Longer is fine on a file that has genuinely been through a lot.
 
 **4. Write a current status** — one or two sentences on where the file stands today and what
 happens next. It must say something the stage name alone does not.

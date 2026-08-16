@@ -1,0 +1,132 @@
+[
+ {
+  "cardId": "682ce4f5865b5efd1362d283",
+  "insured": "JOSHUA SPINHIRNE",
+  "claim": "",
+  "address": "",
+  "stage": "Referred out (attorney or public adjuster)",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Shah Punjani",
+  "newestEventOnFile": "2025-07-17",
+  "cardLastActivity": "2026-08-15"
+ },
+ {
+  "cardId": "68d2b081ce4c65cea9e9b772",
+  "insured": "Reyna Plaza Phillip Castaned- No",
+  "claim": "",
+  "address": "",
+  "stage": "Inspected / building our position",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "rep": "Steven Lorenzo",
+  "newestEventOnFile": "2026-04-15",
+  "cardLastActivity": "2026-07-21"
+ },
+ {
+  "cardId": "69a85b2aa7f9682378dfff33",
+  "insured": "Carole Massey",
+  "claim": "",
+  "address": "** 1303 Buttonwood Dr, Friendswood, TX 77546",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "rep": "Steven Lorenzo",
+  "newestEventOnFile": "2026-06-18",
+  "cardLastActivity": "2026-08-15"
+ },
+ {
+  "cardId": "69e7bbeadd8694321b8f7c37",
+  "insured": "Matthew Krowski",
+  "claim": "",
+  "address": "",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "rep": "",
+  "newestEventOnFile": "2026-06-29",
+  "cardLastActivity": "2026-08-12"
+ },
+ {
+  "cardId": "69232d0f67c1ca734b561cc1",
+  "insured": "PATRICIA YATES",
+  "claim": "006152624",
+  "address": "",
+  "stage": "In umpire",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Jose Hernandez",
+  "newestEventOnFile": "2026-07-14",
+  "cardLastActivity": "2026-08-14"
+ },
+ {
+  "cardId": "691660b7e3d2fb96fb979806",
+  "insured": "Juan Camarena",
+  "claim": "",
+  "address": "** 13422 Caney Springs Ln, Houston, TX 77044",
+  "stage": "New / intake",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "rep": "Steven Lorenzo",
+  "newestEventOnFile": "2026-04-29",
+  "cardLastActivity": "2026-05-27"
+ },
+ {
+  "cardId": "69e26dff0e130bfc564e16a0",
+  "insured": "SACHIN KHOLAMKAR",
+  "claim": "SWYBMHO14361",
+  "address": "17818 Carrington Woods Lane Richmond TX 77407 USA",
+  "stage": "In umpire",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "rep": "BEV BALANTA",
+  "newestEventOnFile": "2026-07-24",
+  "cardLastActivity": "2026-08-14"
+ },
+ {
+  "cardId": "6a1dfbf17c61e4c01e938953",
+  "insured": "Marie Le Fevere",
+  "claim": "",
+  "address": "",
+  "stage": "Inspected / building our position",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Andres Soto",
+  "newestEventOnFile": "2026-07-12",
+  "cardLastActivity": "2026-07-29"
+ },
+ {
+  "cardId": "6a3edf5a2347cd07582d5eaf",
+  "insured": "Faris Farassati",
+  "claim": "",
+  "address": "",
+  "stage": "Estimate sent - needs sign-off",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Michael Shemas",
+  "newestEventOnFile": "2026-07-28",
+  "cardLastActivity": "2026-08-12"
+ },
+ {
+  "cardId": "6a3ebcf43a22f0c96d8e2cc8",
+  "insured": "Faris Farassati",
+  "claim": "",
+  "address": "",
+  "stage": "Estimate sent - needs sign-off",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Michael Shemas",
+  "newestEventOnFile": "2026-07-28",
+  "cardLastActivity": "2026-08-12"
+ }
+]

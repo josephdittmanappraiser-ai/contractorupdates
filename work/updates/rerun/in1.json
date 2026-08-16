@@ -1,0 +1,132 @@
+[
+ {
+  "cardId": "67f0ba2505b211822c6a5eac",
+  "insured": "Jose Ibarra",
+  "claim": "",
+  "address": "",
+  "stage": "Referred out (attorney or public adjuster)",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "rep": "",
+  "newestEventOnFile": "2025-06-11",
+  "cardLastActivity": "2026-08-15"
+ },
+ {
+  "cardId": "6924c33fa095eda883346483",
+  "insured": "Maria Ramos",
+  "claim": "9379",
+  "address": "5523 Sequin Dr., Spring, TX 77388",
+  "stage": "In umpire",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "rep": "",
+  "newestEventOnFile": "2026-04-09",
+  "cardLastActivity": "2026-08-09"
+ },
+ {
+  "cardId": "69fa12f255de50cfa40d8472",
+  "insured": "Charles Kruvand",
+  "claim": "5398G790N",
+  "address": "9244 SCENIC BLUFF DR AUSTIN, TX 78733-6019",
+  "stage": "In umpire",
+  "clients": [
+   "Legacy Roofing"
+  ],
+  "rep": "Jaz Martinez",
+  "newestEventOnFile": "2026-06-06",
+  "cardLastActivity": "2026-08-13"
+ },
+ {
+  "cardId": "69cbf466ed57c982a9c97f0c",
+  "insured": "Stephen Okeefe",
+  "claim": "0822816278",
+  "address": "6213 W 138th St Overland Park, KS 66223",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Rusty Coffman",
+  "newestEventOnFile": "2026-06-17",
+  "cardLastActivity": "2026-08-02"
+ },
+ {
+  "cardId": "69ea34cfd30fc18976cd84b0",
+  "insured": "Jose Alvarenga",
+  "claim": "PL2503551",
+  "address": "535 Gettysburg, Mesquite, Texas 75149",
+  "stage": "In umpire",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Andres Soto",
+  "newestEventOnFile": "2026-07-11",
+  "cardLastActivity": "2026-08-11"
+ },
+ {
+  "cardId": "68eec7b858fd1a7dc526c96c",
+  "insured": "Dion Edge",
+  "claim": "008685134-804",
+  "address": "10705 Pinehurst Dr, Austin, TX 78747",
+  "stage": "Inspected / building our position",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "rep": "",
+  "newestEventOnFile": "2026-07-09",
+  "cardLastActivity": "2026-08-07"
+ },
+ {
+  "cardId": "6a504d5e5646093af1152793",
+  "insured": "SAL MARCUZ",
+  "claim": "",
+  "address": "",
+  "stage": "Appraisal demanded / waiting on carrier",
+  "clients": [
+   "Legacy Roofing"
+  ],
+  "rep": "Anthony Perez",
+  "newestEventOnFile": "2026-07-21",
+  "cardLastActivity": "2026-08-12"
+ },
+ {
+  "cardId": "687a6344246ed35e0d947707",
+  "insured": "Roslyn Williams",
+  "claim": "",
+  "address": "6918 Spring Creek Ct",
+  "stage": "In umpire",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "rep": "Mike - no stress",
+  "newestEventOnFile": "2026-07-23",
+  "cardLastActivity": "2026-08-10"
+ },
+ {
+  "cardId": "6a42c137b5b4ad834998bc38",
+  "insured": "Travis Sauer",
+  "claim": "01-009-796070",
+  "address": "2639 Bret Avenue, Salina, KS 67401",
+  "stage": "Inspection scheduling",
+  "clients": [
+   "Strong House Pro"
+  ],
+  "rep": "Jake Mathew",
+  "newestEventOnFile": "2026-07-30",
+  "cardLastActivity": "2026-08-14"
+ },
+ {
+  "cardId": "6a3ec0ad0eac5405409a56b8",
+  "insured": "Faris Farassati",
+  "claim": "",
+  "address": "",
+  "stage": "Estimate sent - needs sign-off",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Michael Shemas",
+  "newestEventOnFile": "2026-07-28",
+  "cardLastActivity": "2026-08-12"
+ }
+]

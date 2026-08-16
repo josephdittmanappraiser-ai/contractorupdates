@@ -1,0 +1,119 @@
+[
+ {
+  "cardId": "686ed56fdacdfd7e3616d00b",
+  "insured": "Odellia Kay Martinez",
+  "claim": "",
+  "address": "",
+  "stage": "Referred out (attorney or public adjuster)",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Tony Saldana",
+  "newestEventOnFile": "2025-10-03",
+  "cardLastActivity": "2026-08-15"
+ },
+ {
+  "cardId": "6a0bb8aeac5b5fb4d83d7bd3",
+  "insured": "Steven Hawkins",
+  "claim": "",
+  "address": "3011 washington st commerce, TX 75428",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Jacob Diaz",
+  "newestEventOnFile": "2026-06-04",
+  "cardLastActivity": "2026-08-15"
+ },
+ {
+  "cardId": "6a1785485f27a1954bcdc187",
+  "insured": "Vidal Mendez",
+  "claim": "53-99G9-55Q",
+  "address": "280 Voss Kyle, TX 78640-2171",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "Strong House Pro"
+  ],
+  "rep": "Clayton Grassi",
+  "newestEventOnFile": "2026-06-19",
+  "cardLastActivity": "2026-08-13"
+ },
+ {
+  "cardId": "69f0d1b1d25e0dfddb63270e",
+  "insured": "Gilbert Rocio Funes",
+  "claim": "",
+  "address": "** 17619 Burkhart Ridge Dr, Houston, TX 77095",
+  "stage": "In umpire",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "rep": "Steven Lorenzo",
+  "newestEventOnFile": "2026-07-10",
+  "cardLastActivity": "2026-08-14"
+ },
+ {
+  "cardId": "69f8fdad2ec48a6f75b37b36",
+  "insured": "Norma Lopes",
+  "claim": "7010088915",
+  "address": "10316 Andover Dr, Dallas, TX 75228-2702",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Justin Bach",
+  "newestEventOnFile": "2026-06-10",
+  "cardLastActivity": "2026-07-09"
+ },
+ {
+  "cardId": "6923293e0bc424f92bea4da8",
+  "insured": "WILLIAM TUCKER",
+  "claim": "",
+  "address": "2207 CLARINDA AVE WICHITA FALLS, TX 76308",
+  "stage": "In umpire",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Noah Nichter",
+  "newestEventOnFile": "2026-07-14",
+  "cardLastActivity": "2026-08-10"
+ },
+ {
+  "cardId": "6a47d422f42a4522a9a18185",
+  "insured": "HERMELINDA ALMANZA",
+  "claim": "0823471594",
+  "address": "7915 SPLIT OAK DR HOUSTON, TX 77040-2718",
+  "stage": "Inspected / building our position",
+  "clients": [
+   "Cross country Public Adjusting"
+  ],
+  "rep": "Erica Shamp",
+  "newestEventOnFile": "2026-07-17",
+  "cardLastActivity": "2026-08-04"
+ },
+ {
+  "cardId": "69ea5db2237738678621211c",
+  "insured": "Julio Granados",
+  "claim": "514491",
+  "address": "16915 BOUGAINVILLA LN FRIENDSWOOD, TX 77546",
+  "stage": "In umpire",
+  "clients": [
+   "The lawgical firm"
+  ],
+  "rep": "Gabriela Martinez",
+  "newestEventOnFile": "2026-07-14",
+  "cardLastActivity": "2026-07-30"
+ },
+ {
+  "cardId": "6a3ec75f5991d11d1ccc0b06",
+  "insured": "Faris Farassati",
+  "claim": "",
+  "address": "",
+  "stage": "Estimate sent - needs sign-off",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Michael Shemas",
+  "newestEventOnFile": "2026-07-28",
+  "cardLastActivity": "2026-08-12"
+ }
+]

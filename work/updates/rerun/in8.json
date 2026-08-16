@@ -1,0 +1,119 @@
+[
+ {
+  "cardId": "6872b7b43d21fee0af22f904",
+  "insured": "Edwin Mejia",
+  "claim": "",
+  "address": "** 809 Emerald St",
+  "stage": "Estimate being prepared",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Andres Soto",
+  "newestEventOnFile": "2025-12-11",
+  "cardLastActivity": "2026-07-07"
+ },
+ {
+  "cardId": "690283822da9c01e102a2bd1",
+  "insured": "CHASITY CLOUD TAULTON-no Agreement To Invoke The Umpire",
+  "claim": "",
+  "address": "** 9827 Wellington Chase Ln, Humble, TX 77396",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "rep": "",
+  "newestEventOnFile": "2026-04-09",
+  "cardLastActivity": "2026-06-20"
+ },
+ {
+  "cardId": "6a2720c535261e58b0480241",
+  "insured": "Sharla Mckee",
+  "claim": "5042824355-1",
+  "address": "2907 Tanglewood Drive Commerce, TX 75428",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "Strong House Pro"
+  ],
+  "rep": "Andres Soto",
+  "newestEventOnFile": "2026-06-24",
+  "cardLastActivity": "2026-08-15"
+ },
+ {
+  "cardId": "6a064c63bb01a77f4b26f537",
+  "insured": "Alfonso Ortiz",
+  "claim": "4395J147P",
+  "address": "409 SOUDER DR HURST, TX 76053-6738",
+  "stage": "In umpire",
+  "clients": [
+   "Cross country Public Adjusting"
+  ],
+  "rep": "Erica Shamp",
+  "newestEventOnFile": "2026-07-13",
+  "cardLastActivity": "2026-08-13"
+ },
+ {
+  "cardId": "69691f57bad91fbd1b4ebf3e",
+  "insured": "THURRELL KERNS",
+  "claim": "4390W353N",
+  "address": "801 Andrews CT Anna, Tx 75409",
+  "stage": "In umpire",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Noah Nichter",
+  "newestEventOnFile": "2026-07-17",
+  "cardLastActivity": "2026-08-15"
+ },
+ {
+  "cardId": "6a3bf31ed6ab3158a1ddbe5c",
+  "insured": "Ahmed Taha",
+  "claim": "86001",
+  "address": "4431 Beck Drive Richardson, TX 75082",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "Legacy Roofing"
+  ],
+  "rep": "Maryela Gonzalez",
+  "newestEventOnFile": "2026-07-23",
+  "cardLastActivity": "2026-08-15"
+ },
+ {
+  "cardId": "69dcff75057935cbef705f3e",
+  "insured": "LINA SHOUGA",
+  "claim": "0822662169",
+  "address": "2900 CHEVERNY DR MCKINNEY, TX 75070-4710",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Andres Soto",
+  "newestEventOnFile": "2026-07-28",
+  "cardLastActivity": "2026-08-15"
+ },
+ {
+  "cardId": "6a47f3e5c36e4e05b48a7b1f",
+  "insured": "Rigoberto Ayala",
+  "claim": "7009251722-1-1",
+  "address": "6330 Northland Dr, Houston, TX",
+  "stage": "Inspected / building our position",
+  "clients": [
+   "Cross country Public Adjusting"
+  ],
+  "rep": "Erica Shamp",
+  "newestEventOnFile": "2026-07-10",
+  "cardLastActivity": "2026-07-25"
+ },
+ {
+  "cardId": "6a3ec1efd198968cf8e089bb",
+  "insured": "Faris Farassati",
+  "claim": "",
+  "address": "",
+  "stage": "Estimate sent - needs sign-off",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Michael Shemas",
+  "newestEventOnFile": "2026-07-28",
+  "cardLastActivity": "2026-08-12"
+ }
+]

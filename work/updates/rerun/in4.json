@@ -1,0 +1,119 @@
+[
+ {
+  "cardId": "67cc71e760349263a5ce7b17",
+  "insured": "Leroy Barrera",
+  "claim": "",
+  "address": "",
+  "stage": "Referred out (attorney or public adjuster)",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "rep": "",
+  "newestEventOnFile": "2025-08-11",
+  "cardLastActivity": "2026-08-15"
+ },
+ {
+  "cardId": "68129eea17e53372c1eaec00",
+  "insured": "Miguel Myers",
+  "claim": "",
+  "address": "",
+  "stage": "In umpire",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "rep": "Claims Adjuster Prosperity",
+  "newestEventOnFile": "2026-04-20",
+  "cardLastActivity": "2026-07-25"
+ },
+ {
+  "cardId": "6970f01639fd7a6152b4961e",
+  "insured": "Barbara Lewis",
+  "claim": "",
+  "address": "** 421 Wisteria St., Richwood, TX 77531",
+  "stage": "In umpire",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "rep": "Steven Lorenzo",
+  "newestEventOnFile": "2026-06-17",
+  "cardLastActivity": "2026-08-13"
+ },
+ {
+  "cardId": "69cf01db396d7a8ade890065",
+  "insured": "Juanita Mascarenhas",
+  "claim": "017125712",
+  "address": "2921 Margarita Loop Round Rock TX 78665",
+  "stage": "In umpire",
+  "clients": [
+   "Legacy Roofing"
+  ],
+  "rep": "Alex Chavez",
+  "newestEventOnFile": "2026-06-10",
+  "cardLastActivity": "2026-07-22"
+ },
+ {
+  "cardId": "69c32dc96db949f2f15db542",
+  "insured": "SAMUEL GARZA",
+  "claim": "0821218708",
+  "address": "441 BLUE MOUNTAIN DR RIO GRANDE CITY, TX 78582-6802",
+  "stage": "Inspected / building our position",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Carlos Villegas",
+  "newestEventOnFile": "2026-06-23",
+  "cardLastActivity": "2026-07-23"
+ },
+ {
+  "cardId": "6a0e3e552f96924b245dc8ce",
+  "insured": "CARRIE BACON",
+  "claim": "",
+  "address": "",
+  "stage": "Referred out (attorney or public adjuster)",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Jacob Diaz",
+  "newestEventOnFile": "2026-07-02",
+  "cardLastActivity": "2026-07-29"
+ },
+ {
+  "cardId": "69bb0544436a84989ebf1c02",
+  "insured": "WENDY ESTRADA-PEREZ",
+  "claim": "0820895125",
+  "address": "747 EVENING STAR KYLE, TX 78640-6659",
+  "stage": "In umpire",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Clayton Grassi",
+  "newestEventOnFile": "2026-07-02",
+  "cardLastActivity": "2026-07-23"
+ },
+ {
+  "cardId": "69e66b50b2382b3b3f201192",
+  "insured": "KEVIN VILLALOBOS",
+  "claim": "003320634",
+  "address": "3306 Brooktree Ct San Antonio, TX 78261-2688",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "Strong House Pro"
+  ],
+  "rep": "Omar Haner",
+  "newestEventOnFile": "2026-07-07",
+  "cardLastActivity": "2026-07-24"
+ },
+ {
+  "cardId": "6a3eddb20988740778685cdf",
+  "insured": "Faris Farassati",
+  "claim": "",
+  "address": "",
+  "stage": "Estimate sent - needs sign-off",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "rep": "Michael Shemas",
+  "newestEventOnFile": "2026-07-28",
+  "cardLastActivity": "2026-08-12"
+ }
+]
