@@ -1,0 +1,73 @@
+{
+ "batch": "1b",
+ "results": [
+  {
+   "cardId": "697101ad3031e26ba5fb55c7",
+   "update": "State Farm has not named a carrier appraiser since the appraisal demand was sent in January, despite follow-ups in March and May; the file remains stalled waiting on the carrier to respond.",
+   "needed": null,
+   "asOf": "2026-08-16",
+   "timeline": [
+    {"date": "2026-01-21", "event": "No Stress Claims sent State Farm the appraisal demand for claim 53-92H3-68S, naming Joseph Dittman as the insured's appraiser, with estimate and photo report attached."},
+    {"date": "2026-01-21", "event": "Joseph confirmed receipt of the demand to the carrier."},
+    {"date": "2026-03-16", "event": "Joseph flagged this file to No Stress Claims as over 30 days with no carrier appraiser named since invocation."},
+    {"date": "2026-03-18", "event": "Joseph confirmed the claim number to No Stress Claims; no carrier appraiser had been named yet."},
+    {"date": "2026-05-18", "event": "Joseph again flagged this file to No Stress Claims as still without a carrier appraiser past the invocation window and asked whether it had gone to litigation."},
+    {"date": "2026-05-22", "event": "Joseph followed up again with No Stress Claims requesting an update; no response on record since."}
+   ],
+   "trelloItemsAdded": 6,
+   "noEmail": false
+  },
+  {
+   "cardId": "6970f0af6bc4bb041bf185cd",
+   "update": "HOAIC has not named a carrier appraiser since the appraisal demand was sent in January, despite follow-ups in March and May; the file remains stalled waiting on the carrier to respond.",
+   "needed": null,
+   "asOf": "2026-08-16",
+   "timeline": [
+    {"date": "2026-01-20", "event": "No Stress Claims sent HOAIC the appraisal demand for claim 202407085916, naming Joseph Dittman as the insured's appraiser, with estimate attached."},
+    {"date": "2026-01-21", "event": "Joseph confirmed receipt of the demand to the carrier."},
+    {"date": "2026-03-16", "event": "Joseph flagged this file to No Stress Claims as over 30 days with no carrier appraiser named since invocation."},
+    {"date": "2026-03-18", "event": "Joseph confirmed the claim number to No Stress Claims; no carrier appraiser had been named yet."},
+    {"date": "2026-05-18", "event": "Joseph again flagged this file to No Stress Claims as still without a carrier appraiser past the invocation window and asked whether it had gone to litigation."},
+    {"date": "2026-05-22", "event": "Joseph followed up again with No Stress Claims requesting an update; no response on record since."}
+   ],
+   "trelloItemsAdded": 6,
+   "noEmail": false
+  },
+  {
+   "cardId": "696ed0178dedd27c360d27d4",
+   "update": "Allstate acknowledged the appraisal demand in June and said it was routed for review, but no carrier appraiser has been named yet despite the demand being sent three times since January.",
+   "needed": null,
+   "asOf": "2026-08-16",
+   "timeline": [
+    {"date": "2026-01-19", "event": "No Stress Claims sent Allstate the appraisal demand for claim 0802600254, naming Joseph Dittman as the insured's appraiser."},
+    {"date": "2026-01-20", "event": "Joseph confirmed receipt of the demand to the carrier."},
+    {"date": "2026-01-21", "event": "Allstate said it was still waiting on supporting photos for the disputed estimate before proceeding."},
+    {"date": "2026-03-16", "event": "Joseph flagged this file to No Stress Claims as over 30 days with no carrier appraiser named since invocation."},
+    {"date": "2026-03-18", "event": "Joseph confirmed the claim number to No Stress Claims; no carrier appraiser had been named yet."},
+    {"date": "2026-04-10", "event": "No Stress Claims resent the appraisal demand to the carrier for this claim."},
+    {"date": "2026-05-18", "event": "Joseph again flagged this file to No Stress Claims as still without a carrier appraiser past the invocation window and asked whether it had gone to litigation."},
+    {"date": "2026-05-22", "event": "Joseph followed up again with No Stress Claims requesting an update."},
+    {"date": "2026-06-12", "event": "No Stress Claims resent the demand with the full estimate and damage photos; the carrier acknowledged receipt and said the request was routed for review."}
+   ],
+   "trelloItemsAdded": 9,
+   "noEmail": false
+  },
+  {
+   "cardId": "69839ef585ff1eed05e41363",
+   "update": "Assurant has not named a carrier appraiser since the appraisal demand was sent in February, despite a May follow-up; the file remains stalled waiting on the carrier to respond.",
+   "needed": null,
+   "asOf": "2026-08-16",
+   "timeline": [
+    {"date": "2026-02-02", "event": "No Stress Claims sent Assurant the appraisal demand for claim 00104921083, naming Joseph Dittman as the insured's appraiser, with estimate and photos attached."},
+    {"date": "2026-02-04", "event": "Joseph confirmed receipt of the demand to the carrier."},
+    {"date": "2026-05-18", "event": "Joseph flagged this file to No Stress Claims as still without a carrier appraiser past the invocation window and asked whether it had gone to litigation."},
+    {"date": "2026-05-22", "event": "Joseph followed up again with No Stress Claims requesting an update; no response on record since."}
+   ],
+   "trelloItemsAdded": 4,
+   "noEmail": false
+  }
+ ],
+ "withEmail": 4,
+ "noEmail": 0,
+ "flaggedNeeded": 0
+}

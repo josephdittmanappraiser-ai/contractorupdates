@@ -1,0 +1,56 @@
+{
+  "batch": "final2",
+  "results": [
+    {
+      "cardId": "6a3069026061fe297d0cc751",
+      "update": "Both parties' inspections were scheduled for July 20 (Joseph Dittman) and July 23 (the carrier's appraiser), and the signed agreement was returned to the carrier's appraiser on July 21. There is no email record of further contact since a July 23 reminder about that scheduled inspection.",
+      "needed": null,
+      "asOf": "2026-08-16",
+      "timeline": [
+        {"date": "2026-06-15", "event": "Contractor Rusty Coffman referred Gerald Kieschnick's claim to Joseph Dittman's office for appraisal assistance."},
+        {"date": "2026-06-16", "event": "The appraisal demand package was finalized and sent to State Farm to formally open the appraisal."},
+        {"date": "2026-06-22", "event": "After the homeowner heard nothing back, the office found the original State Farm claim specialist was no longer with State Farm and resent the file for reassignment."},
+        {"date": "2026-06-23", "event": "The homeowner emailed State Farm directly to confirm he wanted to proceed with the appraisal."},
+        {"date": "2026-06-25", "event": "State Farm confirmed receipt of the appraisal demand package."},
+        {"date": "2026-06-27", "event": "State Farm sent its formal appraisal response letter confirming the right to name an appraiser."},
+        {"date": "2026-06-29", "event": "State Farm named Robert Pool as its appraiser; Joseph's office requested his umpire list and solo-inspection availability."},
+        {"date": "2026-07-03", "event": "The carrier's appraiser sent his proposed umpire list for review."},
+        {"date": "2026-07-09", "event": "Joseph's office sent a list of proposed umpire candidates to the carrier's appraiser."},
+        {"date": "2026-07-14", "event": "The carrier's appraiser confirmed a solo inspection date of July 23; a separate inspection for Joseph Dittman was scheduled for July 20."},
+        {"date": "2026-07-16", "event": "The homeowner confirmed both inspection dates."},
+        {"date": "2026-07-21", "event": "Joseph Dittman signed and returned the signed agreement to the carrier's appraiser."},
+        {"date": "2026-07-23", "event": "Joseph's office reminded the carrier's appraiser of the scheduled solo inspection."}
+      ],
+      "trelloItemsAdded": 13,
+      "noEmail": false
+    },
+    {
+      "cardId": "69a5ba46b5e4289e05d345c9",
+      "update": "The appraisal concluded with a signed award, and the carrier reports the claim paid in full. After the roof was completed and the signed certificate of completion was submitted in August, the final depreciation payment turned out to have already been mailed in July to an address different from the one Joseph had specified for Rise Public Adjusting LLC.",
+      "needed": null,
+      "asOf": "2026-08-16",
+      "timeline": [
+        {"date": "2026-02-28", "event": "Contractor Legacy Roofing sent the roof report and photos to Joseph Dittman to begin the claim."},
+        {"date": "2026-03-05", "event": "A Letter of Representation was sent to the carrier confirming Joseph Dittman was retained to act on the homeowners' behalf."},
+        {"date": "2026-03-16", "event": "Joseph's office told the contractor an estimate and photos were being prepared for the carrier's review to determine whether a reinspection would be granted."},
+        {"date": "2026-04-13", "event": "Photos and an estimate were sent to the carrier."},
+        {"date": "2026-04-15", "event": "An HVAC item that had been added to the file in error was withdrawn and its inspection cancelled."},
+        {"date": "2026-04-22", "event": "The homeowners invoked their right to appraisal, and the file with an updated estimate was sent to the carrier."},
+        {"date": "2026-05-05", "event": "The carrier issued its Notice of Appraisal naming its appraiser, with John Wynn confirmed as the insured's appraiser."},
+        {"date": "2026-05-31", "event": "The contractor flagged an upcoming reroof install date and asked for a status update on the appraisal."},
+        {"date": "2026-06-15", "event": "The insured's appraiser shared the carrier's appraiser's position for review."},
+        {"date": "2026-06-21", "event": "After the revised position was reviewed and confirmed acceptable, the insured's appraiser sent the signed appraisal award."},
+        {"date": "2026-06-27", "event": "Joseph directed the carrier to send claim payment to Rise Public Adjusting LLC's address."},
+        {"date": "2026-06-29", "event": "The carrier confirmed a payment had been mailed to the address on file."},
+        {"date": "2026-07-24", "event": "After the payment had not arrived, Joseph asked the carrier to confirm which address it had been sent to."},
+        {"date": "2026-08-13", "event": "The contractor submitted the signed certificate of completion for the finished roof, and Joseph requested release of the held-back depreciation."},
+        {"date": "2026-08-14", "event": "The carrier confirmed the payment had already been released in July to the address on file, which differed from the one Joseph specified, and stated the claim is now paid in full."}
+      ],
+      "trelloItemsAdded": 15,
+      "noEmail": false
+    }
+  ],
+  "withEmail": 2,
+  "noEmail": 0,
+  "flaggedNeeded": 0
+}

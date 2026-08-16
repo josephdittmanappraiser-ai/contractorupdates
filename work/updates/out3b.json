@@ -1,0 +1,119 @@
+{
+ "batch": "3b",
+ "results": [
+  {
+   "cardId": "6a72588e59bca8768d9a981c",
+   "update": "The appraisal demand letter was resent to the homeowner on August 6 after Strong House Pro reported it signed but it had not actually gone through; the file is waiting on that signature before it can move forward.",
+   "needed": "Confirm with the homeowner that they've signed and returned the appraisal demand letter.",
+   "asOf": "2026-08-16",
+   "timeline": [
+    {"date": "2026-08-04", "event": "Strong House Pro referred Atef Abdalla's file (Allstate claim 0832177174, 102 Millican Dr, Euless TX) for appraisal."},
+    {"date": "2026-08-04", "event": "Appraisal demand letter sent to the homeowner for signature."},
+    {"date": "2026-08-06", "event": "Contractor reported the homeowner signed the demand letter; Joseph's office found it was not yet signed and resent the document."}
+   ],
+   "trelloItemsAdded": 3,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a7a119d2eceb51184288445",
+   "update": "The appraisal demand letter went out to the homeowner on August 11 right after Legacy Roofing supplied the property report and contact info; the file is waiting on that letter coming back signed before it can move to the carrier.",
+   "needed": null,
+   "asOf": "2026-08-16",
+   "timeline": [
+    {"date": "2026-08-10", "event": "Joseph's office requested outstanding requirements from Legacy Roofing (EagleView report, photos, damage description, homeowner contact info) to proceed with the appraisal."},
+    {"date": "2026-08-11", "event": "Legacy Roofing provided the property report, damage description, and homeowner contact information."},
+    {"date": "2026-08-11", "event": "Appraisal demand letter sent to the homeowner."}
+   ],
+   "trelloItemsAdded": 3,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a7200d7b6ea1e8802f8019d",
+   "update": "The appraisal demand letter went out to the homeowner on August 4 right after Strong House Pro supplied the inspection report and carrier's denial letter; there has been no update since, so the file is waiting on that signed letter.",
+   "needed": null,
+   "asOf": "2026-08-16",
+   "timeline": [
+    {"date": "2026-08-04", "event": "Strong House Pro submitted the inspection report, photos, and carrier denial letter for 3520 Lake Hill Lane, Hurst TX, requesting the appraisal process begin."},
+    {"date": "2026-08-04", "event": "Appraisal demand letter sent to the homeowner."}
+   ],
+   "trelloItemsAdded": 2,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a518a8643f6e498691ce08a",
+   "update": "This file covers hail-damaged antique gas pumps rather than roofing. The demand letter went out July 10, the contractor sent measurements and photos of the replacement units on July 13 and said the homeowner was signing that morning, and there has been no update since.",
+   "needed": "Confirm whether the homeowner finished signing the appraisal demand letter and send back the signed copy.",
+   "asOf": "2026-08-16",
+   "timeline": [
+    {"date": "2026-07-10", "event": "Strong House Pro sent the claim details for the antique gas pump damage (claim 250732819), including an invoice for replacement units, initial scope, and contract; noted the carrier's desk adjuster wanted different replacement units sourced."},
+    {"date": "2026-07-10", "event": "Appraisal demand letter sent to the homeowner."},
+    {"date": "2026-07-13", "event": "Contractor provided measurements and photos of the damaged and replacement gas pump units, and reported the homeowner was completing signatures that morning."}
+   ],
+   "trelloItemsAdded": 3,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a73b2f2115fe953ec24ed31",
+   "update": "LINEAR Roofing resent the EagleView report on August 10 after the first version was missing quantities; we're confirming whether the new version is sufficient before the estimate can be finalized.",
+   "needed": null,
+   "asOf": "2026-08-16",
+   "timeline": [
+    {"date": "2026-08-05", "event": "LINEAR Roofing sent the carrier's denial letter, an EagleView report, photos, and the homeowner's contact information for 107 High Country Drive, Seguin TX."},
+    {"date": "2026-08-05", "event": "Appraisal demand letter sent to the homeowner."},
+    {"date": "2026-08-06", "event": "Joseph's office told the contractor the EagleView report was missing quantities and asked for one that includes them."},
+    {"date": "2026-08-10", "event": "Contractor resent the EagleView report."}
+   ],
+   "trelloItemsAdded": 4,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a4d1d9dbc7889168aec2321",
+   "update": "The contractor confirmed on July 29 that the draft estimate looked good and asked whether anything else was needed; there has been no update since, so it's on our end to confirm next steps.",
+   "needed": null,
+   "asOf": "2026-08-16",
+   "timeline": [
+    {"date": "2026-07-07", "event": "Strong House Pro referred Aldair Alvarado's file, including the carrier's original denial letter and estimate."},
+    {"date": "2026-07-07", "event": "Joseph's office requested an EagleView report, photos, a damage description, and a working homeowner email address."},
+    {"date": "2026-07-07", "event": "Contractor provided photos, a damage description, and a corrected homeowner email address."},
+    {"date": "2026-07-10", "event": "Joseph's office sent the draft estimate to the contractor for review."},
+    {"date": "2026-07-29", "event": "Contractor confirmed the draft estimate looked good and asked whether anything else was needed from the homeowner or himself; also forwarded a separate contractor's estimate for interior damage in case it's needed."}
+   ],
+   "trelloItemsAdded": 5,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a71136a0b4293b8e2763667",
+   "update": "The homeowner signed and returned the demand letter, and the contractor approved the draft estimate on August 14; the file is moving toward final sign-off.",
+   "needed": null,
+   "asOf": "2026-08-16",
+   "timeline": [
+    {"date": "2026-08-03", "event": "Strong House Pro referred Charmaine Dadios's file (2004 Meridian Loop, Temple TX), sending photos and an EagleView report; no carrier estimate had been provided."},
+    {"date": "2026-08-03", "event": "Appraisal demand letter sent to the homeowner."},
+    {"date": "2026-08-05", "event": "Homeowner signed and returned the demand letter documents."},
+    {"date": "2026-08-14", "event": "Joseph's office sent the draft estimate to the contractor for review."},
+    {"date": "2026-08-14", "event": "Contractor confirmed the draft estimate looked good."}
+   ],
+   "trelloItemsAdded": 5,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a694b6be0fbd537ee884a02",
+   "update": "This is one of seven rental properties the contractor submitted together for the same homeowner; for this address (6711 West 157th Terrace), the homeowner signed the demand letter, the EagleView report came in, and the contractor approved the draft estimate on August 14.",
+   "needed": null,
+   "asOf": "2026-08-16",
+   "timeline": [
+    {"date": "2026-07-27", "event": "LINEAR Roofing submitted this property (6711 West 157th Terrace, Overland Park KS, Richard Rental #13) along with six other rentals owned by the same homeowner, with photos and a damage description; the EagleView report for this address was still outstanding."},
+    {"date": "2026-07-29", "event": "Appraisal demand letters sent to the homeowner for all seven properties, including this one."},
+    {"date": "2026-08-01", "event": "Joseph's office followed up specifically on the still-missing EagleView report for this address."},
+    {"date": "2026-08-03", "event": "Contractor provided the EagleView report for this address and confirmed the homeowner had signed the demand letter for it."},
+    {"date": "2026-08-14", "event": "Joseph's office sent the draft estimate for this property to the contractor for review."},
+    {"date": "2026-08-14", "event": "Contractor confirmed the draft estimate looked good."}
+   ],
+   "trelloItemsAdded": 6,
+   "noEmail": false
+  }
+ ],
+ "withEmail": 8,
+ "noEmail": 0,
+ "flaggedNeeded": 2
+}
