@@ -51,6 +51,38 @@ pos `bottom`, if absent). Add each new event with action `add_item`, pos `bottom
 never doubles up. **Never write a card description** — `trelloWriteCard` action `update` caps
 `desc` at 2048 characters and replaces it wholesale, destroying file history.
 
+## An empty message body does not mean nothing happened
+
+The single most important action on a file — the position going to the carrier's appraiser — is
+often sent as **attachments with no body text at all**. The message is a bare reply chain; the
+event lives entirely in the filenames:
+
+```
+JENNIFER-COMPIAN1 JENNIFER~SCOMPIAN.ESX
+JENNIFER-COMPIAN1_FINAL_DRAFT_DEPREC_CAR.pdf
+photo_report_compressed_(3).pdf
+```
+
+That is a position being sent, and a pass that reads only prose records nothing for that date.
+It happened: the file showed "no further correspondence" from mid-July while the position had
+gone out on the 25th.
+
+So **read the `attachments` array on every message, not just the text**, and treat a meaningful
+attachment as an event in its own right:
+
+| Attachment looks like | The event |
+|---|---|
+| `*.ESX`, `*ESTIMATE*`, `*DEPREC*`, `*_FINAL_DRAFT*` | our position or estimate was sent |
+| `*photo*report*` | supporting photo documentation was sent |
+| `*DOA*`, `*SOU*`, `*AGREEMENT*` | the signed agreement was exchanged |
+| `*AWARD*` | an award was issued or circulated |
+| `*INVOICE*`, `*W-9*` | an invoice or tax form was exchanged |
+
+Describe what was sent in plain words — "sent his position: the estimate, the depreciation
+summary and the photo report" — never the raw filename, which carries internal shorthand.
+`get_thread` with `messageFormat: "PLAIN_TEXT"` returns `attachments` alongside the body, so
+this costs nothing extra.
+
 ## Never write, in any field
 
 Dollar figures or settlement amounts · negotiation strategy or how strong a position is · staff

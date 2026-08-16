@@ -1,6 +1,6 @@
 {
  "batch": 99,
- "_note": "Hand-corrected from full Gmail threads read end to end. Both files were reported quiet by automated passes that judged from search_threads previews: Massey's preview stops 2026-03-27 against a thread running to 08-15, Lewis's stops 2026-02-23 against a thread running to 08-13. Sorts last, so it wins over the batch outputs.",
+ "_note": "Hand-corrected from full Gmail threads read end to end. Massey and Lewis were reported quiet because search_threads previews truncate (Massey's stops 2026-03-27 against a thread to 08-15; Lewis's stops 2026-02-23 against a thread to 08-13). Compian is a different miss: the 2026-07-25 message sending the position has an EMPTY body -- the action is carried entirely by its attachments. Sorts last, so it wins over the batch outputs.",
  "results": [
   {
    "cardId": "69a85b2aa7f9682378dfff33",
@@ -179,9 +179,62 @@
    "priorNewest": "2026-06-17",
    "newEventsFound": 8,
    "staleReason": null
+  },
+  {
+   "cardId": "6a270d36f8efa358d7b3e069",
+   "update": "Joseph sent his position to the carrier's appraiser on July 25 \u2014 the estimate, the depreciation summary and the photo report. We are following up for his response.",
+   "needed": null,
+   "asOf": "2026-08-16",
+   "timeline": [
+    {
+     "date": "2026-06-06",
+     "event": "File received from the contractor with claim documents."
+    },
+    {
+     "date": "2026-06-09",
+     "event": "Contractor sent photos of the damage."
+    },
+    {
+     "date": "2026-06-15",
+     "event": "Signed appraisal demand sent to the carrier, formally opening the appraisal."
+    },
+    {
+     "date": "2026-06-30",
+     "event": "The carrier's appraiser sent the signed agreement and proposed an umpire in case one is needed."
+    },
+    {
+     "date": "2026-07-08",
+     "event": "The carrier's appraiser proposed inspecting on July 14."
+    },
+    {
+     "date": "2026-07-09",
+     "event": "Inspections set for July 13 and July 14; the homeowner confirmed interior access."
+    },
+    {
+     "date": "2026-07-13",
+     "event": "Joseph inspected the property."
+    },
+    {
+     "date": "2026-07-14",
+     "event": "Rain pushed the carrier's appraiser's inspection back, and he inspected the property later the same day."
+    },
+    {
+     "date": "2026-07-16",
+     "event": "Our office cleared up a scheduling mix-up with the homeowner, confirming both inspections were already done."
+    },
+    {
+     "date": "2026-07-25",
+     "event": "Joseph sent his position to the carrier's appraiser \u2014 the estimate, the depreciation summary and the photo report."
+    }
+   ],
+   "trelloItemsAdded": 0,
+   "noEmail": false,
+   "priorNewest": "2026-07-16",
+   "newEventsFound": 2,
+   "staleReason": null
   }
  ],
- "withEmail": 2,
+ "withEmail": 3,
  "noEmail": 0,
  "flaggedNeeded": 0
 }

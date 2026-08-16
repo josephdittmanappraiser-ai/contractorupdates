@@ -83,6 +83,38 @@ photos, a measurement, a homeowner signature they must chase, a decision. It ren
 their page. Set `null` when the file waits on the carrier, the opposing appraiser, an umpire, the
 homeowner directly, or Joseph. Never invent an ask to fill the field.
 
+## An empty message body does not mean nothing happened
+
+The single most important action on a file — the position going to the carrier's appraiser — is
+often sent as **attachments with no body text at all**. The message is a bare reply chain; the
+event lives entirely in the filenames:
+
+```
+JENNIFER-COMPIAN1 JENNIFER~SCOMPIAN.ESX
+JENNIFER-COMPIAN1_FINAL_DRAFT_DEPREC_CAR.pdf
+photo_report_compressed_(3).pdf
+```
+
+That is a position being sent, and a pass that reads only prose records nothing for that date.
+It happened: the file showed "no further correspondence" from mid-July while the position had
+gone out on the 25th.
+
+So **read the `attachments` array on every message, not just the text**, and treat a meaningful
+attachment as an event in its own right:
+
+| Attachment looks like | The event |
+|---|---|
+| `*.ESX`, `*ESTIMATE*`, `*DEPREC*`, `*_FINAL_DRAFT*` | our position or estimate was sent |
+| `*photo*report*` | supporting photo documentation was sent |
+| `*DOA*`, `*SOU*`, `*AGREEMENT*` | the signed agreement was exchanged |
+| `*AWARD*` | an award was issued or circulated |
+| `*INVOICE*`, `*W-9*` | an invoice or tax form was exchanged |
+
+Describe what was sent in plain words — "sent his position: the estimate, the depreciation
+summary and the photo report" — never the raw filename, which carries internal shorthand.
+`get_thread` with `messageFormat: "PLAIN_TEXT"` returns `attachments` alongside the body, so
+this costs nothing extra.
+
 ## Never write, in any field
 
 - dollar figures or settlement amounts
