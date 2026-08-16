@@ -248,3 +248,30 @@ client's own subagent; do not fan out one subagent per file.
 - Never `CreateSite` for a client that already has a `shareId`.
 - If a subagent fails, publish the rest and report the gap. A stale page is better than a
   wrong one, but a missing page is better than one with another client's files on it.
+
+---
+
+## Card descriptions are free text — treat every extracted field as untrusted
+
+A card's description is whatever someone typed. `Email address:` also ends in `address:`, so the
+loss-address regex captured homeowners' personal email addresses and printed them on six
+client-facing pages before a scan caught it. Two of those hid from a plain email regex: an
+uppercase domain, and `christophergarza@[hotmail.com](http://hotmail.com/)` split across a
+markdown link.
+
+`clean_addr()` in `tools/build_rep_pages.py` now strips markdown links and drops the field
+entirely if what remains holds an `@` or a phone number. A missing address on a page is fine;
+a homeowner's email address on it is not.
+
+Before publishing, run the leak scan over `work/pages/*.html` and read every hit:
+
+- internal shorthand: `\b(DOA|OA|SOU|CN|ff)\b`
+- money: `\$\s?[\d,]+`
+- staff first names, collections wording, phone numbers
+- email: `[\w.+-]+@[\w.-]+` — case-insensitive, and check for `@` on its own, since markdown
+  and mixed case break the tidy pattern
+- any character above U+007F — the leaked lines carried a zero-width non-joiner, which is
+  invisible in a diff and impossible for a publish agent to retype reliably
+
+Hits on staff names inside an `<h3>` are usually a real insured who shares a first name with
+someone in the office. Check before "fixing" one.

@@ -1,0 +1,58 @@
+{
+ "work/pages/company-assured-value-claims.html": [
+  {
+   "old_string": "<p class=\"meta\">121 San Simeon Drive, Manvel, TX 77578.</p>",
+   "new_string": "<p class=\"meta\">121 San Simeon Drive, Manvel, TX 77578</p>"
+  }
+ ],
+ "work/pages/company-cross-country-public-adjusting.html": [
+  {
+   "old_string": "<p class=\"meta\">[KOKOROCK23@YAHOO.COM](mailto:KOKOROCK23@YAHOO.COM &quot;\u200c&quot;)</p>",
+   "new_string": ""
+  }
+ ],
+ "work/pages/company-legacy-roofing-gc.html": [
+  {
+   "old_string": "<p class=\"meta\">christophergarza@[hotmail.com](http://hotmail.com/ &quot;\u200c&quot;)</p>",
+   "new_string": ""
+  }
+ ],
+ "work/pages/company-no-stress-claims.html": [
+  {
+   "old_string": "<p class=\"meta\">[gapjersey@yahoo.com](mailto:gapjersey@yahoo.com &quot;\u200c&quot;) &middot; Claim JDM2754001H</p>",
+   "new_string": "<p class=\"meta\">1310 LAURA HILLS LN SPRING, TX 77386 &middot; Claim JDM2754001H</p>"
+  },
+  {
+   "old_string": "<p class=\"meta\">[pndpharm420@hotmail.com](mailto:pndpharm420@hotmail.com &quot;\u200c&quot;) &middot; Claim 53-95P0-96Z</p>",
+   "new_string": "<p class=\"meta\">7103 Wild Trl Missouri City TX 77459-2051 &middot; Claim 53-95P0-96Z</p>"
+  },
+  {
+   "old_string": "<p class=\"meta\">4702 Hamilton View Way,</p>",
+   "new_string": "<p class=\"meta\">4702 Hamilton View Way</p>"
+  }
+ ],
+ "work/pages/linear-justin-kouri.html": [
+  {
+   "old_string": "<p class=\"meta\">11018 Alhambra DrAustin, TX 78759.</p>",
+   "new_string": "<p class=\"meta\">11018 Alhambra DrAustin, TX 78759</p>"
+  }
+ ],
+ "work/pages/linear-noah-nichter.html": [
+  {
+   "old_string": "<p class=\"meta\">[cynthiajohnson.jams@gmail.com](mailto:cynthiajohnson.jams@gmail.com &quot;\u200c&quot;)</p>",
+   "new_string": ""
+  }
+ ],
+ "work/pages/linear-rusty-coffman.html": [
+  {
+   "old_string": "<p class=\"meta\">[adjusterping@gmail.com](mailto:adjusterping@gmail.com &quot;\u200c&quot;)</p>",
+   "new_string": ""
+  }
+ ],
+ "work/pages/linear-sergio-dehoyos.html": [
+  {
+   "old_string": "<p class=\"meta\">[knutt@plateautel.net](mailto:knutt@plateautel.net &quot;\u200c&quot;)</p>",
+   "new_string": ""
+  }
+ ]
+}

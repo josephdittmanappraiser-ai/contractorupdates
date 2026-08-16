@@ -73,9 +73,23 @@ def clean_insured(card_name, desc):
     return titlecase(" ".join(words)) if words else "(name withheld)"
 
 
-ADDR = re.compile(r'(?:loss address|address)\s*[:\-]\s*(.+)', re.I)
+# "Email address:" also ends in "address:", and matching it put homeowners' personal
+# email addresses on client-facing pages. Require the label to be the loss address.
+ADDR = re.compile(r'(?<!e-mail )(?<!email )(?:loss address|property address|address)\s*[:\-]\s*(.+)', re.I)
 CLAIM = re.compile(r'claim\s*#?\s*[:\-]\s*([A-Za-z0-9\-/]+)', re.I)
 NOTE = re.compile(r'\[(\d{4}-\d{2}-\d{2})\]\s*(.+)')
+
+
+def clean_addr(s):
+    """A street address, or nothing. Card descriptions are free text and the address
+    line picks up whatever sits next to it."""
+    s = re.sub(r'\[([^\]]*)\]\([^)]*\)', r'\1', s)   # [text](mailto:...) -> text
+    s = re.sub(r'\s+', ' ', s).strip(' .,;:-')
+    if '@' in s or 'mailto' in s.lower():
+        return ''
+    if re.search(r'\(\d{3}\)\s?\d{3}-\d{4}|\b\d{3}-\d{3}-\d{4}\b', s):
+        return ''
+    return s[:80]
 
 
 def extract(desc):
@@ -83,7 +97,7 @@ def extract(desc):
     a = ADDR.search(d)
     c = CLAIM.search(d)
     addr = re.sub(r'\s+', ' ', a.group(1)).strip()[:80] if a else ''
-    addr = re.split(r'\s{2,}|\n', addr)[0]
+    addr = clean_addr(re.split(r'\s{2,}|\n', addr)[0])
     claim = c.group(1).strip() if c else ''
     notes = NOTE.findall(d)
     return addr, claim, (notes[-1][1].strip() if notes else '')

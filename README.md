@@ -101,7 +101,7 @@ record. For label attachments that means one `list_by_board` sweep, which return
 with its current labels — 4 calls for the whole board, and it settles what actually happened
 regardless of what any worker claimed.
 
-## Two things that will break it
+## Three things that will break it
 
 **Writing to a Trello card description.** `trelloWriteCard action:"update"` caps `desc` at
 2048 characters and replaces it wholesale — longer cards lose their history silently. All
@@ -110,6 +110,12 @@ dialogue goes in the `📧 Email log` checklist (`add_item` takes 16KB and only 
 **Calling `CreateSite` for a client that already has a page.** That mints a new URL and
 strands everyone holding the old link. Once a `shareId` exists in the config, refreshes go
 through `EditSite`.
+
+**A page growing past ~90KB.** EditSite takes the document as a tool parameter, so the call
+fails and the live page keeps last week's content without saying so. Run
+`tools/split_page.py` and publish it in chunks — see the runbook. No Stress Claims (284KB)
+and Legacy Roofing (126KB) are already past the line, and any client crossing ~120 files
+will follow.
 
 ## Changing how it behaves
 
