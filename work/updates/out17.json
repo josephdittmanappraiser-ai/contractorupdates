@@ -383,9 +383,126 @@
    ],
    "trelloItemsAdded": 9,
    "noEmail": false
+  },
+  {
+   "cardId": "69dfacd89ebdfcd1cbb05b51",
+   "update": "The umpire, Steven Smallwood, has accepted the assignment and sent his invoice; the homeowner has asked for the payment link so the invoice can be paid and the appraisal can move forward.",
+   "needed": null,
+   "asOf": "2026-08-16",
+   "timeline": [
+    {"date": "2026-04-08 to 2026-04-15", "event": "Tomas Cuevas (LINEAR/Stronghouse) shared photos and documentation; Joseph requested the EagleView report, damage description, and carrier estimate."},
+    {"date": "2026-04-22", "event": "Joseph sent the appraisal demand to Conifer Insurance, copying the homeowner and Tomas Cuevas."},
+    {"date": "2026-05-06", "event": "Joseph followed up with Conifer for the adjuster's contact; the homeowner forwarded what she had."},
+    {"date": "2026-05-12", "event": "Conifer acknowledged the demand and assigned Kirby McCartney as their appraiser."},
+    {"date": "2026-05-22 to 2026-06-01", "event": "Joseph repeatedly followed up with the homeowner and Tomas Cuevas to confirm a June 4 inspection date."},
+    {"date": "2026-06-04", "event": "The inspection was postponed due to the inspector's illness."},
+    {"date": "2026-06-10 to 2026-07-08", "event": "Kirby McCartney sent his position and followed up three times asking whether Joseph had reviewed it."},
+    {"date": "2026-07-15", "event": "Joseph sent his estimate; Kirby McCartney said to send the file to the umpire."},
+    {"date": "2026-07-17", "event": "Joseph and Kirby McCartney jointly asked Steven Smallwood to serve as umpire; Steven accepted and sent an invoice for both sides."},
+    {"date": "2026-07-17 to 2026-07-18", "event": "Joseph sent the umpire's invoice to the homeowner, who then asked for the payment link."}
+   ],
+   "trelloItemsAdded": 10,
+   "noEmail": false
+  },
+  {
+   "cardId": "69e15f85f9121db5bcca036f",
+   "update": "Kenny Cleveland has accepted the umpire assignment after both appraisers submitted their positions; the file is now with the umpire for review.",
+   "needed": null,
+   "asOf": "2026-08-16",
+   "timeline": [
+    {"date": "2026-04-16", "event": "The Lawgical Firm confirmed Joseph as appraiser for this claim."},
+    {"date": "2026-04-21 to 2026-04-24", "event": "Joseph asked the carrier's appraiser, Thomas Koralewski, for his umpire list; Thomas said he hadn't yet received formal assignment from counsel."},
+    {"date": "2026-05-08", "event": "Thomas Koralewski confirmed his assignment and sent an umpire list; Joseph asked for his solo inspection availability."},
+    {"date": "2026-05-27", "event": "Thomas Koralewski sent his estimate and position, noting a prior claim on the same date of loss."},
+    {"date": "2026-06-04", "event": "The Lawgical Firm asked for a status update; Joseph said the other appraiser's position was under review."},
+    {"date": "2026-06-11 to 2026-06-19", "event": "The Lawgical Firm's document-sharing link expired; Joseph requested it be resent twice."},
+    {"date": "2026-07-15", "event": "Joseph asked the contractor for an interior sketch; after some technical trouble, the contractor sent a redrawn ESX."},
+    {"date": "2026-07-16", "event": "Joseph sent his position and photo report to Thomas Koralewski."},
+    {"date": "2026-07-16", "event": "Thomas Koralewski told Kenny Cleveland that both appraisers had agreed to use him as umpire, based on Joseph's submission."},
+    {"date": "2026-07-17", "event": "Kenny Cleveland accepted the umpire assignment."}
+   ],
+   "trelloItemsAdded": 10,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a0f754740aedab34c124a38",
+   "update": "The umpire, Matthew Wilson, has reviewed both positions (flagging a date-of-loss discrepancy to confirm) and sent his invoice, which has been forwarded to the insured for payment.",
+   "needed": null,
+   "asOf": "2026-08-16",
+   "timeline": [
+    {"date": "2026-05-21", "event": "The Lawgical Firm confirmed Joseph as appraiser for Miguel Rodriguez's claim."},
+    {"date": "2026-05-26", "event": "The appraiser agreement naming Daniel Shipman as the carrier's appraiser was fully executed."},
+    {"date": "2026-05-29 to 2026-06-02", "event": "Joseph and The Lawgical Firm coordinated the carrier's appraiser's inspection date, moving it from June 3 at 1:30 PM to 9:30 AM."},
+    {"date": "2026-06-30", "event": "The property inspection results from June 25 were shared."},
+    {"date": "2026-07-16", "event": "Joseph asked The Lawgical Firm to refresh expired document-sharing links for several files, including this one; Agustina Calvano provided them."},
+    {"date": "2026-08-05", "event": "Joseph declared an impasse with Daniel Shipman and asked Matthew Wilson to serve as umpire, sending his estimate and photo report."},
+    {"date": "2026-08-05", "event": "Matthew Wilson accepted the umpire role and asked for the appraiser agreement to be completed."},
+    {"date": "2026-08-10", "event": "Daniel Shipman sent his documents; Matthew Wilson reviewed everything, flagged a date-of-loss discrepancy to confirm, and sent his invoice and W-9."},
+    {"date": "2026-08-11", "event": "Joseph confirmed the umpire's invoice was sent to the insured; The Lawgical Firm notified Joseph that Gabriela Martinez had left the firm, with correspondence now going to Agustina Calvano and Kathyria Vargas."}
+   ],
+   "trelloItemsAdded": 9,
+   "noEmail": false
+  },
+  {
+   "cardId": "685d64699ea5794701cb131f",
+   "update": "The umpire, Jeremy Hill, has accepted the assignment; his invoice was sent to Assured Value Claims and forwarded to the homeowner for payment on January 2.",
+   "needed": null,
+   "asOf": "2026-08-16",
+   "timeline": [
+    {"date": "2025-06-20", "event": "Chip Belcher's office notified Joseph he'd been assigned alongside Chip for Martha Aguilar's appraisal and sent an umpire list; Joseph asked for the contractor's estimate since he had no record of the file."},
+    {"date": "2025-06-21", "event": "Chip Belcher's office sent the public adjuster's estimate."},
+    {"date": "2025-07-19 to 2025-08-07", "event": "Joseph asked Assured Value Claims to confirm an August 14 inspection date with the homeowner; repeated follow-ups went without confirmation."},
+    {"date": "2025-10-17", "event": "Assured Value Claims told the carrier they were still coordinating an inspection date with the insured."},
+    {"date": "2025-11-04 to 2025-11-05", "event": "Chip Belcher's office followed up on scheduling and clarified only the interior inspection remained; Joseph asked for the file since it wasn't on hand."},
+    {"date": "2025-11-28", "event": "Joseph declared an impasse with Chip Belcher and asked whether Jeremy Hill was available to take the umpire assignment."},
+    {"date": "2025-12-01", "event": "Jeremy Hill accepted the umpire role, sending the completed appraiser agreement."},
+    {"date": "2025-12-04", "event": "An email mix-up over Chip Belcher's correct address was resolved; Joseph resent the full communication history to the umpire."},
+    {"date": "2026-01-02", "event": "Joseph sent the umpire's invoice to Assured Value Claims, who confirmed receipt and forwarded it to Martha Aguilar."}
+   ],
+   "trelloItemsAdded": 9,
+   "noEmail": false
+  },
+  {
+   "cardId": "691206f033ca8da584cef61d",
+   "update": "Miles Kamp is now reviewing the contents dispute as umpire; his invoice was sent to the contractor on May 17, who acknowledged receipt on May 18.",
+   "needed": null,
+   "asOf": "2026-08-16",
+   "timeline": [
+    {"date": "2025-11-07", "event": "No Stress Claims sent the appraisal demand to Allstate on behalf of Robert Caballero."},
+    {"date": "2025-11-12 to 2025-11-18", "event": "Joseph and the carrier's appraiser, Cedric Ledet, arranged separate solo inspections for November 24 and December 1; No Stress Claims confirmed both dates with the homeowner."},
+    {"date": "2025-11-24", "event": "Joseph's solo inspection was held; the contractor provided the ESX."},
+    {"date": "2026-03-28", "event": "Joseph and Cedric Ledet agreed to bring in Miles Kamp to help resolve a dispute over contents; Joseph asked the restoration contractor for contents pricing."},
+    {"date": "2026-03-31 to 2026-04-03", "event": "Miles Kamp asked both sides for their positions on the contents dispute; Cedric and Joseph exchanged estimates."},
+    {"date": "2026-04-18 to 2026-04-22", "event": "The restoration contractor sent contents documentation and an updated combined contents total."},
+    {"date": "2026-05-17 to 2026-05-18", "event": "Joseph sent the umpire's invoice to the restoration contractor for payment, who acknowledged receipt."}
+   ],
+   "trelloItemsAdded": 7,
+   "noEmail": false
+  },
+  {
+   "cardId": "6916145e595fb6fbc3b9bb42",
+   "update": "The umpire, Jeremy Hill, confirmed receiving payment for this file, but as of late July Joseph's office still hasn't been able to reach him to schedule his inspection despite repeated follow-ups.",
+   "needed": null,
+   "asOf": "2026-08-16",
+   "timeline": [
+    {"date": "2025-11-13", "event": "The Lawgical Firm confirmed Joseph as appraiser for Jesal Shah's claim."},
+    {"date": "2025-11-19 to 2025-11-26", "event": "Joseph asked the carrier's appraiser, Stephen Medeiros, for his umpire list and coordinated a November 28 inspection date with the homeowner through The Lawgical Firm."},
+    {"date": "2025-12-08 to 2025-12-29", "event": "Stephen Medeiros noted he had already inspected and disputed the claim's scope; Joseph offered to provide anything needed for his position."},
+    {"date": "2026-01-30", "event": "Stephen Medeiros disagreed with Joseph's position and selected Jeremy Hill as umpire from the proposed list."},
+    {"date": "2026-02-01 to 2026-02-05", "event": "Joseph declared an impasse and asked Jeremy Hill to accept the umpire assignment; Jeremy accepted and set a shared communication protocol."},
+    {"date": "2026-02-22 to 2026-02-26", "event": "Jeremy Hill proposed a solo inspection date of March 3, which both sides agreed to."},
+    {"date": "2026-03-03", "event": "Stephen Medeiros sent his position documents to the umpire and the inspection was held."},
+    {"date": "2026-05-02", "event": "Joseph told the umpire that The Lawgical Firm had notified him payment had been processed."},
+    {"date": "2026-05-17 to 2026-05-18", "event": "Joseph followed up on the payment; Jeremy Hill said he'd received a check but wasn't sure which file it applied to since it lacked a reference."},
+    {"date": "2026-06-01", "event": "The Lawgical Firm asked for a status update; Joseph confirmed the umpire had received the payment."},
+    {"date": "2026-07-15", "event": "The Lawgical Firm asked for a status update; Joseph said they were still waiting on the umpire's inspection availability."},
+    {"date": "2026-07-27 to 2026-07-29", "event": "The Lawgical Firm followed up again; Joseph said he was still trying to reach the umpire and would update them once there was progress."}
+   ],
+   "trelloItemsAdded": 12,
+   "noEmail": false
   }
  ],
- "withEmail": 20,
+ "withEmail": 26,
  "noEmail": 0,
  "flaggedNeeded": 6
 }

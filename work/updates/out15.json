@@ -440,9 +440,45 @@
    ],
    "trelloItemsAdded": 10,
    "noEmail": false
+  },
+  {
+   "cardId": "69dfedf1d4b36ff84ab0911f",
+   "update": "The July 7 inspection with the carrier's appraiser was confirmed by the homeowner and an umpire is already in place; the homeowner followed up on July 15 asking for a status update and timeline to completion.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-04-14", "event": "Contractor referred the file; office requested the carrier estimate, EagleView report, photos, and a damage description."},
+    {"date": "2026-04-16", "event": "Contractor provided the damage description; office asked for the files in PDF format after being unable to open the originals."},
+    {"date": "2026-04-28", "event": "Draft demand package sent to the contractor for review and revised to include updated windows and an added interior damaged room."},
+    {"date": "2026-04-29", "event": "Demand package sent to the carrier, copying the homeowner and contractor."},
+    {"date": "2026-05-13", "event": "Carrier's appraiser reached out; office proposed umpire candidates and asked for solo inspection availability."},
+    {"date": "2026-06-14", "event": "Umpire was selected."},
+    {"date": "2026-06-16", "event": "Office scheduled the carrier's appraiser's inspection, initially proposing July 10; homeowner confirmed."},
+    {"date": "2026-06-18", "event": "Inspection date moved to July 7 due to a scheduling conflict; homeowner confirmed the new date."},
+    {"date": "2026-07-15", "event": "Homeowner asked for a status update and timeline to completion."}
+   ],
+   "trelloItemsAdded": 9,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a1dfbf17c61e4c01e938953",
+   "update": "Joseph withdrew from this file on July 12 due to a conflict of interest and named a substitute appraiser (Steven Smallwood) in an updated demand letter; no further activity has reached this office since, so the file's status under the new appraiser is not visible here.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-06-01", "event": "Contractor told the office the homeowner was ready to proceed to appraisal and outlined the items needing approval."},
+    {"date": "2026-06-03", "event": "Contractor sent the EagleView report and photos, referring the file."},
+    {"date": "2026-06-05", "event": "Draft demand package sent to the contractor for review."},
+    {"date": "2026-06-09", "event": "Contractor approved the draft; demand package sent to the carrier, copying the homeowner and contractor."},
+    {"date": "2026-06-09", "event": "Homeowner acknowledged receipt."},
+    {"date": "2026-07-06", "event": "Office followed up with the homeowner to check for any updates from the carrier."},
+    {"date": "2026-07-12", "event": "Joseph withdrew from the file due to a conflict of interest and sent an updated demand letter naming Steven Smallwood as the new appraiser."}
+   ],
+   "trelloItemsAdded": 7,
+   "noEmail": false
   }
  ],
- "withEmail": 24,
+ "withEmail": 26,
  "noEmail": 0,
  "flaggedNeeded": 0
 }

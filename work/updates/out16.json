@@ -371,9 +371,44 @@
    ],
    "trelloItemsAdded": 8,
    "noEmail": false
+  },
+  {
+   "cardId": "699ca05de1e999f8500b5970",
+   "update": "Joseph told the rep on July 26 that the position reached with the carrier's appraiser is likely the maximum obtainable and that he does not recommend pursuing the umpire process further; the file awaits a decision on whether to accept it.",
+   "needed": "Confirm whether to accept the carrier's appraiser's current position as final or proceed to the umpire, since Joseph does not think invoking the umpire is worth pursuing further.",
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2026-02-23", "event": "Pre-appraisal demand was formally submitted to the carrier."},
+    {"date": "2026-04-06", "event": "The carrier's first named appraiser (Field Claims Company) was assigned, and Joseph requested his umpire list and inspection date."},
+    {"date": "2026-05-18", "event": "Joseph followed up with the carrier's appraiser after receiving no response."},
+    {"date": "2026-06-02", "event": "A mixup over the carrier's named appraiser was worked through with the insured and the rep."},
+    {"date": "2026-06-03", "event": "The carrier confirmed its actual appraiser, Dakota McCombs, and Joseph reached out for his umpire list and inspection availability."},
+    {"date": "2026-06-22", "event": "The carrier's appraiser's solo inspection was scheduled for June 30."},
+    {"date": "2026-07-26", "event": "Joseph told the rep this was the maximum position they were likely to get and that he does not think invoking the umpire is worth it."}
+   ],
+   "trelloItemsAdded": 7,
+   "noEmail": false
+  },
+  {
+   "cardId": "6953f515486cb06ed306fdab",
+   "update": "The appraisers reached an impasse in late February and moved to umpire Kenny Cleveland; the process has since stalled while the homeowner's share of the umpire invoice remains unpaid. As of July 19 she said she would have an exact payment date after starting a new job.",
+   "needed": null,
+   "asOf": "2026-08-15",
+   "timeline": [
+    {"date": "2025-12-29", "event": "Pre-appraisal demand was submitted to the carrier."},
+    {"date": "2026-01-02", "event": "The carrier's appraiser was assigned, and Kenny Cleveland was proposed and confirmed as umpire."},
+    {"date": "2026-02-19", "event": "Joseph's solo inspection was held and the estimate completed."},
+    {"date": "2026-02-27", "event": "The appraisers determined their positions were too far apart to reach agreement and moved to invoke the umpire."},
+    {"date": "2026-03-03", "event": "Kenny Cleveland formally accepted the umpire assignment."},
+    {"date": "2026-03-06", "event": "Joseph repeatedly followed up with the rep on payment of the umpire invoice, which remained unpaid, through late June."},
+    {"date": "2026-07-04", "event": "Joseph asked the homeowner directly about the status of her portion of the umpire invoice."},
+    {"date": "2026-07-19", "event": "The homeowner said she had just started a new job and would have an exact payment date that week."}
+   ],
+   "trelloItemsAdded": 8,
+   "noEmail": false
   }
  ],
- "withEmail": 20,
+ "withEmail": 22,
  "noEmail": 0,
- "flaggedNeeded": 2
+ "flaggedNeeded": 3
 }
