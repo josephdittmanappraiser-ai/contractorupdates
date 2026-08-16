@@ -119,9 +119,93 @@
    "priorNewest": "2026-07-09",
    "newEventsFound": 0,
    "staleReason": "Despite searching by claim number, insured name, property address, and the carrier's appraiser's contacts (Sedgwick), the newest verifiable email on this file is from November 2025 (inspection scheduling). No email evidence could be found for the July 2026 activity previously recorded on the Trello card, or for the gap to the card's August 7, 2026 activity; the file's board-level history should be checked directly, or Sedgwick's Gerald Cosgrove followed up with for a status."
+  },
+  {
+   "cardId": "6a504d5e5646093af1152793",
+   "update": "Allstate declined to allow appraisal for now and asked for a reinspection before proceeding; the office is waiting on the contractor to confirm a reinspection date so it can follow up with the carrier.",
+   "needed": "Confirm the reinspection date with Allstate so the office can follow up on the file.",
+   "asOf": "2026-08-16",
+   "timeline": [
+    {"date": "2026-07-09", "event": "The contractor submitted the client for appraisal; office requested the EagleView report and damage photos and sent the appraisal demand letter to the homeowner."},
+    {"date": "2026-07-14", "event": "Office followed up on the requested photos."},
+    {"date": "2026-07-15", "event": "The contractor sent the roof damage photos."},
+    {"date": "2026-07-18", "event": "The contractor asked whether the homeowner had signed the demand letter; office confirmed the estimate would be sent for review shortly."},
+    {"date": "2026-07-20", "event": "Office sent the estimate to the contractor for review; the contractor approved it."},
+    {"date": "2026-07-21", "event": "The demand package was sent to Allstate, with the homeowner and contractor copied."},
+    {"date": "2026-07-22", "event": "Allstate declined to allow appraisal at this time and asked for a reinspection first; office forwarded this to the contractor, who confirmed receipt."},
+    {"date": "2026-07-31", "event": "Office asked the contractor to confirm the reinspection schedule so it could follow up with Allstate afterward."}
+   ],
+   "trelloItemsAdded": 2,
+   "noEmail": false,
+   "priorNewest": "2026-07-21",
+   "newEventsFound": 2,
+   "staleReason": null
+  },
+  {
+   "cardId": "687a6344246ed35e0d947707",
+   "update": "The claim went to umpire after the two appraisers reached an impasse in June; the umpire's invoice was sent to the client for payment, and the office has followed up repeatedly through mid-August without confirmation that it's been paid.",
+   "needed": null,
+   "asOf": "2026-08-16",
+   "timeline": [
+    {"date": "2025-07-14", "event": "No Stress Claims submitted the appraisal demand to the carrier on behalf of Roslyn Williams."},
+    {"date": "2025-08-11", "event": "No Stress Claims confirmed the claim had moved into the appraisal process."},
+    {"date": "2025-10-28", "event": "Joseph and the carrier's appraiser worked out inspection dates after an initial homeowner cancellation, settling on late October."},
+    {"date": "2026-04-21", "event": "Joseph confirmed the inspection was complete and the file was awaiting the carrier's appraiser's position."},
+    {"date": "2026-06-13", "event": "Joseph and the carrier's appraiser signed the agreement naming an umpire."},
+    {"date": "2026-07-06", "event": "The carrier's appraiser confirmed the two sides had reached an impasse and forwarded the signed umpire agreement."},
+    {"date": "2026-07-11", "event": "The umpire confirmed the assignment, sent his invoices, and asked for Joseph's position."},
+    {"date": "2026-07-23", "event": "Joseph forwarded the umpire's invoice to the client for payment; the umpire again asked for Joseph's position and supporting documents."},
+    {"date": "2026-08-10", "event": "Office had repeatedly followed up with the client through mid-August for confirmation that the umpire's invoice had been paid, with no confirmation received."}
+   ],
+   "trelloItemsAdded": 0,
+   "noEmail": false,
+   "priorNewest": "2026-07-23",
+   "newEventsFound": 1,
+   "staleReason": null
+  },
+  {
+   "cardId": "6a42c137b5b4ad834998bc38",
+   "update": "Joseph's own inspection date in Kansas is still being finalized after an earlier date fell through; the carrier's appraiser has a solo inspection scheduled for August 17.",
+   "needed": null,
+   "asOf": "2026-08-16",
+   "timeline": [
+    {"date": "2026-06-26", "event": "The contractor referred the claim; office requested the carrier estimate, EagleView report, and damage photos."},
+    {"date": "2026-06-27", "event": "The contractor shared photos of the damage; office asked for the EagleView report as well."},
+    {"date": "2026-07-07", "event": "Office sent the draft estimate to the contractor for review."},
+    {"date": "2026-07-08", "event": "The contractor approved the estimate and asked Joseph to begin the appraisal process; office submitted the demand, initially to the wrong carrier address."},
+    {"date": "2026-07-09", "event": "The insurer clarified the claim was actually with Homesite; office resent the demand to the correct address and notified the homeowner."},
+    {"date": "2026-07-15", "event": "The carrier named its appraiser, Sam Tinajero; office requested his umpire list and an inspection date."},
+    {"date": "2026-07-22", "event": "Office confirmed the schedule to the contractor: the carrier's solo inspection for August 17, and Joseph's own inspection for July 24."},
+    {"date": "2026-07-27", "event": "The contractor reported that no one showed up for the July 24 inspection and asked for a status update."},
+    {"date": "2026-07-30", "event": "Office told the contractor that Joseph's inspection date was still being finalized for Kansas, while the carrier's solo inspection remained scheduled for August 17."}
+   ],
+   "trelloItemsAdded": 0,
+   "noEmail": false,
+   "priorNewest": "2026-07-30",
+   "newEventsFound": 0,
+   "staleReason": "No further correspondence was found after July 30. The carrier's appraiser's solo inspection is scheduled for August 17 -- after the card's most recent activity -- so no update is expected from that side yet; the roughly two-week gap otherwise reflects Joseph's own inspection date still being worked out."
+  },
+  {
+   "cardId": "6a3ec0ad0eac5405409a56b8",
+   "update": "None of the Appraisal Demand Letters for Mr. Farassati's properties have been signed despite repeated reminders sent directly to him and through the contractor since early July; the most recent reminder went out August 12.",
+   "needed": "Help get Mr. Farassati to sign the outstanding Appraisal Demand Letter for this property -- it has not been signed despite repeated reminders sent directly to him and through you since early July.",
+   "asOf": "2026-08-16",
+   "timeline": [
+    {"date": "2026-06-26", "event": "The contractor referred this property (one of 11 for Mr. Farassati), including the carrier's estimate and photos; the demand letter was sent to the homeowner."},
+    {"date": "2026-07-08", "event": "Office sent the draft estimate to the contractor, who approved it and said to move forward."},
+    {"date": "2026-07-08", "event": "Office asked the contractor to help get the still-unsigned demand letter signed."},
+    {"date": "2026-07-20", "event": "Demand letters were resent to the homeowner via DocuSign for all his properties, including this one."},
+    {"date": "2026-07-23", "event": "Office again asked the contractor to help remind the homeowner to sign."},
+    {"date": "2026-08-12", "event": "Office sent repeated reminders to the homeowner and the contractor (July 28, 31; August 4, 8, 10, 12) that the demand letter remained unsigned; it was still outstanding as of the last reminder."}
+   ],
+   "trelloItemsAdded": 0,
+   "noEmail": false,
+   "priorNewest": "2026-07-28",
+   "newEventsFound": 1,
+   "staleReason": null
   }
  ],
- "withEmail": 6,
+ "withEmail": 10,
  "noEmail": 0,
- "flaggedNeeded": 0
+ "flaggedNeeded": 2
 }
