@@ -111,9 +111,245 @@
    ],
    "trelloItemsAdded": 6,
    "noEmail": false
+  },
+  {
+   "cardId": "6a6a7a9c59f49342a66d5589",
+   "update": "This is one of seven rental properties the contractor submitted together for the same homeowner; for this address (14003 Goodman Street), the homeowner signed the demand letter, the EagleView report and estimate came in, and the contractor approved the draft estimate on August 14.",
+   "needed": null,
+   "asOf": "2026-08-16",
+   "timeline": [
+    {"date": "2026-07-27", "event": "LINEAR Roofing submitted this property (14003 Goodman Street, Overland Park KS, Richard Rental #8) along with six other rentals owned by the same homeowner; both the estimate and EagleView report for this address were still outstanding."},
+    {"date": "2026-07-29", "event": "Appraisal demand letters sent to the homeowner for all seven properties, including this one."},
+    {"date": "2026-08-01", "event": "Joseph's office followed up specifically on the still-missing EagleView report and estimate for this address."},
+    {"date": "2026-08-03", "event": "Contractor provided the EagleView report and estimate for this property, and confirmed the homeowner had signed the demand letter for it."},
+    {"date": "2026-08-14", "event": "Joseph's office sent the draft estimate for this property to the contractor for review."},
+    {"date": "2026-08-14", "event": "Contractor confirmed the draft estimate looked good."}
+   ],
+   "trelloItemsAdded": 6,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a7a5303a553ef17b870f622",
+   "update": "The contractor approved a revised draft estimate on August 14 after flagging that the home has 30-year shingles rather than 3-tab; the estimate has been corrected, and the file is now waiting on the homeowner to sign the demand letter.",
+   "needed": null,
+   "asOf": "2026-08-16",
+   "timeline": [
+    {"date": "2026-08-13", "event": "Joseph's office sent the draft estimate to Legacy Roofing for review."},
+    {"date": "2026-08-13", "event": "Contractor flagged that the home has 30-year shingles, not 3-tab, and asked for a correction."},
+    {"date": "2026-08-14", "event": "Joseph's office sent a revised draft estimate reflecting the shingle correction."},
+    {"date": "2026-08-14", "event": "Contractor confirmed the revised estimate looked good."}
+   ],
+   "trelloItemsAdded": 4,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a73bdf0587bd77595f66fdb",
+   "update": "The draft estimate went to the contractor for review on August 13; the homeowner was still working on signing the demand letter as of August 12, when the contractor stepped in to help after our follow-up.",
+   "needed": "Confirm the homeowner has now signed and returned the appraisal demand letter, and review the draft estimate for any revisions.",
+   "asOf": "2026-08-16",
+   "timeline": [
+    {"date": "2026-08-05", "event": "Strong House Pro referred William and Debra Brightbill's file (Farmers claim 7010299678-1, 712 Colonial Place, Salina KS); the carrier had approved only partial roof coverage."},
+    {"date": "2026-08-05", "event": "Appraisal demand letter sent to the homeowner."},
+    {"date": "2026-08-06", "event": "Contractor provided the carrier's estimate, an EagleView report, and a damage report."},
+    {"date": "2026-08-12", "event": "Joseph's office followed up, still waiting on the homeowner's signed demand letter, and asked the contractor to help follow up; contractor confirmed the homeowner was completing it."},
+    {"date": "2026-08-13", "event": "Joseph's office sent the draft estimate to the contractor for review."}
+   ],
+   "trelloItemsAdded": 5,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a73c18856f0971811e19cf7",
+   "update": "The draft estimate was sent to the contractor for review on August 11; no response has come back yet.",
+   "needed": "Review the draft estimate and confirm or flag any revisions.",
+   "asOf": "2026-08-16",
+   "timeline": [
+    {"date": "2026-08-05", "event": "Strong House Pro referred Robert (Bob) Brown's file (165 Channel Road, Salina KS), including the carrier's original estimate, an EagleView report, and photos of the damage."},
+    {"date": "2026-08-11", "event": "Joseph's office sent the draft estimate to the contractor for review."}
+   ],
+   "trelloItemsAdded": 2,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a6cc01feebe18843fea8efc",
+   "update": "The contractor approved the draft estimate on August 12. A claim number mismatch surfaced when cross-checking the demand letter against the carrier file; the homeowner's reply still didn't match, so a fresh demand letter went out August 13 to sort it out.",
+   "needed": null,
+   "asOf": "2026-08-16",
+   "timeline": [
+    {"date": "2026-07-31", "event": "LINEAR Roofing referred Sabino and Apolonia Hernandez's file (1053 Dumfries Drive, Seguin TX), sending the carrier's (The Hartford) estimate, an EagleView report, photos, and contact information."},
+    {"date": "2026-08-11", "event": "Joseph's office sent the draft estimate to the contractor for review."},
+    {"date": "2026-08-12", "event": "Contractor confirmed the draft estimate looked good."},
+    {"date": "2026-08-12", "event": "Joseph's office found a mismatch between the claim number on file and the signed demand letter, and asked the homeowner to confirm the correct claim number before submitting to the carrier."},
+    {"date": "2026-08-13", "event": "Homeowner responded with a claim number that still didn't match the number on the carrier's estimate on file."},
+    {"date": "2026-08-13", "event": "Joseph's office sent another appraisal demand letter for the homeowner to complete and sign."}
+   ],
+   "trelloItemsAdded": 6,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a694d0b652c4b53a35f1c99",
+   "update": "This is one of seven rental properties the contractor submitted together for the same homeowner; for this address (6722 West 157th Terrace) the file arrived complete and the homeowner has already signed the demand letter, with no update since August 3.",
+   "needed": null,
+   "asOf": "2026-08-16",
+   "timeline": [
+    {"date": "2026-07-27", "event": "LINEAR Roofing submitted this property (6722 West 157th Terrace, Overland Park KS) along with six other rentals owned by the same homeowner, with photos, an EagleView report, an estimate, and a damage description."},
+    {"date": "2026-07-29", "event": "Appraisal demand letters sent to the homeowner for all seven properties, including this one."},
+    {"date": "2026-08-03", "event": "Contractor confirmed the homeowner had signed the demand letter for this property."}
+   ],
+   "trelloItemsAdded": 3,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a6a7b9c5d1379b414fadc80",
+   "update": "This is the one property, of seven the contractor submitted for the same homeowner, where the demand letter remains unsigned; the homeowner said on August 11 they're waiting on the insurance company to issue a claim number for this address before they can sign. The draft estimate itself was already approved by the contractor.",
+   "needed": null,
+   "asOf": "2026-08-16",
+   "timeline": [
+    {"date": "2026-07-27", "event": "LINEAR Roofing submitted this property (15278 Conser Street, Overland Park KS) along with six other rentals owned by the same homeowner, with photos and a damage description; the estimate for this address was still outstanding."},
+    {"date": "2026-07-29", "event": "Appraisal demand letters sent to the homeowner for all seven properties, including this one."},
+    {"date": "2026-08-03", "event": "Contractor confirmed the homeowner had signed the demand letters for the other six properties but not this one."},
+    {"date": "2026-08-05", "event": "Joseph's office sent the draft estimate for this property to the contractor, who confirmed it looked good."},
+    {"date": "2026-08-05", "event": "Joseph's office followed up on the still-unsigned demand letter for this address, asked the contractor to help follow up, and resent the document to the homeowner."},
+    {"date": "2026-08-11", "event": "Joseph's office followed up again and resent the still-unsigned demand letter to the homeowner."},
+    {"date": "2026-08-11", "event": "Homeowner explained they are waiting on the insurance company to issue a claim number for this address before they can sign."}
+   ],
+   "trelloItemsAdded": 7,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a583847faa242ab5b4d7f58",
+   "update": "The homeowner's demand letter is signed and complete, but the draft estimate has been sitting with LINEAR Roofing (Noah Nichter) since July 25 with no response despite four follow-ups, the latest on August 10.",
+   "needed": "Review the draft estimate sent July 25 and confirm or flag any revisions.",
+   "asOf": "2026-08-16",
+   "timeline": [
+    {"date": "2026-07-15", "event": "Mary Kranig forwarded the carrier's (Mercury Insurance) approved settlement notice for claim OKHO-00014370, opening the file for appraisal."},
+    {"date": "2026-07-15", "event": "Appraisal demand letter sent to the homeowner for review and signature."},
+    {"date": "2026-07-20", "event": "Joseph's office followed up with LINEAR Roofing (Noah Nichter) requesting photos of the damage."},
+    {"date": "2026-07-20", "event": "Contractor provided photos and a full list of the damage (roof, gutters, fence, chimney, interior leak, attic, and more)."},
+    {"date": "2026-07-25", "event": "Joseph's office sent the draft estimate to the contractor for review."},
+    {"date": "2026-07-28", "event": "Homeowner signed and returned the appraisal demand letter via DocuSign."},
+    {"date": "2026-07-28", "event": "Joseph's office followed up with the contractor three more times (July 28, July 30, August 10) asking for feedback on the draft estimate; no response received."}
+   ],
+   "trelloItemsAdded": 7,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a3ec0ad0eac5405409a56b8",
+   "update": "This card's title (4246 Flora Ave, claim 600-1348129) is the correct property for this file, per a prior review note flagging that the card's own description text was accidentally copied from a different address. The contractor approved the estimate back on July 8, but Mr. Farassati still has not signed the demand letter despite reminders sent through August 12.",
+   "needed": "Help get Mr. Farassati to sign the appraisal demand letter for 4246 Flora Ave — it remains outstanding despite repeated reminders.",
+   "asOf": "2026-08-16",
+   "timeline": [
+    {"date": "2026-06-26", "event": "LINEAR Roofing referred property #4 of 11 for Faris Farassati (4246 Flora Ave, Kansas City MO; COUNTRY Financial claim 600-1348129), including the carrier's estimate and photos."},
+    {"date": "2026-06-26", "event": "Appraisal demand letter sent to the homeowner."},
+    {"date": "2026-07-08", "event": "Joseph's office sent the draft estimate to the contractor, who approved it and said to move forward."},
+    {"date": "2026-07-08", "event": "Joseph's office asked the contractor to help get the still-unsigned demand letter signed."},
+    {"date": "2026-07-20", "event": "Demand letters resent to the homeowner via DocuSign for all his properties, including this one."},
+    {"date": "2026-07-23", "event": "Joseph's office again asked the contractor to help remind the homeowner to sign."},
+    {"date": "2026-07-28", "event": "Joseph's office sent repeated reminders to the homeowner and the contractor (July 28, 31; August 4, 8, 10, 12) that the demand letter remained unsigned; it was still outstanding as of the last reminder."}
+   ],
+   "trelloItemsAdded": 7,
+   "noEmail": false
+  }
+  ,
+  {
+   "cardId": "6a3ee07de9dc6b22f67825e6",
+   "update": "The contractor approved the estimate for this property (125 Titus Ave, claim 600-1348128) on July 9, but Mr. Farassati still has not signed the demand letter despite reminders sent through August 12.",
+   "needed": "Help get Mr. Farassati to sign the appraisal demand letter for 125 Titus Ave — it remains outstanding despite repeated reminders.",
+   "asOf": "2026-08-16",
+   "timeline": [
+    {"date": "2026-06-26", "event": "LINEAR Roofing referred property #11 of 11 for Faris Farassati (125 Titus Ave, Excelsior Springs MO; COUNTRY Financial claim 600-1348128), including photos and the carrier's settlement."},
+    {"date": "2026-06-26", "event": "Joseph's office requested the EagleView report/roof sketch, which the contractor provided the same day."},
+    {"date": "2026-07-06", "event": "Joseph's office sent the draft estimate to the contractor for review."},
+    {"date": "2026-07-09", "event": "Contractor confirmed everything looked good and to move forward."},
+    {"date": "2026-07-09", "event": "Joseph's office noted the demand letter was still unsigned and asked the contractor to help follow up."},
+    {"date": "2026-07-20", "event": "Demand letters resent to the homeowner via DocuSign for all his properties, including this one."},
+    {"date": "2026-07-28", "event": "Joseph's office sent repeated reminders to the homeowner and contractor (July 28, 31; August 8, 10, 12) that the demand letter remained unsigned; it was still outstanding as of the last reminder."}
+   ],
+   "trelloItemsAdded": 7,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a3edf5a2347cd07582d5eaf",
+   "update": "The contractor approved the estimate for this property (12704 Woodson St, claim 600-1348127, Mr. Farassati's primary residence at the time) on July 9, but he still has not signed the demand letter despite reminders sent through August 12.",
+   "needed": "Help get Mr. Farassati to sign the appraisal demand letter for 12704 Woodson St — it remains outstanding despite repeated reminders.",
+   "asOf": "2026-08-16",
+   "timeline": [
+    {"date": "2026-06-26", "event": "LINEAR Roofing referred property #10 of 11 for Faris Farassati (12704 Woodson St, Overland Park KS; COUNTRY Financial claim 600-1348127), his primary residence at the time."},
+    {"date": "2026-06-26", "event": "Appraisal demand letter sent to the homeowner."},
+    {"date": "2026-07-06", "event": "Joseph's office sent the draft estimate to the contractor for review."},
+    {"date": "2026-07-09", "event": "Contractor confirmed everything looked good and to move forward."},
+    {"date": "2026-07-20", "event": "Demand letters resent to the homeowner via DocuSign for all his properties, including this one."},
+    {"date": "2026-07-28", "event": "Joseph's office sent repeated reminders to the homeowner and contractor (July 28, 31; August 8, 10, 12) that the demand letter remained unsigned; it was still outstanding as of the last reminder."}
+   ],
+   "trelloItemsAdded": 6,
+   "noEmail": false
+  }
+  ,
+  {
+   "cardId": "6a3eddb20988740778685cdf",
+   "update": "The contractor approved the estimate for this property (4309 Wayne Ave, claim 600-1348130) on July 9, but Mr. Farassati still has not signed the demand letter despite reminders sent through August 12.",
+   "needed": "Help get Mr. Farassati to sign the appraisal demand letter for 4309 Wayne Ave — it remains outstanding despite repeated reminders.",
+   "asOf": "2026-08-16",
+   "timeline": [
+    {"date": "2026-06-26", "event": "LINEAR Roofing referred property #9 of 11 for Faris Farassati (4309 Wayne Ave, Kansas City MO; COUNTRY Financial claim 600-1348130), noting significant collateral damage throughout the property."},
+    {"date": "2026-06-26", "event": "Appraisal demand letter sent to the homeowner."},
+    {"date": "2026-07-06", "event": "Joseph's office sent the draft estimate to the contractor for review."},
+    {"date": "2026-07-09", "event": "Contractor confirmed everything looked good, including added siding, and to move forward."},
+    {"date": "2026-07-20", "event": "Demand letters resent to the homeowner via DocuSign for all his properties, including this one."},
+    {"date": "2026-07-28", "event": "Joseph's office sent repeated reminders to the homeowner and contractor (July 28, 31; August 8, 10, 12) that the demand letter remained unsigned; it was still outstanding as of the last reminder."}
+   ],
+   "trelloItemsAdded": 6,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a3ec881f0235ef96b225b9d",
+   "update": "The contractor approved the estimate for this property (5606 Highland Ave, claim 600-1348137) on July 9, but Mr. Farassati still has not signed the demand letter despite reminders sent through August 12.",
+   "needed": "Help get Mr. Farassati to sign the appraisal demand letter for 5606 Highland Ave — it remains outstanding despite repeated reminders.",
+   "asOf": "2026-08-16",
+   "timeline": [
+    {"date": "2026-06-26", "event": "LINEAR Roofing referred property #8 of 11 for Faris Farassati (5606 Highland Ave, Kansas City MO; COUNTRY Financial claim 600-1348137), noting the chimney had crashed into the roof."},
+    {"date": "2026-06-26", "event": "Appraisal demand letter sent to the homeowner."},
+    {"date": "2026-07-06", "event": "Joseph's office sent the draft estimate to the contractor for review."},
+    {"date": "2026-07-09", "event": "Contractor confirmed everything looked good, including the chimney damage, and to move forward."},
+    {"date": "2026-07-20", "event": "Demand letters resent to the homeowner via DocuSign for all his properties, including this one."},
+    {"date": "2026-07-28", "event": "Joseph's office sent repeated reminders to the homeowner and contractor (July 28, 31; August 8, 10, 12) that the demand letter remained unsigned; it was still outstanding as of the last reminder."}
+   ],
+   "trelloItemsAdded": 6,
+   "noEmail": false
+  }
+  ,
+  {
+   "cardId": "6a3ec75f5991d11d1ccc0b06",
+   "update": "The carrier found no storm damage on this property (4429 Paseo Blvd, claim 600-1348131) and closed the claim, but the appraisal is proceeding anyway; the contractor approved the estimate July 9, and the demand letter is still unsigned despite reminders through August 12.",
+   "needed": "Help get Mr. Farassati to sign the appraisal demand letter for 4429 Paseo Blvd — it remains outstanding despite repeated reminders.",
+   "asOf": "2026-08-16",
+   "timeline": [
+    {"date": "2026-06-26", "event": "LINEAR Roofing referred property #7 of 11 for Faris Farassati (4429 Paseo Blvd, Kansas City MO; COUNTRY Financial claim 600-1348131); the carrier had found no storm-related damage on inspection and closed the claim."},
+    {"date": "2026-06-26", "event": "Appraisal demand letter sent to the homeowner."},
+    {"date": "2026-07-04", "event": "Joseph's office sent the draft estimate to the contractor for review."},
+    {"date": "2026-07-09", "event": "Contractor confirmed it looked good and to move forward."},
+    {"date": "2026-07-20", "event": "Demand letters resent to the homeowner via DocuSign for all his properties, including this one."},
+    {"date": "2026-07-28", "event": "Joseph's office sent repeated reminders to the homeowner and contractor (July 28, 31; August 8, 10, 12) that the demand letter remained unsigned; it was still outstanding as of the last reminder."}
+   ],
+   "trelloItemsAdded": 6,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a3ec6815df0cd10e49989c5",
+   "update": "For this property (4437 Paseo Blvd, claim 600-1348133), the draft estimate has been with the contractor since July 4 with no response, on top of the demand letter still being unsigned despite reminders through August 12.",
+   "needed": "Review the draft estimate sent July 4 (no response yet) and help get Mr. Farassati to sign the still-outstanding demand letter.",
+   "asOf": "2026-08-16",
+   "timeline": [
+    {"date": "2026-06-26", "event": "LINEAR Roofing referred property #6 of 11 for Faris Farassati (4437 Paseo Blvd, Kansas City MO; COUNTRY Financial claim 600-1348133)."},
+    {"date": "2026-06-26", "event": "Appraisal demand letter sent to the homeowner."},
+    {"date": "2026-07-04", "event": "Joseph's office sent the draft estimate to the contractor for review; no response has been received."},
+    {"date": "2026-07-20", "event": "Demand letters resent to the homeowner via DocuSign for all his properties, including this one."},
+    {"date": "2026-07-28", "event": "Joseph's office sent repeated reminders to the homeowner and contractor (July 28, 31; August 8, 10, 12) that the demand letter remained unsigned; it was still outstanding as of the last reminder."}
+   ],
+   "trelloItemsAdded": 5,
+   "noEmail": false
   }
  ],
- "withEmail": 8,
+ "withEmail": 23,
  "noEmail": 0,
- "flaggedNeeded": 2
+ "flaggedNeeded": 12
 }
