@@ -183,6 +183,49 @@
    {"id":"196359711a43e26e","newest":"2025-04-21","from":"josephdittmanappraiser@gmail.com"},
    {"id":"19616624b110cb55","newest":"2025-04-13","from":"brettd21@verizon.net"}
   ],
-  "newestOverall":"2026-07-14","hasNewer":false}
+  "newestOverall":"2026-07-14","hasNewer":false},
+
+ {"cardId":"6a3bf31ed6ab3158a1ddbe5c","searchAfter":"2026-08-11",
+  "threads":[
+   {"id":"19f8584f30c8233f","newest":"2026-07-21","from":"richard.ricketts@blairandco.net"},
+   {"id":"19f81d42a41c7792","newest":"2026-08-15","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19efa19b05a9fab2","newest":"2026-06-24","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19f8018bebebb972","newest":"2026-07-20","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19f292487a2e70ed","newest":"2026-07-03","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19f262c8211838fc","newest":"2026-07-03","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19f05fcdf6201eb6","newest":"2026-06-26","from":"josephdittmanappraiser@gmail.com"}
+  ],
+  "newestOverall":"2026-08-15","hasNewer":true},
+
+ {"cardId":"6a3ec6815df0cd10e49989c5","searchAfter":"2026-07-28",
+  "threads":[
+   {"id":"19fa66fc34e791f8","newest":"2026-08-12","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19f802f442e1e96e","newest":"2026-07-20","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19f43e722b101e84","newest":"2026-07-10","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19f41f4af9f5c9e7","newest":"2026-08-04","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19f383da06f4d796","newest":"2026-07-09","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19f3810cf9b5e0ba","newest":"2026-07-09","from":"mshemas@stronghousepro.com"},
+   {"id":"19f37d626959e524","newest":"2026-07-09","from":"mshemas@stronghousepro.com"},
+   {"id":"19f37c40a12d5c27","newest":"2026-07-09","from":"mshemas@stronghousepro.com"}
+  ],
+  "newestOverall":"2026-08-12","hasNewer":true},
+
+ {"cardId":"6a42c137b5b4ad834998bc38","searchAfter":"2026-07-30",
+  "threads":[
+   {"id":"19f6796a7afd522d","newest":"2026-07-15","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19f6775e19211756","newest":"2026-07-15","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19f5d08cee7d2115","newest":"2026-07-13","from":"ClaimCorrespondence@afics.com"},
+   {"id":"19f4715a5115dee8","newest":"2026-07-09","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19f46dc4057458bb","newest":"2026-07-09","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19f4237c1bc4aaba","newest":"2026-07-08","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19fa594197692029","newest":"2026-07-30","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19f8b7bb14cb4c60","newest":"2026-07-22","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19f68a402e1070a2","newest":"2026-08-15","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19f3d5b034efbd7b","newest":"2026-07-08","from":"jmathew@stronghousepro.com"},
+   {"id":"19f0623e6c8fb62e","newest":"2026-06-29","from":"jmathew@stronghousepro.com"},
+   {"id":"19f153d2b9c5e882","newest":"2026-06-29","from":"reply@mail.acculynx.com"},
+   {"id":"19f0a9336b1338fb","newest":"2026-06-29","from":"jmathew@stronghousepro.com"}
+  ],
+  "newestOverall":"2026-08-15","hasNewer":true}
 ],
- "checked":9}
+ "checked":12}
