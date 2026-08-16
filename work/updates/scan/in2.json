@@ -1,0 +1,86 @@
+[
+ {
+  "cardId": "67a1879d4770a07ba9e7cd7f",
+  "insured": "Jose R Benita Castillo De Pacheco",
+  "claim": "",
+  "address": "",
+  "searchAfter": "2025-06-23"
+ },
+ {
+  "cardId": "685d64699ea5794701cb131f",
+  "insured": "Martha",
+  "claim": "",
+  "address": "",
+  "searchAfter": "2026-01-02"
+ },
+ {
+  "cardId": "68eec7b858fd1a7dc526c96c",
+  "insured": "Dion Edge",
+  "claim": "008685134-804",
+  "address": "10705 Pinehurst Dr, Austin, TX 78747",
+  "searchAfter": "2025-11-28"
+ },
+ {
+  "cardId": "69232d0f67c1ca734b561cc1",
+  "insured": "PATRICIA YATES",
+  "claim": "006152624",
+  "address": "",
+  "searchAfter": "2026-07-14"
+ },
+ {
+  "cardId": "69bb0544436a84989ebf1c02",
+  "insured": "WENDY ESTRADA-PEREZ",
+  "claim": "0820895125",
+  "address": "747 EVENING STAR KYLE, TX 78640-6659",
+  "searchAfter": "2026-07-02"
+ },
+ {
+  "cardId": "69dcff75057935cbef705f3e",
+  "insured": "LINA SHOUGA",
+  "claim": "0822662169",
+  "address": "2900 CHEVERNY DR MCKINNEY, TX 75070-4710",
+  "searchAfter": "2026-08-05"
+ },
+ {
+  "cardId": "69e654e7dc95b4dba2b0bba3",
+  "insured": "Maggie Bowles",
+  "claim": "",
+  "address": "",
+  "searchAfter": "2026-06-26"
+ },
+ {
+  "cardId": "69f0d1b1d25e0dfddb63270e",
+  "insured": "Gilbert Rocio Funes",
+  "claim": "",
+  "address": "** 17619 Burkhart Ridge Dr, Houston, TX 77095",
+  "searchAfter": "2026-07-10"
+ },
+ {
+  "cardId": "6a0e3e552f96924b245dc8ce",
+  "insured": "CARRIE BACON",
+  "claim": "",
+  "address": "",
+  "searchAfter": "2026-07-14"
+ },
+ {
+  "cardId": "6a3bf31ed6ab3158a1ddbe5c",
+  "insured": "Ahmed Taha",
+  "claim": "86001",
+  "address": "4431 Beck Drive Richardson, TX 75082",
+  "searchAfter": "2026-08-11"
+ },
+ {
+  "cardId": "6a3ec6815df0cd10e49989c5",
+  "insured": "Faris Farassati",
+  "claim": "",
+  "address": "",
+  "searchAfter": "2026-07-28"
+ },
+ {
+  "cardId": "6a42c137b5b4ad834998bc38",
+  "insured": "Travis Sauer",
+  "claim": "01-009-796070",
+  "address": "2639 Bret Avenue, Salina, KS 67401",
+  "searchAfter": "2026-07-30"
+ }
+]

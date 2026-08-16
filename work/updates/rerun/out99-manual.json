@@ -1,6 +1,6 @@
 {
  "batch": 99,
- "_note": "Hand-corrected from the full Gmail thread (19d2b5745ceb80c4), read end to end. Two automated passes reported this file quiet since 2026-06-18 because search_threads' preview of that thread stops at 2026-03-27; get_thread returns 16 further messages through 2026-08-15. Sorts last, so it wins over the batch outputs.",
+ "_note": "Hand-corrected from full Gmail threads read end to end. Both files were reported quiet by automated passes that judged from search_threads previews: Massey's preview stops 2026-03-27 against a thread running to 08-15, Lewis's stops 2026-02-23 against a thread running to 08-13. Sorts last, so it wins over the batch outputs.",
  "results": [
   {
    "cardId": "69a85b2aa7f9682378dfff33",
@@ -8,35 +8,180 @@
    "needed": null,
    "asOf": "2026-08-16",
    "timeline": [
-    {"date": "2026-03-03", "event": "A pre-appraisal demand was sent to the carrier."},
-    {"date": "2026-03-18", "event": "Additional contents and mitigation documentation was sent to the carrier to support the demand."},
-    {"date": "2026-03-26", "event": "The carrier named its appraiser, who sent an umpire list and proposed a solo inspection."},
-    {"date": "2026-03-27", "event": "The carrier's solo inspection was set for March 31 and confirmed with the homeowner."},
-    {"date": "2026-03-31", "event": "The signed agreement was returned to the carrier's appraiser."},
-    {"date": "2026-04-14", "event": "Joseph held his own inspection of the property."},
-    {"date": "2026-04-08", "event": "The carrier's appraiser sent his position and a proposed award."},
-    {"date": "2026-05-03", "event": "The carrier's appraiser followed up for a response."},
-    {"date": "2026-05-22", "event": "Joseph's office requested the mitigation and rebuild documentation from the remediation contractor."},
-    {"date": "2026-05-28", "event": "The carrier's appraiser followed up again."},
-    {"date": "2026-06-06", "event": "Joseph responded to the carrier's appraiser's position, raising several points to work through together."},
-    {"date": "2026-06-16", "event": "The carrier's appraiser replied on pricing and the audited mitigation report, and sent a revised award listing contents as not appraised."},
-    {"date": "2026-06-18", "event": "Joseph proposed a call to settle it and sent the paid mitigation invoice; the carrier's appraiser asked for the drying and equipment logs behind it."},
-    {"date": "2026-06-20", "event": "Joseph sent the supporting documents he had on file."},
-    {"date": "2026-06-28", "event": "Joseph asked whether anything further was needed."},
-    {"date": "2026-07-11", "event": "Joseph followed up; the carrier's appraiser said he still had no detailed mitigation or contents estimate."},
-    {"date": "2026-07-13", "event": "Joseph explained the figure covered incurred mitigation activity and said he was open to negotiating it."},
-    {"date": "2026-08-02", "event": "Joseph offered to provide any documentation still outstanding."},
-    {"date": "2026-08-15", "event": "The carrier's appraiser said he understood the differences to be limited to contents handling and mitigation."},
-    {"date": "2026-08-15", "event": "Joseph called for an umpire to get the file moving, and the carrier's appraiser agreed to bring one in within 24 hours."}
+    {
+     "date": "2026-03-03",
+     "event": "A pre-appraisal demand was sent to the carrier."
+    },
+    {
+     "date": "2026-03-18",
+     "event": "Additional contents and mitigation documentation was sent to the carrier to support the demand."
+    },
+    {
+     "date": "2026-03-26",
+     "event": "The carrier named its appraiser, who sent an umpire list and proposed a solo inspection."
+    },
+    {
+     "date": "2026-03-27",
+     "event": "The carrier's solo inspection was set for March 31 and confirmed with the homeowner."
+    },
+    {
+     "date": "2026-03-31",
+     "event": "The signed agreement was returned to the carrier's appraiser."
+    },
+    {
+     "date": "2026-04-14",
+     "event": "Joseph held his own inspection of the property."
+    },
+    {
+     "date": "2026-04-08",
+     "event": "The carrier's appraiser sent his position and a proposed award."
+    },
+    {
+     "date": "2026-05-03",
+     "event": "The carrier's appraiser followed up for a response."
+    },
+    {
+     "date": "2026-05-22",
+     "event": "Joseph's office requested the mitigation and rebuild documentation from the remediation contractor."
+    },
+    {
+     "date": "2026-05-28",
+     "event": "The carrier's appraiser followed up again."
+    },
+    {
+     "date": "2026-06-06",
+     "event": "Joseph responded to the carrier's appraiser's position, raising several points to work through together."
+    },
+    {
+     "date": "2026-06-16",
+     "event": "The carrier's appraiser replied on pricing and the audited mitigation report, and sent a revised award listing contents as not appraised."
+    },
+    {
+     "date": "2026-06-18",
+     "event": "Joseph proposed a call to settle it and sent the paid mitigation invoice; the carrier's appraiser asked for the drying and equipment logs behind it."
+    },
+    {
+     "date": "2026-06-20",
+     "event": "Joseph sent the supporting documents he had on file."
+    },
+    {
+     "date": "2026-06-28",
+     "event": "Joseph asked whether anything further was needed."
+    },
+    {
+     "date": "2026-07-11",
+     "event": "Joseph followed up; the carrier's appraiser said he still had no detailed mitigation or contents estimate."
+    },
+    {
+     "date": "2026-07-13",
+     "event": "Joseph explained the figure covered incurred mitigation activity and said he was open to negotiating it."
+    },
+    {
+     "date": "2026-08-02",
+     "event": "Joseph offered to provide any documentation still outstanding."
+    },
+    {
+     "date": "2026-08-15",
+     "event": "The carrier's appraiser said he understood the differences to be limited to contents handling and mitigation."
+    },
+    {
+     "date": "2026-08-15",
+     "event": "Joseph called for an umpire to get the file moving, and the carrier's appraiser agreed to bring one in within 24 hours."
+    }
    ],
    "trelloItemsAdded": 0,
    "noEmail": false,
    "priorNewest": "2026-06-18",
    "newEventsFound": 11,
    "staleReason": null
+  },
+  {
+   "cardId": "6970f01639fd7a6152b4961e",
+   "update": "Positions have been exchanged and both appraisers have now agreed to bring in an umpire. Mike Fried was agreed on August 13. Next step is engaging him and setting his review of the two positions.",
+   "needed": null,
+   "asOf": "2026-08-16",
+   "timeline": [
+    {
+     "date": "2026-01-20",
+     "event": "Pre-appraisal demand submitted to the carrier."
+    },
+    {
+     "date": "2026-02-02",
+     "event": "The carrier named its appraiser; our office asked him for his umpire list and inspection availability."
+    },
+    {
+     "date": "2026-02-03",
+     "event": "The joint inspection was scheduled for February 25."
+    },
+    {
+     "date": "2026-02-25",
+     "event": "The joint inspection was held."
+    },
+    {
+     "date": "2026-03-19",
+     "event": "The interior estimate for the file was completed."
+    },
+    {
+     "date": "2026-04-13",
+     "event": "The carrier's appraiser asked whether our estimate was finished."
+    },
+    {
+     "date": "2026-04-17",
+     "event": "Joseph requested the mitigation invoice and supporting documents; the carrier sent additional file documents."
+    },
+    {
+     "date": "2026-05-10",
+     "event": "The carrier's appraiser sent his position estimate."
+    },
+    {
+     "date": "2026-05-20",
+     "event": "The contractor's restoration partner sent a plumbing bid for the shower and bathtub work."
+    },
+    {
+     "date": "2026-05-28",
+     "event": "The contractor's restoration partner sent the plumber's receipt."
+    },
+    {
+     "date": "2026-06-16",
+     "event": "Joseph sent his response to that position, setting out the items he believes belong in the estimate."
+    },
+    {
+     "date": "2026-06-17",
+     "event": "The carrier's appraiser proposed putting an umpire in place in case the two could not agree, and sent a list of names."
+    },
+    {
+     "date": "2026-06-17",
+     "event": "The restoration partner sent a photo report and offered to gather more photos if needed."
+    },
+    {
+     "date": "2026-06-20",
+     "event": "Umpire names were exchanged; Joseph put forward Mike Fried."
+    },
+    {
+     "date": "2026-06-23",
+     "event": "Joseph asked for the carrier's appraiser's thoughts on his points before taking the file to umpire."
+    },
+    {
+     "date": "2026-07-12",
+     "event": "Joseph followed up on that request."
+    },
+    {
+     "date": "2026-08-05",
+     "event": "Joseph followed up again."
+    },
+    {
+     "date": "2026-08-13",
+     "event": "The carrier's appraiser agreed to appoint Mike Fried as umpire."
+    }
+   ],
+   "trelloItemsAdded": 0,
+   "noEmail": false,
+   "priorNewest": "2026-06-17",
+   "newEventsFound": 8,
+   "staleReason": null
   }
  ],
- "withEmail": 1,
+ "withEmail": 2,
  "noEmail": 0,
  "flaggedNeeded": 0
 }

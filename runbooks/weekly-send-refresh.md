@@ -300,3 +300,24 @@ without the agent explaining why, and writes the offenders to
 
 A gap is a signal, not a verdict — a card gets touched for a Trello move with no new email.
 That is what `staleReason` is for. What must not happen is an unexplained gap going out.
+
+---
+
+## Separate the mechanical step from the judgement step
+
+Twice, on files the client caught himself, an agent ran a Gmail search, read the preview, saw an
+old date, and reported the file quiet — while the thread ran months further and held the decision
+to go to umpire. The second time, the instructions already said in bold never to judge from a
+preview and always to call `get_thread`. It happened anyway.
+
+An instruction not to take a shortcut does not reliably prevent the shortcut. Remove the choice
+instead:
+
+1. **Scan** (`work/updates/SCAN.md`) — collect thread ids from searches, call `get_thread` with
+   `messageFormat: "METADATA_ONLY"` on **every** id, record each thread's newest message date.
+   No bodies, no summaries, no decisions. `hasNewer` is arithmetic on two dates.
+2. **Read** — only the files the scan proves have something newer get a full read.
+
+The scan is cheap because metadata carries no message bodies, and it is auditable: an id that
+was collected but never opened is a detectable failure, where "I searched and found nothing"
+never was.
