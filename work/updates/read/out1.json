@@ -49,8 +49,34 @@
    "threadsDropped": [],
    "trelloItemsAdded": 4,
    "notes": ""
+  },
+  {
+   "cardId": "6a47f3e5c36e4e05b48a7b1f",
+   "newEvents": [
+    {"date": "2026-07-11", "event": "Homeowner confirmed the carrier's appraiser's inspection for July 16 at 11:00 AM, including interior access."},
+    {"date": "2026-07-13", "event": "The signed DOA/SOU was sent to the carrier's appraiser."},
+    {"date": "2026-07-16", "event": "The scheduled property inspections took place; the file was moved to inspected status."}
+   ],
+   "update": "The property inspections were completed on July 16; the file is now waiting on the carrier's appraiser to prepare and send his position.",
+   "needed": null,
+   "threadsRead": ["19f6da012fa8fa3f", "19f4f10c8501d871", "19f3905bd843d6be"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 3,
+   "notes": "The two Trello digest emails confirmed the card moved to 'Scheduled' (7/11) and then 'Inspected' (7/17) status; the direct correspondence thread with the carrier's appraiser filled in the details."
+  },
+  {
+   "cardId": "6a1dfbf17c61e4c01e938953",
+   "newEvents": [
+    {"date": "2026-07-29", "event": "The new appraiser, Steven Smallwood, completed his estimate; the file is now fully reassigned to him as the insured's appraiser instead of Joseph."}
+   ],
+   "update": "Since Joseph withdrew from this file in July due to a conflict of interest, appraiser Steven Smallwood has taken over; his estimate was completed and the file fully transferred to him as of July 29.",
+   "needed": null,
+   "threadsRead": ["19facbb81c50ff32", "19f84603a43fe6b7"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 1,
+   "notes": "Both threads were Trello digest emails that happened to include this card's activity alongside many unrelated cards; only the Marie Le Fevere entries were used."
   }
  ],
- "checked": 4,
- "withNewEvents": 2
+ "checked": 6,
+ "withNewEvents": 4
 }
