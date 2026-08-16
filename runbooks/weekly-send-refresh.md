@@ -28,7 +28,7 @@ to silently drop.
 EditSite takes the document as a tool parameter, so a page only publishes if it fits in one
 model message. Roughly **90KB is the ceiling**; past that the call fails and — this is the
 dangerous part — **the live page silently keeps last week's content**. Two clients are past it:
-No Stress Claims (383 files, 284KB) and Legacy Roofing (160 files, 126KB).
+No Stress Claims (383 files, 284KB) and Legacy Roofing (119 files, 126KB).
 
 Do not solve this by trimming each file's chain of events. That was tried; it guts the history
 the pages exist to show and still did not get No Stress under the limit — 383 files cost ~126KB
