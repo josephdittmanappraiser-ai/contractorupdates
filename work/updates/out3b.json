@@ -348,8 +348,55 @@
    "trelloItemsAdded": 5,
    "noEmail": false
   }
+  ,
+  {
+   "cardId": "6a3ec1efd198968cf8e089bb",
+   "update": "The carrier found no storm damage on this property (5833 Highland Ave, claim 600-1348140) and closed the claim, but the appraisal is proceeding; the draft estimate has been with the contractor since July 4 with no response, and the demand letter remains unsigned despite reminders through August 12.",
+   "needed": "Review the draft estimate sent July 4 (no response yet) and help get Mr. Farassati to sign the still-outstanding demand letter.",
+   "asOf": "2026-08-16",
+   "timeline": [
+    {"date": "2026-06-26", "event": "LINEAR Roofing referred property #5 of 11 for Faris Farassati (5833 Highland Ave, Kansas City MO; COUNTRY Financial claim 600-1348140); the carrier had found no storm-related damage and closed the claim, but the contractor noted significant collateral damage on the property."},
+    {"date": "2026-06-26", "event": "Appraisal demand letter sent to the homeowner."},
+    {"date": "2026-07-04", "event": "Joseph's office sent the draft estimate to the contractor for review; no response has been received."},
+    {"date": "2026-07-20", "event": "Demand letters resent to the homeowner via DocuSign for all his properties, including this one."},
+    {"date": "2026-07-28", "event": "Joseph's office sent repeated reminders to the homeowner and contractor (July 28, 31; August 8, 10, 12) that the demand letter remained unsigned; it was still outstanding as of the last reminder."}
+   ],
+   "trelloItemsAdded": 5,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a3ebe2e12bbc48e409f2f51",
+   "update": "For this property (3913 Springfield St, claim 600-1348142), the draft estimate has been with the contractor since July 4 with no response, on top of the demand letter still being unsigned despite reminders through August 12.",
+   "needed": "Review the draft estimate sent July 4 (no response yet) and help get Mr. Farassati to sign the still-outstanding demand letter.",
+   "asOf": "2026-08-16",
+   "timeline": [
+    {"date": "2026-06-26", "event": "LINEAR Roofing referred property #3 of 11 for Faris Farassati (3913 Springfield St, Kansas City KS; COUNTRY Financial claim 600-1348142)."},
+    {"date": "2026-06-26", "event": "Appraisal demand letter sent to the homeowner."},
+    {"date": "2026-07-04", "event": "Joseph's office sent the draft estimate to the contractor for review; no response has been received."},
+    {"date": "2026-07-20", "event": "Demand letters resent to the homeowner via DocuSign for all his properties, including this one."},
+    {"date": "2026-07-28", "event": "Joseph's office sent repeated reminders to the homeowner and contractor (July 28, 31; August 8, 10, 12) that the demand letter remained unsigned; it was still outstanding as of the last reminder."}
+   ],
+   "trelloItemsAdded": 5,
+   "noEmail": false
+  }
+  ,
+  {
+   "cardId": "6a3ebcf43a22f0c96d8e2cc8",
+   "update": "The carrier found no storm damage on this property (4108 Lloyd St, claim 600-1348144) and closed the claim, but the appraisal is proceeding; the draft estimate has been with the contractor since July 4 with no response, and the demand letter remains unsigned despite reminders through August 12.",
+   "needed": "Review the draft estimate sent July 4 (no response yet) and help get Mr. Farassati to sign the still-outstanding demand letter.",
+   "asOf": "2026-08-16",
+   "timeline": [
+    {"date": "2026-06-26", "event": "LINEAR Roofing referred property #2 of 11 for Faris Farassati (4108 Lloyd St, Kansas City KS; COUNTRY Financial claim 600-1348144); the carrier had found no storm-related damage and closed the claim."},
+    {"date": "2026-06-26", "event": "Appraisal demand letter sent to the homeowner."},
+    {"date": "2026-07-04", "event": "Joseph's office sent the draft estimate to the contractor for review; no response has been received."},
+    {"date": "2026-07-20", "event": "Demand letters resent to the homeowner via DocuSign for all his properties, including this one."},
+    {"date": "2026-07-28", "event": "Joseph's office sent repeated reminders to the homeowner and contractor (July 28, 31; August 8, 10, 12) that the demand letter remained unsigned; it was still outstanding as of the last reminder."}
+   ],
+   "trelloItemsAdded": 5,
+   "noEmail": false
+  }
  ],
- "withEmail": 23,
+ "withEmail": 26,
  "noEmail": 0,
- "flaggedNeeded": 12
+ "flaggedNeeded": 16
 }
