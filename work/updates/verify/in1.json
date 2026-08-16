@@ -1,0 +1,146 @@
+[
+ {
+  "cardId": "67f0ba2505b211822c6a5eac",
+  "insured": "Jose Ibarra",
+  "claim": "",
+  "address": "",
+  "stage": "Referred out (attorney or public adjuster)",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "searchAfter": "2025-06-14",
+  "claimedNoNewer": true
+ },
+ {
+  "cardId": "67a1879d4770a07ba9e7cd7f",
+  "insured": "Jose R Benita Castillo De Pacheco",
+  "claim": "",
+  "address": "",
+  "stage": "Referred out (attorney or public adjuster)",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "searchAfter": "2025-06-23",
+  "claimedNoNewer": false
+ },
+ {
+  "cardId": "69f210fb4000625388646899",
+  "insured": "Michael Patterson",
+  "claim": "018034471",
+  "address": "609 Dubina Ave Georgetown, TX 78626-2615",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "Strong House Pro"
+  ],
+  "searchAfter": "2026-06-08",
+  "claimedNoNewer": true
+ },
+ {
+  "cardId": "69e7bbeadd8694321b8f7c37",
+  "insured": "Matthew Krowski",
+  "claim": "",
+  "address": "",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "searchAfter": "2026-06-29",
+  "claimedNoNewer": true
+ },
+ {
+  "cardId": "6a3ebcf43a22f0c96d8e2cc8",
+  "insured": "Faris Farassati",
+  "claim": "",
+  "address": "",
+  "stage": "Estimate sent - needs sign-off",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "searchAfter": "2026-07-28",
+  "claimedNoNewer": false
+ },
+ {
+  "cardId": "6a0e3e552f96924b245dc8ce",
+  "insured": "CARRIE BACON",
+  "claim": "",
+  "address": "",
+  "stage": "Referred out (attorney or public adjuster)",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "searchAfter": "2026-07-14",
+  "claimedNoNewer": false
+ },
+ {
+  "cardId": "69dd57c31e122f8d50becbe2",
+  "insured": "Alphonso And Mary Ransaw",
+  "claim": "",
+  "address": "",
+  "stage": "Referred out (attorney or public adjuster)",
+  "clients": [
+   "Strong House Pro"
+  ],
+  "searchAfter": "2026-06-03",
+  "claimedNoNewer": true
+ },
+ {
+  "cardId": "6a3ec881f0235ef96b225b9d",
+  "insured": "Faris Farassati",
+  "claim": "",
+  "address": "",
+  "stage": "Estimate sent - needs sign-off",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "searchAfter": "2026-07-28",
+  "claimedNoNewer": true
+ },
+ {
+  "cardId": "6923293e0bc424f92bea4da8",
+  "insured": "WILLIAM TUCKER",
+  "claim": "",
+  "address": "2207 CLARINDA AVE WICHITA FALLS, TX 76308",
+  "stage": "In umpire",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "searchAfter": "2026-07-14",
+  "claimedNoNewer": false
+ },
+ {
+  "cardId": "69e654e7dc95b4dba2b0bba3",
+  "insured": "Maggie Bowles",
+  "claim": "",
+  "address": "",
+  "stage": "Referred out (attorney or public adjuster)",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "searchAfter": "2026-06-26",
+  "claimedNoNewer": true
+ },
+ {
+  "cardId": "6872b7b43d21fee0af22f904",
+  "insured": "Edwin Mejia",
+  "claim": "",
+  "address": "** 809 Emerald St",
+  "stage": "Estimate being prepared",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "searchAfter": "2025-12-11",
+  "claimedNoNewer": true
+ },
+ {
+  "cardId": "69dcff75057935cbef705f3e",
+  "insured": "LINA SHOUGA",
+  "claim": "0822662169",
+  "address": "2900 CHEVERNY DR MCKINNEY, TX 75070-4710",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "searchAfter": "2026-08-05",
+  "claimedNoNewer": false
+ }
+]

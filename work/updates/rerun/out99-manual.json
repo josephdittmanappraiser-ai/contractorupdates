@@ -1,0 +1,42 @@
+{
+ "batch": 99,
+ "_note": "Hand-corrected from the full Gmail thread (19d2b5745ceb80c4), read end to end. Two automated passes reported this file quiet since 2026-06-18 because search_threads' preview of that thread stops at 2026-03-27; get_thread returns 16 further messages through 2026-08-15. Sorts last, so it wins over the batch outputs.",
+ "results": [
+  {
+   "cardId": "69a85b2aa7f9682378dfff33",
+   "update": "The two appraisers could not close the gap on the mitigation and pack-out portion, so on August 15 Joseph called for an umpire and the carrier's appraiser agreed, saying he would bring one in within 24 hours. Next step is the umpire being appointed and setting his review.",
+   "needed": null,
+   "asOf": "2026-08-16",
+   "timeline": [
+    {"date": "2026-03-03", "event": "A pre-appraisal demand was sent to the carrier."},
+    {"date": "2026-03-18", "event": "Additional contents and mitigation documentation was sent to the carrier to support the demand."},
+    {"date": "2026-03-26", "event": "The carrier named its appraiser, who sent an umpire list and proposed a solo inspection."},
+    {"date": "2026-03-27", "event": "The carrier's solo inspection was set for March 31 and confirmed with the homeowner."},
+    {"date": "2026-03-31", "event": "The signed agreement was returned to the carrier's appraiser."},
+    {"date": "2026-04-14", "event": "Joseph held his own inspection of the property."},
+    {"date": "2026-04-08", "event": "The carrier's appraiser sent his position and a proposed award."},
+    {"date": "2026-05-03", "event": "The carrier's appraiser followed up for a response."},
+    {"date": "2026-05-22", "event": "Joseph's office requested the mitigation and rebuild documentation from the remediation contractor."},
+    {"date": "2026-05-28", "event": "The carrier's appraiser followed up again."},
+    {"date": "2026-06-06", "event": "Joseph responded to the carrier's appraiser's position, raising several points to work through together."},
+    {"date": "2026-06-16", "event": "The carrier's appraiser replied on pricing and the audited mitigation report, and sent a revised award listing contents as not appraised."},
+    {"date": "2026-06-18", "event": "Joseph proposed a call to settle it and sent the paid mitigation invoice; the carrier's appraiser asked for the drying and equipment logs behind it."},
+    {"date": "2026-06-20", "event": "Joseph sent the supporting documents he had on file."},
+    {"date": "2026-06-28", "event": "Joseph asked whether anything further was needed."},
+    {"date": "2026-07-11", "event": "Joseph followed up; the carrier's appraiser said he still had no detailed mitigation or contents estimate."},
+    {"date": "2026-07-13", "event": "Joseph explained the figure covered incurred mitigation activity and said he was open to negotiating it."},
+    {"date": "2026-08-02", "event": "Joseph offered to provide any documentation still outstanding."},
+    {"date": "2026-08-15", "event": "The carrier's appraiser said he understood the differences to be limited to contents handling and mitigation."},
+    {"date": "2026-08-15", "event": "Joseph called for an umpire to get the file moving, and the carrier's appraiser agreed to bring one in within 24 hours."}
+   ],
+   "trelloItemsAdded": 0,
+   "noEmail": false,
+   "priorNewest": "2026-06-18",
+   "newEventsFound": 11,
+   "staleReason": null
+  }
+ ],
+ "withEmail": 1,
+ "noEmail": 0,
+ "flaggedNeeded": 0
+}

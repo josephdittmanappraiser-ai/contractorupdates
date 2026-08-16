@@ -1,0 +1,146 @@
+[
+ {
+  "cardId": "6924c33fa095eda883346483",
+  "insured": "Maria Ramos",
+  "claim": "9379",
+  "address": "5523 Sequin Dr., Spring, TX 77388",
+  "stage": "In umpire",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "searchAfter": "2026-04-09",
+  "claimedNoNewer": true
+ },
+ {
+  "cardId": "685d86741eae1c3db6ed993b",
+  "insured": "Keith Utley",
+  "claim": "N00085706",
+  "address": "",
+  "stage": "Referred out (attorney or public adjuster)",
+  "clients": [
+   "Vince - assured value claims"
+  ],
+  "searchAfter": "2026-04-28",
+  "claimedNoNewer": true
+ },
+ {
+  "cardId": "6a3bf64bd4df112622b58fe5",
+  "insured": "Mike Stubbs",
+  "claim": "53-99D-452M",
+  "address": "9211 Sabastian Dr, Houston, TX 77083",
+  "stage": "Inspected / building our position",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "searchAfter": "2026-07-06",
+  "claimedNoNewer": true
+ },
+ {
+  "cardId": "69232d0f67c1ca734b561cc1",
+  "insured": "PATRICIA YATES",
+  "claim": "006152624",
+  "address": "",
+  "stage": "In umpire",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "searchAfter": "2026-07-14",
+  "claimedNoNewer": true
+ },
+ {
+  "cardId": "67cc71e760349263a5ce7b17",
+  "insured": "Leroy Barrera",
+  "claim": "",
+  "address": "",
+  "stage": "Referred out (attorney or public adjuster)",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "searchAfter": "2025-08-11",
+  "claimedNoNewer": true
+ },
+ {
+  "cardId": "69bb0544436a84989ebf1c02",
+  "insured": "WENDY ESTRADA-PEREZ",
+  "claim": "0820895125",
+  "address": "747 EVENING STAR KYLE, TX 78640-6659",
+  "stage": "In umpire",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "searchAfter": "2026-07-02",
+  "claimedNoNewer": true
+ },
+ {
+  "cardId": "69d58031b4e858e988cc3aee",
+  "insured": "SERGIO DAVILA",
+  "claim": "",
+  "address": "** 305 Parkwest Dr, Cedar Park, TX 78613",
+  "stage": "In umpire",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "searchAfter": "2026-07-06",
+  "claimedNoNewer": true
+ },
+ {
+  "cardId": "686ed56fdacdfd7e3616d00b",
+  "insured": "Odellia Kay Martinez",
+  "claim": "",
+  "address": "",
+  "stage": "Referred out (attorney or public adjuster)",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "searchAfter": "2025-10-03",
+  "claimedNoNewer": true
+ },
+ {
+  "cardId": "69ea5db2237738678621211c",
+  "insured": "Julio Granados",
+  "claim": "514491",
+  "address": "16915 BOUGAINVILLA LN FRIENDSWOOD, TX 77546",
+  "stage": "In umpire",
+  "clients": [
+   "The lawgical firm"
+  ],
+  "searchAfter": "2026-07-14",
+  "claimedNoNewer": true
+ },
+ {
+  "cardId": "69836934dbf3147b324011b1",
+  "insured": "Theodore Mendoza",
+  "claim": "0817155401",
+  "address": "113 Willow Run Georgetown, TX 78633",
+  "stage": "In umpire",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "searchAfter": "2026-07-09",
+  "claimedNoNewer": true
+ },
+ {
+  "cardId": "690283822da9c01e102a2bd1",
+  "insured": "CHASITY CLOUD TAULTON-no Agreement To Invoke The Umpire",
+  "claim": "",
+  "address": "** 9827 Wellington Chase Ln, Humble, TX 77396",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "searchAfter": "2026-04-09",
+  "claimedNoNewer": true
+ },
+ {
+  "cardId": "6a47f3e5c36e4e05b48a7b1f",
+  "insured": "Rigoberto Ayala",
+  "claim": "7009251722-1-1",
+  "address": "6330 Northland Dr, Houston, TX",
+  "stage": "Inspected / building our position",
+  "clients": [
+   "Cross country Public Adjusting"
+  ],
+  "searchAfter": "2026-07-10",
+  "claimedNoNewer": true
+ }
+]

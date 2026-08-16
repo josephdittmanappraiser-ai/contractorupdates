@@ -1,0 +1,134 @@
+[
+ {
+  "cardId": "69ea34cfd30fc18976cd84b0",
+  "insured": "Jose Alvarenga",
+  "claim": "PL2503551",
+  "address": "535 Gettysburg, Mesquite, Texas 75149",
+  "stage": "In umpire",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "searchAfter": "2026-07-11",
+  "claimedNoNewer": true
+ },
+ {
+  "cardId": "69bad830ea759f6a3f5523a7",
+  "insured": "CLAYTON GRASSI",
+  "claim": "0821195467",
+  "address": "735 EVENING STAR KYLE, TX 78640-6659",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "searchAfter": "2026-06-22",
+  "claimedNoNewer": true
+ },
+ {
+  "cardId": "682ce4f5865b5efd1362d283",
+  "insured": "JOSHUA SPINHIRNE",
+  "claim": "",
+  "address": "",
+  "stage": "Referred out (attorney or public adjuster)",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "searchAfter": "2025-07-17",
+  "claimedNoNewer": true
+ },
+ {
+  "cardId": "6a1dfbf17c61e4c01e938953",
+  "insured": "Marie Le Fevere",
+  "claim": "",
+  "address": "",
+  "stage": "Inspected / building our position",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "searchAfter": "2026-07-12",
+  "claimedNoNewer": true
+ },
+ {
+  "cardId": "69cf01db396d7a8ade890065",
+  "insured": "Juanita Mascarenhas",
+  "claim": "017125712",
+  "address": "2921 Margarita Loop Round Rock TX 78665",
+  "stage": "In umpire",
+  "clients": [
+   "Legacy Roofing"
+  ],
+  "searchAfter": "2026-06-11",
+  "claimedNoNewer": true
+ },
+ {
+  "cardId": "67200d91b93a0a2730b34fc8",
+  "insured": "Anthony Craig Curtis",
+  "claim": "",
+  "address": "",
+  "stage": "Referred out (attorney or public adjuster)",
+  "clients": [
+   "Vince - assured value claims"
+  ],
+  "searchAfter": "2025-09-26",
+  "claimedNoNewer": false
+ },
+ {
+  "cardId": "699ca05de1e999f8500b5970",
+  "insured": "Prashanth Kumbala Harinika Nalla-no Agreement Yet To Invoke Umpire",
+  "claim": "",
+  "address": "** 3025 Lyme Ridge Dr, Leander, TX 78641",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "searchAfter": "2026-07-26",
+  "claimedNoNewer": true
+ },
+ {
+  "cardId": "69f0d1b1d25e0dfddb63270e",
+  "insured": "Gilbert Rocio Funes",
+  "claim": "",
+  "address": "** 17619 Burkhart Ridge Dr, Houston, TX 77095",
+  "stage": "In umpire",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "searchAfter": "2026-07-10",
+  "claimedNoNewer": true
+ },
+ {
+  "cardId": "69139dd59bb570198a0f4bdd",
+  "insured": "Lilia Raul Oquendo",
+  "claim": "",
+  "address": "** 5207 Lilac Hollow Ln, Katy, TX 77449",
+  "stage": "New / intake",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "searchAfter": "2026-05-18",
+  "claimedNoNewer": false
+ },
+ {
+  "cardId": "6a48414e201af36c1615a0e8",
+  "insured": "ROCIO RUVALCABA",
+  "claim": "",
+  "address": "",
+  "stage": "Appraisal demanded / waiting on carrier",
+  "clients": [
+   "Legacy Roofing"
+  ],
+  "searchAfter": "2026-07-29",
+  "claimedNoNewer": true
+ },
+ {
+  "cardId": "69691f57bad91fbd1b4ebf3e",
+  "insured": "THURRELL KERNS",
+  "claim": "4390W353N",
+  "address": "801 Andrews CT Anna, Tx 75409",
+  "stage": "In umpire",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "searchAfter": "2026-07-17",
+  "claimedNoNewer": true
+ }
+]

@@ -1,0 +1,134 @@
+[
+ {
+  "cardId": "68eec7b858fd1a7dc526c96c",
+  "insured": "Dion Edge",
+  "claim": "008685134-804",
+  "address": "10705 Pinehurst Dr, Austin, TX 78747",
+  "stage": "Inspected / building our position",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "searchAfter": "2025-11-04",
+  "claimedNoNewer": true
+ },
+ {
+  "cardId": "69e15f85f9121db5bcca036f",
+  "insured": "Lorena De Leon Gonzalez",
+  "claim": "TXIMF0000577",
+  "address": "27602 County Road 3743 Splendora, TX 77372",
+  "stage": "In umpire",
+  "clients": [
+   "The lawgical firm"
+  ],
+  "searchAfter": "2026-07-17",
+  "claimedNoNewer": true
+ },
+ {
+  "cardId": "68d2b081ce4c65cea9e9b772",
+  "insured": "Reyna Plaza Phillip Castaned- No",
+  "claim": "",
+  "address": "",
+  "stage": "Inspected / building our position",
+  "clients": [
+   "No Stress Claims"
+  ],
+  "searchAfter": "2026-04-15",
+  "claimedNoNewer": true
+ },
+ {
+  "cardId": "6a3edf5a2347cd07582d5eaf",
+  "insured": "Faris Farassati",
+  "claim": "",
+  "address": "",
+  "stage": "Estimate sent - needs sign-off",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "searchAfter": "2026-07-28",
+  "claimedNoNewer": false
+ },
+ {
+  "cardId": "69c32dc96db949f2f15db542",
+  "insured": "SAMUEL GARZA",
+  "claim": "0821218708",
+  "address": "441 BLUE MOUNTAIN DR RIO GRANDE CITY, TX 78582-6802",
+  "stage": "Inspected / building our position",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "searchAfter": "2026-07-09",
+  "claimedNoNewer": false
+ },
+ {
+  "cardId": "69d59926aca942018e05acb7",
+  "insured": "Dessarae Garza",
+  "claim": "5041669950-1",
+  "address": "2705 Viceroy Ct, Rio Grande City, TX",
+  "stage": "Inspected / building our position",
+  "clients": [
+   "Strong House Pro"
+  ],
+  "searchAfter": "2026-05-27",
+  "claimedNoNewer": false
+ },
+ {
+  "cardId": "6a4be23dc6e8dfa71821f45a",
+  "insured": "Viengken Manikapone",
+  "claim": "",
+  "address": "",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "Cross country Public Adjusting"
+  ],
+  "searchAfter": "2026-07-13",
+  "claimedNoNewer": true
+ },
+ {
+  "cardId": "69f8fdad2ec48a6f75b37b36",
+  "insured": "Norma Lopes",
+  "claim": "7010088915",
+  "address": "10316 Andover Dr, Dallas, TX 75228-2702",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "searchAfter": "2026-06-10",
+  "claimedNoNewer": true
+ },
+ {
+  "cardId": "69dfa48abd7852a768d79a5c",
+  "insured": "Thomas Clark",
+  "claim": "1572311-254402",
+  "address": "5539 DENMANS MOUNTAIN RD, BELTON, TX 76513-4776",
+  "stage": "Inspected / building our position",
+  "clients": [
+   "Cross country Public Adjusting"
+  ],
+  "searchAfter": "2026-06-05",
+  "claimedNoNewer": true
+ },
+ {
+  "cardId": "6a3ec6815df0cd10e49989c5",
+  "insured": "Faris Farassati",
+  "claim": "",
+  "address": "",
+  "stage": "Estimate sent - needs sign-off",
+  "clients": [
+   "LINEAR roofing"
+  ],
+  "searchAfter": "2026-07-28",
+  "claimedNoNewer": false
+ },
+ {
+  "cardId": "6a3bf31ed6ab3158a1ddbe5c",
+  "insured": "Ahmed Taha",
+  "claim": "86001",
+  "address": "4431 Beck Drive Richardson, TX 75082",
+  "stage": "Negotiating with the carrier's appraiser",
+  "clients": [
+   "Legacy Roofing"
+  ],
+  "searchAfter": "2026-07-23",
+  "claimedNoNewer": true
+ }
+]

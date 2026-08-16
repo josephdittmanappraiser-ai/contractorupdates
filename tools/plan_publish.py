@@ -22,12 +22,15 @@ ROOT = os.path.join(os.path.dirname(__file__), '..')
 SINGLE_CALL_BYTES = 90_000
 
 
-def main(nbatches=8):
+def main(nbatches=8, only=None, skip=None):
     man = json.load(open(os.path.join(ROOT, 'work', 'pages', 'manifest.json')))
+    only, skip = set(only or []), set(skip or [])
     small, big = [], []
     for m in man:
         path = os.path.join(ROOT, m['file'])
         if not os.path.exists(path) or not m.get('shareId'):
+            continue
+        if (only and m['file'] not in only) or m['file'] in skip:
             continue
         size = os.path.getsize(path)
         (big if size > SINGLE_CALL_BYTES else small).append(dict(m, bytes=size))

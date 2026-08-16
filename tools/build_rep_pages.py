@@ -382,6 +382,7 @@ def main(csv_path, outdir='work/pages'):
                 claim = (r.get('Claim #') or '').strip()
             en = ENRICH.get(r['Card ID'].strip(), {})
             buckets[lab][rep].append({
+                'cardId': r['Card ID'].strip(),
                 'insured': clean_insured(name, desc),
                 'addr': addr, 'claim': claim,
                 'activity': (r.get('Last Activity Date') or '')[:10],
@@ -416,6 +417,7 @@ def main(csv_path, outdir='work/pages'):
                 claim = (r.get('Claim #') or '').strip()
             en = ENRICH.get(r['Card ID'].strip(), {})
             combuckets[lab].append({
+                'cardId': r['Card ID'].strip(),
                 'insured': clean_insured(name, desc), 'addr': addr, 'claim': claim,
                 'activity': (r.get('Last Activity Date') or '')[:10], 'stage': st,
                 'timeline': [{'date': e.get('date', ''), 'event': scrub(e.get('event', ''))}
@@ -434,7 +436,8 @@ def main(csv_path, outdir='work/pages'):
         open(path, 'w').write(html_out)
         manifest.append({'label': lab, 'rep': cfg['company'], 'title': cfg['company'],
                          'file': path, 'shareId': cfg.get('shareId'), 'files': len(files),
-                         'action': 'edit' if cfg.get('shareId') else 'create'})
+                         'action': 'edit' if cfg.get('shareId') else 'create',
+                         'cardIds': [f['cardId'] for f in files]})
 
     for lab, reps in buckets.items():
         cfg = PER_REP_LABELS[lab]
@@ -453,7 +456,8 @@ def main(csv_path, outdir='work/pages'):
             open(path, 'w').write(html_out)
             manifest.append({'label': lab, 'rep': titlecase(rep), 'title': disp,
                              'file': path, 'shareId': sid, 'files': len(files),
-                             'action': 'edit' if sid else 'create'})
+                             'action': 'edit' if sid else 'create',
+                             'cardIds': [f['cardId'] for f in files]})
 
     json.dump(manifest, open(os.path.join(outdir, 'manifest.json'), 'w'), indent=1)
     e = sum(1 for m in manifest if m['action'] == 'edit')

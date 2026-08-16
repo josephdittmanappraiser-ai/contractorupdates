@@ -36,6 +36,22 @@ message and work backwards. These threads run 30+ messages over many months; a t
 but did not finish is worse than one you never opened, because it produces a confident timeline
 that stops halfway.
 
+> **`search_threads` does not show you the whole thread, and the messages it omits are usually
+> the recent ones.** On the Massey file the search preview ended at 27 March; `get_thread` on the
+> same thread id returned 16 further messages running to 15 August, including the decision to go
+> to umpire. An agent that judged from the preview reported the file quiet since June — twice.
+>
+> So: **never conclude anything from `search_threads` output.** It finds thread ids. That is all
+> it is for. Call `get_thread` on every candidate id before you decide what a thread contains, and
+> before you decide it contains nothing new.
+
+**2b. Prove absence before you claim it.** Saying a file is quiet is a claim about email that does
+not exist, and it is the easiest thing to get wrong. Before setting `newEventsFound: 0`, run one
+more search narrowed to the period in question — `<claim number> after:YYYY/MM/DD`, then the
+surname the same way — and confirm it returns nothing but Trello digests and auto-replies. If you
+did not run that search, you do not know, and `staleReason` must say so rather than inventing a
+reason the file is quiet.
+
 **3. Build the chain of events.** Every action taken or received, as
 `{"date":"YYYY-MM-DD","event":"one plain sentence"}`, output oldest first. Typical events: file
 received from the contractor, demand sent to the carrier, carrier acknowledged, carrier named
