@@ -125,7 +125,10 @@ def excluded(list_name, card_name, desc):
 CSS = open(os.path.join(os.path.dirname(__file__), '..', 'templates', 'status-page.html')).read()
 CSS = CSS[CSS.index('<style>'):CSS.index('</style>') + 8]
 
-E = html.escape
+def E(text):
+    """Escape, then fold to ASCII. Order matters: asciify emits entities, and escaping
+    afterwards would turn &mdash; into &amp;mdash; on the page."""
+    return asciify(html.escape('' if text is None else str(text)))
 
 
 # Files where appraisal was invoked and the carrier never named an appraiser sit still
@@ -412,6 +415,25 @@ BANNED = [
 ]
 
 
+# Pages are published by an agent retyping every byte, and a character outside ASCII is
+# the one thing that process reliably fumbles: Send's own byte counter also miscounts them,
+# so a real mistype and a counting artifact look identical. The read pass writes em dashes
+# into event text, so fold them (and anything else non-ASCII) into entities before render.
+NON_ASCII = {
+    '\u2014': '&mdash;', '\u2013': '&ndash;', '\u2018': "'", '\u2019': "'",
+    '\u201c': '"', '\u201d': '"', '\u2026': '...', '\u00a0': ' ',
+    '\u200b': '', '\u200c': '', '\u200d': '', '\ufeff': '',
+}
+
+
+def asciify(text):
+    """ASCII only, so a publishing agent has nothing subtle to drop."""
+    for ch, rep in NON_ASCII.items():
+        text = text.replace(ch, rep)
+    # Anything still non-ASCII would render as a mystery -- drop it rather than ship it.
+    return ''.join(c if ord(c) < 128 else '' for c in text)
+
+
 def scrub(text):
     """Last line of defence before anything reaches a client page.
 
@@ -568,10 +590,10 @@ def main(csv_path, outdir='work/pages'):
         known = {canon(rp['name']): rp.get('shareId') for rp in cfg.get('reps', [])}
         for rep, files in sorted(reps.items(), key=lambda kv: -len(kv[1])):
             if rep == '__unassigned__':
-                disp, slug = f"{company} — Unassigned Files", f"{lab[:6].lower()}-unassigned"
+                disp, slug = f"{company} \u2014 Unassigned Files", f"{lab[:6].lower()}-unassigned"
                 sid = cfg.get('unassignedShareId')
             else:
-                disp = f"{titlecase(rep)} — {company}"
+                disp = f"{titlecase(rep)} \u2014 {company}"
                 slug = re.sub(r'[^a-z0-9]+', '-', f"{lab[:6]}-{rep}".lower()).strip('-')
                 sid = known.get(rep)
             path = os.path.join(outdir, f"{slug}.html")
