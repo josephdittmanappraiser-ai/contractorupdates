@@ -1,0 +1,84 @@
+{
+ "batch": 2,
+ "results": [
+  {
+   "cardId": "68eec7b858fd1a7dc526c96c",
+   "newEvents": [
+    {"date":"2026-07-09","event":"Joseph followed up multiple times between February and July 2026 requesting the carrier's appraiser's position, but has not received a response."}
+   ],
+   "update": "The file remains stalled waiting on the carrier's appraiser's position; despite repeated follow-ups from February through July 2026, no response has been received.",
+   "needed": null,
+   "threadsRead": ["199ddc3cf99e2721"],
+   "threadsDropped": ["19fce6446cfbb07c","19fee4f753849add","19ff843ee437a1cb","19f8149b72b880ae","1a003c5649e821ae","1a0063eb800ca239","19d2b5745ceb80c4","19feccf177278f93","19ffbdc096101f01","1a003f39b5617030","1a003da06ac6e4b5","1a003d16eaa86edc","1a003cdf655de0f4","1a003bb3d8a3e9ea","1a003b7d008d4d48","1a003aed50a12613","1a0038863db59abf","1a0035e0570f2fbd","1a0035139769ab1e","1a0032357e740955"],
+   "trelloItemsAdded": 0,
+   "notes": "20 of 21 handed threads belonged to other files that share a contractor/staff mailbox around the same dates (Consuelo Dejesus, a Nations/State Farm file, Rong Dai, Stephen & Sandra Floyd, Khang Truong, C. Steed, Maribel Mendoza, Jose Mendez, Jacquelyn Celis, Colburn, Sumeet Kukreja, Andrew Medina, Douglas Freeman, Khalid Malik, Mariscal, Srinivas Thallapureddy, Bo Liang, a Melissa Vandygriff bounce) and were dropped. Only the Sedgwick/USAA thread (subject 'USAA Appraisal - Dion Edge') was this file's, and its one post-searchAfter event was already recorded on the checklist."
+  },
+  {
+   "cardId": "69c32dc96db949f2f15db542",
+   "newEvents": [
+    {"date":"2026-07-17","event":"The carrier's appraiser confirmed she would attend the interior inspection at 3:00 PM as scheduled."}
+   ],
+   "update": "The carrier's appraiser inspected the interior of the property on July 17 as scheduled; the file now awaits her position on the claim.",
+   "needed": null,
+   "threadsRead": ["19eded378c5d59c2"],
+   "threadsDropped": ["19fda2ab664a4ab4","19fd7c2b3487c9f0","19fd4c2c05a62fed","19fc48339db6b4a8","19faeb6f47256de4","19fa99121f6c5cee","19f9509fc9f72952","19f91048f5f94017","19f85ac7f92130ef","19f7d915eb18a046","19f72127c1adc3bb","19d34ee483b0f61d"],
+   "trelloItemsAdded": 0,
+   "notes": "12 of 13 handed threads belonged to other files/matters (a Beshay appraisal, a different Garza umpire-award signing, a Pastrana appraisal, Jesus Garza Caballero, a McKnight Title real-estate closing on Hackberry Road, a Wadhwani/Liberty Mutual claim, Eva De La Garza) and were dropped. Only the '0821218708 (SAMUEL GARZA)' thread was this file's, and its one post-searchAfter event was already recorded on the checklist."
+  },
+  {
+   "cardId": "69e15f85f9121db5bcca036f",
+   "newEvents": [
+    {"date":"2026-08-14","event":"The panel coordinated schedules and the full-panel umpire inspection was confirmed for September 9, 2026 at 10:30 AM."}
+   ],
+   "update": "The full-panel umpire inspection is now confirmed for September 9, 2026 at 10:30 AM, after retainer payments cleared from both sides; the file awaits that inspection.",
+   "needed": null,
+   "threadsRead": ["19e6afa9ee81a731","19d96e776b1054a4","1a0014c159eda35d","1a00113858c2235f"],
+   "threadsDropped": ["19ffa2936aaddd98","19ff9065f7a08935","19ff89b6c93f8371","19fce6446cfbb07c"],
+   "trelloItemsAdded": 0,
+   "notes": "3 of the Trello digest emails only mentioned other files on the shared board (Cesar Gonzalez, Esperanza Lopez, and others) and were dropped, as was the Consuelo Dejesus thread. The remaining Trello digests and the Engle Martin/Lawgical Firm email thread were this file's; the scheduling event they describe was already recorded on the checklist."
+  },
+  {
+   "cardId": "699ca05de1e999f8500b5970",
+   "newEvents": [
+    {"date":"2026-08-11","event":"Joseph completed the property inspection with interior access."},
+    {"date":"2026-08-14","event":"Joseph sent his position and estimate to the carrier's appraiser for review."}
+   ],
+   "update": "Joseph completed his interior inspection on August 11 and sent his position and estimate to the carrier's appraiser on August 14; the file now awaits their review.",
+   "needed": null,
+   "threadsRead": ["19ffe7453fbd089d","19ffde0175beb57c","19fddbd02bae64f6","19e93d337c22ab8d"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 2,
+   "notes": "All 4 handed threads (3 Trello digests plus the DM Claims email thread, claim 2025-04701) were about this file."
+  },
+  {
+   "cardId": "69232d0f67c1ca734b561cc1",
+   "newEvents": [
+    {"date":"2026-07-20","event":"The carrier's adjuster questioned whether the documented roof damage was hail-related and asked for test square photos."},
+    {"date":"2026-07-21","event":"Joseph offered to return to the property to take additional photos with test squares to help resolve the dispute without an umpire."},
+    {"date":"2026-07-28","event":"The carrier's adjuster asked when Joseph could complete the additional photos."}
+   ],
+   "update": "The carrier's adjuster is disputing whether the roof damage is storm-related and wants test-square photos; Joseph has offered to reinspect and provide them to try to settle without an umpire.",
+   "needed": null,
+   "threadsRead": ["19c7862c60298b6b"],
+   "threadsDropped": ["19f192047ed1378a"],
+   "trelloItemsAdded": 3,
+   "notes": "The Davies-Group thread (claim 2026-01191-255.10694) was about a different insured, Hitanshu Bhakta DBA Western Inn, and was dropped. The Crawford & Company thread (claim #006152624-803) was this file's."
+  },
+  {
+   "cardId": "6a3ec1efd198968cf8e089bb",
+   "newEvents": [
+    {"date":"2026-07-28","event":"Joseph followed up with the homeowner directly, noting all 11 signature letters for his properties remained unsigned."},
+    {"date":"2026-08-04","event":"Joseph asked the contractor to help remind the homeowner to sign the letters, since the contractor had approved the estimates."},
+    {"date":"2026-08-12","event":"Joseph resent the signature letters after repeated follow-ups through mid-August still went unsigned."}
+   ],
+   "update": "The file remains stalled on the homeowner's signature - none of the 11 Appraisal Demand Letters have been signed despite repeated reminders since July 20, most recently resent August 12; the contractor's help nudging him to sign would move this forward.",
+   "needed": "The homeowner has not signed any of the 11 Appraisal Demand Letters despite repeated reminders; the contractor's help getting him to sign is needed to move the appraisals forward.",
+   "threadsRead": ["19fa66fc34e791f8","19f41f4af9f5c9e7"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 0,
+   "notes": "Both handed threads were about this file; the July 28-August 12 reminder chain they describe was already fully recorded on the checklist as a single merged entry."
+  }
+ ],
+ "checked": 6,
+ "withNewEvents": 6
+}
