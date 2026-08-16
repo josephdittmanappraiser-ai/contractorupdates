@@ -26,18 +26,11 @@ DEFAULT_DAYS = 14
 
 
 def load_enrichment():
-    up = os.path.join(ROOT, 'work', 'updates')
-    out = {}
-    for f in sorted(glob.glob(os.path.join(up, 'out*.json'))) + \
-             sorted(glob.glob(os.path.join(up, 'rerun', 'out*.json'))):
-        try:
-            d = json.load(open(f))
-        except Exception:
-            continue
-        for r in (d.get('results') if isinstance(d, dict) else d) or []:
-            if r.get('cardId'):
-                out[r['cardId'].strip()] = r
-    return out
+    """Reuse the builder's own loader, merges and all. Two implementations of "what is
+    on this file" would drift, and the gate would then pass a page it should have failed."""
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    from build_rep_pages import ENRICH
+    return ENRICH
 
 
 def load_activity(csv_path):

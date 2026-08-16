@@ -7,26 +7,30 @@
 <section class="tiles">
 <div class="tile"><span class="n">383</span><span class="l">Open files</span></div>
 <div class="tile"><span class="n">85</span><span class="l">In appraisal</span></div>
-<div class="tile alert"><span class="n">14</span><span class="l">Need you</span></div>
+<div class="tile alert"><span class="n">12</span><span class="l">Need you</span></div>
 <div class="tile good"><span class="n">225</span><span class="l">Settled</span></div>
 <!--MORE-->
+<section class="foot"><p class="fine">This client has enough open files that each history below shows its 6 most recent events. Ask us for the full history on any file.</p></section>
 <section class="foot"><p>Questions on any file here? Reply to your last email thread with us, or call 737-258-3127.</p><p class="fine">This page refreshes every Monday morning. Bookmark it &mdash; the link stays the same.</p></section>
 <style>
   :root{
     --bg:#f7f7f5; --card:#ffffff; --ink:#1a1a17; --muted:#6b6b63;
     --line:#e3e2dc; --accent:#7a5cff; --alert:#d21414; --alert-bg:#fff1f1;
+    --warn:#b45309; --warn-bg:#fff7ea;
     --good:#15803d; --radius:14px;
   }
   @media (prefers-color-scheme:dark){
     :root:not([data-theme="light"]){
       --bg:#141413; --card:#1e1e1c; --ink:#f0efe9; --muted:#9a998f;
       --line:#2e2e2a; --accent:#a58cff; --alert:#ff5a5a; --alert-bg:#2c1212;
+      --warn:#f59e0b; --warn-bg:#2b1e08;
       --good:#4ade80;
     }
   }
   :root[data-theme="dark"]{
     --bg:#141413; --card:#1e1e1c; --ink:#f0efe9; --muted:#9a998f;
     --line:#2e2e2a; --accent:#a58cff; --alert:#ff5a5a; --alert-bg:#2c1212;
+    --warn:#f59e0b; --warn-bg:#2b1e08;
     --good:#4ade80;
   }
   *{box-sizing:border-box}
@@ -94,6 +98,46 @@
   .settled-lead{
     margin:-8px 0 18px; font-size:13.5px; color:var(--good); font-weight:600;
   }
+
+  /* Appraisal invoked, 60+ days gone, and the carrier still has not named an appraiser.
+     Orange, not red: red means the contractor has something to do, and this one is on
+     us to keep chasing. It still must not read as a file quietly progressing. */
+  .file.waiting{border-color:var(--warn); background:var(--warn-bg); border-width:2px}
+  .waiting-note{
+    margin:10px 0 0; padding:10px 12px; border-radius:9px;
+    background:rgba(217,119,6,.13); color:var(--warn);
+    font-size:14px; font-weight:640; border-left:4px solid var(--warn);
+  }
+  .waiting-note::before{content:"\23F3\FE0E  "; font-weight:700}
+
+  /* Where this file sits in the process. A contractor knows what "negotiating" means;
+     what they cannot see from a stage name is how much of the run is behind them. */
+  ol.track{
+    display:flex; flex-wrap:wrap; gap:4px 0; align-items:center;
+    margin:2px 0 11px; padding:0; list-style:none;
+    font-size:11px; letter-spacing:.03em; text-transform:uppercase; font-weight:640;
+  }
+  ol.track li{color:var(--muted); opacity:.55; white-space:nowrap}
+  ol.track li+li::before{content:"\203A"; margin:0 6px; opacity:.5; font-weight:400}
+  ol.track li.done{opacity:.85}
+  ol.track li.now{
+    color:var(--accent); opacity:1;
+    border-bottom:2px solid var(--accent); padding-bottom:1px;
+  }
+
+  /* The newest events, printed open. A collapsed history is a history nobody reads,
+     and "what moved lately" is the question the page exists to answer. */
+  .latest{
+    margin:11px 0 0; padding:11px 13px; border-radius:10px;
+    background:color-mix(in srgb, var(--accent) 7%, transparent);
+    border-left:3px solid var(--accent);
+  }
+  .latest-h{
+    margin:0 0 7px; font-size:11.5px; letter-spacing:.06em; text-transform:uppercase;
+    color:var(--accent); font-weight:680;
+  }
+  .latest ol.events{margin:0}
+  .latest ol.events li:last-child{padding-bottom:0}
 
   /* Chain of events: the dated history of everything done on or received for a file,
      built by back-reading the email threads and stored on the Trello card. */

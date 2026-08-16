@@ -1,7 +1,7 @@
 {
- "page": "work/pages/company-legacy-roofing-gc.html",
+ "page": "/home/user/contractorupdates/tools/../work/pages/company-legacy-roofing-gc.html",
  "sentinel": "<!--MORE-->",
- "dir": "work/publish/chunks/company-legacy-roofing-gc",
+ "dir": "/home/user/contractorupdates/work/publish/chunks/company-legacy-roofing-gc",
  "skeleton": "00-skeleton.html",
  "chunks": [
   "01.html",
@@ -10,7 +10,10 @@
   "04.html",
   "05.html",
   "06.html",
-  "07.html"
+  "07.html",
+  "08.html",
+  "09.html",
+  "10.html"
  ],
  "markers": [
   "<!--C:01-->",
@@ -19,8 +22,11 @@
   "<!--C:04-->",
   "<!--C:05-->",
   "<!--C:06-->",
-  "<!--C:07-->"
+  "<!--C:07-->",
+  "<!--C:08-->",
+  "<!--C:09-->",
+  "<!--C:10-->"
  ],
- "sourceBytes": 126452,
- "calls": 9
+ "sourceBytes": 177755,
+ "calls": 12
 }

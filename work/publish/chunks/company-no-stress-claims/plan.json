@@ -1,7 +1,7 @@
 {
- "page": "work/pages/company-no-stress-claims.html",
+ "page": "/home/user/contractorupdates/tools/../work/pages/company-no-stress-claims.html",
  "sentinel": "<!--MORE-->",
- "dir": "work/publish/chunks/company-no-stress-claims",
+ "dir": "/home/user/contractorupdates/work/publish/chunks/company-no-stress-claims",
  "skeleton": "00-skeleton.html",
  "chunks": [
   "01.html",
@@ -19,7 +19,13 @@
   "13.html",
   "14.html",
   "15.html",
-  "16.html"
+  "16.html",
+  "17.html",
+  "18.html",
+  "19.html",
+  "20.html",
+  "21.html",
+  "22.html"
  ],
  "markers": [
   "<!--C:01-->",
@@ -37,8 +43,14 @@
   "<!--C:13-->",
   "<!--C:14-->",
   "<!--C:15-->",
-  "<!--C:16-->"
+  "<!--C:16-->",
+  "<!--C:17-->",
+  "<!--C:18-->",
+  "<!--C:19-->",
+  "<!--C:20-->",
+  "<!--C:21-->",
+  "<!--C:22-->"
  ],
- "sourceBytes": 283666,
- "calls": 18
+ "sourceBytes": 383088,
+ "calls": 24
 }
