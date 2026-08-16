@@ -286,8 +286,12 @@ def scrub(text):
     return re.sub(r'\s{2,}', ' ', text).strip(' ,;')
 
 
+# Enrichment, keyed by card id. `rerun/` is loaded last and wins: it holds files whose
+# timeline was found to stop short of the newest email and was re-read.
 ENRICH = {}
-for _f in sorted(glob.glob(os.path.join(os.path.dirname(__file__), '..', 'work', 'updates', 'out*.json'))):
+_UP = os.path.join(os.path.dirname(__file__), '..', 'work', 'updates')
+for _f in sorted(glob.glob(os.path.join(_UP, 'out*.json'))) + \
+          sorted(glob.glob(os.path.join(_UP, 'rerun', 'out*.json'))):
     try:
         _d = json.load(open(_f))
     except Exception:

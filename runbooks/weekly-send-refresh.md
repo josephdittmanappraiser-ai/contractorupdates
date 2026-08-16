@@ -275,3 +275,28 @@ Before publishing, run the leak scan over `work/pages/*.html` and read every hit
 
 Hits on staff names inside an `<h3>` are usually a real insured who shares a first name with
 someone in the office. Check before "fixing" one.
+
+---
+
+## Freshness gate — run this before publishing
+
+A back-read that stops early is the failure mode with no natural tell. The agent returns a
+confident timeline and a status line; both read fine; the only thing wrong is that the last
+two months are missing — which is the part a contractor actually opens the page for.
+
+It happened. One file's chain ended 18 June with "no record of the file moving further since
+then," while the thread ran to the previous day and included Joseph telling the carrier's
+appraiser to go to umpire and the appraiser agreeing. The contractor caught it, not the tooling.
+Measuring the whole run afterwards put 75 of 457 files more than two weeks behind their own
+card's last-activity date.
+
+```
+python3 tools/check_timeline_freshness.py <board-export.csv>
+```
+
+It exits non-zero if any file's newest event trails its card activity by more than 14 days
+without the agent explaining why, and writes the offenders to
+`work/updates/stale-timelines.json`. Re-run enrichment on that list before publishing.
+
+A gap is a signal, not a verdict — a card gets touched for a Trello move with no new email.
+That is what `staleReason` is for. What must not happen is an unexplained gap going out.
