@@ -1,0 +1,84 @@
+{
+ "batch": 5,
+ "results": [
+  {
+   "cardId": "686ed56fdacdfd7e3616d00b",
+   "newEvents": [],
+   "update": "No correspondence specific to this file turned up among the threads reviewed for this batch; the file's prior recorded status stands.",
+   "needed": null,
+   "threadsRead": [],
+   "threadsDropped": ["1a003d16eaa86edc","1a0038863db59abf","1a0035e0570f2fbd","1a00224693d1ef12","1a00081ce374ccfb","19ff1a1648cf9323","19ff0cba9607f292","19fde4de193a1358","19fddc00b2924364","19fdd9f873a1dbf8","19fdd4794e41d608","19fabdbbe5ca6ab7","19fd858cef28e614","19fd3111c2b16b25","19fd272ed57a16eb","19fceb26714ff68c","19fc51a53add47c9","19fbef6fa7ea4822","19fbef2c395112d3","19fbedabd59c45de"],
+   "trelloItemsAdded": 0,
+   "notes": "All 20 threads belong to other Legacy Roofing GC clients (Kukreja, Thallapureddy, Liang/Ampion, Gillespie, Hui, Joong Kim, Majmudar, Koppisetty, Jamaal Young, Roby Tanzil-adjacent Cruz Gomez Henriquez, Yiqin Zhao/Laya Li, Rahul Mahashank, Sharon Owens/Stronghouse, two Patel referrals, Ashley Pathak) or to an unrelated Pablo Martinez auto-shop claim (A3G4425, St Paul Fire and Marine) that only phonetically resembles the insured's surname. None mention Odellia Kay Martinez. Dropped all 20."
+  },
+  {
+   "cardId": "69bad830ea759f6a3f5523a7",
+   "newEvents": [],
+   "update": "The carrier's appraiser already sent his position and a proposed award (recorded July 6); Joseph is reviewing it to respond and move the appraisal toward resolution. No further movement on this specific file came in this pass.",
+   "needed": null,
+   "threadsRead": ["19eeb576798a0f84"],
+   "threadsDropped": ["19ff1362d8b746b4","19fd884bc62dcfe4","19f9b8ce6bb21ea1","19f8fe13ac916d61","19f7d90e3412ad21","19f6905aa026c089","19f4e4b3b8f1cc6b","19f423d5568c2936","19f40afe7101cdb4","19f25c3cf302f422"],
+   "trelloItemsAdded": 0,
+   "notes": "Clayton Grassi is also a Stronghouse Pro/Powerhaus Solutions contractor rep who refers other homeowners to Joseph; ten threads are those other referred clients' files (Roby Tanzil, Dorantes, John Maldonado, Chad Raymond x4, Ramon & Jesus Gutierrez) and were dropped as different insureds. The one on-file thread's newest message (the carrier's appraiser's July 6 position and proposed award) was already on the Chain of Events checklist, so nothing new was added."
+  },
+  {
+   "cardId": "69ea5db2237738678621211c",
+   "newEvents": [
+    {"date": "2026-07-15", "event": "The umpire scheduled the property inspection for July 31, and the carrier confirmed attendance."},
+    {"date": "2026-07-17", "event": "The carrier paid its share of the umpire's invoice."},
+    {"date": "2026-07-28", "event": "The insured's representative firm reported they were processing the insured's share of the umpire's payment."},
+    {"date": "2026-07-30", "event": "The homeowner confirmed interior access for the umpire's July 31 inspection."},
+    {"date": "2026-07-31", "event": "The umpire completed the property inspection."},
+    {"date": "2026-08-05", "event": "The insured's representative firm reported the insured's payment to the umpire had been sent."},
+    {"date": "2026-08-06", "event": "Joseph reported the insured's payment as issued; the umpire said he would release his position once it arrives."},
+    {"date": "2026-08-14", "event": "The carrier asked for an update on the outstanding payment."},
+    {"date": "2026-08-15", "event": "The umpire said the insured's payment still had not arrived, and set an August 24 deadline to sign the award without further consideration of the insured's position if it is not received or committed to by then."}
+   ],
+   "update": "The umpire's inspection was completed July 31; the carrier has paid its share of the umpire's fee, but the insured's share, though reportedly sent August 5, had not arrived as of August 15 — the umpire has set an August 24 deadline to issue the award without further input from the insured's side if it isn't received or committed to by then.",
+   "needed": null,
+   "threadsRead": ["19faf365fa57371c","19f7b1b04c7e7dde","19e4bf9fb76043c8","19dbb5f88c560c6d","19f6d66e25daf7c8","19f6a6f86e8b3d00"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 9,
+   "notes": "All six threads concern this file. Two (an out-of-office auto-reply and a departure notice) were skipped for events. A Trello digest email and a multi-client claim-wizard-link request both name Julio Granados among many unrelated clients but carry no substantive correspondence about this claim, so they produced no separate events."
+  },
+  {
+   "cardId": "690283822da9c01e102a2bd1",
+   "newEvents": [
+    {"date": "2026-04-15", "event": "The carrier's appraiser sent an updated position and photos, reporting ten damaged shingles that still tested in good condition."},
+    {"date": "2026-04-16", "event": "Joseph reviewed the carrier's appraiser's position and sent back detailed feedback on the roof, downspouts, window screen, garage, and fence damage."},
+    {"date": "2026-06-06", "event": "Joseph confirmed a shingle sample had been sent out for NTS/Itel testing and the file was awaiting results."},
+    {"date": "2026-07-13", "event": "The carrier's appraiser flagged that the file had been waiting on the NTS/Itel report since early June."},
+    {"date": "2026-07-24", "event": "Joseph followed up with the contractor again to press for the outstanding report."},
+    {"date": "2026-08-06", "event": "The carrier's appraiser said the file was significantly overdue and he was being pressed for updates."}
+   ],
+   "update": "The file is stalled waiting on the contractor: rough garage measurements requested since April are still outstanding, and a shingle sample sent out for NTS/Itel testing in early June still hasn't come back — the carrier's appraiser has followed up repeatedly and says the file is significantly overdue.",
+   "needed": "Rough garage measurements and the outstanding NTS/Itel shingle test report, both still owed by the contractor.",
+   "threadsRead": ["19d2600edc0bb8a0","19cb72a020a2d194"],
+   "threadsDropped": ["19c34f0a5a68fe38"],
+   "trelloItemsAdded": 6,
+   "notes": "Dropped 19c34f0a5a68fe38 — a running multi-client 'APPRAISAL INSPECTION REMINDER' thread from a scheduling company; its only mention of Chasity Cloud Taulton predates the search cutoff, and every message after the cutoff concerns other insureds. The existing checklist already covers the repeated garage-measurement request through June 3, so that repeat ask was not re-added; the two newer items (position review and NTS/Itel wait) were not yet recorded."
+  },
+  {
+   "cardId": "69e66b50b2382b3b3f201192",
+   "newEvents": [],
+   "update": "USAA has confirmed its named appraiser is actively working the file; next we wait on that appraiser's position or further movement. No new correspondence for this file came in beyond what's already recorded.",
+   "needed": null,
+   "threadsRead": ["19fb4db33b92495d"],
+   "threadsDropped": ["19f65268f198d74b"],
+   "trelloItemsAdded": 0,
+   "notes": "Dropped 19f65268f198d74b — it concerns a different insured, Eliseo Villalobos, represented by a public adjuster firm (unrelated to this file's Kevin Villalobos/USAA direct claim). The one on-file thread's message (USAA naming its appraiser, July 30) was already on the Chain of Events checklist, so nothing new was added."
+  },
+  {
+   "cardId": "69e7bbeadd8694321b8f7c37",
+   "newEvents": [],
+   "update": "No correspondence specific to this file turned up among the threads reviewed for this batch; the file's prior recorded status stands.",
+   "needed": null,
+   "threadsRead": [],
+   "threadsDropped": ["19d6565b1efbe7f4"],
+   "trelloItemsAdded": 0,
+   "notes": "The single thread handed over is entirely about a different insured's claim (Thomas Clark, 5539 Denmans Mountain Rd, Belton TX, claim 1572311) with a different contractor contact; it never mentions Matthew Krowski. Dropped."
+  }
+ ],
+ "checked": 6,
+ "withNewEvents": 2
+}
