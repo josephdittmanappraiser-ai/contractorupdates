@@ -1,0 +1,85 @@
+{
+ "batch": 6,
+ "results": [
+  {
+   "cardId": "67200d91b93a0a2730b34fc8",
+   "newEvents": [],
+   "update": "",
+   "needed": null,
+   "threadsRead": [],
+   "threadsDropped": ["19ff5f896686158b", "19ff2b0b4e6321b4", "19ff2a8b265380a6", "19ff1542a03e569d", "19fed326f4ab5934", "19fcde34a0d661a2", "19fc8a5bd381939b", "19fc79bc454a4456", "19fb83e6b8f13c26", "19fa61173476ee8b", "19f9abe45caa72e8", "19f9055c8224030d", "19f81c5135bc6fdd", "19f802a1fb95aa2e", "19f801a2c3f157f5", "19f7d91297f0f5a4", "19f760871dfa0362"],
+   "trelloItemsAdded": 0,
+   "notes": "All 17 threads matched only on the substring 'Curtis' and are about entirely different insureds and files, none named Anthony Craig Curtis: Pravin Bhute (Liberty Mutual, adjuster Johnathon Curtis), Curtis Redwine & Shelley Redwine (American Strategic, claim 1630750-264402), Jamie/Curtis Shakotko (AFICS/Homesite, claim 01-009-856585), Fidencia Mondragon (Liberty Mutual, claim 061217720-01), an Allstate claim for a Raval household (adjuster Curtis Gillard), an unnamed Allstate insured (adjuster Curtis Gillard, claim 000829838183), Curtis Corkin (Safeco, claim 060940993), and an out-of-office auto-reply from adjuster Curtis Hemker regarding a Pendleton claim. None mention Anthony Craig Curtis. Dropped all 17; no new events for this file."
+  },
+  {
+   "cardId": "6a1785485f27a1954bcdc187",
+   "newEvents": [
+    {"date": "2026-06-22", "event": "Joseph set the first appraisal inspection dates: the carrier's appraiser for July 1 and Joseph's own exterior inspection for June 26."},
+    {"date": "2026-07-01", "event": "The carrier's appraiser's July 1 inspection did not go forward because the homeowner had not confirmed; the inspection was rescheduled."},
+    {"date": "2026-07-16", "event": "A rescheduled inspection for the carrier's appraiser again did not go forward because the homeowner still had not confirmed."},
+    {"date": "2026-07-20", "event": "Joseph's inspector arrived for the scheduled inspection, but the homeowner turned him away, unaware that an inspection had been arranged; the contractor followed up with the homeowner directly."},
+    {"date": "2026-07-31", "event": "The homeowner told the contractor he wants to proceed with the appraisal after the missed inspection."},
+    {"date": "2026-08-06", "event": "New inspection dates were confirmed: Joseph's exterior inspection for August 11 and the carrier's appraiser's inspection for August 13."},
+    {"date": "2026-08-11", "event": "Joseph completed his exterior inspection of the property."},
+    {"date": "2026-08-12", "event": "Joseph sent his position to the carrier's appraiser — his estimate and a photo report from the inspection — and confirmed the appraiser's own inspection would proceed August 13."}
+   ],
+   "update": "Joseph completed his own inspection on August 11 and sent his estimate and photo report to the carrier's appraiser on August 12, ahead of the carrier appraiser's own inspection on August 13; the file awaits the carrier's appraiser's position before the two sides can compare and move toward an award.",
+   "needed": null,
+   "threadsRead": ["19ead7fbc7063186", "19e6bdef1426a3ca"],
+   "threadsDropped": ["19ee1f97e4474c4e", "19ee1f76fe792902", "19ffbdc096101f01", "19fce90a2dc29342", "19fa3f436be55432", "19f7d6d4fe32cf6c", "19e342246c82eea1", "19f3d9170ea50ed4"],
+   "trelloItemsAdded": 8,
+   "notes": "Dropped: two bounce-notice threads about the original inspection-schedule email; a thread titled 'jose mendez' (19ffbdc096101f01) and two calendar-invite threads (19fce90a2dc29342, 19f3d9170ea50ed4) that are all about a different insured, Jose Mendez, at a different address (10926 Cayman Mist Dr, Houston) and a different carrier (AMICA) — including that file's own position exchange and impasse, which does not belong to Vidal Mendez; a bulk unpaid-invoice email (19f7d6d4fe32cf6c) that does not list a Mendez claim; a past-due-payments thread about Heather Denby and Renee Martinez (19e342246c82eea1); and a mass USAA auto-reply thread (19fa3f436be55432) covering many unrelated claimants (including a different person, Vidal Pastrana, not Vidal Mendez)."
+  },
+  {
+   "cardId": "6a0bb8aeac5b5fb4d83d7bd3",
+   "newEvents": [
+    {"date": "2026-07-29", "event": "The carrier's appraiser sent his position for review."},
+    {"date": "2026-07-30", "event": "Joseph reviewed the carrier's appraiser's position and requested corrections to the scope, including supervision hours and roofing items, before he would consider an award."}
+   ],
+   "update": "Positions have been exchanged: Joseph's estimate went out July 14 and the carrier's appraiser sent his position back July 29. Joseph reviewed it July 30 and asked for several corrections to the scope before he'll consider signing an award; the file awaits the carrier's appraiser's response.",
+   "needed": null,
+   "threadsRead": ["19e943e162140583", "19f5c6cda3a84b98"],
+   "threadsDropped": ["19ff20fd110475d1", "19fd55c09479600a", "19f8ffee71994510", "19e3b4a2d8eea3ae"],
+   "trelloItemsAdded": 2,
+   "notes": "The only genuinely new thread was 'Appr for Michelle Hawkins' (19e943e162140583); despite the subject line naming Michelle Hawkins, the estimate Joseph's office sent in it is filed as 'STEVEN-HAWKINS1 Steven~SHawkins.ESX', and the existing Trello checklist already records 'the office sent its position to the carrier's appraiser' on 2026-07-14 — the exact event in that thread — confirming this is the same Steven Hawkins file; that July 14 event was already recorded so it was not re-added. The bulk 'Appriser/PA updates' thread (19f5c6cda3a84b98) corroborates the same July 14 position-sent fact for 'Steven Hawkins.' Dropped as unrelated: a law-firm thread about a different insured, Johnathan Coleman (19ff20fd110475d1); an invoice/W-9 thread for a different claim, Davis Dong (19fd55c09479600a, and the earlier full 'Davis Dong' thread 19e3b4a2d8eea3ae); and a pre-appraisal demand for a different insured, Lashay Larue, at a different address (19f8ffee71994510) — the law-firm staff and adjuster surnames coincidentally include 'Hawkins.'"
+  },
+  {
+   "cardId": "6a47d422f42a4522a9a18185",
+   "newEvents": [
+    {"date": "2026-07-17", "event": "The homeowner confirmed both inspection dates: Joseph's on July 20 and the carrier's appraiser's on August 3."},
+    {"date": "2026-08-03", "event": "The carrier's appraiser completed his inspection of the property; a ladder assist was scheduled to return the next morning for roof photos."},
+    {"date": "2026-08-04", "event": "Joseph confirmed he would let the homeowner know about the ladder-assist visit."}
+   ],
+   "update": "The carrier's appraiser inspected the property on August 3, with a ladder assist returning August 4 to photograph the roof; the file is moving through the joint-inspection stage of the appraisal, with no position exchanged yet.",
+   "needed": null,
+   "threadsRead": ["19f709811b527ed4", "19f4e2eccff5860f", "19f28cc5a7fd52d5"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 3,
+   "notes": ""
+  },
+  {
+   "cardId": "6a3ec75f5991d11d1ccc0b06",
+   "newEvents": [
+    {"date": "2026-08-04", "event": "Joseph asked the contractor directly to help get Mr. Farassati to sign the outstanding Appraisal Demand Letters, noting the contractor had already approved the estimates behind them."}
+   ],
+   "update": "Eleven Appraisal Demand Letters sent to Mr. Farassati via DocuSign remain unsigned despite repeated reminders through mid-August; Joseph has asked the contractor to help get the homeowner to sign so the appraisals can be submitted to the carrier.",
+   "needed": "The contractor should help get Mr. Farassati to sign the outstanding DocuSign Appraisal Demand Letters for his eleven properties so the appraisals can move forward.",
+   "threadsRead": ["19fa66fc34e791f8", "19f41f4af9f5c9e7"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 1,
+   "notes": "The existing Chain of Events checklist already had a consolidated item covering the homeowner/contractor reminder cascade of July 28, 31 and August 8, 10, 12 as 'still outstanding' — that was not duplicated. The one genuinely new fact was the August 4 email asking the contractor directly (a distinct thread from the homeowner reminders) to help chase the signature."
+  },
+  {
+   "cardId": "69f8fdad2ec48a6f75b37b36",
+   "newEvents": [],
+   "update": "",
+   "needed": null,
+   "threadsRead": [],
+   "threadsDropped": ["19ff5b61220fb81b"],
+   "trelloItemsAdded": 0,
+   "notes": "The single thread is a do-not-reply@trello.com digest email ('6 new notifications on Insured Appraisals') whose contents are entirely about other cards — Vidal Mendez (estimate attached, moved to 'Estimate under review' then 'reviewed OA's position') and Matthew Krowski — with no mention of Norma Lopes anywhere in it. Dropped as a Trello digest per instructions; no new events for this file."
+  }
+ ],
+ "checked": 6,
+ "withNewEvents": 4
+}
