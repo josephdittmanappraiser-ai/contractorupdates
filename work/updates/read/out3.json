@@ -1,0 +1,79 @@
+{
+ "batch": 3,
+ "results": [
+  {
+   "cardId": "69dfa48abd7852a768d79a5c",
+   "newEvents": [
+    {"date": "2026-07-20", "event": "Joseph's office confirmed to the carrier's appraiser that the property had already been inspected on June 4."}
+   ],
+   "update": "The property was inspected on June 4, and Joseph's team confirmed that to the carrier's appraiser in July; the file is now waiting on the carrier's appraiser to issue his position on the loss.",
+   "needed": null,
+   "threadsRead": ["19d6565b1efbe7f4","19ff1f3d10035d03","19fd26cb0acce328","19fc98da35ee6742","19fc95256f07d93a","19fc94345172ed57","19fc8b7c9081b200","19fba05fdc1f270c","19fa90386e254515","19fa61173476ee8b","19f918a71613b7aa","19f90fa63a79d5a5","19f8aeff0b13682b","19f8050e42a3bfbb","19f6a2dd532d3438","19f4b732825e2b43","19f47390a23fa56b","19f40b4291436fb7","19f407f27ec5f706","19f2dba3fcba507f","19f2d6a0eeed83b6"],
+   "threadsDropped": ["19ff1f3d10035d03","19fd26cb0acce328","19fc98da35ee6742","19fc95256f07d93a","19fc94345172ed57","19fc8b7c9081b200","19fba05fdc1f270c","19fa90386e254515","19fa61173476ee8b","19f918a71613b7aa","19f90fa63a79d5a5","19f8aeff0b13682b","19f8050e42a3bfbb","19f6a2dd532d3438","19f4b732825e2b43","19f47390a23fa56b","19f40b4291436fb7","19f407f27ec5f706","19f2dba3fcba507f","19f2d6a0eeed83b6"],
+   "trelloItemsAdded": 1,
+   "notes": "20 of the 21 threads were false positives from the surname 'Clark' matching appraisers Clark Bolls (criticalbarrierswtx.com) and Bobby Clark (RYZE Claims) on unrelated files (Skye/Craig Peters, Adolfo Prado, Nora Jimenez, Krystal Connell, Kelly Baca, Carol Adams, Jordan/Beasom, Sara Spivey, Revis Joiner, Roccaforte, Stubbs, Jackson fire claim, Oleksi/Iatsiuk, Greg Stoner resume, and Trello digests for other cards) — dropped. Only 19d6565b1efbe7f4 is the real Thomas Clark / 1572311-254402 thread."
+  },
+  {
+   "cardId": "69d59926aca942018e05acb7",
+   "newEvents": [
+    {"date": "2026-06-17", "event": "The carrier's appraiser told Joseph's office the June 8 inspection had been rained out and was rescheduled to June 22 at 1:00 PM."}
+   ],
+   "update": "The carrier appraiser's June 8 inspection was rained out and rescheduled to June 22; the file record doesn't yet show confirmation the makeup inspection went forward.",
+   "needed": null,
+   "threadsRead": ["19fda2ab664a4ab4","19fd7c2b3487c9f0","19fd4c2c05a62fed","19fc48339db6b4a8","19faeb6f47256de4","19fa99121f6c5cee","19f9509fc9f72952","19f91048f5f94017","19f85ac7f92130ef","19f7d915eb18a046","19f72127c1adc3bb","19e6aa253ad7235e","19e29a200c838eab"],
+   "threadsDropped": ["19fda2ab664a4ab4","19fd7c2b3487c9f0","19fd4c2c05a62fed","19fc48339db6b4a8","19faeb6f47256de4","19fa99121f6c5cee","19f9509fc9f72952","19f91048f5f94017","19f85ac7f92130ef","19f7d915eb18a046","19f72127c1adc3bb"],
+   "trelloItemsAdded": 1,
+   "notes": "Dropped: Juan Garza autoreply, Beshay invoice, Pastrana invoice, Hackberry Road real-estate title/closing threads (unrelated transaction), Wadhwani claim x2, Jesus Caballero invoice, Eva De La Garza claim (different insured), and a SignWell 'Garza_Unsigned_Award' completion notice that names no claim number/address/umpire matching this file (carrier appraiser here is Cedric Ledet, not the signer on that award) so it could not be confirmed as this insured's file. Thread 19e6aa253ad7235e (the bounced homeowner-notice email) is genuinely this file's but its one event was already on the checklist as of searchAfter."
+  },
+  {
+   "cardId": "687a6344246ed35e0d947707",
+   "newEvents": [
+    {"date": "2026-08-15", "event": "Joseph's office and the umpire panel continued following up with No Stress Claims for confirmation the umpire invoices were paid; still no confirmation as of August 15."}
+   ],
+   "update": "The umpire's invoice remains unpaid; despite repeated follow-ups through August 15 there's still no confirmation payment has been made, which is what's holding the file up.",
+   "needed": null,
+   "threadsRead": ["19ffdb3286790e3d","19ffc801d4865f2e","19ff116c006b496d","19ff0d20551bc10c","19fe5bd85e20647a","19ea345996c5f59a","1995e0b16595b35c"],
+   "threadsDropped": ["19ffdb3286790e3d","19ffc801d4865f2e","19ff116c006b496d","19ff0d20551bc10c","19fe5bd85e20647a"],
+   "trelloItemsAdded": 1,
+   "notes": "Dropped: a different property's roof claim (201 Elbow Bush Cv), a SiriusXM ad, an Allstate claim for Jeffrey Williams (different insured/address) read twice under two subjects, and an Allstate claim for the Miranda household. Thread 19ea345996c5f59a ('Williams DOU') was initially suspected unrelated (no address given) but the existing Trello checklist confirmed it is this file's umpire (Kevin Mohr) thread, so it was kept and read for new events."
+  },
+  {
+   "cardId": "69bb0544436a84989ebf1c02",
+   "newEvents": [
+    {"date": "2026-07-09", "event": "The carrier's appraiser told Joseph the two positions were too far apart and named Miles Kamp as umpire."},
+    {"date": "2026-07-13", "event": "The umpire, Miles Kamp, confirmed the assignment, sent his invoice and DOA/SOU, and said he'd schedule the inspection once both sides paid; the carrier's side paid its half the same day."},
+    {"date": "2026-07-23", "event": "Joseph's office sent the umpire's invoice to Stronghouse for payment; the insured's side is still outstanding."},
+    {"date": "2026-08-04", "event": "Stronghouse told Joseph's office the homeowner wants to back out because he's selling the home, and Stronghouse is trying to meet with him to discuss it."},
+    {"date": "2026-08-11", "event": "Joseph's office followed up with Stronghouse for an update on the homeowner's decision and the outstanding umpire payment; no response yet."}
+   ],
+   "update": "The claim went to umpire (Miles Kamp) after the two appraisers couldn't agree; the carrier's share of the umpire fee is paid but the insured's share is still outstanding, and the homeowner has told Stronghouse he may want to back out because he's selling the house.",
+   "needed": "Stronghouse needs to get the outstanding umpire invoice paid and confirm whether the homeowner still wants to proceed with the appraisal now that he's selling the home.",
+   "threadsRead": ["19fc48339db6b4a8","19e096e809a79648","19d02879ce56604a"],
+   "threadsDropped": ["19fc48339db6b4a8"],
+   "trelloItemsAdded": 5,
+   "notes": "Dropped the Pastrana appraisal invoice thread (different insured). Both remaining threads confirmed via claim number 0820895125 and the 747 Evening Star, Kyle TX address."
+  },
+  {
+   "cardId": "6a3ec6815df0cd10e49989c5",
+   "newEvents": [],
+   "update": "The appraisal demand letters for all 11 of Mr. Farassati's properties remain unsigned as of the last reminder on August 12, despite repeated follow-ups to both the homeowner and the contractor.",
+   "needed": "The homeowner (Faris Farassati) still needs to sign the DocuSign appraisal demand letters for all 11 properties; the contractor should keep nudging him.",
+   "threadsRead": ["19fa66fc34e791f8","19f41f4af9f5c9e7"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 0,
+   "notes": "Both threads are genuinely this file's (Faris Farassati, multiple properties referred by Stronghouse/LINEAR Roofing, contact Michael Shemas). Every message found (reminders on 7/28, 7/31, 8/4, 8/8, 8/10, 8/12) was already captured by the existing Chain of Events checklist item covering '2026-07-28 to 2026-08-12 — repeated reminders ... still outstanding as of the last reminder,' so no new checklist item was added."
+  },
+  {
+   "cardId": "6a3bf31ed6ab3158a1ddbe5c",
+   "newEvents": [],
+   "update": "The carrier's appraiser has committed to inspecting the week of 8/31-9/4 but still hasn't given a firm date despite two more follow-ups on August 11 and 15.",
+   "needed": null,
+   "threadsRead": ["19f81d42a41c7792"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 0,
+   "notes": "Thread is genuinely this file's (Ahmed Taha, claim 86001). Both new messages found (Aug 11 and Aug 15 follow-ups asking the carrier's appraiser for a firm inspection time) were already captured by the existing checklist item '2026-08-11 to 2026-08-15 — We followed up twice more ... still awaiting his response,' so no new checklist item was added."
+  }
+ ],
+ "checked": 6,
+ "withNewEvents": 4
+}

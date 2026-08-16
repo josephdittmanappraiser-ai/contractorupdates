@@ -449,14 +449,15 @@ for _f in sorted(glob.glob(os.path.join(_UP, 'out*.json'))) + \
 # The verification pass returns only what a file GAINED, because it re-checked a claim that
 # nothing had happened since a given date. So merge rather than replace: a verify record
 # carrying three new events must not wipe the twelve already on the file.
-for _f in sorted(glob.glob(os.path.join(_UP, 'verify', 'out*.json'))):
+for _f in (sorted(glob.glob(os.path.join(_UP, 'verify', 'out*.json')))
+           + sorted(glob.glob(os.path.join(_UP, 'read', 'out*.json')))):
     try:
         _d = json.load(open(_f))
     except Exception:
         continue
     for _r in (_d.get('results') if isinstance(_d, dict) else _d) or []:
         _cid = (_r.get('cardId') or '').strip()
-        if not _cid or not _r.get('hasNewer'):
+        if not _cid or not (_r.get('hasNewer') or _r.get('newEvents')):
             continue
         _base = ENRICH.setdefault(_cid, {'cardId': _cid, 'timeline': []})
         _tl = list(_base.get('timeline') or [])

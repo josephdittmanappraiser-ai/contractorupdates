@@ -1,0 +1,56 @@
+{
+ "batch": 1,
+ "results": [
+  {
+   "cardId": "69f210fb4000625388646899",
+   "newEvents": [
+    {"date": "2026-06-13", "event": "Joint inspection with the carrier's appraiser was rescheduled from June 12 to June 13."},
+    {"date": "2026-06-17", "event": "Joseph submitted his estimate to the carrier's appraiser, who confirmed receipt and said review would follow."},
+    {"date": "2026-07-15", "event": "Joseph followed up with the carrier's appraiser for a status update; no response received yet."}
+   ],
+   "update": "The appraisal is awaiting the carrier's appraiser to complete his review of Joseph's estimate; Joseph followed up in mid-July with no response yet.",
+   "needed": null,
+   "threadsRead": ["19ea298a5ae80a9a", "19e71cf91f7405e7"],
+   "threadsDropped": ["19fd865e38ba365b", "19fcf725590203e6", "19fc93c82da283e9", "19fbdf19a82850c1", "19fbb0b04eef8535", "19fba28aae280d9d", "19fafe56ed12c079", "19fafae86a818a25", "19faf8d2bad82dfd", "19faf8d25da8483b", "19fa3b99526378c3", "19f81d42a41c7792", "19f61468b7655700", "19f6c1c60f8fff7c", "19f6bf7da0be8929", "19f61abcfe6b1515", "19f48784ea96179f", "19f442966bcc70c8", "19f201180029f584", "19f04cab46a6c4de"],
+   "trelloItemsAdded": 3,
+   "notes": "20 of 22 threads were about other insureds entirely (surname 'Patterson' appearing only as an umpire-candidate name, an adjuster's own surname, or coincidence): Castillo Appraisal, Hugo Mejia Anzora, Thammavongsa/State Farm, Andy Nguyen, Rao Appraisal, Chbani Appraisal, Thota Appraisal, Lyss Woods LLC (x3 threads), Ahmed Taha, Gordon Appraisal/State Farm, Belloso, Alma Chavez & Fernando Garcia, Rebecca Beserra, Mize Appraisal, Nicol, and Ashley Lyons. All dropped."
+  },
+  {
+   "cardId": "685d64699ea5794701cb131f",
+   "newEvents": [],
+   "update": "",
+   "needed": null,
+   "threadsRead": [],
+   "threadsDropped": ["19feca24170b0965", "19e39492827abc14", "19e16b285640726a", "19d9ce1231829a85", "19d68087cf8e5bdf", "19d22498c471b066", "19d1c39a248d3ed3", "19cf818807524a53", "19cf7b79256a8214", "19ce94fa4b145c0a", "19cb42ca0e4659ce", "19bd7b7627792851", "19bc4a0391b24832", "19bb8ae4bf3f30b1"],
+   "trelloItemsAdded": 0,
+   "notes": "All 14 threads matched only on the first name 'Martha' and are about a different insured — Martha Ornelas (State Farm claim 53-70L8-84F, 3807 Sherbrook Rd, Pasadena TX). This card's existing Chain of Events is about Martha Aguilar (appraiser Chip Belcher, contractor Assured Value Claims, umpire Jeremy Hill) — an unrelated file. Dropped all 14; no new events found for this file."
+  },
+  {
+   "cardId": "67b13ed83d83b06a42b09504",
+   "newEvents": [],
+   "update": "",
+   "needed": null,
+   "threadsRead": [],
+   "threadsDropped": ["19ffdb3286790e3d", "19ffc801d4865f2e", "19ff116c006b496d", "19ff0d20551bc10c", "19fe5bd85e20647a", "19fd9383b863c243", "19fcac8b766b7ccf", "19fd8b08ae936027"],
+   "trelloItemsAdded": 0,
+   "notes": "All 8 threads matched only on the surname 'Williams' and are about different insureds — Jeffrey Williams (Allstate claim 0827282492, an active new appraisal), Deana Williams (Liberty Mutual claim 061826503), the Miranda family (Allstate claim 0828700435), and a SiriusXM marketing email. This card's existing history is a closed appraisal now in an unpaid-fee dispute escalated to the insured's attorney in Dec 2025 — none of these threads connect to it. Dropped all 8."
+  },
+  {
+   "cardId": "69cbf466ed57c982a9c97f0c",
+   "newEvents": [
+    {"date": "2026-07-19", "event": "The carrier's appraiser sent his revised position and a proposed award; Joseph's office reviewed it and found the submission was missing inspection photos."},
+    {"date": "2026-07-22", "event": "Joseph asked the carrier's appraiser to update the price list and add supervision hours before he would sign the proposed award."},
+    {"date": "2026-07-26", "event": "Joseph flagged that the roofing material should be corrected to standing seam and asked the contractor for photos of the AC units included in the demand."},
+    {"date": "2026-08-15", "event": "The carrier's appraiser sent an updated award with the standing-seam correction, added supervision hours, and AC unit damage documentation; the award awaits Joseph's signature."}
+   ],
+   "update": "The carrier's appraiser sent an updated award on August 15 correcting the roofing material, adding supervision hours, and documenting AC unit damage; Joseph is reviewing it before signing to close out the appraisal.",
+   "needed": null,
+   "threadsRead": ["19dc0072321da04c", "19f8578ed5b5d2be", "19f8038abe052e44", "19ed70dc3f1eb142", "19d4c71e5ede3f4a"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 4,
+   "notes": ""
+  }
+ ],
+ "checked": 4,
+ "withNewEvents": 2
+}
