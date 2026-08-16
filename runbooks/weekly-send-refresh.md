@@ -321,3 +321,10 @@ instead:
 The scan is cheap because metadata carries no message bodies, and it is auditable: an id that
 was collected but never opened is a detectable failure, where "I searched and found nothing"
 never was.
+
+### Gmail rate limits during a scan
+
+Opening every thread id is call-heavy — one scan batch of 12 files made about 230 `get_thread`
+calls and hit Gmail's per-minute unit quota several times. That is survivable (pause, retry in
+smaller groups, and every id still gets opened) but it means scan batches should stay around a
+dozen files, and there is no point running more than about six concurrently.
