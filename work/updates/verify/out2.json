@@ -1,0 +1,135 @@
+{
+ "batch": 2,
+ "results": [
+  {
+   "cardId": "6924c33fa095eda883346483",
+   "verified": true,
+   "hasNewer": true,
+   "evidence": "Claim, surname and address searches after 2026-04-09 turned up the umpire panel thread for claim #9379 (0806919379) continuing through 2026-08-11, well past the prior claimed cutoff.",
+   "newEvents": [
+    {"date": "2026-04-09", "event": "Joseph asked the carrier's appraiser for a call before proceeding to umpire and said he would not sign anything until then; the carrier's appraiser told the umpire to proceed with the umpire process regardless."},
+    {"date": "2026-04-10", "event": "The umpire returned the signed agreement and asked both appraisers for their inspection photos and estimates; the carrier's appraiser provided his."},
+    {"date": "2026-08-07", "event": "After reviewing both appraisers' positions, the umpire sent his invoice and said the umpire inspection will be scheduled once payment is received from both parties."},
+    {"date": "2026-08-09", "event": "Our office sent the appraisal invoice to the insured."},
+    {"date": "2026-08-11", "event": "The carrier's side advised that its payment to the umpire has been released."}
+   ],
+   "update": "The claim is now active in umpire review: the umpire has reviewed both sides' positions, sent his invoice, and said the umpire inspection will be scheduled once payment is received from both parties. The carrier's side confirmed its payment to the umpire went out, and our invoice for the appraisal was sent to the insured; next up is the inspection once both payments are received.",
+   "needed": null,
+   "trelloItemsAdded": 5
+  },
+  {
+   "cardId": "685d86741eae1c3db6ed993b",
+   "verified": true,
+   "hasNewer": false,
+   "evidence": "Claim and surname searches after 2026-04-28 found only the already-logged April 28 thread with the insured's attorney confirming Vince was PA and Joseph the appraiser; no address to search (blank on file).",
+   "newEvents": [],
+   "update": null,
+   "needed": null,
+   "trelloItemsAdded": 0
+  },
+  {
+   "cardId": "6a3bf64bd4df112622b58fe5",
+   "verified": true,
+   "hasNewer": false,
+   "evidence": "Claim, surname and address searches after 2026-07-06 found only the already-logged July 6 items (joint inspection scheduling and reschedule to July 22); nothing after.",
+   "newEvents": [],
+   "update": null,
+   "needed": null,
+   "trelloItemsAdded": 0
+  },
+  {
+   "cardId": "69232d0f67c1ca734b561cc1",
+   "verified": true,
+   "hasNewer": false,
+   "evidence": "Claim and surname searches after 2026-07-14 found only the already-logged July 14 bulk status note that negotiations were ongoing and the appraisers might reach an impasse; no address to search (blank on file).",
+   "newEvents": [],
+   "update": null,
+   "needed": null,
+   "trelloItemsAdded": 0
+  },
+  {
+   "cardId": "67cc71e760349263a5ce7b17",
+   "verified": true,
+   "hasNewer": false,
+   "evidence": "Surname search after 2025-08-11 found only the already-logged August 11 bulk status note that the carrier denied the award and the claim needs litigation; no claim number or address to search.",
+   "newEvents": [],
+   "update": null,
+   "needed": null,
+   "trelloItemsAdded": 0
+  },
+  {
+   "cardId": "69bb0544436a84989ebf1c02",
+   "verified": true,
+   "hasNewer": false,
+   "evidence": "Claim, surname and address searches after 2026-07-02 found only the already-logged July 2 note that a revised position had been sent to the carrier's appraiser and was under review; nothing after.",
+   "newEvents": [],
+   "update": null,
+   "needed": null,
+   "trelloItemsAdded": 0
+  },
+  {
+   "cardId": "69d58031b4e858e988cc3aee",
+   "verified": true,
+   "hasNewer": true,
+   "evidence": "Surname and address searches after 2026-07-06 turned up a thread on claim 0809108822 that the preview cut off at July 6, but the full thread ran through 2026-08-03 covering a dispute over the homeowner's share of the umpire fee.",
+   "newEvents": [
+    {"date": "2026-07-13", "event": "The carrier said it had issued its half of the umpire payment in May and that the homeowner needed to pay his portion to move forward; the homeowner said he wasn't aware of owing anything and thought the claim had been denied."},
+    {"date": "2026-07-14", "event": "The carrier told the homeowner to consult his public adjuster and said it would suspend work on the appraisal if his share of the umpire fee wasn't paid."},
+    {"date": "2026-07-20", "event": "The carrier reiterated that the homeowner owes half the umpire fee plus his own appraiser's fees, and referred him back to his public adjuster."},
+    {"date": "2026-07-27", "event": "Our office followed up with the homeowner about the umpire fee; he said he was hoping to reach the public adjuster that day."},
+    {"date": "2026-08-02", "event": "The homeowner told our office he had mailed his portion of the umpire payment the week before."},
+    {"date": "2026-08-03", "event": "The carrier acknowledged the update and said it would advise its appraiser."}
+   ],
+   "update": "The umpire process was stalled on the homeowner's share of the umpire fee: the carrier flagged that its half had been paid in May and pressed the homeowner for his portion, with some confusion along the way about the obligation. By early August the homeowner said he'd mailed his payment and the carrier acknowledged it. Next is confirmation the umpire has received it so the inspection can be scheduled.",
+   "needed": null,
+   "trelloItemsAdded": 6
+  },
+  {
+   "cardId": "686ed56fdacdfd7e3616d00b",
+   "verified": true,
+   "hasNewer": false,
+   "evidence": "First-name search (Odellia, since 'Martinez' alone is too common) after 2025-10-03 found only the already-logged October 3 Adobe Sign confirmation that both appraisers signed the final award; no claim number or address on file to search.",
+   "newEvents": [],
+   "update": null,
+   "needed": null,
+   "trelloItemsAdded": 0
+  },
+  {
+   "cardId": "69ea5db2237738678621211c",
+   "verified": true,
+   "hasNewer": false,
+   "evidence": "Claim, surname and address searches after 2026-07-14 found only same-day traffic (the referring firm's status request and our reply that the umpire was awaiting payment) plus an out-of-office auto-reply and a staff-departure notice, both excluded; nothing genuinely after 2026-07-14.",
+   "newEvents": [],
+   "update": null,
+   "needed": null,
+   "trelloItemsAdded": 0
+  },
+  {
+   "cardId": "69836934dbf3147b324011b1",
+   "verified": true,
+   "hasNewer": true,
+   "evidence": "Claim search after 2026-07-09 turned up the panel thread for claim 0817155401 that the preview cut off around July 11, but the full thread ran through 2026-08-01 covering umpire payment confirmation and joint-inspection scheduling.",
+   "newEvents": [
+    {"date": "2026-07-13", "event": "The umpire said he was still waiting on the carrier's portion of the umpire fee."},
+    {"date": "2026-07-21", "event": "Joseph asked whether the carrier had paid its share; the carrier confirmed its portion had been issued and should reach the umpire within one to two weeks."},
+    {"date": "2026-07-24", "event": "The umpire confirmed all payments were received, and the panel began arranging a joint inspection date."},
+    {"date": "2026-07-31", "event": "The joint inspection was confirmed for August 26 at 9:00 AM, and the homeowner was informed of the date."}
+   ],
+   "update": "Both sides' umpire fees have now been paid, and the panel has confirmed a joint inspection for August 26 at 9:00 AM; the homeowner has been informed. Next is that inspection so both appraisers can finalize their positions.",
+   "needed": null,
+   "trelloItemsAdded": 4
+  },
+  {
+   "cardId": "6a47f3e5c36e4e05b48a7b1f",
+   "verified": true,
+   "hasNewer": false,
+   "evidence": "Claim, surname and address searches after 2026-07-10 found only the already-logged July 10 inspection-schedule email to the insured (no reply) and a Trello digest; nothing after.",
+   "newEvents": [],
+   "update": null,
+   "needed": null,
+   "trelloItemsAdded": 0
+  }
+ ],
+ "checked": 11,
+ "corrected": 3
+}

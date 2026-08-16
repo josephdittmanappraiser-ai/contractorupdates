@@ -23,18 +23,21 @@
   :root{
     --bg:#f7f7f5; --card:#ffffff; --ink:#1a1a17; --muted:#6b6b63;
     --line:#e3e2dc; --accent:#7a5cff; --alert:#d21414; --alert-bg:#fff1f1;
+    --warn:#b45309; --warn-bg:#fff7ea;
     --good:#15803d; --radius:14px;
   }
   @media (prefers-color-scheme:dark){
     :root:not([data-theme="light"]){
       --bg:#141413; --card:#1e1e1c; --ink:#f0efe9; --muted:#9a998f;
       --line:#2e2e2a; --accent:#a58cff; --alert:#ff5a5a; --alert-bg:#2c1212;
+      --warn:#f59e0b; --warn-bg:#2b1e08;
       --good:#4ade80;
     }
   }
   :root[data-theme="dark"]{
     --bg:#141413; --card:#1e1e1c; --ink:#f0efe9; --muted:#9a998f;
     --line:#2e2e2a; --accent:#a58cff; --alert:#ff5a5a; --alert-bg:#2c1212;
+    --warn:#f59e0b; --warn-bg:#2b1e08;
     --good:#4ade80;
   }
   *{box-sizing:border-box}
@@ -102,6 +105,17 @@
   .settled-lead{
     margin:-8px 0 18px; font-size:13.5px; color:var(--good); font-weight:600;
   }
+
+  /* Appraisal invoked, 60+ days gone, and the carrier still has not named an appraiser.
+     Orange, not red: red means the contractor has something to do, and this one is on
+     us to keep chasing. It still must not read as a file quietly progressing. */
+  .file.waiting{border-color:var(--warn); background:var(--warn-bg); border-width:2px}
+  .waiting-note{
+    margin:10px 0 0; padding:10px 12px; border-radius:9px;
+    background:rgba(217,119,6,.13); color:var(--warn);
+    font-size:14px; font-weight:640; border-left:4px solid var(--warn);
+  }
+  .waiting-note::before{content:"\23F3\FE0E  "; font-weight:700}
 
   /* Where this file sits in the process. A contractor knows what "negotiating" means;
      what they cannot see from a stage name is how much of the run is behind them. */

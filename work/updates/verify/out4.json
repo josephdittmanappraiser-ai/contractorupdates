@@ -1,0 +1,132 @@
+{
+ "batch": 4,
+ "results": [
+  {
+   "cardId": "69cbf466ed57c982a9c97f0c",
+   "verified": true,
+   "hasNewer": false,
+   "evidence": "Searched claim 0822816278, surname Okeefe, and the Overland Park street address after 2026-06-18; the only hits were an unrelated Theodore Mendoza umpire-invoice message and Trello digests, nothing specific to Okeefe past that date.",
+   "newEvents": [],
+   "update": null,
+   "needed": null,
+   "trelloItemsAdded": 0
+  },
+  {
+   "cardId": "6a2c512033cb0ef082d1cb10",
+   "verified": true,
+   "hasNewer": false,
+   "evidence": "Searched surname Parad after 2026-08-15 (no claim or address on file); the only hit was the contractor's status-check email, already reflected in the card's chain of events.",
+   "newEvents": [],
+   "update": null,
+   "needed": null,
+   "trelloItemsAdded": 0
+  },
+  {
+   "cardId": "6a3ebe2e12bbc48e409f2f51",
+   "verified": true,
+   "hasNewer": false,
+   "evidence": "Searched surname Farassati after 2026-08-12 (no claim or address on file); the only hits were the August 12 demand-letter resend and a Trello digest, both already reflected in the card's chain of events.",
+   "newEvents": [],
+   "update": null,
+   "needed": null,
+   "trelloItemsAdded": 0
+  },
+  {
+   "cardId": "69e26dff0e130bfc564e16a0",
+   "verified": true,
+   "hasNewer": true,
+   "evidence": "Searched claim SWYBMHO14361, surname Kholamkar, and the Richmond street address after 2026-07-24; the search preview showed the same thread as before mid-June, but get_thread revealed it actually continues to August 14 with new appraiser activity.",
+   "newEvents": [
+    {"date": "2026-08-14", "event": "Following the umpire inspection, Joseph submitted his revised estimate and photo report to the panel."},
+    {"date": "2026-08-14", "event": "The carrier's appraiser submitted a rebuttal disputing the revised estimate."}
+   ],
+   "update": "The umpire inspection has taken place; Joseph submitted his revised estimate and the carrier's appraiser has filed a rebuttal, so the file now awaits the umpire's decision.",
+   "needed": null,
+   "trelloItemsAdded": 2
+  },
+  {
+   "cardId": "6970f01639fd7a6152b4961e",
+   "verified": true,
+   "hasNewer": false,
+   "evidence": "Searched surname Lewis and the Wisteria St address after 2026-06-17; the only relevant hit was the June 17 photo report, already logged on the card.",
+   "newEvents": [],
+   "update": null,
+   "needed": null,
+   "trelloItemsAdded": 0
+  },
+  {
+   "cardId": "6a3eddb20988740778685cdf",
+   "verified": true,
+   "hasNewer": false,
+   "evidence": "Searched surname Farassati after 2026-08-12 (no claim or address on file); the only hits were the August 12 demand-letter resend and a Trello digest, both already reflected in the card's chain of events -- corrects the prior claim that this file had newer activity.",
+   "newEvents": [],
+   "update": null,
+   "needed": null,
+   "trelloItemsAdded": 0
+  },
+  {
+   "cardId": "69dfacd89ebdfcd1cbb05b51",
+   "verified": true,
+   "hasNewer": true,
+   "evidence": "Searched claim PL2503507, surname Bravo, and the Mountain Cedar Ln address after 2026-07-17; get_thread showed the umpire thread continues well past the logged payment-link request, with activity through August 12.",
+   "newEvents": [
+    {"date": "2026-07-19", "event": "Payment method options for the umpire invoice were sent to the insured."},
+    {"date": "2026-08-03", "event": "The umpire reported the homeowner had paid, but the carrier's payment had not yet arrived."},
+    {"date": "2026-08-12", "event": "The umpire panel confirmed a joint inspection date of August 24."}
+   ],
+   "update": "The homeowner has paid the umpire invoice and a joint inspection is now scheduled for August 24; we're still waiting on the carrier's appraiser to remit their portion of the umpire fee.",
+   "needed": null,
+   "trelloItemsAdded": 3
+  },
+  {
+   "cardId": "6a1785485f27a1954bcdc187",
+   "verified": true,
+   "hasNewer": false,
+   "evidence": "Searched claim 53-99G9-55Q, surname Mendez, and the Voss address after 2026-06-19; the only hits were delivery bounces for the inspection-schedule email, already reflected on the card through June 23.",
+   "newEvents": [],
+   "update": null,
+   "needed": null,
+   "trelloItemsAdded": 0
+  },
+  {
+   "cardId": "67b13ed83d83b06a42b09504",
+   "verified": true,
+   "hasNewer": false,
+   "evidence": "Searched surname Williams, refined to \"Vicky Williams\" given how common the surname is, after 2025-12-07; found only the attorney's contract request and Joseph's reply on December 7-8, already reflected in the card's chain of events, with nothing since.",
+   "newEvents": [],
+   "update": null,
+   "needed": null,
+   "trelloItemsAdded": 0
+  },
+  {
+   "cardId": "69ebd61c1dd6e6239c560383",
+   "verified": true,
+   "hasNewer": true,
+   "evidence": "Searched claim 005764010, surname Dunagan, and the Fairmont Ct address after 2026-07-28; get_thread showed the umpire thread continues well past the logged invoice/W-9 message, with payment and scheduling activity through August 15.",
+   "newEvents": [
+    {"date": "2026-07-30", "event": "The umpire invoice was sent to the insured for payment."},
+    {"date": "2026-08-06", "event": "The umpire confirmed receipt of the carrier's payment."},
+    {"date": "2026-08-12", "event": "The umpire confirmed receipt of the homeowner's payment and proposed a September 1 inspection date."},
+    {"date": "2026-08-15", "event": "Joseph's office was unavailable September 1 and proposed September 15 or 16 for the inspection instead."}
+   ],
+   "update": "Both sides have paid the umpire invoice; after the umpire's original September 1 inspection date didn't work for our office, we proposed September 15 or 16 and are waiting to hear back.",
+   "needed": null,
+   "trelloItemsAdded": 4
+  },
+  {
+   "cardId": "6a064c63bb01a77f4b26f537",
+   "verified": true,
+   "hasNewer": true,
+   "evidence": "Searched claim 4395J147P, surname Ortiz, and the Souder Dr address after 2026-07-13; get_thread showed the thread continues well past the logged 'check mailed' message, with repeated follow-ups through August 13.",
+   "newEvents": [
+    {"date": "2026-08-01", "event": "Followed up with the public adjuster because the umpire still had not received the payment check reportedly mailed July 13."},
+    {"date": "2026-08-13", "event": "Followed up again; the payment still had not been received by the umpire."}
+   ],
+   "update": "The public adjuster reported mailing the umpire's payment on July 13, but as of mid-August the umpire still had not received it despite repeated follow-ups; we're waiting on confirmation or a reissued payment.",
+   "needed": "Confirm delivery of the umpire payment mailed July 13, or reissue it if lost.",
+   "trelloItemsAdded": 2
+  }
+ ],
+ "checked": 11,
+ "corrected": 4
+}

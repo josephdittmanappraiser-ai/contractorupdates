@@ -1,0 +1,166 @@
+{
+ "batch": 3,
+ "results": [
+  {
+   "cardId": "69fa12f255de50cfa40d8472",
+   "verified": true,
+   "hasNewer": true,
+   "evidence": "Claim/surname/address searches after 2026-06-06 turned up a single thread with the carrier's appraiser whose search preview stopped at the June 6 message; get_thread showed it actually continues to August 13, including the move to umpire.",
+   "newEvents": [
+    {"date": "2026-06-08", "event": "Homeowner confirmed the June 19 inspection."},
+    {"date": "2026-06-09", "event": "Office returned the signed agreement to the carrier's appraiser."},
+    {"date": "2026-06-14", "event": "Carrier's appraiser confirmed the June 19 inspection date and asked for photos."},
+    {"date": "2026-06-19", "event": "Inspection photos were sent to the carrier's appraiser."},
+    {"date": "2026-06-29", "event": "Carrier's appraiser reported hail damage to the gutters but not the shingles and suggested the file may need to go to umpire."},
+    {"date": "2026-06-30", "event": "Joseph asked the carrier's appraiser to send his position."},
+    {"date": "2026-07-16", "event": "Carrier's appraiser sent his position."},
+    {"date": "2026-08-05", "event": "Joseph moved the file to umpire and proposed an umpire candidate."},
+    {"date": "2026-08-07", "event": "The umpire accepted the assignment and asked both sides for their positions."},
+    {"date": "2026-08-11", "event": "Carrier's appraiser submitted his position to the umpire panel."},
+    {"date": "2026-08-13", "event": "Joseph submitted his final position and supporting materials to the umpire panel."}
+   ],
+   "update": "The file has moved to umpire: both the carrier's appraiser and Joseph submitted their positions, and Joseph sent his final materials to the umpire panel on August 13. Next step is the umpire's decision.",
+   "needed": null,
+   "trelloItemsAdded": 11
+  },
+  {
+   "cardId": "691206f033ca8da584cef61d",
+   "verified": true,
+   "hasNewer": true,
+   "evidence": "Claim number search after 2026-05-19 matched a thread whose preview stopped at April 3; get_thread showed it actually runs to August 14 and covers the contents-portion umpire's award and follow-up dwelling-award discussion.",
+   "newEvents": [
+    {"date": "2026-05-21", "event": "Miles returned a signed engagement document to Cedric for the contents review."},
+    {"date": "2026-05-28", "event": "Miles reported the insured had paid his invoice and he was waiting on the carrier's payment before proceeding."},
+    {"date": "2026-06-02 to 2026-06-04", "event": "The contents inspection was scheduled for June 24, and the homeowner confirmed interior access."},
+    {"date": "2026-06-25", "event": "Photos from the insured's inspection were shared with the panel."},
+    {"date": "2026-07-22", "event": "Miles said he expected to finish his contents review the following week."},
+    {"date": "2026-07-31", "event": "Miles issued his appraisal award for the contents portion of the claim."},
+    {"date": "2026-08-08 to 2026-08-14", "event": "Joseph and Cedric began finalizing a separate dwelling award, and the panel discussed keeping the dwelling and contents awards on separate signature pages."}
+   ],
+   "update": "The contents portion of this claim now has an appraisal award from the umpire; the panel is now working out whether to issue a single combined award for the dwelling and contents or keep them separate. Next step is finalizing the dwelling award.",
+   "needed": null,
+   "trelloItemsAdded": 7
+  },
+  {
+   "cardId": "6a3ee07de9dc6b22f67825e6",
+   "verified": true,
+   "hasNewer": false,
+   "evidence": "Searched claim 600-1348128, surname Farassati, and street \"Titus Ave\" after 2026-08-12 — only the consolidated 11-property reminder thread returned, with its last message dated Aug 12 already reflected in the existing chain of events; no email after Aug 12 on claim, surname, or address.",
+   "newEvents": [],
+   "update": null,
+   "needed": null,
+   "trelloItemsAdded": 0
+  },
+  {
+   "cardId": "691660b7e3d2fb96fb979806",
+   "verified": true,
+   "hasNewer": false,
+   "evidence": "Searched claim 01009263145, surname Camarena, and street \"13422 Caney Springs Ln\" after 2026-04-29 — the only match was the claim's own pre-appraisal-demand thread, whose last message is dated 2026-04-29 and already reflected in the checklist; no email after that date on claim, surname, or address.",
+   "newEvents": [],
+   "update": null,
+   "needed": null,
+   "trelloItemsAdded": 0
+  },
+  {
+   "cardId": "68129eea17e53372c1eaec00",
+   "verified": true,
+   "hasNewer": true,
+   "evidence": "Surname search after 2026-07-25 matched a thread whose preview stopped at January 2026; get_thread showed it actually continues to August 15 with repeated follow-ups on the still-unpaid umpire invoice.",
+   "newEvents": [
+    {"date": "2026-07-30 to 2026-08-15", "event": "Joseph's office sent repeated follow-ups (July 30; August 2, 9, 15) asking about the still-unpaid umpire invoice; no response had been received as of the last reminder."}
+   ],
+   "update": "The file remains stalled on the insured's unpaid retainer for the umpire; despite repeated follow-ups through August 15, no payment has been confirmed, so the umpire has not been able to schedule an inspection.",
+   "needed": null,
+   "trelloItemsAdded": 1
+  },
+  {
+   "cardId": "69e66b50b2382b3b3f201192",
+   "verified": true,
+   "hasNewer": true,
+   "evidence": "Claim number and surname searches after 2026-07-07 matched two threads (homeowner scheduling and carrier's appraiser) whose previews stopped at July 7 and June 22; get_thread showed both actually continue to July 23/30, and a separate USAA thread from July 30 was also found.",
+   "newEvents": [
+    {"date": "2026-07-09", "event": "The homeowner confirmed the July 15 inspection date for the carrier's appraiser, and the property's gate code was provided."},
+    {"date": "2026-07-15", "event": "The carrier's appraiser was unable to inspect due to weather; the inspection was rescheduled for July 21."},
+    {"date": "2026-07-21", "event": "Confirmation of the July 21 inspection came in too late, so it was pushed again to July 28."},
+    {"date": "2026-07-23", "event": "The homeowner confirmed the rescheduled July 28 inspection date."},
+    {"date": "2026-07-30", "event": "USAA confirmed its named appraiser is actively working the file and provided his contact information."}
+   ],
+   "update": "The July 28 inspection with the carrier's appraiser is confirmed after two weather- and scheduling-related delays; USAA has confirmed its named appraiser is actively working the file. Next step is for that inspection to take place.",
+   "needed": null,
+   "trelloItemsAdded": 5
+  },
+  {
+   "cardId": "685d64699ea5794701cb131f",
+   "verified": true,
+   "hasNewer": false,
+   "evidence": "Searched claim 057022870, exact phrase \"Martha Aguilar\", and the umpire/PA domains (cbelcherclaims.com, avcinspa.com) after 2026-01-02 — no thread mentions this claim past the January 2 invoice-forwarded message already logged; no address was available to search.",
+   "newEvents": [],
+   "update": null,
+   "needed": null,
+   "trelloItemsAdded": 0
+  },
+  {
+   "cardId": "6a0bb8aeac5b5fb4d83d7bd3",
+   "verified": true,
+   "hasNewer": false,
+   "evidence": "Searched claim 5042584243, surname Hawkins, and street \"3011 Washington\"/\"washington st\" after 2026-07-14 — the only hits referencing this file were do-not-reply@trello.com digests, which were discarded per instructions; no genuine email after July 14 on claim, surname, or address.",
+   "newEvents": [],
+   "update": null,
+   "needed": null,
+   "trelloItemsAdded": 0
+  },
+  {
+   "cardId": "6a3ec75f5991d11d1ccc0b06",
+   "verified": true,
+   "hasNewer": false,
+   "evidence": "Searched claim 600-1348131, surname Farassati, and street \"Paseo Blvd\" after 2026-07-28 — only the consolidated 11-property reminder thread (through Aug 12) and Trello digests returned; the checklist already reflects reminders through Aug 12 and no email exists after that date.",
+   "newEvents": [],
+   "update": null,
+   "needed": null,
+   "trelloItemsAdded": 0
+  },
+  {
+   "cardId": "6a399a63c06762f2e0fdf42e",
+   "verified": true,
+   "hasNewer": true,
+   "evidence": "Claim number search after 2026-07-11 matched a thread whose preview stopped at July 11; get_thread showed it actually continues to August 6, covering the inspection, estimate delivery, and a resend after a file error.",
+   "newEvents": [
+    {"date": "2026-07-24", "event": "The carrier's appraiser conducted the scheduled solo inspection, including the interior."},
+    {"date": "2026-07-28", "event": "Joseph's office sent its estimate and supporting file to the carrier's appraiser."},
+    {"date": "2026-08-02", "event": "The carrier's appraiser reported the estimate file wouldn't open and asked for it to be resent."},
+    {"date": "2026-08-06", "event": "Joseph's office resent the estimate file to the carrier's appraiser."}
+   ],
+   "update": "The carrier's appraiser completed the inspection and Joseph's office sent over the estimate; after a file-format hiccup, the corrected file was resent on August 6. The file now awaits the carrier's appraiser's review and position.",
+   "needed": null,
+   "trelloItemsAdded": 4
+  },
+  {
+   "cardId": "6a2720c535261e58b0480241",
+   "verified": true,
+   "hasNewer": true,
+   "evidence": "Claim number and surname searches after 2026-06-24 matched a thread with the carrier's appraiser whose preview stopped at June 22; get_thread showed it actually continues to July 31, covering the inspection and position exchange.",
+   "newEvents": [
+    {"date": "2026-06-25", "event": "Homeowner confirmed the July 8 inspection with the carrier's appraiser."},
+    {"date": "2026-07-08", "event": "The carrier's appraiser completed the inspection."},
+    {"date": "2026-07-10", "event": "The carrier's appraiser sent his position for review."},
+    {"date": "2026-07-18", "event": "Joseph reviewed the position and asked that a few additional items be added to the scope."},
+    {"date": "2026-07-31", "event": "Joseph followed up for a status update; the carrier's appraiser said he would review it over the weekend."}
+   ],
+   "update": "The carrier's appraiser inspected the property and sent his position; Joseph asked for a few additional items to be added and is waiting on the carrier's appraiser's revised response.",
+   "needed": null,
+   "trelloItemsAdded": 5
+  },
+  {
+   "cardId": "6a3ec1efd198968cf8e089bb",
+   "verified": true,
+   "hasNewer": false,
+   "evidence": "Searched claim 600-1348140, surname Farassati, and street \"Highland Ave\" after 2026-07-28 — only the consolidated 11-property reminder thread (through Aug 12) and Trello digests returned; the checklist already reflects reminders through Aug 12 and no email exists after that date.",
+   "newEvents": [],
+   "update": null,
+   "needed": null,
+   "trelloItemsAdded": 0
+  }
+ ],
+ "checked": 12,
+ "corrected": 6
+}

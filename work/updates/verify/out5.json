@@ -1,0 +1,121 @@
+{
+ "batch": 5,
+ "results": [
+  {
+   "cardId": "69ea34cfd30fc18976cd84b0",
+   "verified": true,
+   "hasNewer": false,
+   "evidence": "Searched claim \"PL2503551\", surname \"Alvarenga\", and street \"Gettysburg\" after 2026/07/11; only hit past that date belonged to an unrelated insured (Pastrana), so no genuine new content.",
+   "newEvents": [],
+   "update": null,
+   "needed": null,
+   "trelloItemsAdded": 0
+  },
+  {
+   "cardId": "69bad830ea759f6a3f5523a7",
+   "verified": true,
+   "hasNewer": true,
+   "evidence": "Searched claim \"0821195467\", surname \"Grassi\", and street \"Evening Star\" after 2026/06/22; the umpire-selection thread continued with real activity through 2026-07-06.",
+   "newEvents": [
+    {"date": "2026-06-28", "event": "Carrier and office agreed on who would serve as the carrier's appraiser for the file."},
+    {"date": "2026-06-30", "event": "Solo inspection was completed and the estimate/photo report was sent to the carrier's side."},
+    {"date": "2026-07-06", "event": "The carrier's appraiser sent back their position and a proposed award for review."}
+   ],
+   "update": "The carrier's appraiser completed the June 30 solo inspection and sent back their position with a proposed award on July 6, which our team is now reviewing. No action is needed from the contractor at this time.",
+   "needed": null,
+   "trelloItemsAdded": 3
+  },
+  {
+   "cardId": "682ce4f5865b5efd1362d283",
+   "verified": true,
+   "hasNewer": false,
+   "evidence": "Searched surname \"Spinhirne\", claim \"0791382716\", and street \"Pine Overlook\" after 2025/07/17; only hit was on the same-day date itself, and later hits were Trello digests, so no genuine new content.",
+   "newEvents": [],
+   "update": null,
+   "needed": null,
+   "trelloItemsAdded": 0
+  },
+  {
+   "cardId": "6a1dfbf17c61e4c01e938953",
+   "verified": true,
+   "hasNewer": false,
+   "evidence": "Searched \"Le Fevere\"/\"LeFevere\" and claim \"105-31-634\" after 2026/07/12; the only real thread's last message was dated on the searchAfter date itself, so no genuine new content.",
+   "newEvents": [],
+   "update": null,
+   "needed": null,
+   "trelloItemsAdded": 0
+  },
+  {
+   "cardId": "69cf01db396d7a8ade890065",
+   "verified": true,
+   "hasNewer": false,
+   "evidence": "Searched claim \"017125712\", surname \"Mascarenhas\", and street \"Margarita Loop\" after 2026/06/11; the umpire thread's last message was same-day, and other surname hits (Muniyandi, Pastrana threads) were unrelated files, so no genuine new content.",
+   "newEvents": [],
+   "update": null,
+   "needed": null,
+   "trelloItemsAdded": 0
+  },
+  {
+   "cardId": "67200d91b93a0a2730b34fc8",
+   "verified": true,
+   "hasNewer": false,
+   "evidence": "Searched \"Anthony Craig Curtis\", \"Anthony Curtis\", claim \"53-71B8-49M\", and street \"Red Maples\" after 2025/09/26 (broad surname \"Curtis\" search was too noisy, matching unrelated adjusters/insureds on other files); nothing genuine past the invoice sent to the attorney on the searchAfter date itself.",
+   "newEvents": [],
+   "update": null,
+   "needed": null,
+   "trelloItemsAdded": 0
+  },
+  {
+   "cardId": "699ca05de1e999f8500b5970",
+   "verified": true,
+   "hasNewer": false,
+   "evidence": "Searched \"Prashanth Kumbala\", \"Nalla\"/\"Kumbala\", and street \"Lyme Ridge\" after 2026/07/26; only genuine email was same-day with no reply since, later hits were Trello digests only.",
+   "newEvents": [],
+   "update": null,
+   "needed": null,
+   "trelloItemsAdded": 0
+  },
+  {
+   "cardId": "69f0d1b1d25e0dfddb63270e",
+   "verified": true,
+   "hasNewer": false,
+   "evidence": "Searched surname \"Funes\", claim \"0817992407\", and street \"Burkhart Ridge\" after 2026/07/10; last real message was same-day, no genuine content after.",
+   "newEvents": [],
+   "update": null,
+   "needed": null,
+   "trelloItemsAdded": 0
+  },
+  {
+   "cardId": "69139dd59bb570198a0f4bdd",
+   "verified": true,
+   "hasNewer": true,
+   "evidence": "Searched surname \"Oquendo\" and street \"Lilac Hollow\" after 2026/05/18; a bulk-file status follow-up naming this claim (among others) was sent 2026-05-22, but that event is already recorded on the card's Chain of Events checklist from a prior pass and nothing further has happened since.",
+   "newEvents": [],
+   "update": "This file is still waiting on the public adjuster's office to confirm a carrier appraiser has been named; office followed up on status in May and has not received a reply since.",
+   "needed": null,
+   "trelloItemsAdded": 0
+  },
+  {
+   "cardId": "6a48414e201af36c1615a0e8",
+   "verified": true,
+   "hasNewer": false,
+   "evidence": "Searched surname \"Ruvalcaba\" and claim \"0826849499\" after 2026/07/29; only post-date hit was an automated \"email received\" confirmation, discarded, so no genuine new content.",
+   "newEvents": [],
+   "update": null,
+   "needed": null,
+   "trelloItemsAdded": 0
+  },
+  {
+   "cardId": "69691f57bad91fbd1b4ebf3e",
+   "verified": true,
+   "hasNewer": false,
+   "evidence": "Searched claim \"4390W353N\", surname \"Kerns\", and street \"Andrews CT\" after 2026/07/17; last real message was on the searchAfter date itself, and the only later hit was a Trello digest, discarded.",
+   "newEvents": [],
+   "update": null,
+   "needed": null,
+   "trelloItemsAdded": 0
+  }
+ ],
+ "checked": 11,
+ "corrected": 1
+}

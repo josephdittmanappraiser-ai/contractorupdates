@@ -8,7 +8,7 @@ only has to upload the result.
 
     python3 tools/build_rep_pages.py <board-export.csv> [outdir]
 """
-import csv, json, re, sys, os, glob, collections, html
+import csv, json, re, sys, os, glob, collections, html, datetime
 
 CFG = json.load(open(os.path.join(os.path.dirname(__file__), '..', 'config', 'contractors.json')))
 PER_REP_LABELS = {c['label']: c for c in CFG['contractors'] if c.get('pageMode') == 'per-rep'}
@@ -126,6 +126,96 @@ CSS = open(os.path.join(os.path.dirname(__file__), '..', 'templates', 'status-pa
 CSS = CSS[CSS.index('<style>'):CSS.index('</style>') + 8]
 
 E = html.escape
+
+
+# Files where appraisal was invoked and the carrier never named an appraiser sit still
+# while looking no different from a file that is progressing. Joseph asked for those
+# called out once they pass 60 days -- it is the point where chasing the carrier stops
+# being routine follow-up and becomes the thing holding the file up.
+#
+# Two things can start that clock, and the second matters as much as the first:
+#   1. a demand that reached the carrier, and
+#   2. the office writing, in as many words, that the file is still without a carrier
+#      appraiser. Joseph's staff flag that themselves, and on several files it is the
+#      only plain statement in the record -- the demand itself is buried in phrasing no
+#      pattern will catch ("resent the appraisal demand to USAA for this claim").
+STALL_DAYS = 60
+AS_OF = datetime.date.today()
+
+# A demand -- any wording.
+DEMAND_RE = re.compile(
+    r'\b(appraisal demand|demand letter|demand was sent|sent (?:the |a |an )?'
+    r'(?:pre-?appraisal )?demand|invoked appraisal|appraisal (?:was )?invoked|'
+    r'demanded appraisal)\b', re.I)
+# ...that actually went to the carrier. "Sent to the homeowner for signature" is a letter
+# sitting unsigned on a kitchen table; the carrier has not been told anything, and orange
+# on that blames the carrier for a delay that is not theirs.
+AT_CARRIER_RE = re.compile(
+    r'\b(?:to|with) the carrier\b|\binvoked\b|'
+    r'\bappraisal demand\b[^.;]{0,30}?\bto \w|'
+    r'\bsent \w[\w&.\-]* the appraisal demand\b|'
+    r'\bdemand (?:letter )?(?:was )?(?:sent|submitted|resent) to \w|'
+    r"naming .{0,45} as the insured'?s appraiser", re.I)
+TO_HOMEOWNER_RE = re.compile(
+    r'\bto the (?:homeowner|insured|customer|client)\b|for (?:review and )?signature|'
+    r'\bto sign\b|\bunsigned\b', re.I)
+# The office saying it outright. This is the most reliable signal in the whole record.
+NO_APPRAISER_RE = re.compile(
+    r'\bwithout (?:a|an|any) (?:carrier|opposing) appraiser\b|'
+    r'\bno (?:carrier |opposing )?appraiser (?:has been )?(?:named|assigned|appointed)\b|'
+    r'\b(?:carrier|they) (?:has|have|had) not (?:yet )?(?:named|assigned|appointed)\b|'
+    r'\bwaiting (?:on|for) (?:the )?carrier to (?:name|assign|appoint)\b',
+    re.I)
+# Any later mention of a carrier-side appraiser means one exists -- deliberately broad,
+# because a missed orange flag is better than a wrong one on a client's page.
+NAMED_RE = re.compile(
+    r"\b(named (?:its|their|his|her|the)?\s*appraiser|appraiser (?:was |is |has been )?named|"
+    r"carrier'?s appraiser|opposing appraiser|named .{0,25} as (?:its|their) appraiser|"
+    r"appraiser assigned)\b", re.I)
+# A file the insured pulled out of is not waiting on the carrier for anything.
+WITHDRAWN_RE = re.compile(
+    r'\b(withdrew|withdrawn|no longer want\w*|did not want|pulled the file|'
+    r'cancell?ed the appraisal|rescinded|never actually been taken)\b', re.I)
+
+
+def stalled_days(f):
+    """Days since appraisal was invoked, if the carrier still has not named an appraiser.
+
+    Only asked of files that have not reached inspection -- scheduling, inspecting,
+    negotiating and umpire all presuppose an appraiser on the other side.
+    """
+    if f['stage']['order'] > 4:
+        return None
+    events = sorted(f.get('timeline') or [], key=lambda e: str(e.get('date', ''))[:10])
+
+    def txt(e):
+        return e.get('event', '') or ''
+
+    anchors = [e for e in events
+               if (DEMAND_RE.search(txt(e)) and AT_CARRIER_RE.search(txt(e))
+                   and not TO_HOMEOWNER_RE.search(txt(e)))
+               or NO_APPRAISER_RE.search(txt(e))]
+    if not anchors:
+        return None
+    d0 = str(anchors[0].get('date', ''))[:10]
+
+    # NO_APPRAISER_RE says an appraiser is missing and NAMED_RE says one is mentioned, so
+    # the anchor matches both. Judge only what came after it.
+    for e in events:
+        if str(e.get('date', ''))[:10] <= d0:
+            continue
+        # "still without a carrier appraiser" contains the phrase "carrier appraiser",
+        # so NAMED_RE fires on a sentence that says the opposite. A later restatement
+        # that none exists must not cancel the flag it should be reinforcing.
+        if NO_APPRAISER_RE.search(txt(e)):
+            continue
+        if NAMED_RE.search(txt(e)) or WITHDRAWN_RE.search(txt(e)):
+            return None
+    try:
+        days = (AS_OF - datetime.date.fromisoformat(d0)).days
+    except ValueError:
+        return None
+    return days if days > STALL_DAYS else None
 
 
 # The steps a file walks through, condensed from the 11 stages. A contractor reading
@@ -267,7 +357,9 @@ def render(display_name, files, updated, cap=None):
                    f'<p class="stage-blurb">{E(st["blurb"])}</p>')
         for f in items:
             meta = " &middot; ".join(x for x in [E(f['addr']), (f"Claim {E(f['claim'])}" if f['claim'] else '')] if x)
-            out.append(f'<div class="file{" needs-you" if f["needs_you"] else ""}">'
+            stalled = stalled_days(f)
+            cls = ' needs-you' if f['needs_you'] else (' waiting' if stalled else '')
+            out.append(f'<div class="file{cls}">'
                        f'<div class="file-top"><h3>{E(f["insured"])}</h3>'
                        f'<span class="when">last activity {E(last_activity(f))}</span></div>'
                        + (f'<p class="meta">{meta}</p>' if meta else '')
@@ -275,6 +367,9 @@ def render(display_name, files, updated, cap=None):
                           else track_html(f['stage']['order']))
                        + f'<p class="what">{E(f["what"])}</p>'
                        + (f'<p class="ask">{E(f["ask"])}</p>' if f['needs_you'] else '')
+                       + (f'<p class="waiting-note">Appraisal was invoked {stalled} days ago and '
+                          'the carrier still has not named an appraiser. We are chasing them on '
+                          'it.</p>' if stalled else '')
                        + latest_html(f.get('timeline'))
                        + chain_html(f.get('timeline'))
                        + '</div>')
@@ -350,6 +445,33 @@ for _f in sorted(glob.glob(os.path.join(_UP, 'out*.json'))) + \
     for _r in (_d.get('results') if isinstance(_d, dict) else _d) or []:
         if _r.get('cardId'):
             ENRICH[_r['cardId'].strip()] = _r
+
+# The verification pass returns only what a file GAINED, because it re-checked a claim that
+# nothing had happened since a given date. So merge rather than replace: a verify record
+# carrying three new events must not wipe the twelve already on the file.
+for _f in sorted(glob.glob(os.path.join(_UP, 'verify', 'out*.json'))):
+    try:
+        _d = json.load(open(_f))
+    except Exception:
+        continue
+    for _r in (_d.get('results') if isinstance(_d, dict) else _d) or []:
+        _cid = (_r.get('cardId') or '').strip()
+        if not _cid or not _r.get('hasNewer'):
+            continue
+        _base = ENRICH.setdefault(_cid, {'cardId': _cid, 'timeline': []})
+        _tl = list(_base.get('timeline') or [])
+        _seen = {(str(e.get('date', ''))[:10], (e.get('event') or '').strip().lower())
+                 for e in _tl}
+        for _e in _r.get('newEvents') or []:
+            _k = (str(_e.get('date', ''))[:10], (_e.get('event') or '').strip().lower())
+            if _k not in _seen:
+                _seen.add(_k)
+                _tl.append(_e)
+        _base['timeline'] = _tl
+        if _r.get('update'):
+            _base['update'] = _r['update']
+        if 'needed' in _r:
+            _base['needed'] = _r['needed']
 
 
 def main(csv_path, outdir='work/pages'):

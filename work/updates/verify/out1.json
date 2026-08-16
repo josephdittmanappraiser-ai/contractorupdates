@@ -1,0 +1,142 @@
+{
+ "batch": 1,
+ "results": [
+  {
+   "cardId": "67f0ba2505b211822c6a5eac",
+   "verified": true,
+   "hasNewer": false,
+   "evidence": "Searched \"Ibarra\" and \"Jose Ibarra\" after:2025/06/14 (no claim or address on file); matches were unrelated Ibarra claims (Roberto & Raquel Ibarra, claim 0807177704; a separate Allstate claim 0762307189 withdrawal) with no connection to this No Stress Claims file.",
+   "newEvents": [],
+   "update": null,
+   "needed": null,
+   "trelloItemsAdded": 0
+  },
+  {
+   "cardId": "67a1879d4770a07ba9e7cd7f",
+   "verified": true,
+   "hasNewer": false,
+   "evidence": "Searched \"Pacheco\" after:2025/06/23 (no claim or address on file); the only match naming this insured was the withdrawal-invoice thread from June 21-23, on or before the cutoff, with accounting's acknowledgment on 6/23 itself - nothing since.",
+   "newEvents": [],
+   "update": null,
+   "needed": null,
+   "trelloItemsAdded": 0
+  },
+  {
+   "cardId": "69f210fb4000625388646899",
+   "verified": true,
+   "hasNewer": false,
+   "evidence": "Searched claim \"018034471\", \"Michael Patterson\", and street \"609 Dubina Ave\" after:2026/06/08; only hits were the inspection-confirmation thread ending 6/8 and Trello digest emails (discarded) - nothing since.",
+   "newEvents": [],
+   "update": null,
+   "needed": null,
+   "trelloItemsAdded": 0
+  },
+  {
+   "cardId": "69e7bbeadd8694321b8f7c37",
+   "verified": true,
+   "hasNewer": false,
+   "evidence": "Searched \"Krowski\" after:2026/06/29 (no claim or address on file); the only real hit (photos sent to the office) was dated 6/29, on the cutoff itself; remaining results were Trello digests (discarded) - nothing since.",
+   "newEvents": [],
+   "update": null,
+   "needed": null,
+   "trelloItemsAdded": 0
+  },
+  {
+   "cardId": "6a3ebcf43a22f0c96d8e2cc8",
+   "verified": true,
+   "hasNewer": true,
+   "evidence": "Searched \"Farassati\", claim \"600-1348144\", and \"Lloyd St\" after:2026/07/28; found the signature-reminder thread for this property's Appraisal Demand Letter (7/28, 7/31, 8/8, 8/10, 8/12), already logged on the card's Chain of Events, so no new checklist items were added.",
+   "newEvents": [
+    {
+     "date": "2026-08-12",
+     "event": "Joseph's office sent another reminder that the Appraisal Demand Letter for this property still needed Mr. Farassati's signature; still unsigned as of that date."
+    }
+   ],
+   "update": "Mr. Farassati still has not signed the Appraisal Demand Letter for this property despite reminders sent through August 12; the file cannot move forward with the carrier until it's signed.",
+   "needed": "Continue helping remind Faris Farassati to sign the outstanding Appraisal Demand Letter for this property so the file can move forward.",
+   "trelloItemsAdded": 0
+  },
+  {
+   "cardId": "6a0e3e552f96924b245dc8ce",
+   "verified": true,
+   "hasNewer": false,
+   "evidence": "Searched \"Bacon\" and claim \"006204399\" after:2026/07/14; the only real hit was a bulk status update sent the same day confirming the file is being referred to an attorney, already logged on the card's Chain of Events - nothing since.",
+   "newEvents": [],
+   "update": null,
+   "needed": null,
+   "trelloItemsAdded": 0
+  },
+  {
+   "cardId": "69dd57c31e122f8d50becbe2",
+   "verified": true,
+   "hasNewer": false,
+   "evidence": "Searched \"Ransaw\" and claim \"1599154-260125\" after:2026/06/03 (no address on file); no hits after the cutoff - only a same-day forward and an unrelated Trello digest.",
+   "newEvents": [],
+   "update": null,
+   "needed": null,
+   "trelloItemsAdded": 0
+  },
+  {
+   "cardId": "6a3ec881f0235ef96b225b9d",
+   "verified": true,
+   "hasNewer": true,
+   "evidence": "Searched \"Farassati\", claim \"600-1348137\", and \"Highland Ave\" after:2026/07/28; found the same signature-reminder thread for this property's Appraisal Demand Letter (7/28, 7/31, 8/8, 8/10, 8/12), already logged on the card's Chain of Events, so no new checklist items were added.",
+   "newEvents": [
+    {
+     "date": "2026-08-12",
+     "event": "Joseph's office sent another reminder that the Appraisal Demand Letter for this property still needed Mr. Farassati's signature; still unsigned as of that date."
+    }
+   ],
+   "update": "Mr. Farassati still has not signed the Appraisal Demand Letter for this property despite reminders sent through August 12; the file cannot move forward with the carrier until it's signed.",
+   "needed": "Continue helping remind Faris Farassati to sign the outstanding Appraisal Demand Letter for this property so the file can move forward.",
+   "trelloItemsAdded": 0
+  },
+  {
+   "cardId": "6923293e0bc424f92bea4da8",
+   "verified": true,
+   "hasNewer": true,
+   "evidence": "Searched \"Tucker\", \"William Tucker\", and \"Clarinda\" after:2026/07/14 (no claim on file); found the umpire-invoice follow-up thread through 7/20 (homeowner confirmed the invoice was paid), already logged on the card's Chain of Events, so no new checklist item was added; nothing further since.",
+   "newEvents": [
+    {
+     "date": "2026-07-20",
+     "event": "The homeowner confirmed the umpire's invoice had been paid."
+    }
+   ],
+   "update": "The umpire's invoice has been paid as of July 20; the file remains with the umpire for the appraisal process to conclude, with no further updates since.",
+   "needed": null,
+   "trelloItemsAdded": 0
+  },
+  {
+   "cardId": "69e654e7dc95b4dba2b0bba3",
+   "verified": true,
+   "hasNewer": false,
+   "evidence": "Searched \"Bowles\" after:2026/06/26 (no claim or address on file); no results at all.",
+   "newEvents": [],
+   "update": null,
+   "needed": null,
+   "trelloItemsAdded": 0
+  },
+  {
+   "cardId": "6872b7b43d21fee0af22f904",
+   "verified": true,
+   "hasNewer": false,
+   "evidence": "Searched \"Mejia\" and street \"809 Emerald\" after:2025/12/11; the only address match predates the cutoff (last activity 11/28) and unrelated Mejia claims turned up under the surname search - nothing since.",
+   "newEvents": [],
+   "update": null,
+   "needed": null,
+   "trelloItemsAdded": 0
+  },
+  {
+   "cardId": "69dcff75057935cbef705f3e",
+   "verified": true,
+   "hasNewer": false,
+   "evidence": "Searched claim \"0822662169\", \"Shouga\", and street \"Cheverny\" after:2026/08/05; the only hit was Lina's same-day forward of the carrier's routine monthly status update, already logged on the card's Chain of Events - nothing since.",
+   "newEvents": [],
+   "update": null,
+   "needed": null,
+   "trelloItemsAdded": 0
+  }
+ ],
+ "checked": 12,
+ "corrected": 0
+}

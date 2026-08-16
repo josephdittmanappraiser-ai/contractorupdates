@@ -11,7 +11,7 @@
 <div class="tile good"><span class="n">1</span><span class="l">Settled</span></div>
 </section>
 <section class="stage"><div class="stage-head"><h2>Referred out (attorney or public adjuster)</h2><span class="count">1 file</span></div><p class="stage-blurb">Appraisal was not the right route. The file has moved to an attorney or a public adjuster.</p>
-<div class="file"><div class="file-top"><h3>Odellia Kay Martinez</h3><span class="when">last activity 2026-08-15</span></div><p class="what">The two appraisers reached and signed a final appraisal award on October 3, 2025, resolving the claim through the appraisal process; Joseph had already sent his invoice for services to the contractor before the award closed out.</p><div class="latest"><p class="latest-h">Most recent activity</p><ol class="events"><li><span class="d">2025-10-03</span>The two appraisers completed and signed the final appraisal award.</li><li><span class="d">2025-09-19</span>Joseph sent the appraisal invoice to the contractor for payment.</li><li><span class="d">2025-08-11</span>Both appraisers signed the signed agreement/the scope of work agreement.</li></ol></div><details class="chain"><summary>Full history from the start (9 events)</summary><ol class="events"><li><span class="d">2025-07-09</span>The contractor flagged that repairs were already approved but some damages were unaccounted for, and requested the appraisal process begin.</li><li><span class="d">2025-07-15</span>Joseph sent his estimate for the contractor&#x27;s review before sending it to the carrier.</li><li><span class="d">2025-07-16</span>The carrier&#x27;s desk adjuster confirmed receipt of the appraisal demand.</li><li><span class="d">2025-07-23</span>The carrier named its appraiser.</li><li><span class="d">2025-08-05</span>Joint inspection dates were set for both appraisers.</li><li><span class="d">2025-08-10</span>Joseph&#x27;s inspection date was revised to August 26.</li><li><span class="d">2025-08-11</span>Both appraisers signed the signed agreement/the scope of work agreement.</li><li><span class="d">2025-09-19</span>Joseph sent the appraisal invoice to the contractor for payment.</li><li><span class="d">2025-10-03</span>The two appraisers completed and signed the final appraisal award.</li></ol></details></div>
+<div class="file"><div class="file-top"><h3>Odellia Kay Martinez</h3><span class="when">last activity 2026-08-15</span></div><p class="what">The appraisal concluded with a signed award on October 3, 2025; no email activity has occurred since. The card&#x27;s recent move to a &#x27;Referred out&#x27; stage is not reflected in any correspondence found.</p><div class="latest"><p class="latest-h">Most recent activity</p><ol class="events"><li><span class="d">2025-10-03</span>The two appraisers completed and signed the final appraisal award.</li><li><span class="d">2025-09-19</span>Joseph sent the appraisal invoice to the contractor for payment.</li><li><span class="d">2025-08-11</span>Both appraisers signed the agreement.</li></ol></div><details class="chain"><summary>Full history from the start (9 events)</summary><ol class="events"><li><span class="d">2025-07-09</span>The contractor flagged that repairs were already approved but some damages were unaccounted for, and requested the appraisal process begin.</li><li><span class="d">2025-07-15</span>Joseph sent his estimate for the contractor&#x27;s review before sending it to the carrier.</li><li><span class="d">2025-07-16</span>The carrier&#x27;s desk adjuster confirmed receipt of the appraisal demand.</li><li><span class="d">2025-07-23</span>The carrier named its appraiser.</li><li><span class="d">2025-08-05</span>Joint inspection dates were set for both appraisers.</li><li><span class="d">2025-08-10</span>Joseph&#x27;s inspection date was revised to August 26.</li><li><span class="d">2025-08-11</span>Both appraisers signed the agreement.</li><li><span class="d">2025-09-19</span>Joseph sent the appraisal invoice to the contractor for payment.</li><li><span class="d">2025-10-03</span>The two appraisers completed and signed the final appraisal award.</li></ol></details></div>
 </section>
 <hr class="settled-divider"><p class="settled-lead">Closed files &mdash; nothing needed from you on these.</p>
 <section class="stage settled"><div class="stage-head"><h2>Settled - paid</h2><span class="count">1 file</span></div><p class="stage-blurb">Closed out and paid. Nothing outstanding.</p>
@@ -22,18 +22,21 @@
   :root{
     --bg:#f7f7f5; --card:#ffffff; --ink:#1a1a17; --muted:#6b6b63;
     --line:#e3e2dc; --accent:#7a5cff; --alert:#d21414; --alert-bg:#fff1f1;
+    --warn:#b45309; --warn-bg:#fff7ea;
     --good:#15803d; --radius:14px;
   }
   @media (prefers-color-scheme:dark){
     :root:not([data-theme="light"]){
       --bg:#141413; --card:#1e1e1c; --ink:#f0efe9; --muted:#9a998f;
       --line:#2e2e2a; --accent:#a58cff; --alert:#ff5a5a; --alert-bg:#2c1212;
+      --warn:#f59e0b; --warn-bg:#2b1e08;
       --good:#4ade80;
     }
   }
   :root[data-theme="dark"]{
     --bg:#141413; --card:#1e1e1c; --ink:#f0efe9; --muted:#9a998f;
     --line:#2e2e2a; --accent:#a58cff; --alert:#ff5a5a; --alert-bg:#2c1212;
+    --warn:#f59e0b; --warn-bg:#2b1e08;
     --good:#4ade80;
   }
   *{box-sizing:border-box}
@@ -101,6 +104,17 @@
   .settled-lead{
     margin:-8px 0 18px; font-size:13.5px; color:var(--good); font-weight:600;
   }
+
+  /* Appraisal invoked, 60+ days gone, and the carrier still has not named an appraiser.
+     Orange, not red: red means the contractor has something to do, and this one is on
+     us to keep chasing. It still must not read as a file quietly progressing. */
+  .file.waiting{border-color:var(--warn); background:var(--warn-bg); border-width:2px}
+  .waiting-note{
+    margin:10px 0 0; padding:10px 12px; border-radius:9px;
+    background:rgba(217,119,6,.13); color:var(--warn);
+    font-size:14px; font-weight:640; border-left:4px solid var(--warn);
+  }
+  .waiting-note::before{content:"\23F3\FE0E  "; font-weight:700}
 
   /* Where this file sits in the process. A contractor knows what "negotiating" means;
      what they cannot see from a stage name is how much of the run is behind them. */
