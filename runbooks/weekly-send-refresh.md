@@ -23,6 +23,45 @@ to silently drop.
 
 ---
 
+## Pages too big for one call
+
+EditSite takes the document as a tool parameter, so a page only publishes if it fits in one
+model message. Roughly **90KB is the ceiling**; past that the call fails and — this is the
+dangerous part — **the live page silently keeps last week's content**. Two clients are past it:
+No Stress Claims (383 files, 284KB) and Legacy Roofing (160 files, 126KB).
+
+Do not solve this by trimming each file's chain of events. That was tried; it guts the history
+the pages exist to show and still did not get No Stress under the limit — 383 files cost ~126KB
+before a single event is printed.
+
+Publish in pieces instead:
+
+```
+python3 tools/split_page.py work/pages/company-no-stress-claims.html
+```
+
+That writes `work/publish/chunks/<page>/` — a skeleton, numbered ~18KB chunks, and `plan.json`.
+The split is verified in memory before anything is written: the chunks provably reassemble to
+the built page byte for byte, or the script aborts.
+
+Then, one EditSite call per step, in order:
+
+1. `fullHtml` = the skeleton. It holds the header and count tiles plus a `<!--MORE-->` sentinel,
+   so a contractor loading the page mid-publish sees a real page, not a fragment.
+2. For each chunk: one edit, `<!--MORE-->` → chunk contents + newline + `<!--MORE-->`. The
+   sentinel walks down the document. One chunk per call, never two.
+3. Cleanup: one atomic batch deleting every `<!--C:NN-->` marker line, plus the sentinel.
+
+Step 3 is the integrity check. Each chunk starts with a numbered marker, and edits are atomic,
+so a chunk that never landed fails the cleanup batch by name instead of shipping a page with a
+hole in it. Re-run that chunk's step, then retry cleanup.
+
+Give this to a `sonnet` subagent, one per page. It retypes the chunk bodies verbatim from `cat`
+(not Read — Read prefixes line numbers), and the fidelity matters: these bytes are real insured
+names, addresses and claim numbers.
+
+---
+
 ## Token discipline
 
 The orchestrator never holds card data. One subagent per client page; it pulls its own cards,

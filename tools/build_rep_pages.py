@@ -126,7 +126,37 @@ def chain_html(events):
             f'<ol class="events">{rows}</ol></details>')
 
 
-def render(display_name, files, updated):
+# A page larger than this is published in pieces by tools/split_page.py rather than
+# in one EditSite call. The ceiling below is a backstop for absurd growth only --
+# trimming history is a worse outcome than a multi-call publish, so it sits well
+# above any real page. Two clients (No Stress, Legacy) exceed a single call.
+MAX_PAGE_BYTES = 400_000
+
+
+def render_fitted(display_name, files, updated):
+    """Render, then trim timeline depth only if the page is beyond even a chunked publish.
+
+    Trimming is announced on the page rather than done quietly.
+    """
+    html_out = render(display_name, files, updated)
+    if len(html_out.encode()) <= MAX_PAGE_BYTES:
+        return html_out, None
+    for cap in (10, 6, 4, 3, 2):
+        trimmed = []
+        for f in files:
+            g = dict(f)
+            tl = f.get('timeline') or []
+            if len(tl) > cap:
+                g['timeline'] = tl[-cap:]
+                g['trimmed'] = len(tl) - cap
+            trimmed.append(g)
+        html_out = render(display_name, trimmed, updated, cap=cap)
+        if len(html_out.encode()) <= MAX_PAGE_BYTES:
+            return html_out, cap
+    return html_out, 2
+
+
+def render(display_name, files, updated, cap=None):
     by = collections.defaultdict(list)
     for f in files:
         by[f['stage']['stage']].append(f)
@@ -185,6 +215,10 @@ def render(display_name, files, updated):
                        + '</div>')
         out.append('</section>')
 
+    if cap:
+        out.append('<section class="foot"><p class="fine">This client has enough open files that '
+                   f'each history below shows its {cap} most recent events. Ask us for the full '
+                   'history on any file.</p></section>')
     out.append('<section class="foot"><p>Questions on any file here? Reply to your last email '
                'thread with us, or call 737-258-3127.</p>'
                '<p class="fine">This page refreshes every Monday morning. Bookmark it &mdash; '
@@ -327,7 +361,8 @@ def main(csv_path, outdir='work/pages'):
         cfg = COMPANY_LABELS[lab]
         slug = re.sub(r'[^a-z0-9]+', '-', f"company-{cfg['company']}".lower()).strip('-')
         path = os.path.join(outdir, f"{slug}.html")
-        open(path, 'w').write(render(cfg['company'], files, updated))
+        html_out, cap = render_fitted(cfg['company'], files, updated)
+        open(path, 'w').write(html_out)
         manifest.append({'label': lab, 'rep': cfg['company'], 'title': cfg['company'],
                          'file': path, 'shareId': cfg.get('shareId'), 'files': len(files),
                          'action': 'edit' if cfg.get('shareId') else 'create'})
@@ -345,7 +380,8 @@ def main(csv_path, outdir='work/pages'):
                 slug = re.sub(r'[^a-z0-9]+', '-', f"{lab[:6]}-{rep}".lower()).strip('-')
                 sid = known.get(rep)
             path = os.path.join(outdir, f"{slug}.html")
-            open(path, 'w').write(render(disp, files, updated))
+            html_out, cap = render_fitted(disp, files, updated)
+            open(path, 'w').write(html_out)
             manifest.append({'label': lab, 'rep': titlecase(rep), 'title': disp,
                              'file': path, 'shareId': sid, 'files': len(files),
                              'action': 'edit' if sid else 'create'})

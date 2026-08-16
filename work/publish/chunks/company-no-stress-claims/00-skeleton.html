@@ -1,0 +1,133 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>No Stress Claims</title></head><body>
+<section class="head"><p class="eyebrow">TX Insurance Appraisals</p>
+<h1>No Stress Claims</h1>
+<p class="sub">Where every file you sent us currently stands. Updated Saturday, August 15, 2026.</p></section>
+<section class="tiles">
+<div class="tile"><span class="n">383</span><span class="l">Open files</span></div>
+<div class="tile"><span class="n">85</span><span class="l">In appraisal</span></div>
+<div class="tile alert"><span class="n">14</span><span class="l">Need you</span></div>
+<div class="tile good"><span class="n">225</span><span class="l">Settled</span></div>
+<!--MORE-->
+<section class="foot"><p>Questions on any file here? Reply to your last email thread with us, or call 737-258-3127.</p><p class="fine">This page refreshes every Monday morning. Bookmark it &mdash; the link stays the same.</p></section>
+<style>
+  :root{
+    --bg:#f7f7f5; --card:#ffffff; --ink:#1a1a17; --muted:#6b6b63;
+    --line:#e3e2dc; --accent:#7a5cff; --alert:#d21414; --alert-bg:#fff1f1;
+    --good:#15803d; --radius:14px;
+  }
+  @media (prefers-color-scheme:dark){
+    :root:not([data-theme="light"]){
+      --bg:#141413; --card:#1e1e1c; --ink:#f0efe9; --muted:#9a998f;
+      --line:#2e2e2a; --accent:#a58cff; --alert:#ff5a5a; --alert-bg:#2c1212;
+      --good:#4ade80;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#141413; --card:#1e1e1c; --ink:#f0efe9; --muted:#9a998f;
+    --line:#2e2e2a; --accent:#a58cff; --alert:#ff5a5a; --alert-bg:#2c1212;
+    --good:#4ade80;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font:16px/1.55 ui-sans-serif,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    padding:32px 20px 64px; max-width:820px; margin-inline:auto;
+    -webkit-font-smoothing:antialiased;
+  }
+  section{margin-bottom:34px}
+  .eyebrow{
+    margin:0 0 6px; font-size:12px; letter-spacing:.11em; text-transform:uppercase;
+    color:var(--accent); font-weight:650;
+  }
+  h1{margin:0 0 8px; font-size:clamp(26px,5vw,36px); line-height:1.15; letter-spacing:-.02em}
+  .sub{margin:0; color:var(--muted); font-size:15px}
+
+  .tiles{display:grid; grid-template-columns:repeat(auto-fit,minmax(120px,1fr)); gap:12px}
+  .tile{
+    background:var(--card); border:1px solid var(--line); border-radius:var(--radius);
+    padding:16px 14px; display:flex; flex-direction:column; gap:3px;
+  }
+  .tile .n{font-size:30px; font-weight:660; letter-spacing:-.02em; line-height:1}
+  .tile .l{font-size:12.5px; color:var(--muted)}
+  .tile.alert .n{color:var(--alert)}
+  .tile.good .n{color:var(--good)}
+
+  .stage-head{
+    display:flex; align-items:baseline; justify-content:space-between;
+    gap:12px; flex-wrap:wrap; border-bottom:1px solid var(--line);
+    padding-bottom:8px; margin-bottom:6px;
+  }
+  .stage-head h2{margin:0; font-size:18px; letter-spacing:-.01em}
+  .count{font-size:13px; color:var(--muted); white-space:nowrap}
+  .stage-blurb{margin:0 0 14px; font-size:14px; color:var(--muted)}
+
+  .file{
+    background:var(--card); border:1px solid var(--line); border-radius:var(--radius);
+    padding:16px 18px; margin-bottom:10px;
+  }
+  .file.needs-you{border-color:var(--alert); background:var(--alert-bg); border-width:2px}
+  .file-top{display:flex; align-items:baseline; justify-content:space-between; gap:10px; flex-wrap:wrap}
+  .file h3{margin:0; font-size:16.5px; letter-spacing:-.01em}
+  .when{font-size:12.5px; color:var(--muted); white-space:nowrap}
+  .meta{margin:3px 0 9px; font-size:13px; color:var(--muted)}
+  .what{margin:0; font-size:14.5px}
+  .ask{
+    margin:10px 0 0; padding:10px 12px; border-radius:9px;
+    background:rgba(210,20,20,.12); color:var(--alert);
+    font-size:14px; font-weight:640; border-left:4px solid var(--alert);
+  }
+  .ask::before{content:"\26A0\FE0E  "; font-weight:700}
+
+  /* Settled work sits at the bottom, greened out and struck through, so the files
+     still needing attention are what a contractor reads first. */
+  .stage.settled{opacity:.8}
+  .stage.settled .stage-head h2{color:var(--good)}
+  .stage.settled .file{border-color:color-mix(in srgb, var(--good) 35%, var(--line))}
+  .stage.settled .file h3{color:var(--good); text-decoration:line-through}
+  .stage.settled .meta,
+  .stage.settled .what{text-decoration:line-through; color:var(--muted)}
+  .settled-divider{
+    margin:34px 0 18px; border:0; border-top:2px solid var(--good); opacity:.45;
+  }
+  .settled-lead{
+    margin:-8px 0 18px; font-size:13.5px; color:var(--good); font-weight:600;
+  }
+
+  /* Chain of events: the dated history of everything done on or received for a file,
+     built by back-reading the email threads and stored on the Trello card. */
+  details.chain{margin:11px 0 0; border-top:1px dashed var(--line); padding-top:9px}
+  details.chain>summary{
+    cursor:pointer; font-size:13px; color:var(--accent); font-weight:600;
+    list-style:none; user-select:none;
+  }
+  details.chain>summary::-webkit-details-marker{display:none}
+  details.chain>summary::before{content:"\25B8  "; display:inline-block; transition:transform .15s}
+  details.chain[open]>summary::before{transform:rotate(90deg)}
+  ol.events{margin:11px 0 2px; padding:0 0 0 4px; list-style:none}
+  ol.events li{
+    position:relative; padding:0 0 11px 20px; font-size:13.5px; line-height:1.5;
+    border-left:2px solid var(--line); margin-left:5px;
+  }
+  ol.events li:last-child{border-left-color:transparent; padding-bottom:0}
+  ol.events li::before{
+    content:""; position:absolute; left:-5px; top:6px; width:8px; height:8px;
+    border-radius:50%; background:var(--accent);
+  }
+  ol.events li:last-child::before{background:var(--good); box-shadow:0 0 0 3px rgba(21,128,61,.16)}
+  ol.events .d{
+    display:block; font-size:11.5px; letter-spacing:.04em; text-transform:uppercase;
+    color:var(--muted); font-weight:650; margin-bottom:1px;
+  }
+
+  .foot{border-top:1px solid var(--line); padding-top:18px; color:var(--muted); font-size:14px}
+  .foot p{margin:0 0 6px}
+  .fine{font-size:12.5px}
+
+  @media(max-width:520px){
+    body{padding:22px 14px 48px}
+    .tiles{grid-template-columns:repeat(2,1fr)}
+  }
+</style>
+</body></html>
