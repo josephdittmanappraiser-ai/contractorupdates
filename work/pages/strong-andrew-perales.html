@@ -11,7 +11,7 @@
 <div class="tile good"><span class="n">0</span><span class="l">Settled</span></div>
 </section>
 <section class="stage"><div class="stage-head"><h2>New / intake</h2><span class="count">1 file</span></div><p class="stage-blurb">File received. Confirming details before we demand appraisal.</p>
-<div class="file"><div class="file-top"><h3>Sergeant First Class JOE SANCHEZ</h3><span class="when">last activity 2026-08-15</span></div><p class="what">This is a brand-new file; as of 2026-08-14 the contractor has provided the demand letter, EagleView report, photos, and estimate, but the office had not yet responded or begun processing.</p><details class="chain"><summary>Chain of events (4)</summary><ol class="events"><li><span class="d">2026-08-14</span>Contractor opened the file for this homeowner.</li><li><span class="d">2026-08-14</span>Contractor sent a demand letter, an EagleView report, and a reinspection estimate that had already been submitted to the carrier.</li><li><span class="d">2026-08-14</span>Contractor sent roof photos and a roof estimate.</li><li><span class="d">2026-08-14</span>Contractor noted the homeowner has a leak running down interior walls to the front door.</li></ol></details></div>
+<div class="file"><div class="file-top"><h3>Sergeant First Class JOE SANCHEZ</h3><span class="when">last activity 2026-08-15</span></div><ol class="track"><li class="now">Intake</li><li class="todo">Estimate</li><li class="todo">Demand</li><li class="todo">Inspection</li><li class="todo">Negotiating</li><li class="todo">Umpire</li><li class="todo">Settled</li></ol><p class="what">This is a brand-new file; as of 2026-08-14 the contractor has provided the demand letter, EagleView report, photos, and estimate, but the office had not yet responded or begun processing.</p><div class="latest"><p class="latest-h">Most recent activity</p><ol class="events"><li><span class="d">2026-08-14</span>Contractor noted the homeowner has a leak running down interior walls to the front door.</li><li><span class="d">2026-08-14</span>Contractor sent roof photos and a roof estimate.</li><li><span class="d">2026-08-14</span>Contractor sent a demand letter, an EagleView report, and a reinspection estimate that had already been submitted to the carrier.</li></ol></div><details class="chain"><summary>Full history from the start (4 events)</summary><ol class="events"><li><span class="d">2026-08-14</span>Contractor opened the file for this homeowner.</li><li><span class="d">2026-08-14</span>Contractor sent a demand letter, an EagleView report, and a reinspection estimate that had already been submitted to the carrier.</li><li><span class="d">2026-08-14</span>Contractor sent roof photos and a roof estimate.</li><li><span class="d">2026-08-14</span>Contractor noted the homeowner has a leak running down interior walls to the front door.</li></ol></details></div>
 </section>
 <section class="foot"><p>Questions on any file here? Reply to your last email thread with us, or call 737-258-3127.</p><p class="fine">This page refreshes every Monday morning. Bookmark it &mdash; the link stays the same.</p></section>
 <style>
@@ -97,6 +97,35 @@
   .settled-lead{
     margin:-8px 0 18px; font-size:13.5px; color:var(--good); font-weight:600;
   }
+
+  /* Where this file sits in the process. A contractor knows what "negotiating" means;
+     what they cannot see from a stage name is how much of the run is behind them. */
+  ol.track{
+    display:flex; flex-wrap:wrap; gap:4px 0; align-items:center;
+    margin:2px 0 11px; padding:0; list-style:none;
+    font-size:11px; letter-spacing:.03em; text-transform:uppercase; font-weight:640;
+  }
+  ol.track li{color:var(--muted); opacity:.55; white-space:nowrap}
+  ol.track li+li::before{content:"\203A"; margin:0 6px; opacity:.5; font-weight:400}
+  ol.track li.done{opacity:.85}
+  ol.track li.now{
+    color:var(--accent); opacity:1;
+    border-bottom:2px solid var(--accent); padding-bottom:1px;
+  }
+
+  /* The newest events, printed open. A collapsed history is a history nobody reads,
+     and "what moved lately" is the question the page exists to answer. */
+  .latest{
+    margin:11px 0 0; padding:11px 13px; border-radius:10px;
+    background:color-mix(in srgb, var(--accent) 7%, transparent);
+    border-left:3px solid var(--accent);
+  }
+  .latest-h{
+    margin:0 0 7px; font-size:11.5px; letter-spacing:.06em; text-transform:uppercase;
+    color:var(--accent); font-weight:680;
+  }
+  .latest ol.events{margin:0}
+  .latest ol.events li:last-child{padding-bottom:0}
 
   /* Chain of events: the dated history of everything done on or received for a file,
      built by back-reading the email threads and stored on the Trello card. */

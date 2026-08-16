@@ -11,8 +11,8 @@
 <div class="tile good"><span class="n">5</span><span class="l">Settled</span></div>
 </section>
 <section class="stage"><div class="stage-head"><h2>Estimate being prepared</h2><span class="count">2 files</span></div><p class="stage-blurb">We are writing the estimate.</p>
-<div class="file needs-you"><div class="file-top"><h3>Jodie Spielman</h3><span class="when">last activity 2026-04-02</span></div><p class="what">The requested estimate, including both copper awnings and a premium shake-style shingle, was delivered on 4/2; no confirmation or further movement has been logged since, and the file has not yet been onboarded to formal appraisal.</p><p class="ask">Joseph sent the estimate on 4/2 and asked for confirmation or revisions before it can move forward to opening coverage with the carrier; please confirm it&#x27;s ready or flag any changes needed.</p><details class="chain"><summary>Chain of events (2)</summary><ol class="events"><li><span class="d">2026-04-01</span>Contractor requested an estimate (roof, gutters, downspouts, both copper awnings, premium shake-style shingle) to get coverage opened before the file can be onboarded to appraisal.</li><li><span class="d">2026-04-02</span>Estimate drafted and sent for review; awaiting confirmation.</li></ol></details></div>
-<div class="file needs-you"><div class="file-top"><h3>Sherman Cole</h3><span class="when">last activity 2026-03-31</span></div><p class="what">The requested estimate (revised to a premium shake-style shingle) was delivered on 4/1; no confirmation or further movement has been logged since, and the file has not yet moved to formal appraisal.</p><p class="ask">Joseph sent the revised estimate with the requested premium shake-style shingle on 4/1 and asked for confirmation; please confirm it&#x27;s approved or flag any further changes needed before it moves to the carrier.</p><details class="chain"><summary>Chain of events (4)</summary><ol class="events"><li><span class="d">2026-03-26</span>Contractor requested an estimate (roof, gutters, interior, O&amp;P) to help get coverage opened with the carrier; noted the file is likely headed to appraisal.</li><li><span class="d">2026-03-31</span>Estimate drafted and sent for review.</li><li><span class="d">2026-04-01</span>Contractor asked to revise the estimate to a premium shake-style shingle instead of a 30-year architectural shingle.</li><li><span class="d">2026-04-01</span>Revised estimate sent with the updated shingle type; awaiting confirmation.</li></ol></details></div>
+<div class="file needs-you"><div class="file-top"><h3>Jodie Spielman</h3><span class="when">last activity 2026-04-02</span></div><ol class="track"><li class="done">Intake</li><li class="now">Estimate</li><li class="todo">Demand</li><li class="todo">Inspection</li><li class="todo">Negotiating</li><li class="todo">Umpire</li><li class="todo">Settled</li></ol><p class="what">The requested estimate, including both copper awnings and a premium shake-style shingle, was delivered on 4/2; no confirmation or further movement has been logged since, and the file has not yet been onboarded to formal appraisal.</p><p class="ask">Joseph sent the estimate on 4/2 and asked for confirmation or revisions before it can move forward to opening coverage with the carrier; please confirm it&#x27;s ready or flag any changes needed.</p><div class="latest"><p class="latest-h">Most recent activity</p><ol class="events"><li><span class="d">2026-04-02</span>Estimate drafted and sent for review; awaiting confirmation.</li><li><span class="d">2026-04-01</span>Contractor requested an estimate (roof, gutters, downspouts, both copper awnings, premium shake-style shingle) to get coverage opened before the file can be onboarded to appraisal.</li></ol></div><details class="chain"><summary>Full history from the start (2 events)</summary><ol class="events"><li><span class="d">2026-04-01</span>Contractor requested an estimate (roof, gutters, downspouts, both copper awnings, premium shake-style shingle) to get coverage opened before the file can be onboarded to appraisal.</li><li><span class="d">2026-04-02</span>Estimate drafted and sent for review; awaiting confirmation.</li></ol></details></div>
+<div class="file needs-you"><div class="file-top"><h3>Sherman Cole</h3><span class="when">last activity 2026-04-01</span></div><ol class="track"><li class="done">Intake</li><li class="now">Estimate</li><li class="todo">Demand</li><li class="todo">Inspection</li><li class="todo">Negotiating</li><li class="todo">Umpire</li><li class="todo">Settled</li></ol><p class="what">The requested estimate (revised to a premium shake-style shingle) was delivered on 4/1; no confirmation or further movement has been logged since, and the file has not yet moved to formal appraisal.</p><p class="ask">Joseph sent the revised estimate with the requested premium shake-style shingle on 4/1 and asked for confirmation; please confirm it&#x27;s approved or flag any further changes needed before it moves to the carrier.</p><div class="latest"><p class="latest-h">Most recent activity</p><ol class="events"><li><span class="d">2026-04-01</span>Revised estimate sent with the updated shingle type; awaiting confirmation.</li><li><span class="d">2026-04-01</span>Contractor asked to revise the estimate to a premium shake-style shingle instead of a 30-year architectural shingle.</li><li><span class="d">2026-03-31</span>Estimate drafted and sent for review.</li></ol></div><details class="chain"><summary>Full history from the start (4 events)</summary><ol class="events"><li><span class="d">2026-03-26</span>Contractor requested an estimate (roof, gutters, interior, O&amp;P) to help get coverage opened with the carrier; noted the file is likely headed to appraisal.</li><li><span class="d">2026-03-31</span>Estimate drafted and sent for review.</li><li><span class="d">2026-04-01</span>Contractor asked to revise the estimate to a premium shake-style shingle instead of a 30-year architectural shingle.</li><li><span class="d">2026-04-01</span>Revised estimate sent with the updated shingle type; awaiting confirmation.</li></ol></details></div>
 </section>
 <hr class="settled-divider"><p class="settled-lead">Closed files &mdash; nothing needed from you on these.</p>
 <section class="stage settled"><div class="stage-head"><h2>Settled - payment outstanding</h2><span class="count">2 files</span></div><p class="stage-blurb">The claim is resolved. Our appraisal invoice is still open.</p>
@@ -108,6 +108,35 @@
   .settled-lead{
     margin:-8px 0 18px; font-size:13.5px; color:var(--good); font-weight:600;
   }
+
+  /* Where this file sits in the process. A contractor knows what "negotiating" means;
+     what they cannot see from a stage name is how much of the run is behind them. */
+  ol.track{
+    display:flex; flex-wrap:wrap; gap:4px 0; align-items:center;
+    margin:2px 0 11px; padding:0; list-style:none;
+    font-size:11px; letter-spacing:.03em; text-transform:uppercase; font-weight:640;
+  }
+  ol.track li{color:var(--muted); opacity:.55; white-space:nowrap}
+  ol.track li+li::before{content:"\203A"; margin:0 6px; opacity:.5; font-weight:400}
+  ol.track li.done{opacity:.85}
+  ol.track li.now{
+    color:var(--accent); opacity:1;
+    border-bottom:2px solid var(--accent); padding-bottom:1px;
+  }
+
+  /* The newest events, printed open. A collapsed history is a history nobody reads,
+     and "what moved lately" is the question the page exists to answer. */
+  .latest{
+    margin:11px 0 0; padding:11px 13px; border-radius:10px;
+    background:color-mix(in srgb, var(--accent) 7%, transparent);
+    border-left:3px solid var(--accent);
+  }
+  .latest-h{
+    margin:0 0 7px; font-size:11.5px; letter-spacing:.06em; text-transform:uppercase;
+    color:var(--accent); font-weight:680;
+  }
+  .latest ol.events{margin:0}
+  .latest ol.events li:last-child{padding-bottom:0}
 
   /* Chain of events: the dated history of everything done on or received for a file,
      built by back-reading the email threads and stored on the Trello card. */

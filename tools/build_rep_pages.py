@@ -128,15 +128,63 @@ CSS = CSS[CSS.index('<style>'):CSS.index('</style>') + 8]
 E = html.escape
 
 
+# The steps a file walks through, condensed from the 11 stages. A contractor reading
+# "Negotiating with the carrier's appraiser" knows what it means; they do not necessarily
+# know how much of the process is behind them, which is the question they actually have.
+TRACK = ['Intake', 'Estimate', 'Demand', 'Inspection', 'Negotiating', 'Umpire', 'Settled']
+# Referred out (9) is not a point on this line -- those files get no strip at all.
+STAGE_STEP = {1: 0, 2: 1, 3: 1, 4: 2, 5: 3, 6: 3, 7: 4, 8: 5, 10: 6, 11: 6}
+
+
+def track_html(order):
+    """Where this file sits in the process, as a strip of steps."""
+    here = STAGE_STEP.get(order, 0)
+    return ('<ol class="track">' + "".join(
+        f'<li class="{"now" if i == here else "done" if i < here else "todo"}">{s}</li>'
+        for i, s in enumerate(TRACK)) + '</ol>')
+
+
+def ordered(events):
+    """Oldest first. Agents return them in order, but the page must not depend on that."""
+    return sorted(events, key=lambda e: str(e.get('date', ''))[:10])
+
+
+def last_activity(f):
+    """The card's own last-activity date understates a file whose newest email is newer --
+    a Trello card only updates when someone touches it. Show whichever is later."""
+    tl = f.get('timeline') or []
+    newest = max([str(e.get('date', ''))[:10] for e in tl] + [(f.get('activity') or '')[:10]])
+    return newest
+
+
+def latest_html(events, n=3):
+    """The newest events, open on the page.
+
+    The full chain sits collapsed below this, and a collapsed thing is a thing most
+    people never open. What a contractor wants first is what moved lately -- so the
+    last few events are printed where they cannot be missed, and the history stays
+    underneath for anyone who wants the whole story.
+    """
+    if not events:
+        return ''
+    events = ordered(events)
+    recent = list(reversed(events[-n:]))
+    rows = "".join(
+        f'<li><span class="d">{E(str(ev.get("date", ""))[:10])}</span>{E(ev.get("event", ""))}</li>'
+        for ev in recent)
+    return f'<div class="latest"><p class="latest-h">Most recent activity</p><ol class="events">{rows}</ol></div>'
+
+
 def chain_html(events):
     """Collapsed, dated history of everything done on or received for the file."""
     if not events:
         return ''
+    events = ordered(events)
     rows = "".join(
         f'<li><span class="d">{E(str(ev.get("date", ""))[:10])}</span>{E(ev.get("event", ""))}</li>'
         for ev in events)
     n = len(events)
-    return (f'<details class="chain"><summary>Chain of events ({n})</summary>'
+    return (f'<details class="chain"><summary>Full history from the start ({n} events)</summary>'
             f'<ol class="events">{rows}</ol></details>')
 
 
@@ -221,10 +269,13 @@ def render(display_name, files, updated, cap=None):
             meta = " &middot; ".join(x for x in [E(f['addr']), (f"Claim {E(f['claim'])}" if f['claim'] else '')] if x)
             out.append(f'<div class="file{" needs-you" if f["needs_you"] else ""}">'
                        f'<div class="file-top"><h3>{E(f["insured"])}</h3>'
-                       f'<span class="when">last activity {E(f["activity"][:10])}</span></div>'
+                       f'<span class="when">last activity {E(last_activity(f))}</span></div>'
                        + (f'<p class="meta">{meta}</p>' if meta else '')
+                       + ('' if is_settled or f['stage']['order'] == 9
+                          else track_html(f['stage']['order']))
                        + f'<p class="what">{E(f["what"])}</p>'
                        + (f'<p class="ask">{E(f["ask"])}</p>' if f['needs_you'] else '')
+                       + latest_html(f.get('timeline'))
                        + chain_html(f.get('timeline'))
                        + '</div>')
         out.append('</section>')
