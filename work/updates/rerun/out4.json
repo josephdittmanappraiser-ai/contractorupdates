@@ -1,0 +1,104 @@
+{
+ "batch": 4,
+ "results": [
+  {
+   "cardId": "67cc71e760349263a5ce7b17",
+   "update": "In August 2025 the carrier denied the signed appraisal award and the public adjuster's office said the claim would move to litigation; Joseph's appraisal role on this file has concluded and it is now with the insured's attorney/PA to resolve.",
+   "needed": null,
+   "asOf": "2026-08-16",
+   "timeline": [
+    {"date": "2025-03-06", "event": "The insured invoked appraisal on the carrier, naming Joseph Dittman as the appraiser."},
+    {"date": "2025-04-05", "event": "The carrier named its appraiser, and the two appraisers exchanged umpire options and signed the DOA."},
+    {"date": "2025-05-29", "event": "Joseph and the carrier's appraiser held the joint inspection at the property."},
+    {"date": "2025-06-07", "event": "The carrier's appraiser sent his initial estimate."},
+    {"date": "2025-06-22", "event": "Joseph pressed for a fuller scope on the roof; the carrier's appraiser initially disagreed but agreed to reconsider."},
+    {"date": "2025-06-24", "event": "The carrier's appraiser sent a revised estimate reflecting their phone conversation."},
+    {"date": "2025-06-26", "event": "Joseph agreed to sign off on the revised estimate."},
+    {"date": "2025-06-30", "event": "Both appraisers executed the appraisal agreement and award."},
+    {"date": "2025-07-01", "event": "Joseph's office forwarded the appraisal invoice and final award documents to the public adjuster's staff."},
+    {"date": "2025-08-11", "event": "The public adjuster's office reported the carrier denied the appraisal award, so the claim will now need to go to litigation to be settled."}
+   ],
+   "trelloItemsAdded": 0,
+   "noEmail": false,
+   "priorNewest": "2025-08-11",
+   "newEventsFound": 0,
+   "staleReason": "No email correspondence exists on this claim after the August 11, 2025 update that the carrier denied the award and the file was headed to litigation. The card's later activity reflects Trello board housekeeping, not new case correspondence."
+  },
+  {
+   "cardId": "68129eea17e53372c1eaec00",
+   "update": "The appraisal is stalled in the retainer-payment stage of the umpire process; the umpire has repeatedly pushed the payment diary date out (now to August 9) while waiting on the insured's retainer payment before any inspection date can be set.",
+   "needed": "Confirm the insured has paid the umpire's outstanding retainer invoice so an inspection date can finally be set.",
+   "asOf": "2026-08-16",
+   "timeline": [
+    {"date": "2025-04-30", "event": "No Stress Claims sent the appraisal demand to American Risk Insurance on behalf of Miguel Myers."},
+    {"date": "2025-05-10", "event": "Joseph followed up twice for updates and No Stress Claims helped track down the carrier's appraiser contact."},
+    {"date": "2025-05-21", "event": "JT Parker Claims confirmed the assignment to Connor Hounsel as the carrier's appraiser."},
+    {"date": "2025-05-23", "event": "Joseph and Connor Hounsel selected Donny Reed as umpire and set a June 25 inspection date."},
+    {"date": "2025-06-18", "event": "The homeowner was notified of and confirmed the June 25 inspection."},
+    {"date": "2026-01-07", "event": "Connor Hounsel confirmed Donny Reed's formal appointment as umpire."},
+    {"date": "2026-01-08", "event": "Joseph disputed that an impasse existed until the carrier's appraiser provided the appraisal clause, which was then supplied."},
+    {"date": "2026-03-27", "event": "The umpire, Donny Reed, set up a shared communication protocol for the panel."},
+    {"date": "2026-04-20", "event": "The umpire set a payment status diary date of May 17 and said inspection dates would follow once both retainer payments were received; the carrier's appraiser confirmed the invoice had been sent to the carrier."},
+    {"date": "2026-05-05", "event": "The umpire confirmed the carrier's retainer payment was received and asked Joseph to confirm the insured's retainer invoice had gone out."},
+    {"date": "2026-05-07", "event": "Joseph confirmed the retainer invoice had been sent to the insured and the public adjuster and is awaiting their payment."},
+    {"date": "2026-05-19", "event": "The umpire moved the payment diary date to June 14 and asked Joseph to follow up again on the outstanding retainer payment."},
+    {"date": "2026-06-15", "event": "The umpire clarified it is the insured's retainer payment still outstanding, moved the diary date to July 5, and asked Joseph to follow up again."},
+    {"date": "2026-07-25", "event": "The umpire moved the payment diary date to August 9; Joseph's office confirmed it followed up with the insured on the outstanding umpire invoice."}
+   ],
+   "trelloItemsAdded": 5,
+   "noEmail": false,
+   "priorNewest": "2026-04-20",
+   "newEventsFound": 5
+  },
+  {
+   "cardId": "6970f01639fd7a6152b4961e",
+   "update": "The file remains in the umpire stage awaiting the carrier appraiser's position; the most recent activity was collecting a complete photo report from the contractor's restoration partner in mid-June, and there has been no further correspondence since.",
+   "needed": null,
+   "asOf": "2026-08-16",
+   "timeline": [
+    {"date": "2026-01-20", "event": "Pre-appraisal demand submitted to the carrier."},
+    {"date": "2026-02-02", "event": "Carrier's appraiser Robert Stephenson was assigned; Joseph's office requested his umpire list and inspection availability."},
+    {"date": "2026-02-03", "event": "The joint inspection was scheduled for February 25."},
+    {"date": "2026-02-25", "event": "The joint inspection was held."},
+    {"date": "2026-03-19", "event": "The interior ESX for the file was completed."},
+    {"date": "2026-04-17", "event": "Joseph requested the mitigation invoice and any other documents; the carrier sent additional file documents."},
+    {"date": "2026-05-20", "event": "The contractor's restoration partner sent a plumbing bid for shower/bathtub work."},
+    {"date": "2026-05-28", "event": "The contractor's restoration partner sent the plumber's receipt."},
+    {"date": "2026-06-16", "event": "Joseph requested photos from the contractor's restoration partner."},
+    {"date": "2026-06-17", "event": "The restoration partner sent a photo report and offered to gather more photos if needed."}
+   ],
+   "trelloItemsAdded": 0,
+   "noEmail": false,
+   "priorNewest": "2026-06-17",
+   "newEventsFound": 0,
+   "staleReason": "No new email correspondence exists on this claim past the June 17, 2026 photo report from the restoration partner. The card's August activity reflects Trello board housekeeping unrelated to this file, not new case correspondence."
+  },
+  {
+   "cardId": "69cf01db396d7a8ade890065",
+   "update": "The file is now with the umpire, Ty Patch, who has both sides' positions and sent his retainer invoices in mid-June; no further correspondence has come in since, so the claim is awaiting the umpire's next step.",
+   "needed": null,
+   "asOf": "2026-08-16",
+   "timeline": [
+    {"date": "2026-02-16", "event": "Legacy Roofing shared damage photos for Juanita Mascarenhas's file; Joseph asked for the EagleView report and carrier's estimate."},
+    {"date": "2026-02-19", "event": "Joseph moved the file to public adjuster representation and asked for the homeowner's email to send the PA documents."},
+    {"date": "2026-04-02", "event": "Alex Chavez referred the appraisal after the claim was denied; Joseph confirmed receipt and prepared the demand."},
+    {"date": "2026-04-03", "event": "Joseph sent a draft demand for review, which Legacy Roofing approved, and sent the completed demand to AAA."},
+    {"date": "2026-04-15", "event": "The homeowner and Legacy Roofing forwarded AAA's response saying the claim was premature."},
+    {"date": "2026-05-04", "event": "Legacy Roofing reported the second AAA inspection was denied and asked Joseph to reinitiate the appraisal; Joseph resent the files."},
+    {"date": "2026-05-06", "event": "Joseph followed up with AAA and asked the homeowner for any update she may have received."},
+    {"date": "2026-05-10", "event": "The carrier's appraiser, David Preddy, sent the appraiser agreement naming Ty Patch as umpire and asked for inspection dates."},
+    {"date": "2026-06-08", "event": "David Preddy sent his position, asking Joseph to revise the demand estimate to include the media room and living room."},
+    {"date": "2026-06-09", "event": "Joseph declared an impasse and asked Ty Patch to serve as umpire, sending his position, photo report, and roof report."},
+    {"date": "2026-06-11", "event": "David Preddy sent his position and photos to the umpire; Ty Patch accepted the assignment and sent retainer invoices."}
+   ],
+   "trelloItemsAdded": 0,
+   "noEmail": false,
+   "priorNewest": "2026-06-10",
+   "newEventsFound": 0,
+   "staleReason": "The June 10-11, 2026 hand-off to the umpire, including his retainer invoices, is already the full email record on this claim; nothing newer exists. The card's July 22 activity reflects Trello board housekeeping, not new case correspondence."
+  }
+ ],
+ "withEmail": 4,
+ "noEmail": 0,
+ "flaggedNeeded": 1
+}
