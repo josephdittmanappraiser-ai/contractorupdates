@@ -54,8 +54,18 @@
    "threadsDropped": ["19c34f0a5a68fe38"],
    "trelloItemsAdded": 4,
    "notes": "19fe79e206fff62d is an automated Trello digest naming Sergio Davila's card move to 'Umpire invoice paid' - consistent with, and not additive to, the payment confirmation found in 19d82a445084e4ec, so it produced no separate event. Dropped 19c34f0a5a68fe38: a recurring 'APPRAISAL INSPECTION REMINDER' digest whose post-searchAfter messages list appointments for other insureds (Yolanda Mariel de Ramirez, William Cruz, Jose Villalta, Axel Mejias Sanchez); the only 'Davila' mention in it is buried in an old April quote chain, already predating searchAfter."
+  },
+  {
+   "cardId": "691206f033ca8da584cef61d",
+   "newEvents": [],
+   "update": "The contents award has been issued; Joseph and the carrier's appraiser are now finalizing how to format the separate dwelling award, deciding whether to combine or split the two portions on one signed document.",
+   "needed": null,
+   "threadsRead": ["19d34ee483b0f61d","19fc48339db6b4a8"],
+   "threadsDropped": ["19fc48339db6b4a8"],
+   "trelloItemsAdded": 0,
+   "notes": "19fc48339db6b4a8 is the Pastrana invoice thread, unrelated to Robert Caballero - dropped. 19d34ee483b0f61d is genuinely this file (subject 'Caballero Contents impasse'), but every message after searchAfter (2026-08-08, 08-10, 08-13, 08-14 x2, on finalizing the dwelling award format) is already captured verbatim by the existing checklist's last item ('2026-08-08 to 2026-08-14 — Joseph and Cedric began finalizing a separate dwelling award...'), so no new event was added."
   }
  ],
- "checked": 4,
+ "checked": 5,
  "withNewEvents": 3
 }
