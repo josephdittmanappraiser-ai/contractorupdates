@@ -1,0 +1,88 @@
+[
+ {
+  "cardId": "69dfacd89ebdfcd1cbb05b51",
+  "insured": "Jose Bravo",
+  "claim": "PL2503507",
+  "address": "6824 Mountain Cedar Ln. Dallas Tx 75236",
+  "searchAfter": "2026-08-12",
+  "threads": [
+   {
+    "id": "19ffd4816d5e7506",
+    "newest": "2026-08-13",
+    "from": "do-not-reply@trello.com"
+   }
+  ]
+ },
+ {
+  "cardId": "69ea34cfd30fc18976cd84b0",
+  "insured": "Jose Alvarenga",
+  "claim": "PL2503551",
+  "address": "535 Gettysburg, Mesquite, Texas 75149",
+  "searchAfter": "2026-07-11",
+  "threads": [
+   {
+    "id": "19fc48339db6b4a8",
+    "newest": "2026-08-10",
+    "from": "josephdittmanappraiser@gmail.com"
+   },
+   {
+    "id": "19ef523b4a6ce1b7",
+    "newest": "2026-08-03",
+    "from": "mccartneykirby@gmail.com"
+   },
+   {
+    "id": "19db7f1674c450e1",
+    "newest": "2026-07-30",
+    "from": "andres@linearroofing.com"
+   }
+  ]
+ },
+ {
+  "cardId": "6a2720c535261e58b0480241",
+  "insured": "Sharla Mckee",
+  "claim": "5042824355-1",
+  "address": "2907 Tanglewood Drive Commerce, TX 75428",
+  "searchAfter": "2026-07-31",
+  "threads": [
+   {
+    "id": "19f918e67d7e16e0",
+    "newest": "2026-08-04",
+    "from": "soundimage55@yahoo.com"
+   }
+  ]
+ },
+ {
+  "cardId": "6a48414e201af36c1615a0e8",
+  "insured": "ROCIO RUVALCABA",
+  "claim": "",
+  "address": "",
+  "searchAfter": "2026-07-29",
+  "threads": [
+   {
+    "id": "19ffc5ab971973ef",
+    "newest": "2026-08-13",
+    "from": "do-not-reply@trello.com"
+   },
+   {
+    "id": "19fde6623e2a6d8a",
+    "newest": "2026-08-07",
+    "from": "do-not-reply@trello.com"
+   },
+   {
+    "id": "19fdd611e93af185",
+    "newest": "2026-08-07",
+    "from": "do-not-reply@trello.com"
+   },
+   {
+    "id": "19fb9127e5c85e58",
+    "newest": "2026-07-31",
+    "from": "do-not-reply@trello.com"
+   },
+   {
+    "id": "19f8c36d3e440e4f",
+    "newest": "2026-08-13",
+    "from": "rociolimon84@gmail.com"
+   }
+  ]
+ }
+]
