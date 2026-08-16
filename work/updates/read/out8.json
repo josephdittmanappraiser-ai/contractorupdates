@@ -1,0 +1,61 @@
+{
+  "batch": 8,
+  "results": [
+    {
+      "cardId": "67f0ba2505b211822c6a5eac",
+      "newEvents": [],
+      "update": "This file was closed in June 2025 after the insured withdrew from appraisal; nothing in this pass changed that, and every candidate thread turned out to belong to other clients rather than Jose Ibarra.",
+      "needed": null,
+      "threadsRead": ["19e8f2d0c888547c", "19e46078fb1dfa1e", "19cc4ef0a7fb3cbd", "19c02c2ba30a219e", "19c000223d6d2686", "19bf153ba1b3e758", "19b777be3a2cacf4", "19b6571425460cf5", "19b5bfedd83d98e7", "19b5b17b9b38c897", "19b5affb9975db16", "19b56ce7cc0b0dcd", "19b2852a39788646", "19b00e304ea18d84", "1966f1ed2b80bb47"],
+      "threadsDropped": ["19e8f2d0c888547c", "19e46078fb1dfa1e", "19cc4ef0a7fb3cbd", "19c02c2ba30a219e", "19c000223d6d2686", "19bf153ba1b3e758", "19b777be3a2cacf4", "19b6571425460cf5", "19b5bfedd83d98e7", "19b5b17b9b38c897", "19b5affb9975db16", "19b56ce7cc0b0dcd", "19b2852a39788646", "19b00e304ea18d84", "1966f1ed2b80bb47"],
+      "trelloItemsAdded": 0,
+      "notes": "All 15 threads belong to other people, not Jose Ibarra, whose file was already closed 2025-06-11. Two threads (19e8f2d0c888547c, 19e46078fb1dfa1e) are Clifford Armstead / Ayona Harp, a State Farm claim. 19cc4ef0a7fb3cbd is entirely about Beth Coggshall. Seven threads (19c02c2ba30a219e, 19c000223d6d2686, 19bf153ba1b3e758, 19b6571425460cf5, 19b5bfedd83d98e7, 19b5b17b9b38c897, 19b5affb9975db16, 19b56ce7cc0b0dcd, 19b2852a39788646, 19b00e304ea18d84) are about Roberto & Raquel Ibarra, an unrelated Allstate claim at a different address, handled by a different public adjuster. 19b777be3a2cacf4 is an internal appraiser-invoice thread unrelated to any client file. 1966f1ed2b80bb47 is about Dwain Bowens. Dropped all 15; no genuine Jose Ibarra activity found."
+    },
+    {
+      "cardId": "6872b7b43d21fee0af22f904",
+      "newEvents": [],
+      "update": "The file remains at its December close: the contractor confirmed the roof was already repaired and paid outside the appraisal process, and the claim never reached formal appraisal. No new Edwin Mejia correspondence turned up in this pass.",
+      "needed": null,
+      "threadsRead": ["19fe274d6d9f617b", "19fdd5e260d350e2", "19fdd55f672d12e9", "19fd506dcc58513d", "19fd3c0a986df595", "19fc98da35ee6742", "19fc9553f5ffc3fe", "19fc93c82da283e9", "19fb436cdfe0ad8e", "19fb3c47e4c24e26", "19faef7dd5812a96", "19f9652b1870cc76", "19f8794e2ac0c8a0", "19f800738ab7f3de", "19f67a578ab5a874", "19f29cb7d4e9a356", "19f1678b36e65193", "19f053380392f6fa", "19efeebf6d3448ba", "19f00b13de95815e"],
+      "threadsDropped": ["19fe274d6d9f617b", "19fdd5e260d350e2", "19fdd55f672d12e9", "19fd506dcc58513d", "19fd3c0a986df595", "19fc98da35ee6742", "19fc9553f5ffc3fe", "19fc93c82da283e9", "19fb436cdfe0ad8e", "19fb3c47e4c24e26", "19faef7dd5812a96", "19f9652b1870cc76", "19f8794e2ac0c8a0", "19f800738ab7f3de", "19f67a578ab5a874", "19f29cb7d4e9a356", "19f1678b36e65193", "19f053380392f6fa", "19efeebf6d3448ba", "19f00b13de95815e"],
+      "trelloItemsAdded": 0,
+      "notes": "All 20 threads belong to other clients, none to Edwin Mejia at 809 Emerald St. Several (19fe274d6d9f617b, 19fdd5e260d350e2, 19fdd55f672d12e9, 19fb436cdfe0ad8e, 19fb3c47e4c24e26) are about Rudy Mejia Jr., a different claimant/claim number entirely. 19fd3c0a986df595, 19f800738ab7f3de, 19f1678b36e65193, 19efeebf6d3448ba are about Hugo Mejia Anzora, another unrelated claimant (the sender evelissmejia@gmail.com is tied to his file, not Edwin's). The rest are broad Trello digest emails covering dozens of unrelated cards with no mention of Edwin or Emerald St. Dropped all 20."
+    },
+    {
+      "cardId": "69139dd59bb570198a0f4bdd",
+      "newEvents": [],
+      "update": "The appraisal demand for this claim is still with the carrier; Joseph's most recent follow-up to the public adjuster's office about escalating the stalled file to litigation has not yet drawn a reply.",
+      "needed": null,
+      "threadsRead": ["19e39492827abc14"],
+      "threadsDropped": [],
+      "trelloItemsAdded": 0,
+      "notes": "The one thread (a batch list of open files without carrier appraisers named, plus a 5/22 follow-up) is genuinely about this file, but its content is already captured verbatim by the existing checklist's last entry, which covers the same 2026-05-18 to 2026-05-22 span. No new distinct event to add."
+    },
+    {
+      "cardId": "69836934dbf3147b324011b1",
+      "newEvents": [],
+      "update": "The file remains on track for the confirmed joint appraisal inspection with the carrier's appraiser and umpire on August 26 at 9:00 AM; nothing has changed since that date was locked in.",
+      "needed": null,
+      "threadsRead": ["19f2425d102909d7", "19fdd1d7cfac57ca"],
+      "threadsDropped": ["19fc48339db6b4a8", "1a0055f80244a557", "1a0031a779fd2640", "19ff8028b42e2ca4", "19ff365d00ec7eec", "19ff1b66a2f78812", "19fed034cb2207e2", "19feccf177278f93", "19fb5c9b00b05a77", "19fd3f513670f10e", "19fd3c750645363b", "19fc98da35ee6742", "19fb37d7acb95394", "19f9f14556b722d9"],
+      "trelloItemsAdded": 0,
+      "notes": "19f2425d102909d7 is the genuine Theodore & Rose Mendoza thread (claim 0817155401 verified in-thread), but every message after searchAfter (07-31 to 08-01) just reconfirms the August 26, 9 AM inspection already logged as the last Chain of Events item -- no new information. 19fdd1d7cfac57ca is a Trello digest that includes one line confirming this card moved to 'Umpire inspection scheduled,' consistent with the same fact, so it was read but not treated as a new event. All other threads belong to other clients sharing the Mendoza surname or an unrelated appraisal: 19feccf177278f93, 19fd3f513670f10e, 19fb37d7acb95394, and the Maribel-Mendoza mentions inside the digests (1a0055f80244a557, 1a0031a779fd2640, 19ff8028b42e2ca4, 19ff365d00ec7eec, 19ff1b66a2f78812, 19fed034cb2207e2) are Maribel Mendoza, a different insured/claim/address (San Antonio, Foremost claim 7010350940). 19fb5c9b00b05a77 and 19f9f14556b722d9 are Kimberly & Hugo Aguilar (Allstate claim 0828618371). 19fc48339db6b4a8 is 'Pastrana.' 19fc98da35ee6742 and 19fd3c750645363b are generic digests with no Theodore Mendoza mention. All dropped."
+    },
+    {
+      "cardId": "69cf01db396d7a8ade890065",
+      "newEvents": [
+        {"date": "2026-06-23", "event": "The umpire confirmed the homeowner had paid the retainer fee and said he was waiting on the carrier's portion."},
+        {"date": "2026-07-08", "event": "The umpire confirmed he had received the carrier's portion of the fee and asked whether the inspection would be solo or with the full panel."},
+        {"date": "2026-07-22", "event": "After coordinating schedules among the umpire, the carrier's appraiser, and the homeowner, Joseph confirmed the joint appraisal inspection for August 17 at 10:00 AM, including interior access."}
+      ],
+      "update": "Both sides have now paid the umpire's retainer fee, and after several rounds of schedule negotiation the joint appraisal inspection with the carrier's appraiser and umpire is confirmed for August 17 at 10:00 AM, with interior access granted.",
+      "needed": null,
+      "threadsRead": ["19ea7fe42220d4aa", "19f6d5ac47fc85c5", "19f75d32c32bf1b9", "19d5001555aa15bc"],
+      "threadsDropped": ["19fc48339db6b4a8", "19eefa618b62aa15"],
+      "trelloItemsAdded": 3,
+      "notes": "19ea7fe42220d4aa ('Mascarenhas Position Estimate') is the primary, verified thread for this file (same carrier appraiser David Preddy and umpire Ty Patch already named in the existing checklist). 19f6d5ac47fc85c5 is primarily about a different insured, Muniyandi, but the same panel (Preddy/Ty Patch) discusses coordinating Mascarenhas's inspection on the same day, corroborating the August 17 date reached in the primary thread -- used only to confirm, not as a standalone source. 19f75d32c32bf1b9 is a Trello digest whose one relevant line ('Juanita Mascarenhas ... moved to Umpire inspection scheduled') matches the card by name and confirms the same status change. 19d5001555aa15bc is the contractor's original referral thread; its 07-07 exchange (contractor asking for status, office replying they were awaiting the umpire's availability) is consistent with, not additive to, the fuller schedule-negotiation history and was not logged separately. Dropped 19fc48339db6b4a8 ('Pastrana,' unrelated) and 19eefa618b62aa15 (a solar-contract cancellation involving a different person also named Mascarenhas, unrelated to this roofing claim)."
+    }
+  ],
+  "checked": 5,
+  "withNewEvents": 1
+}
