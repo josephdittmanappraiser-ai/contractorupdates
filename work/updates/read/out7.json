@@ -1,0 +1,61 @@
+{
+ "batch": 7,
+ "results": [
+  {
+   "cardId": "6923293e0bc424f92bea4da8",
+   "newEvents": [
+    {"date": "2026-07-25", "event": "The umpire confirmed receipt of the insured's portion of the umpire fee, and the carrier's appraiser reported the carrier had reissued its own payment."},
+    {"date": "2026-07-30", "event": "At the umpire's request, the carrier's appraiser sent his position estimate, an Eagleview report, and a gutter-layout outline."},
+    {"date": "2026-07-31", "event": "The umpire confirmed the carrier's portion of the umpire fee had been received and proposed inspecting the property on August 17."},
+    {"date": "2026-08-03", "event": "Joseph asked to move the umpire's inspection to August 19 at 2:00 PM; the carrier's appraiser sent a differences report and said he would not attend in person."},
+    {"date": "2026-08-10", "event": "The umpire confirmed the inspection for August 19 at 2:00 PM, with the carrier's appraiser joining by phone while traveling."}
+   ],
+   "update": "The umpire has now received both sides' fee payments and has scheduled an on-site inspection for August 19 at 2:00 PM, with the carrier's appraiser joining by phone. A decision should follow that inspection.",
+   "needed": null,
+   "threadsRead": ["19fda5e1f70a2318","19fd865e38ba365b","19fb958470d85072","19fc48339db6b4a8","19fbdf19a82850c1","19f8c51768cdd12c","19f8a63c36421c3d","19f8c181689b995f","19f6bbd2878297e7","19f683d3852475f5","19f61bc8a168dc55","19f61abcfe6b1515","19f57d525f761ae5","19f57529f18ab70a","19f46e9f3a1133f4","19dd67f0a8565173"],
+   "threadsDropped": ["19fda5e1f70a2318","19fd865e38ba365b","19fb958470d85072","19fc48339db6b4a8","19fbdf19a82850c1","19f8c51768cdd12c","19f8a63c36421c3d","19f8c181689b995f","19f6bbd2878297e7","19f683d3852475f5","19f61abcfe6b1515","19f57d525f761ae5","19f57529f18ab70a","19f46e9f3a1133f4"],
+   "trelloItemsAdded": 5,
+   "notes": "14 of 16 threads were about other insureds (David Johnson, a Thammavongsa file, a Carlos Solis/Eric Anderson file, a Pastrana invoice, Andy Nguyen, Sindhu Prasanna Kumar, Bart Harrington, Ruchin Agarwal, Robyn & Paul Jacobs, Jessica Martinez, a Belloso file, a Kukreja file, Sharon Owens, and Marcelo Dijamco) - all matched only because 'Tucker Patch' appears as a candidate umpire name in their umpire lists, not because they involve this insured. Kept 19dd67f0a8565173 (the actual State Farm/umpire claim thread, which names 'William and Galey Tucker' and the property address directly) and 19f61bc8a168dc55 (the umpire-invoice payment exchange with the insured, cc'd to the referring roofing contractor) as genuinely part of this file."
+  },
+  {
+   "cardId": "68129eea17e53372c1eaec00",
+   "newEvents": [],
+   "update": "This file remains stalled on the insured's outstanding portion of the umpire retainer; Joseph's office has sent repeated reminders but has not yet received a response.",
+   "needed": null,
+   "threadsRead": ["19ff7abccb766c8d","19fed73f5dc7b528","19fe3ae7b70b0162","19fda5e1f70a2318","19fca3d4a55a7e36","19fc8abbb6ef0305","19fc48339db6b4a8","19f8c51768cdd12c","19f8c181689b995f","19f3ed8ab285272a"],
+   "threadsDropped": ["19ff7abccb766c8d","19fed73f5dc7b528","19fe3ae7b70b0162","19fda5e1f70a2318","19fca3d4a55a7e36","19fc8abbb6ef0305","19fc48339db6b4a8","19f8c51768cdd12c","19f8c181689b995f","19f3ed8ab285272a"],
+   "trelloItemsAdded": 0,
+   "notes": "All 10 threads turned out to be about other files: a Meziou assignment, a LinkedIn digest, an auto-reply on a Mary Swaney file, the William Tucker/David Johnson thread, a Darryl Horton/Gerald Beauchamp file, a second Mary Swaney thread, a Pastrana invoice, a Sindhu Prasanna Kumar file, a Ruchin Agarwal file, and a George Savage file. None mention Miguel Myers; the surname matches trace to 'Johnny Myers' appearing as a candidate umpire name in unrelated umpire lists. The existing Trello record (through 2026-08-15) already reflects the real, still-open status of this file - waiting on the insured's umpire retainer payment - and none of the given threads add to it."
+  },
+  {
+   "cardId": "6a3bf64bd4df112622b58fe5",
+   "newEvents": [
+    {"date": "2026-07-07 to 2026-07-10", "event": "The joint inspection was formally rescheduled to July 22 at 9:00 AM, and the carrier's appraiser confirmed."},
+    {"date": "2026-07-16 to 2026-07-17", "event": "Joseph's office confirmed with a separate field scheduler that the inspection would stay with the carrier's appraiser, since the homeowner had not yet confirmed the other slot."}
+   ],
+   "update": "The joint inspection with the carrier's appraiser is confirmed for July 22 at 9:00 AM; no further updates have come in since.",
+   "needed": null,
+   "threadsRead": ["19f38eeac2741bcc","19f947d9e9b2ecb7","19f8ad538549829c","19f394eaae096eb7","19f2d6a0eeed83b6"],
+   "threadsDropped": ["19f947d9e9b2ecb7","19f8ad538549829c"],
+   "trelloItemsAdded": 2,
+   "notes": "Dropped 19f947d9e9b2ecb7 and 19f8ad538549829c - both are about other files ('Laster' and 'Jacobs'/Robyn Jacobs) referred by the same contact, not about Mike Stubbs. Kept 19f38eeac2741bcc, 19f394eaae096eb7 and 19f2d6a0eeed83b6, which name Mike Stubbs, claim 53-99D4-52M, and the property address directly."
+  },
+  {
+   "cardId": "69d58031b4e858e988cc3aee",
+   "newEvents": [
+    {"date": "2026-08-06", "event": "The umpire confirmed the insured's portion of the umpire fee had been received and asked whether the inspection would be panel or solo; Joseph's office offered August 18 or August 26 as inspection dates."},
+    {"date": "2026-08-07", "event": "Joseph confirmed the inspection will be a panel inspection, with the carrier's appraiser and umpire both attending."},
+    {"date": "2026-08-10 to 2026-08-11", "event": "Joseph's office proposed August 18 at 10:00 AM for the panel inspection, and the carrier's appraiser confirmed that date would work."},
+    {"date": "2026-08-14", "event": "The umpire said he was booked until September 1 and proposed that date instead; Joseph offered September 2, 7, or 8 at 10:00 AM as alternatives."}
+   ],
+   "update": "The panel inspection with the carrier's appraiser and umpire has not yet been scheduled - the umpire is booked until September, and Joseph has offered early-September alternatives while a firm date is worked out.",
+   "needed": null,
+   "threadsRead": ["19fe79e206fff62d","19d82a445084e4ec","19c34f0a5a68fe38"],
+   "threadsDropped": ["19c34f0a5a68fe38"],
+   "trelloItemsAdded": 4,
+   "notes": "19fe79e206fff62d is an automated Trello digest naming Sergio Davila's card move to 'Umpire invoice paid' - consistent with, and not additive to, the payment confirmation found in 19d82a445084e4ec, so it produced no separate event. Dropped 19c34f0a5a68fe38: a recurring 'APPRAISAL INSPECTION REMINDER' digest whose post-searchAfter messages list appointments for other insureds (Yolanda Mariel de Ramirez, William Cruz, Jose Villalta, Axel Mejias Sanchez); the only 'Davila' mention in it is buried in an old April quote chain, already predating searchAfter."
+  }
+ ],
+ "checked": 4,
+ "withNewEvents": 3
+}
