@@ -328,3 +328,16 @@ Opening every thread id is call-heavy — one scan batch of 12 files made about 
 calls and hit Gmail's per-minute unit quota several times. That is survivable (pause, retry in
 smaller groups, and every id still gets opened) but it means scan batches should stay around a
 dozen files, and there is no point running more than about six concurrently.
+
+### The size check is the real integrity test on a chunked publish
+
+A chunked publish has the publishing agent retype every byte, and on the 383KB No Stress page
+one did fumble a character mid-run ("insureds's" for "insureds'"). It caught the slip itself and
+fixed it before the cleanup batch, because the finished document's size has to equal
+`plan.json`'s `sourceBytes` exactly — the split script guarantees the chunks reassemble to the
+built page, so any drift shows up in the total.
+
+Compare the final `GetSite` size against `sourceBytes` and treat a mismatch as a failed publish,
+not a rounding artifact. (Send's own per-edit byte-delta counter is a different thing and is not
+reliable — it under-counts multi-byte characters by 2 per em dash, which every publish agent
+this run rediscovered independently.)
