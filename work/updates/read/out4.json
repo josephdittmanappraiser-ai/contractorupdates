@@ -1,0 +1,83 @@
+{
+ "batch": 4,
+ "results": [
+  {
+   "cardId": "67cc71e760349263a5ce7b17",
+   "newEvents": [],
+   "update": "No correspondence for Leroy Barrera was found among the threads reviewed for this batch; every thread that matched on the surname \"Barrera\" turned out to belong to other files.",
+   "needed": null,
+   "threadsRead": [],
+   "threadsDropped": ["19ffcd1edf14bd22","19fd91526666327d","19fca48a1adb1f18","19fca3de69a87609","19fca14c406fb9c3","19fba67ebed35456","19fa3e1787c02f84","19f9e13fd7814779","19f8f47fdac0d832","19f7fd5063b9f25b","19f5e5be924e2b93","19f59b838d77a651","19f24c21db6778a1","19ee66cb0e3f59b1","19eb34d6a76028fd","19eaa94953c525af","19dee1e06bf59a54","19dbc4f2316d7134","19db1e5b4fe3f906","19d6931f2aca8a1b"],
+   "trelloItemsAdded": 0,
+   "notes": "All 20 threads are about other people, not Leroy Barrera. Most are the Salvador Barrera appraisal (347 Gustaf Trl, Niederwald, claim 26W5101 — a roof/fence dispute with opposing appraiser Micah Harrison and contractor Linear Roofing), plus a Farmers Insurance file for Ronnie and Mary West (Tomball, TX), an unrelated Hackberry Lot 1&2 real-estate closing, Trello digest emails naming many unrelated clients (George Savage, Gary Tyson, Juanita Mascarenhas, Khalid Malik, Robert & Jacquelyn Celis, etc.), and a Carlos Curiel invoice thread. None mention a Leroy Barrera. Dropped all 20."
+  },
+  {
+   "cardId": "67a1879d4770a07ba9e7cd7f",
+   "newEvents": [],
+   "update": "No correspondence for Jose R Benita Castillo De Pacheco was found among the threads reviewed for this batch; every thread matched only because opposing appraiser Ashley Pacheco (surname \"Pacheco\") appears on several unrelated files.",
+   "needed": null,
+   "threadsRead": [],
+   "threadsDropped": ["19febc1251720ddb","19fde3588f3c0ace","19f2899c58a4b3af","19fc83c312931841","19eac2c3bd1d2821","19d9bfa6a6915689","19d4b01b584704ee","19cf64e2e4db421b","19c4cae30faf9cbc","19c0ed3e20369632","19c0ec207a14f965","1977ea8ebe811f9b"],
+   "trelloItemsAdded": 0,
+   "notes": "All 12 threads are other files where Ashley Pacheco (HCL Solution) is the OPPOSING appraiser, not our insured: R. Urrutia (53-96W5-14D, San Antonio), Laura Nuckolls appraisal invoice, the 43-81L5-85K Georgetown/Nuckolls file, Melissa Granberry (53-92L2-32Q, State Farm), and a separate Salazar appraisal (53-71N2-88M) with a different adjuster. None mention an insured named Castillo, De Pacheco, or Jose R Benita. Dropped all 12."
+  },
+  {
+   "cardId": "6a3edf5a2347cd07582d5eaf",
+   "newEvents": [
+    {"date": "2026-07-28", "event": "Joseph's office followed up with Faris Farassati, reminding him to sign the Appraisal Demand Letters for all eleven of his properties."},
+    {"date": "2026-07-31", "event": "Staff followed up again asking whether he still wanted to proceed and to sign the letters."},
+    {"date": "2026-08-04", "event": "Staff also asked the roofer, who had already approved the estimates, to help get Farassati's signature."},
+    {"date": "2026-08-08", "event": "Staff sent another reminder that the letters remained unsigned."},
+    {"date": "2026-08-10", "event": "Staff followed up again with no response."},
+    {"date": "2026-08-12", "event": "Staff resent the Appraisal Demand Letters for signature; the homeowner and the roofer remain unresponsive across all eleven properties as of this date."}
+   ],
+   "update": "The file is stalled waiting on Faris Farassati to sign the Appraisal Demand Letters for all eleven of his properties; despite repeated reminders to him and to the roofer through August 12, none have been signed.",
+   "needed": "Faris Farassati's signature on the Appraisal Demand Letters for his eleven properties — he has not responded to repeated reminders.",
+   "threadsRead": ["19ff7c2884480aae","19fed96c6a1660c8","19fdedd1974333c2","19fcdabb417c83f0","19fba2fcb999ae62","19fa66fc34e791f8","19f41f4af9f5c9e7"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 0,
+   "notes": "The existing Chain of Events checklist already has a July 28 – August 12 entry covering this exact reminder campaign, so no new checklist items were added (would have duplicated)."
+  },
+  {
+   "cardId": "69f0d1b1d25e0dfddb63270e",
+   "newEvents": [
+    {"date": "2026-07-11", "event": "Joseph's office confirmed the appraisal invoice was also sent to the insured."},
+    {"date": "2026-07-20", "event": "After scheduling back and forth, with the umpire not yet paid and the opposing appraiser facing surgery, the panel agreed to let the opposing appraiser inspect solo on August 13 at 1:00 PM."},
+    {"date": "2026-08-14", "event": "Joseph sent his position — the estimate and depreciation summary — to the panel."}
+   ],
+   "update": "Following the opposing appraiser's solo inspection on August 13, Joseph sent his estimate and depreciation position to the panel on August 14; the umpire's invoice to the adjuster remains unpaid despite repeated follow-ups through August 15.",
+   "needed": null,
+   "threadsRead": ["19e2d858db1c55bd","19dd3be2ab68a95b"],
+   "threadsDropped": ["19fc48339db6b4a8"],
+   "trelloItemsAdded": 3,
+   "notes": "Dropped 19fc48339db6b4a8 — it is a 'Pastrana appraisal invoice' thread with a different contractor and carrier (Engle Martin), unrelated to Gilbert & Rocio Funes."
+  },
+  {
+   "cardId": "6924c33fa095eda883346483",
+   "newEvents": [
+    {"date": "2026-08-11", "event": "The carrier's desk adjuster advised that payment to the umpire has been released."}
+   ],
+   "update": "Payment to the umpire has been released as of August 11, clearing the way for the umpire inspection to be scheduled once the insured's side is also confirmed paid.",
+   "needed": null,
+   "threadsRead": ["19d72d9820beb30c"],
+   "threadsDropped": ["1a0022cc31d07d85"],
+   "trelloItemsAdded": 0,
+   "notes": "Dropped 1a0022cc31d07d85 — a bare 'Hola' email from a similarly-named sender with an estimate attached for 4602 Acers Ln, a different address with no reference to claim 9379 or the Sequin Dr. property; treated as a different file. The single new event found (Aug 11 umpire payment released) is already recorded in the existing Chain of Events checklist, so no item was added."
+  },
+  {
+   "cardId": "6a42c137b5b4ad834998bc38",
+   "newEvents": [
+    {"date": "2026-07-30", "event": "The insured's confirmation of the August 17, 10:00 AM inspection date was relayed to the carrier's appraiser."},
+    {"date": "2026-08-15", "event": "Joseph's office sent his umpire candidate list to the carrier's appraiser for umpire selection."}
+   ],
+   "update": "The carrier's solo inspection is confirmed for August 17 at 10:00 AM, and Joseph has now sent his umpire candidates to the carrier's appraiser for umpire selection.",
+   "needed": null,
+   "threadsRead": ["19f68a402e1070a2"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 2,
+   "notes": ""
+  }
+ ],
+ "checked": 6,
+ "withNewEvents": 4
+}

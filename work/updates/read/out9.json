@@ -1,0 +1,58 @@
+{
+ "batch": 9,
+ "results": [
+  {
+   "cardId": "69dfacd89ebdfcd1cbb05b51",
+   "newEvents": [
+    {"date": "2026-08-13", "event": "The file's status was updated to Umpire inspection scheduled, reflecting the confirmed August 24 joint inspection date."}
+   ],
+   "update": "The umpire inspection is scheduled for August 24; the file is now waiting on that joint inspection to move the claim forward.",
+   "needed": null,
+   "threadsRead": ["19ffd4816d5e7506"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 1,
+   "notes": ""
+  },
+  {
+   "cardId": "69ea34cfd30fc18976cd84b0",
+   "newEvents": [
+    {"date": "2026-07-17", "event": "The umpire resent his invoice after learning the carrier's appraiser's previous email address was no longer active, to keep the file moving toward a joint inspection."},
+    {"date": "2026-07-19", "event": "Joseph's office followed up several times through July 30 with the homeowner about paying the umpire's invoice; the homeowner said no one had told her about it."},
+    {"date": "2026-07-30", "event": "The referring contractor said the homeowner wanted to drop the appraisal umpire process and close out the claim."},
+    {"date": "2026-08-03", "event": "The umpire followed up asking for possible joint inspection dates and noted he had not yet received payment from the carrier; the carrier's appraiser said he would follow up with the carrier."}
+   ],
+   "update": "The umpire and the carrier's appraiser are moving to schedule a joint inspection even though the homeowner said through the contractor that she wanted to drop the umpire and close the claim; that conflict needs to be resolved before the file can proceed.",
+   "needed": "Confirm with the homeowner whether she still wants to withdraw from the umpire process, since the umpire and the carrier's appraiser are moving ahead to schedule the joint inspection despite her stated wish to stop.",
+   "threadsRead": ["19ef523b4a6ce1b7", "19db7f1674c450e1"],
+   "threadsDropped": ["19fc48339db6b4a8"],
+   "trelloItemsAdded": 4,
+   "notes": "Dropped thread 19fc48339db6b4a8 - it is entirely about a different case (\"Pastrana appraisal invoice\", sent to 1stchoiceroofingtx@gmail.com), with no mention of Jose Alvarenga or claim PL2503551."
+  },
+  {
+   "cardId": "6a2720c535261e58b0480241",
+   "newEvents": [],
+   "update": "No new activity on this file specifically; as of the last record the carrier's appraiser was still reviewing the scope items Joseph requested and said he would respond over the weekend.",
+   "needed": null,
+   "threadsRead": [],
+   "threadsDropped": ["19f918e67d7e16e0"],
+   "trelloItemsAdded": 0,
+   "notes": "Dropped thread 19f918e67d7e16e0 - it is entirely about a different claim (AAA claim 017767448, insured \"Adams\"/\"Reggie\", referred by contact mshemas@linearroofing.com), not Sharla Mckee's Foremost claim 5042824355-1 on Tanglewood Drive. No claim number, address, or insured-name match."
+  },
+  {
+   "cardId": "6a48414e201af36c1615a0e8",
+   "newEvents": [
+    {"date": "2026-07-31", "event": "Allstate told Joseph's office the adjuster would reach out to the homeowner by August 4."},
+    {"date": "2026-08-07", "event": "The homeowner told Joseph's office that Allstate had called to schedule an inspection of the air conditioning unit to make a coverage determination."},
+    {"date": "2026-08-13", "event": "The homeowner told Joseph's office that Allstate had inspected the air conditioning unit but still had not called back with a determination as promised."}
+   ],
+   "update": "Allstate inspected the home's air conditioning unit in early August but has not yet issued a coverage determination despite saying it would call back; Joseph's office continues to follow up with both the homeowner and Allstate for a response.",
+   "needed": null,
+   "threadsRead": ["19f8c36d3e440e4f", "19ffc5ab971973ef", "19fde6623e2a6d8a", "19fdd611e93af185", "19fb9127e5c85e58"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 3,
+   "notes": "Card had no claim/address on file; identity confirmed via attachment filenames (RUVALCABA Appraisal Demand Letter, ROCIO_RUVALCABA depreciation draft, Rocio Ruvalcaba invoice) and via the Trello card link (pZ1Bqnzs/2345-rocio-ruvalcaba) repeated across all 4 Trello digest threads."
+  }
+ ],
+ "checked": 4,
+ "withNewEvents": 3
+}
