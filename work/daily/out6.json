@@ -1,0 +1,149 @@
+{
+  "batch": 6,
+  "results": [
+    {
+      "threadId": "19fb42ef1db61ab1",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a6d676c881f2cb3f1c9b14e",
+      "insured": "Jeanette Davis",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-23 — Joseph (umpire) sent his invoice and W9 to the panel (Kevin Lang, Vincent Jalali) after receiving Vincent's position."
+      ],
+      "outcome": "logged",
+      "why": "Card desc is blank; matched via the thread's own ESX attachment filename '3795_ROBINSON_ST_RIB Jeanette~SDavis.ESX', which ties the Robinson St/Beaumont TX address and claim 0817585771 to the insured name 'Jeanette Davis'. Card list ('Umpire Files - I am umpire') fits Joseph's role in this thread."
+    },
+    {
+      "threadId": "1a02bc646aaabe99",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a48414e201af36c1615a0e8",
+      "insured": "Rocio Ruvalcaba",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Allstate sent Rocio her estimate settlement letter directly, copying Joseph's office."
+      ],
+      "outcome": "logged",
+      "why": "Two Ruvalcaba cards exist; chose the one on Insured Appraisals over the OA APPRAISAL TASK board one. Confirmed by content, not claim number: both the card note ('mainly trying to get her AC units bought, roof already done') and the thread's attached HVAC damage assessment point to the same AC-focused claim."
+    },
+    {
+      "threadId": "19df8ca8ee7bcabf",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/69fa12f255de50cfa40d8472",
+      "insured": "Charles Kruvand",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Office followed up with the contractor on the still-outstanding umpire invoice payment."
+      ],
+      "outcome": "logged",
+      "why": "Confirmed on claim number (5398G790N) and property address (9244 Scenic Bluff Dr, Austin TX) shown on the card, matching the thread's earlier attachment."
+    },
+    {
+      "threadId": "1a02ac23530574fa",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a270c72932df5dc8435da69",
+      "insured": "Barry Davolt",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Opposing appraiser Brent sent the fully-signed Appraisal Award for the file and said he'd submit it to the carrier."
+      ],
+      "outcome": "logged",
+      "why": "Confirmed on exact claim number match (card: 01009737894, thread: 01-009-737894)."
+    },
+    {
+      "threadId": "19efcd6499a43748",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/69d66968f6e4c026018ddfdc",
+      "insured": "Joshua Leija",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Joseph sent the signed Appraisal Award back to umpire Norde Battle (attachment only, no message text)."
+      ],
+      "outcome": "logged",
+      "why": "Confirmed on exact claim number match (card: 5397L847W, thread: 53-97L8-47W), plus the card's own lastActivity timestamp (2026-08-22T17:26:19Z) lines up almost to the second with this email (17:26:05Z)."
+    },
+    {
+      "threadId": "19f57f336da2f965",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/69fcd42003cfbf9e079e3435",
+      "insured": "Sharon Owens",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Office thanked the contractor for the update that Sharon's payment is expected next week."
+      ],
+      "outcome": "logged",
+      "why": "Confirmed on exact email address match (sharon.o@sbcglobal.net) between the card and the thread's cc line."
+    },
+    {
+      "threadId": "19f905c89418dfb6",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a4be73ca6a75503ed91d447",
+      "insured": "Don Sweat",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Opposing appraiser Dakota McCombs sent his position and proposed award."
+      ],
+      "outcome": "logged",
+      "why": "Confirmed on claim number match (card: 7010253644-1-1, thread: 7010253644); card list 'Need to Review OA's position' matches the content of this exact exchange."
+    },
+    {
+      "threadId": "19f5957014588a62",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/69c1a24bd1557f7a109ae2f0",
+      "insured": "Reynaldo Rodriguez",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Office thanked No Stress Insurance Claims for confirming the invoice payment is coming via Bill Pay."
+      ],
+      "outcome": "logged",
+      "why": "Confirmed on exact claim number match (43-66D2-87X, seen in the thread's earlier attachment filenames) and the No Stress correspondent matching the card's list."
+    },
+    {
+      "threadId": "19ef5fd66f94e93c",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a432df66aa5e4d9bd870620",
+      "insured": "Mai Nguyen",
+      "itemsAdded": 5,
+      "events": [
+        "2026-08-22 — Joseph (umpire) sent his position/estimate and umpire photo compilation to the panel (Paul Chenuau, Relian Pirvulescu).",
+        "2026-08-22 — Opposing appraiser Paul Chenuau flagged items missing from Joseph's position (packout/packback, O&P 10&10, other line items) and sent his own revised position.",
+        "2026-08-22 — Joseph asked Paul to explain his reasoning for each requested item.",
+        "2026-08-22 — Paul explained his reasoning for the packout/pushback, window retrofit, chimney, and project-conditions items.",
+        "2026-08-22 — Joseph asked Paul to consolidate all concerns with reasoning into one email, pending Relian's position as well."
+      ],
+      "outcome": "logged",
+      "why": "Confirmed on exact claim number match (0812345940) plus the card's lastActivity timestamp (2026-08-22T15:52:54Z) matching Joseph's first message in this batch (15:52:06Z) almost to the second."
+    },
+    {
+      "threadId": "19eea38d83ba507b",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a4605bbb50bde3529825a40",
+      "insured": "James R Keefe",
+      "itemsAdded": 3,
+      "events": [
+        "2026-08-22 — Joseph (umpire) sent Conrad his revised position addressing eight disputed items (grade, supply lines, microwave, closets/carpet, tub paint, contents), with an updated position estimate attached.",
+        "2026-08-22 — Joseph re-sent the same revisions with the umpire photo compilation attached.",
+        "2026-08-22 — Appraiser Bobby Crowson agreed the estimate is fair and asked Joseph to send the signed award."
+      ],
+      "outcome": "logged",
+      "why": "This card carries no claim number or address to confirm against, and 'Keefe' has only this one card on the whole board. Match rests on the uncommon surname being unique plus the card's lastActivity timestamp (2026-08-22T15:53:27Z) matching this thread's messages (15:14-18:06) almost exactly — flagging this as a judgement call rather than a claim-number-confirmed match."
+    },
+    {
+      "threadId": "19dfe3c03dc3d73e",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/69f4ca0e2212ffcc63b14cc3",
+      "insured": "Jean Erve Dure",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Carrier appraiser Treasa Chumbley sent her updated position estimate with the agreed revisions and asked if Joseph is ready to proceed with the award."
+      ],
+      "outcome": "logged",
+      "why": "Confirmed on exact claim number (0820173896) and exact property address (322 N Forest Blvd, Houston TX 77090) match."
+    },
+    {
+      "threadId": "1a01259748fd3b59",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a5ebbe8d413f95bf9cdafb7",
+      "insured": "Kyle Mckoy",
+      "itemsAdded": 3,
+      "events": [
+        "2026-08-22 — Opposing appraiser Daniel Mora (DM Roofing) asked to reschedule the solo inspection to 3:00-5:00 PM.",
+        "2026-08-22 — Office confirmed the reschedule to 3:00-5:00 PM and notified the homeowner.",
+        "2026-08-22 — Office sent Daniel the inspection ESX file, estimate, and photo report."
+      ],
+      "outcome": "logged",
+      "why": "Confirmed on exact claim number (5043629174-1-2) and exact property address (118 Santa Fe Rdg, Seguin TX 78155-9750) match."
+    }
+  ],
+  "threads": 12,
+  "logged": 12,
+  "dropped": 0,
+  "unmatched": 0
+}

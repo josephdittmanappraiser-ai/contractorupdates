@@ -1,0 +1,141 @@
+{
+  "batch": 8,
+  "results": [
+    {
+      "threadId": "19ff6f45e2f94ac5",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a836d0542e443c6bddb5c6a",
+      "insured": "James Kuntz (roofer contact: Joseph Mena)",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-23 — Joseph told roofer contact Joseph Mena the client is James Kuntz at Tarrytown and asked him to proceed ASAP (insured/claim not yet confirmed on this card)."
+      ],
+      "outcome": "logged",
+      "why": "No claim number or property address exists in this thread to confirm James Kuntz as the insured. The only plausible card is 'JOSEPH MENA - photos, description' (list: Roofing company inquires - may need to continually follow to get all of the info), matched by the roofer's own email identity rather than the insured's name. This is a judgment call the owner should double-check once the direct client/claim is confirmed."
+    },
+    {
+      "threadId": "19e0317fc1035973",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6994d521cae67a50d29c639f",
+      "insured": "Ramesh Gudapuri",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Bryan Scanlan (ICC Group) thanked Joseph, closing out the file after the signed appraisal award was returned."
+      ],
+      "outcome": "logged",
+      "why": ""
+    },
+    {
+      "threadId": "19f8c9840f5cb915",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a468d9b1c536ec67fc5bef5",
+      "insured": "Maria Rubio & Ramon Poveda",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — William Arko (carrier appraiser) confirmed receipt of the executed appraisal award and said he'll return the fully executed award by mid-week."
+      ],
+      "outcome": "logged",
+      "why": ""
+    },
+    {
+      "threadId": "19e506d8a96d60ea",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/69c1a8bbc8022f2912c776fc",
+      "insured": "Bradley Leire and Lindsey Ross",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Joseph followed up with Mike Alexander (Texas Large Loss) asking again whether he has a position/estimate ready."
+      ],
+      "outcome": "logged",
+      "why": "Claim #057154078 also exists on a second, older 'BRADLEY LEIRE and LINDSEY ROSS [revision needed]' card on the OA APPRAISAL TASK board; logged to the matching card on the Insured Appraisals board per instructions."
+    },
+    {
+      "threadId": "19fc48339db6b4a8",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/69e7de1b974cccf15a3301c4",
+      "insured": "Vidal Pastrana",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Joseph's office followed up with the roofer (1st Choice Roofing) and homeowner with the payment link for the unpaid appraisal invoice."
+      ],
+      "outcome": "logged",
+      "why": "Same thread also received an automated 'address not found' bounce (mailer-daemon@googlemail.com) for pdiddypastrana@gmail.com in the window — dropped, not a person."
+    },
+    {
+      "threadId": "19f1037f87c1b609",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/69cef5ccd1d90d8aefdd7b14",
+      "insured": "Hang Dang (Emily Dang)",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Joseph's office reminded Emily Dang and roofer Jacob Diaz that the appraisal invoice remains unsettled and asked for a payment update."
+      ],
+      "outcome": "logged",
+      "why": ""
+    },
+    {
+      "threadId": "19fd7cb986914df1",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a2b1499b81baa00b2ce3138",
+      "insured": "Cruz Pulido",
+      "itemsAdded": 2,
+      "events": [
+        "2026-08-22 — Joseph's office followed up with No Stress accounting on the unpaid appraisal invoice status.",
+        "2026-08-22 — M. Uribe (No Stress) replied that no payment has been received yet."
+      ],
+      "outcome": "logged",
+      "why": "Matched by insured name (only Cruz Pulido card on the board) plus the No Stress International recipients; no claim number appeared in this thread's recent messages to cross-check directly."
+    },
+    {
+      "threadId": "19f591b28ab994af",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6930a65296d96b7bfa3ea2f9",
+      "insured": "Brenda Cealfarhi",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Joseph's office followed up with No Stress accounting on the unpaid appraisal invoice status."
+      ],
+      "outcome": "logged",
+      "why": ""
+    },
+    {
+      "threadId": "19e0213230ec152b",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/696fa981279b0ecbf373a918",
+      "insured": "Betsabe Dedominicis",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Joseph's office followed up on the unpaid appraisal invoice, asking when payment can be expected."
+      ],
+      "outcome": "logged",
+      "why": ""
+    },
+    {
+      "threadId": "19ff4724c6fb1769",
+      "cardId": "",
+      "insured": "",
+      "itemsAdded": 0,
+      "events": [],
+      "outcome": "dropped",
+      "why": "Only message in the last 24h (2026-08-22T14:59:19Z) was an automated Allstate portal notification with no readable body content ('Allstate / 96 / Log in to review.'), identical in form to an earlier automated notice on 8/12. Not actual correspondence, so dropped rather than logged; recommend checking the Allstate claims portal directly for claim 000831012182."
+    },
+    {
+      "threadId": "19fdd99f05a0157f",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a6a84331f57c7dac71e563e",
+      "insured": "Faraz Velani",
+      "itemsAdded": 2,
+      "events": [
+        "2026-08-22 — Joseph sent carrier appraiser Jerry Lerma requested additions to his position estimate (supervision hours, waste allowance, flashing, furnace vents, downspouts, garage door, window screens, fence damage and washing).",
+        "2026-08-22 — Jerry Lerma responded with his counter-position (added clean-up labor, step flashing, a rain cap, one window screen, column staining; declined supervision hours, fence, and garage door items; noted downspouts already addressed by carrier) and asked Joseph to consider his position and signed award."
+      ],
+      "outcome": "logged",
+      "why": ""
+    },
+    {
+      "threadId": "19df905331674af6",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/69fa344ff7806a9b45ac71b1",
+      "insured": "Shajimon Joseph & Bindu Thomas",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — The public adjuster (Amazing Adjuster/No Stress) said they'd get back to Joseph regarding the unpaid umpire invoice."
+      ],
+      "outcome": "logged",
+      "why": ""
+    }
+  ],
+  "threads": 12,
+  "logged": 11,
+  "dropped": 1,
+  "unmatched": 0
+}
