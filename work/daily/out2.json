@@ -1,0 +1,156 @@
+{
+  "batch": 2,
+  "results": [
+    {
+      "threadId": "19ff328e4d66f9c8",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a82f8c195c93292bfc31f27",
+      "insured": "Carlos Flores",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-23 — Joseph told the contractor (Stronghouse) that if they get open coverage on the USAA roof denial, they can take it to appraisal."
+      ],
+      "outcome": "logged",
+      "why": "Card found on the PA FILES board (not Insured Appraisals) but confirmed via exact address (1715 Wildwood Street, Corinth, TX) and email (Carlosflrs@verizon.net) match."
+    },
+    {
+      "threadId": "19cd339743a0dff3",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/694976335d84f1a536608036",
+      "insured": "Martin Garcia",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-23 — Joseph asked panel members Ty Patch and David Carberry to confirm for the record that the appraisal panel did not appraise interior water damage that appeared after the inspection, from tarping."
+      ],
+      "outcome": "logged",
+      "why": "Only one 'Martin Garcia' card on the Insured Appraisals board; card had no description/claim number to cross-check, matched on unique full name only."
+    },
+    {
+      "threadId": "19f632d9e47ba942",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a4c06dfa1a0033cfde104d8",
+      "insured": "Jonathan Dwyer",
+      "itemsAdded": 2,
+      "events": [
+        "2026-08-22 — Amy Schmidt (umpire Scott Schmidt's office) confirmed the panel inspection for September 16 at 12:30 PM works for Scott.",
+        "2026-08-23 — Dave Demel (opposing appraiser) confirmed he can also attend the September 16 at 12:30 PM inspection."
+      ],
+      "outcome": "logged",
+      "why": "Confirmed via claim #007522 (TWICO), carrier, OA and umpire names all matching card description."
+    },
+    {
+      "threadId": "19dad6590b938c08",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/69a0bb9f9a927fdd146b8ce4",
+      "insured": "Ana Galvan",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Joseph's office followed up with No Stress Claims asking them to confirm whether the umpire invoice payment has been submitted."
+      ],
+      "outcome": "logged",
+      "why": "Confirmed via exact claim number match (00104436534)."
+    },
+    {
+      "threadId": "1a003bb3d8a3e9ea",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/69f50e5cb4db1280f1a1bb1d",
+      "insured": "Douglas Freeman",
+      "itemsAdded": 3,
+      "events": [
+        "2026-08-22 — Joseph's office followed up with Stronghouse (Amir Mobalegh) on the appraisal invoice payment status.",
+        "2026-08-22 — Amir Mobalegh (Stronghouse) said he forwarded the invoice information to Mr. Freeman on Tuesday and would follow up with him that day to get payment.",
+        "2026-08-22 — Joseph thanked Amir Mobalegh for the update on the payment."
+      ],
+      "outcome": "logged",
+      "why": "Confirmed via matching claim #4657718 / Cincinnati Insurance / contact details on the card."
+    },
+    {
+      "threadId": "19f81d42a41c7792",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a3bf31ed6ab3158a1ddbe5c",
+      "insured": "Ahmed Taha",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Joseph's office checked in with Adam Brace (carrier's appraiser) asking if he'd spoken with Joseph and could proceed with scheduling the inspection."
+      ],
+      "outcome": "logged",
+      "why": "Confirmed via exact claim number match (86001 RRI) and loss address in the card."
+    },
+    {
+      "threadId": "19fd95a6a4518171",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/69150386123ff0b4611f0255",
+      "insured": "Bharani Batna & Srikanth Gunuru",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Joseph's office followed up with No Stress accounting on the umpire invoice payment status."
+      ],
+      "outcome": "logged",
+      "why": "Unique name match on the Insured Appraisals board; subject line matches card name exactly."
+    },
+    {
+      "threadId": "19fd4a4dbd706ae4",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a3ae33120caee893a248424",
+      "insured": "Alma Chavez & Fernando Garcia",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Joseph's office followed up with No Stress accounting on the appraisal invoice payment status."
+      ],
+      "outcome": "logged",
+      "why": "Only one Alma Chavez card on the board; unique name match."
+    },
+    {
+      "threadId": "19f678bc2fa12699",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a331e1241b3ef40695df3fd",
+      "insured": "Kristy & Jesse Freeman",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Joseph sent Triston Bannister (carrier's appraiser) additional photos supporting the fascia, lattice work, AC fin, and plastic chair damage items he'd questioned."
+      ],
+      "outcome": "logged",
+      "why": "Confirmed via exact claim number match (43-0B1F-578) and loss address on the card."
+    },
+    {
+      "threadId": "19fd7c2b3487c9f0",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/698a7b273cdb4b02a995fcb5",
+      "insured": "Rady Beshay",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Joseph's office followed up with No Stress (Luna Jimenez) on the appraisal invoice payment status."
+      ],
+      "outcome": "logged",
+      "why": "Only one Beshay card on the board; unique surname match confirmed by subject line."
+    },
+    {
+      "threadId": "1a029e6bcae68097",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a8a20a73917e0c82163061a",
+      "insured": "Ravi Bhasin",
+      "itemsAdded": 2,
+      "events": [
+        "2026-08-22 — Andres Soto (Stronghouse) said the file is ready for the appraiser.",
+        "2026-08-22 — Joseph's office asked Andres Soto for a brief description of the damages and the homeowner's email address to send the Appraisal Demand Letter."
+      ],
+      "outcome": "logged",
+      "why": "Confirmed via matching claim number JFM3364001H and very recent lastActivity on the Insured Appraisals board card; a separate older/paid Ravi Bhasin claim (different claim #, different address) was excluded."
+    },
+    {
+      "threadId": "19fba28aae280d9d",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a60dd97f6edd165382d07b1",
+      "insured": "Koteshwar Pilla Rao",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Joseph sent his inspection report (ESX and PDF) to Richard Jasbring, the carrier's appraiser."
+      ],
+      "outcome": "logged",
+      "why": "Confirmed via unique name match and AAA/denial context matching the card."
+    },
+    {
+      "threadId": "19c0538df4ec58ab",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/697a37c8b46282f2a56f3ae2",
+      "insured": "Rocendo Garcia",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Steven Lorenzo (public adjuster) said he'd get back to Joseph's office once there's an update on the umpire invoice payment."
+      ],
+      "outcome": "logged",
+      "why": "Confirmed via exact claim number match (53-91X7-74S)."
+    }
+  ],
+  "threads": 13,
+  "logged": 13,
+  "dropped": 0,
+  "unmatched": 0
+}
