@@ -1,0 +1,62 @@
+[
+  {
+    "cardId": "6a34085d9feb488af2252e65",
+    "insured": "Audrey Walker Carlisle",
+    "claim": "526189-GQ",
+    "address": "17129 KNOLL DALE TRL CONROE, TX 77385-1121",
+    "stage": "Negotiating with the carrier's appraiser",
+    "rep": "Remy Caruso",
+    "clients": [
+      "Remys Roofing"
+    ],
+    "cardLastActivity": "2026-08-01"
+  },
+  {
+    "cardId": "6a6cff36d3a777b52a87eff8",
+    "insured": "JENNIFER And BRADLEY MOORE",
+    "claim": "",
+    "address": "",
+    "stage": "Appraisal demanded / waiting on carrier",
+    "rep": "Remy Caruso",
+    "clients": [
+      "Remys Roofing"
+    ],
+    "cardLastActivity": "2026-08-13"
+  },
+  {
+    "cardId": "6a6a81ad106abdd8fa1a9b18",
+    "insured": "Anthony Rowe And Katelynn Mille",
+    "claim": "",
+    "address": "",
+    "stage": "Appraisal demanded / waiting on carrier",
+    "rep": "Remy Caruso",
+    "clients": [
+      "Remys Roofing"
+    ],
+    "cardLastActivity": "2026-08-12"
+  },
+  {
+    "cardId": "6a6a7fe4e9ba678b13cb1944",
+    "insured": "PROMISE CHIDI",
+    "claim": "530K2R409",
+    "address": "28258 Calaveras Lake Dr Spring, TX 77386-4289",
+    "stage": "Inspection scheduling",
+    "rep": "Remy Caruso",
+    "clients": [
+      "Remys Roofing"
+    ],
+    "cardLastActivity": "2026-08-14"
+  },
+  {
+    "cardId": "69d7bc5d171c8581c7db5ac7",
+    "insured": "Michael Ashton",
+    "claim": "061181155",
+    "address": "25314 LAWSON KNOLL DR SPRING TX 77389-2154",
+    "stage": "In umpire",
+    "rep": "Remy Caruso",
+    "clients": [
+      "Remys Roofing"
+    ],
+    "cardLastActivity": "2026-08-13"
+  }
+]

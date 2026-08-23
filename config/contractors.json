@@ -1,1065 +1,1072 @@
 {
-  "_comment": [
-    "Roster + overrides for the contractor update agent.",
-    "This file is NOT the source of truth for which contractors exist -- Trello is.",
-    "Each weekly run discovers every label on the Insured Appraisals board that has at",
-    "least one open card, and treats it as a client unless it appears in 'nonClientLabels'.",
-    "This file supplies the things Trello cannot know: display names, email domains,",
-    "per-rep splits, and the Send shareId once a page has been published."
-  ],
-  "board": {
-    "name": "Insured Appraisals",
-    "id": "ari:cloud:trello::board/workspace/65d7eb00496a914bf3ffb423/666e58adc67768660a580af4",
-    "url": "https://trello.com/b/lAdc1ZW8/insured-appraisals"
+ "_comment": [
+  "Roster + overrides for the contractor update agent.",
+  "This file is NOT the source of truth for which contractors exist -- Trello is.",
+  "Each weekly run discovers every label on the Insured Appraisals board that has at",
+  "least one open card, and treats it as a client unless it appears in 'nonClientLabels'.",
+  "This file supplies the things Trello cannot know: display names, email domains,",
+  "per-rep splits, and the Send shareId once a page has been published."
+ ],
+ "board": {
+  "name": "Insured Appraisals",
+  "id": "ari:cloud:trello::board/workspace/65d7eb00496a914bf3ffb423/666e58adc67768660a580af4",
+  "url": "https://trello.com/b/lAdc1ZW8/insured-appraisals"
+ },
+ "_repLabelComment": [
+  "Rep attribution reads a Trello LABEL on the card first -- authoritative, see runbook Pass 0.",
+  "'labelName' overrides the display 'name' when the Trello label is spelled differently.",
+  "The connector can attach an existing label but CANNOT create one: new rep labels must be",
+  "made in the Trello UI before a run can attach or read them."
+ ],
+ "gmail": {
+  "contractorInboundLabel": "AA - Roofers emailing us",
+  "contractorInboundLabelId": "Label_889619139836162734",
+  "owner": "josephdittmanappraiser@gmail.com"
+ },
+ "_stageMapComment": [
+  "The board has ~84 lists whose names carry operator instructions. Contractors see the",
+  "client-facing stage, never the raw list name.",
+  "TWO different orderings live here, do not conflate them:",
+  "  * ARRAY ORDER = matching precedence. Lowercase the list name, walk this array in",
+  "    order, first stage with a matching substring wins. Most specific stages come first,",
+  "    which is why 'In umpire' precedes 'Settled' ('Umpire invoice paid' contains 'paid')",
+  "    and why the payment-outstanding stage precedes 'Settled - paid' ('closed but not",
+  "    paid' also contains 'paid').",
+  "  * 'order' FIELD = display order on the page, sorted descending, so the files closest",
+  "    to money appear first.",
+  "If a list matches nothing it falls to 'New / intake' -- which is usually wrong, so the",
+  "run must report any list that fell through and the matcher gets added here."
+ ],
+ "stageMap": [
+  {
+   "stage": "In umpire",
+   "order": 8,
+   "blurb": "The two appraisers did not agree, so an umpire is deciding the file.",
+   "matchers": [
+    "umpire"
+   ]
   },
-  "_repLabelComment": [
-    "Rep attribution reads a Trello LABEL on the card first -- authoritative, see runbook Pass 0.",
-    "'labelName' overrides the display 'name' when the Trello label is spelled differently.",
-    "The connector can attach an existing label but CANNOT create one: new rep labels must be",
-    "made in the Trello UI before a run can attach or read them."
-  ],
-  "gmail": {
-    "contractorInboundLabel": "AA - Roofers emailing us",
-    "contractorInboundLabelId": "Label_889619139836162734",
-    "owner": "josephdittmanappraiser@gmail.com"
+  {
+   "stage": "Settled - payment outstanding",
+   "order": 10,
+   "blurb": "The claim is resolved. Our appraisal invoice is still open.",
+   "matchers": [
+    "not paid",
+    "invoice + payment link",
+    "past dues",
+    "debt collection",
+    "in iink",
+    "legacy deals",
+    "waiting on payment to sign award",
+    "paid - waiting for appraiser",
+    "close out"
+   ]
   },
-  "_stageMapComment": [
-    "The board has ~84 lists whose names carry operator instructions. Contractors see the",
-    "client-facing stage, never the raw list name.",
-    "TWO different orderings live here, do not conflate them:",
-    "  * ARRAY ORDER = matching precedence. Lowercase the list name, walk this array in",
-    "    order, first stage with a matching substring wins. Most specific stages come first,",
-    "    which is why 'In umpire' precedes 'Settled' ('Umpire invoice paid' contains 'paid')",
-    "    and why the payment-outstanding stage precedes 'Settled - paid' ('closed but not",
-    "    paid' also contains 'paid').",
-    "  * 'order' FIELD = display order on the page, sorted descending, so the files closest",
-    "    to money appear first.",
-    "If a list matches nothing it falls to 'New / intake' -- which is usually wrong, so the",
-    "run must report any list that fell through and the matcher gets added here."
-  ],
-  "stageMap": [
+  {
+   "stage": "Settled - paid",
+   "order": 11,
+   "blurb": "Closed out and paid. Nothing outstanding.",
+   "matchers": [
+    "paid"
+   ]
+  },
+  {
+   "stage": "Referred out (attorney or public adjuster)",
+   "order": 9,
+   "blurb": "Appraisal was not the right route. The file has moved to an attorney or a public adjuster.",
+   "matchers": [
+    "sent to attorney",
+    "send to attorney",
+    "in pa -",
+    "in pa-"
+   ]
+  },
+  {
+   "stage": "Negotiating with the carrier's appraiser",
+   "order": 7,
+   "blurb": "Positions exchanged. We are working the gap.",
+   "matchers": [
+    "sent oa my position",
+    "need to review oa",
+    "reviewed oa",
+    "carrier appraiser responded",
+    "2nd offer is to low",
+    "awaiting on opposing appraiser",
+    "joseph did first review",
+    "position written"
+   ]
+  },
+  {
+   "stage": "Inspected / building our position",
+   "order": 6,
+   "blurb": "Property inspected. Our estimate and position are being prepared.",
+   "matchers": [
+    "inspected",
+    "estimate under review",
+    "further ressearch",
+    "estimate done but reassigned"
+   ]
+  },
+  {
+   "stage": "Inspection scheduling",
+   "order": 5,
+   "blurb": "The carrier's appraiser is named. Locking in the inspection date.",
+   "matchers": [
+    "carrier appraisers info provided",
+    "carrier appraiser info provided",
+    "need to confirm schedule",
+    "scheduled",
+    "for rescheduling"
+   ]
+  },
+  {
+   "stage": "Appraisal demanded / waiting on carrier",
+   "order": 4,
+   "blurb": "The demand is with the carrier. Waiting for them to name their appraiser.",
+   "matchers": [
+    "demand letters sent",
+    "appraiser named but no",
+    "no appraiser named",
+    "homesite files",
+    "state farm claims",
+    "out of state"
+   ]
+  },
+  {
+   "stage": "Estimate sent - needs sign-off",
+   "order": 3,
+   "blurb": "The estimate is with you and/or the homeowner. We need approval to move.",
+   "matchers": [
+    "estimates sent",
+    "waiting for roofer's go signal"
+   ]
+  },
+  {
+   "stage": "Estimate being prepared",
+   "order": 2,
+   "blurb": "We are writing the estimate.",
+   "matchers": [
+    "estimates prepared to send",
+    "for supplement/or estimate only"
+   ]
+  },
+  {
+   "stage": "New / intake",
+   "order": 1,
+   "blurb": "File received. Confirming details before we demand appraisal.",
+   "matchers": [
+    "roofing company inquires",
+    "still verifying",
+    "pa inquires",
+    "pa's and attorney inquires",
+    "call homeowners",
+    "direct customers",
+    "triage"
+   ]
+  }
+ ],
+ "_debtCollectionNote": [
+  "JUDGEMENT CALL, easy to change: files sitting in 'Need to send to debt collections',",
+  "'Sent to Debt Collections' and 'PAST DUES' are shown to the client as",
+  "'Settled - payment outstanding'. That is accurate -- the invoice IS open -- and it stops",
+  "an automated page from picking a fight with a client on Joseph's behalf. If Joseph wants",
+  "collections stated plainly, give those three lists their own stage here."
+ ],
+ "_excludeListsComment": [
+  "Lists that do NOT hold client files. A card sitting in one of these is a contact record,",
+  "an agent rule, a divider or a staff task -- never a file, so it must never reach a status",
+  "page. Applied BEFORE stage mapping. Matched as lowercased substrings of the list name."
+ ],
+ "excludeLists": [
+  "ai agent",
+  "repeat clients",
+  "appraisers info that works for us",
+  "interested roofers",
+  "admin work",
+  "assignments",
+  "new list"
+ ],
+ "_excludeCardMarkersComment": [
+  "Markers Joseph writes into a card's name or description to say it is not a live appraisal",
+  "file. A card carrying one never reaches a status page, whatever list it sits in.",
+  "Matched case-insensitively against card name + description."
+ ],
+ "excludeCardMarkers": [
+  "[NOT AN APPRAISAL]",
+  "NOT AN APPRAISAL",
+  "DO NOT SHOW",
+  "TEST CARD"
+ ],
+ "_nonClientComment": "Labels that are markets, difficulty tags, staff assignments or workflow flags -- never a client. Matched case-insensitively.",
+ "nonClientLabels": [
+  "Houston",
+  "Austin",
+  "DFW",
+  "San Antonio",
+  "payments",
+  "Mid level",
+  "Easy",
+  "Hard",
+  "On Hold",
+  "Lacking Info - need to follow up",
+  "Call/ Follow up",
+  "FOR RESCHEDULING",
+  "Appraiser: joseph Dittman",
+  "Needs PA (Joseph)",
+  "Mark's task",
+  "Erwin's task",
+  "Direct Customer"
+ ],
+ "_contractorComment": [
+  "pageMode 'per-rep'  -> one Send page per named rep, plus one catch-all page for that",
+  "                      company's files with no rep resolved yet.",
+  "pageMode 'company'  -> one Send page for the whole company (the default).",
+  "shareId is written back by the weekly run the first time it publishes a page.",
+  "aliasLabels folds duplicate/typo labels into one client."
+ ],
+ "contractors": [
+  {
+   "label": "LINEAR roofing",
+   "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/6789f096f28b3d90d7c62897",
+   "aliasLabels": [
+    "linear roofing"
+   ],
+   "company": "Linear Roofing & General Contractors",
+   "domains": [
+    "linearroofing.com"
+   ],
+   "pageMode": "per-rep",
+   "affiliatedWith": "Strong House Pro",
+   "reps": [
     {
-      "stage": "In umpire",
-      "order": 8,
-      "blurb": "The two appraisers did not agree, so an umpire is deciding the file.",
-      "matchers": [
-        "umpire"
-      ]
+     "name": "Alberto Zenteno",
+     "emails": [],
+     "shareId": "pMitM9aK",
+     "url": "https://www.send.co/a/pMitM9aK"
     },
     {
-      "stage": "Settled - payment outstanding",
-      "order": 10,
-      "blurb": "The claim is resolved. Our appraisal invoice is still open.",
-      "matchers": [
-        "not paid",
-        "invoice + payment link",
-        "past dues",
-        "debt collection",
-        "in iink",
-        "legacy deals",
-        "waiting on payment to sign award",
-        "paid - waiting for appraiser",
-        "close out"
-      ]
+     "name": "Andres Soto",
+     "emails": [
+      "andres@linearroofing.com",
+      "asoto@stronghousebrands.com"
+     ],
+     "shareId": "3YCzp1LR",
+     "url": "https://www.send.co/a/3YCzp1LR"
     },
     {
-      "stage": "Settled - paid",
-      "order": 11,
-      "blurb": "Closed out and paid. Nothing outstanding.",
-      "matchers": [
-        "paid"
-      ]
+     "name": "Andrew Perales",
+     "emails": [],
+     "shareId": "dZTCr3hI",
+     "url": "https://www.send.co/a/dZTCr3hI"
     },
     {
-      "stage": "Referred out (attorney or public adjuster)",
-      "order": 9,
-      "blurb": "Appraisal was not the right route. The file has moved to an attorney or a public adjuster.",
-      "matchers": [
-        "sent to attorney",
-        "send to attorney",
-        "in pa -",
-        "in pa-"
-      ]
+     "name": "Austin Queen",
+     "emails": [],
+     "shareId": "J2niBBpI",
+     "url": "https://www.send.co/a/J2niBBpI"
     },
     {
-      "stage": "Negotiating with the carrier's appraiser",
-      "order": 7,
-      "blurb": "Positions exchanged. We are working the gap.",
-      "matchers": [
-        "sent oa my position",
-        "need to review oa",
-        "reviewed oa",
-        "carrier appraiser responded",
-        "2nd offer is to low",
-        "awaiting on opposing appraiser",
-        "joseph did first review",
-        "position written"
-      ]
+     "name": "Bo Serros",
+     "emails": [],
+     "shareId": "97LkciO7",
+     "url": "https://www.send.co/a/97LkciO7"
     },
     {
-      "stage": "Inspected / building our position",
-      "order": 6,
-      "blurb": "Property inspected. Our estimate and position are being prepared.",
-      "matchers": [
-        "inspected",
-        "estimate under review",
-        "further ressearch",
-        "estimate done but reassigned"
-      ]
+     "name": "Brandon Petitt",
+     "emails": [],
+     "shareId": "33AxV2eh",
+     "url": "https://www.send.co/a/33AxV2eh"
     },
     {
-      "stage": "Inspection scheduling",
-      "order": 5,
-      "blurb": "The carrier's appraiser is named. Locking in the inspection date.",
-      "matchers": [
-        "carrier appraisers info provided",
-        "carrier appraiser info provided",
-        "need to confirm schedule",
-        "scheduled",
-        "for rescheduling"
-      ]
+     "name": "Cade Cassady",
+     "emails": [],
+     "shareId": "i8vsETnk",
+     "url": "https://www.send.co/a/i8vsETnk"
     },
     {
-      "stage": "Appraisal demanded / waiting on carrier",
-      "order": 4,
-      "blurb": "The demand is with the carrier. Waiting for them to name their appraiser.",
-      "matchers": [
-        "demand letters sent",
-        "appraiser named but no",
-        "no appraiser named",
-        "homesite files",
-        "state farm claims",
-        "out of state"
-      ]
+     "name": "Christopher Mathis",
+     "emails": [],
+     "shareId": "C1tr9C4K",
+     "url": "https://www.send.co/a/C1tr9C4K"
     },
     {
-      "stage": "Estimate sent - needs sign-off",
-      "order": 3,
-      "blurb": "The estimate is with you and/or the homeowner. We need approval to move.",
-      "matchers": [
-        "estimates sent",
-        "waiting for roofer's go signal"
-      ]
+     "name": "Clayton Grassi",
+     "emails": [],
+     "shareId": "wvkjd6bR",
+     "url": "https://www.send.co/a/wvkjd6bR"
     },
     {
-      "stage": "Estimate being prepared",
-      "order": 2,
-      "blurb": "We are writing the estimate.",
-      "matchers": [
-        "estimates prepared to send",
-        "for supplement/or estimate only"
-      ]
+     "name": "Daniel Ferrel",
+     "emails": [],
+     "shareId": "ODDr9ncY",
+     "url": "https://www.send.co/a/ODDr9ncY"
     },
     {
-      "stage": "New / intake",
-      "order": 1,
-      "blurb": "File received. Confirming details before we demand appraisal.",
-      "matchers": [
-        "roofing company inquires",
-        "still verifying",
-        "pa inquires",
-        "pa's and attorney inquires",
-        "call homeowners",
-        "direct customers",
-        "triage"
-      ]
+     "name": "David Jaimes",
+     "emails": [],
+     "shareId": "3vItXSb8",
+     "url": "https://www.send.co/a/3vItXSb8"
+    },
+    {
+     "name": "David Webster",
+     "emails": [],
+     "shareId": "UC6gOUvV",
+     "url": "https://www.send.co/a/UC6gOUvV"
+    },
+    {
+     "name": "Eric Campoli",
+     "emails": [],
+     "shareId": "fUQ8FhGa",
+     "url": "https://www.send.co/a/fUQ8FhGa"
+    },
+    {
+     "name": "Garrett Lucas",
+     "emails": [],
+     "shareId": "psn5nOS0",
+     "url": "https://www.send.co/a/psn5nOS0"
+    },
+    {
+     "name": "Garritt Doyle",
+     "emails": [],
+     "shareId": "CsBwD56E",
+     "url": "https://www.send.co/a/CsBwD56E"
+    },
+    {
+     "name": "Grant Reber",
+     "emails": [],
+     "shareId": "cfU9JVyl",
+     "url": "https://www.send.co/a/cfU9JVyl"
+    },
+    {
+     "name": "Heather Griffiths",
+     "emails": [],
+     "shareId": "XqaMZt5i",
+     "url": "https://www.send.co/a/XqaMZt5i"
+    },
+    {
+     "name": "Jacob Diaz",
+     "emails": [],
+     "shareId": "VGyJD1wY",
+     "url": "https://www.send.co/a/VGyJD1wY"
+    },
+    {
+     "name": "John Payne",
+     "emails": [],
+     "shareId": "VaWXHk0M",
+     "url": "https://www.send.co/a/VaWXHk0M"
+    },
+    {
+     "name": "Jose Diaz",
+     "emails": [],
+     "shareId": "58SNDLNB",
+     "url": "https://www.send.co/a/58SNDLNB"
+    },
+    {
+     "name": "Jose Hernandez",
+     "emails": [],
+     "shareId": "30CwlAn3",
+     "url": "https://www.send.co/a/30CwlAn3"
+    },
+    {
+     "name": "Justin Bach",
+     "emails": [],
+     "shareId": "AqUZL0wm",
+     "url": "https://www.send.co/a/AqUZL0wm"
+    },
+    {
+     "name": "Justin Kouri",
+     "emails": [],
+     "shareId": "zj67I1Md",
+     "url": "https://www.send.co/a/zj67I1Md"
+    },
+    {
+     "name": "Kevin Salazar",
+     "emails": [],
+     "shareId": "hbqaTzve",
+     "url": "https://www.send.co/a/hbqaTzve"
+    },
+    {
+     "name": "Kevin Shuford",
+     "emails": [],
+     "shareId": "aSvey7GM",
+     "url": "https://www.send.co/a/aSvey7GM"
+    },
+    {
+     "name": "Kristopher Bigham",
+     "emails": [],
+     "shareId": "w9Gh6vQH",
+     "url": "https://www.send.co/a/w9Gh6vQH"
+    },
+    {
+     "name": "Luis Garcia",
+     "emails": [],
+     "shareId": "pxYWJJr4",
+     "url": "https://www.send.co/a/pxYWJJr4"
+    },
+    {
+     "name": "Madison Smith",
+     "emails": [],
+     "shareId": "mQ9eGQMA",
+     "url": "https://www.send.co/a/mQ9eGQMA"
+    },
+    {
+     "name": "Marcus Stein",
+     "emails": [],
+     "shareId": "aDBxl6nR",
+     "url": "https://www.send.co/a/aDBxl6nR"
+    },
+    {
+     "name": "Matt Meredith",
+     "emails": [],
+     "shareId": "Fc5dbei3",
+     "url": "https://www.send.co/a/Fc5dbei3"
+    },
+    {
+     "name": "Mazin Shahin",
+     "emails": [],
+     "shareId": "KWAdeHFs",
+     "url": "https://www.send.co/a/KWAdeHFs"
+    },
+    {
+     "name": "Melvin Pierce",
+     "emails": [],
+     "shareId": "NJ8RltSx",
+     "url": "https://www.send.co/a/NJ8RltSx"
+    },
+    {
+     "name": "Michael Hopkins",
+     "emails": [],
+     "shareId": "fnd4kGBs",
+     "url": "https://www.send.co/a/fnd4kGBs"
+    },
+    {
+     "name": "Michael Lakomowski",
+     "emails": [],
+     "shareId": "25QtA1lt",
+     "url": "https://www.send.co/a/25QtA1lt"
+    },
+    {
+     "name": "Michael Shemas",
+     "emails": [],
+     "shareId": "XfhcBgrc",
+     "url": "https://www.send.co/a/XfhcBgrc"
+    },
+    {
+     "name": "Mike Stokes",
+     "emails": [],
+     "shareId": "5KvGYbFK",
+     "url": "https://www.send.co/a/5KvGYbFK"
+    },
+    {
+     "name": "Nicholas Wnukowski",
+     "emails": [],
+     "shareId": "aosAg7aV",
+     "url": "https://www.send.co/a/aosAg7aV"
+    },
+    {
+     "name": "Noah Nichter",
+     "emails": [],
+     "shareId": "ZCkckDO1",
+     "url": "https://www.send.co/a/ZCkckDO1"
+    },
+    {
+     "name": "Patrick Davis",
+     "emails": [],
+     "shareId": "EnZXkDw7",
+     "url": "https://www.send.co/a/EnZXkDw7"
+    },
+    {
+     "name": "Patrick Dubose",
+     "emails": [],
+     "shareId": "wEZQsZ7Z",
+     "url": "https://www.send.co/a/wEZQsZ7Z"
+    },
+    {
+     "name": "Patrick Nations",
+     "emails": [],
+     "shareId": "FLw5JxCQ",
+     "url": "https://www.send.co/a/FLw5JxCQ"
+    },
+    {
+     "name": "Paul Bowen",
+     "emails": [],
+     "shareId": "NsLO2nOG",
+     "url": "https://www.send.co/a/NsLO2nOG"
+    },
+    {
+     "name": "Paul Ravel",
+     "emails": [],
+     "shareId": "Jj6onNyN",
+     "url": "https://www.send.co/a/Jj6onNyN"
+    },
+    {
+     "name": "Paulino Ortega",
+     "emails": [],
+     "shareId": "QSqBoukR",
+     "url": "https://www.send.co/a/QSqBoukR"
+    },
+    {
+     "name": "Ricardo Hernandez",
+     "emails": [],
+     "shareId": "CpQZ9LtX",
+     "url": "https://www.send.co/a/CpQZ9LtX"
+    },
+    {
+     "name": "Robert Crotty",
+     "emails": [],
+     "shareId": "XRbBTenE",
+     "url": "https://www.send.co/a/XRbBTenE"
+    },
+    {
+     "name": "Robert Ferguson",
+     "emails": [],
+     "shareId": "JkmOSCGO",
+     "url": "https://www.send.co/a/JkmOSCGO"
+    },
+    {
+     "name": "Rolando Charles",
+     "emails": [],
+     "shareId": "2oka9bIW",
+     "url": "https://www.send.co/a/2oka9bIW"
+    },
+    {
+     "name": "Rusty Coffman",
+     "emails": [
+      "rustyc@linearroofing.com",
+      "rcoffman@stronghousepro.com"
+     ],
+     "shareId": "EuIQUdKg",
+     "url": "https://www.send.co/a/EuIQUdKg"
+    },
+    {
+     "name": "Ryan Olson",
+     "emails": [],
+     "shareId": "jFk0MKvw",
+     "url": "https://www.send.co/a/jFk0MKvw"
+    },
+    {
+     "name": "Samuel Mata",
+     "emails": [],
+     "shareId": "wDPxEfiY",
+     "url": "https://www.send.co/a/wDPxEfiY"
+    },
+    {
+     "name": "Samuel Peters",
+     "emails": [],
+     "shareId": "XPISl13h",
+     "url": "https://www.send.co/a/XPISl13h"
+    },
+    {
+     "name": "Sean Roberts",
+     "emails": [],
+     "shareId": "tAanMITM",
+     "url": "https://www.send.co/a/tAanMITM"
+    },
+    {
+     "name": "Sergio Dehoyos",
+     "emails": [],
+     "shareId": "VSSquq0s",
+     "url": "https://www.send.co/a/VSSquq0s"
+    },
+    {
+     "name": "Stephen Buttino",
+     "emails": [],
+     "shareId": "YiOGBJZ7",
+     "url": "https://www.send.co/a/YiOGBJZ7"
+    },
+    {
+     "name": "Stephen Vaughn",
+     "emails": [],
+     "shareId": "iqgo0zV8",
+     "url": "https://www.send.co/a/iqgo0zV8"
+    },
+    {
+     "name": "Tomas Cuevas",
+     "emails": [],
+     "shareId": "aK1bDxHz",
+     "url": "https://www.send.co/a/aK1bDxHz"
+    },
+    {
+     "name": "Tony Saldana",
+     "emails": [],
+     "shareId": "2DU3Yn4s",
+     "url": "https://www.send.co/a/2DU3Yn4s"
+    },
+    {
+     "name": "Trey Elliott",
+     "emails": [],
+     "shareId": "ANQ8zEnL",
+     "url": "https://www.send.co/a/ANQ8zEnL"
+    },
+    {
+     "name": "Zacharias Khan",
+     "emails": [
+      "zachariask@linearroofing.com",
+      "zkhan@stronghousepro.com"
+     ],
+     "shareId": "9VzsADlf",
+     "url": "https://www.send.co/a/9VzsADlf"
     }
-  ],
-  "_debtCollectionNote": [
-    "JUDGEMENT CALL, easy to change: files sitting in 'Need to send to debt collections',",
-    "'Sent to Debt Collections' and 'PAST DUES' are shown to the client as",
-    "'Settled - payment outstanding'. That is accurate -- the invoice IS open -- and it stops",
-    "an automated page from picking a fight with a client on Joseph's behalf. If Joseph wants",
-    "collections stated plainly, give those three lists their own stage here."
-  ],
-  "_excludeListsComment": [
-    "Lists that do NOT hold client files. A card sitting in one of these is a contact record,",
-    "an agent rule, a divider or a staff task -- never a file, so it must never reach a status",
-    "page. Applied BEFORE stage mapping. Matched as lowercased substrings of the list name."
-  ],
-  "excludeLists": [
-    "ai agent",
-    "repeat clients",
-    "appraisers info that works for us",
-    "interested roofers",
-    "admin work",
-    "assignments",
-    "new list"
-  ],
-  "_excludeCardMarkersComment": [
-    "Markers Joseph writes into a card's name or description to say it is not a live appraisal",
-    "file. A card carrying one never reaches a status page, whatever list it sits in.",
-    "Matched case-insensitively against card name + description."
-  ],
-  "excludeCardMarkers": [
-    "[NOT AN APPRAISAL]",
-    "NOT AN APPRAISAL",
-    "DO NOT SHOW",
-    "TEST CARD"
-  ],
-  "_nonClientComment": "Labels that are markets, difficulty tags, staff assignments or workflow flags -- never a client. Matched case-insensitively.",
-  "nonClientLabels": [
-    "Houston",
-    "Austin",
-    "DFW",
-    "San Antonio",
-    "payments",
-    "Mid level",
-    "Easy",
-    "Hard",
-    "On Hold",
-    "Lacking Info - need to follow up",
-    "Call/ Follow up",
-    "FOR RESCHEDULING",
-    "Appraiser: joseph Dittman",
-    "Needs PA (Joseph)",
-    "Mark's task",
-    "Erwin's task",
-    "Direct Customer"
-  ],
-  "_contractorComment": [
-    "pageMode 'per-rep'  -> one Send page per named rep, plus one catch-all page for that",
-    "                      company's files with no rep resolved yet.",
-    "pageMode 'company'  -> one Send page for the whole company (the default).",
-    "shareId is written back by the weekly run the first time it publishes a page.",
-    "aliasLabels folds duplicate/typo labels into one client."
-  ],
-  "contractors": [
+   ],
+   "shareId": null,
+   "unassignedShareId": "3EyCbafl",
+   "unassignedUrl": "https://www.send.co/a/3EyCbafl",
+   "supersededPages": [
     {
-      "label": "LINEAR roofing",
-      "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/6789f096f28b3d90d7c62897",
-      "aliasLabels": [
-        "linear roofing"
-      ],
-      "company": "Linear Roofing & General Contractors",
-      "domains": [
-        "linearroofing.com"
-      ],
-      "pageMode": "per-rep",
-      "affiliatedWith": "Strong House Pro",
-      "reps": [
-        {
-          "name": "Alberto Zenteno",
-          "emails": [],
-          "shareId": "pMitM9aK",
-          "url": "https://www.send.co/a/pMitM9aK"
-        },
-        {
-          "name": "Andres Soto",
-          "emails": [
-            "andres@linearroofing.com",
-            "asoto@stronghousebrands.com"
-          ],
-          "shareId": "3YCzp1LR",
-          "url": "https://www.send.co/a/3YCzp1LR"
-        },
-        {
-          "name": "Andrew Perales",
-          "emails": [],
-          "shareId": "dZTCr3hI",
-          "url": "https://www.send.co/a/dZTCr3hI"
-        },
-        {
-          "name": "Austin Queen",
-          "emails": [],
-          "shareId": "J2niBBpI",
-          "url": "https://www.send.co/a/J2niBBpI"
-        },
-        {
-          "name": "Bo Serros",
-          "emails": [],
-          "shareId": "97LkciO7",
-          "url": "https://www.send.co/a/97LkciO7"
-        },
-        {
-          "name": "Brandon Petitt",
-          "emails": [],
-          "shareId": "33AxV2eh",
-          "url": "https://www.send.co/a/33AxV2eh"
-        },
-        {
-          "name": "Cade Cassady",
-          "emails": [],
-          "shareId": "i8vsETnk",
-          "url": "https://www.send.co/a/i8vsETnk"
-        },
-        {
-          "name": "Christopher Mathis",
-          "emails": [],
-          "shareId": "C1tr9C4K",
-          "url": "https://www.send.co/a/C1tr9C4K"
-        },
-        {
-          "name": "Clayton Grassi",
-          "emails": [],
-          "shareId": "wvkjd6bR",
-          "url": "https://www.send.co/a/wvkjd6bR"
-        },
-        {
-          "name": "Daniel Ferrel",
-          "emails": [],
-          "shareId": "ODDr9ncY",
-          "url": "https://www.send.co/a/ODDr9ncY"
-        },
-        {
-          "name": "David Jaimes",
-          "emails": [],
-          "shareId": "3vItXSb8",
-          "url": "https://www.send.co/a/3vItXSb8"
-        },
-        {
-          "name": "David Webster",
-          "emails": [],
-          "shareId": "UC6gOUvV",
-          "url": "https://www.send.co/a/UC6gOUvV"
-        },
-        {
-          "name": "Eric Campoli",
-          "emails": [],
-          "shareId": "fUQ8FhGa",
-          "url": "https://www.send.co/a/fUQ8FhGa"
-        },
-        {
-          "name": "Garrett Lucas",
-          "emails": [],
-          "shareId": "psn5nOS0",
-          "url": "https://www.send.co/a/psn5nOS0"
-        },
-        {
-          "name": "Garritt Doyle",
-          "emails": [],
-          "shareId": "CsBwD56E",
-          "url": "https://www.send.co/a/CsBwD56E"
-        },
-        {
-          "name": "Grant Reber",
-          "emails": [],
-          "shareId": "cfU9JVyl",
-          "url": "https://www.send.co/a/cfU9JVyl"
-        },
-        {
-          "name": "Heather Griffiths",
-          "emails": [],
-          "shareId": "XqaMZt5i",
-          "url": "https://www.send.co/a/XqaMZt5i"
-        },
-        {
-          "name": "Jacob Diaz",
-          "emails": [],
-          "shareId": "VGyJD1wY",
-          "url": "https://www.send.co/a/VGyJD1wY"
-        },
-        {
-          "name": "John Payne",
-          "emails": [],
-          "shareId": "VaWXHk0M",
-          "url": "https://www.send.co/a/VaWXHk0M"
-        },
-        {
-          "name": "Jose Diaz",
-          "emails": [],
-          "shareId": "58SNDLNB",
-          "url": "https://www.send.co/a/58SNDLNB"
-        },
-        {
-          "name": "Jose Hernandez",
-          "emails": [],
-          "shareId": "30CwlAn3",
-          "url": "https://www.send.co/a/30CwlAn3"
-        },
-        {
-          "name": "Justin Bach",
-          "emails": [],
-          "shareId": "AqUZL0wm",
-          "url": "https://www.send.co/a/AqUZL0wm"
-        },
-        {
-          "name": "Justin Kouri",
-          "emails": [],
-          "shareId": "zj67I1Md",
-          "url": "https://www.send.co/a/zj67I1Md"
-        },
-        {
-          "name": "Kevin Salazar",
-          "emails": [],
-          "shareId": "hbqaTzve",
-          "url": "https://www.send.co/a/hbqaTzve"
-        },
-        {
-          "name": "Kevin Shuford",
-          "emails": [],
-          "shareId": "aSvey7GM",
-          "url": "https://www.send.co/a/aSvey7GM"
-        },
-        {
-          "name": "Kristopher Bigham",
-          "emails": [],
-          "shareId": "w9Gh6vQH",
-          "url": "https://www.send.co/a/w9Gh6vQH"
-        },
-        {
-          "name": "Luis Garcia",
-          "emails": [],
-          "shareId": "pxYWJJr4",
-          "url": "https://www.send.co/a/pxYWJJr4"
-        },
-        {
-          "name": "Madison Smith",
-          "emails": [],
-          "shareId": "mQ9eGQMA",
-          "url": "https://www.send.co/a/mQ9eGQMA"
-        },
-        {
-          "name": "Marcus Stein",
-          "emails": [],
-          "shareId": "aDBxl6nR",
-          "url": "https://www.send.co/a/aDBxl6nR"
-        },
-        {
-          "name": "Matt Meredith",
-          "emails": [],
-          "shareId": "Fc5dbei3",
-          "url": "https://www.send.co/a/Fc5dbei3"
-        },
-        {
-          "name": "Mazin Shahin",
-          "emails": [],
-          "shareId": "KWAdeHFs",
-          "url": "https://www.send.co/a/KWAdeHFs"
-        },
-        {
-          "name": "Melvin Pierce",
-          "emails": [],
-          "shareId": "NJ8RltSx",
-          "url": "https://www.send.co/a/NJ8RltSx"
-        },
-        {
-          "name": "Michael Hopkins",
-          "emails": [],
-          "shareId": "fnd4kGBs",
-          "url": "https://www.send.co/a/fnd4kGBs"
-        },
-        {
-          "name": "Michael Lakomowski",
-          "emails": [],
-          "shareId": "25QtA1lt",
-          "url": "https://www.send.co/a/25QtA1lt"
-        },
-        {
-          "name": "Michael Shemas",
-          "emails": [],
-          "shareId": "XfhcBgrc",
-          "url": "https://www.send.co/a/XfhcBgrc"
-        },
-        {
-          "name": "Mike Stokes",
-          "emails": [],
-          "shareId": "5KvGYbFK",
-          "url": "https://www.send.co/a/5KvGYbFK"
-        },
-        {
-          "name": "Nicholas Wnukowski",
-          "emails": [],
-          "shareId": "aosAg7aV",
-          "url": "https://www.send.co/a/aosAg7aV"
-        },
-        {
-          "name": "Noah Nichter",
-          "emails": [],
-          "shareId": "ZCkckDO1",
-          "url": "https://www.send.co/a/ZCkckDO1"
-        },
-        {
-          "name": "Patrick Davis",
-          "emails": [],
-          "shareId": "EnZXkDw7",
-          "url": "https://www.send.co/a/EnZXkDw7"
-        },
-        {
-          "name": "Patrick Dubose",
-          "emails": [],
-          "shareId": "wEZQsZ7Z",
-          "url": "https://www.send.co/a/wEZQsZ7Z"
-        },
-        {
-          "name": "Patrick Nations",
-          "emails": [],
-          "shareId": "FLw5JxCQ",
-          "url": "https://www.send.co/a/FLw5JxCQ"
-        },
-        {
-          "name": "Paul Bowen",
-          "emails": [],
-          "shareId": "NsLO2nOG",
-          "url": "https://www.send.co/a/NsLO2nOG"
-        },
-        {
-          "name": "Paul Ravel",
-          "emails": [],
-          "shareId": "Jj6onNyN",
-          "url": "https://www.send.co/a/Jj6onNyN"
-        },
-        {
-          "name": "Paulino Ortega",
-          "emails": [],
-          "shareId": "QSqBoukR",
-          "url": "https://www.send.co/a/QSqBoukR"
-        },
-        {
-          "name": "Ricardo Hernandez",
-          "emails": [],
-          "shareId": "CpQZ9LtX",
-          "url": "https://www.send.co/a/CpQZ9LtX"
-        },
-        {
-          "name": "Robert Crotty",
-          "emails": [],
-          "shareId": "XRbBTenE",
-          "url": "https://www.send.co/a/XRbBTenE"
-        },
-        {
-          "name": "Robert Ferguson",
-          "emails": [],
-          "shareId": "JkmOSCGO",
-          "url": "https://www.send.co/a/JkmOSCGO"
-        },
-        {
-          "name": "Rolando Charles",
-          "emails": [],
-          "shareId": "2oka9bIW",
-          "url": "https://www.send.co/a/2oka9bIW"
-        },
-        {
-          "name": "Rusty Coffman",
-          "emails": [
-            "rustyc@linearroofing.com",
-            "rcoffman@stronghousepro.com"
-          ],
-          "shareId": "EuIQUdKg",
-          "url": "https://www.send.co/a/EuIQUdKg"
-        },
-        {
-          "name": "Ryan Olson",
-          "emails": [],
-          "shareId": "jFk0MKvw",
-          "url": "https://www.send.co/a/jFk0MKvw"
-        },
-        {
-          "name": "Samuel Mata",
-          "emails": [],
-          "shareId": "wDPxEfiY",
-          "url": "https://www.send.co/a/wDPxEfiY"
-        },
-        {
-          "name": "Samuel Peters",
-          "emails": [],
-          "shareId": "XPISl13h",
-          "url": "https://www.send.co/a/XPISl13h"
-        },
-        {
-          "name": "Sean Roberts",
-          "emails": [],
-          "shareId": "tAanMITM",
-          "url": "https://www.send.co/a/tAanMITM"
-        },
-        {
-          "name": "Sergio Dehoyos",
-          "emails": [],
-          "shareId": "VSSquq0s",
-          "url": "https://www.send.co/a/VSSquq0s"
-        },
-        {
-          "name": "Stephen Buttino",
-          "emails": [],
-          "shareId": "YiOGBJZ7",
-          "url": "https://www.send.co/a/YiOGBJZ7"
-        },
-        {
-          "name": "Stephen Vaughn",
-          "emails": [],
-          "shareId": "iqgo0zV8",
-          "url": "https://www.send.co/a/iqgo0zV8"
-        },
-        {
-          "name": "Tomas Cuevas",
-          "emails": [],
-          "shareId": "aK1bDxHz",
-          "url": "https://www.send.co/a/aK1bDxHz"
-        },
-        {
-          "name": "Tony Saldana",
-          "emails": [],
-          "shareId": "2DU3Yn4s",
-          "url": "https://www.send.co/a/2DU3Yn4s"
-        },
-        {
-          "name": "Trey Elliott",
-          "emails": [],
-          "shareId": "ANQ8zEnL",
-          "url": "https://www.send.co/a/ANQ8zEnL"
-        },
-        {
-          "name": "Zacharias Khan",
-          "emails": [
-            "zachariask@linearroofing.com",
-            "zkhan@stronghousepro.com"
-          ],
-          "shareId": "9VzsADlf",
-          "url": "https://www.send.co/a/9VzsADlf"
-        }
-      ],
-      "shareId": null,
-      "unassignedShareId": "3EyCbafl",
-      "unassignedUrl": "https://www.send.co/a/3EyCbafl",
-      "supersededPages": [
-        {
-          "name": "A. Queen",
-          "shareId": "OmWENjKs"
-        },
-        {
-          "name": "Andrew P.",
-          "shareId": "1EOlBGaa"
-        },
-        {
-          "name": "B. Serros",
-          "shareId": "rUFeUA5C"
-        },
-        {
-          "name": "D. Webster",
-          "shareId": "XaOK4wxw"
-        },
-        {
-          "name": "De Hoyos",
-          "shareId": "H5jRlOeB"
-        },
-        {
-          "name": "G. Reber",
-          "shareId": "O9XdEwiI"
-        },
-        {
-          "name": "Jake Mathew",
-          "shareId": "dG5WLSF4"
-        },
-        {
-          "name": "Justin K.",
-          "shareId": "VrV0E3mc"
-        },
-        {
-          "name": "K. Bigham",
-          "shareId": "HfntO0Eb"
-        },
-        {
-          "name": "M. Meredith",
-          "shareId": "80VpU2zC"
-        },
-        {
-          "name": "M. Pierce",
-          "shareId": "sAWfqcXq"
-        },
-        {
-          "name": "Omar Haner",
-          "shareId": "F3K39cC7"
-        },
-        {
-          "name": "Travis Elliott",
-          "shareId": "Q7C2bKu9"
-        }
-      ]
+     "name": "A. Queen",
+     "shareId": "OmWENjKs"
     },
     {
-      "label": "Strong House Pro",
-      "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/69c177f6ee6b083568b6a6b3",
-      "company": "Stronghouse Pro",
-      "domains": [
-        "stronghousepro.com",
-        "stronghousebrands.com"
-      ],
-      "pageMode": "per-rep",
-      "affiliatedWith": "LINEAR roofing",
-      "reps": [
-        {
-          "name": "Aaron Faughn",
-          "emails": [],
-          "shareId": "eRCpUFsw",
-          "url": "https://www.send.co/a/eRCpUFsw"
-        },
-        {
-          "name": "Alberto Zenteno",
-          "emails": [],
-          "shareId": "N0qifUeg",
-          "url": "https://www.send.co/a/N0qifUeg"
-        },
-        {
-          "name": "Amir Mobalegh",
-          "emails": [],
-          "shareId": "NifVZq81",
-          "url": "https://www.send.co/a/NifVZq81"
-        },
-        {
-          "name": "Andres Soto",
-          "emails": [],
-          "shareId": "ep99zSaB",
-          "url": "https://www.send.co/a/ep99zSaB"
-        },
-        {
-          "name": "Andrew Perales",
-          "emails": [],
-          "shareId": "DlIKTBQI",
-          "url": "https://www.send.co/a/DlIKTBQI"
-        },
-        {
-          "name": "Baha Abushehab",
-          "emails": [],
-          "shareId": "spdevhk0",
-          "url": "https://www.send.co/a/spdevhk0"
-        },
-        {
-          "name": "Christopher Mathis",
-          "emails": [],
-          "shareId": "Wdh4SK41",
-          "url": "https://www.send.co/a/Wdh4SK41"
-        },
-        {
-          "name": "Clayton Grassi",
-          "emails": [],
-          "shareId": "zXWmm7Tj",
-          "url": "https://www.send.co/a/zXWmm7Tj"
-        },
-        {
-          "name": "Daniel Rodriguez",
-          "emails": [],
-          "shareId": "srHxOk2y",
-          "url": "https://www.send.co/a/srHxOk2y"
-        },
-        {
-          "name": "David Webster",
-          "emails": [],
-          "shareId": "6om1Ew5L",
-          "url": "https://www.send.co/a/6om1Ew5L"
-        },
-        {
-          "name": "Garritt Doyle",
-          "emails": [],
-          "shareId": "BObKXMhK",
-          "url": "https://www.send.co/a/BObKXMhK"
-        },
-        {
-          "name": "Heather Griffiths",
-          "emails": [],
-          "shareId": "W0P3tNFw",
-          "url": "https://www.send.co/a/W0P3tNFw"
-        },
-        {
-          "name": "Jacob Diaz",
-          "emails": [],
-          "shareId": "HyFEhfbE",
-          "url": "https://www.send.co/a/HyFEhfbE"
-        },
-        {
-          "name": "Jeffrey Speight",
-          "emails": [],
-          "shareId": "XEJ8aIkj",
-          "url": "https://www.send.co/a/XEJ8aIkj"
-        },
-        {
-          "name": "Joel Rivera",
-          "emails": [],
-          "shareId": "AJbFveoq",
-          "url": "https://www.send.co/a/AJbFveoq"
-        },
-        {
-          "name": "Jose Diaz",
-          "emails": [],
-          "shareId": "MZbmhkIV",
-          "url": "https://www.send.co/a/MZbmhkIV"
-        },
-        {
-          "name": "Jose Hernandez",
-          "emails": [],
-          "shareId": "VTYG7Q8l",
-          "url": "https://www.send.co/a/VTYG7Q8l"
-        },
-        {
-          "name": "Kevin Salazar",
-          "emails": [],
-          "shareId": "udwGcQyo",
-          "url": "https://www.send.co/a/udwGcQyo"
-        },
-        {
-          "name": "Kevin Shuford",
-          "emails": [],
-          "shareId": "UsCWiuFS",
-          "url": "https://www.send.co/a/UsCWiuFS"
-        },
-        {
-          "name": "Luis Garcia",
-          "emails": [],
-          "shareId": "NmAH7dr2",
-          "url": "https://www.send.co/a/NmAH7dr2"
-        },
-        {
-          "name": "Marcus Stein",
-          "emails": [],
-          "shareId": "CdSdKzBe",
-          "url": "https://www.send.co/a/CdSdKzBe"
-        },
-        {
-          "name": "Melvin Pierce",
-          "emails": [],
-          "shareId": "IVL76bWg",
-          "url": "https://www.send.co/a/IVL76bWg"
-        },
-        {
-          "name": "Michael Shemas",
-          "emails": [],
-          "shareId": "iLdQjjop",
-          "url": "https://www.send.co/a/iLdQjjop"
-        },
-        {
-          "name": "Omar Haner",
-          "emails": [],
-          "shareId": "HDqyl7Pa",
-          "url": "https://www.send.co/a/HDqyl7Pa"
-        },
-        {
-          "name": "Patrick Nations",
-          "emails": [],
-          "shareId": "aIM59lx4",
-          "url": "https://www.send.co/a/aIM59lx4"
-        },
-        {
-          "name": "Ricardo Hernandez",
-          "emails": [],
-          "shareId": "Ydo49muU",
-          "url": "https://www.send.co/a/Ydo49muU"
-        },
-        {
-          "name": "Rusty Coffman",
-          "emails": [],
-          "shareId": "rfKqhxtS",
-          "url": "https://www.send.co/a/rfKqhxtS"
-        },
-        {
-          "name": "Samuel Peters",
-          "emails": [],
-          "shareId": "OrM1fbu1",
-          "url": "https://www.send.co/a/OrM1fbu1"
-        },
-        {
-          "name": "Stephen Buttino",
-          "emails": [],
-          "shareId": "8IMjRXkV",
-          "url": "https://www.send.co/a/8IMjRXkV"
-        },
-        {
-          "name": "Stephen Gossett",
-          "emails": [],
-          "shareId": "5766Rnc3",
-          "url": "https://www.send.co/a/5766Rnc3"
-        },
-        {
-          "name": "Tim Berry",
-          "emails": [],
-          "shareId": "zCdvSAvl",
-          "url": "https://www.send.co/a/zCdvSAvl"
-        },
-        {
-          "name": "Tomas Cuevas",
-          "emails": [],
-          "shareId": "alXtyuZJ",
-          "url": "https://www.send.co/a/alXtyuZJ"
-        },
-        {
-          "name": "Trey Elliott",
-          "emails": [],
-          "shareId": "56Mrout2",
-          "url": "https://www.send.co/a/56Mrout2"
-        },
-        {
-          "name": "Zacharias Khan",
-          "emails": [],
-          "shareId": "nTJcEreq",
-          "url": "https://www.send.co/a/nTJcEreq"
-        }
-      ],
-      "shareId": null,
-      "unassignedShareId": "PrXSVkbG",
-      "unassignedUrl": "https://www.send.co/a/PrXSVkbG",
-      "supersededPages": [
-        {
-          "name": "M. Pierce",
-          "shareId": "9AwcUoBM"
-        },
-        {
-          "name": "A. Mobalegh",
-          "shareId": "Wj5wFtfl"
-        },
-        {
-          "name": "Andrew Blackburn",
-          "shareId": "Z5wsYcpa"
-        },
-        {
-          "name": "D. Hogan",
-          "shareId": "y3aVAr68"
-        },
-        {
-          "name": "D. Pagoada",
-          "shareId": "PRWk2Mc3"
-        },
-        {
-          "name": "Edgar Zuniga",
-          "shareId": "MjyG13vv"
-        },
-        {
-          "name": "George Jackson",
-          "shareId": "sJrTqUsp"
-        },
-        {
-          "name": "J. De La Cruz",
-          "shareId": "JvuWDAa5"
-        },
-        {
-          "name": "Jake Mathew",
-          "shareId": "VkAOIYXg"
-        },
-        {
-          "name": "Matt Godfrey",
-          "shareId": "GLlVyw21"
-        },
-        {
-          "name": "Terronce Johnson",
-          "shareId": "L89aD0FN"
-        },
-        {
-          "name": "Trevon Chaney",
-          "shareId": "YcSBfyFx"
-        }
-      ]
+     "name": "Andrew P.",
+     "shareId": "1EOlBGaa"
     },
     {
-      "label": "Legacy Roofing",
-      "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/68e1a336e2496ed38981c6db",
-      "company": "Legacy Roofing GC",
-      "domains": [
-        "legacyroofinggc.com"
-      ],
-      "pageMode": "company",
-      "reps": [
-        {
-          "name": "Jazhiel M.",
-          "emails": [
-            "jazhielm@legacyroofinggc.com"
-          ]
-        },
-        {
-          "name": "Alex C.",
-          "emails": [
-            "alexc@legacyroofinggc.com"
-          ]
-        },
-        {
-          "name": "Roberto M.",
-          "emails": [
-            "robertom@legacyroofinggc.com"
-          ]
-        },
-        {
-          "name": "Jose G.",
-          "emails": [
-            "joseg@legacyroofinggc.com"
-          ]
-        }
-      ],
-      "shareId": "do5DL1Om",
-      "url": "https://www.send.co/a/do5DL1Om"
+     "name": "B. Serros",
+     "shareId": "rUFeUA5C"
     },
     {
-      "label": "No Stress Claims",
-      "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/675bbb8fe256c9a8d7b12815",
-      "company": "No Stress Claims",
-      "domains": [],
-      "pageMode": "company",
-      "shareId": "JTSciawp",
-      "url": "https://www.send.co/a/JTSciawp"
+     "name": "D. Webster",
+     "shareId": "XaOK4wxw"
     },
     {
-      "label": "Vince - assured value claims",
-      "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/666e58ad1dc51400eb5238fe",
-      "company": "Assured Value Claims",
-      "domains": [],
-      "pageMode": "company",
-      "shareId": "CSIhM4fp",
-      "url": "https://www.send.co/a/CSIhM4fp"
+     "name": "De Hoyos",
+     "shareId": "H5jRlOeB"
     },
     {
-      "label": "Cross country Public Adjusting",
-      "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/6842b18b2c83590ef73b83e2",
-      "company": "Cross Country Public Adjusting",
-      "domains": [
-        "crosscountrypublicadjusting.com"
-      ],
-      "pageMode": "company",
-      "shareId": "696GL2Lq",
-      "url": "https://www.send.co/a/696GL2Lq"
+     "name": "G. Reber",
+     "shareId": "O9XdEwiI"
     },
     {
-      "label": "TCB Elite Fleet",
-      "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/69c5478508edf5cd6a0c082c",
-      "company": "TCB Elite Fleet LLC",
-      "domains": [
-        "tcbelitefleet.com"
-      ],
-      "pageMode": "company",
-      "reps": [
-        {
-          "name": "A. Stevens",
-          "emails": [
-            "astevens@tcbelitefleet.com"
-          ]
-        },
-        {
-          "name": "C. Schick",
-          "emails": [
-            "cschick@tcbelitefleet.com"
-          ]
-        }
-      ],
-      "shareId": "93IB0fH1",
-      "url": "https://www.send.co/a/93IB0fH1"
+     "name": "Jake Mathew",
+     "shareId": "dG5WLSF4"
     },
     {
-      "label": "The lawgical firm",
-      "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/68e3a67e4b628e6f90368b9e",
-      "company": "The Lawgical Firm",
-      "domains": [],
-      "pageMode": "company",
-      "shareId": "FsAQgx8X",
-      "url": "https://www.send.co/a/FsAQgx8X"
+     "name": "Justin K.",
+     "shareId": "VrV0E3mc"
     },
     {
-      "label": "ADC Roofing",
-      "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/69a71e042e5bf39d4ecc8b0d",
-      "company": "ADC Roofing",
-      "domains": [
-        "adcroofing.com"
-      ],
-      "pageMode": "company",
-      "reps": [
-        {
-          "name": "Farhan",
-          "emails": [
-            "farhan@adcroofing.com"
-          ]
-        }
-      ],
-      "shareId": "HEIQwf7s",
-      "url": "https://www.send.co/a/HEIQwf7s"
+     "name": "K. Bigham",
+     "shareId": "HfntO0Eb"
+    },
+    {
+     "name": "M. Meredith",
+     "shareId": "80VpU2zC"
+    },
+    {
+     "name": "M. Pierce",
+     "shareId": "sAWfqcXq"
+    },
+    {
+     "name": "Omar Haner",
+     "shareId": "F3K39cC7"
+    },
+    {
+     "name": "Travis Elliott",
+     "shareId": "Q7C2bKu9"
     }
-  ],
-  "_supersededComment": [
-    "Pages replaced during the 2026-08-15 rebuild when the roster moved from initials",
-    "(derived from email addresses) to full names from the board export. Joseph chose to",
-    "leave them live. They are recorded so a future run never reuses or resurrects them,",
-    "and so work/LINKS.md can warn against sending them."
-  ]
+   ]
+  },
+  {
+   "label": "Strong House Pro",
+   "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/69c177f6ee6b083568b6a6b3",
+   "company": "Stronghouse Pro",
+   "domains": [
+    "stronghousepro.com",
+    "stronghousebrands.com"
+   ],
+   "pageMode": "per-rep",
+   "affiliatedWith": "LINEAR roofing",
+   "reps": [
+    {
+     "name": "Aaron Faughn",
+     "emails": [],
+     "shareId": "eRCpUFsw",
+     "url": "https://www.send.co/a/eRCpUFsw"
+    },
+    {
+     "name": "Alberto Zenteno",
+     "emails": [],
+     "shareId": "N0qifUeg",
+     "url": "https://www.send.co/a/N0qifUeg"
+    },
+    {
+     "name": "Amir Mobalegh",
+     "emails": [],
+     "shareId": "NifVZq81",
+     "url": "https://www.send.co/a/NifVZq81"
+    },
+    {
+     "name": "Andres Soto",
+     "emails": [],
+     "shareId": "ep99zSaB",
+     "url": "https://www.send.co/a/ep99zSaB"
+    },
+    {
+     "name": "Andrew Perales",
+     "emails": [],
+     "shareId": "DlIKTBQI",
+     "url": "https://www.send.co/a/DlIKTBQI"
+    },
+    {
+     "name": "Baha Abushehab",
+     "emails": [],
+     "shareId": "spdevhk0",
+     "url": "https://www.send.co/a/spdevhk0"
+    },
+    {
+     "name": "Christopher Mathis",
+     "emails": [],
+     "shareId": "Wdh4SK41",
+     "url": "https://www.send.co/a/Wdh4SK41"
+    },
+    {
+     "name": "Clayton Grassi",
+     "emails": [],
+     "shareId": "zXWmm7Tj",
+     "url": "https://www.send.co/a/zXWmm7Tj"
+    },
+    {
+     "name": "Daniel Rodriguez",
+     "emails": [],
+     "shareId": "srHxOk2y",
+     "url": "https://www.send.co/a/srHxOk2y"
+    },
+    {
+     "name": "David Webster",
+     "emails": [],
+     "shareId": "6om1Ew5L",
+     "url": "https://www.send.co/a/6om1Ew5L"
+    },
+    {
+     "name": "Garritt Doyle",
+     "emails": [],
+     "shareId": "BObKXMhK",
+     "url": "https://www.send.co/a/BObKXMhK"
+    },
+    {
+     "name": "Heather Griffiths",
+     "emails": [],
+     "shareId": "W0P3tNFw",
+     "url": "https://www.send.co/a/W0P3tNFw"
+    },
+    {
+     "name": "Jacob Diaz",
+     "emails": [],
+     "shareId": "HyFEhfbE",
+     "url": "https://www.send.co/a/HyFEhfbE"
+    },
+    {
+     "name": "Jeffrey Speight",
+     "emails": [],
+     "shareId": "XEJ8aIkj",
+     "url": "https://www.send.co/a/XEJ8aIkj"
+    },
+    {
+     "name": "Joel Rivera",
+     "emails": [],
+     "shareId": "AJbFveoq",
+     "url": "https://www.send.co/a/AJbFveoq"
+    },
+    {
+     "name": "Jose Diaz",
+     "emails": [],
+     "shareId": "MZbmhkIV",
+     "url": "https://www.send.co/a/MZbmhkIV"
+    },
+    {
+     "name": "Jose Hernandez",
+     "emails": [],
+     "shareId": "VTYG7Q8l",
+     "url": "https://www.send.co/a/VTYG7Q8l"
+    },
+    {
+     "name": "Kevin Salazar",
+     "emails": [],
+     "shareId": "udwGcQyo",
+     "url": "https://www.send.co/a/udwGcQyo"
+    },
+    {
+     "name": "Kevin Shuford",
+     "emails": [],
+     "shareId": "UsCWiuFS",
+     "url": "https://www.send.co/a/UsCWiuFS"
+    },
+    {
+     "name": "Luis Garcia",
+     "emails": [],
+     "shareId": "NmAH7dr2",
+     "url": "https://www.send.co/a/NmAH7dr2"
+    },
+    {
+     "name": "Marcus Stein",
+     "emails": [],
+     "shareId": "CdSdKzBe",
+     "url": "https://www.send.co/a/CdSdKzBe"
+    },
+    {
+     "name": "Melvin Pierce",
+     "emails": [],
+     "shareId": "IVL76bWg",
+     "url": "https://www.send.co/a/IVL76bWg"
+    },
+    {
+     "name": "Michael Shemas",
+     "emails": [],
+     "shareId": "iLdQjjop",
+     "url": "https://www.send.co/a/iLdQjjop"
+    },
+    {
+     "name": "Omar Haner",
+     "emails": [],
+     "shareId": "HDqyl7Pa",
+     "url": "https://www.send.co/a/HDqyl7Pa"
+    },
+    {
+     "name": "Patrick Nations",
+     "emails": [],
+     "shareId": "aIM59lx4",
+     "url": "https://www.send.co/a/aIM59lx4"
+    },
+    {
+     "name": "Ricardo Hernandez",
+     "emails": [],
+     "shareId": "Ydo49muU",
+     "url": "https://www.send.co/a/Ydo49muU"
+    },
+    {
+     "name": "Rusty Coffman",
+     "emails": [],
+     "shareId": "rfKqhxtS",
+     "url": "https://www.send.co/a/rfKqhxtS"
+    },
+    {
+     "name": "Samuel Peters",
+     "emails": [],
+     "shareId": "OrM1fbu1",
+     "url": "https://www.send.co/a/OrM1fbu1"
+    },
+    {
+     "name": "Stephen Buttino",
+     "emails": [],
+     "shareId": "8IMjRXkV",
+     "url": "https://www.send.co/a/8IMjRXkV"
+    },
+    {
+     "name": "Stephen Gossett",
+     "emails": [],
+     "shareId": "5766Rnc3",
+     "url": "https://www.send.co/a/5766Rnc3"
+    },
+    {
+     "name": "Tim Berry",
+     "emails": [],
+     "shareId": "zCdvSAvl",
+     "url": "https://www.send.co/a/zCdvSAvl"
+    },
+    {
+     "name": "Tomas Cuevas",
+     "emails": [],
+     "shareId": "alXtyuZJ",
+     "url": "https://www.send.co/a/alXtyuZJ"
+    },
+    {
+     "name": "Trey Elliott",
+     "emails": [],
+     "shareId": "56Mrout2",
+     "url": "https://www.send.co/a/56Mrout2"
+    },
+    {
+     "name": "Zacharias Khan",
+     "emails": [],
+     "shareId": "nTJcEreq",
+     "url": "https://www.send.co/a/nTJcEreq"
+    }
+   ],
+   "shareId": null,
+   "unassignedShareId": "PrXSVkbG",
+   "unassignedUrl": "https://www.send.co/a/PrXSVkbG",
+   "supersededPages": [
+    {
+     "name": "M. Pierce",
+     "shareId": "9AwcUoBM"
+    },
+    {
+     "name": "A. Mobalegh",
+     "shareId": "Wj5wFtfl"
+    },
+    {
+     "name": "Andrew Blackburn",
+     "shareId": "Z5wsYcpa"
+    },
+    {
+     "name": "D. Hogan",
+     "shareId": "y3aVAr68"
+    },
+    {
+     "name": "D. Pagoada",
+     "shareId": "PRWk2Mc3"
+    },
+    {
+     "name": "Edgar Zuniga",
+     "shareId": "MjyG13vv"
+    },
+    {
+     "name": "George Jackson",
+     "shareId": "sJrTqUsp"
+    },
+    {
+     "name": "J. De La Cruz",
+     "shareId": "JvuWDAa5"
+    },
+    {
+     "name": "Jake Mathew",
+     "shareId": "VkAOIYXg"
+    },
+    {
+     "name": "Matt Godfrey",
+     "shareId": "GLlVyw21"
+    },
+    {
+     "name": "Terronce Johnson",
+     "shareId": "L89aD0FN"
+    },
+    {
+     "name": "Trevon Chaney",
+     "shareId": "YcSBfyFx"
+    }
+   ]
+  },
+  {
+   "label": "Legacy Roofing",
+   "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/68e1a336e2496ed38981c6db",
+   "company": "Legacy Roofing GC",
+   "domains": [
+    "legacyroofinggc.com"
+   ],
+   "pageMode": "company",
+   "reps": [
+    {
+     "name": "Jazhiel M.",
+     "emails": [
+      "jazhielm@legacyroofinggc.com"
+     ]
+    },
+    {
+     "name": "Alex C.",
+     "emails": [
+      "alexc@legacyroofinggc.com"
+     ]
+    },
+    {
+     "name": "Roberto M.",
+     "emails": [
+      "robertom@legacyroofinggc.com"
+     ]
+    },
+    {
+     "name": "Jose G.",
+     "emails": [
+      "joseg@legacyroofinggc.com"
+     ]
+    }
+   ],
+   "shareId": "do5DL1Om",
+   "url": "https://www.send.co/a/do5DL1Om"
+  },
+  {
+   "label": "No Stress Claims",
+   "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/675bbb8fe256c9a8d7b12815",
+   "company": "No Stress Claims",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": "JTSciawp",
+   "url": "https://www.send.co/a/JTSciawp"
+  },
+  {
+   "label": "Vince - assured value claims",
+   "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/666e58ad1dc51400eb5238fe",
+   "company": "Assured Value Claims",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": "CSIhM4fp",
+   "url": "https://www.send.co/a/CSIhM4fp"
+  },
+  {
+   "label": "Cross country Public Adjusting",
+   "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/6842b18b2c83590ef73b83e2",
+   "company": "Cross Country Public Adjusting",
+   "domains": [
+    "crosscountrypublicadjusting.com"
+   ],
+   "pageMode": "company",
+   "shareId": "696GL2Lq",
+   "url": "https://www.send.co/a/696GL2Lq"
+  },
+  {
+   "label": "TCB Elite Fleet",
+   "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/69c5478508edf5cd6a0c082c",
+   "company": "TCB Elite Fleet LLC",
+   "domains": [
+    "tcbelitefleet.com"
+   ],
+   "pageMode": "company",
+   "reps": [
+    {
+     "name": "A. Stevens",
+     "emails": [
+      "astevens@tcbelitefleet.com"
+     ]
+    },
+    {
+     "name": "C. Schick",
+     "emails": [
+      "cschick@tcbelitefleet.com"
+     ]
+    }
+   ],
+   "shareId": "93IB0fH1",
+   "url": "https://www.send.co/a/93IB0fH1"
+  },
+  {
+   "label": "The lawgical firm",
+   "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/68e3a67e4b628e6f90368b9e",
+   "company": "The Lawgical Firm",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": "FsAQgx8X",
+   "url": "https://www.send.co/a/FsAQgx8X"
+  },
+  {
+   "label": "ADC Roofing",
+   "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/69a71e042e5bf39d4ecc8b0d",
+   "company": "ADC Roofing",
+   "domains": [
+    "adcroofing.com"
+   ],
+   "pageMode": "company",
+   "reps": [
+    {
+     "name": "Farhan",
+     "emails": [
+      "farhan@adcroofing.com"
+     ]
+    }
+   ],
+   "shareId": "HEIQwf7s",
+   "url": "https://www.send.co/a/HEIQwf7s"
+  },
+  {
+   "label": "Remys Roofing",
+   "company": "Remys Roofing",
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Added 2026-08-16. The label existed on the board with 8 cards but was never in this config, so the roster never picked it up and its files were never back-read or given a page. Rep is Remy Caruso."
+  }
+ ],
+ "_supersededComment": [
+  "Pages replaced during the 2026-08-15 rebuild when the roster moved from initials",
+  "(derived from email addresses) to full names from the board export. Joseph chose to",
+  "leave them live. They are recorded so a future run never reuses or resurrects them,",
+  "and so work/LINKS.md can warn against sending them."
+ ]
 }
