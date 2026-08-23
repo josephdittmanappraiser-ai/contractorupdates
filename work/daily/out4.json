@@ -1,0 +1,151 @@
+{
+  "batch": 4,
+  "results": [
+    {
+      "threadId": "1a020feac903d231",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a5fa7df202049183eea1642",
+      "insured": "Kayla Thomas",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-23 — Joseph told insured Kayla Thomas he will also ask Nationwide to reissue the first check ($4,284.21) that was sent directly to her."
+      ],
+      "outcome": "logged",
+      "why": ""
+    },
+    {
+      "threadId": "1a02c271fbc79a55",
+      "cardId": "",
+      "insured": "Leandra (surname unconfirmed)",
+      "itemsAdded": 0,
+      "events": [],
+      "outcome": "unmatched",
+      "why": "Contractor (j.nowroofing@gmail.com) sent a CompanyCam link with 'the entire file for Leandra' — only a first name, no claim number or property address in the message. The only plausible card, LEANDRA HUMPHREYS, could not be confirmed against claim/address (its description has neither), and search also returned an unrelated card whose address happens to be on a street named Leandra Dr, so a first-name-only match was not confident enough to write."
+    },
+    {
+      "threadId": "1a02b088dad3f491",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a7a62ee83c8cf8474f5e334",
+      "insured": "Eduardo Peralta Yanez",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Sheila (for Joseph) emailed umpire Russell requesting his umpire list and offering joint inspection dates of 8/26 at 12:30 PM or 8/28 at 10:00 AM."
+      ],
+      "outcome": "logged",
+      "why": ""
+    },
+    {
+      "threadId": "19d0701f2f4565f0",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/69bc2b4a431d01dc2e2cc522",
+      "insured": "Alcides Maldonado",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Imee followed up with No Stress Claims asking for an update on payment of the umpire invoice."
+      ],
+      "outcome": "logged",
+      "why": ""
+    },
+    {
+      "threadId": "1a003b7d008d4d48",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/69c54e365c73e9e7ab053af9",
+      "insured": "Khalid Malik",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Imee thanked contractor Andres Soto for his update that the paperwork was expected to be signed the next day."
+      ],
+      "outcome": "logged",
+      "why": ""
+    },
+    {
+      "threadId": "19f7c27c9abeb2f5",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a0249c2acd62a00dbf7dc13",
+      "insured": "Mark Celebron",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Imee followed up with contractor Rusty Coffman asking for a recent update on the appraisal invoice/depreciation check status."
+      ],
+      "outcome": "logged",
+      "why": ""
+    },
+    {
+      "threadId": "19ff201583cdfc9b",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a4ed6e4824628795e76722c",
+      "insured": "Jonathan Mottu",
+      "itemsAdded": 2,
+      "events": [
+        "2026-08-22 — Sheila (for Joseph) told umpire Harold Craddock he can proceed with his solo inspection on 9/09 at 9:00 AM; noted Joseph will also be in the area 9/10 and will confirm the date with the homeowner.",
+        "2026-08-22 — Umpire Harold Craddock thanked Joseph for confirming the 9/09 inspection date."
+      ],
+      "outcome": "logged",
+      "why": ""
+    },
+    {
+      "threadId": "19fd5689333855e4",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a0cdae85720bec9b6693df6",
+      "insured": "Marie Carlson & Sean Briones",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Imee followed up with No Stress accounting asking for the payment status of the appraisal invoice."
+      ],
+      "outcome": "logged",
+      "why": ""
+    },
+    {
+      "threadId": "19e8b11e1e69a010",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/69a0b746194664c6b1cb1060",
+      "insured": "Stacie Norman",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Imee followed up with Mandy Munz (No Stress) asking for the payment status of the appraisal invoice."
+      ],
+      "outcome": "logged",
+      "why": ""
+    },
+    {
+      "threadId": "19f3dcef77133021",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/699f7ed7ef9d93473c54efc1",
+      "insured": "Anita Wilkins",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Imee followed up with Tristan Demandt (No Stress) asking for the payment status of the umpire invoice."
+      ],
+      "outcome": "logged",
+      "why": ""
+    },
+    {
+      "threadId": "19e09532999fcac9",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/69d8062160c4ba35df9dc35f",
+      "insured": "Jeffrey Tessier",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Joseph sent umpire Matthew Wilson the contractor's copper bid to support pricing on the copper dormers/finials."
+      ],
+      "outcome": "logged",
+      "why": ""
+    },
+    {
+      "threadId": "19fb96fc5db8111c",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a6bd9576dc67e3de6bfe335",
+      "insured": "Jose Villatoro",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Joseph reviewed umpire Reggie Douglas's position and requested revisions: add O&P, replace the damaged gutter, laundry room ceiling texture/paint/fixture reset, include bathroom ceiling damage, and expand the fence detach-and-reset to replace damaged sections."
+      ],
+      "outcome": "logged",
+      "why": ""
+    },
+    {
+      "threadId": "19ef5031b01e9cbe",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a3c0e4361fa755f72ee1e73",
+      "insured": "William Benavidez and Stephanie Cook",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Joseph confirmed to carrier appraiser Chad Sanders (MBI Commercial) that he has completed the property inspection."
+      ],
+      "outcome": "logged",
+      "why": "Input file listed this thread as subject '', lastFrom '', msgs:0, but the live thread (subject '5393X455B - Cook Appraisal') had 23 messages, last one within the last 24 hours."
+    }
+  ],
+  "threads": 13,
+  "logged": 12,
+  "dropped": 0,
+  "unmatched": 1
+}
