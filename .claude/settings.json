@@ -10,6 +10,10 @@
       "mcp__Gmail__get_thread",
       "mcp__Gmail__list_labels",
       "mcp__Send__GetSite"
+      "mcp__Trello__trelloWriteChecklist",
+      "mcp__Trello__trelloWriteCard",
+      "mcp__Send__EditSite",
+      "mcp__Send__CreateSite"
     ]
   }
 }
