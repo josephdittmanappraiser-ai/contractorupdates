@@ -1,0 +1,140 @@
+{
+  "batch": 7,
+  "results": [
+    {
+      "threadId": "19fc7cc3c1750476",
+      "cardId": "",
+      "insured": "Unknown (Panel: Dan Moynahan / Miles Kamp) — Claim #85-00594850, Parallel Appraisal (Joseph acting as umpire)",
+      "itemsAdded": 0,
+      "events": [],
+      "outcome": "unmatched",
+      "why": "New msg (2026-08-23 04:57, Joseph -> Dan Moynahan): 'I am okay to go ahead and schedule the inspection while we wait for the carrier's payment. What does the panel's availability look like?' Joseph is the UMPIRE on this file, not the insured's appraiser, and no insured name ever appears in the thread — only claim #85-00594850, panel members Dan Moynahan and Miles Kamp, and a claimmail reference txpaclaims-2026040037. Searched Trello for the claim number, 'Parallel Appraisal', 'Moynahan', and 'Miles Kamp' — found only two cards (Eduardo Parra, McNierney Michael) that list Dan Moynahan's contact info with no claim number, so neither can be confirmed against 85-00594850. Logged nothing per the surname/claim-number confirmation rule."
+    },
+    {
+      "threadId": "19f89db78939e00d",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6969063d8294e933196151b6",
+      "insured": "Charles Paul",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Andre Moseley (Engle Martin, carrier GA) sent his estimate for review and asked Joseph to confirm his position, or that we're in agreement, so an award can be issued; otherwise proceed to umpire."
+      ],
+      "outcome": "logged",
+      "why": "Matched on claim #004787829 (base number, thread shows sub-reference -803) and Wichita Falls, TX loss address on the Insured Appraisals board."
+    },
+    {
+      "threadId": "19ab724990b9f4bf",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6924c33fa095eda883346483",
+      "insured": "Maria Ramos",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Imee (Joseph's office) followed up with No Stress Claims/the umpire's contact asking whether the umpire invoice payment has been settled."
+      ],
+      "outcome": "logged",
+      "why": "Matched on exact claim number 0806919379."
+    },
+    {
+      "threadId": "19e2828bd46257c1",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a064c63bb01a77f4b26f537",
+      "insured": "Alfonso Ortiz",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Imee followed up with Erica Shamp (Cross Country Public Adjusting) asking for the status of the umpire invoice payment."
+      ],
+      "outcome": "logged",
+      "why": "Matched on claim #43-95J147P (card shows 4395J147P, same number without dashes)."
+    },
+    {
+      "threadId": "1a0126375ead70ca",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a6cff36d3a777b52a87eff8",
+      "insured": "Jennifer and Bradley Moore",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Sheila (on behalf of Joseph) followed up with Norde Battle (opposing appraiser, Barcastle Appraisers) requesting his availability for a solo inspection."
+      ],
+      "outcome": "logged",
+      "why": "Matched on exact claim number 53-0J7N-677 and loss address (42 W Deer River Cir, The Woodlands, TX)."
+    },
+    {
+      "threadId": "19fc8abbb6ef0305",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a6cb4551ca00f4b5c226c74",
+      "insured": "Mary Swaney",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Sheila thanked James Plantes (opposing appraiser, Polaris Forensics) for sending his umpire list and asked for his availability for a solo or joint inspection while Joseph reviews the umpire options."
+      ],
+      "outcome": "logged",
+      "why": "Matched on exact claim number 059299940 and the opposing appraiser James Plantes/Polaris Forensics already noted on the card."
+    },
+    {
+      "threadId": "19fda0dad5f36fef",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6994d521cae67a50d29c639f",
+      "insured": "Ramesh Gudapuri",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Imee followed up with No Stress accounting on the payment status of the appraisal invoice."
+      ],
+      "outcome": "logged",
+      "why": "Only Trello card for this insured name (Gudapuri Ramesh / Ramesh Gudapuri); card is in the No Stress accounting-chase list, matching the correspondence."
+    },
+    {
+      "threadId": "1a02a3aada28eea4",
+      "cardId": "",
+      "insured": "",
+      "itemsAdded": 0,
+      "events": [],
+      "outcome": "dropped",
+      "why": "Automated Google 'Sign in with Google' account-data notice about CompanyCam, sent by noreply-accounts@google.com. Security/account notice, not file dialogue — dropped per rule."
+    },
+    {
+      "threadId": "19e1f7c721dbbcf0",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/697dbdb257ded64b1918a3b6",
+      "insured": "Lilian Perry",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Joseph acknowledged Fernanda Obando's (No Stress accounting) update that the appraisal payment has not yet been received."
+      ],
+      "outcome": "logged",
+      "why": "Matched on insured name plus the No Stress accounting correspondence and 'not yet paid' status matching the card's 'Closed but not Paid // No Stress' list."
+    },
+    {
+      "threadId": "19e50760d2a209c1",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/69ca90d78cade6aa6346321a",
+      "insured": "Jose Trevino",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Cedric Ledet (opposing appraiser) resent the correct award and carrier estimate documents for Jose Trevino after uploading the wrong file the first time; Joseph thanked him."
+      ],
+      "outcome": "logged",
+      "why": "Matched on exact claim number 5385S533Q; card's lastActivityAt timestamp lines up exactly with this exchange."
+    },
+    {
+      "threadId": "19ecdcb6d699e23d",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a398f6428b9e904e2d3b1db",
+      "insured": "Donald Walker",
+      "itemsAdded": 4,
+      "events": [
+        "2026-08-22 — Dennis White (3D&K Claims Group) asked Joseph to also send the estimate.",
+        "2026-08-22 — Joseph sent the estimate (photos and final draft depreciation report) to 3D&K Claims Group, no message text.",
+        "2026-08-22 — Edison Dane (umpire) sent the signed award and asked for a countersigned copy in return.",
+        "2026-08-23 — Joseph sent the countersigned award back to Edison Dane."
+      ],
+      "outcome": "logged",
+      "why": "Only Trello card for this insured name; card's lastActivityAt timestamp lines up exactly with the final message in this exchange."
+    },
+    {
+      "threadId": "19f801800c264b2d",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a31a9d110379da3bd346f4b",
+      "insured": "Crissy Martinez",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Crissy Martinez explained the lender-placed policy exists because her longtime insurer went out of business, and reported new mold on the ceiling as a health concern, after Joseph's update that appraisal is not available under this type of policy."
+      ],
+      "outcome": "logged",
+      "why": "JUDGEMENT CALL: matched confidently on exact claim number 260310409, but the only card found is on the 'OA APPRAISAL TASK' board (list: Completed), not on Insured Appraisals. No card for this insured/claim exists on Insured Appraisals, so the entry was logged on the OA APPRAISAL TASK card instead of being dropped. Flagging for the owner in case this claim should be re-homed onto Insured Appraisals, especially given National General/Allstate has now told her appraisal isn't available under her lender-placed policy."
+    }
+  ],
+  "threads": 12,
+  "logged": 10,
+  "dropped": 1,
+  "unmatched": 1
+}

@@ -1,0 +1,154 @@
+{
+  "batch": 5,
+  "results": [
+    {
+      "threadId": "19f1945a4c07dc60",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a460abf5b307e04ae3ed656",
+      "insured": "WRI, LLC",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-23 — Joseph sent the umpire invoice (with W-9) to Eric Anderson/panel for this claim, saying \"Thank you, I have attached the invoice below.\""
+      ],
+      "outcome": "logged",
+      "why": ""
+    },
+    {
+      "threadId": "19f8fa85feeb6c92",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a3c36978f7e82f5b0233ff4",
+      "insured": "Bo Liang",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Scott Lee (carrier's appraiser, Ampion) sent the fully executed award (both signatures) and revised estimate PDFs for the file."
+      ],
+      "outcome": "logged",
+      "why": ""
+    },
+    {
+      "threadId": "19db6fa6a2579668",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/69e937e66cb930dd462108fb",
+      "insured": "Luis Burgos",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Imee (Joseph's assistant) thanked The Lawgical Firm for forwarding the unpaid umpire invoice to expedite payment."
+      ],
+      "outcome": "logged",
+      "why": ""
+    },
+    {
+      "threadId": "19dbb5f88c560c6d",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/69ea5db2237738678621211c",
+      "insured": "Julio Granados",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Imee (Joseph's assistant) followed up with The Lawgical Firm on the umpire payment status so the panel can be updated."
+      ],
+      "outcome": "logged",
+      "why": ""
+    },
+    {
+      "threadId": "1a02a88d83088ac2",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a270c72932df5dc8435da69",
+      "insured": "Barry Davolt",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Brent Wohlgemuth sent the signed and dated Appraisal Award, with both outside appraisers' signatures."
+      ],
+      "outcome": "logged",
+      "why": "Only one 'Davolt' card exists on Insured Appraisals; email itself carried no claim number or address to cross-check, so the match rests on the unique surname plus subject line rather than a claim-number confirmation."
+    },
+    {
+      "threadId": "19fb64aace5fb866",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/69dfef949d326cbb611ee882",
+      "insured": "Angela Whitney",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Joseph reviewed Adam Cabrera's estimate/award letter and requested additional items (O&P, screens, garage door, AC unit fins/AC replacement, shed roofs, fencing, debris removal)."
+      ],
+      "outcome": "logged",
+      "why": ""
+    },
+    {
+      "threadId": "19fdd382362e68fb",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a01eb00a6a968c6e3efbc11",
+      "insured": "Sharon & Charles Price",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Imee (Joseph's assistant) followed up on the unpaid appraisal invoice payment status."
+      ],
+      "outcome": "logged",
+      "why": ""
+    },
+    {
+      "threadId": "19f81e013ef8c4b1",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6850b2ed1b325b539cf7a215",
+      "insured": "Tonya & Blaire Holmes",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Imee (Joseph's assistant) followed up with No Stress Claims on the unpaid appraisal invoice payment status."
+      ],
+      "outcome": "logged",
+      "why": ""
+    },
+    {
+      "threadId": "19e7b86ea059ce73",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/69b2c997b97e35200deadb62",
+      "insured": "Eduardo Flores",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Imee (Joseph's assistant) followed up with No Stress Claims asking when the appraisal invoice payment can be expected to settle."
+      ],
+      "outcome": "logged",
+      "why": ""
+    },
+    {
+      "threadId": "1a024c0c843504a4",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/69ba0a71dc335798fb1f84a8",
+      "insured": "Christopher Best",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Imee (Joseph's assistant) confirmed receipt of Scott Best's $1,500 Zelle payment for the appraisal invoice."
+      ],
+      "outcome": "logged",
+      "why": ""
+    },
+    {
+      "threadId": "19e958e821dae7b6",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a039dfcd7efc71a929a41bb",
+      "insured": "Patrick Hesselgesser",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Joseph followed up with Justin Grusendorf (Flatland Claims) asking him to send the fully executed award."
+      ],
+      "outcome": "logged",
+      "why": ""
+    },
+    {
+      "threadId": "1a01c136c280e01b",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a3d3675b90fa2f8c29ef868",
+      "insured": "Carlos Solis",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Joseph sent his final appraisal estimate/position (deprec-CAR detail plus ESX file) to Eric Anderson (Engle Martin, carrier)."
+      ],
+      "outcome": "logged",
+      "why": ""
+    },
+    {
+      "threadId": "19c95aa1c4d09b84",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6942dfdfa540033aef38bb1a",
+      "insured": "Shabana & Feroz Moloo",
+      "itemsAdded": 3,
+      "events": [
+        "2026-08-22 — Joseph asked umpire \"Donny\" for help settling the file, offering to resend all documents.",
+        "2026-08-22 — Aaron Martin (carrier's adjuster, John T. Parker Claims) said he was called out in the field and would have his position by end of week, and told the umpire his services aren't needed yet.",
+        "2026-08-22 — Joseph told the umpire to accept the assignment if Aaron doesn't deliver his position by the stated time, noting Aaron has missed promised dates 3-4 times over the 6 months this file has been open."
+      ],
+      "outcome": "logged",
+      "why": "Subject line and lastFrom in the input file were blank/empty even though the thread had messages in the last 24 hours (three exchanges) — identified only by opening the thread directly, per the DAILY.md warning not to judge from the search preview."
+    }
+  ],
+  "threads": 13,
+  "logged": 13,
+  "dropped": 0,
+  "unmatched": 0
+}
