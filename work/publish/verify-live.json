@@ -9,6 +9,16 @@
       "hasLatest": true,
       "hasTrack": true,
       "why": "Live content is an older build: tile shows Need you=3 (local=4); HERMELINDA ALMANZA/Thomas Clark/Rigoberto Ayala file cards show older/shorter narrative text, older event histories (fewer events, e.g. 10 vs 13), and stale needs-you flagging vs local."
+    },
+    {
+      "shareId": "W0P3tNFw",
+      "page": "work/pages/strong-heather-griffiths.html",
+      "matches": false,
+      "liveBytes": 23276,
+      "localBytes": 23825,
+      "hasLatest": true,
+      "hasTrack": true,
+      "why": "Live is stale for the Michael Patterson file card: last activity shown as 2026-06-30 with 9 events (join inspection confirmed for June 12) instead of local's 2026-07-15 with 12 events (inspection rescheduled to June 13, estimate submitted June 17, follow-up July 15)."
     }
   ]
 }
