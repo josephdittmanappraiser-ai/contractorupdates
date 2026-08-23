@@ -341,3 +341,22 @@ Compare the final `GetSite` size against `sourceBytes` and treat a mismatch as a
 not a rounding artifact. (Send's own per-edit byte-delta counter is a different thing and is not
 reliable — it under-counts multi-byte characters by 2 per em dash, which every publish agent
 this run rediscovered independently.)
+
+### A publish run that dies leaves no trace unless you make it
+
+Four publish agents were killed by a container restart mid-run. They had been told to write a
+progress log per page, but each had buffered its writes to the end, so all four logs were
+missing entirely — indistinguishable from "never started". Fourteen pages sat live with stale
+content while the run looked finished.
+
+The tell was that the progress logs were empty, and the fix was to stop trusting the run's own
+report:
+
+1. **Write the progress log after each page, before starting the next.** A log written at the
+   end tells you nothing about a run that did not reach the end.
+2. **Verify from the live pages, not from the agents' summaries.** `GetSite` each published
+   page and diff it against the file on disk. Every one of those four agents would have
+   reported success had it lived long enough to report anything.
+
+Verification is cheap next to the alternative: a contractor reading a page that says their file
+has not moved since June, when it went to umpire in August.

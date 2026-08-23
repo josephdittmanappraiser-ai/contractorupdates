@@ -19,6 +19,136 @@
       "hasLatest": true,
       "hasTrack": true,
       "why": "Live is stale for the Michael Patterson file card: last activity shown as 2026-06-30 with 9 events (join inspection confirmed for June 12) instead of local's 2026-07-15 with 12 events (inspection rescheduled to June 13, estimate submitted June 17, follow-up July 15)."
+    },
+    {
+      "shareId": "VGyJD1wY",
+      "page": "work/pages/linear-jacob-diaz.html",
+      "matches": false,
+      "liveBytes": 18608,
+      "localBytes": 19099,
+      "hasLatest": true,
+      "hasTrack": true,
+      "why": "Live is stale for the Steven Hawkins file: missing the 2026-07-29/07-30 events (carrier's appraiser sent his position, Joseph requested scope corrections) - live shows 8 events, local shows 10."
+    },
+    {
+      "shareId": "FsAQgx8X",
+      "page": "work/pages/company-the-lawgical-firm.html",
+      "matches": false,
+      "liveBytes": 70670,
+      "localBytes": 72332,
+      "hasLatest": true,
+      "hasTrack": true,
+      "why": "Live is stale for two files: Lorena De Leon Gonzalez missing the 2026-08-14 event (14 vs 15 events); Julio Granados missing all events after 2026-07-14 (11 vs 20 events, last activity shown 2026-07-30 instead of 2026-08-15, missing the Aug 24 umpire-deadline update)."
+    },
+    {
+      "shareId": "3YCzp1LR",
+      "page": "work/pages/linear-andres-soto.html",
+      "matches": false,
+      "liveBytes": 29135,
+      "localBytes": 30500,
+      "hasLatest": true,
+      "hasTrack": true,
+      "why": "Live is stale: tile shows Need you=0 (local=1); Jose Alvarenga missing needs-you flag and 4 events (2026-07-17 through 08-03, including homeowner wanting to drop the umpire process); Marie Le Fevere missing the 2026-07-29 event about the new appraiser Steven Smallwood taking over (7 vs 8 events)."
+    },
+    {
+      "shareId": "ZCkckDO1",
+      "page": "work/pages/linear-noah-nichter.html",
+      "matches": false,
+      "liveBytes": 15438,
+      "localBytes": 16613,
+      "hasLatest": true,
+      "hasTrack": true,
+      "why": "Live is stale for the WILLIAM TUCKER file: shows only 10 events / earlier narrative (umpire invoice paid, no further update) vs local's 15 events including 07-25 through 08-10 updates (umpire fee confirmed, position estimate sent, inspection scheduled for Aug 19). CSS style block verified identical (md5 8a2bac14b034a6e798248ea8a0c3ba28)."
+    },
+    {
+      "shareId": "3EyCbafl",
+      "page": "work/pages/linear-unassigned.html",
+      "matches": false,
+      "liveBytes": 61150,
+      "localBytes": 61289,
+      "hasLatest": true,
+      "hasTrack": true,
+      "why": "Live is stale for SAMUEL GARZA: missing the 2026-07-17 event (carrier's appraiser confirmed she would attend the interior inspection) - live shows 11 events, local shows 12."
+    },
+    {
+      "shareId": "PrXSVkbG",
+      "page": "work/pages/strong-unassigned.html",
+      "matches": false,
+      "liveBytes": 35931,
+      "localBytes": 36219,
+      "hasLatest": true,
+      "hasTrack": true,
+      "why": "Live is stale for Travis Sauer: last activity shown 2026-08-14 (local=08-15), missing the 07-30 insured-confirmation event and 08-15 umpire-candidates-sent event (9 vs 11 events)."
+    },
+    {
+      "shareId": "zXWmm7Tj",
+      "page": "work/pages/strong-clayton-grassi.html",
+      "matches": false,
+      "liveBytes": 18317,
+      "localBytes": 19946,
+      "hasLatest": true,
+      "hasTrack": true,
+      "why": "Live is badly stale for Vidal Mendez: shows only 8 events ending 2026-06-19 (inspection-notice emails bouncing) vs local's 16 events through 2026-08-12 (inspections completed, positions exchanged with carrier's appraiser)."
+    },
+    {
+      "shareId": "aK1bDxHz",
+      "page": "work/pages/linear-tomas-cuevas.html",
+      "matches": false,
+      "liveBytes": 14691,
+      "localBytes": 14848,
+      "hasLatest": true,
+      "hasTrack": true,
+      "why": "Live is stale for Jose Bravo: missing the 2026-08-13 event (status updated to umpire inspection scheduled) - live shows 13 events, local shows 14."
+    },
+    {
+      "shareId": "XfhcBgrc",
+      "page": "work/pages/linear-michael-shemas.html",
+      "matches": false,
+      "liveBytes": 51118,
+      "localBytes": 52861,
+      "hasLatest": true,
+      "hasTrack": true,
+      "why": "Live is stale across three of the Faris Farassati property file cards: each is missing the 2026-08-08/08-10/08-12 (and in one case 08-04) follow-up events present on local (6 vs 12, 6 vs 7, 5 vs 8 events respectively)."
+    },
+    {
+      "shareId": "EuIQUdKg",
+      "page": "work/pages/linear-rusty-coffman.html",
+      "matches": false,
+      "liveBytes": 48082,
+      "localBytes": 49005,
+      "hasLatest": true,
+      "hasTrack": true,
+      "why": "Live is stale for Stephen Okeefe: last activity shown 2026-08-02 (local=08-15), missing the 07-19/07-22/07-26/08-15 events about the carrier's revised position and updated award (9 vs 13 events)."
+    },
+    {
+      "shareId": "30CwlAn3",
+      "page": "work/pages/linear-jose-hernandez.html",
+      "matches": false,
+      "liveBytes": 16986,
+      "localBytes": 17441,
+      "hasLatest": true,
+      "hasTrack": true,
+      "why": "Live is stale for PATRICIA YATES: missing the 07-20/07-21/07-28 events about the carrier disputing storm damage and requesting test-square photos (11 vs 14 events)."
+    },
+    {
+      "shareId": "JTSciawp",
+      "page": "work/pages/company-no-stress-claims.html",
+      "matches": false,
+      "liveBytes": 383089,
+      "localBytes": 382562,
+      "hasLatest": true,
+      "hasTrack": true,
+      "why": "Live is stale across at least 8 file cards (SERGIO DAVILA, Gilbert Rocio Funes, Barbara Lewis, Roslyn Williams, Maria Ramos, Prashanth Kumbala Harinika Nalla, CHASITY CLOUD TAULTON, Dion Edge, Mike Stubbs): older narrative text, missing recent events, and stale needs-you flags in both directions (a resolved item still flagged on live; a newly-flagged item on local missing from live). File ordering also differs within stages, consistent with an older build."
+    },
+    {
+      "shareId": "do5DL1Om",
+      "page": "work/pages/company-legacy-roofing-gc.html",
+      "matches": true,
+      "liveBytes": 179203,
+      "localBytes": 179226,
+      "hasLatest": true,
+      "hasTrack": true,
+      "why": ""
     }
   ]
 }
