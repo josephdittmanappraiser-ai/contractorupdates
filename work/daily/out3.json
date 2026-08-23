@@ -1,0 +1,147 @@
+{
+  "batch": 3,
+  "results": [
+    {
+      "threadId": "1a00c11c32dd6953",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/69962dcecea7166c293a21b4",
+      "insured": "Niranjan Mohan",
+      "itemsAdded": 2,
+      "events": [
+        "2026-08-23 — Joseph Dittman asked contractor Ryan Ikeda (Legacy Roofing) whether they only did the roof on Mohan's job.",
+        "2026-08-23 — Ryan Ikeda (Legacy Roofing) confirmed the roof-only scope and said he already sent the photos and certificate of completion needed to final-invoice."
+      ],
+      "outcome": "logged",
+      "why": ""
+    },
+    {
+      "threadId": "1a0256bb544c8f5e",
+      "cardId": "",
+      "insured": "Champlin, Linda (surname per attachment CHAMPLINLINDAROOF_FINAL_DRAFT_DEPREC_CAR.pdf)",
+      "itemsAdded": 0,
+      "events": [],
+      "outcome": "unmatched",
+      "why": "PA Erica Shamp (Cross Country Public Adjusting) sent a draft estimate/CAR and Joseph replied 2026-08-23 'looks like there is more money to get,' but no card for surname Champlin (or variants) exists on the board — searched Champlin, Champ (partial), Linda, and the estimate's policy/claim fragment 016281903 with no match. Logged nothing to avoid writing to the wrong file."
+    },
+    {
+      "threadId": "1a02b40c33475646",
+      "cardId": "",
+      "insured": "",
+      "itemsAdded": 0,
+      "events": [],
+      "outcome": "dropped",
+      "why": "Sole message is an automated Allstate portal ping for claim 0829392646 ('Allstate / Log in to review') with no attachment and no substantive content — nothing was actually communicated in the email itself to log."
+    },
+    {
+      "threadId": "1a0185890acd80d1",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a3d5dad023cd41be7e7392c",
+      "insured": "Shaoze Ouyang (claim 0827473521)",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Joseph asked Allstate (Brandon Decker) to confirm the estimate/payment was sent to the PA office address, 5514 Imogen Dr, Belton TX 76513."
+      ],
+      "outcome": "logged",
+      "why": ""
+    },
+    {
+      "threadId": "1a02a8e4a51d0688",
+      "cardId": "",
+      "insured": "",
+      "itemsAdded": 0,
+      "events": [],
+      "outcome": "dropped",
+      "why": "Automated invoicely.com payment-received receipt notification, not correspondence with a file party."
+    },
+    {
+      "threadId": "19f294f2c952ecb0",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a073e9bf345e8e0eea4fbff",
+      "insured": "Jesus Solorzano & Teresa Romero Rodriguez",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Joseph's office followed up with insured Jesus Solorzano on the payment status of his appraisal invoice."
+      ],
+      "outcome": "logged",
+      "why": ""
+    },
+    {
+      "threadId": "19fdd69486625fd9",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/69fb96108f6af8ada30643e0",
+      "insured": "Maria Laura Espinoza",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Joseph's office followed up with No Stress Claims (PA) on the payment status of Maria Espinoza's appraisal invoice."
+      ],
+      "outcome": "logged",
+      "why": ""
+    },
+    {
+      "threadId": "19fbb960a5315782",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/697cd66b7beebd111a5f04aa",
+      "insured": "Gabriel Lara Contreras",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Joseph's office followed up with No Stress Claims (PA) on the payment status of Gabriel Lara's appraisal invoice."
+      ],
+      "outcome": "logged",
+      "why": ""
+    },
+    {
+      "threadId": "1a02a339acdf536e",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a21d3f4c67a0611c968d405",
+      "insured": "Melissa Hidalgo",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Joseph sent contractor Dylan (Fox Roofing) the appraisal invoice, asking for payment via Zelle/Stripe/Venmo/check before next week."
+      ],
+      "outcome": "logged",
+      "why": ""
+    },
+    {
+      "threadId": "19d58b610f1caa4f",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/697bada521105e3d869f5592",
+      "insured": "Eric Thompson",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Joseph's office followed up with No Stress Claims on the payment status of Eric Thompson's appraisal invoice."
+      ],
+      "outcome": "logged",
+      "why": ""
+    },
+    {
+      "threadId": "19cb1d12bd81155a",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6916145e595fb6fbc3b9bb42",
+      "insured": "Jesal Shah",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Umpire Jeremy Hill (Flying Coconuts) resent the signed 2-signature award for Jesal Shah, apologizing it wasn't attached the first time."
+      ],
+      "outcome": "logged",
+      "why": ""
+    },
+    {
+      "threadId": "1a020f268267cd6a",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a692a416302e49818d8b038",
+      "insured": "Rahul Mahashank",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Joseph reviewed carrier appraiser Mike Peterman's estimate and requested it add O&P, roof tarp, furnace/turtle vents, pipe jack painting, window screens, full ceiling texture/paint, and fence washing/staining."
+      ],
+      "outcome": "logged",
+      "why": ""
+    },
+    {
+      "threadId": "19bb8ade76100aa9",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6966967cc1aebceeb868b104",
+      "insured": "Irene Linan",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — No Stress Claims (PA) told Joseph they'd follow up once they receive updates on the outstanding umpire invoice payment for Irene Linan."
+      ],
+      "outcome": "logged",
+      "why": ""
+    }
+  ],
+  "threads": 13,
+  "logged": 10,
+  "dropped": 2,
+  "unmatched": 1
+}
