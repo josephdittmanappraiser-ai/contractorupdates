@@ -1,0 +1,151 @@
+{
+  "batch": 1,
+  "results": [
+    {
+      "threadId": "19ffb61e83063649",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a5ab6d3638945ca23a21f44",
+      "insured": "Max Holthaus",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-23 — Joseph confirmed to attorney Kevin Weisser that the insured is under contract with a roofer, answering the attorney's question about the file."
+      ],
+      "outcome": "logged",
+      "why": ""
+    },
+    {
+      "threadId": "1a01044942d2fd1b",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a884d0f66b40105e54f86e0",
+      "insured": "Kayla Harris",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-23 — Joseph (umpire) sent the umpire invoice and W9 to opposing appraiser Dwayne Stewart, agreed to schedule the inspection before payment, and asked whether the panel wants a joint or solo inspection."
+      ],
+      "outcome": "logged",
+      "why": ""
+    },
+    {
+      "threadId": "19f6bef6867d84c1",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a42ebd8d5ede9f2d8986e1e",
+      "insured": "Brenda Tranchon",
+      "itemsAdded": 2,
+      "events": [
+        "2026-08-22 — Carrier appraiser Jason Haddock sent his estimate and award, saying he couldn't agree the roof was damaged since he saw no dents in the gutter screens.",
+        "2026-08-22 — Joseph told Jason Haddock he'd review his photos and asked if he wants to name Ty Patch as umpire if the appraisers can't reach agreement."
+      ],
+      "outcome": "logged",
+      "why": ""
+    },
+    {
+      "threadId": "196885430686ad0a",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/68129eea17e53372c1eaec00",
+      "insured": "Miguel Myers",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Joseph followed up with the public adjuster's office asking them to confirm the umpire invoice payment has been submitted."
+      ],
+      "outcome": "logged",
+      "why": ""
+    },
+    {
+      "threadId": "1a0226d0c8711fb0",
+      "cardId": "",
+      "insured": "Victor Azarter",
+      "itemsAdded": 0,
+      "events": [],
+      "outcome": "unmatched",
+      "why": "The thread (with adjuster Lonnie Tidwell) never states a claim number or property address to confirm a card. The only close name match on the board, 'Victor Arzate', is spelled differently, is tied to a different OA/appraiser (JP Rankin, not Lonnie Tidwell), and its last activity doesn't line up with this exchange — not confident enough to write to it."
+    },
+    {
+      "threadId": "19fbf1492a94e02d",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a073e9bf345e8e0eea4fbff",
+      "insured": "Jesus Solorzano & Teresa Romero Rodriguez",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Joseph followed up with roofer Alberto Zenteno on the status of the appraisal invoice payment."
+      ],
+      "outcome": "logged",
+      "why": ""
+    },
+    {
+      "threadId": "19fd6f981cfedaa4",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a63744f3b083a6d63e14df6",
+      "insured": "Mary Smith (Smith, claim 20204701)",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Joseph confirmed carrier appraiser Joshua Lopez is set for a solo inspection on 8/27 at 8:00 AM."
+      ],
+      "outcome": "logged",
+      "why": ""
+    },
+    {
+      "threadId": "19fd500ede951e59",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/69bd5ec48865db7ed49dce0f",
+      "insured": "Maria Benitez",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Joseph followed up on the status of the appraisal invoice payment."
+      ],
+      "outcome": "logged",
+      "why": ""
+    },
+    {
+      "threadId": "19f50e9bbd2ef2dd",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a05eb6ac488f37a7462ad85",
+      "insured": "Eva De La Garza",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Joseph followed up on the status of the appraisal invoice payment."
+      ],
+      "outcome": "logged",
+      "why": ""
+    },
+    {
+      "threadId": "19db588a84b6ca32",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/69715a34687d065c5f8696ba",
+      "insured": "Carl Copeland",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Joseph acknowledged No Stress's update that the client remains unresponsive on the appraisal invoice payment."
+      ],
+      "outcome": "logged",
+      "why": ""
+    },
+    {
+      "threadId": "19cd81d47f455c91",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/69af12d83846431d8c356436",
+      "insured": "Sulaimon Shotonwa",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Contractor Robert Crotty replied \"Wrong email\" to Joseph's request for a copy of the solar panel contract."
+      ],
+      "outcome": "logged",
+      "why": ""
+    },
+    {
+      "threadId": "19fafae86a818a25",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a596409f79bc0e21bffdfeb",
+      "insured": "Vasanth Thota",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — Joseph asked opposing appraiser Richard Jasbring to add supervision hours, 3 furnace vents, and a window screen to his estimate."
+      ],
+      "outcome": "logged",
+      "why": ""
+    },
+    {
+      "threadId": "19cb499ba828f253",
+      "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/69a85b2aa7f9682378dfff33",
+      "insured": "Carole Massey",
+      "itemsAdded": 1,
+      "events": [
+        "2026-08-22 — The adjuster acknowledged receipt of the umpire invoice Joseph forwarded for payment."
+      ],
+      "outcome": "logged",
+      "why": ""
+    }
+  ],
+  "threads": 13,
+  "logged": 12,
+  "dropped": 0,
+  "unmatched": 1
+}
