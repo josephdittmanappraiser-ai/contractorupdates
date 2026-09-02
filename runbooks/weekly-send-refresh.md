@@ -106,6 +106,35 @@ nobody is working. Send handles large pages; a 66KB page published fine.
 The only acceptable omission is one the tooling forced (a genuine pagination cap), and that
 must be stated in the page footer and the run summary.
 
+### Legacy Roofing carries a salesperson roster the rebuild will erase
+
+Joseph asked for a second section at the foot of the Legacy Roofing page: every insured on
+the page again, grouped under the rep who brought them in, names only. It was added
+off-cycle on 2026-09-02 by `tools/patch_legacy_page.py`, which patches the built page —
+**it is not part of `build_rep_pages.py`, so the next full rebuild of that page drops it.**
+
+Until roster rendering moves into the builder, a run that regenerates
+`company-legacy-roofing-gc.html` has to re-append it:
+
+```
+python3 tools/patch_legacy_page.py work/legacy-rep-attribution.json
+```
+
+`work/legacy-rep-attribution.json` holds the insured → rep mapping, and
+`work/legacy-rep-addresses.json` the `<local-part>@legacyroofinggc.com` → rep directory
+(35 addresses) that produced it. Both are stale the moment a new file arrives, so re-run
+the attribution cascade below for anything the mapping does not already cover.
+
+Two things worth knowing about that mapping:
+
+- `GaganS@` is accounting, not a salesperson — it rides on invoice threads next to the
+  actual rep, so a thread carrying both resolves to the rep, and a thread carrying only
+  `GaganS@` resolves to nobody. Same for `JazhielM@` on invoice threads, though Jazhiel
+  is also a rep in his own right.
+- One insured can hold two cards under one rep (a settled file and a fresh demand), and
+  the board spells them differently — `Momtazul Karim` and `MOMTAZUL KARIM`. The roster
+  collapses those case-variants to one line; the stage sections above still show both.
+
 ---
 
 ## Phase 1 — Roster (orchestrator)
