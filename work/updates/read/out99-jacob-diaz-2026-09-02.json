@@ -1,0 +1,186 @@
+{
+ "batch": "jacob-diaz-2026-09-02",
+ "results": [
+  {
+   "cardId": "6a6cb072f354e9212999a37f",
+   "hasNewer": true,
+   "newEvents": [
+    {
+     "date": "2026-08-29",
+     "event": "The appraisal concluded with a signed award; the award detail and our appraisal invoice were sent to you."
+    },
+    {
+     "date": "2026-09-01",
+     "event": "You asked which items make up the non-recoverable depreciation on the estimate, and we are getting that breakdown back to you."
+    }
+   ],
+   "update": "The appraisal is settled and the award detail is with you. Our appraisal invoice is open, and we still owe you the non-recoverable depreciation breakdown you asked for on 1 September.",
+   "needed": null,
+   "threadsRead": [
+    "1a04e62895afd247"
+   ],
+   "threadsDropped": [
+    "19ff2a6ee001a5c3"
+   ],
+   "notes": "Jon Scheel thread ends 2026-08-13 and is already on the file; no email between the 8/17 inspection and the 8/29 award."
+  },
+  {
+   "cardId": "6a0bb8aeac5b5fb4d83d7bd3",
+   "hasNewer": true,
+   "newEvents": [
+    {
+     "date": "2026-08-24",
+     "event": "You asked for a status update on this file."
+    },
+    {
+     "date": "2026-08-25",
+     "event": "Our photo report was sent to the carrier's appraiser."
+    }
+   ],
+   "update": "Our photo report is now with the carrier's appraiser. We are waiting for their response before this moves again.",
+   "needed": null,
+   "threadsRead": [
+    "1a034c63e79f1e49"
+   ],
+   "threadsDropped": [
+    "19fd55c09479600a",
+    "19ff20fd110475d1"
+   ],
+   "notes": "Godbey Giardina threads matched only on a paralegal's surname (Markita S. Hawkins) - different file, dropped."
+  },
+  {
+   "cardId": "69cef5ccd1d90d8aefdd7b14",
+   "hasNewer": true,
+   "newEvents": [
+    {
+     "date": "2026-06-13",
+     "event": "Our appraiser sent the carrier's appraiser the list of items we wanted added to the estimate."
+    },
+    {
+     "date": "2026-06-23",
+     "event": "The carrier's appraiser came back with a revised estimate."
+    },
+    {
+     "date": "2026-06-28",
+     "event": "The appraisal was concluded and our appraisal invoice was sent to you."
+    },
+    {
+     "date": "2026-07-02",
+     "event": "At your request we agreed a reduced appraisal fee on this file."
+    },
+    {
+     "date": "2026-07-16",
+     "event": "We followed up with you on the open invoice."
+    }
+   ],
+   "update": "The appraisal is finished and the claim is resolved. The only thing still open is our appraisal invoice, at the reduced fee agreed on 2 July.",
+   "needed": null,
+   "threadsRead": [
+    "19ebeff116d647b7",
+    "19f1037f87c1b609"
+   ],
+   "threadsDropped": [],
+   "notes": "File had no timeline at all; built from the two threads on it. Nothing after 2026-07-16.",
+   "staleReason": "Searched the claim number, insured surname and street after 2026-07-16: no email at all. The 2026-08-23 card activity is a Trello touch with no correspondence behind it; the file is genuinely quiet with only the invoice open."
+  },
+  {
+   "cardId": "6a60027a566b28ab3b511b5b",
+   "hasNewer": true,
+   "newEvents": [
+    {
+     "date": "2026-08-25",
+     "event": "We confirmed to you that the carrier's appraiser would inspect on 26 August."
+    },
+    {
+     "date": "2026-08-26",
+     "event": "The carrier's appraiser inspected the property."
+    }
+   ],
+   "update": "The carrier's appraiser has now inspected. We are building our estimate from that inspection and will exchange it with them.",
+   "needed": null,
+   "threadsRead": [
+    "1a034c63e79f1e49",
+    "19fb4dc737254857"
+   ],
+   "threadsDropped": [],
+   "notes": "Inspection completion is from the card moving to Inspected on 2026-08-27."
+  },
+  {
+   "cardId": "6a284bbdd5f5eaa123902c05",
+   "hasNewer": true,
+   "newEvents": [
+    {
+     "date": "2026-06-20",
+     "event": "The carrier named their appraiser and umpire candidates were exchanged."
+    },
+    {
+     "date": "2026-06-23",
+     "event": "The carrier's appraiser inspected the property, with the homeowner confirming access."
+    },
+    {
+     "date": "2026-08-07",
+     "event": "The appraisal was concluded and our appraisal invoice was sent to you."
+    },
+    {
+     "date": "2026-08-13",
+     "event": "You told us the invoice would be paid once the homeowner signs, with a meeting planned that weekend."
+    },
+    {
+     "date": "2026-08-20",
+     "event": "We followed up with you on the open invoice."
+    }
+   ],
+   "update": "The appraisal is finished. Our invoice is the only thing still open - you told us on 13 August it would be settled once the homeowner signs.",
+   "needed": null,
+   "threadsRead": [
+    "19ee2fbd0b2f4f2d",
+    "19fdd894ef1a37c6"
+   ],
+   "threadsDropped": [],
+   "notes": "File had no timeline at all; built from the carrier-appraiser and invoice threads."
+  },
+  {
+   "cardId": "6a284a7818dc7266edbeeb68",
+   "hasNewer": true,
+   "newEvents": [
+    {
+     "date": "2026-08-01",
+     "event": "The appraisal was concluded and our appraisal invoice was sent to you."
+    },
+    {
+     "date": "2026-08-06",
+     "event": "We checked in with you on the invoice."
+    },
+    {
+     "date": "2026-08-13",
+     "event": "You told us you were meeting the homeowner that weekend to sign, and that payment would follow."
+    }
+   ],
+   "update": "The appraisal is finished. Our invoice is the only thing still open - you told us on 13 August it would follow the homeowner's signature.",
+   "needed": null,
+   "threadsRead": [
+    "19fbfc17d6b5f155"
+   ],
+   "threadsDropped": [],
+   "notes": "File had no timeline at all; built from the invoice thread. Nothing after 2026-08-14."
+  },
+  {
+   "cardId": "6a0e3e552f96924b245dc8ce",
+   "verified": true,
+   "hasNewer": false,
+   "newEvents": [],
+   "update": null,
+   "needed": null,
+   "evidence": "Searched \"006204399\" and \"Bacon\" after 2026-07-14: two threads, one a Trello notification of the card moving to the out-of-state/attorney list and one a July bulk status update already on the file.",
+   "staleReason": "No correspondence since 2026-07-14. The 2026-08-16 card activity is a Trello edit (the operator note was dropped from the card name), not movement on the file.",
+   "threadsRead": [
+    "19f5c6cda3a84b98"
+   ],
+   "threadsDropped": [
+    "19f632667dd2ea41"
+   ]
+  }
+ ],
+ "checked": 18,
+ "withNewEvents": 6
+}

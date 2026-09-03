@@ -6,7 +6,10 @@ Deterministic: the page content is computed from the CSV, not written by a model
 so two runs over the same export produce byte-identical pages. A publisher agent
 only has to upload the result.
 
-    python3 tools/build_rep_pages.py <board-export.csv> [outdir]
+    python3 tools/build_rep_pages.py <board-export.csv> [outdir] [updated-date]
+
+`updated-date` is the "Updated ..." line on every page. It defaults to today, so a
+run always stamps the day it published rather than the day this file was last edited.
 """
 import csv, json, re, sys, os, glob, collections, html, datetime
 
@@ -471,6 +474,10 @@ for _f in sorted(glob.glob(os.path.join(_UP, 'out*.json'))) + \
 # The verification pass returns only what a file GAINED, because it re-checked a claim that
 # nothing had happened since a given date. So merge rather than replace: a verify record
 # carrying three new events must not wipe the twelve already on the file.
+# Files load in filename order and the LAST one to carry an `update` wins, so a later pass
+# must be named to sort after the batch it supersedes -- `out99-<what>.json`. Name it
+# `out-<date>.json` and it sorts ahead of `out6.json`, its events merge, and its status line
+# is silently overwritten by the older batch.
 for _f in (sorted(glob.glob(os.path.join(_UP, 'verify', 'out*.json')))
            + sorted(glob.glob(os.path.join(_UP, 'read', 'out*.json')))):
     try:
@@ -479,7 +486,10 @@ for _f in (sorted(glob.glob(os.path.join(_UP, 'verify', 'out*.json')))
         continue
     for _r in (_d.get('results') if isinstance(_d, dict) else _d) or []:
         _cid = (_r.get('cardId') or '').strip()
-        if not _cid or not (_r.get('hasNewer') or _r.get('newEvents')):
+        # A pass that found nothing still has something to say when the card moved without
+        # any email behind it -- that is the staleReason, and the freshness gate reads it
+        # off the merged record, so it has to survive the merge like `update` does.
+        if not _cid or not (_r.get('hasNewer') or _r.get('newEvents') or _r.get('staleReason')):
             continue
         _base = ENRICH.setdefault(_cid, {'cardId': _cid, 'timeline': []})
         _tl = list(_base.get('timeline') or [])
@@ -495,12 +505,14 @@ for _f in (sorted(glob.glob(os.path.join(_UP, 'verify', 'out*.json')))
             _base['update'] = _r['update']
         if 'needed' in _r:
             _base['needed'] = _r['needed']
+        if _r.get('staleReason'):
+            _base['staleReason'] = _r['staleReason']
 
 
-def main(csv_path, outdir='work/pages'):
+def main(csv_path, outdir='work/pages', updated=None):
     rows = list(csv.DictReader(open(csv_path, encoding='utf-8-sig')))
     os.makedirs(outdir, exist_ok=True)
-    updated = "Saturday, August 15, 2026"
+    updated = updated or AS_OF.strftime('%A, %B ') + str(AS_OF.day) + AS_OF.strftime(', %Y')
 
     buckets = collections.defaultdict(lambda: collections.defaultdict(list))
     dropped = collections.Counter()
@@ -612,4 +624,6 @@ def main(csv_path, outdir='work/pages'):
 
 
 if __name__ == '__main__':
-    main(sys.argv[1], sys.argv[2] if len(sys.argv) > 2 else 'work/pages')
+    main(sys.argv[1],
+         sys.argv[2] if len(sys.argv) > 2 else 'work/pages',
+         sys.argv[3] if len(sys.argv) > 3 else None)

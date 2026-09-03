@@ -128,6 +128,14 @@ Edit the runbook — that is the spec both runs follow. Common adjustments:
 
 ## Not wired up
 
+**Files that live on another board.** A page only ever shows cards from *Insured Appraisals*.
+Reps also have files on the **PA FILES** and **John Wynn - appraisals** boards, and those never
+appear. On 2026-09-02 Jacob Diaz emailed asking after eight deals; six of them (Jampani, Cruz,
+Osorio, Dumais, Rojas, Rivera) have no card on Insured Appraisals at all, so his page could not
+answer the question he was actually asking. Widening the run to a second board means deciding
+whose files those are -- the PA cards carry a "Referred by <rep>" line in the description, not a
+label -- so it is a real change, not a config tweak.
+
 Emailing contractors their link. The weekly run refreshes pages and stops; Joseph shares the
 links. Switching this on means adding a draft-generation phase to the weekly runbook —
 drafts for review first, not direct sends.
