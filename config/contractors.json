@@ -97,6 +97,15 @@
    ]
   },
   {
+   "stage": "With Joseph for a decision",
+   "order": 6.5,
+   "blurb": "Joseph is making a decision on this file.",
+   "matchers": [
+    "joseph's assignment",
+    "josephs assignment"
+   ]
+  },
+  {
    "stage": "Inspected / building our position",
    "order": 6,
    "blurb": "Property inspected. Our estimate and position are being prepared.",
@@ -172,6 +181,15 @@
   "an automated page from picking a fight with a client on Joseph's behalf. If Joseph wants",
   "collections stated plainly, give those three lists their own stage here."
  ],
+ "_josephDecisionNote": [
+  "Joseph's Assignments used to be excluded along with the other two assignment lists, so a",
+  "file sitting there vanished from its contractor's page while it was, in fact, the file",
+  "Joseph was personally working. It is a real stage now. Erwin's and Flo's assignment lists",
+  "stay excluded -- those are staff task queues.",
+  "The update on this stage is ALWAYS the blurb: the card names here carry Joseph's own",
+  "instructions to himself ('need a solid position', 'get with Franco'), which is exactly the",
+  "negotiating posture a client page must never show."
+ ],
  "_excludeListsComment": [
   "Lists that do NOT hold client files. A card sitting in one of these is a contact record,",
   "an agent rule, a divider or a staff task -- never a file, so it must never reach a status",
@@ -183,7 +201,8 @@
   "appraisers info that works for us",
   "interested roofers",
   "admin work",
-  "assignments",
+  "erwins assignment",
+  "flo's assignment",
   "new list"
  ],
  "_excludeCardMarkersComment": [

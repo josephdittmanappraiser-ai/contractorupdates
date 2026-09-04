@@ -236,6 +236,28 @@
     color:var(--muted); font-weight:650; margin-bottom:1px;
   }
 
+  /* Roster: the same files again, grouped by the rep who brought them in, so a
+     salesperson can find their own book without reading the whole page. Names only --
+     status lives once, in the stage sections above. The one exception is closed vs
+     open, which is the thing a bare list of names cannot tell you and the thing a rep
+     is actually scanning for; it reuses the settled sections' green strike-through so
+     the two halves of the page mean the same thing by the same signal. */
+  .rep-divider{margin:34px 0 18px; border:0; border-top:2px solid var(--accent); opacity:.4}
+  .reps .stage-head h2{color:var(--accent)}
+  .rep{
+    background:var(--card); border:1px solid var(--line); border-radius:var(--radius);
+    padding:14px 18px; margin-bottom:10px;
+  }
+  .rep-top{display:flex; align-items:baseline; justify-content:space-between; gap:10px}
+  .rep h3{margin:0; font-size:15.5px; letter-spacing:-.01em}
+  ul.rep-files{
+    margin:9px 0 0; padding:0; list-style:none;
+    display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:2px 18px;
+  }
+  ul.rep-files li{font-size:13.5px; color:var(--muted); padding:1px 0}
+  ul.rep-files li.closed{color:var(--good); text-decoration:line-through}
+  @media(max-width:520px){ ul.rep-files{grid-template-columns:1fr} }
+
   .foot{border-top:1px solid var(--line); padding-top:18px; color:var(--muted); font-size:14px}
   .foot p{margin:0 0 6px}
   .fine{font-size:12.5px}

@@ -106,34 +106,47 @@ nobody is working. Send handles large pages; a 66KB page published fine.
 The only acceptable omission is one the tooling forced (a genuine pagination cap), and that
 must be stated in the page footer and the run summary.
 
-### Legacy Roofing carries a salesperson roster the rebuild will erase
+### Every company page carries a salesperson roster
 
-Joseph asked for a second section at the foot of the Legacy Roofing page: every insured on
-the page again, grouped under the rep who brought them in, names only. It was added
-off-cycle on 2026-09-02 by `tools/patch_legacy_page.py`, which patches the built page —
-**it is not part of `build_rep_pages.py`, so the next full rebuild of that page drops it.**
+Below the stage sections, a company page repeats each insured under the rep who brought
+them in — names only, closed files struck through in green with an open count per rep.
+`build_rep_pages.roster_html` renders it and `render(..., roster=True)` emits it, so a
+rebuild produces it without anyone remembering to. Per-rep pages skip it: that page is
+already one rep's book.
 
-Until roster rendering moves into the builder, a run that regenerates
-`company-legacy-roofing-gc.html` has to re-append it:
+Rep attribution comes from the export's `Sales Person` column first, then
+`work/rep-attribution.json` (insured or card id -> rep) for the files where it is blank.
+That file was produced by the cascade below over the contractor's own email;
+`work/rep-addresses.json` holds the `<local-part>@domain -> rep` directory behind it.
+A file neither source can place is grouped under **Not yet matched to a rep** rather
+than guessed at.
 
-```
-python3 tools/patch_legacy_page.py work/legacy-rep-attribution.json
-```
+Two things worth knowing:
 
-`work/legacy-rep-attribution.json` holds the insured → rep mapping, and
-`work/legacy-rep-addresses.json` the `<local-part>@legacyroofinggc.com` → rep directory
-(35 addresses) that produced it. Both are stale the moment a new file arrives, so re-run
-the attribution cascade below for anything the mapping does not already cover.
+- An accounts address rides along on invoice threads next to the real rep (for Legacy
+  that is `GaganS@`, and `JazhielM@` doubles as one). A thread naming two reps is
+  skipped, so those threads resolve to nobody rather than to the wrong person.
+- One insured can hold two cards under one rep — a settled file and a fresh demand —
+  and the board spells them differently (`Momtazul Karim`, `MOMTAZUL KARIM`). The
+  roster collapses case-variants to one line and treats the insured as still open if
+  any of their files is. The stage sections above still list both cards.
 
-Two things worth knowing about that mapping:
+`tools/patch_legacy_page.py` applies the same renderer to an already-built page for an
+off-cycle change; it is not part of the weekly run.
 
-- `GaganS@` is accounting, not a salesperson — it rides on invoice threads next to the
-  actual rep, so a thread carrying both resolves to the rep, and a thread carrying only
-  `GaganS@` resolves to nobody. Same for `JazhielM@` on invoice threads, though Jazhiel
-  is also a rep in his own right.
-- One insured can hold two cards under one rep (a settled file and a fresh demand), and
-  the board spells them differently — `Momtazul Karim` and `MOMTAZUL KARIM`. The roster
-  collapses those case-variants to one line; the stage sections above still show both.
+### Joseph's Assignments is a real stage, not an excluded list
+
+A card in **Joseph's Assignments** is one Joseph is personally deciding. It used to be
+swept up by the `assignments` entry in `excludeLists` and vanish from its contractor's
+page — the file they were most likely to be chasing was the one file the page did not
+show. `excludeLists` now names Erwin's and Flo's lists specifically, and `stageMap` maps
+Joseph's to **With Joseph for a decision** (order 6.5, between negotiating and inspected).
+
+On that stage the blurb always wins over the enriched update, and the file is never
+marked `needs-you`. Both are deliberate: the card names there are Joseph's notes to
+himself (*"need a solid position"*, *"get with Franco"*), which is the negotiating
+posture a client page must never show, and the decision is ours, not the contractor's,
+so it does not belong in their orange list.
 
 ---
 

@@ -51,15 +51,22 @@ orange with a specific ask.
 Deliberately absent: raw Trello list names, internal shorthand (OA, AD, DOA, ff), dollar
 figures, negotiation strategy, staff names, and — most importantly — any other client's files.
 
-The nine client-facing stages, defined in `config/contractors.json`:
+The client-facing stages, defined in `config/contractors.json`:
 
 ```
-9 Settled / invoicing                      4 Appraisal demanded / waiting on carrier
-8 In umpire                                3 Estimate sent - needs sign-off
-7 Negotiating with the carrier's appraiser 2 Estimate being prepared
-6 Inspected / building our position        1 New / intake
-5 Inspection scheduling
+9   Settled / invoicing                      5 Inspection scheduling
+8   In umpire                                4 Appraisal demanded / waiting on carrier
+7   Negotiating with the carrier's appraiser 3 Estimate sent - needs sign-off
+6.5 With Joseph for a decision               2 Estimate being prepared
+6   Inspected / building our position        1 New / intake
 ```
+
+*With Joseph for a decision* is the `Joseph's Assignments` list. Its update always reads
+that Joseph is making a decision — the card names there are his own notes on strategy —
+and it never counts as needing the contractor.
+
+Under the stages, a company page repeats every insured grouped by the rep who brought them
+in, names only, closed files struck through in green with a per-rep open count.
 
 ## Layout
 
@@ -114,7 +121,7 @@ through `EditSite`.
 **A page growing past ~90KB.** EditSite takes the document as a tool parameter, so the call
 fails and the live page keeps last week's content without saying so. Run
 `tools/split_page.py` and publish it in chunks — see the runbook. No Stress Claims (284KB)
-and Legacy Roofing (126KB) are already past the line, and any client crossing ~120 files
+and Legacy Roofing (202KB) are already past the line, and any client crossing ~120 files
 will follow.
 
 ## Changing how it behaves

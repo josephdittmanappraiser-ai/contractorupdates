@@ -226,7 +226,11 @@ def stalled_days(f):
 # know how much of the process is behind them, which is the question they actually have.
 TRACK = ['Intake', 'Estimate', 'Demand', 'Inspection', 'Negotiating', 'Umpire', 'Settled']
 # Referred out (9) is not a point on this line -- those files get no strip at all.
-STAGE_STEP = {1: 0, 2: 1, 3: 1, 4: 2, 5: 3, 6: 3, 7: 4, 8: 5, 10: 6, 11: 6}
+# 6.5 is "With Joseph for a decision": a holding state, not a step of its own, so it shows
+# the strip at the point the file had already reached. The fractional order keeps it sorted
+# between "inspected" and "negotiating" without renumbering every stage below it.
+STAGE_STEP = {1: 0, 2: 1, 3: 1, 4: 2, 5: 3, 6: 3, 6.5: 3, 7: 4, 8: 5, 10: 6, 11: 6}
+DECIDING = 'With Joseph for a decision'
 
 
 def track_html(order):
@@ -288,12 +292,84 @@ def chain_html(events):
 MAX_PAGE_BYTES = 400_000
 
 
-def render_fitted(display_name, files, updated):
+UNMATCHED = 'Not yet matched to a rep'
+
+# Attribution the builder cannot get from the board export. The CSV's "Sales Person"
+# column is authoritative where it is filled in; this map covers the files where it is
+# blank, and was produced by the runbook's cascade over the contractor's own email.
+ATTRIB = {}
+_att = os.path.join(os.path.dirname(__file__), '..', 'work', 'rep-attribution.json')
+if os.path.exists(_att):
+    for _r in json.load(open(_att)):
+        if _r.get('rep'):
+            if _r.get('cardId'):
+                ATTRIB[_r['cardId']] = _r['rep']
+            ATTRIB[re.sub(r'[^a-z]', '', _r['insured'].lower())] = _r['rep']
+
+
+def rep_for(f):
+    """The rep who brought this file in: the export first, then the mined map."""
+    return (f.get('rep') or ATTRIB.get(f.get('cardId'))
+            or ATTRIB.get(re.sub(r'[^a-z]', '', f['insured'].lower())) or UNMATCHED)
+
+
+def roster_html(entries):
+    """Every insured on the page again, grouped under the rep who brought them in.
+
+    Names only. A file's status is the business of the stage sections above, and saying
+    it twice gives the page two places to disagree with itself -- except for one bit a
+    rep genuinely cannot get from a list of names, which is whether a file is still live.
+    Closed files are struck through in green, matching the settled sections, and each rep
+    carries the count that actually matters to them: how many are still open.
+
+    `entries` are dicts of {insured, rep, closed}, so the weekly build and the off-cycle
+    patch script produce identical markup from their different inputs.
+    """
+    by = collections.defaultdict(list)
+    for e in entries:
+        by[e['rep']].append(e)
+    for k in by:
+        # One line per insured. A rep can hold two cards for the same homeowner -- a
+        # settled file and a fresh demand -- and the board spells them differently
+        # ("Momtazul Karim", "MOMTAZUL KARIM"), which reads as a bug rather than as two
+        # deals. Keep the first spelling, and treat the insured as still live if any of
+        # their files is.
+        merged = {}
+        for e in by[k]:
+            key = e['insured'].lower()
+            if key in merged:
+                merged[key]['closed'] &= e['closed']
+            else:
+                merged[key] = dict(e)
+        by[k] = sorted(merged.values(), key=lambda e: e['insured'].lower())
+    reps = sorted(by, key=lambda k: (k == UNMATCHED, -len(by[k]), k))
+
+    cards = []
+    for r in reps:
+        rows = "".join(
+            f'<li class="closed">{E(e["insured"])}</li>' if e['closed']
+            else f'<li>{E(e["insured"])}</li>' for e in by[r])
+        n = len(by[r])
+        live = sum(1 for e in by[r] if not e['closed'])
+        cards.append(f'<div class="rep"><div class="rep-top"><h3>{E(r)}</h3>'
+                     f'<span class="when">{n} file{"s" if n != 1 else ""} '
+                     f'&middot; {live} open</span></div>'
+                     f'<ul class="rep-files">{rows}</ul></div>')
+    total = sum(len(v) for v in by.values())
+    return ('<hr class="rep-divider"><section class="reps">'
+            '<div class="stage-head"><h2>Files by salesperson</h2>'
+            f'<span class="count">{len(reps)} reps &middot; {total} insureds</span></div>'
+            '<p class="stage-blurb">The same files as above, grouped by the rep who brought '
+            'them in. A name in green and struck through is closed out; everything else is '
+            'still open.</p>\n' + "\n".join(cards) + '\n</section>')
+
+
+def render_fitted(display_name, files, updated, roster=False):
     """Render, then trim timeline depth only if the page is beyond even a chunked publish.
 
     Trimming is announced on the page rather than done quietly.
     """
-    html_out = render(display_name, files, updated)
+    html_out = render(display_name, files, updated, roster=roster)
     if len(html_out.encode()) <= MAX_PAGE_BYTES:
         return html_out, None
     for cap in (10, 6, 4, 3, 2):
@@ -305,13 +381,13 @@ def render_fitted(display_name, files, updated):
                 g['timeline'] = tl[-cap:]
                 g['trimmed'] = len(tl) - cap
             trimmed.append(g)
-        html_out = render(display_name, trimmed, updated, cap=cap)
+        html_out = render(display_name, trimmed, updated, cap=cap, roster=roster)
         if len(html_out.encode()) <= MAX_PAGE_BYTES:
             return html_out, cap
     return html_out, 2
 
 
-def render(display_name, files, updated, cap=None):
+def render(display_name, files, updated, cap=None, roster=False):
     by = collections.defaultdict(list)
     for f in files:
         by[f['stage']['stage']].append(f)
@@ -377,6 +453,14 @@ def render(display_name, files, updated, cap=None):
                        + chain_html(f.get('timeline'))
                        + '</div>')
         out.append('</section>')
+
+    # A roster is only worth printing where there is more than one rep to separate --
+    # a per-rep page is already one rep's book.
+    if roster:
+        out.append(roster_html([
+            {'insured': f['insured'], 'rep': rep_for(f),
+             'closed': f['stage']['stage'].startswith('Settled')}
+            for f in files]))
 
     if cap:
         out.append('<section class="foot"><p class="fine">This client has enough open files that '
@@ -537,11 +621,15 @@ def main(csv_path, outdir='work/pages'):
                 'ask': scrub(en.get('needed')) or ('Need from you: approval of the estimate, or a '
                                                    'signed agreement from the homeowner, before this '
                                                    'can move.'),
-                'needs_you': bool(en.get('needed')) or st['order'] == 3,
+                # See the company-mode bucket below: a file with Joseph is our decision,
+                # not the rep's, and the blurb wins over the enriched update there.
+                'needs_you': st['stage'] != DECIDING and (bool(en.get('needed'))
+                                                          or st['order'] == 3),
                 # Prefer the email-derived status; fall back to the stage blurb.
                 # The trailing [YYYY-MM-DD] card notes are never used -- they are
                 # internal (staff names, dollar figures, carrier strategy).
-                'what': scrub(en.get('update')) or st['blurb'],
+                'what': st['blurb'] if st['stage'] == DECIDING
+                        else (scrub(en.get('update')) or st['blurb']),
             })
 
     manifest = []
@@ -564,20 +652,28 @@ def main(csv_path, outdir='work/pages'):
             combuckets[lab].append({
                 'cardId': r['Card ID'].strip(),
                 'insured': clean_insured(name, desc), 'addr': addr, 'claim': claim,
+                'rep': titlecase(canon(r.get('Sales Person') or '')) or None,
                 'activity': (r.get('Last Activity Date') or '')[:10], 'stage': st,
                 'timeline': [{'date': e.get('date', ''), 'event': scrub(e.get('event', ''))}
                              for e in (en.get('timeline') or [])],
                 'ask': scrub(en.get('needed')) or ('Need from you: approval of the estimate, or a '
                                                    'signed agreement from the homeowner, before this '
                                                    'can move.'),
-                'needs_you': bool(en.get('needed')) or st['order'] == 3,
-                'what': scrub(en.get('update')) or st['blurb'],
+                # A file with Joseph is never "blocked on the contractor" -- the decision
+                # is ours, so it must not turn up in their orange needs-you list.
+                'needs_you': st['stage'] != DECIDING and (bool(en.get('needed'))
+                                                          or st['order'] == 3),
+                # On the decision stage the blurb WINS over the enriched update: the
+                # enrichment is written from the email thread and would happily print the
+                # position we are weighing. Joseph is deciding; that is all a client sees.
+                'what': st['blurb'] if st['stage'] == DECIDING
+                        else (scrub(en.get('update')) or st['blurb']),
             })
     for lab, files in combuckets.items():
         cfg = COMPANY_LABELS[lab]
         slug = re.sub(r'[^a-z0-9]+', '-', f"company-{cfg['company']}".lower()).strip('-')
         path = os.path.join(outdir, f"{slug}.html")
-        html_out, cap = render_fitted(cfg['company'], files, updated)
+        html_out, cap = render_fitted(cfg['company'], files, updated, roster=True)
         open(path, 'w').write(html_out)
         manifest.append({'label': lab, 'rep': cfg['company'], 'title': cfg['company'],
                          'file': path, 'shareId': cfg.get('shareId'), 'files': len(files),

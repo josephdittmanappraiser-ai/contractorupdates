@@ -18,6 +18,7 @@ with the attribution that produced it.
 import json, re, sys, os, collections, datetime
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import build_rep_pages as B
 from build_rep_pages import E, track_html   # same escaping and step strip as the builder
 
 PAGE = 'work/pages/company-legacy-roofing-gc.html'
@@ -173,19 +174,13 @@ def insert_into_stage(doc, stage_h2, blocks):
     return doc[:sec] + headmatter + "".join(rows) + doc[end:]
 
 
-UNMATCHED = 'Not yet matched to a rep'
+def page_roster(doc, records):
+    """Feed the page's own entries to the builder's roster renderer.
 
-
-def roster_html(doc, records):
-    """Every insured on this page, grouped by the Legacy rep who brought them in.
-
-    Driven off the page's own `<h3>` entries rather than off the Trello pull, so the
-    roster and the sections above can never show a different set of people. A name
-    the attribution pass could not place lands in its own group rather than being
-    guessed at or quietly dropped.
-
-    Deliberately just the insured's name: a file's status is the business of the
-    sections above, and repeating it here would give two places to disagree.
+    Driven off the page's `<h3>` headings rather than off the Trello pull, so the roster
+    and the sections above can never show a different set of people, and rendered by
+    `build_rep_pages.roster_html` so an off-cycle patch and a Monday rebuild produce the
+    same markup.
     """
     # A card name and the page's own heading are not always spelled the same -- the
     # card carries operator suffixes the page strips ("-estimate created", a market
@@ -195,9 +190,9 @@ def roster_html(doc, records):
     NOISE = {'and', 'the', 'dfw', 'houston', 'austin', 'estimate', 'created', 'sent',
              'email', 'phone', 'description', 'claim'}
 
-    def toks(s):
-        s = re.sub(r'&#x27;|&amp;|&middot;', ' ', s.lower())
-        return {t for t in re.split(r'[^a-z]+', s) if len(t) > 2 and t not in NOISE}
+    def toks(x):
+        x = re.sub(r'&#x27;|&amp;|&middot;', ' ', x.lower())
+        return {t for t in re.split(r'[^a-z]+', x) if len(t) > 2 and t not in NOISE}
 
     exact, fuzzy = {}, []
     for r in records:
@@ -212,62 +207,83 @@ def roster_html(doc, records):
         nt = toks(name)
         best = [rep for ts, rep in fuzzy
                 if nt & ts and (nt <= ts or ts <= nt or len(nt & ts) >= 2)]
-        return best[0] if len(set(best)) == 1 else UNMATCHED
+        return best[0] if len(set(best)) == 1 else B.UNMATCHED
 
-    # page names, in page order, excluding any roster this is replacing
     body = doc.split('<section class="reps">')[0]
-    names = list(dict.fromkeys(re.findall(r'<h3>(.*?)</h3>', body)))
+    # Which files are closed comes from the page itself: everything inside a
+    # `stage settled` section, which is exactly what the green sections above show.
+    closed = set()
+    for sec in re.findall(r'<section class="stage settled">.*?</section>', body, re.S):
+        closed.update(re.findall(r'<h3>(.*?)</h3>', sec))
 
-    by = collections.defaultdict(list)
-    for n in names:
-        by[rep_for(n)].append(n)
-    for k in by:
-        # One line per insured. A rep can hold two cards for the same homeowner --
-        # a settled file and a fresh demand -- and the board spells them differently
-        # ("Momtazul Karim", "MOMTAZUL KARIM"), which reads as a bug rather than as
-        # two deals. Keep the first spelling the page itself uses.
-        seen, uniq = set(), []
-        for n in by[k]:
-            if n.lower() not in seen:
-                seen.add(n.lower())
-                uniq.append(n)
-        by[k] = sorted(uniq, key=lambda s: s.lower())
-    reps = sorted(by, key=lambda k: (k == UNMATCHED, -len(by[k]), k))
-
-    cards = []
-    for r in reps:
-        rows = "".join(f'<li>{n}</li>' for n in by[r])   # already escaped on the page
-        cards.append(f'<div class="rep"><div class="rep-top"><h3>{E(r)}</h3>'
-                     f'<span class="when">{len(by[r])} file{"s" if len(by[r]) != 1 else ""}'
-                     f'</span></div><ul class="rep-files">{rows}</ul></div>')
-    return ('<hr class="rep-divider"><section class="reps">'
-            f'<div class="stage-head"><h2>Files by salesperson</h2>'
-            f'<span class="count">{len(reps)} reps &middot; '
-            f'{sum(len(v) for v in by.values())} insureds</span></div>'
-            '<p class="stage-blurb">The same files as above, grouped by the Legacy Roofing '
-            'rep who brought them in. Names only &mdash; the status of each file is in the '
-            'sections above.</p>\n' + "\n".join(cards) + '\n</section>\n')
+    entries = [{'insured': n, 'rep': rep_for(n), 'closed': n in closed}
+               for n in dict.fromkeys(re.findall(r'<h3>(.*?)</h3>', body))]
+    return B.roster_html(entries) + '\n'
 
 
-CSS = """
-  /* Roster: the same files again, grouped by the rep who brought them in, so a
-     salesperson can find their own book without reading the whole page. Names only --
-     status lives once, in the stage sections above. */
-  .rep-divider{margin:34px 0 18px; border:0; border-top:2px solid var(--accent); opacity:.4}
-  .reps .stage-head h2{color:var(--accent)}
-  .rep{
-    background:var(--card); border:1px solid var(--line); border-radius:var(--radius);
-    padding:14px 18px; margin-bottom:10px;
-  }
-  .rep-top{display:flex; align-items:baseline; justify-content:space-between; gap:10px}
-  .rep h3{margin:0; font-size:15.5px; letter-spacing:-.01em}
-  ul.rep-files{
-    margin:9px 0 0; padding:0; list-style:none;
-    display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:2px 18px;
-  }
-  ul.rep-files li{font-size:13.5px; color:var(--muted); padding:1px 0}
-  @media(max-width:520px){ ul.rep-files{grid-template-columns:1fr} }
-"""
+# The roster styles now live in templates/status-page.html, which is where the builder
+# reads its CSS from, so a rebuilt page carries them already. Lift that exact block out
+# to graft onto a page built before the template had it -- copying it here instead would
+# give the two paths two stylesheets to drift apart.
+CSS = B.CSS[B.CSS.index('  /* Roster:'):B.CSS.index('  .foot{border-top')]
+
+
+# Files that have moved to Joseph's Assignments since the page was built. The board is
+# the source of truth for stage, and this list is the board: a card sitting there is one
+# Joseph is personally deciding, and it used to disappear from the page entirely because
+# the list was excluded. `config/contractors.json` now maps it to a real stage, so a
+# rebuild picks these up on its own -- this only carries them on an already-built page.
+MOVED_TO_DECISION = ['KISHORE BULUSU ANUPAMA MANTHA']
+
+
+def move_to_decision(doc, names):
+    """Lift a file out of whatever stage it was in and into the decision stage.
+
+    The file's history stays exactly as it was -- it is a real record of what happened.
+    What gets replaced is the status line and the step strip, because the file is no
+    longer where the old status said it was, and the ask is dropped outright: nothing is
+    wanted from the contractor while the decision is ours.
+    """
+    st = next(s for s in B.CFG['stageMap'] if s['stage'] == B.DECIDING)
+    moved = []
+    for name in names:
+        i = doc.index(f'<h3>{name}</h3>')
+        # `<div class="file-top">` shares the prefix, so a plain rindex for
+        # '<div class="file' lands on the card's inner header and slices the card in
+        # half. Match the class boundary.
+        start = [m.start() for m in re.finditer(r'<div class="file[ "]', doc[:i])][-1]
+        end = doc.index('</div>\n', doc.index('</details>', i)) + len('</div>\n')
+        block = doc[start:end]
+
+        block = re.sub(r'<div class="file[^"]*"><div class="file-top">',
+                       '<div class="file"><div class="file-top">', block, count=1)
+        block = re.sub(r'<ol class="track">.*?</ol>', B.track_html(st['order']), block, count=1)
+        block = re.sub(r'<p class="what">.*?</p>',
+                       f'<p class="what">{E(st["blurb"])}</p>', block, count=1, flags=re.S)
+        block = re.sub(r'<p class="ask">.*?</p>', '', block, count=1, flags=re.S)
+
+        # drop it from the old stage, and correct that stage's count
+        doc = doc[:start] + doc[end:]
+        h2 = doc.rindex('<h2>', 0, start)
+        m = re.compile(r'<span class="count">(\d+) files?</span>').search(doc, h2)
+        n = int(m.group(1)) - 1
+        doc = doc[:m.start()] + f'<span class="count">{n} file{"s" if n != 1 else ""}</span>' \
+            + doc[m.end():]
+        moved.append(block)
+
+    if not moved:
+        return doc
+    # A new stage section, placed by its order among the ones already on the page.
+    sec = (f'<section class="stage"><div class="stage-head"><h2>{E(B.DECIDING)}</h2>'
+           f'<span class="count">{len(moved)} file{"s" if len(moved) != 1 else ""}</span></div>'
+           f'<p class="stage-blurb">{E(st["blurb"])}</p>\n' + "".join(moved) + '</section>\n')
+    for other in sorted((s for s in B.CFG['stageMap'] if s['order'] < st['order']),
+                        key=lambda s: -s['order']):
+        head = f'<h2>{E(other["stage"])}</h2>'
+        if head in doc:
+            return doc[:doc.rindex('<section class="stage', 0, doc.index(head))] + sec \
+                 + doc[doc.rindex('<section class="stage', 0, doc.index(head)):]
+    return doc.replace('<hr class="settled-divider">', sec + '<hr class="settled-divider">', 1)
 
 
 def main(attributed, page=PAGE):
@@ -278,6 +294,8 @@ def main(attributed, page=PAGE):
             (s, [f for f in NEW if f['stage'] == s])
             for s in dict.fromkeys(f['stage'] for f in NEW)).items():
         doc = insert_into_stage(doc, E(stage), blocks)
+
+    doc = move_to_decision(doc, MOVED_TO_DECISION)
 
     # counts, recomputed from what the document now actually holds
     total = doc.count('<h3>')
@@ -300,8 +318,8 @@ def main(attributed, page=PAGE):
                  lambda m: m.group(1) + updated + '.', doc, count=1)
 
     records = json.load(open(attributed))
-    doc = doc.replace('<section class="foot">', roster_html(doc, records) + '<section class="foot">')
-    doc = doc.replace('  .foot{border-top', CSS.rstrip() + '\n\n  .foot{border-top')
+    doc = doc.replace('<section class="foot">', page_roster(doc, records) + '<section class="foot">')
+    doc = doc.replace('  .foot{border-top', CSS + '  .foot{border-top')
 
     open(page, 'w').write(doc)
     nonascii = [c for c in doc if ord(c) > 127]
