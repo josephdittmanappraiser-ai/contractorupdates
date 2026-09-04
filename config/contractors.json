@@ -346,8 +346,10 @@
     {
      "name": "Jacob Diaz",
      "emails": [],
-     "shareId": "VGyJD1wY",
-     "url": "https://www.send.co/a/VGyJD1wY"
+     "shareId": "KFv9xtCL",
+     "url": "https://www.send.co/a/jacob-diaz-deal-updates-KFv9xtCL",
+     "manualPage": true,
+     "manualPageNote": "One page covers both companies AND his PA/attorney/umpire files, which live on other boards. Written by hand, not by tools/build_rep_pages.py -- a generated page would drop everything off Insured Appraisals."
     },
     {
      "name": "John Payne",
@@ -663,6 +665,10 @@
     {
      "name": "Travis Elliott",
      "shareId": "Q7C2bKu9"
+    },
+    {
+     "name": "Jacob Diaz (per-company page, merged into KFv9xtCL 2026-09-04; now a pointer)",
+     "shareId": "VGyJD1wY"
     }
    ]
   },
@@ -752,8 +758,10 @@
     {
      "name": "Jacob Diaz",
      "emails": [],
-     "shareId": "HyFEhfbE",
-     "url": "https://www.send.co/a/HyFEhfbE"
+     "shareId": "KFv9xtCL",
+     "url": "https://www.send.co/a/jacob-diaz-deal-updates-KFv9xtCL",
+     "manualPage": true,
+     "manualPageNote": "One page covers both companies AND his PA/attorney/umpire files, which live on other boards. Written by hand, not by tools/build_rep_pages.py -- a generated page would drop everything off Insured Appraisals."
     },
     {
      "name": "Jeffrey Speight",
@@ -933,6 +941,10 @@
     {
      "name": "Trevon Chaney",
      "shareId": "YcSBfyFx"
+    },
+    {
+     "name": "Jacob Diaz (per-company page, merged into KFv9xtCL 2026-09-04; now a pointer)",
+     "shareId": "HyFEhfbE"
     }
    ]
   },
@@ -1068,5 +1080,11 @@
   "(derived from email addresses) to full names from the board export. Joseph chose to",
   "leave them live. They are recorded so a future run never reuses or resurrects them,",
   "and so work/LINKS.md can warn against sending them."
+ ],
+ "_manualPageComment": [
+  "manualPage: true on a rep means their page is NOT generated. build_rep_pages.py skips them and",
+  "says so in its summary, so a weekly run can never publish a template page over hand-written",
+  "content. Jacob Diaz is the case that forced this: his page also carries files from the PA FILES",
+  "and John Wynn boards, which the board-driven build cannot see."
  ]
 }

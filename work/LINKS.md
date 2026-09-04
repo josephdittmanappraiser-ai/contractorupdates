@@ -2,6 +2,10 @@
 
 96 live rep pages. Send each rep ONLY the link on their row.
 
+**Jacob Diaz is one page, not two.** Both his rows point at the same link, which also carries
+his PA, attorney and umpire files from the other boards. His two old per-company links
+(`VGyJD1wY`, `HyFEhfbE`) are now pointer pages and must not be sent.
+
 ## LINEAR roofing
 
 | Rep | Files | Link |
@@ -12,7 +16,7 @@
 | Robert Crotty | 28 | https://www.send.co/a/XRbBTenE |
 | Sergio Dehoyos | 28 | https://www.send.co/a/VSSquq0s |
 | Andres Soto | 24 | https://www.send.co/a/3YCzp1LR |
-| Jacob Diaz | 14 | https://www.send.co/a/VGyJD1wY |
+| Jacob Diaz | 18 (both cos + off-board) | https://www.send.co/a/jacob-diaz-deal-updates-KFv9xtCL |
 | Bo Serros | 13 | https://www.send.co/a/97LkciO7 |
 | Heather Griffiths | 12 | https://www.send.co/a/XqaMZt5i |
 | David Webster | 11 | https://www.send.co/a/UC6gOUvV |
@@ -80,7 +84,7 @@
 | Clayton Grassi | 5 | https://www.send.co/a/zXWmm7Tj |
 | Omar Haner | 5 | https://www.send.co/a/HDqyl7Pa |
 | Christopher Mathis | 4 | https://www.send.co/a/Wdh4SK41 |
-| Jacob Diaz | 4 | https://www.send.co/a/HyFEhfbE |
+| Jacob Diaz | see LINEAR row | https://www.send.co/a/jacob-diaz-deal-updates-KFv9xtCL |
 | Joel Rivera | 4 | https://www.send.co/a/AJbFveoq |
 | Kevin Salazar | 4 | https://www.send.co/a/udwGcQyo |
 | Luis Garcia | 4 | https://www.send.co/a/NmAH7dr2 |

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- design-decisions
+Role: weekly operations status page shared between an appraisal firm and its referral partner (Jacob Diaz, Stronghouse Pro / Linear Roofing).
+Stance: a partner should never have to ask "where is my file?" — the answer should already be on this page.
+Claims/sections: (1) what needs action right now, (2) where every open file stands (Latest/Next), (3) what's done.
+Scope: this page is the ONLY Jacob Diaz link. It covers his Insured Appraisals cards AND the PA/attorney/umpire files that live on other boards, which is why it cannot be generated from the board alone. The two older per-company links (VGyJD1wY Linear, HyFEhfbE Stronghouse) now point here.
+Interaction: scanning IS the job — stage chips + two fixed rows per deal; no decorative widgets on a working document.
+Sting: the Next line — every file ends with who owes what.
+Machine-editable: stable ids (updated-date, count-open, count-closed, attention-list) and one <article data-deal> per file so the weekly automation edits in place by string replacement.
+Fonts: system sans (working document, zero dependencies); mono only for claim numbers.
+-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jacob Diaz — Deal Updates</title>
+</head>
+<body>
+<section id="top">
+  <header class="hd">
+    <h1>Jacob Diaz — Deal Updates</h1>
+    <p class="sub">Stronghouse Pro / Linear Roofing referrals &middot; maintained by Joseph Dittman's office</p>
+    <p class="stamp">Updated <span id="updated-date">September 4, 2026</span> &middot; <b id="count-open">15</b> open &middot; <b id="count-closed">11</b> closed &middot; refreshed every Monday</p>
+  </header>
+</section>
+
+<section id="attention">
+  <div class="attn">
+    <h2><i data-lucide="alert-triangle"></i> Needs attention</h2>
+    <ul id="attention-list">
+      <li><b>Juan Rivera</b> — the carrier's appraisal team asked on 7/27 whether we have withdrawn from the appraisal. Still unanswered after five weeks.</li>
+      <li><b>Leah Ballotti</b> — you asked on 9/1 which items make up the non-recoverable depreciation. We owe you that breakdown.</li>
+      <li><b>Juan Gonzales</b> — the homeowner still has not signed the initial insurance checks, so the completion certificate and photos cannot go to Conifer.</li>
+      <li><b>Srinivasan Jampani</b> — AAA will not release the recoverable depreciation until it has the final invoice showing the total the member paid.</li>
+      <li><b>Carrie Bacon</b> — the referral to an Alabama-licensed attorney has not been made since the 7/2 decision.</li>
+      <li><b>Four appraisal invoices open</b> — Ballotti (8/29), Elizondo (8/7), Cifuentes (8/1) and Dang (6/28).</li>
+    </ul>
+  </div>
+</section>
+
+<section id="open">
+  <h2 class="grp">Open deals</h2>
+
+  <h3 class="stage"><i data-lucide="scale"></i> Positions &amp; negotiation</h3>
+
+  <article class="deal" data-deal="hawkins">
+    <div class="row1"><span class="nm">Steven Hawkins</span><span class="meta">Farmers <code>#5042584243-1</code> &middot; Commerce</span><span class="chip c-neg">Negotiation</span></div>
+    <p class="ln"><b>Latest:</b> Joseph reviewed the carrier appraiser's position on 7/30 and asked for scope corrections before he would consider an award. You asked for a status on 8/24, and our photo report went to the carrier's appraiser on 8/25.</p>
+    <p class="ln"><b>Next:</b> The carrier's appraiser owes a response to our position and the photo report.</p>
+  </article>
+
+  <article class="deal" data-deal="daniel-davis">
+    <div class="row1"><span class="nm">Daniel Davis</span><span class="meta">Farmers <code>#5043478786-1</code> &middot; Commerce</span><span class="chip c-appr">In appraisal</span></div>
+    <p class="ln"><b>Latest:</b> Carrier appraiser Gayle Culpepper's solo inspection went ahead on 8/26 as scheduled, and the file moved to inspected on 8/27.</p>
+    <p class="ln"><b>Next:</b> We write our estimate from that inspection and exchange positions with Culpepper; umpire selection only if the positions do not close the gap.</p>
+  </article>
+
+  <h3 class="stage"><i data-lucide="gavel"></i> Umpire</h3>
+
+  <article class="deal" data-deal="dumais">
+    <div class="row1"><span class="nm">Marc Dumais</span><span class="meta">AAA <code>#017283824</code> &middot; Lakewood Village</span><span class="chip c-ump">Umpire</span></div>
+    <p class="ln"><b>Latest:</b> John Wynn reported on 9/1 that the umpire panel is working on a date for the panel site visit. That is movement — the file had been sitting on the umpire's retainer since 7/11.</p>
+    <p class="ln"><b>Next:</b> Wynn owes the panel site visit date; positions then go to the umpire.</p>
+  </article>
+
+  <h3 class="stage"><i data-lucide="landmark"></i> Attorney track</h3>
+
+  <article class="deal" data-deal="bacon">
+    <div class="row1"><span class="nm">Carrie Bacon</span><span class="meta">USAA <code>#006204399</code> &middot; Pinson, AL</span><span class="chip c-atty">Attorney</span></div>
+    <p class="ln"><b>Latest:</b> USAA rejected the 5/27 appraisal demand outright, saying appraisal cannot be invoked over a disagreement in scope. Joseph decided on 7/2 to refer the claim to an attorney and confirmed on 7/14 that he was working on it. Nothing recorded since.</p>
+    <p class="ln"><b>Next:</b> Joseph owes the referral — it needs an Alabama-licensed firm.</p>
+  </article>
+
+  <article class="deal" data-deal="rojas">
+    <div class="row1"><span class="nm">Israel Rojas</span><span class="meta">TWICO <code>#007180</code></span><span class="chip c-atty">Attorney</span></div>
+    <p class="ln"><b>Latest:</b> Confirmed sent to the attorney on 8/26. TWICO had refused a reinspection and an engineer inspection was set for 7/16; no outcome has come back.</p>
+    <p class="ln"><b>Next:</b> The attorney owes a case status, and we owe you the engineer's findings.</p>
+  </article>
+
+  <article class="deal" data-deal="cruz">
+    <div class="row1"><span class="nm">Miguel Cruz</span><span class="meta">Conifer <code>#PL2503538</code> &middot; Mesquite</span><span class="chip c-atty">Attorney</span></div>
+    <p class="ln"><b>Latest:</b> Conifer said on 7/14 the covered damage falls below the deductible. The file went to attorney onboarding on 7/21 and was confirmed onboard on 8/26.</p>
+    <p class="ln"><b>Next:</b> The attorney owes a case plan.</p>
+  </article>
+
+  <article class="deal" data-deal="osorio">
+    <div class="row1"><span class="nm">Kenneth Osorio</span><span class="meta">TFPA <code>#1264873</code> &middot; Anna</span><span class="chip c-atty">Attorney</span></div>
+    <p class="ln"><b>Latest:</b> In mediation attempts as of 7/14, and confirmed sent to the attorney on 8/26.</p>
+    <p class="ln"><b>Next:</b> The attorney owes a mediation status.</p>
+  </article>
+
+  <article class="deal" data-deal="rivera">
+    <div class="row1"><span class="nm">Juan Rivera</span><span class="meta">Conifer <code>#PL2503408</code> &middot; McKinney</span><span class="chip c-atty">Attorney</span></div>
+    <p class="ln"><b>Latest:</b> Confirmed sent to the attorney on 8/26. Separately, on the appraisal side, the carrier's appraiser asked on 7/27 whether we have withdrawn from the appraisal — that thread has had no reply since.</p>
+    <p class="ln"><b>Next:</b> Answer the carrier's appraiser on the withdrawal question before it becomes their decision; the attorney owes a case plan.</p>
+  </article>
+
+  <h3 class="stage"><i data-lucide="banknote"></i> Depreciation &amp; closeout</h3>
+
+  <article class="deal" data-deal="jampani">
+    <div class="row1"><span class="nm">Srinivasan Jampani</span><span class="meta">AAA <code>#017541983</code></span><span class="chip c-depr">Depreciation</span></div>
+    <p class="ln"><b>Latest:</b> The award is paid and the recoverable-depreciation request has been with AAA since roughly 7/14. AAA advised on 8/26 that it needs the final invoice showing the total amount the member paid before it will release the depreciation; that request went to the insured as well.</p>
+    <p class="ln"><b>Next:</b> Get AAA the final invoice. Your request to put the company name on the check is noted and still needs confirming.</p>
+  </article>
+
+  <article class="deal" data-deal="gonzales">
+    <div class="row1"><span class="nm">Juan Gonzales</span><span class="meta">Conifer <code>#PL2503426</code> &middot; Lewisville</span><span class="chip c-depr">Depreciation</span></div>
+    <p class="ln"><b>Latest:</b> We wrote to the homeowner on 9/2 for a completion date and proof-of-work photos, which is what Conifer wants before releasing the depreciation. You replied on 9/3 that the homeowner still has not signed the initial insurance checks and that the completion certificate and photos wait on that.</p>
+    <p class="ln"><b>Next:</b> The homeowner signs the initial checks; then the completion certificate and photos go to Conifer.</p>
+  </article>
+
+  <article class="deal" data-deal="lopez">
+    <div class="row1"><span class="nm">Omar (Sergio) Lopez</span><span class="meta">Allstate <code>#0816429203</code> &middot; Frisco</span><span class="chip c-depr">Depreciation</span></div>
+    <p class="ln"><b>Latest:</b> The award payment has been issued. We wrote to the homeowner on 9/2 for a completion date and photos; you replied on 9/3 that the initial check is still not back from the mortgage company and that you will update us once the project is complete.</p>
+    <p class="ln"><b>Next:</b> The mortgage company releases the check, the work completes, then we file for the depreciation.</p>
+  </article>
+
+  <h3 class="stage"><i data-lucide="receipt"></i> Settled &mdash; appraisal invoice open</h3>
+
+  <article class="deal" data-deal="ballotti">
+    <div class="row1"><span class="nm">Leah Ballotti</span><span class="meta">Farmers <code>#5043590830-1-1</code> &middot; Commerce</span><span class="chip c-fee">Fee due</span></div>
+    <p class="ln"><b>Latest:</b> This is the 3100 Washington St file that appeared here as "Sean Delgado" — it is carded as Leah Ballotti. Farmers named Jon Scheel, who inspected on 8/17. The appraisal closed with a signed award, and the award detail plus our invoice went to you on 8/29. You asked on 9/1 which items make up the non-recoverable depreciation.</p>
+    <p class="ln"><b>Next:</b> We owe you the non-recoverable depreciation breakdown; the appraisal invoice is open.</p>
+  </article>
+
+  <article class="deal" data-deal="elizondo">
+    <div class="row1"><span class="nm">Agustin Elizondo</span><span class="meta">Allstate <code>#0827145814</code> &middot; Sherman</span><span class="chip c-fee">Fee due</span></div>
+    <p class="ln"><b>Latest:</b> Aaron at Triforce inspected on 6/23 after sending his umpire list on 6/20. The appraisal closed and our invoice went to you on 8/7. You said on 8/13 it would be paid once the homeowner signs; we followed up again on 8/20.</p>
+    <p class="ln"><b>Next:</b> The homeowner signature, then this file closes out.</p>
+  </article>
+
+  <article class="deal" data-deal="cifuentes">
+    <div class="row1"><span class="nm">Patricia Cifuentes</span><span class="meta">Allstate <code>#0826085227</code> &middot; Commerce</span><span class="chip c-fee">Fee due</span></div>
+    <p class="ln"><b>Latest:</b> Inspections are done and the appraisal closed. Our invoice went to you on 8/1 and was followed up on 8/6 and 8/13. You said on 8/13 you were meeting the homeowner that weekend to sign, with payment to follow.</p>
+    <p class="ln"><b>Next:</b> The homeowner signature, then this file closes out.</p>
+  </article>
+
+  <article class="deal" data-deal="dang">
+    <div class="row1"><span class="nm">Hang (Emily) Dang</span><span class="meta">Farmers <code>#7009952244-1</code> &middot; Trussville, AL</span><span class="chip c-fee">Fee due</span></div>
+    <p class="ln"><b>Latest:</b> The carrier appraiser's revised estimate came back on 6/23 and the appraisal closed; our invoice went out on 6/28 at the reduced fee agreed on 7/2. Last followed up on 7/16, with no reply since.</p>
+    <p class="ln"><b>Next:</b> The appraisal invoice is the only thing still open on this file.</p>
+  </article>
+</section>
+
+<section id="closed">
+  <div class="divider"><span>Closed</span></div>
+  <p class="closed-note">Amit Urunkar and Arthur Carter have both closed and paid since this page last updated.</p>
+  <p class="closed-list" id="closed-list">Amit Urunkar &middot; Arthur Carter &middot; Vasile Sima &middot; Loan Ho &middot; Debra Davis &middot; Donna Sams &middot; Hongfei Yang &middot; Kathryn Mossom &middot; Raymond Lampron &middot; Eric Peterson &middot; Jacob Diaz</p>
+  <footer class="ft">Questions on any file: <a href="mailto:josephdittmanappraiser@gmail.com" target="_blank" rel="noopener noreferrer">josephdittmanappraiser@gmail.com</a>. On the attorney-track files, Joseph asked that you call him on 832-503-5866 for detail. This page now covers every file, both companies — it replaces the two older per-company links.</footer>
+</section>
+
+<style>
+/* design-decisions: system sans for a working ops page (zero deps); mono for claim numbers only.
+   Semantic color jobs: blue = in appraisal process, violet = umpire, red = blocked/stalled, green = prep/depreciation moving, amber = money owed, teal = attorney track. */
+:root{
+  --ink:#1b202b; --muted:#5c6472; --line:#e4e8ef; --bg:#f7f9fc; --card:#ffffff;
+  --blue:#1f5fbf; --blue-bg:#e8f0fc; --slate:#4c5566; --slate-bg:#edf0f5;
+  --violet:#6b4bb5; --violet-bg:#efe9fa; --red:#bb3a2e; --red-bg:#fdecea;
+  --green:#1f8a4c; --green-bg:#e8f7ee; --amber:#a8720f; --amber-bg:#fdf3e0;
+  --teal:#0d7d8c; --teal-bg:#e1f4f7;
+  --r:10px;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --ink:#e8ebf2; --muted:#9aa3b2; --line:#2a3140; --bg:#12151c; --card:#1a1f29;
+    --blue:#7aa7e8; --blue-bg:#1d2a40; --slate:#aab3c2; --slate-bg:#232936;
+    --violet:#b39ae6; --violet-bg:#2a2340; --red:#e58a80; --red-bg:#3a2320;
+    --green:#7ccb9c; --green-bg:#1c3226; --amber:#e0b46a; --amber-bg:#382c14;
+    --teal:#72c9d8; --teal-bg:#123138;
+  }
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+section{max-width:840px;margin:0 auto;padding:0 18px}
+#top{padding-top:34px}
+.hd h1{font-size:25px;margin:0 0 3px;letter-spacing:-.01em}
+.sub{margin:0;color:var(--muted);font-size:13.5px}
+.stamp{margin:8px 0 0;color:var(--muted);font-size:13px}
+.stamp b{color:var(--ink)}
+.attn{background:var(--amber-bg);border:1px solid color-mix(in srgb, var(--amber) 30%, transparent);border-radius:var(--r);padding:14px 16px;margin:20px 0 4px}
+.attn h2{display:flex;align-items:center;gap:8px;margin:0 0 8px;font-size:13px;letter-spacing:.05em;text-transform:uppercase;color:var(--amber)}
+.attn h2 svg{width:16px;height:16px}
+.attn ul{margin:0;padding-left:18px}
+.attn li{margin:5px 0;font-size:14px}
+h2.grp{font-size:13px;letter-spacing:.07em;text-transform:uppercase;color:var(--slate);border-bottom:2px solid var(--line);padding-bottom:6px;margin:30px 0 4px}
+h3.stage{display:flex;align-items:center;gap:8px;font-size:12.5px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);margin:22px 0 10px}
+h3.stage svg{width:15px;height:15px}
+.deal{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:13px 16px;margin:0 0 10px;box-shadow:0 1px 2px rgba(15,23,42,.04)}
+.row1{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:6px}
+.nm{font-size:16.5px;font-weight:700}
+.meta{color:var(--muted);font-size:12.5px}
+.meta code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:12px;background:var(--slate-bg);padding:1px 5px;border-radius:5px}
+.chip{margin-left:auto;font-size:10.5px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:3px 9px;border-radius:999px;white-space:nowrap}
+.c-appr{background:var(--blue-bg);color:var(--blue)}
+.c-neg{background:var(--slate-bg);color:var(--slate)}
+.c-ump{background:var(--violet-bg);color:var(--violet)}
+.c-dem{background:var(--red-bg);color:var(--red)}
+.c-prep{background:var(--green-bg);color:var(--green)}
+.c-fee{background:var(--amber-bg);color:var(--amber)}
+.c-atty{background:var(--teal-bg);color:var(--teal)}
+.c-depr{background:var(--green-bg);color:var(--green)}
+.ln{margin:4px 0;font-size:14px}
+.ln b{font-weight:650}
+.divider{display:flex;align-items:center;gap:14px;margin:36px 0 14px;color:var(--slate)}
+.divider::before,.divider::after{content:"";flex:1;height:1px;background:var(--line)}
+.divider span{font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;font-weight:700}
+.closed-note{color:var(--green);font-size:13.5px;margin:0 0 6px;font-weight:600}
+.closed-list{color:var(--muted);font-size:13.5px;line-height:2;margin:0}
+.ft{margin:30px 0 44px;padding-top:14px;border-top:1px solid var(--line);color:var(--muted);font-size:12.5px}
+.ft a{color:var(--muted)}
+@media (max-width:560px){ .chip{margin-left:0} .row1{gap:6px} }
+</style>
+<script>
+if (window.lucide && typeof window.lucide.createIcons === "function") { window.lucide.createIcons(); }
+</script>
+</body>
+</html>

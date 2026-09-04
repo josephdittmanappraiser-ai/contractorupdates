@@ -128,13 +128,18 @@ Edit the runbook — that is the spec both runs follow. Common adjustments:
 
 ## Not wired up
 
-**Files that live on another board.** A page only ever shows cards from *Insured Appraisals*.
-Reps also have files on the **PA FILES** and **John Wynn - appraisals** boards, and those never
-appear. On 2026-09-02 Jacob Diaz emailed asking after eight deals; six of them (Jampani, Cruz,
-Osorio, Dumais, Rojas, Rivera) have no card on Insured Appraisals at all, so his page could not
-answer the question he was actually asking. Widening the run to a second board means deciding
-whose files those are -- the PA cards carry a "Referred by <rep>" line in the description, not a
-label -- so it is a real change, not a config tweak.
+**Files that live on another board.** A generated page only ever shows cards from *Insured
+Appraisals*. Reps also have files on the **PA FILES** and **John Wynn - appraisals** boards, and
+those never appear. Jacob Diaz emailed on 2026-08-24 asking after eight deals; six of them
+(Jampani, Cruz, Osorio, Dumais, Rojas, Rivera) have no card on Insured Appraisals at all, so a
+board-driven page could not answer the question he was actually asking.
+
+His page is the exception that proves it: `KFv9xtCL` is written by hand and covers both his
+companies plus the off-board files, so his rep entries carry `manualPage: true` and the build
+skips him -- see `_manualPageComment` in the config. Doing the same for anyone else means
+deciding whose files the other boards hold, and the PA cards name the rep in a "Referred by
+<rep>" line in the description rather than on a label, so it is a real change, not a config
+tweak.
 
 Emailing contractors their link. The weekly run refreshes pages and stops; Joseph shares the
 links. Switching this on means adding a draft-generation phase to the weekly runbook —

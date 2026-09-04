@@ -557,6 +557,7 @@ def main(csv_path, outdir='work/pages', updated=None):
             })
 
     manifest = []
+    skipped = []
 
     # ---- company-mode clients: one page for the whole firm -------------------
     combuckets = collections.defaultdict(list)
@@ -600,7 +601,14 @@ def main(csv_path, outdir='work/pages', updated=None):
         cfg = PER_REP_LABELS[lab]
         company = cfg['company']
         known = {canon(rp['name']): rp.get('shareId') for rp in cfg.get('reps', [])}
+        # A rep flagged manualPage owns a hand-written page that covers more than this board
+        # (Jacob Diaz: PA, attorney and umpire files live on other boards). Generating one
+        # would publish a strictly smaller page over it, so skip and say so.
+        manual = {canon(rp['name']): rp for rp in cfg.get('reps', []) if rp.get('manualPage')}
         for rep, files in sorted(reps.items(), key=lambda kv: -len(kv[1])):
+            if rep in manual:
+                skipped.append((company, titlecase(rep), len(files), manual[rep].get('shareId')))
+                continue
             if rep == '__unassigned__':
                 disp, slug = f"{company} \u2014 Unassigned Files", f"{lab[:6].lower()}-unassigned"
                 sid = cfg.get('unassignedShareId')
@@ -620,6 +628,8 @@ def main(csv_path, outdir='work/pages', updated=None):
     e = sum(1 for m in manifest if m['action'] == 'edit')
     print(f"pages built: {len(manifest)}  (edit existing: {e}, create new: {len(manifest)-e})")
     print(f"files placed: {sum(m['files'] for m in manifest)}   dropped: {dict(dropped)}")
+    for company, rep, n, sid in skipped:
+        print(f"skipped (manual page): {rep} / {company} -- {n} files, published by hand at {sid}")
     return manifest
 
 
