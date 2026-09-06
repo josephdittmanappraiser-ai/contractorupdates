@@ -2,7 +2,7 @@
 
 One line per run: date | threads scanned | logged | unmatched | skipped as noise
 
-2026-09-05 | 186 threads scanned (6 more in batch 12 not processed - subagent timed out) | 140 logged | 30 unmatched | 9 skipped as noise, 7 skipped as duplicate
+2026-09-05 | 192 threads scanned | 144 logged | 32 unmatched | 9 skipped as noise, 7 skipped as duplicate
 
 Unmatched insureds named in email with no card on the Insured Appraisals board:
 - Margaret Grant
@@ -26,14 +26,13 @@ Unmatched insureds named in email with no card on the Insured Appraisals board:
 - State Farm claim 53-0B4Z-843 (insured not named in thread)
 - Travelers claim JHM0516 (insured not named in thread)
 - Liberty Mutual claim 061826503-01, Waco, TX (insured not named in thread)
-- SageSure claim HO-2025-415944117 (insured not named in thread)
+- Yen-Thi Kim Nguyen (SageSure claim HO-2025-415944117)
 - Allstate claim 000834698317 (insured not named in thread)
+- Alonzo Haynes (El Paso, referred by Roto-Rooter, denied Assurant claim, potential PA engagement)
 
 Cards that exist but on a different board ("PA FILES"), not "Insured Appraisals" — not true gaps, but flagged:
 - Jett Baker
 - Patricia & Peter Mwangi
-
-Not processed this run: batch 12 (6 threads: 1a01bd8cab3560c5, 1a01cdecc28409f7, 1a0226c2f5916f98, 1a027cbf9e29a148, 1a03074ee2ba4f13, 1a03480b43ef2a2a — subjects included AHMAD/Appraiser Introduction, StarStone/Alonzo Haynes, Tay Nguyen, Sudunagunta, a SageSure claim, Nitin Kharat Umpire). Two attempts: the original subagent was lost when the container restarted mid-run; a same-day retry (agent a834001876ad4407d) was dispatched but also never reported back. Needs a manual follow-up pass on just these 6 threads.
 
 Data-quality notes for Joseph to spot-check:
 - Some older cards (e.g. Carlos Solis) already carry a checklist named "📧 Email log" instead of this run's "📋 Chain of Events" — two naming conventions are now on the board; consider merging or renaming.
