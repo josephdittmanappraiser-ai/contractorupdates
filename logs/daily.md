@@ -33,7 +33,7 @@ Cards that exist but on a different board ("PA FILES"), not "Insured Appraisals"
 - Jett Baker
 - Patricia & Peter Mwangi
 
-Not processed this run: batch 12 (6 threads — subjects included AHMAD/Appraiser Introduction, StarStone/Alonzo Haynes, Tay Nguyen, Sudunagunta, a SageSure claim, Nitin Kharat Umpire) — its subagent ran far longer than all 31 peers and never reported back; needs a follow-up pass.
+Not processed this run: batch 12 (6 threads: 1a01bd8cab3560c5, 1a01cdecc28409f7, 1a0226c2f5916f98, 1a027cbf9e29a148, 1a03074ee2ba4f13, 1a03480b43ef2a2a — subjects included AHMAD/Appraiser Introduction, StarStone/Alonzo Haynes, Tay Nguyen, Sudunagunta, a SageSure claim, Nitin Kharat Umpire). Two attempts: the original subagent was lost when the container restarted mid-run; a same-day retry (agent a834001876ad4407d) was dispatched but also never reported back. Needs a manual follow-up pass on just these 6 threads.
 
 Data-quality notes for Joseph to spot-check:
 - Some older cards (e.g. Carlos Solis) already carry a checklist named "📧 Email log" instead of this run's "📋 Chain of Events" — two naming conventions are now on the board; consider merging or renaming.
