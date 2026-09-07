@@ -38,3 +38,26 @@ Data-quality notes for Joseph to spot-check:
 - Some older cards (e.g. Carlos Solis) already carry a checklist named "📧 Email log" instead of this run's "📋 Chain of Events" — two naming conventions are now on the board; consider merging or renaming.
 - Possible near-duplicate concurrent writes: Mike Russell (batch22 + batch27), Koteshwar Pilla Rao (batch07 + batch22), Bernard Nganga and Miriam Cruz Zamora (batch01 + batch30) — different threads about the same file processed in parallel batches; likely fine but worth a glance.
 - One subagent (batch10) reported it initially cross-wired checklist writes across 4 cards (Coffman, Maldonado, Mogollon, Cooper) before self-correcting and re-verifying each card in place — worth a spot-check of those 4.
+
+2026-09-07 | 69 threads scanned | 46 logged | 11 unmatched | 10 skipped as noise, 2 skipped as duplicate
+
+Unmatched insureds named in email with no card on the Insured Appraisals board:
+- Dora Solis-Gates / NextGen Construction Group contact (insured not named) — still open from prior runs
+- Linear Roofing "Estimate Needed Only" thread (justinb@linearroofing.com) — window bid price question, insured not named in thread
+- "Graham" — Position Estimate from David Preddy (opposing appraiser), no matching card
+- Eduardo Socarras (No Stress Claims referral, claims 53-98C7-20R and 0791389760)
+- Cynthia Jones Moore (No Stress Claims referral, claim 0822796115)
+- Adam & Robin Wilder (No Stress Claims referral, claim 0812571388)
+- Jikai Chen — only similarly-named cards on board are Shih-Ying Chen and Peter Chen, neither matches
+- Angela Whitney (claim 01-009-632647)
+- Grant Caldwell (claim 43-0B5H-822, El Paso, TX) — a different Caldwell family (Christopher & Karshanika, Manvel TX) has a card, not a match
+- Carlos Valdez / AFICS claim 01-009-524372 — insured not named in thread
+- "Coleman", 5218 Lotus St — thread resurfaced from March 2025, likely stale
+- Suzanne Ramos (State Farm claim 43-0K2L-462) — 6 similarly-named "Ramos" cards on the board, none an exact match
+- Marissa Griebel (Allied Trust claim 2610333)
+
+Resolved since 2026-09-05: Blanca Cazares and Huy Hoang / Huy Trong Hoang, previously unmatched, now have cards and were logged successfully today.
+
+Data-quality notes for Joseph to spot-check:
+- Thread 1a07902b7d2e81ba (No Stress Claims bulk status-check reply) bundles 3+ separate files in one email — the subagent could not safely split it onto individual cards without a clearer per-insured breakdown, so it went to the unmatched list as one entry covering all three claims above.
+- Threads 1a07712c32b68d3d and 1a06d882f3c314bf (TWIA claim 1275532) both matched the same card, "WILLIAM and ANNETTA WOMACK - 09-08" — worth confirming that's the right card given the claim correspondence goes through M&M Build Group / Bill Womack (Invesco), not directly through a Womack household contact.
