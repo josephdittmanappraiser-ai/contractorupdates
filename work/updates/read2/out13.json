@@ -1,0 +1,77 @@
+{
+ "batch": 13,
+ "results": [
+  {
+   "cardId": "6a4ed6e4824628795e76722c",
+   "newEvents": [
+    {"date": "2026-08-16", "event": "The carrier's appraiser said he would be back in the area in a few weeks and would follow up to schedule."},
+    {"date": "2026-08-21", "event": "The carrier's appraiser proposed September 9 for the inspection."},
+    {"date": "2026-08-22", "event": "Joseph's office agreed to the date and scheduled a joint inspection for September 10."},
+    {"date": "2026-08-27", "event": "The homeowner confirmed the inspection schedule for September 9 and 10."}
+   ],
+   "update": "Inspections have been scheduled: the carrier's appraiser will inspect the property September 9 and Joseph Dittman will inspect September 10. No action is needed from the contractor at this time.",
+   "needed": null,
+   "threadsRead": ["1a0429242f927337", "19ff201583cdfc9b"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 4,
+   "notes": ""
+  },
+  {
+   "cardId": "6a7cfb3571c6540449c7f6ef",
+   "newEvents": [
+    {"date": "2026-08-20", "event": "Joseph's office sent the contractor the draft position estimate for review; after the contractor approved it, the demand package was submitted to the carrier to formally open the appraisal."},
+    {"date": "2026-08-26", "event": "The carrier named its appraiser, who proposed an umpire and requested a September 2 inspection date; Joseph's office tentatively scheduled a solo inspection for that date."},
+    {"date": "2026-08-27", "event": "The homeowner confirmed the September 2 inspection with interior access, and the appraiser agreement was signed and exchanged."},
+    {"date": "2026-09-01", "event": "Joseph's office reminded the carrier's appraiser of the inspection, and he confirmed attendance."},
+    {"date": "2026-09-02", "event": "The carrier's appraiser completed his solo inspection of the property (running slightly late due to traffic)."},
+    {"date": "2026-09-07", "event": "The carrier's appraiser reported his position estimate and award were ready to send."},
+    {"date": "2026-09-07", "event": "Joseph's office found the attachment did not come through, asked for a resend, and said their own inspection is scheduled for September 18."}
+   ],
+   "update": "Joseph's office is waiting on the carrier's appraiser to resend his position estimate and award, which he says are ready; Joseph's own inspection of the property is scheduled for September 18. No action is needed from the contractor right now.",
+   "needed": null,
+   "threadsRead": ["19ff7ed71e1f61c3", "1a020caa018904a9", "1a0200d183929e73", "1a03f24def225fde"],
+   "threadsDropped": ["1a07c2f3c80c535e", "1a06a9338ababbe4", "19fafae86a818a25", "1a020bbe4115bef3", "1a0118d29029fd20", "19ff8209eb8f6e4e"],
+   "trelloItemsAdded": 2,
+   "notes": "Dropped 6 threads that were about other insureds/claims collected on a surname or address false match: 1a07c2f3c80c535e and 1a06a9338ababbe4 are about Kishore Kumar Munigety (claim 7010483200-1-2); 19fafae86a818a25 is the Vasanth Thota appraisal (AAA claim 017834381); 1a020bbe4115bef3 is about Sindhu Prasanna Kumar/Kishore Jonnavittula; 1a0118d29029fd20 and 19ff8209eb8f6e4e are about Ajay Palvai (AAA claim 017936054)."
+  },
+  {
+   "cardId": "6a751c0c89d6097fd2eaf4c8",
+   "newEvents": [
+    {"date": "2026-08-16", "event": "Joseph's office sent the contractor the draft position estimate for review; after the contractor approved it, the demand package was submitted to State Farm the next day to formally open the appraisal."},
+    {"date": "2026-08-24", "event": "Joseph's office followed up with the homeowner, who said the carrier's adjuster had not yet made contact."},
+    {"date": "2026-08-28", "event": "The carrier named its appraiser, who requested a signed appraiser agreement, proposed an umpire list, and asked to schedule a joint inspection; the homeowner confirmed September 9 at noon for the joint inspection."},
+    {"date": "2026-09-05", "event": "Joseph selected an umpire for the appraisal."},
+    {"date": "2026-09-06", "event": "The carrier's appraiser confirmed the umpire and inspection date, noting the signed appraiser agreement was still pending."},
+    {"date": "2026-09-07", "event": "The signed appraiser agreement was exchanged with the carrier's appraiser ahead of the September 9 inspection."}
+   ],
+   "update": "A joint inspection with the carrier's appraiser is scheduled for September 9; the umpire has been selected and the signed appraiser agreement has been exchanged. No action is needed from the contractor at this time.",
+   "needed": null,
+   "threadsRead": ["19fd97459adf327f", "1a00d3e3531ed5fd", "1a0488891ad1c818"],
+   "threadsDropped": ["1a06e370530418f1", "1a01cacc08e6130d", "1a0163c6720934d4", "19fc48339db6b4a8", "19a0c9d6faf9438b"],
+   "trelloItemsAdded": 3,
+   "notes": "Dropped 5 threads collected on a shared surname (Velasquez/Velazquez) or unrelated matters: 1a06e370530418f1 and 1a0163c6720934d4 are the Ladie Velazquez SWYBMHO13513 appraisal dispute; 1a01cacc08e6130d is an umpire-payments follow-up covering several unrelated insureds including a different Velasquez; 19a0c9d6faf9438b is also the Ladie Velazquez SWYBMHO13513 file; 19fc48339db6b4a8 is an unrelated Pastrana invoice thread."
+  },
+  {
+   "cardId": "6a504d5e5646093af1152793",
+   "newEvents": [
+    {"date": "2026-08-06", "event": "Joseph's office followed up with the contractor about the status of the reinspection."},
+    {"date": "2026-08-10", "event": "The contractor said the carrier's adjuster wasn't responding and asked the office to help reach them."},
+    {"date": "2026-08-20", "event": "The carrier's second inspection report (from August 15) showed repairs valued below the deductible with no payment; since the homeowner still wanted to proceed with the appraisal, the office resent the demand letter and supporting photos to the carrier."},
+    {"date": "2026-08-24", "event": "The carrier said it had not yet received an estimate from the appraisal team."},
+    {"date": "2026-08-26", "event": "The office sent the carrier the position estimate; the homeowner asked about next steps and the contractor explained the carrier still needed to assign its appraiser for a joint inspection."},
+    {"date": "2026-08-27", "event": "The carrier confirmed receipt of the estimate and said it would move the claim forward internally."},
+    {"date": "2026-08-31", "event": "An appraisal firm sent notice that it had been engaged on the claim."},
+    {"date": "2026-09-01", "event": "The carrier's appraiser sent an umpire list and proposed a September 4 inspection; Joseph's office scheduled a solo inspection and the homeowner confirmed."},
+    {"date": "2026-09-04", "event": "Joseph selected an umpire, the signed appraiser agreement was exchanged, and the carrier's appraiser completed the property inspection."}
+   ],
+   "update": "The carrier's appraiser has completed his inspection and expects to send a position by mid-September; an umpire has been selected and the signed appraiser agreement exchanged. No action is needed from the contractor at this time.",
+   "needed": null,
+   "threadsRead": ["19f8a0a7f32c82ae", "19f86d7658793e66", "1a021b3a12c2656e", "1a03b6b825118e4e", "1a02b40c33475646", "1a0211b35491171c", "1a0592d6891e788c", "1a05dd273e248120"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 7,
+   "notes": "1a021b3a12c2656e and 1a03b6b825118e4e were auto-reply-only threads from the carrier (no substantive content). Events for 2026-09-01 through 2026-09-05 were already recorded in Trello from a prior pass, so only 2026-08-06 through 2026-08-31 were added as new checklist items."
+  }
+ ],
+ "checked": 4,
+ "withNewEvents": 4
+}
