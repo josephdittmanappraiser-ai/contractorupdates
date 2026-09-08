@@ -55,8 +55,33 @@
       "threadsDropped": [],
       "trelloItemsAdded": 4,
       "notes": ""
+    },
+    {
+      "cardId": "69cf01db396d7a8ade890065",
+      "newEvents": [
+        {"date": "2026-07-24", "event": "A joint appraisal inspection was confirmed for August 17 at 10:00 AM, with all panel members and the homeowner available."},
+        {"date": "2026-09-06", "event": "The joint inspection was completed and the umpire confirmed he still needs to finish his write-up."}
+      ],
+      "update": "The joint appraisal inspection took place on August 17, and the umpire has confirmed it's done — he still needs to finish writing up his position. We're waiting on that next.",
+      "needed": null,
+      "threadsRead": ["19ea7fe42220d4aa"],
+      "threadsDropped": ["19fc48339db6b4a8"],
+      "trelloItemsAdded": 0,
+      "notes": "Both events were already present on a second 'Chain of Events' checklist on this card (the card has two checklists with that name), so no new items were added. Dropped 19fc48339db6b4a8 (Pastrana appraisal invoice) as it concerns a different insured."
+    },
+    {
+      "cardId": "6923293e0bc424f92bea4da8",
+      "newEvents": [
+        {"date": "2026-09-08", "event": "Joseph sent his final position, with depreciation applied, and supporting photo documentation to the umpire and carrier's appraiser."}
+      ],
+      "update": "Joseph submitted his final position, with depreciation applied, along with supporting photo documentation to the umpire and the carrier's appraiser following the August 19 inspection. We're now waiting on their review.",
+      "needed": null,
+      "threadsRead": ["19dd67f0a8565173"],
+      "threadsDropped": ["1a05dd273e248120", "1a04403db611e178", "1a035168097746d3", "1a021b9fc9730669", "19fda5e1f70a2318", "19fd865e38ba365b", "19fb958470d85072", "19fc48339db6b4a8", "19fbdf19a82850c1", "19f8c51768cdd12c", "19f8c181689b995f", "19f683d3852475f5", "19f61abcfe6b1515"],
+      "trelloItemsAdded": 1,
+      "notes": "This card's thread list contained many false positives: 13 threads about other insureds entirely, mostly picked up because a proposed umpire named 'Tucker Patch' appears in unrelated umpire-selection emails for other claims; all dropped after confirming the insured name/claim/address didn't match. The genuine Tucker thread (19dd67f0a8565173) had a stale 'newest' of 2026-08-10 recorded by the scan but actually continued through 2026-09-08, which was opened and read to its end."
     }
   ],
-  "checked": 4,
-  "withNewEvents": 3
+  "checked": 6,
+  "withNewEvents": 5
 }
