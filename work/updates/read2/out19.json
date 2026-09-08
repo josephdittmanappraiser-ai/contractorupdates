@@ -47,8 +47,33 @@
    "threadsDropped": [],
    "trelloItemsAdded": 0,
    "notes": "All new content in this thread (our position sent July 29, follow-up September 5) was already reflected in the Trello checklist, so no new items were added."
+  },
+  {
+   "cardId": "6a7a119d2eceb51184288445",
+   "newEvents": [],
+   "update": "The signed agreement is in place, an umpire has been selected, and the completed inspection with our position have been sent to the carrier's appraiser following the September 2 inspection.",
+   "needed": null,
+   "threadsRead": ["1a03e832843f1ae5", "1a016bdfe0fb94c8", "1a014fcca8086139"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 0,
+   "notes": "All new content across these threads (umpire selection, signed agreement, September 2 inspection, and our position/photo report sent September 5) was already reflected in the Trello checklist, so no new items were added."
+  },
+  {
+   "cardId": "69d59926aca942018e05acb7",
+   "newEvents": [
+    {"date": "2026-08-18", "event": "Joseph's office followed up with the carrier's appraiser for a status update; he said he'd have his position ready by the end of the week."},
+    {"date": "2026-08-18", "event": "The homeowner forwarded documentation showing the original window color is discontinued and cannot be matched, supporting the case for full window replacement."},
+    {"date": "2026-09-03", "event": "Joseph's office sent our position and photo report to the carrier's appraiser."},
+    {"date": "2026-09-05", "event": "Joseph's office followed up asking when the carrier's appraiser's position would be ready."}
+   ],
+   "update": "Our position and photo report have been sent to the carrier's appraiser, along with documentation supporting full window replacement due to a discontinued color match; we are now waiting on the carrier's appraiser to send back his position.",
+   "needed": null,
+   "threadsRead": ["19e29a200c838eab", "1a01678f99c8d792", "1a0167a15f16fc06"],
+   "threadsDropped": ["1a079ea21963bce7", "1a0276e8be9ecf32", "1a062a352e64f803", "1a03a1283b4f0672", "1a0161cf01663f16", "19fda2ab664a4ab4", "19fd7c2b3487c9f0", "19fd4c2c05a62fed", "19fc48339db6b4a8"],
+   "trelloItemsAdded": 4,
+   "notes": "This claim number and the surname 'Garza' matched many unrelated threads picked up by the scan. Dropped as belonging to other insureds/claims entirely: 1a079ea21963bce7 (Agustin Contreras Ledesma), 1a0276e8be9ecf32 (Jorge Valenzuela), 1a062a352e64f803 (Luis Olivo/Allstate claim naming Benjamin Dittman), 1a03a1283b4f0672 (a separate 'De La Garza' claim), 19fda2ab664a4ab4 (a separate 'Juan Garza' claim, also just an out-of-office auto-reply), 19fd7c2b3487c9f0 (Beshay), 19fd4c2c05a62fed (a signed award for a different Garza matter with no matching claim number), 19fc48339db6b4a8 (Pastrana). 1a0161cf01663f16 is an unrelated real-estate closing (title company), not an insurance appraisal matter at all."
   }
  ],
- "checked": 4,
- "withNewEvents": 3
+ "checked": 6,
+ "withNewEvents": 4
 }
