@@ -44,5 +44,33 @@
   "threadsDropped":["1a046bbd94a6bf6c","1a0447a87604ac6c","19fc8abbb6ef0305"],
   "trelloItemsAdded":0,
   "notes":"All three new threads the scan collected belonged to other files (a different insured referred by the same contractor, a carrier claim rep who happens to share the surname Richards, and an unrelated claim for a different insured entirely) - none pertained to Terrance and Yvonne Richards' claim, so no new events were added."
+ },
+ {"cardId":"69d0624ef0500d0730086826",
+  "newEvents":[
+   {"date":"2026-08-06","event":"Our appraiser's site visit was moved to 08/21 at 12:00 PM, and the carrier's appraiser's site visit was set for 08/12/2026."},
+   {"date":"2026-09-02","event":"The carrier's appraiser submitted his position on the file, noting he may still revise it after reviewing our photos."},
+   {"date":"2026-09-03","event":"Joseph sent our appraiser additional documentation in response to the carrier's position."}
+  ],
+  "update":"The carrier's appraiser has submitted his position on the file, though he may still revise it after reviewing our photos. We're following up with our own appraiser to move this toward resolution.",
+  "needed":null,
+  "threadsRead":["19f936c6d95cd7ae","19fc7f2280618a08","1a05c3ee0139ffe5","19fee78fe4a72aa2"],
+  "threadsDropped":["1a0737316307dedb","1a0597bc40a4aae8"],
+  "trelloItemsAdded":3,
+  "notes":"Two of the collected threads belonged to other matters (an unrelated appraisal for a different insured, and a contractor's generic monthly invoice not tied to this specific claim) and were excluded."
+ },
+ {"cardId":"69fdf6620131abfb1b6d0634",
+  "newEvents":[
+   {"date":"2026-09-02","event":"Joseph followed up again requesting release of the recoverable depreciation."},
+   {"date":"2026-09-06","event":"The carrier confirmed the recoverable depreciation payment for the rescreens has been issued to us and the insured."}
+  ],
+  "update":"The carrier has confirmed the final depreciation payment for the rescreens has been issued. This file is essentially wrapped up pending receipt of the payment.",
+  "needed":null,
+  "threadsRead":["1a05fd58ab014822"],
+  "threadsDropped":[],
+  "trelloItemsAdded":2,
+  "notes":""
  }
-]}
+],
+"checked":6,
+"withNewEvents":5
+}
