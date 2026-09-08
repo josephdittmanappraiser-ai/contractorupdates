@@ -1,0 +1,102 @@
+{
+ "batch": 18,
+ "results": [
+  {
+   "cardId": "6a6caf24f8d0200e38622641",
+   "newEvents": [
+    {"date": "2026-08-14", "event": "The referring contractor asked for a status update on the file."},
+    {"date": "2026-08-17", "event": "Joseph advised the contractor that the carrier confirmed receipt of the demand and the claim was under review."},
+    {"date": "2026-08-20", "event": "The contractor followed up again; Joseph explained the carrier would not share details directly and that his office reached out to the homeowner to check on the adjuster's response."},
+    {"date": "2026-08-24", "event": "The homeowner confirmed she had not yet heard from the carrier's adjuster and said she would follow up herself."},
+    {"date": "2026-08-26", "event": "The carrier appointed its own appraiser, who reached out to move the appraisal forward and shared the signed agreement."},
+    {"date": "2026-08-27", "event": "Joseph selected the umpire and scheduled a solo property inspection with the homeowner for September 1."},
+    {"date": "2026-09-01", "event": "The scheduled inspection had to be rescheduled due to the opposing appraiser's car trouble."},
+    {"date": "2026-09-03", "event": "A new inspection date was set for September 3 and confirmed with the homeowner."}
+   ],
+   "update": "The carrier has appointed its own appraiser and the two sides coordinated a property inspection, now confirmed for September 3, with an umpire already selected in case the appraisers can't agree on value.",
+   "needed": null,
+   "threadsRead": ["1a03f0bb421f7c3a", "19fd95b1fa68877b", "1a020bd8bc5b8fd7", "19ffe3603110434d"],
+   "threadsDropped": ["1a02b088dad3f491", "19febc080135c892", "1a07294873b1173d", "1a07e816e6f0a58e", "1a07e489514f8dae", "1a07e1c13a7b0678", "1a071f507111088c", "1a011b7f5013e6c1", "19a314b8d54860be", "1a07d0e5af89150e", "1a07d0c4fd2d64de", "19eeffd66e39d1d2", "1a040577cc259978", "1a07c40d232cc258", "1a079ea21963bce7", "1a0691ae85e7a939", "1a077c7ec3a1177b", "19fcd25201ad052b", "1a06225e142efd65", "1a0727e27fce12a0", "1a072ae18c7d4d43", "1a0628c3bc6e43ff"],
+   "trelloItemsAdded": 8,
+   "notes": "Most collected threads on this card were for other insureds sharing an appraiser/carrier contact with this file (Eduardo Peralta Yanez, Chasity Cloud Taulton, Johanna Strauss Aguirre, Clayton Grassi, Pedro Rico, Dion Edge, Tim Mclaine, KMAX Farms, Matthew Brown, Agustin Contreras Ledesma, Cynthia & Jack Simmons, Dao Tran, Erin Beasley, Delgado, Ana Tavira, Liles, Bodine) or an internal staff note — all dropped as not this file's history."
+  },
+  {
+   "cardId": "6a665739ce53a7cf5fa898e2",
+   "newEvents": [],
+   "update": "No activity specific to this file was found among the collected threads; the previously recorded status stands.",
+   "needed": null,
+   "threadsRead": [],
+   "threadsDropped": ["1a07d5113767eb62", "1a07d4ec1924e411", "1a07d4121ed6eb0e", "1a079ea21963bce7", "1a0701478aa574aa", "1a06e05e9a9a28cd", "1a062c13f06f95f5", "1a062bb70cb5b803", "1a062b7cc76e29a4", "1a062a8035d6323c", "1a0629f6d002a00e"],
+   "trelloItemsAdded": 0,
+   "notes": "None of the collected threads are about Davette Cooper. Several belong to a different Country Financial claim series where the adjuster is coincidentally named 'Brian Cooper', one is a different insured named 'Cooper, Rachael', one is an internal call-list/admin note, one is a car dealership newsletter, and one (Agustin Contreras Ledesma) belongs to another card. No thread naming Davette Cooper was among those collected, so nothing could be added."
+  },
+  {
+   "cardId": "6a7a62ee83c8cf8474f5e334",
+   "newEvents": [
+    {"date": "2026-08-21", "event": "The carrier's representative sent contact information for the carrier's appraiser assigned to the file."},
+    {"date": "2026-08-22", "event": "Joseph reached out to the carrier's appraiser requesting his umpire list and inspection availability."},
+    {"date": "2026-08-24", "event": "Joseph sent the carrier's appraiser the position and inspection documents to move the file forward."},
+    {"date": "2026-08-26", "event": "The carrier's appraiser sent back the signed agreement naming an umpire and offered inspection dates."},
+    {"date": "2026-08-27", "event": "A joint property inspection was scheduled and confirmed with the homeowner for September 3."}
+   ],
+   "update": "The carrier's appraiser has been identified and a signed agreement with an umpire is in place; a joint inspection is scheduled for September 3, after which the two appraisers will compare their damage estimates.",
+   "needed": null,
+   "threadsRead": ["1a02b088dad3f491", "1a025e580675d490"],
+   "threadsDropped": ["19ea8e0f67d4776c", "1a01d376b71912b9"],
+   "trelloItemsAdded": 5,
+   "notes": "Dropped two threads (19ea8e0f67d4776c, 1a01d376b71912b9) that were actually about a different insured, Sandra Cavazos / RVOS claim R2600590, not Eduardo Peralta Yanez."
+  },
+  {
+   "cardId": "6a5fee7437a04f8b87dcc483",
+   "newEvents": [
+    {"date": "2026-08-14", "event": "The referring contractor asked for a status update on the file."},
+    {"date": "2026-08-15", "event": "Joseph sent the carrier's appraiser a list of proposed umpires."},
+    {"date": "2026-08-17", "event": "Joseph told the contractor they were still waiting on the carrier's appraiser to confirm availability for the inspection."},
+    {"date": "2026-08-17", "event": "The carrier's appraiser agreed on an umpire and the signed agreement was exchanged."},
+    {"date": "2026-08-20", "event": "Joseph followed up with the carrier's appraiser proposing an inspection date of August 26."},
+    {"date": "2026-08-24", "event": "The carrier's appraiser said he could not make it that week and would follow up with new dates."},
+    {"date": "2026-08-26", "event": "The carrier's appraiser proposed a solo inspection date of September 4."},
+    {"date": "2026-08-28", "event": "The September 4 inspection was confirmed with the homeowner, including interior access."},
+    {"date": "2026-09-03", "event": "Photos of the property were shared to support the file."},
+    {"date": "2026-09-03", "event": "Joseph reminded the carrier's appraiser of the confirmed September 4 inspection."},
+    {"date": "2026-09-07", "event": "The contractor requested a status update on this and other files."}
+   ],
+   "update": "The carrier's appraiser confirmed a solo property inspection for September 4; once that inspection is complete, the two sides can compare damage estimates.",
+   "needed": null,
+   "threadsRead": ["1a07e3f559c69de3", "1a066dbb8901faed", "1a001dd69216d8a6", "19ffb4f0d13ad6c1", "19faf03ae73595ee"],
+   "threadsDropped": ["1a05eafd84e6f6bf"],
+   "trelloItemsAdded": 11,
+   "notes": "Dropped 1a05eafd84e6f6bf, which is about a different insured (Becker, Overland Park KS) handled by the same carrier appraiser."
+  },
+  {
+   "cardId": "6a7222f50e3c19ba4ed2ecf3",
+   "newEvents": [
+    {"date": "2026-08-18", "event": "The carrier confirmed the public adjuster's representation had been added to the file."},
+    {"date": "2026-08-21", "event": "The carrier formally accepted the appraisal demand for the file."}
+   ],
+   "update": "The carrier's appraiser has completed his inspection and sent over his proposed estimate and settlement position, concluding the damage doesn't support a full roof replacement for this date of loss; Joseph is reviewing before responding.",
+   "needed": null,
+   "threadsRead": ["1a079ea21963bce7", "1a06fe700e44723e", "1a06cde6e7118640", "1a025a010ddafbc2", "1a024d6cb2fa0ffb", "1a0214c3ec89ad2b", "1a01673f089996a8", "1a00e2e1f2739578", "1a00e210157c8ac5", "1a0018180083bbd1", "19fee68a112aff83"],
+   "threadsDropped": ["19ff36975d73a80d"],
+   "trelloItemsAdded": 2,
+   "notes": "Most of what these threads contained (umpire selection, DOA exchange, inspection scheduling and confirmation, the appraiser's proposed award/estimate) was already on the card's checklist from a prior pass, so only two genuinely new items were added. Dropped 19ff36975d73a80d, a different Allstate claim (000827477167) for a different insured."
+  },
+  {
+   "cardId": "6a3c4cfe5cb3bcec5dcea75d",
+   "newEvents": [
+    {"date": "2026-08-17", "event": "The signed agreement naming the umpire was exchanged with the carrier's appraiser."},
+    {"date": "2026-08-18", "event": "The homeowner confirmed the joint property inspection for September 4."},
+    {"date": "2026-09-03", "event": "Both sides confirmed the September 4 inspection would proceed as scheduled."},
+    {"date": "2026-09-08", "event": "Joseph asked the carrier's appraiser to send over the carrier's estimate."}
+   ],
+   "update": "The joint property inspection took place September 4, and Joseph is now waiting on the carrier's appraiser to send over his estimate so the two positions can be compared.",
+   "needed": null,
+   "threadsRead": ["1a063ed09a4c5728", "1a00733047e19b90", "1a001d42fc57bba2", "1a06777077dc679e"],
+   "threadsDropped": ["19fce86c5ed0e05c"],
+   "trelloItemsAdded": 4,
+   "notes": "Dropped 19fce86c5ed0e05c, a general multi-client thread with the contractor covering other insureds (Atef Abdalla, Gustavo Uretafrias, etc.) with no substantive update specific to this file."
+  }
+ ],
+ "checked": 6,
+ "withNewEvents": 5
+}
