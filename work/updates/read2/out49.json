@@ -1,0 +1,79 @@
+{
+ "batch": 49,
+ "results": [
+  {
+   "cardId": "6a2c4aa8137380456988c831",
+   "newEvents": [
+    {"date": "2026-09-06", "event": "Joseph followed up with the referring public adjuster's office to check on the status of this file since no carrier-appointed appraiser had made contact yet."}
+   ],
+   "update": "The appraisal invocation with Allstate remains pending; Joseph checked in with the referring adjuster's office on September 6 to confirm the file is still active and awaiting a carrier-appointed appraiser. No response specific to this claim has come back yet.",
+   "needed": null,
+   "threadsRead": ["1a07902b7d2e81ba"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 1,
+   "notes": "All other threads on this file's list predate the record (newest date not later than searchAfter) and were not opened."
+  },
+  {
+   "cardId": "6a317497fa833448ea1e29c6",
+   "newEvents": [
+    {"date": "2026-09-06", "event": "Joseph followed up with the referring public adjuster's office to check on the status of this file since no carrier-appointed appraiser had made contact yet."}
+   ],
+   "update": "The appraisal was re-invoked with Allstate in late July with our estimate, photo documentation, and the signed agreement submitted; Joseph checked in again with the referring office on September 6 since Allstate still has not named an appraiser.",
+   "needed": null,
+   "threadsRead": ["1a07902b7d2e81ba", "19fa515dc25b6e6d"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 1,
+   "notes": "The 19fa515dc25b6e6d thread's only content (the July 27 re-invocation with attachments, and a July 28 receipt acknowledgment) falls on or before searchAfter and is already reflected on the card."
+  },
+  {
+   "cardId": "6a3aaa0101533bd73328fb95",
+   "newEvents": [
+    {"date": "2026-09-06", "event": "Joseph followed up with the referring public adjuster's office to check on the status of this file since no carrier-appointed appraiser had made contact yet."}
+   ],
+   "update": "The appraisal with State Farm remains pending; Joseph checked in with the referring office on September 6 to confirm status. No carrier-appointed appraiser has been named yet.",
+   "needed": null,
+   "threadsRead": ["1a07902b7d2e81ba"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 1,
+   "notes": "All other threads on this file's list predate the record and were not opened."
+  },
+  {
+   "cardId": "6a3d3846ff9fa998dc74b9ea",
+   "newEvents": [
+    {"date": "2026-09-06", "event": "Joseph followed up with the referring public adjuster's office to check on the status of this file since no carrier-appointed appraiser had made contact yet."}
+   ],
+   "update": "The appraisal invocation remains pending; Joseph checked in with the referring office on September 6 to confirm status. No carrier-appointed appraiser has been named yet.",
+   "needed": null,
+   "threadsRead": ["1a07902b7d2e81ba"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 1,
+   "notes": "The only other thread on this file's list predates the record and was not opened."
+  },
+  {
+   "cardId": "6a3e9ceadb17387f6b18c9e9",
+   "newEvents": [
+    {"date": "2026-09-06", "event": "Joseph followed up with the referring public adjuster's office to check on the status of this file since no carrier-appointed appraiser had made contact yet."}
+   ],
+   "update": "This file's card record has no claim number or property address on file; the only confirmed activity since the last update was Joseph's September 6 status-check with the referring office, which lists this appraisal as invoked June 26 with no carrier-appointed appraiser named yet.",
+   "needed": null,
+   "threadsRead": ["1a07902b7d2e81ba"],
+   "threadsDropped": ["1a07d2fd2689eb93", "1a07d0c4fd2d64de", "1a070153555e4621", "1a07013e5f33bbd3", "1a07012384cc1079", "1a06d8a9c9638da4", "1a0634832f38cf59", "1a05e2a83a1f11f1", "1a05876d09c4d852", "1a04a3b4986d98ef", "1a049a2ca5f36465", "1a04573f5a79b12b", "1a04444171f9ae96", "1a0211b35491171c", "1a03f836f3dcaa80"],
+   "trelloItemsAdded": 1,
+   "notes": "Fifteen threads collected by the scan were all about other people/files (a Huy Hoang/Leander TX claim, internal staff weekly batch-summary emails covering many unrelated clients, Gilberto Peña, a Roto-Rooter multi-client status list, a Laxminar Farmers claim, a Pankaj Bansal/Homesite claim, Leticia Perez in El Paso, Nimesh Patel x2, a Sal Marcuz/Khader Mohiuddin Allstate claim, and a Jose Gallegos/Trident claim) — likely swept in because this card's address field literally contains the text 'Date of Loss:2/14/2026', which several unrelated claims also share. None named this insured, her claim number, or her address, so all were dropped."
+  },
+  {
+   "cardId": "6a4691255a06c6b045c9ca71",
+   "newEvents": [
+    {"date": "2026-09-06", "event": "Joseph followed up with the referring public adjuster's office to check on the status of this file, and the office flagged it as one to prioritize following up on."}
+   ],
+   "update": "The appraisal remains pending with the carrier; Joseph checked in with the referring office on September 6, and the office confirmed this file is a priority to keep following up on. No carrier-appointed appraiser has been named yet.",
+   "needed": null,
+   "threadsRead": ["1a07902b7d2e81ba"],
+   "threadsDropped": ["1a07bd9b89062897", "1a039d127e88204a", "1a05ec600056de21", "1a062ce58b74f4d9", "1a06f75cef22f10d", "1a06d882f3c314bf", "1a03a47b3cc0c662", "1a06331a1ddd6946", "19f6bef6867d84c1", "19ffbdd523a15c9f", "1a04e2240183c532", "1a04e0515209d36e", "1a04616e3d652880", "19ffbeb62d779dc2", "1a0112eabc258864", "1a017dce30f78c54", "1a01c15308f07f14", "1a07942797762117", "1a069cf62025bf87"],
+   "trelloItemsAdded": 1,
+   "notes": "Eighteen other threads on this file's list belonged to different insureds/claims (Carolina Siller, Fatehelrahman Elimam, Xu Ouyang x3, Abdulkadir Taskiran, a TWIA claim under a different contractor, Ritika Pawar & Akshay Desai, Brenda Tranchon, Promise Chidi, Alins Perez/Rakesh Kalidindi, a State Farm Murphy/Taylor claim) or were LinkedIn notifications; none named this insured, her claim number, or her address, so all were dropped. Two threads with only 'JONES' in the subject (an estimate and an award letter from an independent appraiser) could not be confirmed as this file — no claim number or address was given in either — so they were excluded rather than risk crediting another Jones client's documents to this file."
+  }
+ ],
+ "checked": 6,
+ "withNewEvents": 6
+}
