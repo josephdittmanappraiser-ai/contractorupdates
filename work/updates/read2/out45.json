@@ -1,0 +1,126 @@
+{
+  "batch": 45,
+  "results": [
+    {
+      "cardId": "69efa40d05aa3e8c0be44cff",
+      "newEvents": [
+        {
+          "date": "2026-09-06",
+          "event": "Joseph sent another status check to No Stress Claims; still no carrier-named appraiser has responded."
+        }
+      ],
+      "update": "Joseph checked in with the referring firm again this week; the carrier still hasn't named an appraiser months after the demand was invoked. No action needed from your side — we're waiting on the carrier.",
+      "needed": null,
+      "threadsRead": ["1a07902b7d2e81ba"],
+      "threadsDropped": [],
+      "trelloItemsAdded": 1,
+      "notes": ""
+    },
+    {
+      "cardId": "69f295c61657cbfc0768ff22",
+      "newEvents": [
+        {
+          "date": "2026-09-06",
+          "event": "Joseph's office sent a status check to the referring attorney's office asking whether they were still pursuing the appraisal on this file."
+        }
+      ],
+      "update": "Joseph's office checked in with the referring attorney's office on this file's status; still waiting to hear back on opposing counsel and whether a carrier appraiser has been named. No action needed from your side.",
+      "needed": null,
+      "threadsRead": ["1a07902c39f746da"],
+      "threadsDropped": [],
+      "trelloItemsAdded": 0,
+      "notes": "This event was already present on the Trello checklist from a prior pass, so no new checklist item was added."
+    },
+    {
+      "cardId": "69fa3cfc64a9b5f3740f341a",
+      "newEvents": [
+        {
+          "date": "2026-09-06",
+          "event": "Joseph sent another status check to No Stress Claims; still no carrier-named appraiser has responded."
+        }
+      ],
+      "update": "Joseph checked in with the referring firm again this week; the carrier still hasn't named an appraiser. No action needed from your side — we're waiting on the carrier.",
+      "needed": null,
+      "threadsRead": ["1a07902b7d2e81ba"],
+      "threadsDropped": [],
+      "trelloItemsAdded": 1,
+      "notes": ""
+    },
+    {
+      "cardId": "69fa63aadc50d35a9c335f81",
+      "newEvents": [
+        {
+          "date": "2026-09-06",
+          "event": "Joseph sent another status check to No Stress Claims; still no carrier-named appraiser has responded."
+        }
+      ],
+      "update": "Joseph checked in with the referring firm again this week; the carrier still hasn't named an appraiser. No action needed from your side — we're waiting on the carrier.",
+      "needed": null,
+      "threadsRead": ["1a07902b7d2e81ba"],
+      "threadsDropped": [],
+      "trelloItemsAdded": 1,
+      "notes": ""
+    },
+    {
+      "cardId": "69fa6451ee5b4bf8aad12f7b",
+      "newEvents": [
+        {
+          "date": "2026-09-06",
+          "event": "Joseph sent another status check to No Stress Claims; still no carrier-named appraiser has responded."
+        }
+      ],
+      "update": "Joseph checked in with the referring firm again this week; the carrier still hasn't named an appraiser. No action needed from your side — we're waiting on the carrier.",
+      "needed": null,
+      "threadsRead": ["1a07902b7d2e81ba"],
+      "threadsDropped": [],
+      "trelloItemsAdded": 1,
+      "notes": ""
+    },
+    {
+      "cardId": "69fa6faa36a150b6ef2f5518",
+      "newEvents": [
+        {
+          "date": "2026-09-06",
+          "event": "Joseph sent another status check to No Stress Claims; still no carrier-named appraiser has responded."
+        }
+      ],
+      "update": "Joseph checked in with the referring firm again this week; the carrier still hasn't named an appraiser. No action needed from your side — we're waiting on the carrier.",
+      "needed": null,
+      "threadsRead": [
+        "1a07902b7d2e81ba",
+        "1a0727e27fce12a0",
+        "1a06da86ce7e620b",
+        "1a05ea696281e43c",
+        "1a043c9edfa147ab",
+        "1a03e39a47ef53a7",
+        "19faef744e605b95",
+        "1a0256bb544c8f5e",
+        "19ef130ffaa40977",
+        "19ff25ab6d8f836f",
+        "19ef5d82c0315b69",
+        "19fad743ab35ea17",
+        "19f8250078d669bc",
+        "19efb4697d45f31b"
+      ],
+      "threadsDropped": [
+        "1a0727e27fce12a0",
+        "1a06da86ce7e620b",
+        "1a05ea696281e43c",
+        "1a043c9edfa147ab",
+        "1a03e39a47ef53a7",
+        "19faef744e605b95",
+        "1a0256bb544c8f5e",
+        "19ef130ffaa40977",
+        "19ff25ab6d8f836f",
+        "19ef5d82c0315b69",
+        "19fad743ab35ea17",
+        "19f8250078d669bc",
+        "19efb4697d45f31b"
+      ],
+      "trelloItemsAdded": 1,
+      "notes": "13 of the 14 candidate threads were surname-collision false matches (a different Louis, e.g. Louis Irving, Louis Courtin, Louis XV furniture, or unrelated insureds Ana Tavira, David Cruz, Rong Dai, Robert Martinez, Peter Mora, Sara Spivey, Abel Rodriguez, John Ortega) and were dropped as not belonging to this file. Only the shared No Stress Claims status-check thread was actually about this insured/claim/address."
+    }
+  ],
+  "checked": 6,
+  "withNewEvents": 6
+}
