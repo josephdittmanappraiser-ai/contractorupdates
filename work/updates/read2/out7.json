@@ -33,8 +33,48 @@
    "threadsDropped": ["19f001ec47948bc5", "19f39368a466ec5c"],
    "trelloItemsAdded": 2,
    "notes": "19f001ec47948bc5 is about a different insured (Vanessa Cruz Gonzalez, a fire/HVAC mitigation claim with CH Fire Restoration) — dropped. 19f39368a466ec5c is about a neighboring property (Jon Mottu) explicitly described in the thread as 'the next street over from Robert Terrazas' — a different client — dropped. Only 19c43191a87a0e52 (Travelers/Wehrle) is genuinely this file; two new events added to Trello."
+  },
+  {
+   "cardId": "6993648c36167ff0baf32a33",
+   "newEvents": [
+    {"date": "2026-08-13", "event": "The settlement check was deposited after the endorsement issue was resolved."},
+    {"date": "2026-08-17", "event": "Funds from the deposited settlement began transferring to the office."}
+   ],
+   "update": "The settlement check has been deposited and the payout is being processed to the office; no other action is needed on this file right now.",
+   "needed": null,
+   "threadsRead": ["1a01154808bfc4c4", "1a00fd1db3be62dd"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 2,
+   "notes": "1a01154808bfc4c4 is an ACH-transfer notice specific to this claim's settlement check. 1a00fd1db3be62dd is a bulk claim-status digest covering many unrelated claims; only its Jitaru line (check deposited 08/13) was used, the rest ignored as belonging to other insureds."
+  },
+  {
+   "cardId": "69962dcecea7166c293a21b4",
+   "newEvents": [
+    {"date": "2026-08-16", "event": "Joseph told Allstate the roof work was completed and requested release of the recoverable depreciation."},
+    {"date": "2026-08-17", "event": "Joseph requested the certificate of completion from Legacy Roofing since Allstate needed it in addition to the photos already provided; Legacy supplied the signed certificate the same day and it was forwarded to Allstate."},
+    {"date": "2026-08-23", "event": "Legacy Roofing confirmed to Joseph which trades were completed (all trades except a few line items), which Joseph then relayed to Allstate to support the depreciation release."},
+    {"date": "2026-09-02", "event": "Joseph followed up with Allstate for the status of the recoverable depreciation release, having received only automated acknowledgments since the completion documents were confirmed."}
+   ],
+   "update": "The roof and gutter work is complete and all documentation Allstate asked for (photos, certificate of completion, trade-scope confirmation) has been sent; Joseph is now pressing Allstate for a firm answer on releasing the recoverable depreciation.",
+   "needed": null,
+   "threadsRead": ["1a010908635c4896", "1a00fc5fb8900dee", "1a00c11c32dd6953", "19d9168e25af8669", "19cd28f754f1e643", "19d94724c9880f44"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 4,
+   "notes": "19d9168e25af8669 (Sirridge/Farmers claim thread) turned out, on reread, to be about a different file entirely and contributed nothing to this card; not counted as a source for any event. Automated 'Log in to review' Allstate notification stubs in 1a00fc5fb8900dee were skipped as content-free."
+  },
+  {
+   "cardId": "699ca27259abc8c1c3d1d82d",
+   "newEvents": [
+    {"date": "2026-05-18", "event": "Joseph told Legacy Roofing the file was sent to the attorney after the carrier denied the reinspection request following its review of the submitted estimate."}
+   ],
+   "update": "The file has been escalated to the attorney after the carrier's reinspection denial; Legacy Roofing's most recent status request (7/23) has not yet been answered.",
+   "needed": null,
+   "threadsRead": ["19d4958aaf6f4bd5"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 1,
+   "notes": "A 2026-07-23 follow-up from Legacy Roofing asking for a status update had no reply in the thread and no new substantive development, so it was not logged as a separate event, only reflected in the update sentence."
   }
  ],
- "checked": 3,
- "withNewEvents": 1
+ "checked": 6,
+ "withNewEvents": 4
 }
