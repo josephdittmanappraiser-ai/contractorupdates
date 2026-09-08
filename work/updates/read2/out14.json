@@ -1,0 +1,91 @@
+{
+ "batch": 14,
+ "results": [
+  {
+   "cardId": "6a710d4f5f5dc30479858bf6",
+   "newEvents": [
+    {"date": "2026-09-01", "event": "Allstate confirmed the claim was accepted into the appraisal process and asked the homeowner to submit updated tax-ID paperwork."}
+   ],
+   "update": "An umpire has been selected and a joint inspection is scheduled for September 10; the signed agreement between appraisers is being prepared. Separately, Allstate has asked the homeowner to submit updated tax-ID paperwork.",
+   "needed": null,
+   "threadsRead": ["1a05ec600056de21", "1a05db3191815bc6"],
+   "threadsDropped": ["19fce86c5ed0e05c"],
+   "trelloItemsAdded": 1,
+   "notes": "Dropped thread 19fce86c5ed0e05c: a multi-client 'Appraisal' thread with the contractor covering Atef Abdalla and Gustavo Uretafrias, not Fatehelrahman Elimam. Most content in thread 1a05ec600056de21 (umpire list, joint inspection, umpire selection) was already recorded on the card's Chain of Events; only the Allstate tax-ID notice was new."
+  },
+  {
+   "cardId": "6a55686279d4c88d32dd012a",
+   "newEvents": [
+    {"date": "2026-08-05", "event": "Joseph followed up with the carrier to check whether an appraiser had been named; the carrier said no formal appraisal request had been received and that a re-inspection would need to happen first."},
+    {"date": "2026-08-20", "event": "Joseph followed up again, and the carrier repeated that a public-adjuster re-inspection was still pending."},
+    {"date": "2026-08-28", "event": "Joseph followed up once more; the carrier maintained the same position."},
+    {"date": "2026-09-02", "event": "The public adjuster's office corrected the carrier, confirming the appraisal had been formally invoked back in July, and provided supporting photos."},
+    {"date": "2026-09-07", "event": "The homeowner confirmed the joint inspection scheduled for September 14 at 8:00 AM, including interior access."}
+   ],
+   "update": "The carrier initially disputed having received a formal appraisal demand, but that has since been resolved: the carrier has agreed to appraisal and named its appraiser, and a joint inspection is confirmed for September 14 at 8:00 AM with interior access.",
+   "needed": null,
+   "threadsRead": ["1a06ca246b35db12", "19f5bc9214aa61a6"],
+   "threadsDropped": ["19fa5aadd77ba279", "1a07cee7b92b0d76", "1a07ceb89c5e3fbd", "1a06964df80a0186", "1a0692617d588971", "1a063a3540e00d3f", "1a062e0066cb19e3", "1a05e534817319a6", "19ebbd2b70bf4d54", "1a0592b6707427c4", "1a068560c228270e", "1a067a322a42abd7", "1a05e01aca85f79b", "1a0598a3f70a2549", "1a0597e7ff1cfdb1"],
+   "trelloItemsAdded": 5,
+   "notes": "Same insured names but a DIFFERENT claim number (202503310173, a prior/related claim) turned up in threads 19fa5aadd77ba279 and 1a0692617d588971 - dropped both since this card's claim is 202605310012. Also dropped 13 threads that matched only on the common surnames Hernandez/Rodriguez but belong to entirely different insureds (Oscar Hernandez-Gamboa & Lilian Dubon claim 818310-GQ, Aabino & Apolonia Hernandez, Paul & Cindy Hernandez, Victor Arzate, Manuel Hernandez, Dorothy Rodriguez, Able Rodriguez, Leo Rodriguez, Veronica Natividad) and one unrelated general group email."
+  },
+  {
+   "cardId": "6a7cf3dd7cab9e252553b135",
+   "newEvents": [
+    {"date": "2026-09-07", "event": "The homeowner confirmed the joint inspection scheduled for September 21 at 10:00 AM, exterior access only."}
+   ],
+   "update": "The joint inspection is confirmed for September 21 at 10:00 AM with exterior access only; next we expect the two appraisers to compare positions after the inspection.",
+   "needed": null,
+   "threadsRead": ["1a05edf2049d7845", "1a05ec7d0008f9bc"],
+   "threadsDropped": ["1a05ff08feee42b8", "1a012b126e58a6ab"],
+   "trelloItemsAdded": 1,
+   "notes": "Dropped two LinkedIn notification emails, unrelated to this file. Everything else in the two read threads through September 6 was already recorded on the card; only the September 7 homeowner confirmation was new."
+  },
+  {
+   "cardId": "6a72236e1d59d0eda6c3b241",
+   "newEvents": [
+    {"date": "2026-08-18", "event": "The carrier's appraiser, Tod Falcomata, was engaged directly and a joint inspection was proposed for August 25."},
+    {"date": "2026-08-20", "event": "Tod Falcomata sent his umpire list for review."},
+    {"date": "2026-08-24", "event": "The August 25 joint inspection had to be cancelled on short notice due to a scheduling conflict; after some friction with the appraiser, a new date of September 10 was agreed."},
+    {"date": "2026-08-28", "event": "Joseph proposed Jeremy Settles as umpire."},
+    {"date": "2026-09-02", "event": "After further rescheduling, the joint inspection with the carrier's appraiser was finalized for September 23 at 11:00 AM."}
+   ],
+   "update": "After some rescheduling, the joint inspection with the carrier's appraiser is now set for September 23 at 11:00 AM; we're still waiting on the public adjuster's office to get the homeowner's confirmation.",
+   "needed": null,
+   "threadsRead": ["1a0350e2c968cf97", "1a015cb5a855e6dc", "1a000da5001c3e62"],
+   "threadsDropped": ["1a001b925b256bce", "19d6a5aef452404a"],
+   "trelloItemsAdded": 5,
+   "notes": "Dropped two threads about a different insured, Brett & Angela Bloch, that were mismatched onto this card. The appraiser-to-appraiser scheduling thread (Tod Falcomata) had never been reflected in the Chain of Events before, even though the parallel homeowner-confirmation thread had; added the missing back-and-forth."
+  },
+  {
+   "cardId": "6a7126a67d672bc6e46cc0c1",
+   "newEvents": [
+    {"date": "2026-08-21", "event": "A follow-up signed agreement was exchanged with the carrier's appraiser."},
+    {"date": "2026-08-21", "event": "The carrier's appraiser sent his position estimate, including roof supervision labor and overhead & profit on interior repairs, for review."},
+    {"date": "2026-08-26", "event": "The mold remediation company submitted supporting dryout and tarp estimate documentation for the file."}
+   ],
+   "update": "The carrier's appraiser has submitted his position estimate for review, and supporting mold-remediation documentation has come in; we're evaluating before responding.",
+   "needed": null,
+   "threadsRead": ["1a03ed0351301695", "1a02242efaf0d03b"],
+   "threadsDropped": ["1a0246f2c3ccb127", "1a06a5d787a931a2", "1a0641bd86d3764a", "1a03b85541abe1bf", "1a03a07654b303ca"],
+   "trelloItemsAdded": 3,
+   "notes": "Dropped five threads that matched on the surname Sanchez or on the same contractor but belong to different insureds/claims: Sandra Sanchez, Maria Sanchez, Aldair Alvarado (claim 26PRTX773899035), and Joe Sanchez (USAA claim 016847551, a different Sanchez client of the same roofing contractor)."
+  },
+  {
+   "cardId": "6a6231f4af9d68101f2e2c05",
+   "newEvents": [
+    {"date": "2026-07-26", "event": "The homeowner confirmed the joint inspection scheduled for July 31 at 2:00 PM."},
+    {"date": "2026-08-03", "event": "Joseph proposed a shortlist of umpire candidates to the carrier's appraiser."},
+    {"date": "2026-08-04", "event": "The carrier's appraiser agreed to Kenny Cleveland as umpire, and the signed agreement was exchanged."}
+   ],
+   "update": "An umpire has been agreed and the signed appraisal agreement exchanged; the joint inspection took place July 31, and we expect estimates to be compared next.",
+   "needed": null,
+   "threadsRead": ["19f907e0a118790e"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 3,
+   "notes": ""
+  }
+ ],
+ "checked": 6,
+ "withNewEvents": 6
+}
