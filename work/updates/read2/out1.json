@@ -24,7 +24,7 @@
    "threadsRead": ["1a07360da71f8861", "1a024fcd17b2daf9", "19fdd5e260d350e2", "19fdd55f672d12e9", "19fd3c0a986df595"],
    "threadsDropped": ["1a07360da71f8861", "1a024fcd17b2daf9", "19fdd5e260d350e2", "19fdd55f672d12e9"],
    "trelloItemsAdded": 1,
-   "notes": "Four of the five threads collected by the scan (1a07360da71f8861, 19fdd5e260d350e2, 19fdd55f672d12e9 — all explicitly 'Rudy Majia Jr' claim #018551777-23/24 — and 1a024fcd17b2daf9, a packout-invoice follow-up tied to the same public adjuster on that Rudy Mejia Jr file) are about a different Mejia entirely, not this card's insured Edwin Mejia. Only 19fd3c0a986df595 (household update sharing carrier correspondence) was kept."
+   "notes": "Four of the five threads collected by the scan (1a07360da71f8861, 19fdd5e260d350e2, 19fdd55f672d12e9 -- all explicitly 'Rudy Majia Jr' claim #018551777-23/24 -- and 1a024fcd17b2daf9, a packout-invoice follow-up tied to the same public adjuster on that Rudy Mejia Jr file) are about a different Mejia entirely, not this card's insured Edwin Mejia. Only 19fd3c0a986df595 (household update sharing carrier correspondence) was kept."
   },
   {
    "cardId": "69bad1ae861bc5abe177df60",
@@ -34,9 +34,39 @@
    "threadsRead": ["1a04b17b7f78100a", "1a020f51095a3aaa", "19fa4dd63ea5ed3c", "19faeb6f47256de4", "19f6c1c60f8fff7c", "19ef4d38af67e849", "19ddff4859fe0dac", "19db15bd06f8a1ce", "19d8862f89560c16", "19d48ecd75cda0c3", "19d2d00ca9e33521", "19d2e53d8672a886", "19cf75246a56a757", "19ca06218534dee4"],
    "threadsDropped": ["1a04b17b7f78100a", "1a020f51095a3aaa", "19fa4dd63ea5ed3c", "19faeb6f47256de4", "19f6c1c60f8fff7c", "19ef4d38af67e849", "19ddff4859fe0dac", "19db15bd06f8a1ce", "19d8862f89560c16", "19d48ecd75cda0c3", "19d2d00ca9e33521", "19d2e53d8672a886", "19cf75246a56a757", "19ca06218534dee4"],
    "trelloItemsAdded": 0,
-   "notes": "Every one of the 14 threads the scan collected for 'OLGA GORDON' turned out to belong to someone else, matched purely on the surname 'Gordon': a claim for an insured named Gordon Cloutier (Allstate #0817988678 — several threads), a claim for Nathaniel Gordon Druckerman (State Farm, a different property), a claim for Tyson Gordon (a colleague appraiser asking for advice, explicitly not Joseph's file), a Liberty Mutual claim for a Tammana insured handled by an adjuster named Rickeeta Gordon, a Travelers claim for a business named P&D Paint Body Shop, an unrelated title-closing package, a 'Minnie Hadley' appraisal referral, and a contractor's multi-client pipeline update that only mentions Gordon Cloutier in passing. None reference this card's insured, and this card's existing checklist history (a small ACV supplement claim) doesn't match any of them. No update to report."
+   "notes": "Every one of the 14 threads the scan collected for 'OLGA GORDON' turned out to belong to someone else, matched purely on the surname 'Gordon': a claim for an insured named Gordon Cloutier (Allstate #0817988678 -- several threads), a claim for Nathaniel Gordon Druckerman (State Farm, a different property), a claim for Tyson Gordon (a colleague appraiser asking for advice, explicitly not Joseph's file), a Liberty Mutual claim for a Tammana insured handled by an adjuster named Rickeeta Gordon, a Travelers claim for a business named P&D Paint Body Shop, an unrelated title-closing package, a 'Minnie Hadley' appraisal referral, and a contractor's multi-client pipeline update that only mentions Gordon Cloutier in passing. None reference this card's insured, and this card's existing checklist history (a small ACV supplement claim) doesn't match any of them. No update to report."
+  },
+  {
+   "cardId": "69cbc29aa329a43beef4020f",
+   "newEvents": [],
+   "update": "",
+   "needed": null,
+   "threadsRead": ["1a06cdd432efe228", "1a062bb70cb5b803", "1a062a8035d6323c", "1a062b7cc76e29a4", "1a0629f6d002a00e", "1a0357bee65cb961", "1a035850e3ad279f", "1a020bbeb581e25d", "1a01c3b60fe2d794", "19fb084342e7caed", "19f42cfca732662e", "19fb4adbd0747ae6", "19f7fefe0a3bbc6d", "19f23a86bc446a09", "19f23b086b1576f7", "19dc25d7a040d211", "19da0e9f1edff965", "19d921673fe0c5fe", "19d34ee483b0f61d"],
+   "threadsDropped": ["1a06cdd432efe228", "1a062bb70cb5b803", "1a062a8035d6323c", "1a062b7cc76e29a4", "1a0629f6d002a00e", "1a0357bee65cb961", "1a035850e3ad279f", "1a020bbeb581e25d", "1a01c3b60fe2d794", "19fb084342e7caed", "19f42cfca732662e", "19fb4adbd0747ae6", "19f7fefe0a3bbc6d", "19f23a86bc446a09", "19f23b086b1576f7", "19dc25d7a040d211", "19da0e9f1edff965", "19d921673fe0c5fe", "19d34ee483b0f61d"],
+   "trelloItemsAdded": 0,
+   "notes": "All 19 threads the scan collected for 'Sherman Cole' turned out to belong to other insureds, matched on a Country Financial claims manager named Collette Cole (and, in one case, an out-of-office reply from her). The threads actually concern Faris Farassati (four separate properties/claims), Christian McCall, Brian Bevil, Stephen Becker, Daniel Martinez, Vanessa Gonzalez, Robert Caballero, and Hartwig Raphel -- none of them Sherman Cole. This card's own checklist history (a small ACV supplement, roof/gutters/interior) does not match any of these. No update to report."
+  },
+  {
+   "cardId": "69d9f8eb48f73ede819925e1",
+   "newEvents": [],
+   "update": "",
+   "needed": null,
+   "threadsRead": ["1a01fd50b8c34710", "1a010fc02b856a49", "1a00d0b076f23943", "19f9d4a8ae452be1", "19f95c557c03f71f", "19f95ced5a41714c", "19fa61173476ee8b", "19f95402d73ff781"],
+   "threadsDropped": ["1a01fd50b8c34710", "1a010fc02b856a49", "1a00d0b076f23943", "19f9d4a8ae452be1", "19f95c557c03f71f", "19f95ced5a41714c", "19fa61173476ee8b", "19f95402d73ff781"],
+   "trelloItemsAdded": 0,
+   "notes": "All 8 threads the scan collected for 'Francisco Munoz' turned out to belong to other insureds sharing the surname Munoz only coincidentally: 'Kaleb Munoz' (three threads plus a related bounce), and an 'Evan Bachman' Allstate claim whose contractor-side contact happens to be a Jesse Munoz at Hermes Renovations (three threads). One thread was a Liberty Mutual claim for insured Fidencia Mondragon with no Munoz connection at all. None reference this card's actual insured. No update to report."
+  },
+  {
+   "cardId": "6a1de15ace6e2a60f2d99232",
+   "newEvents": [],
+   "update": "",
+   "needed": null,
+   "threadsRead": ["1a0354ba4e4c76d2", "1a0155f6c7151bd3", "1a011f7eafa1438a", "1a011caeca80d59f", "1a0105b86163c0d2", "1a00ac6d690c3536", "19fce469436fbe76", "19fa5ee55cd88254", "19eb8ee178ec53d1", "19f8aeff0b13682b", "19f3d5b59d16edcb", "19f2dba3fcba507f", "19f2d6a0eeed83b6", "19eff6ca01f45562"],
+   "threadsDropped": ["1a0354ba4e4c76d2", "1a0155f6c7151bd3", "1a011f7eafa1438a", "1a011caeca80d59f", "1a0105b86163c0d2", "1a00ac6d690c3536", "19fce469436fbe76", "19fa5ee55cd88254", "19eb8ee178ec53d1", "19f8aeff0b13682b", "19f3d5b59d16edcb", "19f2dba3fcba507f", "19f2d6a0eeed83b6", "19eff6ca01f45562"],
+   "trelloItemsAdded": 0,
+   "notes": "All 14 threads the scan collected for 'Margaret Davidson' turned out to belong to other insureds, matched on the surname of an opposing appraiser (Lela Davidson, Integrity Appraisal Services) and, separately, an Allstate rep (Lynsy Davidson). The threads actually concern Alfonso Phillips, Varun Sudunagunta (three threads), Brzostowski, Clint Castillo (two threads), a Reddy claim, the Gigouts, Nick Roccaforte, Kelly Baca, a Stubbs claim, and a Woods/York claim -- none of them Margaret Davidson. This card's own checklist history (a small ACV supplement referred by Linear Roofing) does not match any of these. No update to report."
   }
  ],
- "checked": 3,
+ "checked": 6,
  "withNewEvents": 2
 }
