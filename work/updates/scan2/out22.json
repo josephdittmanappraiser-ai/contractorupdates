@@ -185,6 +185,21 @@
    {"id":"19ff6b8255610930","newest":"2026-08-12","from":"franciscoj@legacyroofinggc.com"},
    {"id":"19ffd037ca9e8ede","newest":"2026-08-13","from":"allstate@service01.email-allstate.com"}
   ],
+  "newestOverall":"2026-09-07","hasNewer":true},
+
+ {"cardId":"6a4fa6c5891325899dfd584b","searchAfter":"2026-08-04",
+  "threads":[
+   {"id":"19f4775e8e97c675","newest":"2026-09-07","from":"mstites5@gmail.com"},
+   {"id":"19f44b33a97bbf2a","newest":"2026-07-09","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19f43cb8df6d8854","newest":"2026-07-08","from":"propertyclaims@longacreadj.com"},
+   {"id":"19dbae03c621553c","newest":"2026-04-23","from":"CampbellOffice1@proton.me"},
+   {"id":"199bcc759d849f94","newest":"2025-10-16","from":"bentheappraiser@gmail.com"},
+   {"id":"199d989bb49aca1a","newest":"2025-10-16","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"199c1743a9d65aaa","newest":"2025-10-16","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"198c3e6801c3d745","newest":"2025-11-20","from":"josh@palcoclaims.com"},
+   {"id":"198ed65501190978","newest":"2025-11-21","from":"Claims@pcaclaims.com"},
+   {"id":"19877f846fb2a199","newest":"2025-08-05","from":"josephdittmanappraiser@gmail.com"}
+  ],
   "newestOverall":"2026-09-07","hasNewer":true}
 ],
-"checked":11}
+"checked":12}
