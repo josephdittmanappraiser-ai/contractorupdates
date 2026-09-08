@@ -1,0 +1,73 @@
+{
+ "batch": 25,
+ "results": [
+  {
+   "cardId": "69bb337321eaa03172a77072",
+   "newEvents": [],
+   "update": "The wind claim still has not been formally opened for appraisal with State Farm. Joseph followed up directly with the carrier's appraiser, who confirmed nothing has changed and believes the carrier is waiting on a request from the homeowner.",
+   "needed": null,
+   "threadsRead": ["19f7d915eb18a046", "19e417e9d8c0f7b7"],
+   "threadsDropped": ["19f50e9bbd2ef2dd", "19f2899c58a4b3af"],
+   "trelloItemsAdded": 0,
+   "notes": "Both new-content threads (Sept status recap and the Sept 4 follow-up) were already recorded on the Trello checklist, so nothing new was added. Dropped 19f50e9bbd2ef2dd (invoice chase on the companion, already-resolved water claim, not the wind claim this card tracks) and 19f2899c58a4b3af (an unrelated insured, Laura Nuckolls, picked up by the scan in error)."
+  },
+  {
+   "cardId": "6a56e025fd687db2041628ae",
+   "newEvents": [
+    {"date": "2026-09-03", "event": "The contractor checked in for a status update; Joseph's office confirmed our position remained under review with the carrier's appraiser."}
+   ],
+   "update": "Our position went out August 15. The carrier's appraiser followed up and sent his own position back September 6, which Joseph is now reviewing.",
+   "needed": null,
+   "threadsRead": ["19feccf177278f93", "19f41f6e0aa6fc39"],
+   "threadsDropped": ["1a06d56550ae73f6", "1a0167a15f16fc06", "1a01678f99c8d792", "19fc48339db6b4a8"],
+   "trelloItemsAdded": 1,
+   "notes": "The DOA/position thread and the tree-claim thread are the same file (same insured, same claim number visible on attachments). Dropped four threads about other insureds entirely (Barbara Curtis, Dessarae Garza x2, and a Pastrana invoice) that the scan picked up by surname/pattern overlap."
+  },
+  {
+   "cardId": "6a5ebbe8d413f95bf9cdafb7",
+   "newEvents": [],
+   "update": "The carrier's appraiser sent his position back on September 7, reporting he found no hail damage and asking whether to move this to an umpire to resolve the disagreement.",
+   "needed": null,
+   "threadsRead": ["1a01259748fd3b59"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 0,
+   "notes": "All new events in this thread were already on the Trello checklist."
+  },
+  {
+   "cardId": "6a29d844f9de83a174593d23",
+   "newEvents": [
+    {"date": "2026-08-06", "event": "The carrier's appraiser confirmed the joint inspection went well and said he would prepare his cost estimate for comparison against ours."},
+    {"date": "2026-08-26", "event": "The carrier's appraiser sent his signed umpire agreement along with his estimate for the repairs; Joseph countersigned and confirmed receipt."}
+   ],
+   "update": "The joint inspection is complete and umpire terms are formally in place. The carrier's appraiser sent his repair estimate on August 26, and Joseph is now comparing it against our own before responding.",
+   "needed": null,
+   "threadsRead": ["1a03f7e1b685bdb9", "1a03f757cef6ea82", "19ef5d11190a4a73"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 2
+  },
+  {
+   "cardId": "6a4d7a3dbe6623289690f6e9",
+   "newEvents": [],
+   "update": "No new movement since last report. The carrier's appraiser has followed up twice (August 27 and September 5) asking for a status update, without a response sent back yet on this thread.",
+   "needed": null,
+   "threadsRead": ["19f3ddfce99f7aee"],
+   "threadsDropped": ["1a07e489514f8dae", "1a07d0c4fd2d64de", "1a0736cc9849d26f", "1a071f507111088c", "1a06e05b880ce34c", "1a03af3d1f780439", "1a06d9d4b4b51504", "1a06b79a132ac9a4", "1a063a3540e00d3f", "1a05edf2049d7845", "1a03597362424dfd", "1a043c9edfa147ab", "1a03f4b0b2629803", "1a03e39a47ef53a7", "1a039fc661a44e55"],
+   "trelloItemsAdded": 0,
+   "notes": "Of the 20 threads the scan collected for this card, only one (RUSSELL #2511225) actually names this insured and matches. The other 15 checked in this pass are all about different people or claims entirely (Barbara Curtis, Mike Russell, Paul & Cindy Hernandez, Dianne/Kenneth Joaquin, John Johnson, Fawad Haider, Peter Mora, Robert Martinez, the Shaw file, Clayton Grassi, an unnamed asbestos/ALE dispute with Travelers, and an internal multi-file status memo) -- all swept in by 'Russell' appearing somewhere (an umpire candidate's name, another client's surname, an appraiser's name, etc.), exactly the false-positive pattern this pass was warned about. The one confirmed thread's latest content was already reflected on the Trello checklist."
+  },
+  {
+   "cardId": "6a1f66b1091b0a2c6671543b",
+   "newEvents": [
+    {"date": "2026-08-18", "event": "The carrier's appraiser sent over his position on the claim for review."}
+   ],
+   "update": "The carrier's appraiser sent over his position on the claim in mid-August; Joseph is comparing it against our own estimate before responding.",
+   "needed": null,
+   "threadsRead": ["1a0169587434946e"],
+   "threadsDropped": ["19fba229287afa2f", "19e406e8e93599e6", "19dabfc70ae2525c", "19da644e1bb99216"],
+   "trelloItemsAdded": 1,
+   "notes": "Card has no claim number or address on file, so the match relied on the insured's name, which is unusual enough to be a reliable match in the one relevant thread. Dropped a generic relationship/invoice email with no insured named, plus three threads that are clearly about other claims and insureds (Stephanie Flores, Vincent Osmar/claims 100809 & 92350)."
+  }
+ ],
+ "checked": 6,
+ "withNewEvents": 4
+}
