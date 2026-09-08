@@ -1,0 +1,96 @@
+{
+ "batch": 42,
+ "results": [
+  {
+   "cardId": "6a3998f421f504db032cadef",
+   "newEvents": [],
+   "update": "",
+   "needed": null,
+   "threadsRead": [],
+   "threadsDropped": [
+    "1a06879de131c074","1a066dbb8901faed","1a064b1ff0a96e09","1a049cf5bf02aa44",
+    "1a0451001d620682","1a043e39463d0f17","1a03afb7a8f3e1e9","1a03af4b2e4d6b9d",
+    "1a03af43174e8402","1a03af3aaf86b816","1a03a47b3cc0c662","1a01f93026717791",
+    "19ffca297a7133e6","19ff7545a8fe41ba","19fcd28689930612","19fccf03db750fb9",
+    "19fc9e0d5e71a294","19fc81b45c60ec19","19fc7e36f6d108d3","19fc7cdd29ab2b62"
+   ],
+   "trelloItemsAdded": 0,
+   "notes": "None of the 20 flagged threads are about this file. They are a mix of: (a) other Allstate insureds entirely unrelated by name (Nafisa Jeevanjee, Joyce Turner, Audrey Skweres, Juan Bernal & Maria Bazante, Carolina & Carlos Siller, Anita Shelley, Axel Mejias Sanchez, Shane Laxen, Agustin Contreras Ledesma, Chad West, Gloria G Armand, Jose & Diana Lopez, Carlos Sifuentes Ramirez) that a public-adjuster mailbox (amazingadjuster@gmail.com) sends invocation letters for in bulk; and (b) internal logistics with a field photographer named Dylan Potter, whose own surname coincidentally matches this card's insured (Patricia Potter) but who is not connected to her claim. No thread actually mentions Patricia Potter. No update was made to the card."
+  },
+  {
+   "cardId": "6a6bd7e9315695d6f0443be1",
+   "newEvents": [
+    {"date": "2026-08-17", "event": "Joseph's office sent the appraisal demand letter and supporting documents to the carrier on the homeowner's behalf."},
+    {"date": "2026-08-25", "event": "Joseph's office resent the demand to the carrier after getting no response and no claims specialist assigned."},
+    {"date": "2026-08-27", "event": "The carrier declined to move forward with the appraisal process."},
+    {"date": "2026-08-27", "event": "Joseph's office followed up with the homeowner to get the full text of the carrier's decision."},
+    {"date": "2026-09-05", "event": "Joseph flagged the file may need to go to an attorney next and asked to set up a call with the homeowner."}
+   ],
+   "update": "The carrier declined to proceed with the appraisal in late August. Joseph is now discussing next steps directly with the homeowner, including whether the file needs to move to an attorney.",
+   "needed": null,
+   "threadsRead": ["1a00ebf74bbd4015","1a03aa91d0c957cd","1a0447a87604ac6c","1a05dd0a7ee3c310"],
+   "threadsDropped": [
+    "1a07c314131ccbbd","1a03f24def225fde","1a05e5d533de6358","1a057ea0614419f5",
+    "1a04e94929cb5a54","1a03febbc25dba4e","1a034a2e15a67eec","1a011676350b3576"
+   ],
+   "trelloItemsAdded": 5,
+   "notes": "Card is titled Carlos Morgan but all live correspondence for this claim (0198S577H, roofer Roof Turtle cc'd throughout) is with Denise Morgan at morganden68@gmail.com -- treated as the same file/household. One dropped thread (1a03febbc25dba4e, 'Kevin Hill... FORT MORGAN, CO') is a false positive matched on the city name 'Fort Morgan' rather than the surname Morgan; it's a different insured, different state. Other dropped threads are unrelated insureds/invoices/an iink batch digest that doesn't mention Morgan."
+  },
+  {
+   "cardId": "6a7111ed1bc516d92bf1c376",
+   "newEvents": [],
+   "update": "",
+   "needed": null,
+   "threadsRead": ["19fc7cdd29ab2b62"],
+   "threadsDropped": [
+    "1a07bf8de6725943","1a06d017fe5bcf0a","1a06b1f110ccaaa6","1a06a5d787a931a2",
+    "1a067b5f4311efb7","1a05f8b12bd144c7","1a0640fe5f4be384","1a05fa146e49dfaa",
+    "1a05c456a7ee188a","1a05af525d317894","1a0588053305ef8c","1a050a869d77bc1f",
+    "1a049feeb83818a8","1a049a4375667662","1a0491fa2e0e92a0","19f665da1dc2d8f7",
+    "1a04642b574d5eda"
+   ],
+   "trelloItemsAdded": 0,
+   "notes": "Only one flagged thread (19fc7cdd29ab2b62) is actually this file -- Carlos Sifuentes Ramirez, claim 0830953030, 20758 Hardwick Oaks Dr -- but its newest message is dated exactly at searchAfter (2026-08-03), so there is nothing new in it. Every other flagged thread belongs to unrelated files: several different other Ramirez clients (Juan Ramirez C5257, Yolanda Mariel de Ramirez 20163148/'20163148 Ramirez' fence-appraisal thread with Prestige Claims), plus unrelated Kumar/Sharma, Gwen Goffney, Sergio Lopez, Ruben Ortega, Maria Sanchez, Ramon Villagomez, Mark Connelly/Joshua Lopez, Ronald Orr, and several Lawgical Firm files. No update was made to the card."
+  },
+  {
+   "cardId": "6a71126736620bca9cd963a3",
+   "newEvents": [],
+   "update": "",
+   "needed": null,
+   "threadsRead": ["19fc7e36f6d108d3"],
+   "threadsDropped": [
+    "1a07cc0d9dabfada","1a06ca656f52b196","1a062585a44b6b7a","1a05c943aeb6ad0c",
+    "1a04b86e2b4dd0c9","1a043d05fcb322ce","1a0341bed56394b7","1a002289dae9e23d",
+    "19ffc6f2d7f0b5cd","19ff7abccb766c8d","19ff6e2d7aaaaf06"
+   ],
+   "trelloItemsAdded": 0,
+   "notes": "Only one flagged thread (19fc7e36f6d108d3) is actually this file -- Jose & Diana Lopez, claim 0830451829, 2219 Turtle Creek Dr -- but its newest message is dated exactly at searchAfter (2026-08-03), so there is nothing new in it. Every other flagged thread is a different client entirely, mostly several unrelated Ramirez claims (Juan Ramirez C5257, a fence claim '20163148 Ramirez' with Prestige Claims/Wayne Wagner), plus Meziou/Monem & Salma and an Asaad Fakhir litigation matter. No update was made to the card."
+  },
+  {
+   "cardId": "6a71270bb252230c80d3afbe",
+   "newEvents": [],
+   "update": "",
+   "needed": null,
+   "threadsRead": [],
+   "threadsDropped": [
+    "1a0443bab81d5da6","1a048dc5268e463b","1a0401a6e379d06d","1a03f4b0b2629803",
+    "1a01aa52718e3193","1a01a94f955b4d06","1a01a4ac69fa4f30","1a017320e230a5df",
+    "1a0167fd06af0637","19ff2bfe01eaa939","19fe9ec24c64f80a","19f6752065ea1a3f"
+   ],
+   "trelloItemsAdded": 0,
+   "notes": "No flagged thread is actually about Claudia Ron. They are: a Ronald Benjamin roofing referral, a Fawad Haider/Haide State Farm appraisal, a Rakesh Kalidindi appraisal, a Dianela Mogollon (KATY|PAPP/VALE) claim, a generic e-notary platform's booking notifications for an unrelated closing ('Dittman AU-2946-KA'), a Dondra Lonsdale claim, a LinkedIn digest, and a 'Ron Caffey' status thread (matched on the first name Ron, not the surname). No update was made to the card."
+  },
+  {
+   "cardId": "6a71ff3c8f6cb653484f1163",
+   "newEvents": [],
+   "update": "",
+   "needed": null,
+   "threadsRead": ["19fca8771f2e1b63"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 0,
+   "notes": "The one flagged thread is this file (Alberto Bazaldua, claim 7009785804-1-1, 280 County Rd 309, Jarrell) but it is the original appraisal-invocation email plus a one-line receipt acknowledgment, both already captured on the card's Chain of Events checklist (2026-08-03 entry). Nothing new to add."
+  }
+ ],
+ "checked": 6,
+ "withNewEvents": 1
+}
