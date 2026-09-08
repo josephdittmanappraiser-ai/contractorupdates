@@ -1,0 +1,85 @@
+{
+ "batch": 17,
+ "results": [
+  {
+   "cardId": "6a692e702569f544bc005f1b",
+   "newEvents": [
+    {"date": "2026-08-17", "event": "The signed agreement between the appraisers was completed via signNow."},
+    {"date": "2026-08-24", "event": "The office confirmed the scheduled property inspection for August 25."}
+   ],
+   "update": "The appraisers' agreement is signed and an umpire has been chosen; a solo property inspection was confirmed for August 25. Next step is completing that inspection and moving toward a settlement.",
+   "needed": null,
+   "threadsRead": ["1a01c7bfeca02b6d", "1a0100f118a31a3a", "19ff2bfe01eaa939"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 2,
+   "notes": ""
+  },
+  {
+   "cardId": "6a60027a566b28ab3b511b5b",
+   "newEvents": [
+    {"date": "2026-08-25", "event": "The carrier's appraiser rescheduled the property inspection from noon to 9:30 AM on August 26."}
+   ],
+   "update": "The property inspection moved from noon to 9:30 AM on August 26; awaiting the inspection outcome and next steps toward reconciling positions.",
+   "needed": null,
+   "threadsRead": ["19fb4dc737254857", "1a034c63e79f1e49"],
+   "threadsDropped": ["1a0253fd5ca41eef (different insured/claim: Eric Copeland, an unrelated PA pickup request)", "19e740c77f8f1a91 (different insured/claim: Terrance and Yvonne Richards, claim 01008597565)", "1a0601523a9d4dda (different insured: Mildred Davis, Allstate claim 0817538218)", "1a05daf5a9cd2ab0 (same Mildred Davis file, different claim)", "1a05d9648596c7ae (same Mildred Davis file, different claim)", "19fa511c78184ed7 (different insured/claim: Nicholas Pendleton, Erie claim #A00007517837)", "1a04a661ac2b6b22 (different matter: Western Inn TDI complaint)", "1a04a4212c3e7594 (different insured: Michelle Wilson appraisal invoice)", "1a0488043af87316 (different claim: Allstate 000832819726)", "1a0393dbd9aef968 (different claim: Allstate 000830739769)", "1a02112f9eb40c18 (Mildred Davis file again, different claim)"],
+   "trelloItemsAdded": 1,
+   "notes": "Most candidate threads for this card were actually about other clients sharing the Davis surname or unrelated matters; only the original Culpepper/Farmers thread and one status-update thread confirmed as this file."
+  },
+  {
+   "cardId": "6a63744f3b083a6d63e14df6",
+   "newEvents": [
+    {"date": "2026-08-19", "event": "The carrier's appraiser confirmed the investigation hold was lifted and scheduled the site inspection for August 27."},
+    {"date": "2026-08-27", "event": "The carrier's appraiser completed the property inspection and said he would submit his position within a week."}
+   ],
+   "update": "The carrier's appraiser completed the property inspection on August 27 and is preparing his position; once received we can compare estimates and work toward an agreement.",
+   "needed": null,
+   "threadsRead": ["19fd6f981cfedaa4"],
+   "threadsDropped": ["1a07e1c13a7b0678 (different insured: Rolando/Mauricio appraisal)", "1a071f507111088c (different insured: Clayton Grassi, claim 0821195467)", "1a079ea21963bce7 (different insured: Agustin Contreras Ledesma, claim 0825559693)", "1a077c7ec3a1177b (different insured: Dao Tran)", "1a068560c228270e (general attorney group email, not this claim)", "1a0737316307dedb (different insured: Gustavo Uretafrias)", "1a0717b471329f9b (different insured: Ioana Smith, claim 061470340)", "1a06d499e6bdfb6c (different insured: Thomas Bierschenk, claim 530D0J727)", "1a0691aa1abfc403 (different claim: Allstate 000827947599, Ofelia Bernal)", "1a067fbc0e8bc255 (different insured/claim: Rong Dai, Liberty Mutual 061798873-01)", "1a062ef95ce1c17c (same Ofelia Bernal file as above, different claim)", "1a062a266252bfc5 (different insured: Dixie Smith umpire-conflict check)", "1a05d52a5891602e (different insured/claim: State Farm 43-0G5R-270)", "1a05accded31e996 (LinkedIn newsletter, not a claim thread)", "1a0592b6707427c4 (different insured: Manuel Hernandez appraisal)", "19f6bef6867d84c1 (different insured: Brenda Tranchon appraisal)", "1a058f20d96aadf2 (different matter: estimate-only request for another property)"],
+   "trelloItemsAdded": 2,
+   "notes": "This card's candidate list was heavily polluted with threads for other insureds (shared broker/attorney contacts, common surnames); only the original Smith/20204701 thread with the carrier's appraiser Joshua Lopez was confirmed relevant."
+  },
+  {
+   "cardId": "6a42e26d2c31f49b5ecbbfae",
+   "newEvents": [
+    {"date": "2026-08-17", "event": "Homeowner confirmed the scheduled inspection for August 31 at 9:00 AM, including interior access."}
+   ],
+   "update": "A solo inspection was scheduled and confirmed by the homeowner for August 31, with interior access included. Awaiting the outcome of that inspection and next steps.",
+   "needed": null,
+   "threadsRead": ["19fcec329ab1137b"],
+   "threadsDropped": ["1a058d4d0a21ec06 (different insured/claim: Erin Beasley, SageSure claim HO-2026-485067821, different address)", "1a0398b0b9b9c6c9 (different claim: 53-0G9W-959, no shared insured name)", "19fd213e0825a624 (different claim: State Farm 53-0B4Z-843; 'Eric Beasley' is a State Farm employee, not this insured)", "19fcd25201ad052b (different insured/claim: Erin and Matthew Beasley, SageSure claim HO-2026-485067821, 6604 Swamp Mallow Drive Austin)"],
+   "trelloItemsAdded": 1,
+   "notes": "Several candidate threads shared only the surname 'Beasley' with a different insured (Erin/Matthew Beasley, a separate SageSure claim in Austin) and were dropped."
+  },
+  {
+   "cardId": "69ec041e00568c475d01dd33",
+   "newEvents": [
+    {"date": "2026-08-18", "event": "An umpire was agreed upon for the file."},
+    {"date": "2026-08-19", "event": "The signed agreement (DOA/SOU) was exchanged with the carrier's appraiser."},
+    {"date": "2026-08-26", "event": "Homeowner confirmed the scheduled property inspection for September 1, including interior access."},
+    {"date": "2026-09-02", "event": "The carrier's appraiser completed the property inspection."}
+   ],
+   "update": "The carrier's appraiser completed the property inspection on September 1; both sides will now prepare and exchange their estimates toward an agreed settlement.",
+   "needed": null,
+   "threadsRead": ["19fdc3a4577b557c"],
+   "threadsDropped": ["19ff6ce81cac3002 (different insureds: Jun Tian and Rongxin Chen)", "1a06948087005267 (different insured: Gloria Medina appraisal invoice)", "1a063696f061c037 (different insured: Randi White claim status)", "1a0628c3bc6e43ff (different insured: Kody Bodine)", "1a04889601b90105 (different insured: John Surgeon claim CSMH-00000105)", "1a034a2e15a67eec (different insured: Tay Nguyen claim 0792382863)", "1a0010953d669fc2 (same Mildred Davis thread already seen elsewhere)", "1a01f8a3b75e0524 (different insured: Randi White, claim Psi-221749)", "19f9df28554a7c1e (different insured: Jun Tian appraisal invoice)", "19ff6584529e8281 (different insured: Gloria Medina appraisal)"],
+   "trelloItemsAdded": 4,
+   "notes": "Only the Timberline Adjusting (Craig Vining) thread was confirmed for this claim; the rest belonged to other files run by the same contractor/office staff."
+  },
+  {
+   "cardId": "6a6948b406c367502d0004eb",
+   "newEvents": [
+    {"date": "2026-08-25", "event": "The property inspection was rescheduled and confirmed with the homeowner for September 1 between 11:00 AM and 12:00 PM."},
+    {"date": "2026-09-01", "event": "The carrier's appraiser confirmed he was en route to conduct the scheduled inspection."}
+   ],
+   "update": "The carrier's appraiser attended the scheduled inspection on September 1; awaiting his position so the two estimates can be reconciled.",
+   "needed": null,
+   "threadsRead": ["1a00240491d43fe9"],
+   "threadsDropped": ["1a07d5113767eb62 (internal call-list memo covering many clients, not specific to this property)", "1a07d4ec1924e411 (same internal call-list memo)", "1a07d4121ed6eb0e (same internal call-list memo)", "1a06d20cfbff4916 (different Rong Dai property: 15620 Foster St, claim 061798649)", "1a067fbc0e8bc255 (different Rong Dai property: 6711 W 157th Ter, Liberty Mutual 061798873-01)", "1a064b1ff0a96e09 (photo-only email, no claim/address given to confirm which of several Rong Dai properties)", "1a05ea696281e43c (different Rong Dai property: 15620 Foster St, Cullen & Associates claim 061798649-01)", "1a03f7835e3b5b89 (different Rong Dai property: 15278 Conser St, Steadily claim 26PRKS371451278)", "1a0628c3bc6e43ff (different insured: Kody Bodine, seen on another card)", "1a04889601b90105 (different insured: John Surgeon)", "1a034a2e15a67eec (different insured: Tay Nguyen)", "1a01f8a3b75e0524 (different insured: Randi White)", "19f9df28554a7c1e (different insured: Jun Tian)", "19ff6584529e8281 (different insured: Gloria Medina)"],
+   "trelloItemsAdded": 2,
+   "notes": "The insured Rong Dai has numerous separate claims across different properties (Foster St, Conser St, W 157th Ter, etc.); only the thread matching this card's exact claim number (201863AB) and address (14109 Goodman Street) was used."
+  }
+ ],
+ "checked": 6,
+ "withNewEvents": 6
+}
