@@ -59,8 +59,34 @@
    "threadsDropped": ["19fa511c78184ed7", "1a05e01aca85f79b", "1a05d3d233fcb957", "1a05d2ebfe62b4ff", "1a05c455c90db6c8", "1a05c3f0bae6c1c5", "1a05c397011981d9", "1a0073a457742b79", "19ff1f3d10035d03", "19fd26cb0acce328", "19fc95256f07d93a", "19fc94345172ed57", "19fc8b7c9081b200", "19fba05fdc1f270c", "19fa90386e254515", "19fa61173476ee8b", "19f918a71613b7aa"],
    "trelloItemsAdded": 2,
    "notes": "17 of 18 candidate threads were about entirely different insureds/claims (Nicholas Pendleton, Able Rodriguez, Raish, Huddle, a Gloria/Adrian Medina file, Nora Jimenez, Skye & Craig Peters, Pat Prado, Adolfo Prado, Krystal Connell, an Oleksi payments thread, a Jackson family contents-claim thread, a Liberty Mutual file for a different insured, and Revis Joiner) — collected only because a vendor and an adjuster both happen to be named 'Clark,' coincidentally matching this insured's surname 'Thomas Clark.' Only the thread literally titled with this claim number and insured name was kept."
+  },
+  {
+   "cardId": "6a70ac6ba4f74f6002a41c71",
+   "newEvents": [],
+   "update": "No new activity specific to this file was found in this pass. Every candidate thread turned out to concern a different Lopez (Sergio Lopez, Joshua Lopez the appraiser, Michael Lopez, Valeria Lopez Carcamo) or an unrelated matter entirely, not Esperanza Lopez's own claim. The file's status remains as last recorded; a fresh manual search on the claim number or property address may be needed to find her actual current correspondence.",
+   "needed": null,
+   "threadsRead": ["19eef6bde94bcc61", "1a07bf8de6725943", "1a06d017fe5bcf0a", "1a06b1f110ccaaa6", "1a06a5d787a931a2", "1a067b5f4311efb7", "1a05f8b12bd144c7", "1a0640fe5f4be384", "1a05fa146e49dfaa", "1a05c456a7ee188a", "1a05af525d317894", "1a0588053305ef8c", "1a057ea0614419f5", "1a050a869d77bc1f", "1a049feeb83818a8", "1a049a4375667662", "1a0491fa2e0e92a0", "19f665da1dc2d8f7", "1a04642b574d5eda"],
+   "threadsDropped": ["19eef6bde94bcc61", "1a07bf8de6725943", "1a06d017fe5bcf0a", "1a06b1f110ccaaa6", "1a06a5d787a931a2", "1a067b5f4311efb7", "1a05f8b12bd144c7", "1a0640fe5f4be384", "1a05fa146e49dfaa", "1a05c456a7ee188a", "1a05af525d317894", "1a0588053305ef8c", "1a057ea0614419f5", "1a050a869d77bc1f", "1a049feeb83818a8", "1a049a4375667662", "1a0491fa2e0e92a0", "19f665da1dc2d8f7", "1a04642b574d5eda"],
+   "trelloItemsAdded": 0,
+   "notes": "All 19 candidate threads with newer activity turned out to be about other people and other claims entirely (Edgar Garcia Valdez, an iink multi-claim status digest, an ACH transfer notice for Sergio Lopez, Ramon Villagomez, Maria Sanchez, Ruben Ortega, Allstate claim 0812159416/Venkat Jayanti, a Mark Connelly/Joshua Lopez appraisal, Sergio Lopez at Jefferson Dr Frisco, Ronald Orr, Connelly/Rockwall (appraiser is named Joshua Lopez), two more iink digests, Vidal Mendez, Juliio Granados, an iink check-delivery notice, Mirna Garcia, Extreme Group Inc., and Alejandro Ramos). None mentioned Esperanza Lopez, claim 0815088372, or the Cypress Bend address. This looks like the scan matched on the surname 'Lopez' appearing in several unrelated senders/subjects/CCs. No Trello changes were made since no genuine new events were found."
+  },
+  {
+   "cardId": "6a628fd94dd878baf8cc0831",
+   "newEvents": [
+    {"date": "2026-08-14", "event": "Our position and supporting photo documentation were sent to the carrier's appraiser."},
+    {"date": "2026-08-24", "event": "Joseph reminded the carrier's appraiser of the scheduled August 25 inspection, and the appraiser confirmed it was on his calendar."},
+    {"date": "2026-08-31", "event": "The contractor asked for a status update, and Joseph's office confirmed our position had been sent to the other appraiser and was under review."},
+    {"date": "2026-09-05", "event": "Joseph followed up with the carrier's appraiser since no position had come back yet; the appraiser said he was waiting on a sketch/measurement report and expected to send his position soon."},
+    {"date": "2026-09-06", "event": "The carrier's appraiser sent his position and a proposed award for the repair valuation, noting he found no hail damage on the siding or garage door paint."}
+   ],
+   "update": "The carrier's appraiser completed his inspection in late August and has now sent back his own position and a proposed award, which disputes some of the damage we identified. We're reviewing his numbers now and will follow up on next steps, including a possible umpire if the two positions can't be reconciled.",
+   "needed": null,
+   "threadsRead": ["1a058d4d0a21ec06", "1a0398b0b9b9c6c9", "19fd213e0825a624", "19fcec329ab1137b", "19fc7c1520ac2643", "19fcd25201ad052b", "19fb9cd8d95c3278", "19fb770759704881", "19f90a806f3fac86"],
+   "threadsDropped": ["1a0398b0b9b9c6c9", "19fd213e0825a624", "19fcec329ab1137b", "19fc7c1520ac2643"],
+   "trelloItemsAdded": 1,
+   "notes": "4 of 9 candidate threads belonged to other people entirely and were dropped: one was an unrelated appraisal (subject '53-0G9W-959'), one involved a State Farm claims specialist named 'Eric Beasley' on a completely different insured's claim (coincidental staff-surname match), and two involved a different insured, 'Clarence Beasley III,' at a different address in Whitewright, TX. Three other threads (SageSure contact info, 'Erin Beasley Contractor', and the original intake email) had no messages after the search-after date, so contributed no new events."
   }
  ],
- "checked": 4,
- "withNewEvents": 4
+ "checked": 6,
+ "withNewEvents": 5
 }
