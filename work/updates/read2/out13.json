@@ -70,8 +70,36 @@
    "threadsDropped": [],
    "trelloItemsAdded": 7,
    "notes": "1a021b3a12c2656e and 1a03b6b825118e4e were auto-reply-only threads from the carrier (no substantive content). Events for 2026-09-01 through 2026-09-05 were already recorded in Trello from a prior pass, so only 2026-08-06 through 2026-08-31 were added as new checklist items."
+  },
+  {
+   "cardId": "6a693b08694bb0453358d318",
+   "newEvents": [
+    {"date": "2026-08-17", "event": "The carrier named its appraiser for the claim."},
+    {"date": "2026-08-18", "event": "Joseph's office reached out to the carrier's appraiser to request an umpire list and propose joint inspection dates."},
+    {"date": "2026-08-20", "event": "The carrier's appraiser sent a proposed appraiser agreement naming an umpire; Joseph's office said an umpire decision would follow and asked for joint inspection availability."},
+    {"date": "2026-08-28", "event": "The signed appraiser agreement was exchanged with the carrier's appraiser, who then proposed a September 8 inspection."},
+    {"date": "2026-08-31", "event": "After discussion over a joint versus solo visit, the carrier's appraiser agreed to inspect solo on September 8 at noon with interior access required."},
+    {"date": "2026-08-31", "event": "Joseph's own inspection of the property was rescheduled from September 8 to September 11 at 2:30 PM."},
+    {"date": "2026-09-01", "event": "The homeowner confirmed both the September 8 and September 11 inspection times."}
+   ],
+   "update": "Two inspections are scheduled at the property: the carrier's appraiser on September 8 and Joseph Dittman on September 11, both requiring interior access. No action is needed from the contractor at this time.",
+   "needed": null,
+   "threadsRead": ["1a059899ae40d658", "1a01cddd235d5860", "1a01665753acdc3a", "1a01031f39f58994", "19fd23655474aeae", "1a058414d2b5fe22"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 7,
+   "notes": ""
+  },
+  {
+   "cardId": "6a7bbc18fff77f7bee656f1b",
+   "newEvents": [],
+   "update": "A joint inspection with the carrier's appraiser remains scheduled for September 12 at 11:00 AM, with an umpire proposed on September 5. No action is needed from the contractor at this time.",
+   "needed": null,
+   "threadsRead": ["19ff295878f0ad80", "19ff2954f4c3f088", "1a064137940b3bcf", "1a07e816e6f0a58e", "1a07e489514f8dae", "1a03edb7c3df8a21", "19a314b8d54860be", "19f91048f5f94017", "1a07d2f7fe6131f7", "1a07d2f7e13b25a0", "1a07d2f59532a845", "1a07d2f51e52cd68", "1a070a148db7e238", "1a07c6fe9cd097b4", "1a07c48e893b762f", "1a07c339a92f5157", "1a07d0e5af89150e", "1a07cfb8b4bf7ad4", "1a07cc2d3ed181cf", "1a07c52a024c7c08", "1a040577cc259978", "1a07c40d232cc258"],
+   "threadsDropped": ["1a07eb6a903bc272", "1a07e816e6f0a58e", "1a07e489514f8dae", "1a03edb7c3df8a21", "19a314b8d54860be", "19f91048f5f94017", "1a07d2f7fe6131f7", "1a07d2f7e13b25a0", "1a07d2f59532a845", "1a07d2f51e52cd68", "1a070a148db7e238", "1a07c6fe9cd097b4", "1a07c48e893b762f", "1a07c339a92f5157", "1a07d0e5af89150e", "1a07cfb8b4bf7ad4", "1a07cc2d3ed181cf", "1a07c52a024c7c08", "1a040577cc259978", "1a07c40d232cc258"],
+   "trelloItemsAdded": 0,
+   "notes": "This file has no claim number on record, and 20 of the 23 collected threads turned out to belong to entirely different insureds/claims that happen to share a correspondent with Dhiraj More's file (No Stress Claims International staff, amazingadjuster@gmail.com, wynncorpsllc@gmail.com, accounting2@nostressintl.com, statefarmfireclaims@statefarm.com) rather than any name/address/claim match -- e.g. Johanna Strauss Aguirre vs Allstate, a Travelers mold/asbestos matter (JHM0516), Jikai Chen, Dion Edge, Jesus Caballero, Denise Briceno, Deselous Napoleon, Tharith Konh, Matthew Brown, Barbara Curtis, and four unrelated State Farm auto-replies. One LinkedIn notification (1a07eb6a903bc272) was also dropped as spam/unrelated without opening. Only 19ff295878f0ad80, 19ff2954f4c3f088, and 1a064137940b3bcf are genuinely about Dhiraj More (claim HO-3243277, Kin Insurance, 5442 Seabird St), and everything substantive in them -- the August 11 appraisal invocation, the August 31 umpire list/availability, and the September 2 inspection-time negotiation landing on September 12 at 11:00 AM -- was already recorded in Trello from a prior pass, so no new checklist items were added."
   }
  ],
- "checked": 4,
- "withNewEvents": 4
+ "checked": 6,
+ "withNewEvents": 5
 }
