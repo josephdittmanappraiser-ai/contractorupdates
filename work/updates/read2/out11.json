@@ -57,8 +57,41 @@
    "threadsDropped": [],
    "trelloItemsAdded": 5,
    "notes": ""
+  },
+  {
+   "cardId": "6a6a769bba35839cc23da7f6",
+   "newEvents": [
+    {"date": "2026-08-24", "event": "Office followed up for a response from Liberty Mutual on the revised estimate; none had been received yet."},
+    {"date": "2026-08-27", "event": "At the homeowner's request, office followed up again with Liberty Mutual, which said it was working to name an appraiser."},
+    {"date": "2026-09-03", "event": "The contractor sent photos of the property."},
+    {"date": "2026-09-04", "event": "Office confirmed a joint inspection for September 8 (carrier's appraiser at 8:30 AM, Joseph at 10:00 AM) and asked the homeowner to confirm."},
+    {"date": "2026-09-07", "event": "Office followed up again with the homeowner and asked the contractor to help confirm the September 8 inspection."},
+    {"date": "2026-09-07/08", "event": "The homeowner did not confirm despite repeated calls, texts, and emails, so the carrier's appraiser attempted to inspect the property on his own and may need to push the date out if he cannot gain access."}
+   ],
+   "update": "A joint appraisal inspection was set for September 8 with Liberty Mutual's appraiser, and an umpire (Jason Ammerman) has been agreed upon, but the homeowner has not confirmed the appointment despite repeated outreach, risking delay.",
+   "needed": "Please help reach the homeowner to confirm (or reschedule) the appraisal inspection - they have not responded to phone, text, or email.",
+   "threadsRead": ["1a06d20cfbff4916", "1a05ea696281e43c", "1a04508413224f97", "19fd3e32bd6018ea", "1a064b1ff0a96e09"],
+   "threadsDropped": ["1a07d5113767eb62", "1a07d4ec1924e411", "1a07d4121ed6eb0e", "1a07d0c4fd2d64de", "1a067fbc0e8bc255", "1a03f7835e3b5b89"],
+   "trelloItemsAdded": 6,
+   "notes": "Dropped four internal self-addressed admin/batch-review emails covering many other cards (call lists, estimates-sent action items), one thread about a different claim number (061798873-01) for the same family, and one thread about an unrelated address/claim (15278 Conser St, Steadily claim 26PRKS371451278)."
+  },
+  {
+   "cardId": "6a76468479bde53b2b4283b6",
+   "newEvents": [
+    {"date": "2026-08-16", "event": "Joseph sent the draft estimate/demand package to the contractor for review."},
+    {"date": "2026-08-18", "event": "Contractor approved the draft, and the appraisal demand letter was submitted to State Farm."},
+    {"date": "2026-08-25", "event": "Office resent the demand letter to State Farm after a week passed with no response and no claim specialist assigned."},
+    {"date": "2026-09-07", "event": "Office returned the signed umpire agreement (DOA/SOU) to the carrier's appraiser."},
+    {"date": "2026-09-07/08", "event": "Office confirmed the September 17 joint inspection with the homeowner, who confirmed availability (interior access required)."}
+   ],
+   "update": "A joint inspection with State Farm's appraiser is confirmed for September 17, 10-11 AM; an umpire (Matthew Wilson) has been agreed upon and the agreement signed, and the homeowner has confirmed availability. No contractor action needed.",
+   "needed": null,
+   "threadsRead": ["1a07d7b313ad967d", "1a03aa861351fa61", "1a03a97f2c6ff7b0", "1a06cca97d239079", "1a01742e53301789", "1a00c5089414d07a"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 5,
+   "notes": "1a03aa861351fa61 was State Farm's automatic mailbox reply - no substantive event, not counted as dropped-for-relevance, just skipped as an auto-reply."
   }
  ],
- "checked": 4,
- "withNewEvents": 3
+ "checked": 6,
+ "withNewEvents": 5
 }
