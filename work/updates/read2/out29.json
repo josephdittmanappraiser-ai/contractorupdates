@@ -51,8 +51,30 @@
    "threadsDropped": ["1a07d4ab4b66b464","1a05af525d317894","1a068560c228270e","19e85639794d5191","1a06331a1ddd6946","1a05f390fa9b378f","1a05f379c49e21f3","1a05e938d3ff804f","1a0495f74d250852","1a03fe73a9fe72d3","1a0449d14b9f462c","1a043c9edfa147ab","1a05ea696281e43c"],
    "trelloItemsAdded": 4,
    "notes": "Card had 17 collected threads; only the thread with subject 'Allstate Appraisal # 0826289761 - DAVID JOHNSON' (19fda5e1f70a2318) belongs to this file. The rest were unrelated claims (Connelly, an internal biweekly-status memo, Gregory Miller, Ritika Pawar & Akshay Desai, Adkins/Easy Button, Juan Ochoa, Ketan Patel, Carlos Treminio, Rong Dai, Robert Martinez) and were dropped."
+  },
+  {
+   "cardId": "6a0bb8aeac5b5fb4d83d7bd3",
+   "newEvents": [
+    {"date": "2026-08-25", "event": "Supporting photo documentation was sent to the carrier's appraiser."}
+   ],
+   "update": "Joseph sent supporting photo documentation to the carrier's appraiser after reviewing his position; the file awaits the appraiser's response before an award can be finalized.",
+   "needed": null,
+   "threadsRead": ["1a0630ee6f3ccb63","1a034c63e79f1e49","1a016a5490774f33","19ff20fd110475d1","19fd55c09479600a","19f8ffee71994510"],
+   "threadsDropped": ["1a0630ee6f3ccb63","1a016a5490774f33","19ff20fd110475d1","19fd55c09479600a","19f8ffee71994510"],
+   "trelloItemsAdded": 1,
+   "notes": "Threads about a Lashay Larue claim, a Venkata Nomula PA intake, a Johnathan Coleman matter, and a Davis Dong invoice were dropped as belonging to other files. One thread (an internal multi-client status check) named Steven Hawkins directly and confirmed the photo report had been sent to the other appraiser, which is the new event recorded above."
+  },
+  {
+   "cardId": "69c32dc96db949f2f15db542",
+   "newEvents": [],
+   "update": "The file remains where it stood after the mid-July interior inspection with the carrier's appraiser Amy Aronson; no new correspondence for this specific file turned up in this pass.",
+   "needed": null,
+   "threadsRead": ["1a079ea21963bce7","1a0276e8be9ecf32","1a062a352e64f803","1a03a1283b4f0672","1a0167a15f16fc06","1a01678f99c8d792","1a0161cf01663f16","19fda2ab664a4ab4","19fd7c2b3487c9f0","19fd4c2c05a62fed","19fc48339db6b4a8"],
+   "threadsDropped": ["1a079ea21963bce7","1a0276e8be9ecf32","1a062a352e64f803","1a03a1283b4f0672","1a0167a15f16fc06","1a01678f99c8d792","1a0161cf01663f16","19fda2ab664a4ab4","19fd7c2b3487c9f0","19fd4c2c05a62fed","19fc48339db6b4a8"],
+   "trelloItemsAdded": 0,
+   "notes": "All 11 collected threads belong to other people surnamed Garza or unrelated claims (Agustin Contreras Ledesma, Jorge Valenzuela, a Luis Olivo/Benjamin Dittman recusal matter, Dessarae Garza, a real-estate closing, Juan Garza, Beshay, a Garza award signed with umpire Conrad Feller, and Pastrana). None mention 'Samuel' Garza, and the established carrier appraiser/umpire on this file (Amy Aronson / Miles Kamp) do not appear in any of them, so nothing was added."
   }
  ],
- "checked": 4,
- "withNewEvents": 3
+ "checked": 6,
+ "withNewEvents": 4
 }
