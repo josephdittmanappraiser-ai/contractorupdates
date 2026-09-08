@@ -1,0 +1,177 @@
+[
+ {
+  "cardId": "69d5d15fbea62e784269a9cb",
+  "insured": "Coy Stavinoha",
+  "claim": "",
+  "addr": "",
+  "stage": "Estimate being prepared"
+ },
+ {
+  "cardId": "69d641e75371ceeb1c665095",
+  "insured": "PAGE MITCHUM",
+  "claim": "",
+  "addr": "",
+  "stage": "Estimate being prepared"
+ },
+ {
+  "cardId": "6a1e1dcb4ad172b381395b8f",
+  "insured": "Rico Hernandez",
+  "claim": "",
+  "addr": "",
+  "stage": "New / intake"
+ },
+ {
+  "cardId": "6a909700cf1ce9b7d0713cab",
+  "insured": "Zhen Zhang",
+  "claim": "",
+  "addr": "",
+  "stage": "New / intake"
+ },
+ {
+  "cardId": "6a9f344f999ae8ea6afa8b6f",
+  "insured": "Timothy Mclaine",
+  "claim": "",
+  "addr": "",
+  "stage": "Estimate being prepared"
+ },
+ {
+  "cardId": "6a99ea056a8996ab3249ad84",
+  "insured": "Angela Mcknab",
+  "claim": "",
+  "addr": "",
+  "stage": "Estimate being prepared"
+ },
+ {
+  "cardId": "6a960d6a4af49530b3f58ec4",
+  "insured": "Manuel Hernandez",
+  "claim": "",
+  "addr": "",
+  "stage": "Estimate being prepared"
+ },
+ {
+  "cardId": "6a98a67e9c5a56bd176c5b16",
+  "insured": "Nancy Rumold",
+  "claim": "",
+  "addr": "",
+  "stage": "Estimate being prepared"
+ },
+ {
+  "cardId": "6a98a434ba47bc114ab220be",
+  "insured": "Paul Hernandez",
+  "claim": "",
+  "addr": "",
+  "stage": "Estimate being prepared"
+ },
+ {
+  "cardId": "6a90b0aba94fec6f880a70c1",
+  "insured": "KRENDA RAY",
+  "claim": "",
+  "addr": "",
+  "stage": "Estimate sent - needs sign-off"
+ },
+ {
+  "cardId": "6a694d0b652c4b53a35f1c99",
+  "insured": "Rong Dai",
+  "claim": "",
+  "addr": "",
+  "stage": "Estimate sent - needs sign-off"
+ },
+ {
+  "cardId": "6a557535ac17ff1b5bdc07d9",
+  "insured": "GLORIA MIRANDA",
+  "claim": "",
+  "addr": "",
+  "stage": "Appraisal demanded / waiting on carrier"
+ },
+ {
+  "cardId": "6a71136a0b4293b8e2763667",
+  "insured": "Charmaine Dadios",
+  "claim": "",
+  "addr": "",
+  "stage": "Appraisal demanded / waiting on carrier"
+ },
+ {
+  "cardId": "6a847fc7dde57e0eb18571f3",
+  "insured": "Clifton And Kelly Steed",
+  "claim": "",
+  "addr": "",
+  "stage": "Appraisal demanded / waiting on carrier"
+ },
+ {
+  "cardId": "6a583847faa242ab5b4d7f58",
+  "insured": "MARY KRANIG",
+  "claim": "",
+  "addr": "",
+  "stage": "Appraisal demanded / waiting on carrier"
+ },
+ {
+  "cardId": "6a909e4fef89eb3756af89f1",
+  "insured": "Isador And Rita Aparicio",
+  "claim": "1654020-264402",
+  "addr": "",
+  "stage": "Appraisal demanded / waiting on carrier"
+ },
+ {
+  "cardId": "68630385733c798e0d274053",
+  "insured": "Dempsey Cluff",
+  "claim": "",
+  "addr": "",
+  "stage": "Referred out (attorney or public adjuster)"
+ },
+ {
+  "cardId": "681057affabeef4e9bc65fb7",
+  "insured": "Armstrong",
+  "claim": "",
+  "addr": "",
+  "stage": "Referred out (attorney or public adjuster)"
+ },
+ {
+  "cardId": "684b593d310e794f76743511",
+  "insured": "Darren Jones",
+  "claim": "",
+  "addr": "",
+  "stage": "Referred out (attorney or public adjuster)"
+ },
+ {
+  "cardId": "6a61485b11bec624f010a3dd",
+  "insured": "Pankaj Bansal",
+  "claim": "01-009-978781",
+  "addr": "10612 Pluchea Cove Austin, TX 78733-5721",
+  "stage": "Negotiating with the carrier's appraiser"
+ },
+ {
+  "cardId": "6a751c0c89d6097fd2eaf4c8",
+  "insured": "HERNANDO VELASQUEZ-estimate Created",
+  "claim": "430K4S991",
+  "addr": "9104 GLEN FALLS LN DENTON, TX 76210-5806",
+  "stage": "Inspection scheduling"
+ },
+ {
+  "cardId": "69dfedf1d4b36ff84ab0911f",
+  "insured": "Celeste Gant",
+  "claim": "01009726050",
+  "addr": "5417 W 132nd Ter, Overland Park, KS 66209",
+  "stage": "Negotiating with the carrier's appraiser"
+ },
+ {
+  "cardId": "69fb7f2aab323c83f5e75bda",
+  "insured": "Hugo Mejia Anzora",
+  "claim": "1095450",
+  "addr": "121 PAWNEE TRL MABANK, TX 75156",
+  "stage": "Negotiating with the carrier's appraiser"
+ },
+ {
+  "cardId": "69c32dc96db949f2f15db542",
+  "insured": "SAMUEL GARZA",
+  "claim": "",
+  "addr": "",
+  "stage": "Negotiating with the carrier's appraiser"
+ },
+ {
+  "cardId": "682ce4f5865b5efd1362d283",
+  "insured": "JOSHUA SPINHIRNE",
+  "claim": "",
+  "addr": "",
+  "stage": "Referred out (attorney or public adjuster)"
+ }
+]

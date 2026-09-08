@@ -1,0 +1,170 @@
+[
+ {
+  "cardId": "69d9f8eb48f73ede819925e1",
+  "rep": null,
+  "resolvedBy": "unresolved",
+  "confidence": "medium",
+  "note": "No claim number or loss address on the card. All three passes empty: no Gmail thread on either company domain references this insured. Only a similarly-surnamed but different insured exists in the mailbox (different first name, different contractor) - not used."
+ },
+ {
+  "cardId": "6a8c57eac1ca5561ff7bc2cd",
+  "rep": "Andres Soto",
+  "resolvedBy": "pass1-surname",
+  "confidence": "high",
+  "note": "AccuLynx-relayed thread (Stronghouse Addison, TX) whose rep display name is Andres Soto. Note this is a DIFFERENT file from card 6a8a20a73917e0c82163061a despite the near-identical insured surname - different job number and different loss address - but the same rep owns both."
+ },
+ {
+  "cardId": "6a9604989323aa494848530c",
+  "rep": "Trey Elliott",
+  "resolvedBy": "pass1-surname",
+  "confidence": "high",
+  "note": "Sole Stronghouse counterpart on the appraisal thread; roster match on telliott@stronghousepro.com."
+ },
+ {
+  "cardId": "6a9e98a3f0ac87279ec488ee",
+  "rep": null,
+  "resolvedBy": "unresolved",
+  "confidence": "high",
+  "note": "Thread found and the Stronghouse counterpart is unambiguous, but that person is not on the Strong House Pro roster (kchapman@stronghousepro.com). Not attributable without inventing a rep name - roster may need a new entry."
+ },
+ {
+  "cardId": "6a94343aa913526291222b72",
+  "rep": null,
+  "resolvedBy": "unresolved",
+  "confidence": "high",
+  "note": "Two threads found; sole Stronghouse counterpart is nnichter@stronghousepro.com, who is not on the roster. Roster may need a new entry."
+ },
+ {
+  "cardId": "6a8f6a966e642153840faeb0",
+  "rep": "Christopher Mathis",
+  "resolvedBy": "pass1-surname",
+  "confidence": "high",
+  "note": "Four threads, all with cmathis@stronghousepro.com; confirmed by display name in the 'Contractor' sign-off thread."
+ },
+ {
+  "cardId": "6a91f24a077f69ec6b409d37",
+  "rep": null,
+  "resolvedBy": "unresolved",
+  "confidence": "high",
+  "note": "Two threads; sole Stronghouse counterpart is pbowen@stronghousepro.com, not on the roster."
+ },
+ {
+  "cardId": "6a518a8643f6e498691ce08a",
+  "rep": null,
+  "resolvedBy": "unresolved",
+  "confidence": "high",
+  "note": "One thread; sole Stronghouse counterpart is gjackson@stronghousepro.com, not on the roster."
+ },
+ {
+  "cardId": "6a976bf80ad6fcca769cbcec",
+  "rep": "Luis Garcia",
+  "resolvedBy": "pass1-surname",
+  "confidence": "high",
+  "note": "Two threads, both with lgarcia@stronghousepro.com; display name confirms roster match."
+ },
+ {
+  "cardId": "6a83872e535042aca38df386",
+  "rep": null,
+  "resolvedBy": "unresolved",
+  "confidence": "high",
+  "note": "Four threads; sole Stronghouse counterpart is galvarado@stronghousepro.com, not on the roster."
+ },
+ {
+  "cardId": "6a8e0a9dafbfa42c375983d3",
+  "rep": "Christopher Mathis",
+  "resolvedBy": "pass1-surname",
+  "confidence": "high",
+  "note": "Four threads, all with cmathis@stronghousepro.com."
+ },
+ {
+  "cardId": "6a8377343c50d1c665ab5e30",
+  "rep": "David Webster",
+  "resolvedBy": "pass1-surname",
+  "confidence": "high",
+  "note": "AccuLynx-relayed thread (Stronghouse Addison, TX); rep display name on the originating message is David Webster, who also corresponds from dwebster@stronghousepro.com elsewhere."
+ },
+ {
+  "cardId": "6a7e42a38ea17e75c14526d3",
+  "rep": null,
+  "resolvedBy": "unresolved",
+  "confidence": "high",
+  "note": "Two threads; sole company counterpart is mgodfrey@stronghousebrands.com, not on the roster."
+ },
+ {
+  "cardId": "6a8764d15046476ef19d5242",
+  "rep": "Patrick Nations",
+  "resolvedBy": "pass1-surname",
+  "confidence": "high",
+  "note": "Considered ambiguous at first because a second roster rep (Rusty Coffman) is cc'd on one thread. Resolved to Patrick Nations: he is the sender on the document thread and the sole addressee of the 'Contractor' sign-off thread, where he approved the draft; Rusty Coffman only ever appears as a cc and never replies."
+ },
+ {
+  "cardId": "6a6a85e2f0bc15b089b1001c",
+  "rep": null,
+  "resolvedBy": "unresolved",
+  "confidence": "high",
+  "note": "Two threads; sole Stronghouse counterpart is ezuniga@stronghousepro.com, not on the roster."
+ },
+ {
+  "cardId": "6a73bdf0587bd77595f66fdb",
+  "rep": null,
+  "resolvedBy": "unresolved",
+  "confidence": "high",
+  "note": "Three threads; sole Stronghouse counterpart is tchaney@stronghousepro.com, not on the roster."
+ },
+ {
+  "cardId": "6a8a20a73917e0c82163061a",
+  "rep": "Andres Soto",
+  "resolvedBy": "pass1-surname",
+  "confidence": "high",
+  "note": "Seven threads spanning May-Sep, all with asoto@stronghousebrands.com; display name confirms roster match."
+ },
+ {
+  "cardId": "6a8ccfc9c6e10aa4316c6bcb",
+  "rep": "Jose Diaz",
+  "resolvedBy": "pass1-surname",
+  "confidence": "high",
+  "note": "Three threads with j.diaz@stronghousepro.com. Roster contains both a Jose Diaz and a Jacob Diaz; disambiguated by display name - j.diaz@ resolves to Jose Diaz, while Jacob Diaz uses the separate address jdiaz@stronghousepro.com."
+ },
+ {
+  "cardId": "6a91eaeb1f12c01c1b4a8e0d",
+  "rep": "Kevin Salazar",
+  "resolvedBy": "pass1-surname",
+  "confidence": "medium",
+  "note": "Rep is cc'd on the demand-letter thread as ksalazar@linearroofing.com - the affiliated LINEAR Roofing domain rather than a Stronghouse one. Display name is Kevin Salazar and he works Stronghouse Addison TX jobs via AccuLynx across many other files, so the roster match is solid; confidence held at medium only because the address is off-domain."
+ },
+ {
+  "cardId": "6a90959907b07619b8d6bb87",
+  "rep": "Kevin Shuford",
+  "resolvedBy": "pass1-surname",
+  "confidence": "high",
+  "note": "Two threads: kshuford@stronghousepro.com cc'd on the carrier thread, and the AccuLynx intake thread carries his display name."
+ },
+ {
+  "cardId": "6a56d8013d395377ff2d6806",
+  "rep": null,
+  "resolvedBy": "unresolved",
+  "confidence": "high",
+  "note": "Three threads; sole Stronghouse counterpart is sadams@stronghousepro.com, not on the roster. File is also marked referred out to an attorney or public adjuster."
+ },
+ {
+  "cardId": "6a42c137b5b4ad834998bc38",
+  "rep": null,
+  "resolvedBy": "unresolved",
+  "confidence": "high",
+  "note": "Claim-number search (pass 2) hit eight threads and identified the counterpart unambiguously, but jmathew@stronghousepro.com is not on the roster."
+ },
+ {
+  "cardId": "6a56e025fd687db2041628ae",
+  "rep": null,
+  "resolvedBy": "unresolved",
+  "confidence": "high",
+  "note": "Claim-number search (pass 2) identified the counterpart unambiguously, but jdelacruz@stronghousepro.com is not on the roster."
+ },
+ {
+  "cardId": "6a5abfa555133919fdfa8718",
+  "rep": null,
+  "resolvedBy": "unresolved",
+  "confidence": "high",
+  "note": "Claim-number search (pass 2) identified the counterpart, who explicitly confirmed in a 9/7 reply that this file is his, but ablackburn@stronghousepro.com is not on the roster. Strongest candidate for a roster addition."
+ }
+]

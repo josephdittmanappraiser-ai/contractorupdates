@@ -1,0 +1,177 @@
+[
+ {
+  "cardId": "69d5d15fbea62e784269a9cb",
+  "rep": "Robert Crotty",
+  "resolvedBy": "pass1-surname",
+  "confidence": "high",
+  "note": "AccuLynx job shared by Robert Crotty; estimate sent to him for review. A second Linear address (twells@linearroofing.com, Tyler Wells - not on roster) followed up once and explicitly attributed the file to Crotty."
+ },
+ {
+  "cardId": "69d641e75371ceeb1c665095",
+  "rep": "Andres Soto",
+  "resolvedBy": "pass1-surname",
+  "confidence": "medium",
+  "note": "Single matching thread, sent via AccuLynx by Andres Soto (andres@linearroofing.com, Linear Roofing Kansas City); insured name appears in the AccuLynx customer block rather than the subject."
+ },
+ {
+  "cardId": "6a1e1dcb4ad172b381395b8f",
+  "rep": null,
+  "resolvedBy": "unresolved",
+  "confidence": "high",
+  "note": "All correspondence is with nancyc@legacyroofinggc.com (Legacy Roofing GC) - a different contractor, no Linear rep on the file."
+ },
+ {
+  "cardId": "6a909700cf1ce9b7d0713cab",
+  "rep": "Bo Serros",
+  "resolvedBy": "pass1-surname",
+  "confidence": "high",
+  "note": "Subject names the insured; sole correspondent bserros@linearroofing.com."
+ },
+ {
+  "cardId": "6a9f344f999ae8ea6afa8b6f",
+  "rep": "Zacharias Khan",
+  "resolvedBy": "pass1-surname",
+  "confidence": "high",
+  "note": "New-claim intake email from zachariask@linearroofing.com naming the insured and loss address."
+ },
+ {
+  "cardId": "6a99ea056a8996ab3249ad84",
+  "rep": "Bo Serros",
+  "resolvedBy": "pass1-surname",
+  "confidence": "high",
+  "note": "Intake email from bserros@linearroofing.com naming the insured, email and loss address."
+ },
+ {
+  "cardId": "6a960d6a4af49530b3f58ec4",
+  "rep": "Andrew Perales",
+  "resolvedBy": "pass1-surname",
+  "confidence": "high",
+  "note": "Thread subject is the insured's name; sender andrewp@linearroofing.com."
+ },
+ {
+  "cardId": "6a98a67e9c5a56bd176c5b16",
+  "rep": "Bo Serros",
+  "resolvedBy": "pass1-surname",
+  "confidence": "high",
+  "note": "Intake email from bserros@linearroofing.com naming the insured and loss address."
+ },
+ {
+  "cardId": "6a98a434ba47bc114ab220be",
+  "rep": "Bo Serros",
+  "resolvedBy": "pass1-surname",
+  "confidence": "high",
+  "note": "Intake email from bserros@linearroofing.com naming the insured and loss address."
+ },
+ {
+  "cardId": "6a90b0aba94fec6f880a70c1",
+  "rep": "Bo Serros",
+  "resolvedBy": "pass1-surname",
+  "confidence": "high",
+  "note": "Contractor-estimate thread titled with the insured's name, addressed to bserros@linearroofing.com."
+ },
+ {
+  "cardId": "6a694d0b652c4b53a35f1c99",
+  "rep": "Bo Serros",
+  "resolvedBy": "pass1-surname",
+  "confidence": "high",
+  "note": "Eight separate threads naming the insured, all with bserros@linearroofing.com."
+ },
+ {
+  "cardId": "6a557535ac17ff1b5bdc07d9",
+  "rep": null,
+  "resolvedBy": "unresolved",
+  "confidence": "high",
+  "note": "Four threads name the insured, all with gosornio@linearroofing.com - a Linear address with no matching name on the roster, so no valid rep can be assigned."
+ },
+ {
+  "cardId": "6a71136a0b4293b8e2763667",
+  "rep": "Kevin Salazar",
+  "resolvedBy": "pass1-surname",
+  "confidence": "high",
+  "note": "Appraisal-demand thread naming the insured, with ksalazar@linearroofing.com on the file."
+ },
+ {
+  "cardId": "6a847fc7dde57e0eb18571f3",
+  "rep": null,
+  "resolvedBy": "unresolved",
+  "confidence": "high",
+  "note": "Ambiguous / no valid roster rep. Active contact throughout is mgodfrey@stronghousebrands.com (Matt Godfrey), who is not on the roster; roster rep Matt Meredith appears only as a recipient inside a quoted May forward header. Not enough to attribute."
+ },
+ {
+  "cardId": "6a583847faa242ab5b4d7f58",
+  "rep": "Noah Nichter",
+  "resolvedBy": "pass1-surname",
+  "confidence": "high",
+  "note": "Insured forwarded the carrier response to Joseph and nnichter@stronghousepro.com; nnichter@linearroofing.com is CC'd on the appraisal demand thread."
+ },
+ {
+  "cardId": "6a909e4fef89eb3756af89f1",
+  "rep": "Garrett Lucas",
+  "resolvedBy": "pass1-surname",
+  "confidence": "high",
+  "note": "Contractor-estimate thread titled with both insureds' names, with glucas@linearroofing.com approving it."
+ },
+ {
+  "cardId": "68630385733c798e0d274053",
+  "rep": null,
+  "resolvedBy": "unresolved",
+  "confidence": "high",
+  "note": "All correspondence is direct with the carrier and the homeowner; no Linear or Stronghouse address appears on any thread."
+ },
+ {
+  "cardId": "681057affabeef4e9bc65fb7",
+  "rep": "Rusty Coffman",
+  "resolvedBy": "pass1-surname",
+  "confidence": "medium",
+  "note": "Two Linear addresses touch this file: rustyc@linearroofing.com (Rusty Coffman, on roster) directs the file - requests the reinspect/appraisal move and answers status questions - while iausby@linearroofing.com (not on roster) was CC'd on the earlier estimate and demand-letter threads. Assigned to Coffman as the only roster candidate and the acting owner; flag if the board says otherwise."
+ },
+ {
+  "cardId": "684b593d310e794f76743511",
+  "rep": "Rusty Coffman",
+  "resolvedBy": "pass1-surname",
+  "confidence": "high",
+  "note": "Contractor estimate for this insured sent directly to rustyc@linearroofing.com."
+ },
+ {
+  "cardId": "6a61485b11bec624f010a3dd",
+  "rep": null,
+  "resolvedBy": "unresolved",
+  "confidence": "high",
+  "note": "Claim-number search hits the appraisal demand thread, but the contractor CC'd is anthonyp@legacyroofinggc.com (Legacy Roofing GC) - a different contractor, no Linear rep on the file."
+ },
+ {
+  "cardId": "6a751c0c89d6097fd2eaf4c8",
+  "rep": "Kevin Salazar",
+  "resolvedBy": "pass2-claim",
+  "confidence": "high",
+  "note": "Claim number (punctuated form) is the thread subject; ksalazar@linearroofing.com is on the thread."
+ },
+ {
+  "cardId": "69dfedf1d4b36ff84ab0911f",
+  "rep": null,
+  "resolvedBy": "unresolved",
+  "confidence": "high",
+  "note": "Claim number matches the inspection-scheduling thread, but the only Linear address CC'd is adere@linearroofing.com, which has no matching name on the roster."
+ },
+ {
+  "cardId": "69fb7f2aab323c83f5e75bda",
+  "rep": null,
+  "resolvedBy": "unresolved",
+  "confidence": "high",
+  "note": "Claim number and street address both resolve to threads with kosorio@linearroofing.com (Kenneth Osorio), who is not on the roster."
+ },
+ {
+  "cardId": "69c32dc96db949f2f15db542",
+  "rep": "Alberto Zenteno",
+  "resolvedBy": "pass1-surname",
+  "confidence": "high",
+  "note": "Status-request thread titled with the insured's name from azenteno@linearroofing.com."
+ },
+ {
+  "cardId": "682ce4f5865b5efd1362d283",
+  "rep": null,
+  "resolvedBy": "unresolved",
+  "confidence": "high",
+  "note": "File was handled with a public adjuster (coastalclaims.net) and the homeowner directly; no Linear or Stronghouse address on any thread."
+ }
+]

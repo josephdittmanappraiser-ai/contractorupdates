@@ -1061,6 +1061,542 @@
    "pageMode": "company",
    "shareId": null,
    "_note": "Added 2026-08-16. The label existed on the board with 8 cards but was never in this config, so the roster never picked it up and its files were never back-read or given a page. Rep is Remy Caruso."
+  },
+  {
+   "label": "Kenny North",
+   "company": "Kenny North",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 31 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "Cohen",
+   "company": "Cohen",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 29 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "Texco roofing",
+   "company": "Texco Roofing",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 26 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "Coastal Claims",
+   "company": "Coastal Claims",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 20 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "Powerhaus Solutions",
+   "company": "Powerhaus Solutions",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 18 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "waggonerroofing",
+   "company": "Waggoner Roofing",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 16 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "Tarrytown Roofing",
+   "company": "Tarrytown Roofing",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 13 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "dashboard roofing",
+   "company": "Dashboard Roofing",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 11 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "Now Roofing",
+   "company": "Now Roofing",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 9 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "Victory Claims Consilting",
+   "company": "Victory Claims Consilting",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 9 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "Rush Builders",
+   "company": "Rush Builders",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 8 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "precision roofing",
+   "company": "Precision Roofing",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 8 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "Campbell",
+   "company": "Campbell",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 7 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "Hai Nguyen",
+   "company": "Hai Nguyen",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 7 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "BEYOND SOLUTIONS",
+   "company": "Beyond Solutions",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 6 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "Buck Lewis",
+   "company": "Buck Lewis",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 6 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "Impact Building Solutions",
+   "company": "Impact Building Solutions",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 6 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "Millers law firm",
+   "company": "Millers Law Firm",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 6 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "Greyhound Roofing",
+   "company": "Greyhound Roofing",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 5 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "1st Choice Roofing & Restoration LLC",
+   "company": "1st Choice Roofing & Restoration LLC",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 4 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "Len Lenard",
+   "company": "Len Lenard",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 4 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "One Call Roofing",
+   "company": "One Call Roofing",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 4 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "pinnacle Public Adjusting",
+   "company": "Pinnacle Public Adjusting",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 4 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "roofing Technologies Unlimitied",
+   "company": "Roofing Technologies Unlimitied",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 4 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "Crossroads Insurance Recovery",
+   "company": "Crossroads Insurance Recovery",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 3 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "Eagle A Improvements LLC",
+   "company": "Eagle A Improvements LLC",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 3 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "NextGen Construction Group",
+   "company": "NextGen Construction Group",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 3 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "Statewide Public Adjusters",
+   "company": "Statewide Public Adjusters",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 3 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "storm guard",
+   "company": "Storm Guard",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 3 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "BARRY",
+   "company": "Barry",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 2 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "Generation Construction Solutions, LLC.",
+   "company": "Generation Construction Solutions, LLC.",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 2 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "Gulf Coast Public Adjusting",
+   "company": "Gulf Coast Public Adjusting",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 2 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "Roofing Experts Pro",
+   "company": "Roofing Experts Pro",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 2 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "Roofing Near Me GC",
+   "company": "Roofing Near Me GC",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 2 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "TCM ADJUSTING LLC",
+   "company": "TCM Adjusting LLC",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 2 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "Timeless Roofing & Construction",
+   "company": "Timeless Roofing & Construction",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 2 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "Top Gun Restoration",
+   "company": "Top Gun Restoration",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 2 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "impressive roofing solutions",
+   "company": "Impressive Roofing Solutions",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 2 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "storm recovery group",
+   "company": "Storm Recovery Group",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 2 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "All American Contractors",
+   "company": "All American Contractors",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "All Home Exterior Solutions",
+   "company": "All Home Exterior Solutions",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "Brickwall Adjusters",
+   "company": "Brickwall Adjusters",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "Crest Consulting",
+   "company": "Crest Consulting",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "Elliotts Roofing",
+   "company": "Elliotts Roofing",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "Fox Roofing",
+   "company": "Fox Roofing",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "Gustin Law",
+   "company": "Gustin Law",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "Holden Roofing",
+   "company": "Holden Roofing",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "Iron Adjuster",
+   "company": "Iron Adjuster",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "Jeremy Hill Refferals",
+   "company": "Jeremy Hill Refferals",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "Jonathan Wells",
+   "company": "Jonathan Wells",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "Lower Bids Roofing",
+   "company": "Lower Bids Roofing",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "M and M Build Group",
+   "company": "M and M Build Group",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "Montgomery Roofing",
+   "company": "Montgomery Roofing",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "Priority Roofs",
+   "company": "Priority Roofs",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "Purple Turtle Roofing",
+   "company": "Purple Turtle Roofing",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "Ridgway Roofing",
+   "company": "Ridgway Roofing",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "Roofing Experts",
+   "company": "Roofing Experts",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "Schilter Law Firm",
+   "company": "Schilter Law Firm",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "Tony's roofing services",
+   "company": "Tony's Roofing Services",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "Trinity Roof and Home",
+   "company": "Trinity Roof and Home",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "VP Realty Services",
+   "company": "VP Realty Services",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "VS Pro painting",
+   "company": "VS Pro Painting",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "YFPA CLAIM SOLUTIONS",
+   "company": "YFPA Claim Solutions",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "hermesrenovations",
+   "company": "Hermes Renovations",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "j&L CityScapes&Painting",
+   "company": "J & L CityScapes & Painting",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "robinson roofer",
+   "company": "Robinson Roofer",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "texas premier roofing",
+   "company": "Texas Premier Roofing",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
   }
  ],
  "_supersededComment": [

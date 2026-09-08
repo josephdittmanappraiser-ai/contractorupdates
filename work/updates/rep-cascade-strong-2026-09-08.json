@@ -1,0 +1,170 @@
+[
+ {
+  "cardId": "69d9f8eb48f73ede819925e1",
+  "insured": "Francisco Munoz",
+  "claim": "",
+  "addr": "",
+  "stage": "Estimate being prepared"
+ },
+ {
+  "cardId": "6a8c57eac1ca5561ff7bc2cd",
+  "insured": "Ravi Bhanin",
+  "claim": "",
+  "addr": "",
+  "stage": "New / intake"
+ },
+ {
+  "cardId": "6a9604989323aa494848530c",
+  "insured": "Jacob Glavin -EV",
+  "claim": "",
+  "addr": "",
+  "stage": "New / intake"
+ },
+ {
+  "cardId": "6a9e98a3f0ac87279ec488ee",
+  "insured": "Kenny Hancock",
+  "claim": "",
+  "addr": "",
+  "stage": "New / intake"
+ },
+ {
+  "cardId": "6a94343aa913526291222b72",
+  "insured": "Minnie Hadley",
+  "claim": "",
+  "addr": "",
+  "stage": "Estimate being prepared"
+ },
+ {
+  "cardId": "6a8f6a966e642153840faeb0",
+  "insured": "Calida Barnes",
+  "claim": "",
+  "addr": "",
+  "stage": "Estimate being prepared"
+ },
+ {
+  "cardId": "6a91f24a077f69ec6b409d37",
+  "insured": "GEORGE SANDRA MAHLER TEER",
+  "claim": "",
+  "addr": "",
+  "stage": "Estimate sent - needs sign-off"
+ },
+ {
+  "cardId": "6a518a8643f6e498691ce08a",
+  "insured": "BRIAN LAUGHLIN",
+  "claim": "",
+  "addr": "",
+  "stage": "Estimate sent - needs sign-off"
+ },
+ {
+  "cardId": "6a976bf80ad6fcca769cbcec",
+  "insured": "KAL SHAH",
+  "claim": "",
+  "addr": "",
+  "stage": "Estimate sent - needs sign-off"
+ },
+ {
+  "cardId": "6a83872e535042aca38df386",
+  "insured": "Mike Russell",
+  "claim": "",
+  "addr": "",
+  "stage": "Estimate sent - needs sign-off"
+ },
+ {
+  "cardId": "6a8e0a9dafbfa42c375983d3",
+  "insured": "Aisha El-Amin",
+  "claim": "",
+  "addr": "",
+  "stage": "Estimate sent - needs sign-off"
+ },
+ {
+  "cardId": "6a8377343c50d1c665ab5e30",
+  "insured": "ROXANNE DYLLA",
+  "claim": "",
+  "addr": "",
+  "stage": "Estimate sent - needs sign-off"
+ },
+ {
+  "cardId": "6a7e42a38ea17e75c14526d3",
+  "insured": "Raquel Garcia",
+  "claim": "",
+  "addr": "",
+  "stage": "Estimate sent - needs sign-off"
+ },
+ {
+  "cardId": "6a8764d15046476ef19d5242",
+  "insured": "Charles Cline",
+  "claim": "",
+  "addr": "",
+  "stage": "Appraisal demanded / waiting on carrier"
+ },
+ {
+  "cardId": "6a6a85e2f0bc15b089b1001c",
+  "insured": "JEFFREY ZUERCHER",
+  "claim": "",
+  "addr": "",
+  "stage": "Appraisal demanded / waiting on carrier"
+ },
+ {
+  "cardId": "6a73bdf0587bd77595f66fdb",
+  "insured": "William And Debra Brightbill",
+  "claim": "",
+  "addr": "",
+  "stage": "Appraisal demanded / waiting on carrier"
+ },
+ {
+  "cardId": "6a8a20a73917e0c82163061a",
+  "insured": "RAVI BHASIN",
+  "claim": "",
+  "addr": "",
+  "stage": "Appraisal demanded / waiting on carrier"
+ },
+ {
+  "cardId": "6a8ccfc9c6e10aa4316c6bcb",
+  "insured": "ALFONSO PHILLIPS",
+  "claim": "",
+  "addr": "",
+  "stage": "Appraisal demanded / waiting on carrier"
+ },
+ {
+  "cardId": "6a91eaeb1f12c01c1b4a8e0d",
+  "insured": "SHANNON ROUSSOS",
+  "claim": "",
+  "addr": "",
+  "stage": "Appraisal demanded / waiting on carrier"
+ },
+ {
+  "cardId": "6a90959907b07619b8d6bb87",
+  "insured": "Joan Lawrence",
+  "claim": "",
+  "addr": "",
+  "stage": "Appraisal demanded / waiting on carrier"
+ },
+ {
+  "cardId": "6a56d8013d395377ff2d6806",
+  "insured": "Randi White",
+  "claim": "",
+  "addr": "",
+  "stage": "Referred out (attorney or public adjuster)"
+ },
+ {
+  "cardId": "6a42c137b5b4ad834998bc38",
+  "insured": "Travis Sauer",
+  "claim": "01-009-796070",
+  "addr": "2639 Bret Avenue, Salina, KS 67401",
+  "stage": "Inspected / building our position"
+ },
+ {
+  "cardId": "6a56e025fd687db2041628ae",
+  "insured": "Maribel Mendoza",
+  "claim": "7010350940-1-1",
+  "addr": "6742 Spring Hurst St, San Antonio, TX",
+  "stage": "Negotiating with the carrier's appraiser"
+ },
+ {
+  "cardId": "6a5abfa555133919fdfa8718",
+  "insured": "Derik Disney",
+  "claim": "5042515496-1-1",
+  "addr": "2317 Grant Ct, Salina, KS",
+  "stage": "Negotiating with the carrier's appraiser"
+ }
+]
