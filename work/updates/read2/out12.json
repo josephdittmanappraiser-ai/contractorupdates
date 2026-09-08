@@ -131,8 +131,97 @@
       "threadsDropped": [],
       "trelloItemsAdded": 2,
       "notes": "Thread 1a010757fcf91ca2 was an automated carrier notification with no substantive content (a generic 'new document available' portal link); no event was drawn from it."
+    },
+    {
+      "cardId": "6a7bb94b4273be155410340c",
+      "newEvents": [
+        {
+          "date": "2026-08-18",
+          "event": "Joseph sent the contractor a draft estimate, which the contractor approved."
+        },
+        {
+          "date": "2026-08-20",
+          "event": "The signed appraisal demand package was sent to State Farm, copying the homeowner and contractor, formally starting the appraisal."
+        },
+        {
+          "date": "2026-08-21",
+          "event": "The carrier's appraiser reached out to begin the formal appraisal, and Joseph acknowledged receipt of the contractor's hail impact report."
+        },
+        {
+          "date": "2026-08-24",
+          "event": "A joint inspection was scheduled for September 10."
+        },
+        {
+          "date": "2026-08-26",
+          "event": "The homeowner confirmed the joint inspection for September 10, and Joseph and the carrier's appraiser exchanged their signed appraisal agreements."
+        },
+        {
+          "date": "2026-08-28",
+          "event": "An umpire was selected for the appraisal."
+        }
+      ],
+      "update": "The claim is in formal appraisal with State Farm: an umpire has been selected, signed agreements have been exchanged with the carrier's appraiser, and the joint inspection is confirmed for September 10.",
+      "needed": null,
+      "threadsRead": [
+        "1a02502bdfbf6de3",
+        "1a01cae2fcce8cdf",
+        "1a01ca9761fa0c77",
+        "1a016d5be611bc7a",
+        "1a015c19e495c671",
+        "19ff178c69c217b3"
+      ],
+      "threadsDropped": [],
+      "trelloItemsAdded": 6,
+      "notes": "Thread 1a01cae2fcce8cdf was only State Farm's automatic mailbox reply and carried no new information."
+    },
+    {
+      "cardId": "6a7e4b472ad852d6ba535474",
+      "newEvents": [
+        {
+          "date": "2026-08-20",
+          "event": "Joseph sent the contractor a draft estimate for review, which the contractor approved."
+        },
+        {
+          "date": "2026-08-20",
+          "event": "The signed appraisal demand package and supporting photos were sent to Allstate, copying the homeowner and contractor, formally starting the appraisal."
+        },
+        {
+          "date": "2026-08-25",
+          "event": "Allstate's appraisal adjuster confirmed receipt of the demand and named the carrier's appraiser."
+        },
+        {
+          "date": "2026-08-25",
+          "event": "The carrier's appraiser sent his umpire list and proposed inspection dates, and a joint inspection was proposed for September 16."
+        },
+        {
+          "date": "2026-08-26",
+          "event": "The homeowner confirmed the joint inspection for September 16."
+        },
+        {
+          "date": "2026-08-27",
+          "event": "Joseph selected an umpire for the appraisal."
+        },
+        {
+          "date": "2026-08-28",
+          "event": "Joseph and the carrier's appraiser exchanged their signed appraisal agreements."
+        }
+      ],
+      "update": "The claim is in formal appraisal with Allstate: an umpire has been selected, signed agreements have been exchanged with the carrier's appraiser, and the joint inspection is confirmed for September 16.",
+      "needed": null,
+      "threadsRead": [
+        "1a03a6ac4a449233",
+        "1a039c7ce64d3214",
+        "1a020bc4fde612de",
+        "1a020b6b2b946ed1",
+        "19ffd2368c0ccc08",
+        "1a0393dbd9aef968",
+        "1a0203da27dc578f"
+      ],
+      "threadsDropped": [],
+      "trelloItemsAdded": 7,
+      "notes": "Thread 1a020bc4fde612de was only an automated Allstate acknowledgment ('Email received') and carried no new information."
     }
   ],
-  "checked": 4,
-  "withNewEvents": 4
+  "checked": 6,
+  "withNewEvents": 6
 }
