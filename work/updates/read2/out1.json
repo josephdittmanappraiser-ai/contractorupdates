@@ -1,0 +1,42 @@
+{
+ "batch": 1,
+ "results": [
+  {
+   "cardId": "6a1dfbf17c61e4c01e938953",
+   "newEvents": [
+    {"date": "2026-08-21", "event": "The opposing umpire circulated the appraisal award positions for the panel's review."},
+    {"date": "2026-08-31", "event": "Joseph sent an invoice for the completed appraisal work."}
+   ],
+   "update": "The independent appraisal has concluded with an award now circulated for review, and Joseph has billed for the completed appraisal work. No action is needed from the contractor at this time.",
+   "needed": null,
+   "threadsRead": ["1a059554a9e19f8c", "1a02597aea67e6c2"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 2,
+   "notes": ""
+  },
+  {
+   "cardId": "6872b7b43d21fee0af22f904",
+   "newEvents": [
+    {"date": "2026-08-05", "event": "The homeowner's household shared documentation just received from the carrier with Joseph's office."}
+   ],
+   "update": "The file remains quiet on the appraisal side; the only new activity was the homeowner passing along paperwork just received from the carrier for review. As previously noted, the roof job itself was already completed and paid outside of this appraisal process.",
+   "needed": null,
+   "threadsRead": ["1a07360da71f8861", "1a024fcd17b2daf9", "19fdd5e260d350e2", "19fdd55f672d12e9", "19fd3c0a986df595"],
+   "threadsDropped": ["1a07360da71f8861", "1a024fcd17b2daf9", "19fdd5e260d350e2", "19fdd55f672d12e9"],
+   "trelloItemsAdded": 1,
+   "notes": "Four of the five threads collected by the scan (1a07360da71f8861, 19fdd5e260d350e2, 19fdd55f672d12e9 — all explicitly 'Rudy Majia Jr' claim #018551777-23/24 — and 1a024fcd17b2daf9, a packout-invoice follow-up tied to the same public adjuster on that Rudy Mejia Jr file) are about a different Mejia entirely, not this card's insured Edwin Mejia. Only 19fd3c0a986df595 (household update sharing carrier correspondence) was kept."
+  },
+  {
+   "cardId": "69bad1ae861bc5abe177df60",
+   "newEvents": [],
+   "update": "",
+   "needed": null,
+   "threadsRead": ["1a04b17b7f78100a", "1a020f51095a3aaa", "19fa4dd63ea5ed3c", "19faeb6f47256de4", "19f6c1c60f8fff7c", "19ef4d38af67e849", "19ddff4859fe0dac", "19db15bd06f8a1ce", "19d8862f89560c16", "19d48ecd75cda0c3", "19d2d00ca9e33521", "19d2e53d8672a886", "19cf75246a56a757", "19ca06218534dee4"],
+   "threadsDropped": ["1a04b17b7f78100a", "1a020f51095a3aaa", "19fa4dd63ea5ed3c", "19faeb6f47256de4", "19f6c1c60f8fff7c", "19ef4d38af67e849", "19ddff4859fe0dac", "19db15bd06f8a1ce", "19d8862f89560c16", "19d48ecd75cda0c3", "19d2d00ca9e33521", "19d2e53d8672a886", "19cf75246a56a757", "19ca06218534dee4"],
+   "trelloItemsAdded": 0,
+   "notes": "Every one of the 14 threads the scan collected for 'OLGA GORDON' turned out to belong to someone else, matched purely on the surname 'Gordon': a claim for an insured named Gordon Cloutier (Allstate #0817988678 — several threads), a claim for Nathaniel Gordon Druckerman (State Farm, a different property), a claim for Tyson Gordon (a colleague appraiser asking for advice, explicitly not Joseph's file), a Liberty Mutual claim for a Tammana insured handled by an adjuster named Rickeeta Gordon, a Travelers claim for a business named P&D Paint Body Shop, an unrelated title-closing package, a 'Minnie Hadley' appraisal referral, and a contractor's multi-client pipeline update that only mentions Gordon Cloutier in passing. None reference this card's insured, and this card's existing checklist history (a small ACV supplement claim) doesn't match any of them. No update to report."
+  }
+ ],
+ "checked": 3,
+ "withNewEvents": 2
+}

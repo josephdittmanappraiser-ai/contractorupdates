@@ -1,0 +1,61 @@
+{
+ "batch": 5,
+ "results": [
+  {
+   "cardId": "6a3ec1efd198968cf8e089bb",
+   "newEvents": [
+    {"date": "2026-09-02", "event": "Joseph sent the homeowner the specific scope of damage being placed into appraisal for this property."},
+    {"date": "2026-09-02", "event": "The formal appraisal demand, estimate, and photo documentation were sent to the carrier's adjuster to open the appraisal, copying the homeowner and contractor."},
+    {"date": "2026-09-02", "event": "The carrier's adjuster declined to name an appraiser, saying the demand did not clearly identify the specific amount-of-loss dispute."}
+   ],
+   "update": "The appraisal demand, estimate, and photos went to the carrier on September 2 along with the specific scope of damage for this property, but the carrier's adjuster declined the same day to name an appraiser, saying the dispute wasn't clearly identified. Joseph is preparing a follow-up spelling out the exact pricing and scope disagreement so the carrier can move forward.",
+   "needed": null,
+   "threadsRead": ["1a062b7cc76e29a4", "1a05ff17fc4b373c"],
+   "threadsDropped": ["1a07d5113767eb62", "1a07d4ec1924e411", "1a07d4121ed6eb0e", "1a062c13f06f95f5", "1a062bb70cb5b803", "1a062a8035d6323c", "1a0629f6d002a00e"],
+   "trelloItemsAdded": 3,
+   "notes": "Dropped three internal multi-client call-list emails (not specific to this file) and four threads belonging to other Farassati properties with their own separate claim numbers and cards (3946 Springfield St, 4437 Paseo Blvd, 12704 Woodson St, 4108 Lloyd St)."
+  },
+  {
+   "cardId": "6a3ec6815df0cd10e49989c5",
+   "newEvents": [
+    {"date": "2026-09-02", "event": "Joseph sent the homeowner the specific scope of damage being placed into appraisal for this property."}
+   ],
+   "update": "After the carrier declined to name an appraiser on this file, citing insufficient dispute information, Joseph sent a detailed breakdown of the pricing and scope disagreement on September 4 and asked the carrier to confirm whether it will proceed with the appraisal or deny it. The file is waiting on the carrier's response.",
+   "needed": null,
+   "threadsRead": ["1a062bb70cb5b803", "1a05ff17fc4b373c"],
+   "threadsDropped": ["1a07d5113767eb62", "1a07d4ec1924e411", "1a07d4121ed6eb0e", "1a062c13f06f95f5", "1a062b7cc76e29a4", "1a062a8035d6323c", "1a0629f6d002a00e"],
+   "trelloItemsAdded": 1,
+   "notes": "Three of the four events found in the carrier thread (demand sent 9/2, carrier declined 9/3, Joseph's rebuttal 9/4) were already logged on this card's Chain of Events from a prior pass; only the homeowner scope-of-damage email (9/2) was missing and has been added. Dropped three internal multi-client call-list emails and four threads belonging to other Farassati properties (5833 Highland Ave, 3946 Springfield St, 12704 Woodson St, 4108 Lloyd St)."
+  },
+  {
+   "cardId": "6a3ea8ed04532d29c652f6fd",
+   "newEvents": [
+    {"date": "2026-09-02", "event": "Joseph sent the homeowner the specific scope of damage being placed into appraisal for this property."},
+    {"date": "2026-09-02", "event": "The formal appraisal demand, estimate, and photo documentation were sent to the carrier's adjuster to open the appraisal, copying the homeowner and contractor."},
+    {"date": "2026-09-03", "event": "The carrier's adjuster declined to name an appraiser, saying the demand did not clearly identify the specific amount-of-loss dispute."}
+   ],
+   "update": "The appraisal demand, estimate, and photos went to the carrier on September 2 along with the specific scope of damage for this property, but the carrier's adjuster declined to name an appraiser on September 3, saying the dispute wasn't clearly identified. Joseph is preparing a follow-up spelling out the exact pricing and scope disagreement so the carrier can move forward.",
+   "needed": null,
+   "threadsRead": ["1a062c13f06f95f5", "1a05ff17fc4b373c"],
+   "threadsDropped": ["1a07d5113767eb62", "1a07d4ec1924e411", "1a07d4121ed6eb0e", "1a062bb70cb5b803", "1a062b7cc76e29a4", "1a062a8035d6323c", "1a0629f6d002a00e"],
+   "trelloItemsAdded": 3,
+   "notes": "Dropped three internal multi-client call-list emails and four threads belonging to other Farassati properties (5833 Highland Ave, 4437 Paseo Blvd, 12704 Woodson St, 4108 Lloyd St). Also skipped one message in the read thread where the homeowner reacted to the carrier's denial with a dismissive one-line remark — not a substantive event."
+  },
+  {
+   "cardId": "6a4d1d9dbc7889168aec2321",
+   "newEvents": [
+    {"date": "2026-09-02", "event": "The formal appraisal demand and the carrier's original denial estimate were sent to the carrier's TPA to open the appraisal, copying the homeowner."},
+    {"date": "2026-09-03", "event": "The contractor's estimate was sent to the carrier's TPA as our position for the appraisal."},
+    {"date": "2026-09-07", "event": "Joseph followed up with the carrier's TPA since no appraiser had been named five days after the demand, and asked for a status update."}
+   ],
+   "update": "The appraisal demand and our position went to the carrier's TPA on September 2 and 3, but as of September 7 no appraiser has been named yet. Joseph has followed up asking for a status update, and the file is waiting on the TPA's response.",
+   "needed": null,
+   "threadsRead": ["1a0641bd86d3764a"],
+   "threadsDropped": ["1a07bf8de6725943", "1a07902b7d2e81ba", "1a0722ed8adc83a8", "1a06d9d4b4b51504", "1a06cf93f9ed4af4", "1a06ced34df66e55", "1a06b79a132ac9a4", "1a0688b023942e57", "1a06364abf2e86d8", "1a05fb5c50598724", "1a05fa10d094e947", "1a057ea0614419f5", "1a03f4e7923a6572"],
+   "trelloItemsAdded": 3,
+   "notes": "13 of the 14 candidate threads were about entirely different insureds/claims caught by surname or city-name collisions (a claim tied to a property located in the city of Alvarado, TX; a different homeowner named Adrian Alvarado; a different homeowner named Baldomero Alvarado on an unrelated claim; a contractor staff member with the surname Alvarado; general multi-claim digest emails; an unrelated fee dispute; an unrelated scope-of-work question). Only the thread addressed to the homeowner's actual UTexas email belonged to this file."
+  }
+ ],
+ "checked": 4,
+ "withNewEvents": 4
+}
