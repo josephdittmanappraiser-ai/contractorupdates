@@ -1,0 +1,120 @@
+{
+ "batch": 44,
+ "results": [
+  {
+   "cardId": "67b13ed83d83b06a42b09504",
+   "newEvents": [],
+   "update": "",
+   "needed": null,
+   "threadsRead": [
+    "1a06e87e2f57bcc6",
+    "1a06cca97d239079",
+    "1a06864d6350cdba",
+    "1a068560c228270e",
+    "1a0635d2057d0788",
+    "1a05ea7bed932c36",
+    "1a04f5c475ee3bef",
+    "1a048d96a2ccf894",
+    "1a03a47b3cc0c662",
+    "1a035c1163f44629",
+    "1a02b088dad3f491",
+    "1a025e580675d490",
+    "1a024c8699ade713"
+   ],
+   "threadsDropped": [
+    "1a06e87e2f57bcc6",
+    "1a06cca97d239079",
+    "1a06864d6350cdba",
+    "1a068560c228270e",
+    "1a0635d2057d0788",
+    "1a05ea7bed932c36",
+    "1a04f5c475ee3bef",
+    "1a048d96a2ccf894",
+    "1a03a47b3cc0c662",
+    "1a035c1163f44629",
+    "1a02b088dad3f491",
+    "1a025e580675d490",
+    "1a024c8699ade713"
+   ],
+   "trelloItemsAdded": 0,
+   "notes": "All 13 collected threads were dropped — none are about an insured named Vicky Williams (the card has no claim number or address to cross-check, so name was the only signal, and none matched). One was a LinkedIn notification. The rest were misattributed by surname match: 1a06cca97d239079 is the Tyler-Vann claim (carrier appraiser named Williams); 1a06864d6350cdba is a batch unpaid-invoice email covering Roslyn Williams and unrelated claims; 1a068560c228270e is a generic industry networking email with no claim reference; 1a0635d2057d0788 and 1a05ea7bed932c36 both belong to LaTerral Williams, claim 43-0G6L-712 (State Farm); 1a04f5c475ee3bef is a Miranda/Allstate claim (adjuster's name is James Williams); 1a048d96a2ccf894 is a SignWell notice for Ute Williams; 1a03a47b3cc0c662 is Carolina & Carlos Siller's Allstate claim; 1a035c1163f44629 and 1a024c8699ade713 both belong to Dena Williams, Liberty Mutual claim 061826503; 1a02b088dad3f491 and 1a025e580675d490 both belong to Eduardo Peralta Yanez's claim. No genuine new history found for this file."
+  },
+  {
+   "cardId": "69bb403dea0212a9758f4335",
+   "newEvents": [
+    {
+     "date": "2026-09-06",
+     "event": "Joseph checked in with the referring adjuster's office on the status of the appraisal, since no carrier-appointed appraiser had made contact yet; the referring office flagged this file for follow-up in response."
+    }
+   ],
+   "update": "The appraisal was invoked back in early March and has sat without a carrier-named appraiser since; this week Joseph followed up with the referring office to push for movement, and they've flagged it for follow-up on their end too. Next step is for the carrier to name their appraiser so an inspection can be scheduled.",
+   "needed": null,
+   "threadsRead": ["1a07902b7d2e81ba"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 1,
+   "notes": ""
+  },
+  {
+   "cardId": "69bc0668d9d4d3144266464a",
+   "newEvents": [
+    {
+     "date": "2026-09-06",
+     "event": "Joseph sent the referring adjuster's office another status check listing this file among those still without a named appraiser."
+    }
+   ],
+   "update": "This file has been stalled since May waiting on the carrier to name an appraiser; a status check sent this week confirmed there's still no movement. We're waiting on the carrier's next step.",
+   "needed": null,
+   "threadsRead": ["1a07902b7d2e81ba"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 1,
+   "notes": ""
+  },
+  {
+   "cardId": "69bd7990f974f27711c494df",
+   "newEvents": [
+    {
+     "date": "2026-09-06",
+     "event": "Joseph sent the referring adjuster's office another status check listing this file among those still without a named appraiser."
+    }
+   ],
+   "update": "This file has been stalled since March waiting on the carrier to name an appraiser; a status check sent this week confirmed there's still no movement. We're waiting on the carrier's next step.",
+   "needed": null,
+   "threadsRead": ["1a07902b7d2e81ba"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 1,
+   "notes": ""
+  },
+  {
+   "cardId": "69cab20ad8f9be4b02f77145",
+   "newEvents": [
+    {
+     "date": "2026-09-06",
+     "event": "Joseph sent the referring adjuster's office another status check listing this file among those still without a named appraiser."
+    }
+   ],
+   "update": "This file has been stalled since March waiting on the carrier to name an appraiser; a status check sent this week confirmed there's still no movement. We're waiting on the carrier's next step.",
+   "needed": null,
+   "threadsRead": ["1a07902b7d2e81ba"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 1,
+   "notes": ""
+  },
+  {
+   "cardId": "69ea7a38f834e3540ce1d4e6",
+   "newEvents": [
+    {
+     "date": "2026-09-06",
+     "event": "Joseph sent the referring adjuster's office another status check listing this file among those still without a named appraiser."
+    }
+   ],
+   "update": "This file has been stalled since late April waiting on the carrier to name an appraiser; a status check sent this week confirmed there's still no movement. We're waiting on the carrier's next step.",
+   "needed": null,
+   "threadsRead": ["1a07902b7d2e81ba"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 1,
+   "notes": ""
+  }
+ ],
+ "checked": 6,
+ "withNewEvents": 5
+}
