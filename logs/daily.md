@@ -39,6 +39,19 @@ Data-quality notes for Joseph to spot-check:
 - Possible near-duplicate concurrent writes: Mike Russell (batch22 + batch27), Koteshwar Pilla Rao (batch07 + batch22), Bernard Nganga and Miriam Cruz Zamora (batch01 + batch30) — different threads about the same file processed in parallel batches; likely fine but worth a glance.
 - One subagent (batch10) reported it initially cross-wired checklist writes across 4 cards (Coffman, Maldonado, Mogollon, Cooper) before self-correcting and re-verifying each card in place — worth a spot-check of those 4.
 
+2026-09-08 | RUN FAILED — no Gmail/Trello tools in session | 0 scanned | 0 logged
+
+`ListConnectors` reports Gmail and Trello as `connected: true, enabledInChat: true`, but no
+Gmail or Trello tool (searched via `ToolSearch` for `mcp__Gmail__search_threads`, `trelloSearch`,
+`trelloReadChecklist`, `trelloWriteChecklist`, etc., and by broad keyword) was reachable in this
+session — nothing beyond the built-in Bash/Read/Edit/etc. tools and the GitHub MCP tools loaded.
+No email was read, no Trello card was touched, no destructive action was taken. This looks like
+the exact failure mode `runbooks/schedules.md` already diagnosed: a Routine created through the
+API cannot carry connector grants, so a session it fires starts with no Gmail/Trello/Send tools.
+Worth checking whether this run's trigger is still one of the old `[NEEDS CONNECTORS]` API
+Routines rather than a Routines-UI schedule with Gmail + Trello attached — see schedules.md for
+the one-time fix.
+
 2026-09-07 | 69 threads scanned | 46 logged | 11 unmatched | 10 skipped as noise, 2 skipped as duplicate
 
 Unmatched insureds named in email with no card on the Insured Appraisals board:
