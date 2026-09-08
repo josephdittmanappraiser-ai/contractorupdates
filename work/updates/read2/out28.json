@@ -13,7 +13,7 @@
    "needed": null,
    "threadsRead": ["1a06a9a82727dd4d", "19fab018114eeebf", "19f2ff3bf4f610c4"],
    "threadsDropped": ["19fed6444095b93c", "19f8ada5ace59590", "1a03af43174e8402", "19ff0b4fed2d0312", "19ffb4f0d13ad6c1", "1a07c16d6bb29478"],
-   "trelloItemsAdded": 0,
+   "trelloItemsAdded": 4,
    "notes": "Dropped threads belong to other files: 19fed6444095b93c, 19f8ada5ace59590, 1a03af43174e8402 and 19ff0b4fed2d0312 are all Derik Disney's claim (5042515496-1-1), not Amit Jain. 19ffb4f0d13ad6c1 is an unrelated Sirridge/Olathe KS mutual-appraisal file. 1a07c16d6bb29478 was an erroneous internal test email listing five unrelated files that does not mention Amit Jain at all."
   },
   {
@@ -30,7 +30,7 @@
    "needed": null,
    "threadsRead": ["19fed6444095b93c", "1a03af43174e8402"],
    "threadsDropped": ["1a07c16d6bb29478", "19ffb4f0d13ad6c1"],
-   "trelloItemsAdded": 0,
+   "trelloItemsAdded": 6,
    "notes": "1a07c16d6bb29478 was an erroneous internal test email that only name-checked Derik Disney in a reply, with no actual claim content - dropped. 19ffb4f0d13ad6c1 belongs to an unrelated Sirridge/Olathe KS mutual-appraisal file - dropped."
   },
   {
@@ -46,8 +46,8 @@
    "needed": null,
    "threadsRead": ["1a020815eb622749", "19ff76fd3cbc0bbb", "19ff8853826dcece"],
    "threadsDropped": [],
-   "trelloItemsAdded": 0,
-   "notes": ""
+   "trelloItemsAdded": 2,
+   "notes": "The position-sent (8/29), carrier-position-received (9/3), and reconsider-items (9/4) events were already on the Trello checklist from a prior pass, so only the two genuinely new items (the 8/20 estimate/settlement letter to the adjuster, and Joseph's own 8/20 inspection) were added there."
   },
   {
    "cardId": "6a4daacf8d70f33b661b3c96",
@@ -62,7 +62,7 @@
    "threadsRead": ["19f814702df807d1"],
    "threadsDropped": ["1a07d5113767eb62", "1a07d4ec1924e411", "1a07d4121ed6eb0e", "1a079ea21963bce7", "1a0701478aa574aa", "1a062c13f06f95f5", "1a062bb70cb5b803", "1a062b7cc76e29a4", "1a062a8035d6323c", "1a0629f6d002a00e"],
    "trelloItemsAdded": 0,
-   "notes": "Nine of the fourteen candidate threads had nothing to do with Sean Cooper: three were internal status-tracking emails about a batch of unrelated files; one was about a different claim (Agustin Contreras Ledesma); one was about a different Cooper (Rachael Cooper, claim 012381196-801); and five were all about Faris Farassati's various properties, matched only because the adjuster on those files happens to be named Brian Cooper. All dropped."
+   "notes": "All four events found were already present on the Trello checklist from a prior pass (inspection scheduling/confirmation, the appraiser attending, his position and award, and the reconsideration exchange), so nothing new was added there. Nine of the fourteen candidate threads had nothing to do with Sean Cooper: three were internal status-tracking emails about a batch of unrelated files; one was about a different claim (Agustin Contreras Ledesma); one was about a different Cooper (Rachael Cooper, claim 012381196-801); and five were all about Faris Farassati's various properties, matched only because the adjuster on those files happens to be named Brian Cooper. All dropped."
   },
   {
    "cardId": "6a20b302452677803b649e18",
@@ -76,7 +76,7 @@
    "needed": null,
    "threadsRead": ["19fcdedc35b0d0c7"],
    "threadsDropped": ["1a03f30fd8fdb413", "19ffbf8ef51c9f70", "19ff2b0b4e6321b4", "19fed0691db3054c"],
-   "trelloItemsAdded": 0,
+   "trelloItemsAdded": 4,
    "notes": "Four of the five candidate threads were about different people entirely, matched only on the surname Trevino: two are about a Curtis Redwine claim handled by an adjuster named Rene Trevino, and two are about a different insured, Jose Trevino. None mention Roosevelt Trevino or claim 00108712684. All dropped."
   },
   {
@@ -90,7 +90,7 @@
    "needed": null,
    "threadsRead": ["1a0597bc40a4aae8", "1a047badc5a54624", "19f665da1dc2d8f7", "19ebd384d28d024c"],
    "threadsDropped": [],
-   "trelloItemsAdded": 0,
+   "trelloItemsAdded": 3,
    "notes": ""
   }
  ],
