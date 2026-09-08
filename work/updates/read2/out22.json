@@ -54,8 +54,34 @@
    "threadsDropped": ["1a07902b7d2e81ba", "1a077c7ec3a1177b", "1a048c7092dd3cc7", "1a034a2e15a67eec", "1a03074ee2ba4f13", "1a01ff9043797ff2", "1a0226c2f5916f98"],
    "trelloItemsAdded": 5,
    "notes": "Dropped threads concern other insureds (Dao Tran, Yen-Thi Kim Nguyen, Tay Nguyen), an unrelated older claim, and a multi-client biweekly status email that does not name Andy Nguyen individually."
+  },
+  {
+   "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a359ad3598cf3ba0cf93641",
+   "newEvents": [
+    {"date": "2026-08-14", "event": "Our position, estimate, and photos were sent to the carrier's appraiser (Gideon Nwokolo)."},
+    {"date": "2026-08-30", "event": "Homeowner followed up twice through September 1 asking whether the carrier's appraiser had completed the scheduled inspection."}
+   ],
+   "update": "The carrier's appraiser (Gideon Nwokolo) completed his inspection August 29 and has our position, sent August 14. He told us September 5 he needs more time and expects to have his own position ready by the following weekend.",
+   "needed": null,
+   "threadsRead": ["19fee779d13f7ff2", "19f7d7259d98a99b"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 2,
+   "notes": "This card had two separate 'Chain of Events' checklists already on it (one tracking the homeowner-facing thread, one tracking the carrier-appraiser thread); new items were added to the latter, which already carried the most recent history."
+  },
+  {
+   "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a1866fe2213e53339b975b1",
+   "newEvents": [
+    {"date": "2026-08-07", "event": "The carrier's appraiser confirmed the scheduled inspections for the next day."},
+    {"date": "2026-08-08", "event": "The exterior inspection took place; our position, estimate, and photos were sent to the carrier's appraiser, and the signed appraiser agreement was exchanged."}
+   ],
+   "update": "The August 8 inspection is complete and our position is with the carrier's appraiser (Derrick Noble); Joseph followed up September 5 for his response and is still waiting to hear back.",
+   "needed": null,
+   "threadsRead": ["19fbb3b00df19a49", "19fd3111c2b16b25"],
+   "threadsDropped": ["19f8899fe7558e53"],
+   "trelloItemsAdded": 2,
+   "notes": "Dropped thread is the same carrier appraiser's correspondence about a different insured (Esperanza Lopez, claim 0815088372) he was also handling."
   }
  ],
- "checked": 4,
- "withNewEvents": 3
+ "checked": 6,
+ "withNewEvents": 5
 }
