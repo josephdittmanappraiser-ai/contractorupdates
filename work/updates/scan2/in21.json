@@ -1,0 +1,86 @@
+[
+ {
+  "cardId": "69e66b50b2382b3b3f201192",
+  "insured": "KEVIN VILLALOBOS",
+  "claim": "003320634",
+  "address": "3306 Brooktree Ct San Antonio, TX 78261-2688",
+  "searchAfter": "2026-07-30"
+ },
+ {
+  "cardId": "69f8fdad2ec48a6f75b37b36",
+  "insured": "Norma Lopes",
+  "claim": "7010088915",
+  "address": "10316 Andover Dr, Dallas, TX 75228-2702",
+  "searchAfter": "2026-08-11"
+ },
+ {
+  "cardId": "6a187e9e94e687bed607b017",
+  "insured": "Edgar Garcia Valdez",
+  "claim": "43-0B3C-641",
+  "address": "1432 ARCHWAY CT JUSTIN, TX 76247-1953",
+  "searchAfter": "2026-06-24"
+ },
+ {
+  "cardId": "69f210fb4000625388646899",
+  "insured": "Michael Patterson",
+  "claim": "018034471",
+  "address": "609 Dubina Ave Georgetown, TX 78626-2615",
+  "searchAfter": "2026-07-15"
+ },
+ {
+  "cardId": "69f51b106f1edc68b4368cc0",
+  "insured": "Dalton McFarling",
+  "claim": "",
+  "address": "2814 Independence Dr, Melissa TX 75454",
+  "searchAfter": "2026-08-13"
+ },
+ {
+  "cardId": "69dfa48abd7852a768d79a5c",
+  "insured": "Thomas Clark",
+  "claim": "1572311-254402",
+  "address": "5539 DENMANS MOUNTAIN RD, BELTON, TX 76513-4776",
+  "searchAfter": "2026-07-20"
+ },
+ {
+  "cardId": "6a70ac6ba4f74f6002a41c71",
+  "insured": "ESPERANZA LOPEZ",
+  "claim": "0815088372",
+  "address": "4712 CYPRESS BEND AUSTIN, TX 78744-3008",
+  "searchAfter": "2026-08-04"
+ },
+ {
+  "cardId": "6a628fd94dd878baf8cc0831",
+  "insured": "Erin Beasley",
+  "claim": "",
+  "address": "6604 SWAMP MALLOW DR AUSTIN TX 78744",
+  "searchAfter": "2026-08-13"
+ },
+ {
+  "cardId": "69bb337321eaa03172a77072",
+  "insured": "Eva De La Garza",
+  "claim": "53-94X9-94B",
+  "address": "1302 MAYWEATHER LN RICHMOND, TX 77406-2331",
+  "searchAfter": "2026-07-20"
+ },
+ {
+  "cardId": "6a56e025fd687db2041628ae",
+  "insured": "Maribel Mendoza",
+  "claim": "7010350940-1-1",
+  "address": "6742 Spring Hurst St, San Antonio, TX",
+  "searchAfter": "2026-08-15"
+ },
+ {
+  "cardId": "6a5ebbe8d413f95bf9cdafb7",
+  "insured": "Kyle Mckoy",
+  "claim": "5043629174-1-2",
+  "address": "118 SANTA FE RDG SEGUIN, TX 78155-9750",
+  "searchAfter": "2026-08-15"
+ },
+ {
+  "cardId": "6a29d844f9de83a174593d23",
+  "insured": "Bijou Chacko",
+  "claim": "ABPAC26030122",
+  "address": "3812 WOODLAWN Avenue PASADENA, TX 77504-1934",
+  "searchAfter": "2026-08-04"
+ }
+]

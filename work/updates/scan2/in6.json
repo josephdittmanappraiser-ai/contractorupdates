@@ -1,0 +1,86 @@
+[
+ {
+  "cardId": "68718855f2eb64c0d46e054d",
+  "insured": "FERNANDO ALFONSO CEPERO",
+  "claim": "",
+  "address": "** 4411 HICKORY GROVE DR",
+  "searchAfter": "2026-05-18"
+ },
+ {
+  "cardId": "6966c0e6740b63c19cee4664",
+  "insured": "Martha Ornelas",
+  "claim": "",
+  "address": "3807 Sherbrook Rd., Pasadena, TX 77503",
+  "searchAfter": "2026-05-18"
+ },
+ {
+  "cardId": "6931ac83fb79f67e8541a6df",
+  "insured": "Shysha Lewis",
+  "claim": "Policy",
+  "address": "",
+  "searchAfter": "2026-05-18"
+ },
+ {
+  "cardId": "6920e917a489f15366bf457c",
+  "insured": "Jorge Cuevas",
+  "claim": "",
+  "address": "** 1714 Briar Ln., Wharton, TX 77488",
+  "searchAfter": "2026-05-18"
+ },
+ {
+  "cardId": "691660b7e3d2fb96fb979806",
+  "insured": "Juan Camarena",
+  "claim": "",
+  "address": "** 13422 Caney Springs Ln, Houston, TX 77044",
+  "searchAfter": "2026-04-29"
+ },
+ {
+  "cardId": "69274d2eee9f3b9c0d02c4d7",
+  "insured": "Sonja Jeffrey Natt",
+  "claim": "",
+  "address": "** 1603 Blue Heather Ln, Fresno, TX 77545",
+  "searchAfter": "2026-05-18"
+ },
+ {
+  "cardId": "691655cce03a9cf823e34b33",
+  "insured": "Juan Herrera",
+  "claim": "",
+  "address": "** 1738 Wooded Acres Dr, Humble, TX 77396",
+  "searchAfter": "2026-05-18"
+ },
+ {
+  "cardId": "6914fecc98e13290f045db5c",
+  "insured": "Juana Martinez Julian Opry",
+  "claim": "",
+  "address": "** 703 Stanford Dr, Waxahachie, TX 75165",
+  "searchAfter": "2026-07-28"
+ },
+ {
+  "cardId": "69139dd59bb570198a0f4bdd",
+  "insured": "Lilia Raul Oquendo",
+  "claim": "",
+  "address": "** 5207 Lilac Hollow Ln, Katy, TX 77449",
+  "searchAfter": "2026-05-18"
+ },
+ {
+  "cardId": "6a2c85b1c83d98e45abfdc27",
+  "insured": "Keith Anderson",
+  "claim": "",
+  "address": "** 10023 Friesian Estates Dr., Spring, TX 77379",
+  "searchAfter": "2026-06-12"
+ },
+ {
+  "cardId": "6a21caedf67d42993bfa17d3",
+  "insured": "Jose Viteri",
+  "claim": "",
+  "address": "** 9830 Territory Ln, Houston, TX 77064",
+  "searchAfter": "2026-06-04"
+ },
+ {
+  "cardId": "6a2c4aa8137380456988c831",
+  "insured": "Juan Guevera",
+  "claim": "",
+  "address": "** 8503 Cookglass Dr, Houston, TX 77072",
+  "searchAfter": "2026-06-12"
+ }
+]

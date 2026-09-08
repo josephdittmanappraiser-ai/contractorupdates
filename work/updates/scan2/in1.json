@@ -1,0 +1,86 @@
+[
+ {
+  "cardId": "6a1dfbf17c61e4c01e938953",
+  "insured": "Marie Le Fevere",
+  "claim": "",
+  "address": "",
+  "searchAfter": "2026-07-29"
+ },
+ {
+  "cardId": "6872b7b43d21fee0af22f904",
+  "insured": "Edwin Mejia",
+  "claim": "",
+  "address": "** 809 Emerald St",
+  "searchAfter": "2025-12-11"
+ },
+ {
+  "cardId": "69bad1ae861bc5abe177df60",
+  "insured": "OLGA GORDON",
+  "claim": "",
+  "address": "",
+  "searchAfter": "2026-03-19"
+ },
+ {
+  "cardId": "69cbc29aa329a43beef4020f",
+  "insured": "Sherman Cole",
+  "claim": "",
+  "address": "",
+  "searchAfter": "2026-04-01"
+ },
+ {
+  "cardId": "69ced71f6da9f7aa921818bc",
+  "insured": "Jodie Spielman",
+  "claim": "",
+  "address": "",
+  "searchAfter": "2026-04-02"
+ },
+ {
+  "cardId": "69d5d15fbea62e784269a9cb",
+  "insured": "Coy Stavinoha",
+  "claim": "",
+  "address": "",
+  "searchAfter": "2026-04-10"
+ },
+ {
+  "cardId": "69d641e75371ceeb1c665095",
+  "insured": "PAGE MITCHUM",
+  "claim": "",
+  "address": "",
+  "searchAfter": "2026-04-08"
+ },
+ {
+  "cardId": "69d9f8eb48f73ede819925e1",
+  "insured": "Francisco Munoz",
+  "claim": "",
+  "address": "",
+  "searchAfter": "2026-04-11"
+ },
+ {
+  "cardId": "6a1de15ace6e2a60f2d99232",
+  "insured": "Margaret Davidson",
+  "claim": "",
+  "address": "",
+  "searchAfter": "2026-06-18"
+ },
+ {
+  "cardId": "697101ad3031e26ba5fb55c7",
+  "insured": "Russell Hodges",
+  "claim": "",
+  "address": "** 10129 Channel Island Dr., Austin, TX 78747",
+  "searchAfter": "2026-05-22"
+ },
+ {
+  "cardId": "6970f0af6bc4bb041bf185cd",
+  "insured": "Luis Eduardo Aguilar Pere",
+  "claim": "",
+  "address": "** 10307 Dawson Hill Lane, Houston, TX 77044",
+  "searchAfter": "2026-05-22"
+ },
+ {
+  "cardId": "696ed0178dedd27c360d27d4",
+  "insured": "Juan Guevara",
+  "claim": "",
+  "address": "** 8503 Cookglass Dr, Houston, TX 77072",
+  "searchAfter": "2026-06-12"
+ }
+]

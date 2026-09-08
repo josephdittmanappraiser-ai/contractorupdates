@@ -1,0 +1,86 @@
+[
+ {
+  "cardId": "6a19ebe8d54d0fa55dc4ee28",
+  "insured": "John Maldonado",
+  "claim": "0827498444",
+  "address": "828 INDIGO WAY SEGUIN, TX 78155-0097",
+  "searchAfter": "2026-08-15"
+ },
+ {
+  "cardId": "6a6274f42e0c6156841dcd9d",
+  "insured": "Daniel Martin Fernandez Sr",
+  "claim": "PRAH-00020323",
+  "address": "601 Bunton Reserve Blvd Kyle, TX 78640",
+  "searchAfter": "2026-08-15"
+ },
+ {
+  "cardId": "6a4ae78e45a16a686b82dfd7",
+  "insured": "Amit Jain",
+  "claim": "HO-2026-976111216",
+  "address": "10513 Prezia Drive, Austin Texas 78733",
+  "searchAfter": "2026-07-29"
+ },
+ {
+  "cardId": "6a5abfa555133919fdfa8718",
+  "insured": "Derik Disney",
+  "claim": "5042515496-1-1",
+  "address": "2317 Grant Ct, Salina, KS",
+  "searchAfter": "2026-08-15"
+ },
+ {
+  "cardId": "6a62943cf62e844fab3e5082",
+  "insured": "Dianela Mogollon",
+  "claim": "",
+  "address": "** 3923 mcdonough way Katy, Tx,Katy,TX 77494",
+  "searchAfter": "2026-08-15"
+ },
+ {
+  "cardId": "6a4daacf8d70f33b661b3c96",
+  "insured": "Sean Cooper",
+  "claim": "43-0G7N-754",
+  "address": "2108 Rheims Dr Carrollton TX 75006-4328",
+  "searchAfter": "2026-07-21"
+ },
+ {
+  "cardId": "6a20b302452677803b649e18",
+  "insured": "Roosevelt Trevino",
+  "claim": "00108712684",
+  "address": "2443 SENTRY PALM DR RIO GRANDE CITY,, TX 78582",
+  "searchAfter": "2026-08-10"
+ },
+ {
+  "cardId": "6a2b3d5638100479a306c7a2",
+  "insured": "Extreme Group Inc. -Might Go To Umpire",
+  "claim": "10003232",
+  "address": "14902 North Fwy, Houston , TX 77090",
+  "searchAfter": "2026-08-13"
+ },
+ {
+  "cardId": "6993826c12798733ab54469c",
+  "insured": "MARCOS ELIZABETH MORALES",
+  "claim": "",
+  "address": "",
+  "searchAfter": "2026-08-10"
+ },
+ {
+  "cardId": "697cee458453b97cb67ec6b9",
+  "insured": "Evelia Benitez",
+  "claim": "",
+  "address": "5412 Samuel Huston Ave, Austin, TX 78721",
+  "searchAfter": "2026-07-20"
+ },
+ {
+  "cardId": "69fb7f2aab323c83f5e75bda",
+  "insured": "Hugo Mejia Anzora",
+  "claim": "1095450",
+  "address": "121 PAWNEE TRL MABANK, TX 75156",
+  "searchAfter": "2026-08-10"
+ },
+ {
+  "cardId": "6a638f478e63b5b6e89037fc",
+  "insured": "David Johnson",
+  "claim": "0826289761",
+  "address": "1890 Copper Ridge Circle, Rockwall TX 75032",
+  "searchAfter": "2026-08-08"
+ }
+]

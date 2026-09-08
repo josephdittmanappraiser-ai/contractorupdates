@@ -1,0 +1,86 @@
+[
+ {
+  "cardId": "6a0bb8aeac5b5fb4d83d7bd3",
+  "insured": "Steven Hawkins",
+  "claim": "",
+  "address": "3011 washington st commerce, TX 75428",
+  "searchAfter": "2026-07-30"
+ },
+ {
+  "cardId": "69c32dc96db949f2f15db542",
+  "insured": "SAMUEL GARZA",
+  "claim": "",
+  "address": "",
+  "searchAfter": "2026-07-17"
+ },
+ {
+  "cardId": "68eec7b858fd1a7dc526c96c",
+  "insured": "Dion Edge",
+  "claim": "008685134-804",
+  "address": "10705 Pinehurst Dr, Austin, TX 78747",
+  "searchAfter": "2026-07-09"
+ },
+ {
+  "cardId": "6a47d422f42a4522a9a18185",
+  "insured": "HERMELINDA ALMANZA",
+  "claim": "0823471594",
+  "address": "7915 SPLIT OAK DR HOUSTON, TX 77040-2718",
+  "searchAfter": "2026-08-04"
+ },
+ {
+  "cardId": "6a601121931dc29048918aed",
+  "insured": "Edward Nguyen",
+  "claim": "",
+  "address": "5418 Bending Branch Drive Missouri City, TX 77459",
+  "searchAfter": "2026-08-12"
+ },
+ {
+  "cardId": "6a2afcf0e1c3c5165b5004b7",
+  "insured": "Tyler Fields",
+  "claim": "027314797",
+  "address": "1232 Star Meadow Kyle, TX 78640",
+  "searchAfter": "2026-08-14"
+ },
+ {
+  "cardId": "6a2b42c46c02b62859eaae6f",
+  "insured": "Fernando Garcia",
+  "claim": "",
+  "address": "",
+  "searchAfter": "2026-08-08"
+ },
+ {
+  "cardId": "6a42ebd8d5ede9f2d8986e1e",
+  "insured": "Brenda Tranchon",
+  "claim": "",
+  "address": "",
+  "searchAfter": "2026-07-22"
+ },
+ {
+  "cardId": "6a3ae250387432be0437ec09",
+  "insured": "Abel Rodriguez",
+  "claim": "5042250093-1-1",
+  "address": "10366 Jim Towns Ln Calvert, TX 77837",
+  "searchAfter": "2026-08-13"
+ },
+ {
+  "cardId": "69fe17a642840a8b41529b56",
+  "insured": "Raul Borja",
+  "claim": "",
+  "address": "",
+  "searchAfter": "2026-08-01"
+ },
+ {
+  "cardId": "69fb9db811f2ee9bf0c7d150",
+  "insured": "Ryan Murphy",
+  "claim": "60010703022",
+  "address": "11015 Alhambra Dr Austin, TX 78759-5301",
+  "searchAfter": "2026-08-15"
+ },
+ {
+  "cardId": "69691f57bad91fbd1b4ebf3e",
+  "insured": "THURRELL KERNS",
+  "claim": "4390W353N",
+  "address": "801 Andrews CT Anna, Tx 75409",
+  "searchAfter": "2026-07-17"
+ }
+]

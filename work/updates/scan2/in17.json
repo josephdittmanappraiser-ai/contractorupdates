@@ -1,0 +1,86 @@
+[
+ {
+  "cardId": "6a72236e1d59d0eda6c3b241",
+  "insured": "Eric Vega",
+  "claim": "",
+  "address": "4134 Carmel Ridge Way Pasadena, TX 77503",
+  "searchAfter": "2026-08-14"
+ },
+ {
+  "cardId": "6a7126a67d672bc6e46cc0c1",
+  "insured": "AXEL MEJIAS SANCHEZ",
+  "claim": "0830951620",
+  "address": "7538 ABBEY POINT LN HOUSTON, TX 77049-1287",
+  "searchAfter": "2026-08-14"
+ },
+ {
+  "cardId": "6a6231f4af9d68101f2e2c05",
+  "insured": "Rosalba Melgar",
+  "claim": "0804322963",
+  "address": "18139 Lundar Ln Tomball, TX 77377",
+  "searchAfter": "2026-07-23"
+ },
+ {
+  "cardId": "6a43e9f10de515a740bb3dda",
+  "insured": "AMERICA ROBLES",
+  "claim": "",
+  "address": "** 9607 Truscon Dr, Houston, TX 77080",
+  "searchAfter": "2026-08-04"
+ },
+ {
+  "cardId": "6a3460db31254b6db5ec98b1",
+  "insured": "Elaine Zuliani",
+  "claim": "006668108-800",
+  "address": "2505 Village Walk Austin, TX 78744-3610",
+  "searchAfter": "2026-08-06"
+ },
+ {
+  "cardId": "6a74a3151b32ea51d238b30e",
+  "insured": "Duc Vu",
+  "claim": "HO-2026-011904813",
+  "address": "9514 SECRET CANYON DR HOUSTON TX 77095",
+  "searchAfter": "2026-08-10"
+ },
+ {
+  "cardId": "6a5e938d4bbe12aea94219c6",
+  "insured": "ABEL RAMIREZ",
+  "claim": "",
+  "address": "** 252 Pine Arbol, Buda, TX 78610",
+  "searchAfter": "2026-08-13"
+ },
+ {
+  "cardId": "6a4453393179de57567429ba",
+  "insured": "BART HARRINGTON",
+  "claim": "0830995857",
+  "address": "1560 KAREN DR ARGYLE, TX 76226-2946",
+  "searchAfter": "2026-08-07"
+ },
+ {
+  "cardId": "6a6a56cc78c8ec2c20251f75",
+  "insured": "Shane Robin Studdard",
+  "claim": "43-98P0-87W",
+  "address": "312 E HIRD ST gainesville, TX 76240",
+  "searchAfter": "2026-08-14"
+ },
+ {
+  "cardId": "6a42c137b5b4ad834998bc38",
+  "insured": "Travis Sauer",
+  "claim": "01-009-796070",
+  "address": "2639 Bret Avenue, Salina, KS 67401",
+  "searchAfter": "2026-08-15"
+ },
+ {
+  "cardId": "6a4c60fcfa15c964bd054867",
+  "insured": "ADOLFO PRADO",
+  "claim": "0829364348",
+  "address": "213 DARK FORREST KYLE, TX 78640-2509",
+  "searchAfter": "2026-08-11"
+ },
+ {
+  "cardId": "6a7112cf2d2fb673a37fedbd",
+  "insured": "GLORIA ARMAND",
+  "claim": "0830458824",
+  "address": "1808 SUNSET ST KILLEEN, TX 76543-6720",
+  "searchAfter": "2026-08-10"
+ }
+]
