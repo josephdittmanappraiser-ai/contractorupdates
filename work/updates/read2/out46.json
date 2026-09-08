@@ -1,0 +1,77 @@
+{
+ "batch": 46,
+ "results": [
+  {
+   "cardId": "69fa729ffe2a33d738aa3620",
+   "newEvents": [
+    {"date": "2026-09-06", "event": "Joseph followed up again with the referring adjuster on the appraisal status; still no carrier-named appraiser after 124 days in the system."}
+   ],
+   "update": "The appraisal demand has been sitting with the carrier since early May, and Joseph checked in again this week to press for movement — the carrier still has not named its own appraiser. The file continues to wait on the insurance company.",
+   "needed": null,
+   "threadsRead": ["1a07902b7d2e81ba"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 1,
+   "notes": ""
+  },
+  {
+   "cardId": "69fb64c20f1cabd66e693be0",
+   "newEvents": [
+    {"date": "2026-09-06", "event": "Joseph followed up again with the referring adjuster on the appraisal status; still no carrier-named appraiser after 123 days in the system."}
+   ],
+   "update": "The appraisal demand has been sitting with the carrier since early May, and Joseph checked in again this week to press for movement — the carrier still has not named its own appraiser. The file continues to wait on the insurance company.",
+   "needed": null,
+   "threadsRead": ["1a07902b7d2e81ba"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 1,
+   "notes": ""
+  },
+  {
+   "cardId": "69fb666d52df0500976a4ec1",
+   "newEvents": [
+    {"date": "2026-09-06", "event": "Joseph followed up again with the referring adjuster on the appraisal status; still no carrier-named appraiser after 123 days in the system."}
+   ],
+   "update": "The appraisal demand has been sitting with the carrier since early May, and Joseph checked in again this week to press for movement — the carrier still has not named its own appraiser. The file continues to wait on the insurance company.",
+   "needed": null,
+   "threadsRead": ["1a07902b7d2e81ba", "1a01cacc08e6130d", "19ead7fbc7063186"],
+   "threadsDropped": ["1a01cacc08e6130d", "19ead7fbc7063186"],
+   "trelloItemsAdded": 1,
+   "notes": "Dropped thread 1a01cacc08e6130d (umpire-payment follow-up covering several unrelated claims — Blaire Holmes, Yulanda Washington & Carl Murray, Anita Wilkins, Ladie Velasquez, Luis Burgos, Fabian Alvarez — none of which is this insured) and 19ead7fbc7063186 (a long 'Lopez-Mendez appraisal' thread, claim 53-99G9-55Q, unrelated to Ana Alvarez)."
+  },
+  {
+   "cardId": "69fb7cb65fc6c41810b1a74b",
+   "newEvents": [
+    {"date": "2026-09-06", "event": "Joseph followed up again with the referring adjuster on the appraisal status; still no carrier-named appraiser after 123 days in the system."}
+   ],
+   "update": "The appraisal demand has been sitting with the carrier since early May, and Joseph checked in again this week to press for movement — the carrier still has not named its own appraiser. The file continues to wait on the insurance company.",
+   "needed": null,
+   "threadsRead": ["1a07902b7d2e81ba", "1a00d6bbf463c35c", "1a011a95a3e15c19", "1a01b6b3a1f31d4f", "1a020f51095a3aaa", "1a04e1b15e8e189a", "1a0262b7cdee375a", "1a067e65c291e1d3", "1a06833e71c15550", "1a068b0aad5d98ef", "1a0126375ead70ca", "1a07e816e6f0a58e"],
+   "threadsDropped": ["1a00d6bbf463c35c", "1a011a95a3e15c19", "1a01b6b3a1f31d4f", "1a020f51095a3aaa", "1a04e1b15e8e189a", "1a0262b7cdee375a", "1a067e65c291e1d3", "1a06833e71c15550", "1a068b0aad5d98ef", "1a0126375ead70ca", "1a07e816e6f0a58e"],
+   "trelloItemsAdded": 1,
+   "notes": "Every other 'new' thread the scan collected for this file belonged to a different insured who happens to share the surname Moore, or to an unrelated claim entirely: a Liberty Mutual/Hancock re-inspection thread with no insured name tied to it (contact nishant@vprealtyservices.com); an Anthony Rowe/Travelers thread via Remy's Roofing; an Alicia Jones appraisal (Mike Moore is the opposing appraiser, not the insured); a Tammana/Liberty Mutual claim (061746230); a Stewart final-award thread; an Allstate claim 0832455752 (three separate threads, insured Aguirre/Strauss); a Liberty Mutual claim at 602 Royal Glen Dr, Murphy TX; and a Jennifer & Bradley Moore claim in The Woodlands. None mention claim #1084976 or 7755 Greenswarth Ln. Only the bulk status-check thread genuinely names this insured and claim."
+  },
+  {
+   "cardId": "69fb7d5e41069fdd69d543b3",
+   "newEvents": [
+    {"date": "2026-09-06", "event": "Joseph followed up again with the referring adjuster on the appraisal status; still no carrier-named appraiser after 123 days in the system."}
+   ],
+   "update": "The appraisal demand has been sitting with the carrier since early May, and Joseph checked in again this week to press for movement — the carrier still has not named its own appraiser. The file continues to wait on the insurance company.",
+   "needed": null,
+   "threadsRead": ["1a07902b7d2e81ba"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 1,
+   "notes": ""
+  },
+  {
+   "cardId": "69fbaff02714b320c44610c1",
+   "newEvents": [],
+   "update": "No genuine new correspondence for this file turned up this pass; every thread the scan collected traced back to a different claim, so the file's status stands as last recorded.",
+   "needed": null,
+   "threadsRead": ["1a02b088dad3f491", "1a025e580675d490", "19ea8e0f67d4776c", "1a01d376b71912b9", "19febc080135c892"],
+   "threadsDropped": ["1a02b088dad3f491", "1a025e580675d490", "19ea8e0f67d4776c", "1a01d376b71912b9", "19febc080135c892", "1a07902b7d2e81ba"],
+   "trelloItemsAdded": 0,
+   "notes": "This card is for Leobardo Yanez, 8514 Burlington Trail, Rosharon TX. Every 'new' thread the scan surfaced was actually about a different insured: Eduardo Peralta Yanez (claim 53-65T-768Z, 11701 Rush Ln, Elgin TX — three threads) or Sandra Cavazos (RVOS claim R2600590, wind loss in Houston — two threads). The bulk No Stress Claims status-check thread (1a07902b7d2e81ba) also does not list Leobardo Yanez among its files, so it was dropped too. No events added."
+  }
+ ],
+ "checked": 6,
+ "withNewEvents": 5
+}
