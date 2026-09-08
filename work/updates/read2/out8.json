@@ -1,0 +1,73 @@
+{
+ "batch": 8,
+ "results": [
+  {
+   "cardId": "699350b41c7ee5539bbca4a8",
+   "newEvents": [],
+   "update": "No new activity confirmed on this file since the last update; the file remains at its prior status.",
+   "needed": null,
+   "threadsRead": [],
+   "threadsDropped": ["1a04630be1023a9e", "1a03e39a47ef53a7", "19f42e21625dc098", "19f42cfca732662e"],
+   "trelloItemsAdded": 0,
+   "notes": "All 4 threads with dates past the search-after point turned out to belong to other files: one was a LinkedIn digest (not case-related), and the other three were about a different public-adjuster contents claim for a 'Brian Bevil' / 'Peter Mora' loss (Farmers/Enservio), not this insured. Nothing new found for Frank Ivy."
+  },
+  {
+   "cardId": "69a709d45e662098c6d10e3e",
+   "newEvents": [],
+   "update": "No new activity confirmed on this file since the last update; the file remains at its prior status.",
+   "needed": null,
+   "threadsRead": ["1a07c19372984733", "1a0718690977351e", "1a06d882f3c314bf", "1a06cca35c4a8129", "1a068f9d8260aa2d", "19fde0be9bde8eff", "1a05a477b85a6baa", "1a05a179f5d9e38c", "1a05a0dc203796b6", "1a04a70845596c00", "19f89dfa46433695"],
+   "threadsDropped": ["1a07c19372984733", "1a079e742fea43b2", "1a0718690977351e", "1a06d882f3c314bf", "1a06cca35c4a8129", "1a065e9fee908145", "19f89dfa46433695", "1a05a477b85a6baa", "1a05a179f5d9e38c", "1a05a0dc203796b6", "1a04a70845596c00", "1a049b9fa64a732b", "19fe5bd85e20647a", "1a0409d9925ce684", "1a031bed97642f41", "19fde0be9bde8eff"],
+   "trelloItemsAdded": 0,
+   "notes": "Every thread the scan collected turned out to be about a different client - Hector Martinez, Sgt. Carlos Solis, William Womack, Koteshwar Pilla Rao, a Travelers claim, Vidal Pastrana, and a WRI LLC file - plus HP marketing emails and a LinkedIn digest. The scan appears to have matched on the adjusting-firm name 'Engle Martin' (abbreviated EM in filenames/subjects) rather than the insured's surname. Nothing found for Paul and Lakhena Em."
+  },
+  {
+   "cardId": "69a863982872eaee578f4935",
+   "newEvents": [
+    {"date": "2026-08-14", "event": "The opposing appraiser's countersignature on the appraisal award was received, completing the signed award."},
+    {"date": "2026-08-24", "event": "Joseph told Legacy Roofing the award is signed and the settlement check is being mailed, and sent the finalized repair estimate for the property."}
+   ],
+   "update": "The appraisal award is now fully signed by both appraisers and the carrier is mailing the settlement check. Joseph has sent Legacy Roofing the finalized repair scope/estimate for reference.",
+   "needed": null,
+   "threadsRead": ["1a05c3ee0139ffe5", "19ffd2a400fb0204", "19fee78fe4a72aa2", "19f385469339d018", "19ec3f1dd5bec084", "19e653e1fd22e8ab"],
+   "threadsDropped": ["1a05c3ee0139ffe5", "19ffd2a400fb0204", "19f385469339d018"],
+   "trelloItemsAdded": 2,
+   "notes": "Dropped three threads that were actually about a different, similarly-named claimant - Atman & Jigisha Raval (a separate Safeco/Liberty Mutual claim handled by a different appraiser, John Wynn) - not our insured Adityakumar Raval. The genuine Adityakumar Raval threads confirmed the award was fully executed 8/14 and the contractor was updated and given the final estimate on 8/24."
+  },
+  {
+   "cardId": "6993b4f1ea5f465c5736ec2c",
+   "newEvents": [],
+   "update": "No new activity confirmed on this file since the last update; the file remains at its prior status.",
+   "needed": null,
+   "threadsRead": ["1a07d0c4fd2d64de", "1a06a3fbccbc42c9", "1a05fa6d87638aea", "1a05fa6c430a25f3", "1a05eb592b55e09d", "1a020fada18d7b2f", "19fc48339db6b4a8"],
+   "threadsDropped": ["1a07d0c4fd2d64de", "1a06a3fbccbc42c9", "1a05fa6d87638aea", "1a05fa6c430a25f3", "1a05eb592b55e09d", "1a020fada18d7b2f", "19fc48339db6b4a8"],
+   "trelloItemsAdded": 0,
+   "notes": "All 7 threads turned out to be about other same-surname 'Shah' clients (Kal Shah in Overland Park KS, Hetvi Shah, Jesal Shah) or an unrelated Pastrana invoice/internal batch memo - none mention Anal Shah or Dhara Mehta. Nothing new found for this insured."
+  },
+  {
+   "cardId": "6955455394e326bd6d1394d1",
+   "newEvents": [],
+   "update": "No new activity confirmed on this file since the last update; the file remains at its prior status.",
+   "needed": null,
+   "threadsRead": ["19fa3f436be55432", "19f18677e23529bf", "19e02978bb658f5b"],
+   "threadsDropped": ["19fa3f436be55432", "19f18677e23529bf", "19e02978bb658f5b"],
+   "trelloItemsAdded": 0,
+   "notes": "One thread was a long chain of automated USAA receipt confirmations for unrelated claim numbers with no substantive content; one was about a different insured (Shaoze Ouyang, Allstate); one was actually about Billye Kopp's USAA roof claim (handled on the Kopp card instead). None concerned Freedom Mortgage Corporation."
+  },
+  {
+   "cardId": "69bb34d66958766861c0405d",
+   "newEvents": [
+    {"date": "2026-09-02", "event": "Joseph submitted the recoverable depreciation request to USAA along with completion photos of the finished roof."},
+    {"date": "2026-09-02", "event": "Joseph asked LINEAR Roofing for a certificate of completion to support the depreciation request."}
+   ],
+   "update": "The roof replacement is done and Joseph has filed the recoverable-depreciation request with USAA using the completion photos; he's now waiting on LINEAR Roofing for a certificate of completion to finish the file.",
+   "needed": "Please send Joseph the certificate of completion for the Alhambra Dr. roof so the recoverable depreciation payment can be finalized.",
+   "threadsRead": ["19f96340d133a559", "19e02978bb658f5b"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 2,
+   "notes": ""
+  }
+ ],
+ "checked": 6,
+ "withNewEvents": 2
+}
