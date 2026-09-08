@@ -56,8 +56,33 @@
    "threadsDropped": ["1a068560c228270e", "1a0456c0b1713b5b", "1a0115635c919e8c", "19febd061554285d", "19fd7dad26dba062"],
    "trelloItemsAdded": 4,
    "notes": "5 of 6 opened threads belonged to other unrelated files (a general umpire-referral email, and other insureds' claims) and were dropped."
+  },
+  {
+   "cardId": "6a2b42c46c02b62859eaae6f",
+   "newEvents": [],
+   "update": "",
+   "needed": null,
+   "threadsRead": [],
+   "threadsDropped": ["1a07d0c4fd2d64de", "1a07c314131ccbbd", "1a07c18500cc58b0", "1a07c174bd1328b2", "1a07bf8de6725943", "1a06d499e6bdfb6c", "1a06d15fca435c0c", "1a06a3fbccbc42c9", "1a06864d6350cdba", "1a05eb592b55e09d", "1a058d4d0a21ec06", "1a057ea0614419f5"],
+   "trelloItemsAdded": 0,
+   "notes": "This card has no claim number or address on file, so matching relied on the insured's name. All 12 opened threads turned out to be about other insureds and files (internal batch/status emails, other Garcia-surname claims like Roel Garcia and Kal Shah's contractor rep Luis Garcia, other unrelated claims) - none mentioned Fernando Garcia. No new events found; nothing written to Trello."
+  },
+  {
+   "cardId": "6a42ebd8d5ede9f2d8986e1e",
+   "newEvents": [
+    {"date": "2026-08-22", "event": "The carrier's appraiser said he disagreed the roof was storm-damaged and sent his own estimate and proposed award; both sides began discussing an umpire in case of impasse."},
+    {"date": "2026-08-27", "event": "Joseph asked the contractor for roof photos still missing from the file, and updated the contractor that the carrier's position is under review."},
+    {"date": "2026-08-29", "event": "Joseph sent our position and estimate to the carrier's appraiser."},
+    {"date": "2026-08-30", "event": "Both sides exchanged additional umpire candidates after failing to reach agreement."}
+   ],
+   "update": "The carrier's appraiser disagrees that the roof needs replacement and sent a competing estimate in late August; Joseph sent our own position, and both sides have exchanged umpire candidates after failing to agree. Still waiting on the contractor for missing roof photos to support our position.",
+   "needed": "Roof photos of the property (only interior and exterior photos have been provided to the file so far).",
+   "threadsRead": ["1a04444b99b69b0a", "1a0420c6707ab7dc", "19f6bef6867d84c1"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 4,
+   "notes": "All three opened threads were confirmed relevant to this insured."
   }
  ],
- "checked": 4,
- "withNewEvents": 4
+ "checked": 6,
+ "withNewEvents": 5
 }
