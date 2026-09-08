@@ -11,7 +11,7 @@
    "needed": null,
    "threadsRead": ["1a071617e6bfb609", "19fc8b295ae6499a"],
    "threadsDropped": [],
-   "trelloItemsAdded": 0,
+   "trelloItemsAdded": 1,
    "notes": ""
   },
   {
@@ -24,7 +24,7 @@
    "needed": null,
    "threadsRead": ["1a071f507111088c", "1a050a869d77bc1f", "1a04521fe14f1943", "1a016ce971839ac7", "19ff1362d8b746b4", "19fd884bc62dcfe4", "19ff64542f76e431", "19f9b8ce6bb21ea1", "19f8fe13ac916d61", "19f7d90e3412ad21", "19f6905aa026c089", "19f4e4b3b8f1cc6b"],
    "threadsDropped": ["1a050a869d77bc1f", "1a04521fe14f1943", "1a016ce971839ac7", "19ff1362d8b746b4", "19fd884bc62dcfe4", "19ff64542f76e431", "19f9b8ce6bb21ea1", "19f8fe13ac916d61", "19f7d90e3412ad21", "19f6905aa026c089", "19f4e4b3b8f1cc6b"],
-   "trelloItemsAdded": 0,
+   "trelloItemsAdded": 2,
    "notes": "Clayton Grassi is also a roofing contractor who refers other homeowners' claims through his own email; most matched threads (Vidal Mendez, Roby Tanzil, Chad Raymond, John Maldonado, Ramon and Jesus Gutierrez, Debra Gill, Dorantes) are about those other insureds' files, not this claim (0821195467), and were dropped."
   },
   {
@@ -38,7 +38,7 @@
    "needed": null,
    "threadsRead": ["1a0717b471329f9b", "19efec504bd6887c", "19f7d8ebb614a890", "1a071f507111088c", "1a07e1c13a7b0678", "1a079ea21963bce7", "1a077c7ec3a1177b", "1a068560c228270e", "1a0737316307dedb", "1a06d499e6bdfb6c", "1a0691aa1abfc403", "1a067fbc0e8bc255", "1a062ef95ce1c17c", "1a062a266252bfc5", "1a05d52a5891602e", "1a05accded31e996", "1a0592b6707427c4", "1a058f20d96aadf2", "19f6bef6867d84c1"],
    "threadsDropped": ["1a071f507111088c", "1a07e1c13a7b0678", "1a079ea21963bce7", "1a077c7ec3a1177b", "1a068560c228270e", "1a0737316307dedb", "1a06d499e6bdfb6c", "1a0691aa1abfc403", "1a067fbc0e8bc255", "1a062ef95ce1c17c", "1a062a266252bfc5", "1a05d52a5891602e", "1a05accded31e996", "1a0592b6707427c4", "1a058f20d96aadf2", "19f6bef6867d84c1"],
-   "trelloItemsAdded": 0,
+   "trelloItemsAdded": 1,
    "notes": "Most matched threads belong to other insureds sharing the surname Smith or to other unrelated claims Joseph was cc'd on (Clayton Grassi's own claim, Agustin Contreras Ledesma, Dao Tran, Gustavo Uretafrias, Thomas Bierschenk, other Allstate correspondence, Dixie Smith, Manuel Hernandez, a Villalobos/Bertrand estimate request, Brenda Tranchon, a LinkedIn digest, and a generic umpire-panel group email) — none are about this insured's claim (061470340) and were dropped."
   },
   {
@@ -52,7 +52,7 @@
    "needed": null,
    "threadsRead": ["1a0727e27fce12a0", "19e230e5ae965757", "19c34f0a5a68fe38"],
    "threadsDropped": ["19c34f0a5a68fe38"],
-   "trelloItemsAdded": 0,
+   "trelloItemsAdded": 1,
    "notes": "19c34f0a5a68fe38 is a generic scheduling-company reminder thread covering many unrelated insureds' appointments (mentions Ana Tavira only in a passing April reminder, before the record cutoff) — not this claim's history, dropped."
   },
   {
@@ -66,7 +66,7 @@
    "threadsRead": ["1a07294873b1173d", "19c34f0a5a68fe38"],
    "threadsDropped": ["19c34f0a5a68fe38"],
    "trelloItemsAdded": 0,
-   "notes": "19c34f0a5a68fe38 is the same generic scheduling-company reminder thread noted on other files (mentions Chasity Cloud Taulton only in a passing March reminder) — not this claim's history, dropped."
+   "notes": "19c34f0a5a68fe38 is the same generic scheduling-company reminder thread noted on other files (mentions Chasity Cloud Taulton only in a passing March reminder) — not this claim's history, dropped. All identified events for this file were already present on the Trello checklist from a prior pass; nothing new was added."
   },
   {
    "cardId": "6a3069026061fe297d0cc751",
@@ -81,7 +81,7 @@
    "threadsRead": ["1a072f84ea157bdc", "19f14e25c6fff6cf"],
    "threadsDropped": [],
    "trelloItemsAdded": 0,
-   "notes": ""
+   "notes": "All identified events for this file were already present on the Trello checklist from a prior pass; nothing new was added."
   }
  ],
  "checked": 6,
