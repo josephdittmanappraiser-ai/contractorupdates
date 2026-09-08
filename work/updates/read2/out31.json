@@ -53,8 +53,37 @@
    "threadsDropped": [],
    "trelloItemsAdded": 2,
    "notes": ""
+  },
+  {
+   "cardId": "69e7bbeadd8694321b8f7c37",
+   "newEvents": [
+    {"date": "2026-07-11", "event": "Joseph followed up with the carrier's appraiser for a response, following up again in early August with still no reply."},
+    {"date": "2026-08-07", "event": "Carrier's appraiser sent his position and estimate, excluding depreciation, and asked to discuss differences directly once Joseph's position was ready."},
+    {"date": "2026-08-24", "event": "Carrier's appraiser followed up asking for Joseph's position or readiness for an award, noting it had been nearly three months since his inspection."},
+    {"date": "2026-08-28", "event": "Joseph requested and received supporting documentation files from the restoration company to finalize his position."},
+    {"date": "2026-08-29", "event": "Joseph sent our position and estimate to the carrier's appraiser."}
+   ],
+   "update": "The file moved to umpire in early September after the parties reached an impasse over interior repairs, mitigation charges, and contents pack-out. The umpire has accepted the assignment and is reviewing both positions; no award yet.",
+   "needed": null,
+   "threadsRead": ["1a068463b9ec6e94","1a06844433732cfa","1a0683ea54617ae0","19dc1a8322315f5f","19f14e2467d37091"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 5,
+   "notes": "All five threads confirmed to be about this same claim number/insured (some are separate Gmail thread IDs from forked reply chains on the same email conversation)."
+  },
+  {
+   "cardId": "6a0648fb623eafdb8eec19e3",
+   "newEvents": [
+    {"date": "2026-08-21", "event": "Office told the referring firm the file was gathering all available documents on the disputed items, as it may proceed to the umpire."},
+    {"date": "2026-09-05", "event": "The carrier's appraiser asked Joseph to hold off moving to the umpire, disputing that much of Joseph's estimate covers damage from claims before and after this loss rather than this one."}
+   ],
+   "update": "The file was headed to an umpire after the two estimates came in far apart, but the carrier's appraiser has now asked to pause, disputing that much of Joseph's position covers damage tied to other claims rather than this specific loss. That disagreement needs to be resolved before the file can move forward.",
+   "needed": null,
+   "threadsRead": ["1a01ff9043797ff2","19fc84ebe66afdf1","19e2c9d2197df29b"],
+   "threadsDropped": ["19fc84ebe66afdf1"],
+   "trelloItemsAdded": 2,
+   "notes": "Dropped a thread that was almost entirely about a different insured (Lawrence Russell, claim 2511225); it contained one passing mention of this insured's name/claim number but no new information dated after this file's searchAfter. The other kept thread (a biweekly status-update email) covered several unrelated clients too -- only the line specific to this insured was used."
   }
  ],
- "checked": 4,
- "withNewEvents": 4
+ "checked": 6,
+ "withNewEvents": 6
 }
