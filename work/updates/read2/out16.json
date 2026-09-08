@@ -1,0 +1,85 @@
+{
+ "batch": 16,
+ "results": [
+  {
+   "cardId": "6a42c137b5b4ad834998bc38",
+   "newEvents": [
+    {"date": "2026-08-19", "event": "The carrier's appraiser completed his inspection and requested our position."},
+    {"date": "2026-08-25", "event": "We visited the property and supporting photo documentation was sent."},
+    {"date": "2026-08-31", "event": "The carrier's appraiser followed up asking for our estimate with elevation views, which is still pending."}
+   ],
+   "update": "We completed our onsite visit to the property on August 25 and are finalizing our estimate to send to the carrier's appraiser, who has since followed up asking for it.",
+   "needed": null,
+   "threadsRead": ["1a03af3aaf86b816", "19f68a402e1070a2"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 3,
+   "notes": ""
+  },
+  {
+   "cardId": "6a4c60fcfa15c964bd054867",
+   "newEvents": [
+    {"date": "2026-08-12", "event": "The homeowner confirmed the scheduled solo inspection with the carrier's appraiser for August 18."}
+   ],
+   "update": "The homeowner has confirmed the August 18 solo inspection with the carrier's appraiser; we're awaiting that inspection and the resulting position.",
+   "needed": null,
+   "threadsRead": ["19fc94345172ed57", "1a010428615b14da", "19ff2e24cb4c639d"],
+   "threadsDropped": ["1a010428615b14da", "19ff2e24cb4c639d"],
+   "trelloItemsAdded": 1,
+   "notes": "Dropped 1a010428615b14da: different insured (Sandra Cardenas Prado & Eric Armadillo, a different claim/address in Hutto, TX) matched on the shared surname 'Prado'. Dropped 19ff2e24cb4c639d: references a 'Pat Prado' file, first name mismatch with this insured (Adolfo Prado) so treated as a different client sharing the surname."
+  },
+  {
+   "cardId": "6a7112cf2d2fb673a37fedbd",
+   "newEvents": [],
+   "update": "The scheduled joint inspection with the carrier's appraiser was reconfirmed for August 18; no other developments since.",
+   "needed": null,
+   "threadsRead": ["19fdd87398881ce7"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 0,
+   "notes": "The only message after searchAfter was an unchanged scheduling reminder repeating information already on record; no new substantive event to log."
+  },
+  {
+   "cardId": "6a4c5f7fc10eaaf10a20be88",
+   "newEvents": [
+    {"date": "2026-08-07", "event": "The signed agreement was exchanged with the carrier's appraiser."},
+    {"date": "2026-08-12", "event": "The joint inspection with the carrier's appraiser was confirmed and finalized for August 18."},
+    {"date": "2026-08-19", "event": "Our appraiser completed the estimate for the property following the joint inspection."}
+   ],
+   "update": "The joint inspection with the carrier's appraiser took place August 18, and our estimate for the property has since been completed; next step is exchanging positions to work toward a settlement.",
+   "needed": null,
+   "threadsRead": ["1a0597bc40a4aae8", "1a01c15c4a974e29", "19fa5febf7de490d"],
+   "threadsDropped": ["1a0597bc40a4aae8"],
+   "trelloItemsAdded": 3,
+   "notes": "Dropped 1a0597bc40a4aae8: a generic multi-client monthly service invoice not specific to this claim (also appears on the Gonzales file for the same reason)."
+  },
+  {
+   "cardId": "6a50221a7f7c7f7381065a15",
+   "newEvents": [
+    {"date": "2026-08-06", "event": "The homeowner confirmed the joint inspection for August 19, confirmed they are residing in the home, and confirmed repairs have not started."},
+    {"date": "2026-08-20", "event": "Floor plan sketches and details on the water damage were provided, noting the affected custom-milled flooring cannot be matched without re-staining the connected staircase and upstairs areas."},
+    {"date": "2026-08-28", "event": "The carrier's appraiser followed up asking about the location of a flooring sample pulled during the joint inspection, which still needs to be located."}
+   ],
+   "update": "Following the August 19 joint inspection, floor plan sketches and damage details were shared with the carrier's appraiser, who has since asked about a flooring sample taken during the inspection; we're working to track that down before finalizing positions.",
+   "needed": null,
+   "threadsRead": ["1a01e7f91426f6ee", "19f8c884b66432d2", "1a07e98183de9180", "1a07cc2d3ed181cf", "1a0597bc40a4aae8", "19ffbeb62d779dc2", "1a05fa0e5796c844", "1a04083b54a4e132", "1a02a339acdf536e", "1a01688ed151fba4", "1a0163048876a923", "19ff5f896686158b", "19fee332c1233952", "19fc8ebf963f1b4a", "19fa6ad9aaec164c"],
+   "threadsDropped": ["1a07e98183de9180", "1a07cc2d3ed181cf", "1a0597bc40a4aae8", "19ffbeb62d779dc2", "1a05fa0e5796c844", "1a04083b54a4e132", "1a02a339acdf536e", "1a01688ed151fba4", "1a0163048876a923", "19ff5f896686158b", "19fee332c1233952", "19fc8ebf963f1b4a", "19fa6ad9aaec164c"],
+   "trelloItemsAdded": 3,
+   "notes": "This file's surname search pulled in a large number of unrelated threads. Dropped: 1a07e98183de9180 & 1a07cc2d3ed181cf (different insured 'Sandra Gonzales', claim 5042598118-1-1, Itasca TX); 1a01688ed151fba4 (different insured 'Billy Joe Gonzales', same Itasca claim number); 1a05fa0e5796c844 (different insured, Lewisville TX, different claim number, subject line literally tags '(Gonzales)' as a different file); 1a04083b54a4e132 (unrelated fence estimate for a different property, sender's surname happens to be Gonzales); 19fc8ebf963f1b4a, 19fee332c1233952, 1a0163048876a923, 1a02a339acdf536e (all about a different insured 'Hidalgo' — sender is an appraiser whose own name is Enrique 'Hank' Gonzales, causing surname false matches); 19ff5f896686158b (different insured 'Bhute', Liberty Mutual claim); 19ffbeb62d779dc2 (different insured 'Alins Perez', Cedar Park TX); 19fa6ad9aaec164c (different insured 'Sweet', Georgetown TX); 1a0597bc40a4aae8 (generic multi-client invoice, also seen on the Strahan file). Only 1a01e7f91426f6ee and 19f8c884b66432d2 are actually about this insured (Joe & Heather Gonzales, 2638 Misty Grove Dr, Manvel TX)."
+  },
+  {
+   "cardId": "6a317e6c98f96afc8a35b439",
+   "newEvents": [
+    {"date": "2026-07-26", "event": "At the homeowner's request, the previously scheduled solo inspection was changed to a joint inspection with the carrier's appraiser."},
+    {"date": "2026-07-27", "event": "A new joint inspection date of August 24 at 10:00 AM was agreed with the carrier's appraiser."},
+    {"date": "2026-07-29", "event": "The homeowner confirmed the joint inspection for August 24 at 10:00 AM."}
+   ],
+   "update": "The joint inspection with the carrier's appraiser has been rescheduled and confirmed for August 24 at 10:00 AM, replacing the earlier solo inspection date; next step is that inspection taking place.",
+   "needed": null,
+   "threadsRead": ["19f8178e2be2b686"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 3,
+   "notes": ""
+  }
+ ],
+ "checked": 6,
+ "withNewEvents": 5
+}
