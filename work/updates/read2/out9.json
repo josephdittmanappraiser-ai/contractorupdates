@@ -1,0 +1,48 @@
+{"batch":9,"results":[
+ {"cardId":"69cd3d5a91933e8db15aaa8c",
+  "newEvents":[
+   {"date":"2026-07-27","event":"The homeowner electronically signed the check endorsement paperwork."},
+   {"date":"2026-07-31","event":"The homeowner reported the signature request no longer shows as pending in the portal and asked for help completing it."}
+  ],
+  "update":"The homeowner signed the check endorsement, but the e-signature portal isn't showing it as pending anymore, so the check can't move forward yet. Joseph needs to resend or troubleshoot the signing link before the claim check can be released.",
+  "needed":null,
+  "threadsRead":["19f95aca89ab68e9"],
+  "threadsDropped":[],
+  "trelloItemsAdded":2,
+  "notes":""
+ },
+ {"cardId":"69a8a5b1de9764311fd7089e",
+  "newEvents":[
+   {"date":"2026-08-11","event":"The joint inspection with the carrier's appraiser was confirmed for 08/20/2026."},
+   {"date":"2026-08-27","event":"Our appraiser requested our estimate to use in the appraisal."},
+   {"date":"2026-08-28","event":"The estimate was provided to our appraiser for the appraisal."},
+   {"date":"2026-09-01","event":"Our position was submitted to the carrier's appraiser; we are now awaiting his response."}
+  ],
+  "update":"The scheduled joint inspection has passed and our position (estimate) has been submitted to the carrier's appraiser. We're waiting on his response before this can move toward an award.",
+  "needed":null,
+  "threadsRead":["19fb367520a24015","19fee78fe4a72aa2","1a05c3ee0139ffe5"],
+  "threadsDropped":["1a07d46417774c67","1a0737316307dedb","1a06d499e6bdfb6c","1a06d15fca435c0c","1a06939dfdd03361","1a06864d6350cdba","1a068560c228270e","1a05fa4b07cc66b3","1a05ec600056de21","1a0597bc40a4aae8","1a04630be1023a9e","1a039fc661a44e55","1a035db5a4b4eadf","1a034a2e15a67eec","1a027a92ae1ca52d","1a0278cfbc9484ef"],
+  "trelloItemsAdded":4,
+  "notes":"Most of the extra threads the scan collected belonged to other insureds and files (a similarly-named insured, other claims involving people or adjusters surnamed Thomas, unrelated umpire/invoice/networking threads, and spam) and were excluded as not about this file."
+ },
+ {"cardId":"69ef7b0d3c4174ca03afe22f",
+  "newEvents":[
+   {"date":"2026-09-02","event":"Joseph followed up with the carrier seeking release of the remaining recoverable depreciation; the carrier responded that a final payment had already been sent and cashed on 6/30/2026, which does not match our records and needs to be reconciled with the carrier's desk adjuster."}
+  ],
+  "update":"There's a mismatch over whether the recoverable depreciation was already paid out - the carrier says a final check was sent and cashed back in June that doesn't match our records. Joseph is following up with the carrier's desk adjuster to reconcile this before the file can close out.",
+  "needed":null,
+  "threadsRead":["19f973e4caf093e1"],
+  "threadsDropped":[],
+  "trelloItemsAdded":1,
+  "notes":""
+ },
+ {"cardId":"69dd230e0608a749781d4588",
+  "newEvents":[],
+  "update":"No new developments on this file since the last update - it remains at the estimate/pricing stage.",
+  "needed":null,
+  "threadsRead":[],
+  "threadsDropped":["1a046bbd94a6bf6c","1a0447a87604ac6c","19fc8abbb6ef0305"],
+  "trelloItemsAdded":0,
+  "notes":"All three new threads the scan collected belonged to other files (a different insured referred by the same contractor, a carrier claim rep who happens to share the surname Richards, and an unrelated claim for a different insured entirely) - none pertained to Terrance and Yvonne Richards' claim, so no new events were added."
+ }
+]}

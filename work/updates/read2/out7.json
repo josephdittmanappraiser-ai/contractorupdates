@@ -1,0 +1,40 @@
+{
+ "batch": 7,
+ "results": [
+  {
+   "cardId": "691368743a951db9b6578207",
+   "newEvents": [],
+   "update": "No update — every thread the scan collected for this file turned out to belong to other clients whose names or adjusters happen to include the word \"Gregory\" (an Allstate adjuster's surname, a Liberty Mutual insured's first name, a Farmers adjuster's first name, another insured's first name), plus an unrelated roofing-appraisal thread and Trello digest emails. None mention Marilyn Gregory or claim 060390543.",
+   "needed": null,
+   "threadsRead": ["1a03fe73a9fe72d3","1a015dbf2f5921dc","1a014ff1f00b88fd","1a002f4e9cd7fc44","19fce80604601670","19f848a796b16322","19f51d7c8a01f3a6","19f14d6f0b2c2a59","19c355d163364ab7","19ecb86945d86ab1","19ece20ecb0a4767","19ed25d3cf919c9b","19fc9ac173142da6","19faf03ae73595ee","19f6ce05da8e2020","19f3cb4056910d2b","19fca01082a1cd9e","19f3965e7a2cd368","19ef5dda971bcfae"],
+   "threadsDropped": ["1a03fe73a9fe72d3","1a015dbf2f5921dc","1a014ff1f00b88fd","1a002f4e9cd7fc44","19fce80604601670","19f848a796b16322","19f51d7c8a01f3a6","19f14d6f0b2c2a59","19c355d163364ab7","19ecb86945d86ab1","19ece20ecb0a4767","19ed25d3cf919c9b","19fc9ac173142da6","19faf03ae73595ee","19f6ce05da8e2020","19f3cb4056910d2b","19fca01082a1cd9e","19f3965e7a2cd368","19ef5dda971bcfae","19f350a0ecf3e268","19fa9e7f7463a38c"],
+   "trelloItemsAdded": 0,
+   "notes": "All collected threads belong to other insureds (Humaira Shaikh/Allstate, Ketan Patel/Tarrytown Roofing/Fortegra, Gregory & Celeste Gant/Liberty Mutual, Gregory & Shayna Miller, Farmers-adjuster-only emails, Lisa Sirridge/Farmers, Jon Lee contractor photos) plus generic Trello digest emails and a LinkedIn newsletter. None reference Marilyn Gregory or claim 060390543. No Trello writes made."
+  },
+  {
+   "cardId": "6952bb96047f1f3c785015d1",
+   "newEvents": [],
+   "update": "The contractor confirmed the repair work was finished (completed June 8) and sent completion photos; the file is waiting on State Farm to release the remaining recoverable depreciation payment.",
+   "needed": null,
+   "threadsRead": ["19f962ac0d6e68c8"],
+   "threadsDropped": ["19fba229287afa2f"],
+   "trelloItemsAdded": 0,
+   "notes": "Only two threads had a newest date at or after searchAfter (2026-07-24). 19fba229287afa2f is a generic monthly service-invoice email from Wynn Corps with no mention of Ciambrone or this claim — dropped as unrelated. 19f962ac0d6e68c8 (newest exactly 2026-07-24, not strictly after) is genuinely about this file but its content — contractor confirming completion and sending photos — is already recorded on the Trello checklist's last item, so no new event was added."
+  },
+  {
+   "cardId": "6938b1198d253e996f3bfd90",
+   "newEvents": [
+    {"date": "2026-03-07", "event": "Joseph asked Travelers to escalate the claim denial to a supervisor."},
+    {"date": "2026-03-09", "event": "Travelers provided the unit manager's contact information for the escalation and asked to be updated after the homeowner is consulted."}
+   ],
+   "update": "Travelers has denied the claim as normal wear and tear; Joseph escalated the denial and now has the unit manager's contact information, and needs to speak with the homeowner before deciding how to proceed with the escalation.",
+   "needed": null,
+   "threadsRead": ["19f001ec47948bc5", "19f39368a466ec5c", "19c43191a87a0e52"],
+   "threadsDropped": ["19f001ec47948bc5", "19f39368a466ec5c"],
+   "trelloItemsAdded": 2,
+   "notes": "19f001ec47948bc5 is about a different insured (Vanessa Cruz Gonzalez, a fire/HVAC mitigation claim with CH Fire Restoration) — dropped. 19f39368a466ec5c is about a neighboring property (Jon Mottu) explicitly described in the thread as 'the next street over from Robert Terrazas' — a different client — dropped. Only 19c43191a87a0e52 (Travelers/Wehrle) is genuinely this file; two new events added to Trello."
+  }
+ ],
+ "checked": 3,
+ "withNewEvents": 1
+}
