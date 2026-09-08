@@ -1,0 +1,94 @@
+{
+ "batch": 53,
+ "results": [
+  {
+   "cardId": "6a3d59cd0631c0ed4929af89",
+   "newEvents": [
+    {"date": "2026-08-17", "event": "Our office connected USAA's adjuster directly with the contractor and provided his correct phone number after USAA was unable to reach him, so the reinspection could be scheduled."},
+    {"date": "2026-08-27", "event": "Our office asked USAA for available reinspection dates on the contractor's behalf."},
+    {"date": "2026-08-31", "event": "Our office followed up with USAA again to get the reinspection scheduled."},
+    {"date": "2026-09-01", "event": "USAA confirmed the reinspection has been completed and said the homeowner is now deciding whether to move forward with the appraisal."}
+   ],
+   "update": "USAA completed the reinspection of the property on September 1; the homeowner is now deciding whether to proceed with the appraisal, so the file is on hold pending that decision.",
+   "needed": null,
+   "threadsRead": ["1a07d55eed05e599","1a05f1e14b6641ef","1a05d5fcd5fb6f2f","1a05978e2307b00f","1a04568abf35a6de","1a00e1bfa0bbc4c4","1a00e14d05f3f37e","1a0013e94832431f","1a07d5113767eb62","1a07d4ec1924e411","1a07d4ab4b66b464","1a07d4121ed6eb0e"],
+   "threadsDropped": ["1a07d5113767eb62","1a07d4ec1924e411","1a07d4ab4b66b464","1a07d4121ed6eb0e"],
+   "trelloItemsAdded": 4,
+   "notes": "Dropped 4 threads that were internal staff call-list/status digest emails (Joseph's office to itself, covering dozens of unrelated files) rather than client correspondence for this file."
+  },
+  {
+   "cardId": "6a4c5d8c3d4e4a504aec9ac1",
+   "newEvents": [
+    {"date": "2026-08-17", "event": "Our office acknowledged Mills Mehr's update that the interior reinspection could not be completed because the contractor could not attend, and that the adjuster would work to reschedule."},
+    {"date": "2026-08-26", "event": "Our office followed up with Mills Mehr for the latest status, since no new inspection date had been set."}
+   ],
+   "update": "The appraisal remains on hold until the carrier's adjuster can complete the interior reinspection of Premises 3 and 4, first scheduled for August 10 but missed when the contractor could not attend; our office followed up in late August but the carrier has not set a new date. Next step is getting that reinspection rescheduled.",
+   "needed": "Contractor (Strong House / Zacharias Khan) needs to provide availability and reschedule the interior reinspection with the carrier's adjuster.",
+   "threadsRead": ["1a07d5113767eb62","1a07d4ec1924e411","1a07d4ab4b66b464","1a07d4121ed6eb0e","1a07294873b1173d","1a07e7ee3a0f7cb6","1a0737316307dedb","1a07e816e6f0a58e","1a05ea696281e43c","1a07e1c13a7b0678","1a011b7f5013e6c1","1a07dd99ed754a75","1a06d7192d2848a4","19a314b8d54860be","19f801707be3c8ed","1a07d2dbfd053a77","1a07d0e5af89150e","1a05d9f7c1353915","19faf8d2bad82dfd","19faf8d25da8483b","19fa3b99526378c3","19f8019a03f8c6ab","19f6cbb970375aef","19f80198c8560280","19f6bf7da0be8929"],
+   "threadsDropped": ["1a07d5113767eb62","1a07d4ec1924e411","1a07d4ab4b66b464","1a07d4121ed6eb0e","1a07294873b1173d","1a07e7ee3a0f7cb6","1a0737316307dedb","1a07e816e6f0a58e","1a05ea696281e43c","1a07e1c13a7b0678","1a011b7f5013e6c1","1a07dd99ed754a75","1a06d7192d2848a4","19a314b8d54860be","19f801707be3c8ed","1a07d2dbfd053a77","1a07d0e5af89150e","1a05d9f7c1353915","19faf8d25da8483b","19fa3b99526378c3","19f8019a03f8c6ab","19f6cbb970375aef"],
+   "trelloItemsAdded": 2,
+   "notes": "Most threads the scan collected for this card were entirely unrelated files (other insureds/roofers/adjusters with no mention of Lyss Woods or 1306 Maple St) and were dropped. Four more were the same internal staff digest emails dropped elsewhere. Four more (19faf8d25da8483b, 19fa3b99526378c3, 19f8019a03f8c6ab, 19f6cbb970375aef) belong to the companion claim for 1302 Maple St (the other Lyss Woods card) and were credited there instead. Only 19faf8d2bad82dfd, 19f80198c8560280 and 19f6bf7da0be8929 are genuinely this claim's (20.34657.460.PD) correspondence; the latter two had no messages after searchAfter."
+  },
+  {
+   "cardId": "6a4c5cec413089b6c58504a1",
+   "newEvents": [
+    {"date": "2026-08-27", "event": "Our office checked with the homeowner and roofer whether the carrier's adjuster had sent an update; the homeowner replied she had already forwarded the requested files in an earlier email."},
+    {"date": "2026-09-02", "event": "Our office followed up again to check whether contact had been made with the carrier's adjuster."}
+   ],
+   "update": "This claim remains blocked on the same interior reinspection issue as the companion 1306 Maple St claim; the carrier's adjuster still needs to inspect Premises 3 and 4 before either file can move forward. Our office has followed up twice since late August but has not had a substantive response.",
+   "needed": "Contractor (Strong House / Zacharias Khan) needs to reschedule the interior reinspection with the carrier's adjuster — this affects both Lyss Woods claims.",
+   "threadsRead": ["1a07d5113767eb62","1a07d4ec1924e411","1a07d4ab4b66b464","1a07d4121ed6eb0e","19faf8d2bad82dfd","19faf8d25da8483b","19fa3b99526378c3","19f80198c8560280","19f8019a03f8c6ab","19f6cbb970375aef","19f6bf7da0be8929"],
+   "threadsDropped": ["1a07d5113767eb62","1a07d4ec1924e411","1a07d4ab4b66b464","1a07d4121ed6eb0e","19faf8d2bad82dfd","19f80198c8560280","19f6bf7da0be8929"],
+   "trelloItemsAdded": 2,
+   "notes": "Dropped the internal staff digest emails, plus 19faf8d2bad82dfd, 19f80198c8560280 and 19f6bf7da0be8929, which are the companion claim's (20.34657.460.PD, 1306 Maple St) correspondence, not this claim's (20.34656.460.PD, 1302 Maple St)."
+  },
+  {
+   "cardId": "6a582262a4f82f3d2970720b",
+   "newEvents": [
+    {"date": "2026-08-17", "event": "Contractor confirmed a reinspection of the property was scheduled."},
+    {"date": "2026-08-18", "event": "Homeowner reported hearing that the carrier might be dismissing the appraisal because a prior claim was never processed; office asked him to confirm and share any written notice."},
+    {"date": "2026-08-27", "event": "With the homeowner not responding, office checked with the contractor on whether he still wanted to move forward; contractor said the homeowner was waiting on paperwork from the insurance company."},
+    {"date": "2026-08-31", "event": "Homeowner reported the carrier still had not approved the claim after inspection and confirmed he wants to proceed with the appraisal."},
+    {"date": "2026-09-01", "event": "Office asked the homeowner to send the Appraisal Demand Letter directly to the carrier himself to help move the process along."}
+   ],
+   "update": "The homeowner sent the Appraisal Demand Letter directly to the carrier on September 5, after an August scare about the claim being dismissed and a stretch of unresponsiveness; we are now waiting on the carrier to name their appraiser.",
+   "needed": null,
+   "threadsRead": ["1a07d5113767eb62","1a07d4ec1924e411","1a07d4ab4b66b464","1a07d4121ed6eb0e","1a072f2bcc930d8a","19fc91cb373f9faf","19f8746b185eec56"],
+   "threadsDropped": ["1a07d5113767eb62","1a07d4ec1924e411","1a07d4ab4b66b464","1a07d4121ed6eb0e"],
+   "trelloItemsAdded": 5,
+   "notes": "Dropped the internal staff digest emails. The 2026-09-05 demand-letter-sent event was already on the checklist (attributed there to the contractor; emails show it was actually the homeowner who sent it) so it was not re-added."
+  },
+  {
+   "cardId": "6a502b7d083706c4926570dc",
+   "newEvents": [
+    {"date": "2026-08-20", "event": "Office checked with the homeowner whether the carrier had sent any update following the reinspection."},
+    {"date": "2026-08-24", "event": "Office followed up again with the homeowner for a response."},
+    {"date": "2026-08-25", "event": "Contractor reported the homeowner said the carrier still had not gotten back to them, and asked our office to follow up with the carrier directly."},
+    {"date": "2026-08-26", "event": "Office contacted the carrier directly requesting a status update since the reinspection."},
+    {"date": "2026-09-01", "event": "Office followed up with the homeowner to check whether the carrier had responded to the direct status request."}
+   ],
+   "update": "The claim remains awaiting a response from National General following the reinspection; our office has followed up directly with the carrier and with the homeowner multiple times since late August with no update received yet.",
+   "needed": null,
+   "threadsRead": ["1a07d5113767eb62","1a07d4ec1924e411","1a07d4ab4b66b464","1a07d4121ed6eb0e","19f9149c772edafe"],
+   "threadsDropped": ["1a07d5113767eb62","1a07d4ec1924e411","1a07d4ab4b66b464","1a07d4121ed6eb0e"],
+   "trelloItemsAdded": 5,
+   "notes": "Dropped the internal staff digest emails."
+  },
+  {
+   "cardId": "6a5abd8d865a34fda9f63440",
+   "newEvents": [
+    {"date": "2026-08-24", "event": "Contractor asked for a status update; office relayed that the carrier's adjuster wanted to speak with him about settling the claim and asked if he had been contacted yet."},
+    {"date": "2026-08-25", "event": "Contractor said the adjuster had not called him yet; office resent the adjuster's prior message explaining a porch item had been mistakenly dropped from the estimate and needed the contractor's input."},
+    {"date": "2026-09-02", "event": "Office followed up again to check whether the contractor had connected with the adjuster."}
+   ],
+   "update": "Allstate's estimate needs the contractor's input to resolve a porch item that was inadvertently dropped and to discuss settling the claim; despite follow-ups since late August, the contractor has not yet connected with the adjuster.",
+   "needed": "Contractor needs to call the carrier's adjuster to resolve the missing porch item and discuss settlement, per her outstanding request.",
+   "threadsRead": ["1a07d5113767eb62","1a07d4ec1924e411","1a07d4ab4b66b464","1a07d4121ed6eb0e","1a03423991a20052","19f048c66bfc62d0","19fa5ddde66271e5"],
+   "threadsDropped": ["1a07d5113767eb62","1a07d4ec1924e411","1a07d4ab4b66b464","1a07d4121ed6eb0e","19f048c66bfc62d0"],
+   "trelloItemsAdded": 3,
+   "notes": "Dropped the internal staff digest emails. Also dropped 19f048c66bfc62d0, which turned out to be an entirely unrelated file (Praveen Krishna, a different insured/claim) mistakenly picked up by the scan. Thread 19fa5ddde66271e5 (Dale Henderson's own claim thread) had no messages after searchAfter — its content was already superseded by the 8/25 resend in 1a03423991a20052."
+  }
+ ],
+ "checked": 6,
+ "withNewEvents": 6
+}
