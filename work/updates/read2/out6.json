@@ -1,0 +1,72 @@
+{
+ "batch": 6,
+ "results": [
+  {
+   "cardId": "68630385733c798e0d274053",
+   "newEvents": [],
+   "update": "No genuine progress came in this period — the only new message was USAA's automated confirmation that our reinspection request was received, not a substantive reply from the carrier yet.",
+   "needed": null,
+   "threadsRead": ["19fd35f04e124028"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 0,
+   "notes": "Thread 19fd35f04e124028 contains only two automated USAA 'email received' confirmations, not real correspondence. Its second message confirms a different insured's (Christopher Hutchinson) claim entirely — that part is not this file's history. No real new event to record."
+  },
+  {
+   "cardId": "681057affabeef4e9bc65fb7",
+   "newEvents": [],
+   "update": "No new activity on Richard Armstrong's own claim came in during this period; the threads the scan surfaced all turned out to concern other insureds or a misdirected-email notice from USAA.",
+   "needed": null,
+   "threadsRead": [],
+   "threadsDropped": ["19fae1823b03aa3b","19e22104c11daf79","19dbbf730eaa237e","19cd7a0bccc814ca","19cc47b5f52830dd","19c33ffb76e905d8","19be6c46f7d9a5ca","19bd7b7627792851"],
+   "trelloItemsAdded": 0,
+   "notes": "All 8 threads dropped: 19fae1823b03aa3b is USAA telling Joseph a prior email was misdirected regarding a completely different claim/insured (Sergeant Thomas, different address/claim number) — not news about Armstrong's own claim. 19e22104c11daf79 and 19cc47b5f52830dd and 19c33ffb76e905d8 are all about a different insured (Deborah Ann Coleman, claim BRIH-00000194). 19dbbf730eaa237e is about a different insured (Tim Pannell, Praetorian claim). 19cd7a0bccc814ca is an out-of-office auto-reply for an unrelated umpire matter (Martin Garcia). 19be6c46f7d9a5ca is about a different insured (Dat Nguyen, USAA hurricane claim). 19bd7b7627792851 is entirely about a different insured (Andrew D'Armond) — Joseph acting as umpire, unrelated to Armstrong."
+  },
+  {
+   "cardId": "684b593d310e794f76743511",
+   "newEvents": [
+    {"date": "2026-08-29", "event": "The carrier's appraiser sent over an award letter for signature."},
+    {"date": "2026-08-29", "event": "The carrier's appraiser also sent their estimate for review."}
+   ],
+   "update": "The carrier's appraiser sent over an award letter and their estimate for review, moving the file toward resolution of the appraisal.",
+   "needed": null,
+   "threadsRead": ["1a04e2240183c532","1a04e0515209d36e"],
+   "threadsDropped": ["1a07bd9b89062897","1a07942797762117","1a07902b7d2e81ba","1a039d127e88204a","1a05ec600056de21","1a062ce58b74f4d9","1a06f75cef22f10d","1a06d882f3c314bf","1a069cf62025bf87","1a03a47b3cc0c662","1a06331a1ddd6946","19f6bef6867d84c1","19ffbdd523a15c9f","1a04616e3d652880","19ffbeb62d779dc2","1a0112eabc258864","1a017dce30f78c54","1a01c15308f07f14"],
+   "trelloItemsAdded": 2,
+   "notes": "Of 20 candidate threads, 18 were dropped as belonging to clearly different insureds (Carolina/Carlos Siller, Xu Ouyang, William Womack/TWIA, Abdulkadir Taskiran, Fatehelrahman Elimam, Ritika Pawar & Akshay Desai, Brenda Tranchon, Promise Chidi, Alins Perez, Rakesh Kalidindi, Murphy/Taylor) or were non-claim notifications (LinkedIn). Only the two 'JONES' threads from Bradley Leire (award letter + estimate) plausibly belong here — identification rests on surname match only, since neither message states a claim number or address; no contradicting evidence found."
+  },
+  {
+   "cardId": "681ce17c279159567a8bcfbd",
+   "newEvents": [
+    {"date": "2026-02-04", "event": "Allstate sent an updated estimate reflecting removal of the extra layer of felt and said payment would be issued that day."}
+   ],
+   "update": "Allstate resolved the outstanding 'double felt' supplemental item, sending an updated estimate and saying payment would follow immediately.",
+   "needed": null,
+   "threadsRead": ["19c2a204b07bf120","19c200837cd30949"],
+   "threadsDropped": ["1a06777077dc679e","19fd85c46f1ba266","19f3cb341eeeed41","19e693131f2e8112","19df87772b5acd96","19d88f77e76e1173","19e16b285640726a","19d5eb832307c3a1","19d8752e3be936c7","19d68087cf8e5bdf"],
+   "trelloItemsAdded": 1,
+   "notes": "Kept threads are claim 000779300433/0779300433, matching the existing checklist's own claim number for Steve Irwin's roof claim. Dropped 19df87772b5acd96 and 19d88f77e76e1173: although Steve Irwin is cc'd (he referred his daughter's partner), the actual insured/claim is Dalton Sheffield, claim 000822369674 — a different claim number and different named insured, so that history belongs on a different file, not this card. Also dropped: Idi Ngendakumana, Duc Vu, Douglas Freeman, Rita Pire, Cody Wherley (x2), Greg Miller, Judith L Martin — all different insureds entirely."
+  },
+  {
+   "cardId": "689390eb7b2e9e6b6d127c2f",
+   "newEvents": [],
+   "update": "No activity specific to Mark Pinter's Plano claim came in this period; every thread the scan pulled in actually concerned Michael Whisman's file or LINEAR Roofing's general multi-client status requests.",
+   "needed": null,
+   "threadsRead": [],
+   "threadsDropped": ["19d40106945f7890","19c9194db1c2085c","19c8c843ad953817","19c7a9e727b8b73c","19c0be802ef9b3cc","19b5bcdb704d3d90","19b32b326941972a","19b08a9f3d6ad495","19affd18b06c96fe","19b03e48d7128476","19aea98b7ac08971","19aa7e596032016a","19aa7e44d947747b","19a9e8983d4e187b","19a88cea7180a4ee","19a5256eac5edcdf","19a51385a1d3f5f1","19a51019dad43bb0","19a4d370e116b369"],
+   "trelloItemsAdded": 0,
+   "notes": "All 19 threads checked are either explicitly about Michael Whisman's own Safeco/Liberty Mutual claim (060366274-01) — confirmed against Whisman's own Trello checklist, which already records this same history — or are Rusty Coffman/LINEAR Roofing's general status-check emails naming multiple other clients (Edna Jones, Delbert Klump, TJ Vaughn, Marilyn Gregory, Kevin Locke, John Beneat, William Condron) plus two unrelated Office Depot printing notifications. Not one thread mentions Mark Pinter. Nothing to add to this card."
+  },
+  {
+   "cardId": "6909369b70aa8d0fafc5a6df",
+   "newEvents": [],
+   "update": "No new activity specific to Michael Whisman's Safeco claim came in this period; the threads the scan pulled in all concerned other homeowners' files or automated notifications.",
+   "needed": null,
+   "threadsRead": [],
+   "threadsDropped": ["1a03fe73a9fe72d3","1a015dbf2f5921dc","1a014ff1f00b88fd","1a002f4e9cd7fc44","19fce80604601670","19fca01082a1cd9e","19fc9ac173142da6","19faf03ae73595ee","19fa9e7f7463a38c","19f848a796b16322","19f6ce05da8e2020","19f51d7c8a01f3a6","19f14d6f0b2c2a59","19f350a0ecf3e268","19f3cb4056910d2b","19f3965e7a2cd368","19ef5dda971bcfae","19ed25d3cf919c9b","19ece20ecb0a4767","19ecb86945d86ab1"],
+   "trelloItemsAdded": 0,
+   "notes": "All 20 threads checked are about other insureds entirely: Ketan Patel/Cairn Hill (Fortegra), Humaira Shaikh (Allstate, x3), Gregory & Shayna Miller, Leslie/Greg Gossett (Liberty Mutual, x3), Sirridge (Farmers), Celeste/Gregory Gant, plus automated Trello digest and LinkedIn notifications. None mention Michael Whisman or claim 060366274-01. Nothing to add to this card."
+  }
+ ],
+ "checked": 6,
+ "withNewEvents": 2
+}
