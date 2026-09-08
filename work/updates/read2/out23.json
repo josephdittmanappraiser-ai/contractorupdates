@@ -53,8 +53,35 @@
    "threadsDropped": [],
    "trelloItemsAdded": 3,
    "notes": ""
+  },
+  {
+   "cardId": "69e66b50b2382b3b3f201192",
+   "newEvents": [
+    {"date": "2026-08-31", "event": "The contractor asked us to prepare a new estimate for a window damage supplement, providing an insurance scope, updated window bid, and property photos."},
+    {"date": "2026-09-03", "event": "We sent the completed window supplement estimate to the contractor for review."},
+    {"date": "2026-09-07", "event": "The contractor confirmed the window supplement estimate looked good and said he would submit it to the carrier himself."}
+   ],
+   "update": "Alongside the original appraisal (still awaiting the carrier's appraiser's position, sent to him in mid-July), the contractor asked us to build a separate window-damage supplement estimate; that estimate is done, approved by the contractor, and he's submitting it to the carrier directly.",
+   "needed": null,
+   "threadsRead": ["1a058f20d96aadf2", "19f65268f198d74b", "19eadd6f8223757b"],
+   "threadsDropped": ["19f65268f198d74b"],
+   "trelloItemsAdded": 3,
+   "notes": "Dropped thread 19f65268f198d74b — it concerns a different person, 'Villalobos Eliseo,' an unrelated appraisal invoice/payment matter, not this insured (Kevin Villalobos)."
+  },
+  {
+   "cardId": "69f8fdad2ec48a6f75b37b36",
+   "newEvents": [
+    {"date": "2026-08-25", "event": "The contractor checked in on status again (after an Aug 18 check-in); we were still waiting on the other appraiser's position."},
+    {"date": "2026-08-28", "event": "Joseph confirmed to the other appraiser that only minor pricing differences remain, with the roof portion already agreed upon."}
+   ],
+   "update": "The file is down to minor pricing differences with the roof portion already agreed; the other appraiser has been slow to respond and we're continuing to press him for his position.",
+   "needed": null,
+   "threadsRead": ["19e2d2eb48428cff", "19e083f188fdf52e"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 2,
+   "notes": ""
   }
  ],
- "checked": 4,
- "withNewEvents": 3
+ "checked": 6,
+ "withNewEvents": 5
 }
