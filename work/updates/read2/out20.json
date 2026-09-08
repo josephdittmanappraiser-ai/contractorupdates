@@ -1,0 +1,79 @@
+{
+  "batch": 20,
+  "results": [
+    {
+      "cardId": "6a3bf31ed6ab3158a1ddbe5c",
+      "newEvents": [
+        {"date": "2026-08-25", "event": "A solo inspection with the carrier's appraiser was scheduled for September 1, and the homeowner confirmed the appointment."},
+        {"date": "2026-09-02", "event": "The carrier's appraiser completed the inspection, and our estimate and supporting photo documentation were sent to him."},
+        {"date": "2026-09-05", "event": "Joseph followed up with the carrier's appraiser to check on his review of our position."}
+      ],
+      "update": "The carrier's appraiser inspected the property on September 1 and we sent our estimate and photo documentation on September 2; we're following up for his response.",
+      "needed": null,
+      "threadsRead": ["19f81d42a41c7792"],
+      "threadsDropped": [],
+      "trelloItemsAdded": 0,
+      "notes": "The Chain of Events checklist on this card already includes these three events through 2026-09-05 from a prior pass; no duplicate items were added."
+    },
+    {
+      "cardId": "6a47f3e5c36e4e05b48a7b1f",
+      "newEvents": [
+        {"date": "2026-09-01", "event": "Our estimate, depreciation position, and supporting photo documentation were sent to the carrier's appraiser."},
+        {"date": "2026-09-04", "event": "Joseph followed up with the carrier's appraiser to check on his review of our position."}
+      ],
+      "update": "Our position and estimate were sent to the carrier's appraiser on September 1; we're following up for a response.",
+      "needed": null,
+      "threadsRead": ["19f3905bd843d6be"],
+      "threadsDropped": [],
+      "trelloItemsAdded": 2,
+      "notes": ""
+    },
+    {
+      "cardId": "6a42d0a414bdd96935f3a62a",
+      "newEvents": [
+        {"date": "2026-08-12", "event": "The homeowner signed the updated appraisal demand naming John Wynn as the appraiser and forwarded it to AAA."},
+        {"date": "2026-08-21", "event": "John Wynn confirmed he was coordinating with the carrier's appraiser and scheduled his site visit for August 28; the homeowner confirmed the date."},
+        {"date": "2026-08-29", "event": "Our position, estimate, and supporting photo documentation were sent to advance the appraisal."},
+        {"date": "2026-09-01", "event": "Joseph confirmed to the contractor that our position had been sent to the carrier's appraiser and is now under review."}
+      ],
+      "update": "Our position was sent on August 29 and, per Joseph's update to the contractor, is now under review with the carrier's appraiser.",
+      "needed": null,
+      "threadsRead": ["1a0215b9bc0f1df4", "19f863ad9c212d5f", "1a0597bc40a4aae8", "1a04d9e76fedda45", "19f29bd8eabc0cdb"],
+      "threadsDropped": ["1a0597bc40a4aae8"],
+      "trelloItemsAdded": 4,
+      "notes": "Dropped John Wynn's August service invoice thread (1a0597bc40a4aae8) — it's his general monthly billing across multiple files, not specific to this claim."
+    },
+    {
+      "cardId": "69839ef585ff1eed05e41363",
+      "newEvents": [],
+      "update": "",
+      "needed": null,
+      "threadsRead": ["19e50c234bf2a9f0"],
+      "threadsDropped": ["19e50c234bf2a9f0"],
+      "trelloItemsAdded": 0,
+      "notes": "The only thread with newer email ('Supplement request - Sharon Newcomb', contractor Linear Roofing) is about a different insured entirely, not Jose Castro (claim 00104921083, 13102 Cutler Ridge Ln, Houston). Dropped; no genuine new activity confirmed for this file this pass."
+    },
+    {
+      "cardId": "698a24becc24528caabb7485",
+      "newEvents": [],
+      "update": "",
+      "needed": null,
+      "threadsRead": ["19fc48339db6b4a8", "19fbf1afeb0905b9", "19f804e652947812", "19f6e9258f2512b8", "19f61c3d67378b95", "19f5b8e9b7d3d8d5", "19f583ed65ed5ca4"],
+      "threadsDropped": ["19fc48339db6b4a8", "19fbf1afeb0905b9", "19f804e652947812", "19f6e9258f2512b8", "19f61c3d67378b95", "19f5b8e9b7d3d8d5", "19f583ed65ed5ca4"],
+      "trelloItemsAdded": 0,
+      "notes": "All 7 threads with newer email belong to other insureds/files that happen to route through contacts named or referencing 'Cuevas': Jose Cuevas (claim 43-0F0G-948, 3 threads), Vidal Pastrana (USAA invoice), Jose Bravo Rodriguez (umpire file), Swapnil Kadam/Cadalia Gonsales/Jaqueline Cortez (via contractor Tomas Cuevas), and Christopher Alvarez. None reference Angel Cuevas or claim W25-00160 (308 S Cloud St, Wharton). Dropped; no genuine new activity confirmed for this file this pass."
+    },
+    {
+      "cardId": "698b597221565ba4737d9165",
+      "newEvents": [],
+      "update": "",
+      "needed": null,
+      "threadsRead": ["1a07bf8de6725943", "1a06d017fe5bcf0a", "1a06b1f110ccaaa6", "1a06a5d787a931a2", "1a067b5f4311efb7", "1a05f8b12bd144c7", "1a0640fe5f4be384", "1a05fa146e49dfaa", "1a05c456a7ee188a", "1a05af525d317894", "1a0588053305ef8c", "1a057ea0614419f5", "1a050a869d77bc1f", "1a049feeb83818a8", "1a049a4375667662", "1a0491fa2e0e92a0", "19f665da1dc2d8f7", "1a04642b574d5eda"],
+      "threadsDropped": ["1a07bf8de6725943", "1a06d017fe5bcf0a", "1a06b1f110ccaaa6", "1a06a5d787a931a2", "1a067b5f4311efb7", "1a05f8b12bd144c7", "1a0640fe5f4be384", "1a05fa146e49dfaa", "1a05c456a7ee188a", "1a05af525d317894", "1a0588053305ef8c", "1a057ea0614419f5", "1a050a869d77bc1f", "1a049feeb83818a8", "1a049a4375667662", "1a0491fa2e0e92a0", "19f665da1dc2d8f7", "1a04642b574d5eda"],
+      "trelloItemsAdded": 0,
+      "notes": "All 18 threads with newer email belong to other insureds/files entirely, not Rodrigo Lopez (claim 215038, 16319 Tibet Rd, Friendswood): Ramon Villagomez, Maria Sanchez, Ruben Ortega, an Allstate claim tied to Rise Public Adjusting/Venkat Jayanti, a Mark Connelly file worked with appraiser Joshua Lopez (Rockwall), a separate Omar Lopez claim at 3489 Jefferson Dr Frisco, Ronald Orr, Vidal Mendez, Juliio Granados, Mirna Garcia, Extreme Group Inc., Alejandro Ramos, and two generic iink payment/status notification emails. None reference claim 215038 or the Friendswood address. Dropped; no genuine new activity confirmed for this file this pass."
+    }
+  ],
+  "checked": 6,
+  "withNewEvents": 3
+}

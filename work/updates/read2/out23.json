@@ -1,0 +1,60 @@
+{
+ "batch": 23,
+ "results": [
+  {
+   "cardId": "6a3e97a272d4890a3f0ff38b",
+   "newEvents": [
+    {"date": "2026-07-31", "event": "The joint inspection with the carrier's appraiser and the umpire was confirmed for August 6, with interior access required."},
+    {"date": "2026-08-06", "event": "The joint inspection took place at the property after an initial access delay, and the signed appraisal agreement was exchanged with the umpire."},
+    {"date": "2026-08-07", "event": "Our position along with supporting estimate and photo documentation was sent to the umpire for review."},
+    {"date": "2026-08-12", "event": "The homeowner asked to speak with Joseph by phone about the carrier's appraiser not inspecting the roof during the joint site visit."},
+    {"date": "2026-08-20", "event": "Our position was also sent to the carrier's appraiser and is now under their review."},
+    {"date": "2026-09-05", "event": "Joseph followed up with the umpire, who has not yet submitted his position."}
+   ],
+   "update": "Both the carrier's appraiser and the umpire now have our position following the August 6 joint inspection; we're waiting on the umpire's position, and Joseph followed up again in early September to keep it moving.",
+   "needed": null,
+   "threadsRead": ["19f964166f1c1647", "19f8c51768cdd12c", "1a020bbe4115bef3", "1a07c2f3c80c535e", "1a06a9338ababbe4", "1a03f24def225fde", "19fafae86a818a25", "1a020caa018904a9", "1a0200d183929e73", "1a0118d29029fd20", "19ff8209eb8f6e4e", "19ff7ed71e1f61c3"],
+   "threadsDropped": ["1a07c2f3c80c535e", "1a06a9338ababbe4", "1a03f24def225fde", "19fafae86a818a25", "1a020caa018904a9", "1a0200d183929e73", "1a0118d29029fd20", "19ff8209eb8f6e4e", "19ff7ed71e1f61c3"],
+   "trelloItemsAdded": 5,
+   "notes": "Dropped 9 threads that were false surname/company matches: a different Kumar/Sharma State Farm claim (53-0H8K-450, Cedar Park), an AAA claim (017936054) for Ajay Palvai/Saurav Kumar via the same roofer, a different Kishore Kumar Munigety claim, and an unrelated Thota claim. None referenced this insured's claim number or address."
+  },
+  {
+   "cardId": "6a47c72aa447b548c59bddd6",
+   "newEvents": [
+    {"date": "2026-08-05", "event": "Our position along with supporting estimate and photo documentation was sent to the carrier's appraiser for review."}
+   ],
+   "update": "Our position went to the carrier's appraiser after the August 4 inspection and is now under review; no response yet as of this update.",
+   "needed": null,
+   "threadsRead": ["19fa9844430ac3f2", "1a0488043af87316", "1a044dea037e5b6c", "1a04630be1023a9e", "1a07d0c4fd2d64de", "1a07c40d232cc258", "1a07c314131ccbbd", "1a07c18500cc58b0", "1a07c16c442e0a2e", "1a059582ac806363", "1a0736cc9849d26f", "1a06eca4b0100fc8", "19f814702df807d1", "1a068560c228270e", "1a05e5858f5faada", "1a04a496d3f2216a"],
+   "threadsDropped": ["1a0488043af87316", "1a044dea037e5b6c", "1a04630be1023a9e", "1a07d0c4fd2d64de", "1a07c40d232cc258", "1a07c314131ccbbd", "1a07c18500cc58b0", "1a07c16c442e0a2e", "1a059582ac806363", "1a0736cc9849d26f", "1a06eca4b0100fc8", "19f814702df807d1", "1a068560c228270e", "1a05e5858f5faada", "1a04a496d3f2216a"],
+   "trelloItemsAdded": 1,
+   "notes": "Only one thread (19fa9844430ac3f2) actually matched this insured's claim (53-73J6-85D). The other 15 threads pulled by the surname 'Brown' belonged to unrelated files: a different Allstate claim, a State Farm claim for a different insured, a Nationwide claim, a different State Farm appraisal, an AFICS claim, a Travelers claim, an adjuster group email, internal ops digests naming other clients, and a LinkedIn notification. All dropped."
+  },
+  {
+   "cardId": "6a270d36f8efa358d7b3e069",
+   "newEvents": [],
+   "update": "We're still waiting on the carrier's appraiser to review our position from late July; Joseph followed up again in early September to check status.",
+   "needed": null,
+   "threadsRead": ["19f1a1aa69acb65d"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 0,
+   "notes": "The only new message (Joseph's Sept 5 follow-up to the carrier's appraiser) was already recorded on the Trello checklist from a prior pass; nothing further to add."
+  },
+  {
+   "cardId": "6a1a19b3c7846876826c8ea9",
+   "newEvents": [
+    {"date": "2026-09-01", "event": "The contractor followed up asking for a status update on the insured's behalf; our office confirmed our position had been sent to the carrier's appraiser and a follow-up had already gone out."},
+    {"date": "2026-09-02", "event": "Joseph's office followed up directly with the carrier's appraiser, who said he would complete his review by the end of that week."},
+    {"date": "2026-09-05", "event": "Joseph followed up again with the carrier's appraiser, still awaiting his position."}
+   ],
+   "update": "The contractor checked in on status; our position has been with the carrier's appraiser since mid-July, he said he'd wrap up review by early September, and Joseph is following up again to get his position.",
+   "needed": null,
+   "threadsRead": ["1a05eea914e08118", "19f24856c0c1e2fa"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 3,
+   "notes": ""
+  }
+ ],
+ "checked": 4,
+ "withNewEvents": 3
+}
