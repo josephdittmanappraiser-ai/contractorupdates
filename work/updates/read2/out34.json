@@ -1,0 +1,91 @@
+{
+ "batch": 34,
+ "results": [
+  {
+   "cardId": "6a60dd97f6edd165382d07b1",
+   "newEvents": [
+    {"date": "2026-08-11", "event": "The contractor sent additional inspection photographs of the property."},
+    {"date": "2026-08-21", "event": "Joseph told the homeowner the file is still waiting on the carrier's appraiser to send his report before negotiations can begin."},
+    {"date": "2026-08-31", "event": "The contractor confirmed the appraisal paperwork had been sent to the carrier's appraiser and the file is awaiting his response."}
+   ],
+   "update": "The file has moved to umpire review after an impasse with the carrier's appraiser; the signed appraisal agreement is in place and the carrier's appraiser is now reviewing independent contractor bids before finalizing his position.",
+   "needed": null,
+   "threadsRead": ["1a06cca35c4a8129", "1a01011f05d3ce1e", "19ff181af48663c6", "19ff1784649c4c27"],
+   "threadsDropped": ["1a03edb7c3df8a21", "1a068fa895a0dc37", "19f3e7e46b049573", "1a04b7e8ccf83399", "1a04a42712ce4365", "1a030761a7d9174c", "1a016d5be611bc7a", "1a0156bb418705da", "19f42cfca732662e"],
+   "trelloItemsAdded": 3,
+   "notes": "Several threads the scan collected are about other clients who share a sender/contractor with this file (Jikai Chen, Lizbeth Cazares, Alberto Hernandez, Ruchin Agarwal, Narsimha Paluri) - dropped as wrong insured. Only threads confirmed by subject/name match to Koteshwar Pilla Rao were used."
+  },
+  {
+   "cardId": "69232d0f67c1ca734b561cc1",
+   "newEvents": [
+    {"date": "2026-08-24", "event": "The carrier's appraiser declared an impasse and invoked the umpire."},
+    {"date": "2026-08-25", "event": "The contractor sent photographs of the property."},
+    {"date": "2026-08-28", "event": "The umpire set a September 4 deadline for both appraisers to submit their positions and supporting documents."},
+    {"date": "2026-08-29", "event": "Joseph submitted his estimate and photo report to the umpire."},
+    {"date": "2026-08-31", "event": "Joseph corrected his submission with the right photo report and flagged a shingle-type correction to his estimate."},
+    {"date": "2026-09-01", "event": "Joseph sent a revised estimate; the umpire said a site visit will likely be needed to confirm the hail damage and asked whether interior damage is part of the dispute."}
+   ],
+   "update": "The file is now before the umpire following the impasse with the carrier's appraiser; both sides have submitted estimates and photos, and the umpire is expected to schedule a site visit to resolve the hail-damage dispute before issuing a decision.",
+   "needed": null,
+   "threadsRead": ["19c7862c60298b6b", "1a03af4b2e4d6b9d"],
+   "threadsDropped": ["19d20f447fba435e", "19c0118e365af35a", "19bd3034c62d1cb3", "19b49896d18c9336", "19b1445a0cefd2a3", "19af0944073fdf98", "19af04d31a170226", "19ac1538201a3a5a", "19aad47d43ab86b8", "1a04a661ac2b6b22", "19f5c6cda3a84b98", "19f192047ed1378a", "19f0962aabd433dc", "19dc232c57253bc1", "19d6e6be41446091", "19d202e2c0a06765", "19ce32f8a7248227", "19cd43b506d55f40", "19c9fffe52d0097d", "19cc58873540fc8a", "19cbb42e9e1c17be"],
+   "trelloItemsAdded": 6,
+   "notes": "1a04a661ac2b6b22 and 19f192047ed1378a are about a different client (Western Inn / Hitanshu Bhakta, claim 2026-01191-255.10694), not Patricia Yates - dropped. Older threads with newest before searchAfter were not opened, only listed as dropped/out of scope for reference."
+  },
+  {
+   "cardId": "6970f01639fd7a6152b4961e",
+   "newEvents": [
+    {"date": "2026-08-29", "event": "Joseph reached out to two prospective umpires to see if they could accept the appraisal assignment, sending the estimate, photo report, and supporting documents for review."}
+   ],
+   "update": "The file is awaiting confirmation of an umpire; Joseph has reached out to two candidates and sent the estimate and supporting documents for their review, and is waiting for one to accept the assignment.",
+   "needed": null,
+   "threadsRead": ["1a04d7e7379a65b1"],
+   "threadsDropped": ["1a07e816e6f0a58e", "1a06d7c20cefbdda", "1a068560c228270e", "1a06833e71c15550", "1a067e65c291e1d3", "1a0630e51a061101", "1a05f6357223cc85", "1a040dfb7e31fc6f", "1a034a2e15a67eec", "1a01039a85b27ffe", "19fd500ede951e59", "19fc48339db6b4a8"],
+   "trelloItemsAdded": 1,
+   "notes": "Nearly every other thread the scan attached to this card belongs to other clients (Johanna Strauss Aguirre, Joan Lawrence, Maria Benitez, Tay Nguyen, John Hranicka, Pastrana, a general networking 'Group Email') - all dropped as wrong insured. Only the umpire-outreach thread was confirmed as Barbara Lewis's own file."
+  },
+  {
+   "cardId": "69fa312f9ce313f36aaf8e44",
+   "newEvents": [
+    {"date": "2026-08-18", "event": "The carrier's appraiser sent his position and the signed appraisal agreement to the umpire."},
+    {"date": "2026-08-18", "event": "The umpire returned the signed appraisal agreement, formally accepting the assignment."},
+    {"date": "2026-09-02", "event": "The carrier's appraiser asked whether invoices had been sent out yet."},
+    {"date": "2026-09-08", "event": "The carrier's appraiser submitted a revised position and estimate for the umpire's review."}
+   ],
+   "update": "The file is with the umpire after both appraisers signed the appraisal agreement in August; the carrier's appraiser has now submitted his position and a revised estimate, and the file awaits the umpire's decision.",
+   "needed": null,
+   "threadsRead": ["19e6bcc2d93e3d69", "19f679f199511c62"],
+   "threadsDropped": ["1a04d7e7379a65b1", "19fc48339db6b4a8", "19c20c5448d9efa5"],
+   "trelloItemsAdded": 4,
+   "notes": "1a04d7e7379a65b1 and 19c20c5448d9efa5 are actually about a different client, Barbara Lewis, not Manzoor Mir (misattributed by the scan) - dropped. 19fc48339db6b4a8 is a different client (Pastrana) - dropped. 19f679f199511c62 is a shared multi-client status thread that does mention Manzoor Mir, but carried no new information beyond what's already on record."
+  },
+  {
+   "cardId": "699f7ed7ef9d93473c54efc1",
+   "newEvents": [
+    {"date": "2026-08-11", "event": "The homeowner asked to see the umpire's award; she was told the umpire will not release it until his fee is paid."},
+    {"date": "2026-09-03", "event": "The umpire confirmed the award remains on hold, still awaiting payment of his fee from the homeowner."}
+   ],
+   "update": "The claim itself is resolved with the carrier agreeing to cover the roof, but the umpire is holding the final award until his fee is paid; that payment from the homeowner is still outstanding as of early September.",
+   "needed": null,
+   "threadsRead": ["1a06864d6350cdba", "1a01cacc08e6130d", "19f3dcef77133021", "19e1e0d06c94453a"],
+   "threadsDropped": ["1a015740fe2f7e51", "19fc48339db6b4a8"],
+   "trelloItemsAdded": 2,
+   "notes": "1a015740fe2f7e51 (RESPONSE - Meziou) and 19fc48339db6b4a8 (Pastrana) belong to other clients and were dropped. Several threads list Anita Wilkins' claim# 0814178091 alongside many other unrelated claims in shared accounting/umpire follow-up emails - confirmed by claim number match before using."
+  },
+  {
+   "cardId": "6953f515486cb06ed306fdab",
+   "newEvents": [
+    {"date": "2026-08-04", "event": "The homeowner said payment to the umpire is on hold due to communication problems with her own adjuster."},
+    {"date": "2026-08-14", "event": "The carrier's appraiser and the umpire confirmed the homeowner's portion of the umpire's fee still has not been paid, keeping the file stalled."}
+   ],
+   "update": "The file remains stalled waiting on the homeowner to pay her portion of the umpire's fee; she cited a job change and adjuster communication issues, and as of mid-August the carrier's appraiser and umpire were still waiting on that payment.",
+   "needed": null,
+   "threadsRead": ["19f2dc194e40136e", "19c9fd04454d4388"],
+   "threadsDropped": ["19fc48339db6b4a8"],
+   "trelloItemsAdded": 2,
+   "notes": "19fc48339db6b4a8 (Pastrana) belongs to a different client and was dropped."
+  }
+ ],
+ "checked": 6,
+ "withNewEvents": 6
+}
