@@ -6231,6 +6231,62 @@
   {
    "cardId": "69fdf6620131abfb1b6d0634",
    "staleReason": "This week's read pass opened every Gmail thread the scan collected for this file, to its last message. New events found were logged to the Chain of Events. Any remaining gap to the card's Trello activity timestamp is from unrelated Trello housekeeping (e.g. this account's daily automated email-log entries), not a missed development -- Gmail itself was checked in full this week."
+  },
+  {
+   "cardId": "6a518a8643f6e498691ce08a",
+   "staleReason": "Not freshness-checked this week: the Gmail connector was unavailable for this specific file every time it was attempted during this run (multiple retries). This file's Chain of Events reflects last week's data, not this morning's -- recommend a manual check or a follow-up run once Gmail access is confirmed stable."
+  },
+  {
+   "cardId": "6969063d8294e933196151b6",
+   "staleReason": "Not freshness-checked this week: the Gmail connector was unavailable for this specific file every time it was attempted during this run (multiple retries). This file's Chain of Events reflects last week's data, not this morning's -- recommend a manual check or a follow-up run once Gmail access is confirmed stable."
+  },
+  {
+   "cardId": "6a064846ec96c1ab2fb81152",
+   "staleReason": "Not freshness-checked this week: the Gmail connector was unavailable for this specific file every time it was attempted during this run (multiple retries). This file's Chain of Events reflects last week's data, not this morning's -- recommend a manual check or a follow-up run once Gmail access is confirmed stable."
+  },
+  {
+   "cardId": "6a694d0b652c4b53a35f1c99",
+   "staleReason": "Not freshness-checked this week: the Gmail connector was unavailable for this specific file every time it was attempted during this run (multiple retries). This file's Chain of Events reflects last week's data, not this morning's -- recommend a manual check or a follow-up run once Gmail access is confirmed stable."
+  },
+  {
+   "cardId": "6a3ee5d09b5b333f3b7ca8b8",
+   "staleReason": "Not freshness-checked this week: the Gmail connector was unavailable for this specific file every time it was attempted during this run (multiple retries). This file's Chain of Events reflects last week's data, not this morning's -- recommend a manual check or a follow-up run once Gmail access is confirmed stable."
+  },
+  {
+   "cardId": "6a582865d5ffdba38a96dd72",
+   "staleReason": "Not freshness-checked this week: the Gmail connector was unavailable for this specific file every time it was attempted during this run (multiple retries). This file's Chain of Events reflects last week's data, not this morning's -- recommend a manual check or a follow-up run once Gmail access is confirmed stable."
+  },
+  {
+   "cardId": "6a7a50afef5394d94cab7f50",
+   "staleReason": "Not freshness-checked this week: the Gmail connector was unavailable for this specific file every time it was attempted during this run (multiple retries). This file's Chain of Events reflects last week's data, not this morning's -- recommend a manual check or a follow-up run once Gmail access is confirmed stable."
+  },
+  {
+   "cardId": "6a73c18856f0971811e19cf7",
+   "staleReason": "Not freshness-checked this week: the Gmail connector was unavailable for this specific file every time it was attempted during this run (multiple retries). This file's Chain of Events reflects last week's data, not this morning's -- recommend a manual check or a follow-up run once Gmail access is confirmed stable."
+  },
+  {
+   "cardId": "6a7cf8d6ac6570eb9f11b29c",
+   "staleReason": "Not freshness-checked this week: the Gmail connector was unavailable for this specific file every time it was attempted during this run (multiple retries). This file's Chain of Events reflects last week's data, not this morning's -- recommend a manual check or a follow-up run once Gmail access is confirmed stable."
+  },
+  {
+   "cardId": "6a0649921d13af22088f42ff",
+   "staleReason": "Not freshness-checked this week: the Gmail connector was unavailable for this specific file every time it was attempted during this run (multiple retries). This file's Chain of Events reflects last week's data, not this morning's -- recommend a manual check or a follow-up run once Gmail access is confirmed stable."
+  },
+  {
+   "cardId": "69837b968fb5e79951dbb1e2",
+   "staleReason": "Not freshness-checked this week: the Gmail connector was unavailable for this specific file every time it was attempted during this run (multiple retries). This file's Chain of Events reflects last week's data, not this morning's -- recommend a manual check or a follow-up run once Gmail access is confirmed stable."
+  },
+  {
+   "cardId": "6a43d770733f9c382511d1c1",
+   "staleReason": "Not freshness-checked this week: the Gmail connector was unavailable for this specific file every time it was attempted during this run (multiple retries). This file's Chain of Events reflects last week's data, not this morning's -- recommend a manual check or a follow-up run once Gmail access is confirmed stable."
+  },
+  {
+   "cardId": "6a3c4d7e2e4482858efd305b",
+   "staleReason": "Not freshness-checked this week: the Gmail connector was unavailable for this specific file every time it was attempted during this run (multiple retries). This file's Chain of Events reflects last week's data, not this morning's -- recommend a manual check or a follow-up run once Gmail access is confirmed stable."
+  },
+  {
+   "cardId": "6a7e42a38ea17e75c14526d3",
+   "staleReason": "Not freshness-checked this week: the Gmail connector was unavailable for this specific file every time it was attempted during this run (multiple retries). This file's Chain of Events reflects last week's data, not this morning's -- recommend a manual check or a follow-up run once Gmail access is confirmed stable."
   }
  ]
 }
