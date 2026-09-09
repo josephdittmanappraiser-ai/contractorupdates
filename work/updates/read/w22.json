@@ -1,0 +1,108 @@
+{
+  "batch": 2,
+  "results": [
+    {
+      "cardId": "697101ad3031e26ba5fb55c7",
+      "newEvents": [],
+      "update": "",
+      "needed": null,
+      "threadsRead": [],
+      "threadsDropped": ["19e8f3502f4db145"],
+      "trelloItemsAdded": 0,
+      "notes": "The only thread newer than the record date (19e8f3502f4db145) is a forwarded State Farm claim (16-98S7-09V) for a homeowner named Scott/Jason Mongeau, cc'ing a different roofing contact and a law firm. It never mentions Russell Hodges, the claim number, or the Channel Island Dr address on this card. Treated as a different insured picked up by the surname/contractor search and dropped; no update written."
+    },
+    {
+      "cardId": "696ed0178dedd27c360d27d4",
+      "newEvents": [
+        {
+          "date": "2026-09-06",
+          "event": "Joseph followed up with the referring firm again on this file's status; the carrier still had not named an appraiser months after the demand was invoked in April and re-sent in June."
+        }
+      ],
+      "update": "The appraisal demand has been sitting with the carrier since spring with no appraiser named; Joseph pressed the referring firm again this week for movement. Nothing further is needed from your side while we wait on the carrier.",
+      "needed": null,
+      "threadsRead": ["1a07902b7d2e81ba"],
+      "threadsDropped": ["19faa518e58429e4", "19f8c51768cdd12c", "19f38403710c8531", "19f14cd47ff356ef"],
+      "trelloItemsAdded": 1,
+      "notes": "Dropped four threads: two (19f38403710c8531, 19f14cd47ff356ef) are about a different insured, Michael Laster, whose umpire selection happened to be a person also named Guevara; one (19faa518e58429e4) is about an insured surnamed Park, again naming an umpire named Guevara; one (19f8c51768cdd12c) is about an unrelated insured, Sindhu Prasanna Kumar. None reference this claim number or address. Only the bulk status-check thread to the referring firm actually lists this file by name, claim number, and address."
+    },
+    {
+      "cardId": "6a6a7a9c59f49342a66d5589",
+      "newEvents": [
+        {
+          "date": "2026-09-07",
+          "event": "Joseph flagged this file in the weekly demand-letter review; the carrier (Fortegra) still had not named an appraiser three weeks after the demand went out."
+        }
+      ],
+      "update": "The appraisal demand went out to the carrier in mid-August; three weeks later the carrier still hasn't named its appraiser, so we're calling to push for movement. Nothing further is needed from you right now.",
+      "needed": null,
+      "threadsRead": ["1a07d4121ed6eb0e", "1a07d4ec1924e411", "1a07d5113767eb62"],
+      "threadsDropped": ["1a06d20cfbff4916", "1a067fbc0e8bc255", "1a064b1ff0a96e09", "1a03f7835e3b5b89"],
+      "trelloItemsAdded": 1,
+      "notes": "The homeowner (Rong Dai) has multiple rental properties/claims in play at once. Confirmed via the Trello card record that this card is specifically claim 033232 at 14003 Goodman St (Fortegra). Dropped four threads that turned out to be three OTHER Rong Dai properties/claims (061798649 at 15620 Foster St with Liberty Mutual/a named carrier appraiser; 061798873 at 6711 W 157th Terr with Liberty Mutual, which belongs to the sibling card; and a Steadily claim at 15278 Conser St) plus one photo-drop email with no address given, so it couldn't be confirmed as this property."
+    },
+    {
+      "cardId": "6a694b6be0fbd537ee884a02",
+      "newEvents": [
+        {
+          "date": "2026-09-03",
+          "event": "Liberty Mutual repeated its request for a revised, undisputed estimate before it will proceed with the appraisal, citing non-covered items in the contractor's original demand; Joseph's office asked whether to resend the estimate or take other action."
+        },
+        {
+          "date": "2026-09-07",
+          "event": "Joseph flagged this file in the weekly demand-letter review as still awaiting a named appraiser."
+        }
+      ],
+      "update": "Liberty Mutual won't move forward on the current demand because it includes non-covered items, and wants a revised scope of work limited to covered damage before it will proceed. That revision is the one thing needed from your side.",
+      "needed": "A revised scope of work/estimate limited to covered damage, since Liberty Mutual declined to proceed with the appraisal because the current estimate includes non-covered items.",
+      "threadsRead": ["1a067fbc0e8bc255", "1a07d4121ed6eb0e", "1a07d4ec1924e411", "1a07d5113767eb62"],
+      "threadsDropped": ["1a06d20cfbff4916", "1a064b1ff0a96e09", "1a05ea696281e43c", "1a03f7835e3b5b89"],
+      "trelloItemsAdded": 2,
+      "notes": "The homeowner (Rong Dai) has multiple rental properties/claims in play. Confirmed via the Trello card record that this card is specifically claim 061798873 at 6711 W 157th Terr (Liberty Mutual). Dropped four threads that turned out to be three OTHER Rong Dai properties/claims (061798649 at 15620 Foster St, which has its own named carrier appraiser and belongs to neither tracked card; 033232 at 14003 Goodman St, the sibling card; and a Steadily claim at 15278 Conser St) plus one photo-drop email with no address given."
+    },
+    {
+      "cardId": "6a71136a0b4293b8e2763667",
+      "newEvents": [
+        {
+          "date": "2026-08-17",
+          "event": "The appraisal demand package was sent to the carrier (One Alliance)."
+        },
+        {
+          "date": "2026-09-07",
+          "event": "Despite several follow-ups, the carrier still had not named an appraiser three weeks after the demand was sent; Joseph followed up directly asking for a status and an appraiser name."
+        }
+      ],
+      "update": "The appraisal demand went to the carrier on August 17; despite several follow-ups since, they still haven't named an appraiser three weeks later, and Joseph pressed them again directly this week. Nothing further is needed from you at this time.",
+      "needed": null,
+      "threadsRead": ["1a00d35200b9128d", "19fc960d7e292af8", "1a07d4121ed6eb0e", "1a07d4ec1924e411", "1a07d5113767eb62"],
+      "threadsDropped": [],
+      "trelloItemsAdded": 2,
+      "notes": "All new threads confirmed against claim 00000021224 / 2004 Meridian Loop, Temple TX."
+    },
+    {
+      "cardId": "6a50271bf095ae76caf16f96",
+      "newEvents": [
+        {
+          "date": "2026-08-16",
+          "event": "Joseph sent the drafted position/estimate to the contractor for review, and the contractor confirmed it looked correct."
+        },
+        {
+          "date": "2026-08-17",
+          "event": "The appraisal demand package, including the estimate, was submitted to the carrier (Travelers)."
+        },
+        {
+          "date": "2026-09-01",
+          "event": "The contractor asked for a status update; Joseph's office confirmed the carrier's adjuster acknowledged receipt and the claim is under review."
+        }
+      ],
+      "update": "The drafted position was approved and submitted to Travelers on August 17, and the adjuster has confirmed the claim is under review. Nothing further is needed from you while we wait on the carrier.",
+      "needed": null,
+      "threadsRead": ["19fdeb5d95b13d44", "1a00c5b8d72de203", "1a00d462589a57d8", "1a05ee4e58891f10", "1a07d4ab4b66b464", "1a07d5113767eb62", "1a07d4ec1924e411", "1a07d4121ed6eb0e"],
+      "threadsDropped": [],
+      "trelloItemsAdded": 3,
+      "notes": "Flagging a discrepancy for the record: this week's internal demand-letter review (threads 1a07d5113767eb62 / 1a07d4ec1924e411 / 1a07d4ab4b66b464) lists this file as having no claim number and no demand ever sent. The email trail says otherwise: the estimate was approved by the contractor 8/16, and both the estimate and the appraisal demand were uploaded to Travelers' portal on 8/17 under claim JDM4066, which the adjuster acknowledged as under review by 9/1-9/2. Worth confirming the claim number is recorded on the card so it isn't miscategorized as stalled going forward."
+    }
+  ],
+  "checked": 6,
+  "withNewEvents": 4
+}

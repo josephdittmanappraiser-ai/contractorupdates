@@ -1,0 +1,77 @@
+{
+ "batch": 15,
+ "results": [
+  {
+   "cardId": "6a43e9f10de515a740bb3dda",
+   "newEvents": [],
+   "update": "No new developments specific to this insured were found this week; the recent messages pulled into scope all turned out to belong to a different claim under a similarly named appraisal contact.",
+   "needed": null,
+   "threadsRead": ["1a068fa895a0dc37", "1a0597bc40a4aae8", "19f3e7e46b049573", "1a04a42712ce4365"],
+   "threadsDropped": ["1a068fa895a0dc37", "1a0597bc40a4aae8", "19f3e7e46b049573", "1a04a42712ce4365"],
+   "trelloItemsAdded": 0,
+   "notes": "All four threads with new activity are actually about a different insured (claim 202514152, a windstorm appraisal with a different homeowner) that happened to loop in the same appraiser's inbox, plus one unrelated general business invoice email. None reference this file's insured or address. Dropped all four; no events added."
+  },
+  {
+   "cardId": "6a3460db31254b6db5ec98b1",
+   "newEvents": [],
+   "update": "No new substantive developments beyond what's already on file; the file remains with the carrier pending next steps.",
+   "needed": null,
+   "threadsRead": ["19fd9116a971f5e1", "19fab018114eeebf"],
+   "threadsDropped": ["19fab018114eeebf"],
+   "trelloItemsAdded": 0,
+   "notes": "Thread 19fab018114eeebf is actually about a different insured's claim (a separate homeowner and claim number) that only mentioned this address in passing while coordinating a same-day inspection at a nearby property; dropped it. Thread 19fd9116a971f5e1 does belong to this file, but its only content past the prior cutoff was an internal back-and-forth confirming the insured's identity with no new substantive fact to report."
+  },
+  {
+   "cardId": "6a74a3151b32ea51d238b30e",
+   "newEvents": [],
+   "update": "No new developments specific to this file were found this week.",
+   "needed": null,
+   "threadsRead": ["19ff5f896686158b", "19fd8d83ce94f3c5", "19f167d206f9594d"],
+   "threadsDropped": ["19ff5f896686158b", "19fd8d83ce94f3c5", "19f167d206f9594d"],
+   "trelloItemsAdded": 0,
+   "notes": "All three threads with new activity turned out to concern different insureds entirely (one a Liberty Mutual claim for a different policyholder, one an umpire assignment on an unrelated file, one a separate umpire panel discussion on a different claim). None reference this insured's claim number or address. Dropped all three; no events added."
+  },
+  {
+   "cardId": "6a5e938d4bbe12aea94219c6",
+   "newEvents": [
+    {"date": "2026-08-14", "event": "On the hurricane claim, the carrier's appraiser sent his initial estimate, and our office asked that the damaged fence and staining be included."},
+    {"date": "2026-08-24", "event": "The carrier's appraiser sent a revised estimate and then the award for the hurricane claim, which our office accepted."},
+    {"date": "2026-08-29", "event": "The signed award and final documents for the hurricane claim were sent out to begin invoicing."},
+    {"date": "2026-09-01", "event": "A final copy of the signed hurricane-claim award was recirculated to complete that file."},
+    {"date": "2026-09-01", "event": "On the separate windstorm claim at the same property, the carrier's appraiser followed up asking for our position, which is still pending."}
+   ],
+   "update": "The hurricane claim closed out with a signed award in late August and is now moving through invoicing. The separate windstorm claim at the same property is still awaiting our position estimate, which the carrier's appraiser is now chasing.",
+   "needed": null,
+   "threadsRead": ["1a07cc0d9dabfada", "1a06ca656f52b196", "1a062585a44b6b7a", "1a05c943aeb6ad0c", "1a04b86e2b4dd0c9", "1a043d05fcb322ce", "1a0341bed56394b7", "1a002289dae9e23d", "19ffc6f2d7f0b5cd", "19ff7abccb766c8d", "19ff6e2d7aaaaf06", "19f8155247163d49"],
+   "threadsDropped": ["1a07cc0d9dabfada", "1a06ca656f52b196", "1a062585a44b6b7a", "1a043d05fcb322ce", "19ff7abccb766c8d", "19ff6e2d7aaaaf06"],
+   "trelloItemsAdded": 5,
+   "notes": "This card tracks two separate claims on the same property (a hurricane claim and a windstorm claim), confirmed against the existing checklist history. Six of the twelve threads examined belong to entirely different Ramirez households (different first names, different addresses/claim numbers) and were dropped."
+  },
+  {
+   "cardId": "6a4453393179de57567429ba",
+   "newEvents": [
+    {"date": "2026-08-10", "event": "After the property sold, our office coordinated with the carrier's appraiser to hold the inspection at the new owner's home on August 11, with the new owner agreeing to allow access without discussing any damage findings, per the original homeowner's request."}
+   ],
+   "update": "The inspection was rescheduled and completed at the new owner's home in mid-August after the property changed hands; we're now waiting on the carrier appraiser's position following that inspection.",
+   "needed": null,
+   "threadsRead": ["19fb4e8b390aa24f", "19f8a63c36421c3d"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 1,
+   "notes": ""
+  },
+  {
+   "cardId": "6a6a56cc78c8ec2c20251f75",
+   "newEvents": [
+    {"date": "2026-09-01", "event": "The carrier's appraiser followed up asking for our position following the August 14 joint inspection, which is still pending."}
+   ],
+   "update": "The joint inspection took place as scheduled in mid-August; the carrier's appraiser is now following up for our position, which hasn't gone out yet.",
+   "needed": null,
+   "threadsRead": ["19fa9cdf77f917db"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 1,
+   "notes": ""
+  }
+ ],
+ "checked": 6,
+ "withNewEvents": 3
+}

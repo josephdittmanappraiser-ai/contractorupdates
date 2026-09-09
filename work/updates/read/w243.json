@@ -1,0 +1,67 @@
+{
+ "batch": 43,
+ "results": [
+  {
+   "cardId": "6a721f9e3486038970346b1d",
+   "newEvents": [],
+   "update": "",
+   "needed": null,
+   "threadsRead": ["1a07d0c4fd2d64de","1a07c314131ccbbd","1a07c18500cc58b0","1a07c174bd1328b2","1a07bf8de6725943","1a06d499e6bdfb6c","1a06d15fca435c0c","1a06a3fbccbc42c9","1a06864d6350cdba","1a05eb592b55e09d","1a058d4d0a21ec06","1a057ea0614419f5"],
+   "threadsDropped": ["1a07d0c4fd2d64de","1a07c314131ccbbd","1a07c18500cc58b0","1a07c174bd1328b2","1a07bf8de6725943","1a06d499e6bdfb6c","1a06d15fca435c0c","1a06a3fbccbc42c9","1a06864d6350cdba","1a05eb592b55e09d","1a058d4d0a21ec06","1a057ea0614419f5"],
+   "trelloItemsAdded": 0,
+   "notes": "All 12 threads newer than searchAfter were false positives from a common-surname (Garcia) scan match: two internal staff run-reports covering many unrelated files, a bulk iink.com claim-status digest naming other property owners, three threads about a different claim (Thomas/Ann Bierschenk), two threads about a different claim (Kal Shah, contact Luis Garcia), a No-Stress unpaid-invoice list for other claims, and a Jose Garcia (roofer)/Erin Beasley thread about a different insured's SageSure claim. None mention Teresa Garcia or 915 Milwakee St. No genuine new history found for this file."
+  },
+  {
+   "cardId": "6a7cf9a7e796f5172dbf1630",
+   "newEvents": [],
+   "update": "",
+   "needed": null,
+   "threadsRead": ["1a07902b7d2e81ba"],
+   "threadsDropped": ["1a07902b7d2e81ba"],
+   "trelloItemsAdded": 0,
+   "notes": "The one thread newer than searchAfter is a broad No Stress Claims status-check email listing ~30 other pending claims; Shane Laxen is not among them and the claim number/address don't match. Not this file's history."
+  },
+  {
+   "cardId": "691dd63ff51cc69dad3ba852",
+   "newEvents": [],
+   "update": "",
+   "needed": null,
+   "threadsRead": ["19ff7545a8fe41ba"],
+   "threadsDropped": ["19ff7545a8fe41ba"],
+   "trelloItemsAdded": 0,
+   "notes": "The only thread on file is actually an appraisal-invocation thread for a different insured (Shane Laxen, claim 0830790135, 5411 Enchanted Mist Dr, Humble TX) mistakenly collected under this card. Nothing found for Prahlad Bagri."
+  },
+  {
+   "cardId": "69ab5b95d0d9e098dc090031",
+   "newEvents": [],
+   "update": "",
+   "needed": null,
+   "threadsRead": ["19ff7545a8fe41ba"],
+   "threadsDropped": ["19ff7545a8fe41ba"],
+   "trelloItemsAdded": 0,
+   "notes": "The only thread newer than searchAfter is the same Shane Laxen appraisal-invocation thread (claim 0830790135) misattributed here as well; it is not about Elaine Broccolo (claim 7009553427-1, 123 Paddington Dr). The other two listed threads are not newer than searchAfter. Nothing new found."
+  },
+  {
+   "cardId": "67200d91b93a0a2730b34fc8",
+   "newEvents": [],
+   "update": "",
+   "needed": null,
+   "threadsRead": ["1a07c339a92f5157","1a07c08df96e0b06","1a077e614353a22a","1a0714c944710340","1a06d56550ae73f6","1a05e5858f5faada","1a049f12d54405b2","1a04985e2f93e0fa","19ffd2a400fb0204"],
+   "threadsDropped": ["1a07c339a92f5157","1a07c08df96e0b06","1a077e614353a22a","1a0714c944710340","1a06d56550ae73f6","1a05e5858f5faada","1a049f12d54405b2","1a04985e2f93e0fa","19ffd2a400fb0204"],
+   "trelloItemsAdded": 0,
+   "notes": "All 9 threads were surname ('Curtis') collisions with other files: five threads about a different insured, Barbara Curtis (claim 0833470206, 2207 Pearl Bay Ct, Pearland), one about a Homesite/AFICS claim where 'Curtis' is a joint policyholder's first name (Jamie & Curtis Shakotko), one about a separate umpire assignment referencing a 'Curtis Redwine' claim, one about an unrelated umpire request ('Curtis Corkin' file) where Joseph is a neutral umpire, and one (Raval, Jigisha) that doesn't mention any Curtis at all. None are about Anthony Craig Curtis. No genuine history found for this file."
+  },
+  {
+   "cardId": "686ed56fdacdfd7e3616d00b",
+   "newEvents": [],
+   "update": "",
+   "needed": null,
+   "threadsRead": ["1a07c314131ccbbd","1a07c19372984733","1a0696d3a5d35995","1a069564bbd15b28","1a068908b1e77a47","1a0688ceaceddfc9","1a06527a34c168d1","1a064fe643249c50","1a05ff08feee42b8","1a05e3859c18340a","1a05c77129c3716f","1a05b81a5932b0d6","1a050d15ddafa480","1a050b679e65b026","1a050a40cec9eb52"],
+   "threadsDropped": ["1a07c314131ccbbd","1a07c19372984733","1a0696d3a5d35995","1a069564bbd15b28","1a068908b1e77a47","1a0688ceaceddfc9","1a06527a34c168d1","1a064fe643249c50","1a05ff08feee42b8","1a05e3859c18340a","1a05c77129c3716f","1a05b81a5932b0d6","1a050d15ddafa480","1a050b679e65b026","1a050a40cec9eb52"],
+   "trelloItemsAdded": 0,
+   "notes": "All 15 threads newer than searchAfter turned out to be about other, unrelated files (an internal staff roofer-follow-up report; a different Martinez insured on a State Farm claim; and invoices/scheduling threads for other homeowners including Muniyandi, Brian Sears, Velagapalli, Deepa Gopalan, Jes Martinez, Modugu, Robert Martinez, Bharath Pissay, a Farmers Insurance settlement notice for an unrelated claim, a LinkedIn digest email, Mahashank, Faraz Velani, and Nassar). None mention Odellia Kay Martinez. No genuine new history found for this file."
+  }
+ ],
+ "checked": 6,
+ "withNewEvents": 0
+}

@@ -1,0 +1,84 @@
+{
+ "batch": 35,
+ "results": [
+  {
+   "cardId": "6a064c63bb01a77f4b26f537",
+   "newEvents": [],
+   "update": "The appraisal on this file is essentially resolved on the estimate; it is now waiting on the insured to pay the outstanding umpire fee before the panel can close it out. No new developments to report this week.",
+   "needed": null,
+   "threadsRead": ["19e2828bd46257c1", "19f14d17c15c7f79"],
+   "threadsDropped": ["1a06e38e24645fef", "19fce5cb714a8cda", "19fc48339db6b4a8"],
+   "trelloItemsAdded": 0,
+   "notes": "Dropped 1a06e38e24645fef and 19fce5cb714a8cda — both belong to a different claim/insured (Irma Muralles Ortiz & Gustavo Contreras, 3447 Parker Trace Dr, Missouri City), matched only on the shared 'Ortiz' surname. Dropped 19fc48339db6b4a8 — unrelated 'Pastrana appraisal invoice' thread. All events found in the two relevant threads were already recorded on the Trello checklist through 2026-09-04, so no new events were added."
+  },
+  {
+   "cardId": "69bc2b4a431d01dc2e2cc522",
+   "newEvents": [
+    {"date": "2026-08-11", "event": "Joseph's office continued following up with the insured about the outstanding umpire payment; it still had not been received."},
+    {"date": "2026-08-25", "event": "The carrier reached out directly to the insured about the payment delay, and the panel discussed how to proceed if the homeowner continues to withhold the umpire payment."},
+    {"date": "2026-08-31", "event": "The public adjuster acknowledged the repeated follow-ups and said an update would follow once the payment was confirmed."},
+    {"date": "2026-09-03", "event": "Joseph sent another consolidated follow-up on the still-unpaid umpire invoice."}
+   ],
+   "update": "The appraisal remains stalled on payment of the outstanding umpire invoice; the carrier has started pressing the homeowner directly about the delay. No new movement on the roof estimate itself this week, and no action is needed from the contractor.",
+   "needed": null,
+   "threadsRead": ["1a06864d6350cdba", "19ecc725000289c1", "19d0701f2f4565f0"],
+   "threadsDropped": ["19ffb18d92f09355", "19d72d9820beb30c", "19fc48339db6b4a8"],
+   "trelloItemsAdded": 4,
+   "notes": "Dropped 19ffb18d92f09355 — different insured (John Maldonado, claim 0827498444). Dropped 19d72d9820beb30c — different insured entirely (Maria Ramos's appraisal panel thread). Dropped 19fc48339db6b4a8 — unrelated Pastrana invoice thread."
+  },
+  {
+   "cardId": "687a6344246ed35e0d947707",
+   "newEvents": [
+    {"date": "2026-09-08", "event": "The panel confirmed the September 15 inspection for 3:00 PM, with a stand-in appraiser attending in place of the insured's public adjuster."}
+   ],
+   "update": "The appraisal has moved to scheduling a full panel umpire inspection at the property on September 15; the previously stalled umpire-fee payment appears resolved enough for scheduling to proceed. No action is needed from the contractor at this time.",
+   "needed": null,
+   "threadsRead": ["19ea345996c5f59a"],
+   "threadsDropped": ["1a06e87e2f57bcc6", "1a06cca97d239079", "1a06864d6350cdba", "1a068560c228270e", "1a0635d2057d0788", "1a05ea7bed932c36", "1a04f5c475ee3bef", "1a048d96a2ccf894", "1a03a47b3cc0c662", "1a035c1163f44629", "1a02b088dad3f491", "1a025e580675d490", "1a024c8699ade713"],
+   "trelloItemsAdded": 1,
+   "notes": "Heavy surname collision on 'Williams' in this batch: dropped threads actually belonged to Tyler-Vann (State Farm claim 43-0D3L-386), Laterral Williams (claim 43-0G6L-712), Ute Williams, Dena Williams (claim 061826503), Carolina & Carlos Siller, and Eduardo Peralta Yanez — none of which are this file's Roslyn Williams at 6918 Spring Creek Ct. Also dropped a generic appraiser networking 'Group Email' and a LinkedIn notification. Only 19ea345996c5f59a (confirmed by attachment filenames naming Roslyn Williams) belongs to this file."
+  },
+  {
+   "cardId": "69a0bb9f9a927fdd146b8ce4",
+   "newEvents": [
+    {"date": "2026-08-24", "event": "The umpire reported he still could not locate the payment, and Joseph's office confirmed it was continuing to follow up with the insured with no update yet."},
+    {"date": "2026-09-07", "event": "Joseph's office followed up again on the still-unpaid umpire invoice; no confirmation of payment had been received."}
+   ],
+   "update": "This appraisal remains held up by the unpaid umpire invoice; despite repeated follow-ups, no payment has been confirmed as of early September. No action is needed from the contractor.",
+   "needed": null,
+   "threadsRead": ["1a06864d6350cdba", "19f8533de82c0cdd", "19d30e2b3d1cb273", "19dad6590b938c08"],
+   "threadsDropped": ["1a03e39a47ef53a7", "1a03e32d0f502ae0", "1a03adee697296bb", "19fed72590be497d", "19fe856b599d91a8", "19fd99c0581c5900", "19fcea3b20da6d41"],
+   "trelloItemsAdded": 2,
+   "notes": "Dropped seven threads belonging to a different claim that shares the surname Galvan — Peter Mora & Claudia Galvan, claim 202602190005, 1510 Bay Moon Ct, Corpus Christi — distinct from this file's Ana Galvan, claim 00104436534, 1919 Laura Anne Dr, Houston."
+  },
+  {
+   "cardId": "69fa344ff7806a9b45ac71b1",
+   "newEvents": [
+    {"date": "2026-08-21", "event": "The umpire's office reported the homeowner's payment still had not been received and said the previously scheduled September 1 inspection date could no longer be held; Joseph's office reiterated that an inspection date cannot be secured until the invoice is settled."},
+    {"date": "2026-08-31", "event": "The public adjuster acknowledged the continued follow-ups and said they would confirm once the umpire payment was received."},
+    {"date": "2026-09-07", "event": "Joseph's office followed up again on the still-unpaid umpire invoice; no confirmation of payment had been received."}
+   ],
+   "update": "The umpire inspection remains on hold because the insured has not yet paid the outstanding umpire fee; the previously scheduled September 1 date had to be released as a result. No action is needed from the contractor while payment is pending.",
+   "needed": null,
+   "threadsRead": ["1a06864d6350cdba", "19df905331674af6", "19fdca0e9b3d2599", "19f731580fa423d0"],
+   "threadsDropped": ["1a07f438f3166b49", "1a07eb6a903bc272", "1a07e98183de9180", "1a07e8f365d15c64", "1a07e816e6f0a58e", "1a07e7ee3a0f7cb6", "1a07e4a6bf5b9820", "1a07e4a5bec356fd", "1a07e489514f8dae", "1a07e3f559c69de3", "1a07c7fa828d9e15", "1a07e1c13a7b0678", "1a07df921e1fe6ef", "1a07dd99ed754a75", "1a07d46417774c67", "1a0737316307dedb", "1a06d499e6bdfb6c", "1a06d15fca435c0c", "1a068560c228270e", "1a05fa4b07cc66b3", "1a05ec600056de21", "1a05c54dc3b50ea7", "1a05c3ee0139ffe5", "1a0597bc40a4aae8", "1a04630be1023a9e", "1a039fc661a44e55", "1a035db5a4b4eadf", "1a034a2e15a67eec", "1a027a92ae1ca52d", "1a0278cfbc9484ef", "19fd7a39f43c8ba9", "19e6134b363f38a5"],
+   "trelloItemsAdded": 3,
+   "notes": "This card had an unusually large, mostly unrelated thread list — 32 of the 36 candidate threads turned out to belong to other insureds entirely (Bierschenk, Elimam/Fatehelrahman, Shaw, Sandra Gonzales, Johanna Strauss Aguirre, Elizabeth Dunagan, Tay Nguyen, George Teer, Brian Laughlin, and several routine internal status-check or notification threads to Joseph's regular contractor/PA partners), none touching Shajimon Joseph & Bindu Thomas at 2323 Alassio Isle Ct. Only 4 threads were genuinely this file's history, confirmed via claim number 2024-06720 and the property address."
+  },
+  {
+   "cardId": "6924c33fa095eda883346483",
+   "newEvents": [
+    {"date": "2026-08-17", "event": "The umpire confirmed he had received the carrier's portion of payment and would notify the panel once the insured's payment was received."},
+    {"date": "2026-08-25", "event": "Joseph's office confirmed it was still following up with the insured about the umpire payment, with no update received."}
+   ],
+   "update": "The umpire has received the carrier's share of payment and is waiting on the insured's portion before scheduling the inspection; Joseph's office continues to follow up on that outstanding payment. No action is needed from the contractor.",
+   "needed": null,
+   "threadsRead": ["19d72d9820beb30c"],
+   "threadsDropped": ["1a06864d6350cdba", "1a062aa55544383c", "1a05e2a83a1f11f1", "1a048ebfc4433f07", "1a04642b574d5eda", "1a03e73109f93a67", "1a035b54d73b9afd", "1a01ff9043797ff2", "1a01a8c4435a031d", "1a01137dbc6b5859", "1a0022cc31d07d85", "19d72dad9c5e9727"],
+   "trelloItemsAdded": 2,
+   "notes": "Dropped 11 threads that matched only on the shared surname 'Ramos' or an incidental 'Ramos' name in a signature: Suzanne/Susan Ramos (State Farm claim 43-0K2L-462), Alejandro Ramos (a different appraisal-invoice client), a USAA claim for insured Andrew Bradshaw whose adjuster happens to be named Jonathan Ramos, a personal email from a different Ramos referencing a different property (4602 Acers Ln), Joseph's own business-insurance policy correspondence (sender nramos@...), a generic multi-client biweekly status thread, and a second Ramos appraisal (claim 0808222987) that was already resolved back in June and is a separate file. Confirmed the one kept thread (19d72d9820beb30c, claim 0806919379) belongs to this file via attachment filenames explicitly naming Maria Ramos."
+  }
+ ],
+ "checked": 6,
+ "withNewEvents": 5
+}

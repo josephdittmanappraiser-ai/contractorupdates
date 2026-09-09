@@ -1,0 +1,91 @@
+{
+  "batch": 4,
+  "results": [
+    {
+      "cardId": "6a3ec75f5991d11d1ccc0b06",
+      "newEvents": [
+        {"date": "2026-09-02", "event": "Joseph sent the homeowner a written scope of the damages being submitted to appraisal for this property (full roof replacement, decking, chimney flashing, gutters, fascia painting)."}
+      ],
+      "update": "The scope of damages for this property has been finalized and sent to the homeowner as part of the appraisal demand; the file is now waiting on the carrier to name its appraiser.",
+      "needed": null,
+      "threadsRead": ["1a07d5113767eb62","1a07d4ec1924e411","1a07d4121ed6eb0e","1a062c13f06f95f5","1a062bb70cb5b803","1a062b7cc76e29a4","1a062a8035d6323c","1a0629f6d002a00e","1a05ff17fc4b373c"],
+      "threadsDropped": ["1a07d5113767eb62","1a07d4ec1924e411","1a07d4121ed6eb0e","1a062c13f06f95f5","1a062bb70cb5b803","1a062b7cc76e29a4","1a062a8035d6323c","1a0629f6d002a00e"],
+      "trelloItemsAdded": 1,
+      "notes": "This is one of Faris Farassati's 11 properties; the scan pulled 9 threads shared by all of his cards. Three were Joseph's internal staff call-list emails covering ~24 unrelated files, not correspondence about this property. The other five dropped threads were about different Farassati properties/claims (3946 Springfield claim 1348143, 4437 Paseo claim 1348133, 5833 Highland claim 1348140, 12704 Woodson claim 1348127, 4108 Lloyd claim 1348144) — not this claim (600-1348131, 4429 Paseo Blvd). Only the multi-property scope-of-damages summary email applied to this property."
+    },
+    {
+      "cardId": "6a3ee07de9dc6b22f67825e6",
+      "newEvents": [
+        {"date": "2026-09-02", "event": "Joseph sent the homeowner a written scope of the damages being submitted to appraisal for this property (full roof replacement, seventeen skylights with flashing and cladding, two chimneys, gutters with guards, deck cleaning and painting, window reglazing, and A/C condenser repair)."}
+      ],
+      "update": "The scope of damages for this property has been finalized and sent to the homeowner; the appraisal demand for this claim already went to the carrier, and the file is waiting on the carrier to name an appraiser.",
+      "needed": null,
+      "threadsRead": ["1a07d5113767eb62","1a07d4ec1924e411","1a07d4121ed6eb0e","1a062c13f06f95f5","1a062bb70cb5b803","1a062b7cc76e29a4","1a062a8035d6323c","1a0629f6d002a00e","1a05ff17fc4b373c"],
+      "threadsDropped": ["1a07d5113767eb62","1a07d4ec1924e411","1a07d4121ed6eb0e","1a062c13f06f95f5","1a062bb70cb5b803","1a062b7cc76e29a4","1a062a8035d6323c","1a0629f6d002a00e"],
+      "trelloItemsAdded": 1,
+      "notes": "Same shared 9-thread set as the other Farassati cards (see that card's notes). Only the multi-property scope-of-damages summary email named this property (claim 600-1348128, 125 Titus Ave); the rest were internal staff notes or other Farassati claims/addresses."
+    },
+    {
+      "cardId": "6a80955a15b3b2c1ce85cbb5",
+      "newEvents": [
+        {"date": "2026-08-25", "event": "Joseph sent the roofing contractor the estimate for review; the contractor asked for the shed damage to be added."},
+        {"date": "2026-08-25", "event": "Joseph sent the revised estimate and the contractor confirmed it looked complete."},
+        {"date": "2026-08-26", "event": "Joseph submitted the formal appraisal demand letter and the finalized estimate to the carrier (USAA)."},
+        {"date": "2026-09-02", "event": "Staff followed up by phone with the adjuster (no answer) and checked in with the homeowner on claim status."},
+        {"date": "2026-09-02", "event": "The homeowner reported the carrier is still gathering information and that an engineer is scheduled to inspect the roof on September 8."},
+        {"date": "2026-09-07", "event": "Joseph followed up again with the carrier, noting 12 days had passed with no appraiser named."}
+      ],
+      "update": "The finalized estimate was submitted to the carrier as part of the appraisal demand on August 26; the file is now waiting on USAA to name an appraiser, with a follow-up sent September 7 after 12 days of silence. An engineer inspection was scheduled for September 8.",
+      "needed": null,
+      "threadsRead": ["1a06a5d787a931a2","1a0641bd86d3764a","1a03ed0351301695","1a03b85541abe1bf","1a03a07654b303ca","1a0246f2c3ccb127","1a02242efaf0d03b"],
+      "threadsDropped": ["1a06a5d787a931a2","1a0641bd86d3764a","1a03ed0351301695","1a0246f2c3ccb127","1a02242efaf0d03b"],
+      "trelloItemsAdded": 6,
+      "notes": "Five of the seven scanned threads belonged to other insureds entirely: a 'MARIA SANCHEZ Contractor' thread, an 'Aldair Alvarado' appraisal demand (cc'd an Aldair Sanchez), and two threads about a claim for 'Axel Mejias Sanchez/Sandra Sanchez' (claim 0830951620, a different property/carrier). None reference this Joe Sanchez file (167 Millview Rd, claim 016847551). Only the demand-letter thread and the contractor-estimate thread were genuinely this file's history."
+    },
+    {
+      "cardId": "6a47f62e66acc647e7e3392d",
+      "newEvents": [
+        {"date": "2026-08-27", "event": "Joseph submitted the formal appraisal demand letter, estimate, and photos to the carrier (Allstate)."},
+        {"date": "2026-08-27", "event": "The contractor reached out relaying the homeowner's request for a status update."},
+        {"date": "2026-09-07", "event": "Joseph followed up with the carrier again, noting 11 days had passed since the demand with no appraiser named."}
+      ],
+      "update": "The formal appraisal demand, estimate, and photos went to Allstate on August 27; as of the September 7 follow-up, the carrier still had not named an appraiser after 11 days.",
+      "needed": null,
+      "threadsRead": ["1a068560c228270e","1a04902d06522d27","1a04529f1d7e4daa","1a04521fe14f1943","19ef5fd66f94e93c","19e22a8eadd9ee9b"],
+      "threadsDropped": ["1a068560c228270e","1a04902d06522d27","19ef5fd66f94e93c","19e22a8eadd9ee9b"],
+      "trelloItemsAdded": 3,
+      "notes": "Four dropped threads were unrelated to this file: a general 'Group Email' networking thread among attorneys/appraisers/umpires, a dispute thread for a different claim/insured (01-26-0004-8352, Farmers), an umpire thread for insured Mai Nguyen (claim 0812345940), and a very long thread about the 'Gant Residence' (claim 01-009-726050) whose 247 hits on 'Raymond' all referred to the opposing appraiser Raymond Vervlied, not Chad Raymond. Two threads mentioning claim 0822021739 (demand letter to Allstate, and the contractor's status-update relay) were genuinely this file.",
+      "note_boundary": "One additional thread (19f8fe13ac916d61) had newest date exactly equal to searchAfter (2026-07-23), not later, so it was not opened per instructions."
+    },
+    {
+      "cardId": "6a3ec0ad0eac5405409a56b8",
+      "newEvents": [
+        {"date": "2026-09-02", "event": "Joseph sent the homeowner a written scope of the damages being submitted to appraisal for this property (full roof replacement, chimney flashing, chase cover and flue cap, pipe jack flashing, gutter detach and reset, fascia painting)."},
+        {"date": "2026-09-02", "event": "Joseph submitted the formal appraisal demand letter with the estimate to the carrier (Country Financial)."},
+        {"date": "2026-09-02", "event": "The carrier responded declining to name an appraiser at this time, stating it needs a written outline of the specific dispute before proceeding."}
+      ],
+      "update": "A formal appraisal demand, estimate, and scope of damages were sent for this property on September 2, but the carrier responded the same day declining to name an appraiser until a written outline of the specific dispute is provided; that response is being worked before the file can move forward.",
+      "needed": null,
+      "threadsRead": ["1a07d5113767eb62","1a07d4ec1924e411","1a07d4121ed6eb0e","1a062c13f06f95f5","1a062bb70cb5b803","1a062b7cc76e29a4","1a062a8035d6323c","1a0629f6d002a00e","1a05ff17fc4b373c"],
+      "threadsDropped": ["1a07d5113767eb62","1a07d4ec1924e411","1a07d4121ed6eb0e","1a062c13f06f95f5","1a062bb70cb5b803","1a062b7cc76e29a4","1a062a8035d6323c"],
+      "trelloItemsAdded": 3,
+      "notes": "Same shared 9-thread set as the other Farassati cards. This claim is 600-1348144 (4108 Lloyd St); the demand/carrier-response thread for claim 600-1348144 and the multi-property scope email both applied here. The rest were internal staff notes or other Farassati claims/addresses (3946 Springfield, 4437 Paseo, 5833 Highland, 12704 Woodson)."
+    },
+    {
+      "cardId": "6a3edf5a2347cd07582d5eaf",
+      "newEvents": [
+        {"date": "2026-09-02", "event": "Joseph sent the homeowner a written scope of the damages being submitted to appraisal for this property (full roof replacement, chimney flashing and chase cover, gutters and downspouts, fascia cleaning and painting; exterior items still being finalized)."},
+        {"date": "2026-09-02", "event": "Joseph submitted the formal appraisal demand letter with the estimate and photos to the carrier (Country Financial)."},
+        {"date": "2026-09-03", "event": "The carrier responded declining to name an appraiser at this time, stating it needs a written outline of the specific dispute before proceeding."}
+      ],
+      "update": "A formal appraisal demand, estimate, and scope of damages were sent for this property on September 2, but the carrier responded the next day declining to name an appraiser until a written outline of the specific dispute is provided; that response is being worked before the file can move forward.",
+      "needed": null,
+      "threadsRead": ["1a07d5113767eb62","1a07d4ec1924e411","1a07d4121ed6eb0e","1a062c13f06f95f5","1a062bb70cb5b803","1a062b7cc76e29a4","1a062a8035d6323c","1a0629f6d002a00e","1a05ff17fc4b373c"],
+      "threadsDropped": ["1a07d5113767eb62","1a07d4ec1924e411","1a07d4121ed6eb0e","1a062c13f06f95f5","1a062bb70cb5b803","1a062b7cc76e29a4","1a0629f6d002a00e"],
+      "trelloItemsAdded": 3,
+      "notes": "Same shared 9-thread set as the other Farassati cards. This claim is 600-1348127 (12704 Woodson St); the demand/carrier-response thread for claim 600-1348127 and the multi-property scope email both applied here. The rest were internal staff notes or other Farassati claims/addresses (3946 Springfield, 4437 Paseo, 5833 Highland, 4108 Lloyd)."
+    }
+  ],
+  "checked": 6,
+  "withNewEvents": 6
+}

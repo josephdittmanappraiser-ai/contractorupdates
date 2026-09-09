@@ -1,0 +1,80 @@
+{
+ "batch": 29,
+ "results": [
+  {
+   "cardId": "6993826c12798733ab54469c",
+   "newEvents": [],
+   "update": "The carrier's appraiser David Preddy sent a position estimate and award and, after exchanges over the roof, garage, and interior scope items, continues negotiating those remaining differences with Joseph; no resolution yet.",
+   "needed": null,
+   "threadsRead": ["1a01c08fe12c9fa3"],
+   "threadsDropped": ["1a067b5f4311efb7","19e4be21a45957bc","1a049feeb83818a8","1a0491fa2e0e92a0","1a04642b574d5eda","1a03e39a47ef53a7","1a034a2e15a67eec","19db6fa6a2579668","1a020fada18d7b2f","1a0204bae8fe094c","1a01ff9043797ff2","19ddf1e0e97ba5f3","1a015752b7b2f873","1a01527af6edc629","19d96e776b1054a4","19ddeb85c753fb88"],
+   "trelloItemsAdded": 0,
+   "notes": "All 17 collected threads for this card turned out to be about other insureds sharing the same law-firm sender (Ortega, Granados, Mirna Garcia, Alejandro Ramos, Peter Mora, Tay Nguyen, Luis Burgos, Jesal Shah, Miguel Rodriguez, Walter Harper, Daniel Romero, Shane Baptiste, Lorena De Leon Gonzalez, Freddy Flores) except one (subject 'Morales Position Estimate and Award'), which is this file. The events in that thread (award/position sent 8/19, Joseph's response 9/5, carrier appraiser's reply and continued position through 9/7) were already recorded on the card's checklist by a prior pass, so no new checklist items were added."
+  },
+  {
+   "cardId": "697cee458453b97cb67ec6b9",
+   "newEvents": [
+    {"date": "2026-09-01", "event": "The carrier's appraiser sent his estimate for review."},
+    {"date": "2026-09-02", "event": "Joseph reviewed the carrier's appraiser's estimate and requested additional roof and elevation line items be added, supported by photos."}
+   ],
+   "update": "The carrier's appraiser sent his estimate, and Joseph has asked for several additional roofing and elevation items to be added before the positions can be reconciled.",
+   "needed": null,
+   "threadsRead": ["1a06884c957e9cdc","1a05f6357223cc85","19fd500ede951e59","19f9d4a8ae452be1","19f80181a7db531d","19f7d91973ec44a5","19c25a6ab8f53a04"],
+   "threadsDropped": ["1a06884c957e9cdc","1a05f6357223cc85","19fd500ede951e59","19f9d4a8ae452be1","19f80181a7db531d"],
+   "trelloItemsAdded": 2,
+   "notes": "Threads about 'Maria Benitez' (different insured, same surname), an unrelated Allstate claim (Evan Bachman/0832331978), and a Bo Liang claim were dropped as belonging to other files. The genuine Evelia Benitez thread (claim #0794919563, matching address) carried the new events above; a July 20 status-update thread to the PA was already on the card's checklist."
+  },
+  {
+   "cardId": "69fb7f2aab323c83f5e75bda",
+   "newEvents": [
+    {"date": "2026-09-01", "event": "The carrier's appraiser said he would need to remove some interior items after finding related damage documented in prior claims, and asked to discuss by phone."},
+    {"date": "2026-09-05", "event": "The carrier's appraiser sent an updated estimate and signed award, keeping interior items with a note on prior claims history and leaving exterior items for the carrier to decide."}
+   ],
+   "update": "The carrier's appraiser sent an updated estimate and signed award reflecting the interior/exterior scope discussion; the file awaits Joseph's review of this revised position.",
+   "needed": null,
+   "threadsRead": ["19fc93c82da283e9"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 2,
+   "notes": ""
+  },
+  {
+   "cardId": "6a638f478e63b5b6e89037fc",
+   "newEvents": [
+    {"date": "2026-08-10", "event": "The signed agreement (DOA/SOU) was exchanged with the carrier's appraiser, naming Steve Jenkins as umpire."},
+    {"date": "2026-08-19", "event": "The carrier's appraiser completed his post-inspection report and said a full position estimate would follow within about two weeks."},
+    {"date": "2026-09-02", "event": "The carrier's appraiser sent his draft position estimate, including overhead and profit, and asked for a letterhead statement confirming the contractor uses subcontractors to complete work."},
+    {"date": "2026-09-03", "event": "Joseph reviewed the estimate and requested several additional roof, barn, and shed items be added before the positions can be finalized."}
+   ],
+   "update": "The carrier's appraiser sent his draft position estimate including overhead and profit; Joseph has requested several additional roof, barn, and shed items before positions can be finalized.",
+   "needed": "A brief letterhead statement confirming the contractor uses subcontractors to complete work, to support the overhead-and-profit claim to the carrier.",
+   "threadsRead": ["19fda5e1f70a2318","1a07d4ab4b66b464","1a05af525d317894","1a068560c228270e","19e85639794d5191","1a06331a1ddd6946","1a05f390fa9b378f","1a05f379c49e21f3","1a05e938d3ff804f","1a0495f74d250852","1a03fe73a9fe72d3","1a0449d14b9f462c","1a043c9edfa147ab","1a05ea696281e43c"],
+   "threadsDropped": ["1a07d4ab4b66b464","1a05af525d317894","1a068560c228270e","19e85639794d5191","1a06331a1ddd6946","1a05f390fa9b378f","1a05f379c49e21f3","1a05e938d3ff804f","1a0495f74d250852","1a03fe73a9fe72d3","1a0449d14b9f462c","1a043c9edfa147ab","1a05ea696281e43c"],
+   "trelloItemsAdded": 4,
+   "notes": "Card had 17 collected threads; only the thread with subject 'Allstate Appraisal # 0826289761 - DAVID JOHNSON' (19fda5e1f70a2318) belongs to this file. The rest were unrelated claims (Connelly, an internal biweekly-status memo, Gregory Miller, Ritika Pawar & Akshay Desai, Adkins/Easy Button, Juan Ochoa, Ketan Patel, Carlos Treminio, Rong Dai, Robert Martinez) and were dropped."
+  },
+  {
+   "cardId": "6a0bb8aeac5b5fb4d83d7bd3",
+   "newEvents": [
+    {"date": "2026-08-25", "event": "Supporting photo documentation was sent to the carrier's appraiser."}
+   ],
+   "update": "Joseph sent supporting photo documentation to the carrier's appraiser after reviewing his position; the file awaits the appraiser's response before an award can be finalized.",
+   "needed": null,
+   "threadsRead": ["1a0630ee6f3ccb63","1a034c63e79f1e49","1a016a5490774f33","19ff20fd110475d1","19fd55c09479600a","19f8ffee71994510"],
+   "threadsDropped": ["1a0630ee6f3ccb63","1a016a5490774f33","19ff20fd110475d1","19fd55c09479600a","19f8ffee71994510"],
+   "trelloItemsAdded": 1,
+   "notes": "Threads about a Lashay Larue claim, a Venkata Nomula PA intake, a Johnathan Coleman matter, and a Davis Dong invoice were dropped as belonging to other files. One thread (an internal multi-client status check) named Steven Hawkins directly and confirmed the photo report had been sent to the other appraiser, which is the new event recorded above."
+  },
+  {
+   "cardId": "69c32dc96db949f2f15db542",
+   "newEvents": [],
+   "update": "The file remains where it stood after the mid-July interior inspection with the carrier's appraiser Amy Aronson; no new correspondence for this specific file turned up in this pass.",
+   "needed": null,
+   "threadsRead": ["1a079ea21963bce7","1a0276e8be9ecf32","1a062a352e64f803","1a03a1283b4f0672","1a0167a15f16fc06","1a01678f99c8d792","1a0161cf01663f16","19fda2ab664a4ab4","19fd7c2b3487c9f0","19fd4c2c05a62fed","19fc48339db6b4a8"],
+   "threadsDropped": ["1a079ea21963bce7","1a0276e8be9ecf32","1a062a352e64f803","1a03a1283b4f0672","1a0167a15f16fc06","1a01678f99c8d792","1a0161cf01663f16","19fda2ab664a4ab4","19fd7c2b3487c9f0","19fd4c2c05a62fed","19fc48339db6b4a8"],
+   "trelloItemsAdded": 0,
+   "notes": "All 11 collected threads belong to other people surnamed Garza or unrelated claims (Agustin Contreras Ledesma, Jorge Valenzuela, a Luis Olivo/Benjamin Dittman recusal matter, Dessarae Garza, a real-estate closing, Juan Garza, Beshay, a Garza award signed with umpire Conrad Feller, and Pastrana). None mention 'Samuel' Garza, and the established carrier appraiser/umpire on this file (Amy Aronson / Miles Kamp) do not appear in any of them, so nothing was added."
+  }
+ ],
+ "checked": 6,
+ "withNewEvents": 4
+}

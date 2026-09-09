@@ -1,0 +1,87 @@
+{
+ "batch": 26,
+ "results": [
+  {
+   "cardId": "6a7114fd29acb035824ddd97",
+   "newEvents": [
+    {"date": "2026-08-26", "event": "The carrier's appraiser sent a position report disputing the interior damage as unrelated to the storm, then circulated a proposed award for review."},
+    {"date": "2026-09-07", "event": "Joseph arrived for the scheduled inspection but no one answered the door, so the exterior inspection proceeded while interior access is awaited."}
+   ],
+   "update": "Joseph inspected the exterior on September 7 after no one answered the door; interior access is still needed to finish the walk-through. The carrier's appraiser has already sent over a position and a proposed award for review, so the next step is completing access and weighing that position.",
+   "needed": null,
+   "threadsRead": ["1a07c52a024c7c08", "1a03b7635cb5e4d8", "19fd2898ee97f5b0", "19fcdecf9097a24b"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 2,
+   "notes": ""
+  },
+  {
+   "cardId": "6a62553c659c2026d9605141",
+   "newEvents": [
+    {"date": "2026-08-20", "event": "The insured's public adjuster submitted the signed appraisal request letter to the carrier, satisfying the carrier's requirement to proceed."},
+    {"date": "2026-08-28", "event": "The carrier's appraiser sent his estimate and a proposed award for review; Joseph's office asked whether an inspection was still needed."},
+    {"date": "2026-09-01", "event": "Joseph's office followed up with the carrier to confirm the appraiser assignment so the inspection could be scheduled."},
+    {"date": "2026-09-02", "event": "With no confirmation on whether the carrier's estimate was final, Joseph's office moved to schedule a solo inspection."}
+   ],
+   "update": "The carrier's appraiser has sent an estimate and a proposed award but has not confirmed whether it's final, so Joseph's office is scheduling a solo inspection to keep the file moving. Next update should follow once that inspection date is locked in.",
+   "needed": null,
+   "threadsRead": ["1a0630ee6f3ccb63", "1a0495b89f4af771", "1a01f64b35c37e8c", "19f8ffee71994510"],
+   "threadsDropped": ["19f048c66bfc62d0"],
+   "trelloItemsAdded": 4,
+   "notes": "Dropped thread 19f048c66bfc62d0 — it concerns a different insured (Praveen Krishna, Austin TX), matched only because the same contractor contact (tdsproperty@gmail.com) was involved."
+  },
+  {
+   "cardId": "6a5e30fdbf65d61eb0666ddf",
+   "newEvents": [
+    {"date": "2026-08-17", "event": "Office followed up with the contractor to confirm whether Farmers had completed the reinspection."},
+    {"date": "2026-08-19", "event": "Homeowner confirmed Farmers completed its reinspection and reported the roof wasn't found to be a total loss and the damage didn't meet the deductible."},
+    {"date": "2026-08-20", "event": "Office resent the signed appraisal demand letter to Farmers, asking them to name their appraiser since the insured still wanted to proceed with the appraisal."},
+    {"date": "2026-08-31", "event": "Office followed up with Farmers for a status update after resending the demand letter."}
+   ],
+   "update": "Farmers finally named an appraiser, who inspected on September 4 and agreed to a full roof replacement while excluding several other items and declining overhead and profit. Next step is for Joseph to review that position and schedule his own inspection.",
+   "needed": null,
+   "threadsRead": ["1a062692407f77f8", "1a05eafd84e6f6bf", "1a01d877535583bb", "19fb4adbd0747ae6", "19f7fefe0a3bbc6d"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 4,
+   "notes": ""
+  },
+  {
+   "cardId": "6a0cd208e5b80472f4164530",
+   "newEvents": [
+    {"date": "2026-08-28", "event": "Office confirmed the August 27 joint inspection was completed as scheduled."}
+   ],
+   "update": "The joint inspection took place August 27 as planned, and on September 4 the carrier's appraiser sent over his estimate. Next step is for Joseph to review that estimate.",
+   "needed": null,
+   "threadsRead": ["19f66529986bd108", "19e8ab4a41ac6ddc", "1a07bf8de6725943", "1a07902b7d2e81ba", "1a0722ed8adc83a8", "1a06d9d4b4b51504", "1a06cf93f9ed4af4", "1a06ced34df66e55", "1a06b79a132ac9a4", "1a0688b023942e57", "1a0641bd86d3764a", "1a06364abf2e86d8", "1a05fb5c50598724", "1a05fa10d094e947", "1a057ea0614419f5", "1a03f4e7923a6572"],
+   "threadsDropped": ["1a07bf8de6725943", "1a07902b7d2e81ba", "1a0722ed8adc83a8", "1a06d9d4b4b51504", "1a06cf93f9ed4af4", "1a06ced34df66e55", "1a06b79a132ac9a4", "1a0688b023942e57", "1a0641bd86d3764a", "1a06364abf2e86d8", "1a05fb5c50598724", "1a05fa10d094e947", "1a057ea0614419f5", "1a03f4e7923a6572"],
+   "trelloItemsAdded": 1,
+   "notes": "Dropped 14 threads that matched only by surname/city coincidence, not this file: several are bulk iink check-status digests naming other claimants entirely; one job is in the city of Alvarado, TX (property owner Griselda Vicente, unrelated); several concern a different person, Baldomero Alvarado, on a separate Allstate claim at 2916 Highgate Ln, Bedford; one concerns a 'Mike Russell' / Nationwide claim; and one is an unrelated State Farm PA-fee matter with a different homeowner. None referenced Mario Alvarado, claim CMDH42100869, or 13218 Skyview Landing Dr."
+  },
+  {
+   "cardId": "6a72588e59bca8768d9a981c",
+   "newEvents": [
+    {"date": "2026-08-17", "event": "Joseph sent his estimate for the claim to the contractor for review; the contractor confirmed it looked good."},
+    {"date": "2026-08-18", "event": "The signed appraisal demand letter, along with Joseph's estimate, was submitted to Allstate to formally initiate the appraisal."}
+   ],
+   "update": "The appraisal is now past inspection: the joint walk-through happened September 1, both sides have exchanged estimates, and the carrier's appraiser came back declining a full roof replacement. Next step is for Joseph to respond to that position.",
+   "needed": null,
+   "threadsRead": ["1a03b80919ff6fb8", "1a026c8d8936cc61", "1a01551b06e9e118", "19fce86c5ed0e05c", "1a01555dddad929f"],
+   "threadsDropped": ["1a03b80919ff6fb8"],
+   "trelloItemsAdded": 2,
+   "notes": "Dropped thread 1a03b80919ff6fb8 — its subject and claim number (00300107088, Assurant) belong to a different insured (Gustavo Ureta Frias) referred by the same contractor; a stray reply asking about Atef Abdalla appeared in that thread, but since it does not carry Abdalla's claim number the corresponding inspection-date content was excluded here to avoid cross-contaminating the two files (the same information is independently confirmed in Abdalla's own dedicated thread)."
+  },
+  {
+   "cardId": "6a1de8697d9044268022f190",
+   "newEvents": [
+    {"date": "2026-08-10", "event": "Allstate gave a status update noting its appraiser was still preparing his estimate and had not yet received Joseph's estimate to compare."}
+   ],
+   "update": "Both sides have now exchanged appraisal positions: the carrier's appraiser sent his position and proposed award September 2, and Joseph sent his estimate back September 5. Next step is resolving any disagreement or moving to the umpire.",
+   "needed": null,
+   "threadsRead": ["1a0628c3bc6e43ff", "19fec013ae5d8f31", "19f93f2f7768b226", "19f89efb360f578b", "19f1ddc4535b125f"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 1,
+   "notes": ""
+  }
+ ],
+ "checked": 6,
+ "withNewEvents": 6
+}

@@ -1,0 +1,103 @@
+{
+  "batch": 48,
+  "results": [
+    {
+      "cardId": "6931ac83fb79f67e8541a6df",
+      "newEvents": [],
+      "update": "None of the threads returned for this file actually reference Shysha Lewis — every one belongs to a different insured or an unrelated internal matter. No verified update is available this pass; the claim number and address on this card should be checked before the next scan.",
+      "needed": null,
+      "threadsRead": [
+        "1a07294873b1173d","1a07e816e6f0a58e","1a07e489514f8dae","1a07e1c13a7b0678",
+        "1a0223811773f61c","1a07df921e1fe6ef","1a07dd99ed754a75","19a314b8d54860be",
+        "1a07d4ab4b66b464","1a07d2dbfd053a77","1a07d0e5af89150e","19fc48339db6b4a8",
+        "19fbf1afeb0905b9","19f804e652947812","19f6e9258f2512b8","19f61c3d67378b95",
+        "19f5b8e9b7d3d8d5","19f583ed65ed5ca4","1a05e534817319a6"
+      ],
+      "threadsDropped": [
+        "1a07294873b1173d","1a07e816e6f0a58e","1a07e489514f8dae","1a07e1c13a7b0678",
+        "1a0223811773f61c","1a07df921e1fe6ef","1a07dd99ed754a75","19a314b8d54860be",
+        "1a07d4ab4b66b464","1a07d2dbfd053a77","1a07d0e5af89150e","19fc48339db6b4a8",
+        "19fbf1afeb0905b9","19f804e652947812","19f6e9258f2512b8","19f61c3d67378b95",
+        "19f5b8e9b7d3d8d5","19f583ed65ed5ca4","1a05e534817319a6"
+      ],
+      "trelloItemsAdded": 0,
+      "notes": "The claim field on this card is just 'Policy' and the address is blank, and every one of the 19 threads the scan collected turned out to be about a different file: Taulton umpire matter, Aguirre v. Allstate, a Travelers rental-housing dispute, a Mauricio/Rolando appraisal, Mirna Garcia, George Teer, Brian Laughlin, Dion Edge, Granger v. State Farm, Tim Mclaine's new claim, Jose Cuevas (two different Cuevas claims), Swapnil Kadam, Jose Bravo Rodriguez, Christopher Alvarez, Pastrana's invoice, and Oscar Hernandez-Gamboa/Lilian Dubon. None mention Shysha Lewis. Dropped all 19; no events added."
+    },
+    {
+      "cardId": "69274d2eee9f3b9c0d02c4d7",
+      "newEvents": [],
+      "update": "This file remains on the list of claims still without a carrier-named appraiser past the invocation window. Joseph's follow-up asking whether the file had moved to litigation due to delays was already logged on the checklist, and no carrier response has come in since.",
+      "needed": null,
+      "threadsRead": ["19e39492827abc14"],
+      "threadsDropped": [],
+      "trelloItemsAdded": 0,
+      "notes": "The only thread newer than searchAfter (19e39492827abc14) is a multi-file status-check email naming Sonja & Jeffrey Natt among many insureds; its 5/18-5/22 follow-up asking about litigation referral is already recorded verbatim on the Chain of Events checklist, so no new event was added to avoid duplication."
+    },
+    {
+      "cardId": "691655cce03a9cf823e34b33",
+      "newEvents": [],
+      "update": "None of the threads returned for this file reference Juan Herrera — they belong to other Herrera claims (Kaylen Herrera, Antonio Herrera) and unrelated matters (Peter Mora, a Griebel/Allied Trust claim). No verified update is available this pass; the claim number and address on this card should be checked before the next scan.",
+      "needed": null,
+      "threadsRead": [
+        "1a05fe523d5a8c92","1a03e39a47ef53a7","19fdd1dee04e96b4","19fced77b754111e",
+        "19fbf9f38329bf4d","19f9b1221b2a56ff","19f496fe02f9b36a","19f482d56b518432",
+        "19f427a4c5123871","19f29e942348d589"
+      ],
+      "threadsDropped": [
+        "1a05fe523d5a8c92","1a03e39a47ef53a7","19fdd1dee04e96b4","19fced77b754111e",
+        "19fbf9f38329bf4d","19f9b1221b2a56ff","19f496fe02f9b36a","19f482d56b518432",
+        "19f427a4c5123871","19f29e942348d589"
+      ],
+      "trelloItemsAdded": 0,
+      "notes": "All 10 threads collected for this card are about other insureds who happen to share or resemble the surname Herrera, or are unrelated entirely: Kaylen Herrera (Allstate claim 0788878387, recoverable depreciation), Antonio Herrera (separate appraisal invoice/inspection), Peter Mora (Enservio contents report), and a Griebel/Allied Trust coverage-position matter. None reference Juan Herrera or 1738 Wooded Acres Dr, Humble. Dropped all 10; no events added."
+    },
+    {
+      "cardId": "69139dd59bb570198a0f4bdd",
+      "newEvents": [],
+      "update": "This file remains on the list of claims still without a carrier-named appraiser past the invocation window. Joseph's follow-up asking for a status update and whether the file needed to be escalated to litigation was already logged on the checklist, and no carrier response has come in since.",
+      "needed": null,
+      "threadsRead": ["19e39492827abc14"],
+      "threadsDropped": [],
+      "trelloItemsAdded": 0,
+      "notes": "The only thread newer than searchAfter (19e39492827abc14) is the same multi-file status-check email that also names Lilia & Raul Oquendo; its 5/18-5/22 follow-up is already recorded verbatim on the Chain of Events checklist, so no new event was added to avoid duplication."
+    },
+    {
+      "cardId": "6a2c85b1c83d98e45abfdc27",
+      "newEvents": [
+        {"date": "2026-09-06", "event": "Joseph followed up with the referring claims office on this and several other pending appraisal files; the carrier had still returned the appraisal demand because the named insured had not signed it."}
+      ],
+      "update": "The appraisal demand on this claim remains stuck because the carrier says it was never signed by the named insured. Joseph re-raised the file with the referring claims office on 9/6 along with several other pending files, but has not yet gotten a reply specific to this claim.",
+      "needed": null,
+      "threadsRead": [
+        "1a07cb8a04a4cdad","1a07902b7d2e81ba","1a0718690977351e","1a06eca4b0100fc8",
+        "1a062e5a72bc71e1","1a062935461dbc27","1a05d9842fd6ee9e","1a05a477b85a6baa",
+        "1a05a179f5d9e38c","1a05a0dc203796b6","1a04a70845596c00","1a04902d06522d27",
+        "1a043c9edfa147ab","1a0355a48ec7c019","1a034b7a1564a539","1a033d8162d2d27a",
+        "1a026be616ffd0cf","1a02502bdfbf6de3","1a0207d5dc680666","1a01d4b5e5e1af9a"
+      ],
+      "threadsDropped": [
+        "1a07cb8a04a4cdad","1a0718690977351e","1a06eca4b0100fc8","1a062e5a72bc71e1",
+        "1a062935461dbc27","1a05d9842fd6ee9e","1a05a477b85a6baa","1a05a179f5d9e38c",
+        "1a05a0dc203796b6","1a04a70845596c00","1a04902d06522d27","1a043c9edfa147ab",
+        "1a0355a48ec7c019","1a034b7a1564a539","1a033d8162d2d27a","1a026be616ffd0cf",
+        "1a02502bdfbf6de3","1a0207d5dc680666","1a01d4b5e5e1af9a"
+      ],
+      "trelloItemsAdded": 1,
+      "notes": "19 of the 20 collected threads are about other insureds where 'Anderson' is the surname of someone other than the insured (adjuster Eric Anderson/Solis claim, insured Justin Anderson claim 194713-GR, umpire Mark Anderson/Cavazos claim) or are entirely unrelated (Mervish, Martinez, WRI LLC, Palur, a Farmers arbitration dispute, real-estate closing notices). Only 1a07902b7d2e81ba is a genuine match: a multi-file status-check email that names Keith Anderson by claim number (HO-2026-192938389) and the exact card address, confirming the demand was returned unsigned. Dropped the other 19; added 1 new event for the 9/6 follow-up (the underlying unsigned-demand fact was already on the checklist from 6/12)."
+    },
+    {
+      "cardId": "6a21caedf67d42993bfa17d3",
+      "newEvents": [
+        {"date": "2026-09-06", "event": "Joseph followed up with the referring claims office on this and several other pending appraisal files, asking for a status update; no response specific to this claim has been received yet."}
+      ],
+      "update": "This file is still awaiting a carrier-named appraiser. Joseph checked in with the referring claims office on 9/6 for a status update on this and several other pending files, but no response specific to this claim has come back yet.",
+      "needed": null,
+      "threadsRead": ["1a07902b7d2e81ba"],
+      "threadsDropped": [],
+      "trelloItemsAdded": 1,
+      "notes": "The one new thread (1a07902b7d2e81ba, shared with the Keith Anderson card) is a multi-file status-check email that names Jose Viteri by claim number (53-91C2-73P) and the exact card address, so it is a genuine match. Added 1 new event for the 9/6 follow-up."
+    }
+  ],
+  "checked": 6,
+  "withNewEvents": 2
+}

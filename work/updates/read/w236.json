@@ -1,0 +1,90 @@
+{
+ "batch": 36,
+ "results": [
+  {
+   "cardId": "697a37c8b46282f2a56f3ae2",
+   "newEvents": [
+    {"date": "2026-08-20", "event": "Joseph's office began following up with the public adjuster to confirm payment of the umpire's invoice."},
+    {"date": "2026-09-07", "event": "After several more follow-ups, payment of the umpire's invoice still had not been confirmed."}
+   ],
+   "update": "The claim remains with the umpire; we are still waiting on confirmation that the umpire's invoice has been paid before the process can move forward.",
+   "needed": null,
+   "threadsRead": ["19c0538df4ec58ab"],
+   "threadsDropped": ["1a07d0c4fd2d64de","1a07c314131ccbbd","1a07c18500cc58b0","1a07c174bd1328b2","1a07bf8de6725943","1a06d499e6bdfb6c","1a06d15fca435c0c","1a06a3fbccbc42c9","1a06864d6350cdba","1a05eb592b55e09d","1a058d4d0a21ec06","1a057ea0614419f5"],
+   "trelloItemsAdded": 2,
+   "notes": "Dropped 12 threads: internal weekly staff-digest emails, an unrelated Bierschenk umpire dispute, an unrelated Kal Shah estimate exchange, an iink claim-status digest listing many other clients, and a billing email that named this claim only in passing among many others — none reflect this file's own history."
+  },
+  {
+   "cardId": "69f3839982d8bf96755c351e",
+   "newEvents": [
+    {"date": "2026-08-27", "event": "The umpire inspection date was confirmed with the homeowner for September 11, 2026."},
+    {"date": "2026-09-07", "event": "The homeowner's payment for the umpire invoice was received; the carrier's payment is still outstanding, with a new deadline set for September 20. The inspection remains scheduled for September 11."}
+   ],
+   "update": "The appraisal is with the umpire; the property inspection is confirmed for September 11, 2026. The homeowner's side has paid the umpire's fee, and we are waiting on the carrier to pay theirs.",
+   "needed": null,
+   "threadsRead": ["1a034b9b984cca90","1a011756b8f9b75a","1a00352fe6a6c7e1","19ff7fad19fa20a0","19ddf1e0e97ba5f3"],
+   "threadsDropped": ["1a0461c18129f4fb","1a040591b45721d4","1a027a503ca7ad10","1a024c0c843504a4","1a01d1c7ad3ba4ad","1a003da06ac6e4b5","1a0032357e740955","19fd4e3d72fb5cfa"],
+   "trelloItemsAdded": 2,
+   "notes": "Dropped 8 threads about other insureds (Thulin, Okeefe, Christopher Best, Charles Cline, Colburn, Vandygriff, Roccaforte) that only matched because a 'Coffman' or roofing-company contact was cc'd on them — none are this file."
+  },
+  {
+   "cardId": "69fa12f255de50cfa40d8472",
+   "newEvents": [
+    {"date": "2026-08-16", "event": "The two appraisers reached an impasse; an umpire was engaged and his invoice was forwarded to the roofing company for review and payment."},
+    {"date": "2026-09-06", "event": "The umpire confirmed he had received payment from both sides."},
+    {"date": "2026-09-07", "event": "The panel agreed to a joint inspection of the property, now scheduled for September 28, 2026."}
+   ],
+   "update": "The claim is now with the umpire. Both sides have paid his fee, and a joint inspection of the property is scheduled for September 28, 2026.",
+   "needed": null,
+   "threadsRead": ["19e8d042797a526c","19df8ca8ee7bcabf"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 3,
+   "notes": ""
+  },
+  {
+   "cardId": "699ca05de1e999f8500b5970",
+   "newEvents": [
+    {"date": "2026-08-16", "event": "The two appraisers reached an impasse, and a new umpire was proposed and accepted for the claim."},
+    {"date": "2026-08-20", "event": "Joseph's position was sent to the umpire, who issued invoices to both sides; the invoice was forwarded to the insured for payment."},
+    {"date": "2026-09-03", "event": "After several follow-ups, payment of the umpire's invoice still had not been confirmed."}
+   ],
+   "update": "The claim has moved to the umpire after the appraisers reached an impasse. The umpire has invoiced both sides, and we are still waiting on that payment before an inspection can be scheduled.",
+   "needed": null,
+   "threadsRead": ["19e8e5e2697c01a6","1a00ac6d690c3536"],
+   "threadsDropped": ["1a06864d6350cdba"],
+   "trelloItemsAdded": 3,
+   "notes": "1a06864d6350cdba is a billing email listing several unrelated clients' unpaid umpire invoices; it names this claim only in passing and adds nothing beyond what the dedicated thread already shows."
+  },
+  {
+   "cardId": "6a638b5e14cfaa4cd1cd47a2",
+   "newEvents": [
+    {"date": "2026-08-17", "event": "Both sides agreed on an umpire for the claim, and the umpire agreement was signed."},
+    {"date": "2026-08-18", "event": "Joseph's position and the carrier's appraiser's position were both sent to the umpire, who then issued invoices to both sides."},
+    {"date": "2026-09-02", "event": "The carrier's side paid the umpire's invoice, and a joint property inspection was agreed for September 28, 2026."},
+    {"date": "2026-09-07", "event": "Office followed up again on the still-unconfirmed insured-side payment of the umpire invoice."}
+   ],
+   "update": "The claim is with the umpire; a joint exterior-only inspection is scheduled for September 28, 2026, and the homeowner has confirmed access. The carrier's side has paid the umpire's fee, and we are still waiting on the insured's side to pay theirs.",
+   "needed": null,
+   "threadsRead": ["1a01fd50b8c34710","1a00d0b076f23943","19f946ecd5be4445","1a010fc02b856a49"],
+   "threadsDropped": ["19f95c557c03f71f"],
+   "trelloItemsAdded": 4,
+   "notes": "19f95c557c03f71f is a different file (Evan Bachman's Allstate claim) — it only matched because a message sender happens to share the Munoz surname; dropped."
+  },
+  {
+   "cardId": "69a85b2aa7f9682378dfff33",
+   "newEvents": [
+    {"date": "2026-08-16", "event": "The two appraisers reached an impasse, and a new umpire was proposed and accepted for the claim."},
+    {"date": "2026-08-20", "event": "Joseph's position was sent to the umpire, who issued invoices to both sides; the invoice was forwarded to the insured and to the carrier for payment."},
+    {"date": "2026-09-07", "event": "After several follow-ups, payment of the umpire's invoice still had not been confirmed."}
+   ],
+   "update": "The claim has moved to the umpire after the appraisers reached an impasse. The umpire has invoiced both sides, and we are still waiting on that payment before an inspection can be scheduled.",
+   "needed": null,
+   "threadsRead": ["1a00ada760c12e4d","19cb499ba828f253"],
+   "threadsDropped": ["1a06864d6350cdba"],
+   "trelloItemsAdded": 3,
+   "notes": "1a06864d6350cdba is a billing email listing several unrelated clients' unpaid umpire invoices; it names this claim only in passing and adds nothing beyond what the dedicated threads already show."
+  }
+ ],
+ "checked": 6,
+ "withNewEvents": 6
+}

@@ -1,0 +1,88 @@
+{
+ "batch": 30,
+ "results": [
+  {
+   "cardId": "68eec7b858fd1a7dc526c96c",
+   "newEvents": [
+    {"date": "2026-08-28", "event": "The carrier's appraiser sent their estimate for review."},
+    {"date": "2026-08-29", "event": "Joseph reviewed the carrier's estimate and requested additional line items be added."},
+    {"date": "2026-09-07", "event": "The carrier's supplemental report on the file was sent over for review."}
+   ],
+   "update": "The carrier sent their estimate and Joseph countered with requested additions in late August; the carrier's supplemental report came in on September 7 and is under review to see if positions can be reconciled without an umpire.",
+   "needed": null,
+   "threadsRead": ["1a049397f0062ea7", "19a314b8d54860be"],
+   "threadsDropped": ["1a07294873b1173d", "19f3dcd906ef949a", "1a07e1c13a7b0678", "1a0223811773f61c", "1a07df921e1fe6ef", "1a011b7f5013e6c1", "1a06d7192d2848a4", "1a07d0e5af89150e", "1a07c48e893b762f", "1a040577cc259978", "1a07c40d232cc258", "1a07c19372984733", "1a04403db611e178", "1a01a6212f0ff592", "1a0691ae85e7a939", "1a077c7ec3a1177b", "19fcd25201ad052b", "1a06225e142efd65"],
+   "trelloItemsAdded": 3,
+   "notes": "18 of 20 opened threads belonged to other insureds entirely (mixed in under this card by the scan) and were dropped as not matching this claim/insured/address."
+  },
+  {
+   "cardId": "6a47d422f42a4522a9a18185",
+   "newEvents": [
+    {"date": "2026-08-27", "event": "The carrier's appraiser sent an estimate and proposed award for review."},
+    {"date": "2026-08-28", "event": "Joseph requested additional inspection photos and asked the carrier's appraiser to revise several line items on the estimate."},
+    {"date": "2026-09-07", "event": "The carrier's appraiser sent a revised award, accepting some revisions and declining others as unrelated to the storm, and requested signatures to finalize."}
+   ],
+   "update": "The carrier's appraiser sent a full estimate and proposed award in late August; Joseph requested revisions, and on September 7 a revised award came back accepting some items and declining others (including the shed roof) as unrelated to the storm. It now awaits signatures to close out the file.",
+   "needed": null,
+   "threadsRead": ["19f28cc5a7fd52d5", "1a045dabbae9007d"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 3,
+   "notes": "Both opened threads were confirmed relevant by matching claim number and insured name."
+  },
+  {
+   "cardId": "6a601121931dc29048918aed",
+   "newEvents": [
+    {"date": "2026-08-20", "event": "Joseph's office asked the referral source for an EagleView-type measurement report, as requested by the carrier's appraiser."},
+    {"date": "2026-08-21", "event": "The referral source advised the file should be disregarded, indicating this claim may not be moving forward to appraisal."}
+   ],
+   "update": "The referral source asked on August 21 that this file be disregarded, suggesting the claim may not be proceeding to appraisal. Status is unclear pending further word from the referral source.",
+   "needed": null,
+   "threadsRead": ["19f86a9d597fbd21"],
+   "threadsDropped": ["1a07902b7d2e81ba", "1a077c7ec3a1177b", "1a06342a96781fb0", "1a048c7092dd3cc7", "1a034a2e15a67eec", "1a03074ee2ba4f13", "1a01ff9043797ff2", "19fd3bba79c4b343"],
+   "trelloItemsAdded": 2,
+   "notes": "8 of 9 opened threads belonged to other insureds (similar surnames or unrelated claims mixed in by the scan) and were dropped; only the thread matching this insured's name and address was kept. Flagging: the most recent message suggests the referral source may be withdrawing this claim."
+  },
+  {
+   "cardId": "6a2afcf0e1c3c5165b5004b7",
+   "newEvents": [
+    {"date": "2026-08-19", "event": "The carrier's appraiser's inspection was confirmed and completed."},
+    {"date": "2026-08-20", "event": "Joseph sent our position, estimate, and supporting photos to the carrier's appraiser."},
+    {"date": "2026-08-27", "event": "The carrier's appraiser sent back her position and estimate for review."},
+    {"date": "2026-08-28", "event": "Joseph reviewed the carrier's position and requested revisions to the estimate."}
+   ],
+   "update": "Joseph sent our position on August 20; the carrier's appraiser returned her own position on August 27, and Joseph requested revisions on August 28. The file is awaiting the appraiser's response before it can move toward resolution or umpire.",
+   "needed": null,
+   "threadsRead": ["19fddcb95e1b7af8"],
+   "threadsDropped": ["1a068560c228270e", "1a0456c0b1713b5b", "1a0115635c919e8c", "19febd061554285d", "19fd7dad26dba062"],
+   "trelloItemsAdded": 4,
+   "notes": "5 of 6 opened threads belonged to other unrelated files (a general umpire-referral email, and other insureds' claims) and were dropped."
+  },
+  {
+   "cardId": "6a2b42c46c02b62859eaae6f",
+   "newEvents": [],
+   "update": "",
+   "needed": null,
+   "threadsRead": [],
+   "threadsDropped": ["1a07d0c4fd2d64de", "1a07c314131ccbbd", "1a07c18500cc58b0", "1a07c174bd1328b2", "1a07bf8de6725943", "1a06d499e6bdfb6c", "1a06d15fca435c0c", "1a06a3fbccbc42c9", "1a06864d6350cdba", "1a05eb592b55e09d", "1a058d4d0a21ec06", "1a057ea0614419f5"],
+   "trelloItemsAdded": 0,
+   "notes": "This card has no claim number or address on file, so matching relied on the insured's name. All 12 opened threads turned out to be about other insureds and files (internal batch/status emails, other Garcia-surname claims like Roel Garcia and Kal Shah's contractor rep Luis Garcia, other unrelated claims) - none mentioned Fernando Garcia. No new events found; nothing written to Trello."
+  },
+  {
+   "cardId": "6a42ebd8d5ede9f2d8986e1e",
+   "newEvents": [
+    {"date": "2026-08-22", "event": "The carrier's appraiser said he disagreed the roof was storm-damaged and sent his own estimate and proposed award; both sides began discussing an umpire in case of impasse."},
+    {"date": "2026-08-27", "event": "Joseph asked the contractor for roof photos still missing from the file, and updated the contractor that the carrier's position is under review."},
+    {"date": "2026-08-29", "event": "Joseph sent our position and estimate to the carrier's appraiser."},
+    {"date": "2026-08-30", "event": "Both sides exchanged additional umpire candidates after failing to reach agreement."}
+   ],
+   "update": "The carrier's appraiser disagrees that the roof needs replacement and sent a competing estimate in late August; Joseph sent our own position, and both sides have exchanged umpire candidates after failing to agree. Still waiting on the contractor for missing roof photos to support our position.",
+   "needed": "Roof photos of the property (only interior and exterior photos have been provided to the file so far).",
+   "threadsRead": ["1a04444b99b69b0a", "1a0420c6707ab7dc", "19f6bef6867d84c1"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 4,
+   "notes": "All three opened threads were confirmed relevant to this insured."
+  }
+ ],
+ "checked": 6,
+ "withNewEvents": 5
+}

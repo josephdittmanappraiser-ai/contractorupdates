@@ -1,0 +1,87 @@
+{
+  "batch": 39,
+  "results": [
+    {
+      "cardId": "6925d2f0340e2e95c6f07af5",
+      "newEvents": [
+        {"date": "2026-08-27", "event": "Nitin Kharat paid the umpire's invoice in full."},
+        {"date": "2026-09-05", "event": "An umpire inspection was scheduled for September 29 at 2:30 PM, with interior access confirmed."}
+      ],
+      "update": "The homeowner has paid the umpire in full, and an umpire inspection is now scheduled for September 29 at 2:30 PM with interior access confirmed.",
+      "needed": null,
+      "threadsRead": ["1a0694f718d601f1", "1a03480b43ef2a2a", "19e29ddab645ae90", "19b049660bb124bc"],
+      "threadsDropped": [],
+      "trelloItemsAdded": 0,
+      "notes": "Both events found were already present on the Trello checklist through 2026-09-05, so no new items were added. 1a0694f718d601f1 was only an out-of-office autoreply from a panel member with no event."
+    },
+    {
+      "cardId": "69ea34cfd30fc18976cd84b0",
+      "newEvents": [
+        {"date": "2026-08-18", "event": "Joseph's office proposed joint inspection dates and the carrier's appraiser confirmed August 24 at 5:00 PM."},
+        {"date": "2026-08-24", "event": "The homeowner asked about the umpire fee and the contractor said the homeowner would not be paying it."},
+        {"date": "2026-08-25", "event": "The carrier's appraiser sent the weather report for the date of loss."},
+        {"date": "2026-08-28", "event": "The umpire indicated his estimate for this file would be sent shortly."}
+      ],
+      "update": "The file remains in umpire review: the umpire held the August 24 inspection and expects to send his estimate shortly, though the umpire fee has not yet been paid. The carrier's appraiser has also submitted the property's weather report for the loss date. No action is needed from you right now.",
+      "needed": null,
+      "threadsRead": ["19ef523b4a6ce1b7", "1a0491073f2a536c", "19db7f1674c450e1"],
+      "threadsDropped": [],
+      "trelloItemsAdded": 4,
+      "notes": ""
+    },
+    {
+      "cardId": "691206f033ca8da584cef61d",
+      "newEvents": [
+        {"date": "2026-09-08", "event": "The carrier's appraiser signed off on his portion of the combined appraisal award."}
+      ],
+      "update": "The appraisal panel has finalized and signed a combined award covering the claim's outstanding coverage, following the contents-only award issued in late August. This moves the file toward resolution. No action is needed from you at this time.",
+      "needed": null,
+      "threadsRead": ["19d34ee483b0f61d"],
+      "threadsDropped": ["19fc48339db6b4a8", "19f91048f5f94017"],
+      "trelloItemsAdded": 1,
+      "notes": "Dropped 19fc48339db6b4a8 (Pastrana appraisal invoice) and 19f91048f5f94017 (Jesus Garza Caballero appraisal) as both concern different insureds sharing only a name/surname match, not Robert Caballero."
+    },
+    {
+      "cardId": "69d7e40e7054a2d936880d86",
+      "newEvents": [
+        {"date": "2026-08-04", "event": "Joseph's office confirmed to the panel that the umpire's invoice had been paid."},
+        {"date": "2026-08-23", "event": "The umpire completed the joint site inspection, determined the roof sustained storm damage, and issued his estimate to the panel."},
+        {"date": "2026-08-26", "event": "The carrier's appraiser raised item-level objections to the umpire's estimate."},
+        {"date": "2026-09-07", "event": "The umpire issued a revised position with depreciation applied; the carrier's appraiser responded with continued objections to most of the same items."}
+      ],
+      "update": "The umpire has determined the roof sustained storm damage and issued a revised estimate with depreciation applied. The carrier's appraiser has raised item-level objections that are still being worked through by the panel. No action is needed from you right now.",
+      "needed": null,
+      "threadsRead": ["19d9ce0b434f2eb2", "1a0491073f2a536c", "19f8b107367525ce"],
+      "threadsDropped": [],
+      "trelloItemsAdded": 4,
+      "notes": ""
+    },
+    {
+      "cardId": "69cf01db396d7a8ade890065",
+      "newEvents": [
+        {"date": "2026-07-24", "event": "A joint appraisal inspection was confirmed for August 17 at 10:00 AM, with all panel members and the homeowner available."},
+        {"date": "2026-09-06", "event": "The joint inspection was completed and the umpire confirmed he still needs to finish his write-up."}
+      ],
+      "update": "The joint appraisal inspection took place on August 17, and the umpire has confirmed it's done — he still needs to finish writing up his position. We're waiting on that next.",
+      "needed": null,
+      "threadsRead": ["19ea7fe42220d4aa"],
+      "threadsDropped": ["19fc48339db6b4a8"],
+      "trelloItemsAdded": 0,
+      "notes": "Both events were already present on a second 'Chain of Events' checklist on this card (the card has two checklists with that name), so no new items were added. Dropped 19fc48339db6b4a8 (Pastrana appraisal invoice) as it concerns a different insured."
+    },
+    {
+      "cardId": "6923293e0bc424f92bea4da8",
+      "newEvents": [
+        {"date": "2026-09-08", "event": "Joseph sent his final position, with depreciation applied, and supporting photo documentation to the umpire and carrier's appraiser."}
+      ],
+      "update": "Joseph submitted his final position, with depreciation applied, along with supporting photo documentation to the umpire and the carrier's appraiser following the August 19 inspection. We're now waiting on their review.",
+      "needed": null,
+      "threadsRead": ["19dd67f0a8565173"],
+      "threadsDropped": ["1a05dd273e248120", "1a04403db611e178", "1a035168097746d3", "1a021b9fc9730669", "19fda5e1f70a2318", "19fd865e38ba365b", "19fb958470d85072", "19fc48339db6b4a8", "19fbdf19a82850c1", "19f8c51768cdd12c", "19f8c181689b995f", "19f683d3852475f5", "19f61abcfe6b1515"],
+      "trelloItemsAdded": 1,
+      "notes": "This card's thread list contained many false positives: 13 threads about other insureds entirely, mostly picked up because a proposed umpire named 'Tucker Patch' appears in unrelated umpire-selection emails for other claims; all dropped after confirming the insured name/claim/address didn't match. The genuine Tucker thread (19dd67f0a8565173) had a stale 'newest' of 2026-08-10 recorded by the scan but actually continued through 2026-09-08, which was opened and read to its end."
+    }
+  ],
+  "checked": 6,
+  "withNewEvents": 5
+}

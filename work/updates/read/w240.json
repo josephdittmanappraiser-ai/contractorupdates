@@ -1,0 +1,84 @@
+{
+ "batch": 40,
+ "results": [
+  {
+   "cardId": "69dfacd89ebdfcd1cbb05b51",
+   "newEvents": [
+    {"date": "2026-08-19", "event": "Joseph's office confirmed with the roofing contractor that the homeowner would be available for the scheduled umpire inspection on August 24."},
+    {"date": "2026-08-25", "event": "The carrier's wind and hail damage reports for the property were sent to the umpire panel ahead of the inspection."}
+   ],
+   "update": "The file is with the umpire; the homeowner's availability for the August 24 umpire inspection was confirmed and the carrier's wind and hail reports have been shared with the panel. Next step is the umpire inspection itself.",
+   "needed": null,
+   "threadsRead": ["19f6e9258f2512b8", "19e83c0bd8844f06"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 2,
+   "notes": ""
+  },
+  {
+   "cardId": "69836934dbf3147b324011b1",
+   "newEvents": [
+    {"date": "2026-08-27", "event": "Joseph sent his position and estimate for the Mendoza claim to the carrier's appraiser and adjuster following the August 26 inspection."}
+   ],
+   "update": "Following the August 26 inspection, Joseph's position and estimate were sent to the carrier's side. The file is now awaiting their response before the claim can move toward resolution.",
+   "needed": null,
+   "threadsRead": ["19f2425d102909d7"],
+   "threadsDropped": ["1a06d56550ae73f6", "1a0167a15f16fc06", "1a01678f99c8d792", "19feccf177278f93", "19fd3f513670f10e", "19fb37d7acb95394", "19fc48339db6b4a8"],
+   "trelloItemsAdded": 1,
+   "notes": "Dropped threads were about other insureds swept up by surname/keyword match: Barbara Curtis, Dessarae Garza (x2), Maribel Mendoza (a different Mendoza, different address/claim, x3), and Pastrana (unrelated, recurring across files). Only the 'Allstate - 0817155401 - Theodore & Rose Mendoza' thread is this file."
+  },
+  {
+   "cardId": "6966967cc1aebceeb868b104",
+   "newEvents": [
+    {"date": "2026-08-20", "event": "Joseph's office continued following up with the homeowner and the carrier's representative to get the outstanding umpire invoice for this claim paid."},
+    {"date": "2026-09-04", "event": "Joseph's office followed up again with the umpire company on the unpaid invoice and checked in on the overall status of the file."}
+   ],
+   "update": "The file remains open pending payment of the outstanding umpire invoice; Joseph's office continues to follow up with the homeowner, the carrier's representative, and the umpire company to get it resolved.",
+   "needed": null,
+   "threadsRead": ["1a06864d6350cdba", "19dfd7e0fdbf328a", "19bb8ade76100aa9"],
+   "threadsDropped": ["19fc48339db6b4a8"],
+   "trelloItemsAdded": 2,
+   "notes": "Dropped the recurring 'Pastrana' invoice thread — unrelated insured."
+  },
+  {
+   "cardId": "69d8062160c4ba35df9dc35f",
+   "newEvents": [
+    {"date": "2026-08-18", "event": "Joseph and the umpire worked through a dispute over whether the damaged roof vents and finials are copper, including a magnet and scratch test to confirm the material."},
+    {"date": "2026-08-22", "event": "The roofing contractor's cost breakdown for the copper dormer and vent replacement was sent to the umpire panel for review."},
+    {"date": "2026-09-03", "event": "The carrier's adjuster questioned the contractor's cost breakdown against standard estimating software and arranged for another contractor to review it before the panel finalizes the appraisal."}
+   ],
+   "update": "The appraisal is now centered on confirming and pricing the copper dormer and vent replacement; the carrier's adjuster has arranged for another contractor to review the cost breakdown before the panel finalizes an award.",
+   "needed": null,
+   "threadsRead": ["19e09532999fcac9", "1a04a1cad41cddfa"],
+   "threadsDropped": ["1a046bbd94a6bf6c", "19fc48339db6b4a8"],
+   "trelloItemsAdded": 2,
+   "notes": "Dropped 'Michael & Sandy Teer' thread — a different family at a neighboring property (1109 vs 1101 Wishing Tree Ln) only referenced as a comp; and the recurring 'Pastrana' thread — unrelated insured. A third new event (Aug 22, contractor's copper-bid breakdown sent to the umpire) was found but skipped as already logged in this card's Email log checklist."
+  },
+  {
+   "cardId": "69e937e66cb930dd462108fb",
+   "newEvents": [
+    {"date": "2026-08-19", "event": "The scheduled August 18 reinspection had to be rescheduled after the homeowner could not be reached; a new date of August 31 was confirmed."},
+    {"date": "2026-08-21", "event": "Joseph's office sent the umpire invoice for this claim and followed up with the referring attorney's office for payment."},
+    {"date": "2026-08-28", "event": "Payment of the umpire invoice was confirmed as cleared, resolving the outstanding balance."},
+    {"date": "2026-09-01", "event": "The rescheduled reinspection took place on August 31, and a floor plan sketch of the property was completed and shared afterward."}
+   ],
+   "update": "The rescheduled reinspection took place August 31 with a floor plan sketch completed afterward, and the outstanding umpire invoice has been confirmed paid. The file now moves toward finalizing the appraisal based on the completed inspection.",
+   "needed": null,
+   "threadsRead": ["1a01ff9043797ff2", "1a01cacc08e6130d", "1a011a2c3858c874", "19ddb21c5f5043fe", "19db6fa6a2579668", "1a05c423fe684496"],
+   "threadsDropped": ["19fc48339db6b4a8"],
+   "trelloItemsAdded": 4,
+   "notes": "Dropped the recurring 'Pastrana' thread — unrelated insured."
+  },
+  {
+   "cardId": "6a0f754740aedab34c124a38",
+   "newEvents": [],
+   "update": "",
+   "needed": null,
+   "threadsRead": [],
+   "threadsDropped": ["1a07d5113767eb62", "1a07d4ec1924e411", "1a07d4ab4b66b464", "1a07d4121ed6eb0e", "1a06d7101fd9ac7c", "1a06ca246b35db12", "1a0692617d588971", "1a068560c228270e", "1a067a322a42abd7", "1a05e01aca85f79b", "1a0598a3f70a2549", "1a0597e7ff1cfdb1"],
+   "trelloItemsAdded": 0,
+   "notes": "This card has no claim number or address on file. All 12 collected threads turned out to be about other insureds swept up by a 'Rodriguez' surname/keyword match: Abraham Rodriguez, Guadalupe Hernandez & Alejandro Rodriguez, Dorothy Rodriguez, Able/Abel Rodriguez, Leonel Rodriguez, and Veronica Natividad (whose address happens to be on a street named Joseph Rodriguez); plus two internal staff call-list emails and one general 'umpire network' group email that name no insured at all. None mention a Miguel Rodriguez. No genuine thread for this file was found — flagging for a manual look rather than guessing."
+  }
+ ],
+ "checked": 6,
+ "withNewEvents": 5
+}

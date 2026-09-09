@@ -1,0 +1,89 @@
+{
+ "batch": 31,
+ "results": [
+  {
+   "cardId": "6a3ae250387432be0437ec09",
+   "newEvents": [
+    {"date": "2026-08-19", "event": "The carrier's appraiser asked whether Joseph had personally inspected the property and when the tenant moved in, since she could not recall."},
+    {"date": "2026-09-01", "event": "Office confirmed to the contractor's public adjuster that the estimate and supporting photos had been sent to the carrier's appraiser and were still under review."},
+    {"date": "2026-09-03", "event": "Joseph told the carrier's appraiser the tenant believes she moved into the property around May or June 2026."}
+   ],
+   "update": "The two appraisers are working through last details of the repair scope (including when the tenant moved in) before the carrier's appraiser finalizes his position. No firm timeline yet for a resolution.",
+   "needed": null,
+   "threadsRead": ["19efb4697d45f31b","1a07d5113767eb62","1a07d4ec1924e411","1a07d4ab4b66b464","1a07d4121ed6eb0e","1a06d7101fd9ac7c","1a06ca246b35db12","1a0692617d588971","1a068560c228270e","1a067a322a42abd7","1a05e01aca85f79b","1a0598a3f70a2549","1a0597e7ff1cfdb1"],
+   "threadsDropped": ["1a07d5113767eb62","1a07d4ec1924e411","1a07d4ab4b66b464","1a07d4121ed6eb0e","1a06d7101fd9ac7c","1a06ca246b35db12","1a0692617d588971","1a068560c228270e","1a067a322a42abd7","1a0598a3f70a2549","1a0597e7ff1cfdb1"],
+   "trelloItemsAdded": 3,
+   "notes": "Dropped 4 internal office call-list emails (unrelated staff task lists; where a Rodriguez is mentioned it is a different claimant, Leonel Rodriguez). Dropped threads for Abraham Rodriguez (different claim/address), Guadalupe Hernandez & Alejandro Rodriguez (different claim, 2 threads), a generic 'Group Email' among appraisers with no connection to this file, Dorothy Rodriguez (different insured), Leonel/Leo Rodriguez claim 102749 (different claim), and Veronica Natividad (different insured entirely). Only the direct appraiser-to-appraiser thread and the public adjuster status-check thread (subject 'Able Rodriguez', a typo match) were kept."
+  },
+  {
+   "cardId": "69fe17a642840a8b41529b56",
+   "newEvents": [
+    {"date": "2026-08-27", "event": "Carrier's adjuster revised the estimate to add the requested roof components and gutter guard work, but declined overhead & profit and all interior repairs, saying he found no storm-created roof opening before it was replaced; he asked whether to move the file to umpire."},
+    {"date": "2026-08-29", "event": "Joseph pushed back on the adjuster, asking whether requiring a storm-created opening was really a coverage question rather than a damage question."},
+    {"date": "2026-09-02", "event": "Carrier's adjuster held his position, saying nothing in the photos ties the interior damage to this loss event."}
+   ],
+   "update": "The carrier's adjuster has revised his estimate to add the requested roof work but continues to refuse the interior repairs, saying the photos don't support a link to this loss. Joseph is contesting that reasoning and the file may move to an umpire if it isn't resolved.",
+   "needed": null,
+   "threadsRead": ["19e03f7d0d025f1f"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 3,
+   "notes": ""
+  },
+  {
+   "cardId": "69fb9db811f2ee9bf0c7d150",
+   "newEvents": [
+    {"date": "2026-08-29", "event": "Joseph followed up with the carrier's appraiser after receiving no response to the flagged discrepancy and proposed closing number."}
+   ],
+   "update": "Waiting on the carrier's appraiser to respond to Joseph's questions about the estimate; Joseph sent a follow-up in late August with no reply yet on file.",
+   "needed": null,
+   "threadsRead": ["19e6b717239a578f","1a068b0aad5d98ef","19fda5e1f70a2318","1a03be409ac1a0af","1a020f51095a3aaa","1a01c15308f07f14","19fd381aaa1709e0","19fa4dd63ea5ed3c"],
+   "threadsDropped": ["1a068b0aad5d98ef","1a03be409ac1a0af","1a020f51095a3aaa","1a01c15308f07f14","19fd381aaa1709e0","19fa4dd63ea5ed3c"],
+   "trelloItemsAdded": 1,
+   "notes": "Dropped a Liberty Mutual thread for a different claim number/address (Murphy is the city name there, not the insured), a LinkedIn digest email, two more Liberty Mutual threads for a different insured (Tammana/Balakrishnan claims), and a State Farm umpire-scheduling thread for a different claim number that appears to involve a different insured also surnamed Murphy. Only the direct West Fire Appraisal thread matching this claim number and address was kept."
+  },
+  {
+   "cardId": "69691f57bad91fbd1b4ebf3e",
+   "newEvents": [
+    {"date": "2026-08-29", "event": "Joseph followed up with the carrier's appraiser after receiving no response to the requested estimate additions."},
+    {"date": "2026-09-02", "event": "Office followed up again with the carrier's appraiser, noting the insured is asking for a status update."}
+   ],
+   "update": "Still waiting on the carrier's appraiser to respond to Joseph's requested scope additions from mid-July; two follow-ups have gone unanswered and the insured has asked for a status update.",
+   "needed": null,
+   "threadsRead": ["19cafbca82af304c"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 2,
+   "notes": ""
+  },
+  {
+   "cardId": "69e7bbeadd8694321b8f7c37",
+   "newEvents": [
+    {"date": "2026-07-11", "event": "Joseph followed up with the carrier's appraiser for a response, following up again in early August with still no reply."},
+    {"date": "2026-08-07", "event": "Carrier's appraiser sent his position and estimate, excluding depreciation, and asked to discuss differences directly once Joseph's position was ready."},
+    {"date": "2026-08-24", "event": "Carrier's appraiser followed up asking for Joseph's position or readiness for an award, noting it had been nearly three months since his inspection."},
+    {"date": "2026-08-28", "event": "Joseph requested and received supporting documentation files from the restoration company to finalize his position."},
+    {"date": "2026-08-29", "event": "Joseph sent our position and estimate to the carrier's appraiser."}
+   ],
+   "update": "The file moved to umpire in early September after the parties reached an impasse over interior repairs, mitigation charges, and contents pack-out. The umpire has accepted the assignment and is reviewing both positions; no award yet.",
+   "needed": null,
+   "threadsRead": ["1a068463b9ec6e94","1a06844433732cfa","1a0683ea54617ae0","19dc1a8322315f5f","19f14e2467d37091"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 5,
+   "notes": "All five threads confirmed to be about this same claim number/insured (some are separate Gmail thread IDs from forked reply chains on the same email conversation)."
+  },
+  {
+   "cardId": "6a0648fb623eafdb8eec19e3",
+   "newEvents": [
+    {"date": "2026-08-21", "event": "Office told the referring firm the file was gathering all available documents on the disputed items, as it may proceed to the umpire."},
+    {"date": "2026-09-05", "event": "The carrier's appraiser asked Joseph to hold off moving to the umpire, disputing that much of Joseph's estimate covers damage from claims before and after this loss rather than this one."}
+   ],
+   "update": "The file was headed to an umpire after the two estimates came in far apart, but the carrier's appraiser has now asked to pause, disputing that much of Joseph's position covers damage tied to other claims rather than this specific loss. That disagreement needs to be resolved before the file can move forward.",
+   "needed": null,
+   "threadsRead": ["1a01ff9043797ff2","19fc84ebe66afdf1","19e2c9d2197df29b"],
+   "threadsDropped": ["19fc84ebe66afdf1"],
+   "trelloItemsAdded": 2,
+   "notes": "Dropped a thread that was almost entirely about a different insured (Lawrence Russell, claim 2511225); it contained one passing mention of this insured's name/claim number but no new information dated after this file's searchAfter. The other kept thread (a biweekly status-update email) covered several unrelated clients too -- only the line specific to this insured was used."
+  }
+ ],
+ "checked": 6,
+ "withNewEvents": 6
+}

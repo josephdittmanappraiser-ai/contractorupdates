@@ -1,0 +1,81 @@
+{
+ "batch": 50,
+ "results": [
+  {
+   "cardId": "6a56dad3dbed9e56bd00dcf1",
+   "newEvents": [
+    {"date": "2026-09-06", "event": "The appraiser followed up with the referring claims office confirming this file is still awaiting a carrier-named appraiser."}
+   ],
+   "update": "Still awaiting the carrier to name their appraiser; on September 6 the appraiser followed up with the referring claims office confirming this file remains outstanding, with no response specific to it yet.",
+   "needed": null,
+   "threadsRead": ["1a07902b7d2e81ba", "1a07bf8de6725943", "1a0722ed8adc83a8", "1a06d9d4b4b51504", "1a06cf93f9ed4af4", "1a06ced34df66e55", "1a06b79a132ac9a4", "1a0688b023942e57", "1a0641bd86d3764a", "1a06364abf2e86d8", "1a05fb5c50598724", "1a05fa10d094e947", "1a057ea0614419f5", "1a03f4e7923a6572"],
+   "threadsDropped": ["1a07bf8de6725943", "1a0722ed8adc83a8", "1a06d9d4b4b51504", "1a06cf93f9ed4af4", "1a06ced34df66e55", "1a06b79a132ac9a4", "1a0688b023942e57", "1a0641bd86d3764a", "1a06364abf2e86d8", "1a05fb5c50598724", "1a05fa10d094e947", "1a057ea0614419f5", "1a03f4e7923a6572"],
+   "trelloItemsAdded": 1,
+   "notes": "Most threads collected for this file were false positives from the surname/city 'Alvarado' matching other files: Griselda Vicente's claim (property is in the city of Alvarado, TX), Baldomero Alvarado's separate Bedford claim, a contractor named Gavin Alvarado on unrelated files, and Aldair Alvarado's separate claim. Only the bulk status-check thread genuinely named this insured (Adrian Alvarado, 3715 Lakecrest Dr, Killeen, claim #0826101081) and was used."
+  },
+  {
+   "cardId": "6a0e475e5f10da6cc46ea0fe",
+   "newEvents": [
+    {"date": "2026-09-07", "event": "Joseph followed up with the referring roofer asking whether the homeowner still wants to move forward with the appraisal, since the file remains on hold."}
+   ],
+   "update": "This file has been on hold while we confirm the homeowner's decision to proceed; on September 7 we followed up again with the referring roofer and are awaiting their reply.",
+   "needed": "Confirm whether the homeowner wants to move forward with the appraisal, or has decided not to continue, and let us know.",
+   "threadsRead": ["1a07be70e3d17d1f"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 1,
+   "notes": ""
+  },
+  {
+   "cardId": "6a0e4670d32425e8d7dbd20e",
+   "newEvents": [
+    {"date": "2026-06-25", "event": "Joseph's team followed up six more times (June 25, 30, July 2, 6, 9, 16) with the referring contractor for the EagleView report and damage description; these still had not been received."},
+    {"date": "2026-09-07", "event": "Joseph followed up with the referring roofer asking whether the homeowner still wants to move forward with the appraisal, since the file remains on hold."}
+   ],
+   "update": "The referring contractor still owes the EagleView report and damage description needed to move this file forward; on September 7 we also asked them to confirm whether the homeowner still wants to proceed with the appraisal at all.",
+   "needed": "Provide the outstanding EagleView report/roof sketch and damage description, and confirm whether the homeowner still wants to proceed with the appraisal.",
+   "threadsRead": ["1a07be70e3d17d1f", "1a05a7485b9f51de", "19f90d6bba645db9", "19f0b4bc72846415", "19ef4f2a14fa8cf8", "19e50b0124f54505", "19dea469904c42de", "19c723a9ba7c72bb"],
+   "threadsDropped": ["1a05a7485b9f51de", "19f90d6bba645db9", "19f0b4bc72846415", "19e50b0124f54505", "19dea469904c42de", "19c723a9ba7c72bb"],
+   "trelloItemsAdded": 2,
+   "notes": "Dropped six threads that turned out to be about unrelated insureds/claims: Harold Booze (John Wynn negotiation), the Bierschenk State Farm claim, Gabriela Carias-Green's commercial ACG claim, April Apolinar's plumbing file, Carolyn Sims umpire dispute, and Carol Thomson's Connecticut claim. Kept the shared Dawn Hargrove/Jackson Wise status thread and the 'New Claim Number' thread (Billy's grandfather's property, claim 20222629) which matches this file's existing EagleView-follow-up history."
+  },
+  {
+   "cardId": "69d8012b3965d6a8fa1ca7d8",
+   "newEvents": [
+    {"date": "2026-09-07", "event": "Joseph followed up again with the referring roofer asking whether the Houshes have decided to move forward with the appraisal, since the file remains on hold."}
+   ],
+   "update": "This file remains on hold pending the homeowners' decision to proceed; on September 7 we followed up again with the referring roofer for an answer and are still awaiting a response.",
+   "needed": "Confirm whether Mr. and Mrs. Housh want to move forward with the appraisal, or have decided not to continue, and let us know.",
+   "threadsRead": ["19fa3b7e96dd6c2d"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 1,
+   "notes": ""
+  },
+  {
+   "cardId": "69c5a057014e312b94dc0a27",
+   "newEvents": [
+    {"date": "2026-05-29", "event": "Joseph's office followed up once more for the EagleView Report; still no response."},
+    {"date": "2026-07-20", "event": "Joseph followed up twice more (July 20 and September 7) asking the referring contractor whether Efraim Gershom has decided to move forward with the appraisal or not; still awaiting a response."}
+   ],
+   "update": "This file remains on hold: after months of following up for the EagleView report, we shifted in July to asking the referring contractor whether Efraim Gershom still wants to proceed with the appraisal at all; as of September 7 we are still waiting on an answer.",
+   "needed": "Confirm whether Efraim Gershom wants to move forward with the appraisal or has decided not to continue, and let us know.",
+   "threadsRead": ["19e3d1d704549a3c"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 2,
+   "notes": ""
+  },
+  {
+   "cardId": "69aef32550b4361891fd0c1e",
+   "newEvents": [
+    {"date": "2026-09-07", "event": "Joseph followed up again asking whether Swapnil Kadam wants to proceed, and the referring contractor reported that the property's HOA is the one who handles this matter, not the homeowner directly."}
+   ],
+   "update": "This file remains on hold pending a decision to proceed; on September 7 the referring contractor reported that the property's HOA -- not the individual homeowner -- handles this matter, so we're waiting on confirmation from whoever ultimately controls the decision.",
+   "needed": "Confirm with the HOA (or Swapnil Kadam) whether they want to move forward with the appraisal, since the file remains on hold.",
+   "threadsRead": ["19f804e652947812"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 1,
+   "notes": ""
+  }
+ ],
+ "checked": 6,
+ "withNewEvents": 6
+}

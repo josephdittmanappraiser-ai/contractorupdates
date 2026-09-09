@@ -1,0 +1,97 @@
+{
+ "batch": 11,
+ "results": [
+  {
+   "cardId": "6a3d8751c435ea0b0f825af1",
+   "newEvents": [
+    {"date": "2026-08-01", "event": "Joseph advised the homeowner on how to complete paperwork he had received related to the claim."},
+    {"date": "2026-08-19", "event": "The carrier's engineer declined to schedule an inspection until an umpire is agreed upon; Joseph said he needed to vet a proposed candidate."},
+    {"date": "2026-09-07", "event": "Joseph followed up asking the carrier's engineer to confirm agreement on one of the proposed umpires."}
+   ],
+   "update": "The file remains in umpire selection; Joseph has proposed umpire candidates to the opposing engineer and is waiting on their agreement before a solo inspection can be scheduled.",
+   "needed": null,
+   "threadsRead": ["19fa511c78184ed7", "19fae65a47140c18"],
+   "threadsDropped": ["19fd3799ef559af2"],
+   "trelloItemsAdded": 3,
+   "notes": "Dropped thread 19fd3799ef559af2 ('Jhizell from Online Jobs PH') - it is an unrelated job-applicant/recruiting email, not about this insured or claim."
+  },
+  {
+   "cardId": "6a5fa7668aee2e634b54488f",
+   "newEvents": [
+    {"date": "2026-08-19", "event": "Joseph's office notified the carrier's newly assigned appraiser of the file and asked for his umpire list and availability for a solo inspection."},
+    {"date": "2026-08-28", "event": "Joseph sent the carrier's appraiser a list of proposed umpire candidates for consideration."},
+    {"date": "2026-08-31", "event": "The homeowner asked Joseph for a status update on the file."},
+    {"date": "2026-09-01", "event": "Joseph's office told the homeowner they are still waiting on the carrier's appraiser to confirm availability so the inspection can be scheduled."},
+    {"date": "2026-09-03", "event": "Joseph asked the carrier's appraiser to confirm agreement on an umpire and provide the signed agreement so the process could move forward."},
+    {"date": "2026-09-07", "event": "Joseph followed up again with the carrier's appraiser, still awaiting a response."}
+   ],
+   "update": "The file remains in umpire selection; Joseph has sent proposed umpire names to the carrier's appraiser and is waiting on their agreement before an inspection can be scheduled. No action is needed from the contractor at this time.",
+   "needed": null,
+   "threadsRead": ["1a03438173e4cd8f", "1a01b3bf6df1d3f6", "19fa670da68ff62c"],
+   "threadsDropped": ["1a05c54dc3b50ea7", "1a0597bc40a4aae8", "19ef0fe5d6aa9330"],
+   "trelloItemsAdded": 6,
+   "notes": "Dropped 1a05c54dc3b50ea7 (status-check email covering seven other, unrelated claims), 1a0597bc40a4aae8 (general monthly invoice email not specific to this claim), and 19ef0fe5d6aa9330 (about a different insured, Kamran Siddiqui, State Farm claim 43-97D6-40Q - a different person sharing the Siddiqui surname)."
+  },
+  {
+   "cardId": "6a63986918ad08d13b8f88cd",
+   "newEvents": [],
+   "update": "Joseph is coordinating with the carrier's newly assigned Colorado appraiser on scheduling (inspection tentatively expected the week of Sept 28, since Joseph only travels to Colorado about once a month) and has proposed umpire candidates. Awaiting the appraiser's confirmation; no contractor action needed.",
+   "needed": null,
+   "threadsRead": ["1a03febbc25dba4e"],
+   "threadsDropped": ["1a07cc0d9dabfada", "1a07902d21146bef", "1a077c7ec3a1177b", "1a06e38e24645fef", "1a06e370530418f1", "1a06dc373d565699", "1a06d48158a32cde", "1a06a75bf394fa48", "1a06864d6350cdba", "1a068560c228270e", "1a0655f085706080", "1a064fe643249c50", "1a063a578152cad2", "1a062a915658be7b", "1a062585a44b6b7a", "1a0601523a9d4dda", "1a05c453dca27f72", "1a04ec70ba8415c5", "1a046728e7395eef"],
+   "trelloItemsAdded": 0,
+   "notes": "Of the 19 collected threads, only 1a03febbc25dba4e is actually about Kevin Hill/claim JFM9822001H/Fort Morgan CO; the other 18 are about entirely different insureds, claims and addresses (e.g. Juan Ramirez, Rosaline Ngwengang, Dao Tran, Irma Muralles Ortiz, Velasquez, Shannon Roussos, Calida Barnes, Jessica Martinez, Modugu, Mildred Davis, and various unpaid-umpire-invoice/group emails) - likely pulled in by a 'Hill' surname or generic-word match. All content from the one relevant thread was already reflected in the existing Trello checklist, so no new events were added."
+  },
+  {
+   "cardId": "6a61485b11bec624f010a3dd",
+   "newEvents": [
+    {"date": "2026-08-18 to 2026-08-25", "event": "Office repeatedly followed up with the homeowner to sign the Appraisal Demand Letter."},
+    {"date": "2026-08-28", "event": "The homeowner signed the Appraisal Demand Letter and it was submitted to the carrier, formally initiating the appraisal."},
+    {"date": "2026-09-03", "event": "The carrier confirmed receipt of the appraisal demand and named its assigned appraiser."},
+    {"date": "2026-09-05", "event": "Joseph returned a signed umpire selection form to the carrier's appraiser."},
+    {"date": "2026-09-07", "event": "Office followed up again requesting the carrier's appraiser's availability for a solo inspection."}
+   ],
+   "update": "The appraisal demand has been submitted to the carrier (Homesite) and the assigned appraiser has been engaged; Joseph has returned a signed umpire form and is awaiting the appraiser's inspection availability. No contractor action needed.",
+   "needed": null,
+   "threadsRead": ["1a06e15167144154", "1a069ed70e3dc06b", "1a04a3b4986d98ef", "19fedb965c525bfc"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 5,
+   "notes": ""
+  },
+  {
+   "cardId": "6a6a769bba35839cc23da7f6",
+   "newEvents": [
+    {"date": "2026-08-24", "event": "Office followed up for a response from Liberty Mutual on the revised estimate; none had been received yet."},
+    {"date": "2026-08-27", "event": "At the homeowner's request, office followed up again with Liberty Mutual, which said it was working to name an appraiser."},
+    {"date": "2026-09-03", "event": "The contractor sent photos of the property."},
+    {"date": "2026-09-04", "event": "Office confirmed a joint inspection for September 8 (carrier's appraiser at 8:30 AM, Joseph at 10:00 AM) and asked the homeowner to confirm."},
+    {"date": "2026-09-07", "event": "Office followed up again with the homeowner and asked the contractor to help confirm the September 8 inspection."},
+    {"date": "2026-09-07/08", "event": "The homeowner did not confirm despite repeated calls, texts, and emails, so the carrier's appraiser attempted to inspect the property on his own and may need to push the date out if he cannot gain access."}
+   ],
+   "update": "A joint appraisal inspection was set for September 8 with Liberty Mutual's appraiser, and an umpire (Jason Ammerman) has been agreed upon, but the homeowner has not confirmed the appointment despite repeated outreach, risking delay.",
+   "needed": "Please help reach the homeowner to confirm (or reschedule) the appraisal inspection - they have not responded to phone, text, or email.",
+   "threadsRead": ["1a06d20cfbff4916", "1a05ea696281e43c", "1a04508413224f97", "19fd3e32bd6018ea", "1a064b1ff0a96e09"],
+   "threadsDropped": ["1a07d5113767eb62", "1a07d4ec1924e411", "1a07d4121ed6eb0e", "1a07d0c4fd2d64de", "1a067fbc0e8bc255", "1a03f7835e3b5b89"],
+   "trelloItemsAdded": 6,
+   "notes": "Dropped four internal self-addressed admin/batch-review emails covering many other cards (call lists, estimates-sent action items), one thread about a different claim number (061798873-01) for the same family, and one thread about an unrelated address/claim (15278 Conser St, Steadily claim 26PRKS371451278)."
+  },
+  {
+   "cardId": "6a76468479bde53b2b4283b6",
+   "newEvents": [
+    {"date": "2026-08-16", "event": "Joseph sent the draft estimate/demand package to the contractor for review."},
+    {"date": "2026-08-18", "event": "Contractor approved the draft, and the appraisal demand letter was submitted to State Farm."},
+    {"date": "2026-08-25", "event": "Office resent the demand letter to State Farm after a week passed with no response and no claim specialist assigned."},
+    {"date": "2026-09-07", "event": "Office returned the signed umpire agreement (DOA/SOU) to the carrier's appraiser."},
+    {"date": "2026-09-07/08", "event": "Office confirmed the September 17 joint inspection with the homeowner, who confirmed availability (interior access required)."}
+   ],
+   "update": "A joint inspection with State Farm's appraiser is confirmed for September 17, 10-11 AM; an umpire (Matthew Wilson) has been agreed upon and the agreement signed, and the homeowner has confirmed availability. No contractor action needed.",
+   "needed": null,
+   "threadsRead": ["1a07d7b313ad967d", "1a03aa861351fa61", "1a03a97f2c6ff7b0", "1a06cca97d239079", "1a01742e53301789", "1a00c5089414d07a"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 5,
+   "notes": "1a03aa861351fa61 was State Farm's automatic mailbox reply - no substantive event, not counted as dropped-for-relevance, just skipped as an auto-reply."
+  }
+ ],
+ "checked": 6,
+ "withNewEvents": 5
+}

@@ -1,0 +1,47 @@
+{"batch":32,"results":[
+{"cardId":"69d9871cb2f29b0ce6dec8e6","newEvents":[
+ {"date":"2026-08-29","event":"Our estimate and supporting position were sent to the carrier's adjuster."},
+ {"date":"2026-09-04","event":"With the two estimates still far apart, Joseph followed up on moving the file to an umpire."},
+ {"date":"2026-09-05","event":"Joseph asked a proposed umpire to accept the assignment and sent our supporting documents, photos, and position."},
+ {"date":"2026-09-08","event":"The umpire accepted the assignment, and the carrier's adjuster sent his estimate and the signed appraisal agreement."}
+],"update":"The file has moved into umpire review. The umpire has accepted the assignment and the carrier has now sent its estimate and the signed agreement; we're waiting on the umpire's decision.","needed":null,"threadsRead":["1a0701478aa574aa","19ff7e9458d6b849"],"threadsDropped":["1a07d5113767eb62","1a07d4ec1924e411","1a07d4121ed6eb0e","1a062c13f06f95f5","1a062bb70cb5b803","1a062b7cc76e29a4","1a062a8035d6323c","1a0629f6d002a00e","1a079ea21963bce7","1a06e05e9a9a28cd"],"trelloItemsAdded":1,"notes":"Dropped 3 internal staff call-list emails (not specific to this file), 5 threads that were actually about a different insured (Faris Farassati, picked up by surname match on the carrier adjuster's name 'Cooper'), 1 thread about a different insured (Agustin Contreras Ledesma), and 1 unrelated dealership marketing email."},
+
+{"cardId":"6a2c33a51516fb6046767a45","newEvents":[
+ {"date":"2026-08-17","event":"The carrier's adjuster sent his repair estimate and noted an umpire might be needed given differing test-square findings."},
+ {"date":"2026-08-31","event":"The adjuster followed up asking Joseph to confirm agreement or provide a counter estimate."},
+ {"date":"2026-09-05","event":"With the two positions still far apart, Joseph moved the file to the umpire process and sent our supporting documents, photos, and position to the umpire."},
+ {"date":"2026-09-07","event":"The umpire accepted the assignment and asked both sides for the difference between their positions before proceeding."},
+ {"date":"2026-09-08","event":"The carrier's adjuster sent the requested information to the umpire; we're awaiting the umpire's next steps."}
+],"update":"The file has moved to umpire review. The umpire has accepted the assignment and both sides have now given him what he needs to proceed; we're waiting on his decision.","needed":null,"threadsRead":["1a00da94898c2430","19f7229c22bd85c6","19f60c365031ba7e","19fa8f928a65a613"],"threadsDropped":["19fd3f513670f10e","19fd2ca3d3605d01","19fa3f436be55432"],"trelloItemsAdded":2,"notes":"Dropped 2 threads about a different insured (Maribel Mendoza / Foremost claim) that were picked up because the carrier adjuster on that file happens to be named 'Miner'; dropped 1 thread that was only automated USAA receipt confirmations across many unrelated claim numbers, none of them this file."}
+,
+
+{"cardId":"6a345ef79a90fa35b241721d","newEvents":[
+ {"date":"2026-08-12","event":"Joseph sent our estimate and report to the carrier's appraiser after completing the inspection."},
+ {"date":"2026-08-19","event":"The carrier's appraiser sent his position for review."},
+ {"date":"2026-08-21","event":"Joseph asked for his opinion on the dwelling roof specifically."},
+ {"date":"2026-08-24","event":"The carrier's appraiser said he found no damage on the main dwelling roof that would warrant replacement."},
+ {"date":"2026-08-29","event":"Joseph decided to move the file to the umpire."},
+ {"date":"2026-09-01","event":"The carrier's appraiser asked for the umpire's contact information."},
+ {"date":"2026-09-05","event":"Joseph asked the umpire to accept the assignment and sent our documents, photos, and position."},
+ {"date":"2026-09-07","event":"The carrier's appraiser sent the signed agreement to the umpire for his signature."}
+],"update":"The file has moved to umpire review after the carrier's appraiser found no damage warranting roof replacement. The signed agreement was sent to the proposed umpire for signature; we're waiting on his acceptance.","needed":null,"threadsRead":["1a070a148db7e238","1a05cb4af0834d51","19ee0fa3bbe511e1"],"threadsDropped":[],"trelloItemsAdded":1,"notes":""},
+
+{"cardId":"69f38a3f119d28243f77cadb","newEvents":[
+ {"date":"2026-09-05","event":"Joseph requested umpire assistance from two candidate firms and sent our supporting documents, photos, and position. One of the firms flagged confusion over cross-requests and asked that future submissions be copied to their claims team."}
+],"update":"The file has been referred out for umpire review; we're waiting to hear back on which umpire will take the assignment.","needed":null,"threadsRead":["1a070755852dc814"],"threadsDropped":["1a079ea21963bce7","1a07bf8de6725943","1a06a9338ababbe4","1a063bad84284076","1a05d5fcd5fb6f2f","1a057ea0614419f5","1a049b9d721f10ca","1a048fba397c25e0","1a0431a495976b18","1a03934f2bace6f2","1a0348d7c49af865","1a01f8ebafd18c19","1a016bdfe0fb94c8"],"trelloItemsAdded":0,"notes":"This card's threads were almost entirely false matches from the scan: a different insured (Agustin Contreras Ledesma), a different insured (Venkata Bandhakavi), a different homeowner referred by a contractor who happens to share the surname Flores, a different insured named Carlos Flores, and a batch of automated iink/echecks payment-processor broadcast emails covering many unrelated claims (none of them this file). Only one thread (the umpire request) was actually about this insured."},
+
+{"cardId":"6a3bf64bd4df112622b58fe5","newEvents":[
+ {"date":"2026-08-25","event":"The file's public adjuster forwarded a State Farm claim communication to confirm our office had received it."},
+ {"date":"2026-09-01","event":"The carrier's appraiser sent his position estimate and asked whether we want to invoke the umpire."},
+ {"date":"2026-09-02","event":"Joseph sent our estimate in response."},
+ {"date":"2026-09-05","event":"Joseph asked the agreed umpire to accept the assignment and sent our documents, photos, and position."}
+],"update":"The file has moved to umpire review after the two positions did not align; the umpire has been asked to accept the assignment. We're waiting to hear back.","needed":null,"threadsRead":["1a0713141a0b2949","1a03a93a6913a92e","19f394eaae096eb7","19f2d6a0eeed83b6"],"threadsDropped":["19f947d9e9b2ecb7","19f8ad538549829c"],"trelloItemsAdded":3,"notes":"Dropped 2 threads that were actually about a different insured's two separate claims ('Laster' and 'Jacobs'), referred by the same contractor but not this file."},
+
+{"cardId":"691b6c76bf7eb9ec3bd7051a","newEvents":[
+ {"date":"2026-08-13","event":"Joseph followed up with the carrier's appraiser after not hearing back on our position."},
+ {"date":"2026-08-29","event":"Joseph followed up again."},
+ {"date":"2026-09-05","event":"Joseph moved the file to the umpire, asking the umpire to accept the assignment and sending our documents, photos, and position."},
+ {"date":"2026-09-05","event":"The umpire accepted and asked that the signed agreement be sent."}
+],"update":"The file has moved into umpire review; the umpire has accepted and is waiting on the signed agreement. We'll update again once he issues his decision.","needed":null,"threadsRead":["1a071de47df9c742","19c8c17402d8f060"],"threadsDropped":["19f168df5061d378","19e4d71631e9419c"],"trelloItemsAdded":0,"notes":"Dropped 2 threads that were actually about a different insured (Tania Morei, a Connecticut property) picked up in error by the scan."}
+],
+"checked":6,"withNewEvents":6}

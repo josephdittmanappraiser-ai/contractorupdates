@@ -1,0 +1,73 @@
+{
+ "batch": 47,
+ "results": [
+  {
+   "cardId": "69fbb26d8f4052477d6af846",
+   "newEvents": [
+    {"date": "2026-09-06", "event": "Joseph sent a status check to the referring adjuster since the carrier still had not named an appraiser after the May resend; the adjuster's office flagged the claim for follow-up."}
+   ],
+   "update": "The appraisal invitation for this property remains open with the carrier; more than four months in, there is still no carrier-named appraiser, and Joseph checked in with the referring adjuster's office again in early September.",
+   "needed": null,
+   "threadsRead": ["1a07902b7d2e81ba"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 1,
+   "notes": ""
+  },
+  {
+   "cardId": "69fcb7668b313b4ea51057dd",
+   "newEvents": [
+    {"date": "2026-09-06", "event": "Joseph included this claim in a status check to the referring adjuster's office, since the carrier still had not named an appraiser after more than four months."}
+   ],
+   "update": "This file remains waiting on the carrier to name an appraiser; Joseph checked in with the referring adjuster's office in early September, though the reply he received did not address this claim specifically.",
+   "needed": null,
+   "threadsRead": ["1a07902b7d2e81ba"],
+   "threadsDropped": ["1a03a4bff6fbf000", "1a039f230e5bea1c", "1a033e03e36fa6ec", "1a020c786322f951", "1a01562bec9fbfe0", "1a0105a149c4b10c", "1a00fd1db3be62dd", "1a00231d427cddb0", "19ff10a6ce5f5543"],
+   "trelloItemsAdded": 1,
+   "notes": "Dropped 9 threads: all were about a different Zuniga (Mark Zuniga, a different claim and property in Cypress; and Antonio Zuniga, a different claim in Houston) or automated payment/status digest emails unrelated to this insured."
+  },
+  {
+   "cardId": "6a0dc8bdcc0e245921abbfd5",
+   "newEvents": [
+    {"date": "2026-09-06", "event": "Joseph included this claim in a status check to the referring adjuster's office, since the carrier still had not named an appraiser after about four months."}
+   ],
+   "update": "This file remains waiting on the carrier to name an appraiser; Joseph checked in with the referring adjuster's office in early September, though the reply he received did not address this claim specifically.",
+   "needed": null,
+   "threadsRead": ["1a07902b7d2e81ba"],
+   "threadsDropped": ["1a07d0c4fd2d64de", "1a069564bbd15b28", "1a067c2321012df7", "1a063f1c0f7a621f", "1a05e9ac1c1f97be", "1a050b679e65b026", "1a049a2ca5f36465", "1a03e73109f93a67", "1a0306c5a9805e6a", "1a01cdecc28409f7", "1a01fda567a93427", "1a01cdabeaa1e1f1", "1a010998abc114ce", "1a003d16eaa86edc", "1a0035e0570f2fbd", "19ff7673854f29b4", "19fedc3dfda8c50e", "19fed9e7a09c156d", "19fddc00b2924364"],
+   "trelloItemsAdded": 1,
+   "notes": "Dropped 19 threads: all were about other clients referred by the same roofing contractor whose own surname happens to be Chavez, not about the insured Jacob Chavez."
+  },
+  {
+   "cardId": "68dff1484affd3a65d5ef7f4",
+   "newEvents": [],
+   "update": "This file has been stalled since Joseph's office asked in May whether it was moving forward through litigation instead, with no response logged since; no new activity specific to this file was found in this pass.",
+   "needed": null,
+   "threadsRead": [],
+   "threadsDropped": ["1a07c16bf37a8917", "1a077c7ec3a1177b", "1a05e3859c18340a", "1a05c77129c3716f", "1a03a9b152ae3964", "1a04e83a2d31b828", "1a043c9edfa147ab", "19fed7e113bfc7d2", "19fcea2ed3e21eb9", "19fcd1b71c750bfc"],
+   "trelloItemsAdded": 0,
+   "notes": "All 10 threads the scan collected turned out to be about other people who share the surname Jordan (a different insured, a homeowner whose personal email address happens to contain 'jordan', and a referring roofer named Brandon Jordan) or other unrelated clients of that same roofer — none concerned Chelsea Billy Jordan. No genuine new history was found."
+  },
+  {
+   "cardId": "68718855f2eb64c0d46e054d",
+   "newEvents": [],
+   "update": "This file remains stalled waiting on a response about whether it was sent to litigation due to the delays; no new activity has been found since the last recorded follow-up.",
+   "needed": null,
+   "threadsRead": ["19e39492827abc14"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 0,
+   "notes": "The one thread newer than the record date (a follow-up asking about litigation status) was already fully reflected in the existing chain of events; no further activity was found."
+  },
+  {
+   "cardId": "6966c0e6740b63c19cee4664",
+   "newEvents": [],
+   "update": "This file remains stalled waiting on a response about whether it and similar files were sent to litigation due to the delays; no new activity has been found since the last recorded follow-up.",
+   "needed": null,
+   "threadsRead": ["19e39492827abc14"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 0,
+   "notes": "The one thread newer than the record date (a follow-up asking about litigation status) was already fully reflected in the existing chain of events; no further activity was found."
+  }
+ ],
+ "checked": 6,
+ "withNewEvents": 3
+}

@@ -1,0 +1,227 @@
+{
+  "batch": 12,
+  "results": [
+    {
+      "cardId": "6a710f2e198366506ae18586",
+      "newEvents": [
+        {
+          "date": "2026-08-17",
+          "event": "Photo documentation of the property damage was received from the contractor."
+        },
+        {
+          "date": "2026-08-18",
+          "event": "Joseph sent the contractor a draft estimate for review."
+        },
+        {
+          "date": "2026-08-25",
+          "event": "The contractor approved the draft estimate."
+        },
+        {
+          "date": "2026-08-26",
+          "event": "The estimate and formal demand for appraisal were sent to the carrier, with the homeowner and contractor copied."
+        },
+        {
+          "date": "2026-08-27",
+          "event": "A joint inspection was scheduled for September 1."
+        },
+        {
+          "date": "2026-09-07",
+          "event": "A solo inspection was scheduled for September 15."
+        },
+        {
+          "date": "2026-09-08",
+          "event": "Joseph selected the umpire for the appraisal."
+        }
+      ],
+      "update": "The claim has moved into formal appraisal: a solo inspection is set for September 15, an umpire has been selected, and both appraisers already agree on a full roof replacement, with pricing the remaining item to resolve.",
+      "needed": null,
+      "threadsRead": [
+        "1a0737316307dedb",
+        "1a03b80919ff6fb8",
+        "1a0153b9e3af371e",
+        "1a0104a55934a2bb",
+        "19fce86c5ed0e05c"
+      ],
+      "threadsDropped": [],
+      "trelloItemsAdded": 7,
+      "notes": "Thread 19fce86c5ed0e05c is a shared multi-client inbox thread (also covering Atef Abdalla, a different insured); only its Gustavo-relevant content was used, which duplicated the estimate-approval event already captured from the dedicated Gustavo thread, so no separate event came from it. The 2026-09-05 update from the carrier's appraiser was already present on the Trello checklist, so it was not re-added."
+    },
+    {
+      "cardId": "6a5f8eb2e7a4a8a0ed3aba0d",
+      "newEvents": [
+        {
+          "date": "2026-08-19",
+          "event": "Joseph's office followed up with the homeowner to check on State Farm's response to the demand package."
+        },
+        {
+          "date": "2026-08-26",
+          "event": "The carrier's appraiser reached out to start the formal appraisal, and a joint inspection date in early September was proposed."
+        },
+        {
+          "date": "2026-08-27",
+          "event": "Joseph selected an umpire for the appraisal."
+        },
+        {
+          "date": "2026-08-28",
+          "event": "Joseph and the carrier's appraiser exchanged their signed appraisal agreements."
+        },
+        {
+          "date": "2026-08-31",
+          "event": "The homeowner confirmed the joint inspection scheduled for September 8."
+        }
+      ],
+      "update": "The claim is in formal appraisal with State Farm: an umpire has been selected, signed agreements have been exchanged with the carrier's appraiser, and the joint inspection is confirmed for September 8.",
+      "needed": null,
+      "threadsRead": [
+        "1a07e8f365d15c64",
+        "1a048b8e97b49413",
+        "19f76ddc4fe8e5d2",
+        "1a048dc5268e463b",
+        "1a0401a6e379d06d",
+        "1a03f4b0b2629803",
+        "19fce5acad712aef"
+      ],
+      "threadsDropped": [],
+      "trelloItemsAdded": 5,
+      "notes": "Thread 19f76ddc4fe8e5d2 (newest 2026-07-21) was opened by mistake but predates searchAfter and contributed no new events. Reminder-only threads (inspection prep notice, day-of reminder) added no new information beyond what's already captured."
+    },
+    {
+      "cardId": "6a7a635d30076cf33a5f3ede",
+      "newEvents": [
+        {
+          "date": "2026-08-18",
+          "event": "A joint inspection was scheduled for September 15."
+        },
+        {
+          "date": "2026-08-19",
+          "event": "The homeowner confirmed the joint inspection for September 15, including interior access."
+        },
+        {
+          "date": "2026-08-20",
+          "event": "The homeowner asked to move the inspection earlier, but the carrier's appraiser was unavailable, so it remains scheduled for September 15."
+        }
+      ],
+      "update": "The claim is proceeding to a joint inspection now confirmed for September 15; no changes are expected before then.",
+      "needed": null,
+      "threadsRead": [
+        "19ff745287d26a3b"
+      ],
+      "threadsDropped": [],
+      "trelloItemsAdded": 3,
+      "notes": ""
+    },
+    {
+      "cardId": "6a711111660995dbc05640f7",
+      "newEvents": [
+        {
+          "date": "2026-08-17",
+          "event": "The carrier's appraiser proposed a joint inspection for September 10, and Joseph accepted."
+        },
+        {
+          "date": "2026-08-19",
+          "event": "The homeowner confirmed the joint inspection for September 10."
+        }
+      ],
+      "update": "A joint inspection is now confirmed for September 10; the policy's terms mean no umpire needs to be chosen up front.",
+      "needed": null,
+      "threadsRead": [
+        "1a011f7eafa1438a",
+        "1a010757fcf91ca2"
+      ],
+      "threadsDropped": [],
+      "trelloItemsAdded": 2,
+      "notes": "Thread 1a010757fcf91ca2 was an automated carrier notification with no substantive content (a generic 'new document available' portal link); no event was drawn from it."
+    },
+    {
+      "cardId": "6a7bb94b4273be155410340c",
+      "newEvents": [
+        {
+          "date": "2026-08-18",
+          "event": "Joseph sent the contractor a draft estimate, which the contractor approved."
+        },
+        {
+          "date": "2026-08-20",
+          "event": "The signed appraisal demand package was sent to State Farm, copying the homeowner and contractor, formally starting the appraisal."
+        },
+        {
+          "date": "2026-08-21",
+          "event": "The carrier's appraiser reached out to begin the formal appraisal, and Joseph acknowledged receipt of the contractor's hail impact report."
+        },
+        {
+          "date": "2026-08-24",
+          "event": "A joint inspection was scheduled for September 10."
+        },
+        {
+          "date": "2026-08-26",
+          "event": "The homeowner confirmed the joint inspection for September 10, and Joseph and the carrier's appraiser exchanged their signed appraisal agreements."
+        },
+        {
+          "date": "2026-08-28",
+          "event": "An umpire was selected for the appraisal."
+        }
+      ],
+      "update": "The claim is in formal appraisal with State Farm: an umpire has been selected, signed agreements have been exchanged with the carrier's appraiser, and the joint inspection is confirmed for September 10.",
+      "needed": null,
+      "threadsRead": [
+        "1a02502bdfbf6de3",
+        "1a01cae2fcce8cdf",
+        "1a01ca9761fa0c77",
+        "1a016d5be611bc7a",
+        "1a015c19e495c671",
+        "19ff178c69c217b3"
+      ],
+      "threadsDropped": [],
+      "trelloItemsAdded": 6,
+      "notes": "Thread 1a01cae2fcce8cdf was only State Farm's automatic mailbox reply and carried no new information."
+    },
+    {
+      "cardId": "6a7e4b472ad852d6ba535474",
+      "newEvents": [
+        {
+          "date": "2026-08-20",
+          "event": "Joseph sent the contractor a draft estimate for review, which the contractor approved."
+        },
+        {
+          "date": "2026-08-20",
+          "event": "The signed appraisal demand package and supporting photos were sent to Allstate, copying the homeowner and contractor, formally starting the appraisal."
+        },
+        {
+          "date": "2026-08-25",
+          "event": "Allstate's appraisal adjuster confirmed receipt of the demand and named the carrier's appraiser."
+        },
+        {
+          "date": "2026-08-25",
+          "event": "The carrier's appraiser sent his umpire list and proposed inspection dates, and a joint inspection was proposed for September 16."
+        },
+        {
+          "date": "2026-08-26",
+          "event": "The homeowner confirmed the joint inspection for September 16."
+        },
+        {
+          "date": "2026-08-27",
+          "event": "Joseph selected an umpire for the appraisal."
+        },
+        {
+          "date": "2026-08-28",
+          "event": "Joseph and the carrier's appraiser exchanged their signed appraisal agreements."
+        }
+      ],
+      "update": "The claim is in formal appraisal with Allstate: an umpire has been selected, signed agreements have been exchanged with the carrier's appraiser, and the joint inspection is confirmed for September 16.",
+      "needed": null,
+      "threadsRead": [
+        "1a03a6ac4a449233",
+        "1a039c7ce64d3214",
+        "1a020bc4fde612de",
+        "1a020b6b2b946ed1",
+        "19ffd2368c0ccc08",
+        "1a0393dbd9aef968",
+        "1a0203da27dc578f"
+      ],
+      "threadsDropped": [],
+      "trelloItemsAdded": 7,
+      "notes": "Thread 1a020bc4fde612de was only an automated Allstate acknowledgment ('Email received') and carried no new information."
+    }
+  ],
+  "checked": 6,
+  "withNewEvents": 6
+}

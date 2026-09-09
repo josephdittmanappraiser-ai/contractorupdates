@@ -1,0 +1,87 @@
+{
+ "batch": 22,
+ "results": [
+  {
+   "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a582a2ba309ced421c5b0f1",
+   "newEvents": [],
+   "update": "The carrier's appraiser (Scott Spivey) has our position, estimate, and measurements, and is scheduled to inspect the property on September 9. We followed up with him ahead of that date and are waiting to hear his position afterward.",
+   "needed": null,
+   "threadsRead": ["1a02496c448e7304", "1a02257e187c8121", "1a01084955d252df", "1a0100b2b91c4552"],
+   "threadsDropped": ["1a07f1fca591cbbf", "1a071f507111088c", "1a07cd4d84bbe3b0", "1a07c16c442e0a2e", "1a07c48e893b762f", "1a07c40d232cc258", "1a079150656dc6a6", "1a03febbc25dba4e", "1a0226c2f5916f98", "1a04441998368a78", "1a039d127e88204a", "1a06d336a6b9a872", "1a06331a1ddd6946", "1a062ce58b74f4d9", "1a05ec600056de21", "1a046205197b39fd", "1a06f83487e85c74", "1a06f75cef22f10d", "1a06d5db17a5135a", "1a06ca246b35db12"],
+   "trelloItemsAdded": 0,
+   "notes": "All newer-dated threads besides the 4 already tied to this claim belong to other people who share a surname or contact with this file (a roofing-company contact also named Wilson, other insureds named Wilson/Nguyen/Perez, unrelated claim numbers) or are automated notifications (CompanyCam, send.co link-view alerts). None concern Isaac Wilson's claim 7010475379-1, so no new events were added; everything found was already on the Trello checklist."
+  },
+  {
+   "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a4ef9916a728c0deee340ee",
+   "newEvents": [
+    {"date": "2026-09-05", "event": "The carrier's appraiser raised two other umpire names for consideration, reopening the umpire question after the earlier agreement on Taylor Asfar."}
+   ],
+   "update": "Our position and estimate are with the carrier's appraiser (Corey Capps) after several rescheduled inspections; he has not yet confirmed whether he accepts our numbers, and has now also reopened the question of who the umpire will be.",
+   "needed": null,
+   "threadsRead": ["19ffbeb62d779dc2"],
+   "threadsDropped": ["1a07d2fd2689eb93", "1a07d0c4fd2d64de", "1a07902b7d2e81ba", "1a070153555e4621", "1a07013e5f33bbd3", "1a07012384cc1079", "1a06d8a9c9638da4", "1a0634832f38cf59", "1a05e2a83a1f11f1", "1a05876d09c4d852", "1a04a3b4986d98ef", "1a049a2ca5f36465", "1a04573f5a79b12b", "1a04444171f9ae96", "1a0211b35491171c", "1a03f836f3dcaa80"],
+   "trelloItemsAdded": 1,
+   "notes": "Dropped threads are internal weekly automation summaries addressed to staff, and files for other insureds/other claims that only share a contact name (other Perez surnames at Legacy Roofing, other adjusters, unrelated claim numbers). None concern Alins Perez's claim HO-2026-973719128."
+  },
+  {
+   "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/69dfedf1d4b36ff84ab0911f",
+   "newEvents": [
+    {"date": "2026-07-15", "event": "Office told the homeowner the inspection had been completed and we were waiting on the carrier's appraiser to send his position."},
+    {"date": "2026-07-28", "event": "Office followed up with the contractor multiple times through August 13 requesting interior damage photos, without a response."},
+    {"date": "2026-08-03", "event": "Office received the carrier's appraiser's report and began reviewing it to prepare our own position."},
+    {"date": "2026-08-17", "event": "Homeowner sent interior damage photos directly to the office."},
+    {"date": "2026-08-18", "event": "Our position, estimate, and photos were sent to the carrier's appraiser, who confirmed he would review it."}
+   ],
+   "update": "Our position and estimate, including the homeowner's interior damage photos, are now with the carrier's appraiser (Ray Vervlied), who confirmed he is reviewing them. We're waiting on his response.",
+   "needed": null,
+   "threadsRead": ["19ed25d3cf919c9b", "19d8edc58f4e8a0e", "19e22a8eadd9ee9b"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 5,
+   "notes": ""
+  },
+  {
+   "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a62728ed1106d2fa5e22cc9",
+   "newEvents": [
+    {"date": "2026-08-13", "event": "The scheduled solo inspection with the carrier's appraiser took place."},
+    {"date": "2026-08-15", "event": "Our position, estimate, and photos were sent to the carrier's appraiser."},
+    {"date": "2026-08-17", "event": "The carrier's appraiser said that if the two appraisers reach an impasse, the carrier's policy requires the dispute go to AAA or JAMS rather than the umpire previously discussed."},
+    {"date": "2026-09-02", "event": "Contractor asked for a status update; office confirmed our position had been sent and was under review, with no timeline yet."},
+    {"date": "2026-09-04", "event": "Joseph followed up with the carrier's appraiser on the position sent August 15."}
+   ],
+   "update": "Our position has been with the carrier's appraiser (Frances Rivera) since August 15, and we've followed up for a response. She's also flagged that an eventual impasse would go to AAA or JAMS rather than the umpire we'd discussed, so that path may look different than expected.",
+   "needed": null,
+   "threadsRead": ["19fbdf19a82850c1", "1a06342a96781fb0"],
+   "threadsDropped": ["1a07902b7d2e81ba", "1a077c7ec3a1177b", "1a048c7092dd3cc7", "1a034a2e15a67eec", "1a03074ee2ba4f13", "1a01ff9043797ff2", "1a0226c2f5916f98"],
+   "trelloItemsAdded": 5,
+   "notes": "Dropped threads concern other insureds (Dao Tran, Yen-Thi Kim Nguyen, Tay Nguyen), an unrelated older claim, and a multi-client biweekly status email that does not name Andy Nguyen individually."
+  },
+  {
+   "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a359ad3598cf3ba0cf93641",
+   "newEvents": [
+    {"date": "2026-08-14", "event": "Our position, estimate, and photos were sent to the carrier's appraiser (Gideon Nwokolo)."},
+    {"date": "2026-08-30", "event": "Homeowner followed up twice through September 1 asking whether the carrier's appraiser had completed the scheduled inspection."}
+   ],
+   "update": "The carrier's appraiser (Gideon Nwokolo) completed his inspection August 29 and has our position, sent August 14. He told us September 5 he needs more time and expects to have his own position ready by the following weekend.",
+   "needed": null,
+   "threadsRead": ["19fee779d13f7ff2", "19f7d7259d98a99b"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 2,
+   "notes": "This card had two separate 'Chain of Events' checklists already on it (one tracking the homeowner-facing thread, one tracking the carrier-appraiser thread); new items were added to the latter, which already carried the most recent history."
+  },
+  {
+   "cardId": "ari:cloud:trello::card/workspace/65d7eb00496a914bf3ffb423/6a1866fe2213e53339b975b1",
+   "newEvents": [
+    {"date": "2026-08-07", "event": "The carrier's appraiser confirmed the scheduled inspections for the next day."},
+    {"date": "2026-08-08", "event": "The exterior inspection took place; our position, estimate, and photos were sent to the carrier's appraiser, and the signed appraiser agreement was exchanged."}
+   ],
+   "update": "The August 8 inspection is complete and our position is with the carrier's appraiser (Derrick Noble); Joseph followed up September 5 for his response and is still waiting to hear back.",
+   "needed": null,
+   "threadsRead": ["19fbb3b00df19a49", "19fd3111c2b16b25"],
+   "threadsDropped": ["19f8899fe7558e53"],
+   "trelloItemsAdded": 2,
+   "notes": "Dropped thread is the same carrier appraiser's correspondence about a different insured (Esperanza Lopez, claim 0815088372) he was also handling."
+  }
+ ],
+ "checked": 6,
+ "withNewEvents": 5
+}

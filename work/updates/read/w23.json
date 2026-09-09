@@ -1,0 +1,91 @@
+{
+ "batch": 3,
+ "results": [
+  {
+   "cardId": "6a7a67c20f6c7a666078eb47",
+   "newEvents": [
+    {"date": "2026-08-17", "event": "The estimate for the roofer's damages was finalized, reviewed and approved by the contractor, then submitted to Allstate along with the formal demand to proceed with the appraisal process."},
+    {"date": "2026-08-18", "event": "Allstate said it needed to reinspect the property before the appraisal could proceed and scheduled the reinspection for August 29."},
+    {"date": "2026-09-02", "event": "The reinspection was completed and Allstate issued an updated estimate adding a full roof replacement and coverage for the pool liner, but the contractor and homeowner felt it still fell short and wanted to continue with the appraisal."},
+    {"date": "2026-09-02", "event": "A renewed formal demand letter was sent to Allstate, again asking them to name their appraiser."},
+    {"date": "2026-09-07", "event": "A follow-up was sent to Allstate pressing them to name an appraiser, since three weeks have passed with none named."}
+   ],
+   "update": "Allstate raised its own estimate after a reinspection but it still falls short, so we renewed the formal appraisal demand and are pressing Allstate to name their appraiser. Nothing needed from you right now.",
+   "needed": null,
+   "threadsRead": ["1a06957ae614a70c", "1a0630e51a061101", "1a01039a85b27ffe", "1a00f8be8e7563b8"],
+   "threadsDropped": ["1a07d5113767eb62", "1a07d4ec1924e411", "1a07d4121ed6eb0e"],
+   "trelloItemsAdded": 5,
+   "notes": "Dropped the three shared 'demand letter call list' threads — internal staff tracking emails covering dozens of files at once, not case-specific correspondence for this file."
+  },
+  {
+   "cardId": "6a73b2f2115fe953ec24ed31",
+   "newEvents": [
+    {"date": "2026-08-17", "event": "The estimate was finalized and approved by the contractor, then submitted to Allstate together with a formal demand to proceed with the appraisal process."},
+    {"date": "2026-08-19", "event": "Allstate confirmed receipt of the demand and said it would route the appraisal request for handling."},
+    {"date": "2026-09-01", "event": "A second inspection took place after a shed was added to the claim; the adjuster declined to approve the roof, calling the damage blistering rather than hail, even after noting he saw signs of hail."},
+    {"date": "2026-09-02", "event": "A renewed formal demand letter was sent to Allstate, again asking them to name their appraiser."},
+    {"date": "2026-09-03", "event": "Allstate acknowledged the renewed demand and said it needed a few business days to review."},
+    {"date": "2026-09-07", "event": "A follow-up was sent pressing Allstate to name an appraiser; the homeowner reported Allstate had sent someone out on August 31 who also found no sign of hail damage, though it's unclear if he was an inspector or the named appraiser."}
+   ],
+   "update": "Allstate completed a follow-up inspection after the shed was added to the claim and again declined to cover the roof, even though the adjuster noted signs of hail, so we renewed the formal demand and are pressing Allstate to name their appraiser. Nothing needed from you right now.",
+   "needed": null,
+   "threadsRead": ["1a068c1e1300551c", "1a05f1399a336344", "1a017aed264e3b67", "1a011fa0c87f9676", "1a00c43b14606c60"],
+   "threadsDropped": ["1a07d5113767eb62", "1a07d4ec1924e411", "1a07d4121ed6eb0e"],
+   "trelloItemsAdded": 6,
+   "notes": "Dropped the three shared 'demand letter call list' threads — internal staff tracking emails covering dozens of files at once, not case-specific correspondence for this file."
+  },
+  {
+   "cardId": "6a3eddb20988740778685cdf",
+   "newEvents": [
+    {"date": "2026-09-02", "event": "Joseph told the homeowner the estimate for this property was still being finalized and that the scope would follow once ready."}
+   ],
+   "update": "The estimate for this property (4309 Wayne Ave, claim 600-1348130) is still being finalized before it can go to Country Financial with the formal appraisal demand. Nothing needed from you right now.",
+   "needed": null,
+   "threadsRead": ["1a05ff17fc4b373c"],
+   "threadsDropped": ["1a062c13f06f95f5", "1a062bb70cb5b803", "1a062b7cc76e29a4", "1a062a8035d6323c", "1a0629f6d002a00e", "1a07d5113767eb62", "1a07d4ec1924e411", "1a07d4121ed6eb0e"],
+   "trelloItemsAdded": 1,
+   "notes": "This is one of Faris Farassati's many properties. Five of the collected threads (claims 600-1348143/3946 Springfield St, 600-1348133/4437 Paseo Blvd, 600-1348140/5833 Highland Ave, 600-1348127/12704 Woodson St, 600-1348144/4108 Lloyd St) are about OTHER Farassati properties, not this one (600-1348130/4309 Wayne Ave) — dropped. Only the multi-property status summary email actually covered this claim, and only in passing (estimate still in prep). Also dropped the three shared internal call-list threads."
+  },
+  {
+   "cardId": "6a73bdf0587bd77595f66fdb",
+   "newEvents": [
+    {"date": "2026-08-19", "event": "The contractor approved the estimate, and it was submitted to Farmers along with the formal demand to proceed with the appraisal process."},
+    {"date": "2026-08-26", "event": "Calls to the assigned adjuster went to voicemail; a follow-up was sent to the homeowner asking if she had heard from Farmers confirming receipt."},
+    {"date": "2026-09-03", "event": "The homeowner forwarded a Farmers payment notice for the claim, her first contact from the carrier in weeks; our office asked her to forward any other adjuster emails for review."},
+    {"date": "2026-09-07", "event": "A follow-up was sent to Farmers pressing them to name an appraiser, since 19 days had passed with none named."}
+   ],
+   "update": "Farmers sent the homeowner a payment notice on the underlying claim -- her first contact from them in weeks -- but has not responded to our formal appraisal demand or named an appraiser; we've followed up pressing them to do so. Nothing needed from you right now.",
+   "needed": null,
+   "threadsRead": ["1a0690878e219066", "1a01a6a8b73a5491", "19ffa9ada2160edf"],
+   "threadsDropped": ["1a07d5113767eb62", "1a07d4ec1924e411", "1a07d4121ed6eb0e"],
+   "trelloItemsAdded": 4,
+   "notes": "Dropped the three shared 'demand letter call list' threads — internal staff tracking emails covering dozens of files at once, not case-specific correspondence for this file."
+  },
+  {
+   "cardId": "6a3ec881f0235ef96b225b9d",
+   "newEvents": [
+    {"date": "2026-09-02", "event": "The finalized scope of damages for the appraisal demand was shared with the homeowner: a full roof replacement, chimney and flue work, step and sidewall flashing, a hardboard siding section, gutters, and fascia painting."}
+   ],
+   "update": "The scope of damages for this property (5606 Highland Ave, claim 600-1348137) has been finalized and sent to the homeowner for review before the appraisal demand is finalized with Country Financial. Nothing needed from you right now.",
+   "needed": null,
+   "threadsRead": ["1a05ff17fc4b373c"],
+   "threadsDropped": ["1a062c13f06f95f5", "1a062bb70cb5b803", "1a062b7cc76e29a4", "1a062a8035d6323c", "1a0629f6d002a00e", "1a07d5113767eb62", "1a07d4ec1924e411", "1a07d4121ed6eb0e"],
+   "trelloItemsAdded": 1,
+   "notes": "This is one of Faris Farassati's many properties. Five of the collected threads (claims 600-1348143/3946 Springfield St, 600-1348133/4437 Paseo Blvd, 600-1348140/5833 Highland Ave, 600-1348127/12704 Woodson St, 600-1348144/4108 Lloyd St) are about OTHER Farassati properties, not this one (600-1348137/5606 Highland Ave) — dropped, note 5833 Highland Ave is a different street number, not this property. Only the multi-property status summary email covered this claim's own scope. Also dropped the three shared internal call-list threads."
+  },
+  {
+   "cardId": "6a3ebe2e12bbc48e409f2f51",
+   "newEvents": [
+    {"date": "2026-09-02", "event": "The finalized scope of damages for the appraisal demand was shared with the homeowner: a full roof replacement, chimney flashing and chase cover, siding, two exterior doors, an overhead garage door and opener, awnings, gutters and downspouts, and fascia painting."}
+   ],
+   "update": "The scope of damages for this property (3913 Springfield St, claim 600-1348142) has been finalized and sent to the homeowner for review before the appraisal demand is finalized with Country Financial. Nothing needed from you right now.",
+   "needed": null,
+   "threadsRead": ["1a05ff17fc4b373c"],
+   "threadsDropped": ["1a062c13f06f95f5", "1a062bb70cb5b803", "1a062b7cc76e29a4", "1a062a8035d6323c", "1a0629f6d002a00e", "1a07d5113767eb62", "1a07d4ec1924e411", "1a07d4121ed6eb0e"],
+   "trelloItemsAdded": 1,
+   "notes": "This is one of Faris Farassati's many properties. Five of the collected threads (claims 600-1348143/3946 Springfield St, 600-1348133/4437 Paseo Blvd, 600-1348140/5833 Highland Ave, 600-1348127/12704 Woodson St, 600-1348144/4108 Lloyd St) are about OTHER Farassati properties, not this one (600-1348142/3913 Springfield St) — dropped, note 3946 Springfield St is a different address, not this property. Only the multi-property status summary email covered this claim's own scope. Also dropped the three shared internal call-list threads."
+  }
+ ],
+ "checked": 6,
+ "withNewEvents": 6
+}

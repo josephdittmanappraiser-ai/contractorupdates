@@ -1,0 +1,100 @@
+{
+  "batch": 37,
+  "results": [
+    {
+      "cardId": "69a09c7845a859ce44f2ca82",
+      "newEvents": [
+        {"date": "2026-08-20", "event": "The umpire's invoices were sent to both the carrier and the insured side for payment following the appraisal impasse."},
+        {"date": "2026-08-27", "event": "Joseph's office followed up on the status of the umpire invoice payment."},
+        {"date": "2026-08-29", "event": "The carrier's share of the umpire invoice was received; the homeowner's share remained outstanding."},
+        {"date": "2026-09-03", "event": "Joseph's office followed up again requesting an update on the outstanding umpire invoice payment."}
+      ],
+      "update": "The file is with a retained umpire after the appraisers reached an impasse. The carrier's share of the umpire's invoice has been paid; the file is waiting on the homeowner's share to clear before an inspection can be scheduled.",
+      "needed": null,
+      "threadsRead": ["1a06864d6350cdba", "19feba2520b90d89", "19e07c2a92e32e63"],
+      "threadsDropped": [],
+      "trelloItemsAdded": 4,
+      "notes": ""
+    },
+    {
+      "cardId": "6a7260731ce5c57f6a502346",
+      "newEvents": [
+        {"date": "2026-08-13", "event": "A joint property inspection was completed with the carrier's appraiser."},
+        {"date": "2026-08-17", "event": "The carrier's appraiser sent his estimate for review."},
+        {"date": "2026-08-21", "event": "Joseph requested additional damage items be added to the estimate; the carrier's appraiser declined, and the file moved toward an appraisal umpire."},
+        {"date": "2026-08-26", "event": "Joseph submitted his estimate and supporting photos to the carrier's appraiser, who did not agree and proceeded to engage the umpire."},
+        {"date": "2026-08-27", "event": "The newly retained umpire set up the appraisal panel and sent invoices to both sides for payment."},
+        {"date": "2026-09-02", "event": "The carrier's share of the umpire's invoice was paid."},
+        {"date": "2026-09-03", "event": "Joseph's office followed up again requesting a payment status update on the outstanding invoice."}
+      ],
+      "update": "After a joint inspection and an unsuccessful attempt to agree on scope, the claim moved to a retained umpire. The carrier has paid its share of the umpire's fee; the file is waiting on the remaining invoice payment before the panel can move toward a final award.",
+      "needed": null,
+      "threadsRead": ["1a06864d6350cdba", "1a04483795b43f40", "1a03f9aa1f535b36", "19c34f0a5a68fe38", "19fd4f8d4c121621"],
+      "threadsDropped": [],
+      "trelloItemsAdded": 7,
+      "notes": "19c34f0a5a68fe38 is a generic multi-claim scheduling-reminder thread; the only relevant line (the 8/13 inspection reminder) duplicates what's already captured from the other thread, so it added no new event."
+    },
+    {
+      "cardId": "6983ddd1305dd34138a9fd96",
+      "newEvents": [
+        {"date": "2026-08-29", "event": "Joseph's office followed up with Legacy Roofing GC on the status of the umpire invoice payment."},
+        {"date": "2026-09-03", "event": "Joseph's office followed up again with Legacy Roofing GC, noting the umpire needed a payment update to move the file forward."},
+        {"date": "2026-09-07", "event": "Joseph's office continued following up on the outstanding umpire payment."},
+        {"date": "2026-09-08", "event": "Joseph's office requested another update on the invoice payment; Legacy Roofing GC identified the team member who handles payments and forwarded the request to them."}
+      ],
+      "update": "The claim is with a retained umpire following an appraisal impasse. Joseph has submitted his position, but the panel inspection can't be scheduled until both sides' retainer invoices are paid; the outstanding payment is being chased through Legacy Roofing GC.",
+      "needed": "Submit payment for the outstanding umpire retainer invoice so the panel inspection can be scheduled.",
+      "threadsRead": ["1a0306c5a9805e6a", "19ff6e2d7aaaaf06"],
+      "threadsDropped": [],
+      "trelloItemsAdded": 4,
+      "notes": ""
+    },
+    {
+      "cardId": "69ef86aab727226dff9db1b7",
+      "newEvents": [
+        {"date": "2026-08-17", "event": "The carrier's appraiser asked whether documentation could confirm the roof's age, a question tied to the dispute over prior damage."},
+        {"date": "2026-08-20", "event": "The carrier's appraiser advised the file was headed to an umpire after no documentation was provided confirming the roof's age, and requested the umpire's acceptance."},
+        {"date": "2026-08-26", "event": "The umpire signed on and requested both sides' position estimates."},
+        {"date": "2026-08-28", "event": "Joseph submitted his position, estimate, and supporting documents to the umpire."},
+        {"date": "2026-08-31", "event": "The umpire issued retainer invoices to both sides; the carrier's appraiser forwarded its invoice to the carrier for payment."},
+        {"date": "2026-09-01", "event": "The carrier confirmed its payment was processed; the umpire's invoice was also forwarded to Linear Roofing for the homeowner's side of payment."},
+        {"date": "2026-09-07", "event": "Joseph's office followed up on the status of the outstanding umpire invoice payment."}
+      ],
+      "update": "The claim moved to a retained umpire after the carrier's appraiser and Joseph could not agree on whether hail damage predated a prior loss. Joseph's position has been submitted, the carrier's share of the umpire's fee has been paid, and the file is waiting on the remaining invoice payment before the panel can proceed.",
+      "needed": "Submit payment for the outstanding umpire retainer invoice so the appraisal panel can move forward.",
+      "threadsRead": ["1a05e4a6293d48bb", "1a020e1d8bb2a4c9", "19f7d910b4145537", "19e09aaa68346ce2"],
+      "threadsDropped": [],
+      "trelloItemsAdded": 7,
+      "notes": "19f7d910b4145537 contained only a status recap Joseph sent on 7/20 covering already-recorded history (Apr-Jun); no new event."
+    },
+    {
+      "cardId": "6a0b33a73072506c23913c0e",
+      "newEvents": [
+        {"date": "2026-09-07", "event": "The homeowner confirmed the September 14 inspection appointment, including interior access."}
+      ],
+      "update": "The claim is with the umpire following an impasse over roof damage; a solo umpire inspection is now confirmed for September 14 at 11:00 AM, with the homeowner cleared for interior access.",
+      "needed": null,
+      "threadsRead": ["1a06864d6350cdba", "1a04eba9487b861a", "1a03a9c96747bcaf", "1a03a9b152ae3964", "19ffbdc096101f01"],
+      "threadsDropped": ["1a050a869d77bc1f"],
+      "trelloItemsAdded": 1,
+      "notes": "1a050a869d77bc1f ('Vidal Mendez appraisal invoice', claim# 5399G955Q) is a different insured sharing the Mendez surname - dropped. The card's own checklist already covered nearly all activity through 9/4; only the 9/7 homeowner confirmation was new."
+    },
+    {
+      "cardId": "6a6230e4ce385fa197ea01b1",
+      "newEvents": [
+        {"date": "2026-08-29", "event": "The carrier's appraiser notified the panel of an impasse and requested the umpire's services, submitting his position, photos, and the carrier's estimate."},
+        {"date": "2026-08-31", "event": "The umpire accepted the assignment and issued retainer invoices to both sides."},
+        {"date": "2026-09-01", "event": "Joseph submitted his position, estimate, and photo report to the umpire; the umpire's invoice was forwarded to both the insured and the carrier for payment."},
+        {"date": "2026-09-07", "event": "Joseph's office followed up on the status of the umpire invoice payment."}
+      ],
+      "update": "The claim moved to a retained umpire after the carrier's appraiser and Joseph reached an impasse. Joseph's position has been submitted; the file is now waiting on both sides' retainer invoice payments before the umpire can proceed.",
+      "needed": null,
+      "threadsRead": ["1a06dc373d565699", "1a06a9338ababbe4", "1a068f9d8260aa2d", "1a063b9692c8df14", "1a058a722503f1c1", "1a04efa903562904", "1a04a661ac2b6b22", "1a046bbd94a6bf6c", "1a03dc4f85c1d6db", "1a03ab8760964acb", "1a01044942d2fd1b", "1a01ab57b044c925"],
+      "threadsDropped": ["1a06dc373d565699", "1a06a9338ababbe4", "1a068f9d8260aa2d", "1a063b9692c8df14", "1a04a661ac2b6b22", "1a046bbd94a6bf6c", "1a03dc4f85c1d6db", "1a03ab8760964acb", "1a01044942d2fd1b", "1a01ab57b044c925"],
+      "trelloItemsAdded": 4,
+      "notes": "Most threads collected for this card were about unrelated insureds/claims picked up by the scan (Kotaru Chakravarthy/Allstate 000834698317, an unnamed Travelers claim JHM0516, Mary Kranig/Mercury, Mark & Jill Connelly/Farmers, Aisha El-Amin, Rita Aricio, Western Inn Hamilton TDI complaint, Michael & Sandy Teer, and Kayla Harris where Joseph is acting as umpire, not appraiser) - none mention Dennis Sump or claim 53-0C6T-707, so all were dropped. Only 1a058a722503f1c1 and 1a04efa903562904 (plus the shared multi-claim invoice thread 1a06864d6350cdba) are actually this file."
+    }
+  ],
+  "checked": 6,
+  "withNewEvents": 6
+}

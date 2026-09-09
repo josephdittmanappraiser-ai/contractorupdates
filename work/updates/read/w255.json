@@ -1,0 +1,23 @@
+{
+ "batch": 55,
+ "results": [
+  {
+   "cardId": "6a73b5008c66474f04f99229",
+   "newEvents": [
+    {"date": "2026-08-17", "event": "Our office followed up with AAA after calls to the adjuster went unanswered; AAA acknowledged receiving the demand package, and the homeowner contacted AAA directly to request a callback."},
+    {"date": "2026-08-21", "event": "Our office confirmed AAA had not yet named an appraiser, so Joseph could not attend the carrier's reinspection, and asked the contractor to attend in his place."},
+    {"date": "2026-08-27", "event": "Our office followed up on the carrier's inspection results; the contractor confirmed an engineer's inspection was scheduled for August 31 and shared the report AAA had sent."},
+    {"date": "2026-09-03", "event": "Our office followed up on the results of the August 31 engineer inspection; the homeowner reported nothing had come back yet."},
+    {"date": "2026-09-07", "event": "Our office followed up with AAA again, noting 26 days had passed since the demand letter with no appraiser named, and requested a status update."}
+   ],
+   "update": "AAA has confirmed it received our demand package and an engineer inspected the property August 31, but results haven't come back yet, and as of September 7 AAA still hasn't named an appraiser. We're pressing the carrier for both the engineer's findings and an appraiser assignment.",
+   "needed": null,
+   "threadsRead": ["1a07d5113767eb62", "1a07d4ec1924e411", "1a07d4121ed6eb0e", "1a0118d29029fd20", "19ff8209eb8f6e4e", "19ff289df646c056", "19fd297e3b952ad7"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 5,
+   "notes": "Three threads (1a07d511..., 1a07d4ec..., 1a07d412...) were internal staff call-list roundups covering 24 unrelated files, not case correspondence — they only confirm this file's claim number/demand date, already reflected in the 2026-09-07 event, so no separate events were pulled from them. All other threads were genuinely about this insured/claim (017936054, 7027 Isle Royale Lane) — none dropped for wrong-person mismatch."
+  }
+ ],
+ "checked": 1,
+ "withNewEvents": 1
+}

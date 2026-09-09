@@ -1,0 +1,88 @@
+{
+ "batch": 10,
+ "results": [
+  {
+   "cardId": "6998c627152919605db54eaf",
+   "newEvents": [
+    {"date": "2026-09-01", "event": "Joseph followed up on file status; the carrier's appraiser was identified, and a joint site inspection is not expected until around October."}
+   ],
+   "update": "The carrier's opposing appraiser has now been identified, but a joint site inspection is not expected until around October; the file remains in the appraisal process for the roof, solar panels, gutters, and fence.",
+   "needed": null,
+   "threadsRead": ["1a06225e142efd65", "1a05c453dca27f72"],
+   "threadsDropped": ["1a072f77f1ec54c2", "1a06225e142efd65", "1a05936a24369916", "1a01b7ca1dcbeeda"],
+   "trelloItemsAdded": 1,
+   "notes": "Threads 1a072f77f1ec54c2, 1a05936a24369916, 1a01b7ca1dcbeeda were an unrelated SiriusXM newsletter subscription, not claim correspondence. Thread 1a06225e142efd65 (subject 'Delgado...') was about a different insured (Jeason Delgado, State Farm claim) and only coincidentally referenced 'Cohen & Associates Public Adjusters' as the representing PA firm name; it was read then dropped as not belonging to this file."
+  },
+  {
+   "cardId": "69d810b6ea52d817fe480670",
+   "newEvents": [
+    {"date": "2026-08-04", "event": "The contractor sent the certificate of completion, final invoice, and photos of the completed repairs to begin the recoverable depreciation release."},
+    {"date": "2026-08-26", "event": "After the carrier said it had not received the completion paperwork, it was resent and receipt was confirmed, with the carrier beginning its review."},
+    {"date": "2026-09-02", "event": "The carrier confirmed the recoverable depreciation review was complete and the funds have been released, with payment expected within 7-10 business days."}
+   ],
+   "update": "Allstate has confirmed the recoverable depreciation on the completed repairs has been reviewed and released, with payment expected within about a week to ten days.",
+   "needed": null,
+   "threadsRead": ["1a05fe523d5a8c92", "19fced77b754111e", "19f427a4c5123871"],
+   "threadsDropped": ["1a03e39a47ef53a7", "19fdd1dee04e96b4", "19fbf9f38329bf4d"],
+   "trelloItemsAdded": 3,
+   "notes": "Dropped: 1a03e39a47ef53a7 was about a different insured (Peter Mora, Enservio contents report). 19fdd1dee04e96b4 was about a different insured/claim (Griebel, Allied Trust). 19fbf9f38329bf4d was an appraisal invoice for a different insured (Antonio Herrera, same surname only)."
+  },
+  {
+   "cardId": "6a56d8013d395377ff2d6806",
+   "newEvents": [
+    {"date": "2026-08-28", "event": "The carrier sent claim documents (acknowledgment letter, declaration page, proof of loss forms, and coverage decision letter) for review."},
+    {"date": "2026-08-28", "event": "The carrier denied the request for re-inspection, maintaining that the damage is excluded as flood/rising water damage."},
+    {"date": "2026-09-02", "event": "The contractor asked for a status update, noting the homeowner is troubled by the repeated denials."}
+   ],
+   "update": "The carrier has denied the request for re-inspection, standing by its position that the water damage is excluded as flood/rising water damage; the homeowner has received repeated denials and next steps on the file are being reviewed.",
+   "needed": null,
+   "threadsRead": ["1a063696f061c037", "1a0495bbc0499c6b", "1a049001f930196b"],
+   "threadsDropped": ["1a059582ac806363", "1a0736cc9849d26f", "1a03febbc25dba4e", "1a05ec600056de21", "1a06e05b880ce34c", "19fed6444095b93c", "1a06cca35c4a8129", "19fd3bba79c4b343", "1a0687ee57044a8f", "1a068560c228270e", "1a05857f59b8b20b", "1a0640e8a62d1283", "1a059b84363b3db9", "1a059b4aa54f6018", "1a058f20d96aadf2", "19f6bef6867d84c1", "1a049a2ca5f36465"],
+   "trelloItemsAdded": 3,
+   "notes": "This file's collected threads were almost entirely false positives (17 of 20), apparently matched on the surname 'White' appearing in unrelated companies/adjusters (e.g. cwhite@prwhite.com / Paul R. White & Company) rather than the insured. Dropped threads covered other insureds entirely: Kevin Hill (CO), Fatehelrahman Elimam, Choe/TWIA, Derik Disney, Koteshwar Pilla Rao, Edward Nguyen, Jesus Moreno, a generic umpire networking email, David/Courtnie Larson, Kathryn Napoleon, Deselous Napoleon, an 'Estimate Needed Only' file, Brenda Tranchon, and a Leticia Perez inquiry. Only 3 threads (subject 'Randi white' and claim 221749 'WHITE') were genuinely this file."
+  },
+  {
+   "cardId": "6a7a6532c2c9d9c45314518f",
+   "newEvents": [
+    {"date": "2026-08-17", "event": "Followed up with the homeowner asking them to sign the PA Agreement and Letter of Representation."},
+    {"date": "2026-08-18", "event": "Letter of Representation sent to the carrier requesting the claim file."},
+    {"date": "2026-08-19", "event": "The carrier sent its claim acknowledgment and coverage decision letter, and offered to schedule a reinspection."},
+    {"date": "2026-08-24", "event": "The carrier sent the certified copy of the policy."}
+   ],
+   "update": "American Modern has acknowledged the claim and sent its coverage decision letter along with the certified policy; a reinspection can be scheduled if needed, and the file is under review for next steps.",
+   "needed": null,
+   "threadsRead": ["1a015d24e11f3fdf", "1a0100f9e0911b40"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 4,
+   "notes": ""
+  },
+  {
+   "cardId": "6a5572183ca437ad06aa7e9b",
+   "newEvents": [
+    {"date": "2026-08-17", "event": "AAA responded to the appraisal demand; Joseph selected the insured's appraiser and began preparing the appraisal demand letter."},
+    {"date": "2026-08-24", "event": "Letter of Representation sent to AAA, formally taking over the file as the insured's public adjuster."},
+    {"date": "2026-08-28", "event": "The appraisal estimate and supporting photos were submitted to AAA."}
+   ],
+   "update": "AAA has acknowledged the claim, accepted the appraisal, and received the estimate and photos submitted on the file; the insured's appraiser has now been confirmed to AAA so the appraisal can move forward.",
+   "needed": null,
+   "threadsRead": ["1a07205646d1fdb2", "1a049a434c1a3b9e", "1a034aae435be9fb", "1a011adc15fa84bb", "19f86b375717aa32"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 3,
+   "notes": "This card's Chain of Events checklist already had a second, newer 'Chain of Events' checklist with items through 2026-09-05 (carrier acknowledgment 8/28, appraiser-selection request 9/2, and Steven Smallwood named 9/5) that duplicated some of what the emails showed; only the 3 genuinely new items (not already recorded anywhere on the card) were added, to the first/primary checklist."
+  },
+  {
+   "cardId": "69c17ca5f60405a7b8303b49",
+   "newEvents": [
+    {"date": "2026-08-20", "event": "Joseph continued following up to find out whether an appraiser has been named, so the inspection can be scheduled; no response received yet."}
+   ],
+   "update": "The file remains stalled waiting on the other side to name their appraiser so the joint inspection can be scheduled; Joseph has followed up multiple times without a response yet.",
+   "needed": null,
+   "threadsRead": ["19d1b9b741ebea1d"],
+   "threadsDropped": ["1a06d9c3e2543daa", "1a06d7283f487dae", "1a03a5daf41ab0e8", "1a024fcd17b2daf9", "19f86d1ed2f6b709", "19fa670019504325", "19f610f32e021172", "19f2900770f83dfd"],
+   "trelloItemsAdded": 1,
+   "notes": "Only 1 of 10 candidate threads (claim TRS-216752 / 0000216752) was actually this file. The other 8 were false positives on the surname Ruiz across entirely different insureds/claims/carriers: Imran Shaik (Homesite/AFICS, adjuster named Edgar Ruiz), Luz Ruiz, Michael Ruiz & Brianna Lopez (State Farm), and Solomon & April Griffin (Nationwide, associate named Abel Ruiz), plus an unrelated Mejia packout-invoice thread."
+  }
+ ],
+ "checked": 6,
+ "withNewEvents": 6
+}

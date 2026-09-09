@@ -1,0 +1,85 @@
+{
+  "batch": 52,
+  "results": [
+    {
+      "cardId": "6a6a7b9c5d1379b414fadc80",
+      "newEvents": [
+        {"date": "2026-08-26", "event": "The homeowner's family forwarded the carrier's (Steadily) claim response, which approved a small repair estimate that came in under the deductible."},
+        {"date": "2026-09-07", "event": "Office repeated its request to the contractor (first made 8/27) for the EagleView report, damage photos, damage description, and the homeowner's phone number, needed before the claim number can be chased and the demand letter resent."}
+      ],
+      "update": "The homeowner's family forwarded Steadily's claim response, which approved only a small repair estimate below the deductible. Our office has twice asked the contractor for the EagleView report, damage photos, damage description, and the homeowner's phone number, which are still needed before we can chase the carrier for a claim number and get the demand letter resent.",
+      "needed": "Send the EagleView/roof measurement report, damage photos, a brief damage description, and the homeowner's phone number so the demand letter can be resent.",
+      "threadsRead": ["1a03f7835e3b5b89", "1a07d0c4fd2d64de"],
+      "threadsDropped": ["1a07d5113767eb62", "1a07d4ec1924e411", "1a07d4121ed6eb0e", "1a06d20cfbff4916", "1a067fbc0e8bc255", "1a064b1ff0a96e09", "1a05ea696281e43c"],
+      "trelloItemsAdded": 2,
+      "notes": "This insured has at least 6-7 different properties/claims in the mailbox (15040 W 145th Ter, 6711 W 157th Ter, 14003 Goodman St, 15620 Foster St, 6722 W 157th Ter, and this card's 15278 Conser St). Dropped threads about 15620 Foster St (claim 061798649, Cullen & Associates umpire selection) and 6711 W 157th Ter (claim 061798873, Liberty Mutual coverage dispute) as those belong to different addresses/claims. Also dropped three internal staff call-list broadcast emails (mention many files including several Rong Dai properties, not specific to this address) and a 'Rong Dai Photos' email with no address given, which could not be confirmed as this property."
+    },
+    {
+      "cardId": "6a42e1a39872ef2c0c618aff",
+      "newEvents": [
+        {"date": "2026-08-28", "event": "Office sent a third follow-up (after 8/18 and 8/25) asking the contractor whether he'd reviewed the estimate and whether the couple still wants to proceed with the appraisal; no response received."},
+        {"date": "2026-09-07", "event": "Internal review flagged that the estimate remains unapproved and asked to confirm with the contractor whether the couple ever signed the appraisal demand letter in person."}
+      ],
+      "update": "The July 3 estimate for this property is still awaiting the contractor's approval despite follow-ups on August 18, 25 and 28 with no response. We also still need to confirm whether the in-person signing of the appraisal demand letter (the couple's chosen method) ever took place; carrier and claim number remain unknown.",
+      "needed": "Approve the July 3 estimate (or confirm the couple still wants to proceed) and confirm whether the appraisal demand letter was signed in person, so we can move to next steps.",
+      "threadsRead": ["19fa6709ac1e1938", "1a07d0c4fd2d64de"],
+      "threadsDropped": [],
+      "trelloItemsAdded": 2,
+      "notes": ""
+    },
+    {
+      "cardId": "6a2af0a187c0a450a0bfda22",
+      "newEvents": [
+        {"date": "2026-09-07", "event": "Office sent another signature reminder to the homeowner for the appraisal demand letter, noting the file will be closed if he isn't moving forward."}
+      ],
+      "update": "The appraisal demand letter is still unsigned by the homeowner; our office sent another signature reminder on September 7, noting the file will be closed if he isn't moving forward. Carrier and claim number remain unknown and are still needed before we can submit once he signs.",
+      "needed": null,
+      "threadsRead": ["1a07d0c4fd2d64de", "1a05c453dca27f72", "1a0260cf8b4e9d16", "1a01f4047f337f44", "19ff20fd110475d1", "19fdf31936a96b38", "19fdcffcb9fb6b0e", "19fdcb8233b6963d", "19fd8768109f859e", "19fcd534986a9f31", "19fca80dab5707c1"],
+      "threadsDropped": ["1a05c453dca27f72", "1a0260cf8b4e9d16", "1a01f4047f337f44", "19ff20fd110475d1", "19fdf31936a96b38", "19fdcffcb9fb6b0e", "19fdcb8233b6963d", "19fd8768109f859e", "19fcd534986a9f31", "19fca80dab5707c1"],
+      "trelloItemsAdded": 1,
+      "notes": "Ten of the eleven candidate threads turned out to belong to a different insured who also shares the surname Coleman (Nicholas/Jonathan Coleman, Tower Hill Insurance claim 3300577729, 270 Harvest Creek Dr, Uhland TX - a separate Rise Public Adjusting file), plus one LinkedIn notification and one unrelated thread addressed to a 'Deborah' about appraisal award payment calculations. None involve this card's Eric Coleman (Legacy Roofing hail claim). All ten dropped; only the Estimates-Sent action-item thread was genuinely about this file."
+    },
+    {
+      "cardId": "6a7a5303a553ef17b870f622",
+      "newEvents": [
+        {"date": "2026-08-17", "event": "The estimate was sent to State Farm to formally open the appraisal process."},
+        {"date": "2026-08-25", "event": "State Farm assigned a claim specialist and the claim moved under review."},
+        {"date": "2026-09-07", "event": "Office followed up with State Farm asking whether an appraiser has been named; no appraiser named yet, only an automated acknowledgment on record."}
+      ],
+      "update": "State Farm assigned a claim specialist and moved the claim under review on August 25. Our office followed up again on September 7 asking State Farm to name its appraiser, but the only response so far has been an automated acknowledgment - we're still waiting on the carrier.",
+      "needed": null,
+      "threadsRead": ["1a07d2fd2689eb93", "1a00d1f697d4f86e", "19ffabb4d94ed071"],
+      "threadsDropped": [],
+      "trelloItemsAdded": 3,
+      "notes": ""
+    },
+    {
+      "cardId": "69e24d445440bcc948653610",
+      "newEvents": [
+        {"date": "2026-08-25", "event": "The contractor sent completion documentation and job photos for the property; office acknowledged receipt."},
+        {"date": "2026-09-07", "event": "Internal review confirmed the file is well past the point Allstate should have named an appraiser, with no substantive carrier response on record; flagged for phone follow-up."}
+      ],
+      "update": "The contractor submitted completion documentation and job photos on August 25. Allstate still has not named an appraiser more than 49 days after the demand letter went out, and this file has been flagged internally for phone follow-up with the carrier.",
+      "needed": null,
+      "threadsRead": ["1a07d5113767eb62", "1a07d4ec1924e411", "1a07d4ab4b66b464", "1a07d4121ed6eb0e", "1a03995335efdad6", "19ff78a87f3ee760"],
+      "threadsDropped": ["1a07d5113767eb62", "1a07d4ec1924e411", "1a07d4121ed6eb0e"],
+      "trelloItemsAdded": 2,
+      "notes": "Three threads were internal staff call-list broadcast emails covering dozens of unrelated files; while they mention this insured, they are not this file's dedicated correspondence, so no events were drawn from them beyond what the dedicated threads already showed."
+    },
+    {
+      "cardId": "6a299f7cedcd7c3a94099381",
+      "newEvents": [
+        {"date": "2026-09-07", "event": "Office followed up with Allstate (49 days after the demand letter) asking whether an appraiser has been named."},
+        {"date": "2026-09-08", "event": "Allstate replied that the homeowner told them he is not pursuing appraisal and wants to continue through the normal claims process, and that Allstate's file shows no appraisal demand letter was ever received."}
+      ],
+      "update": "Allstate has told us the homeowner said he is not pursuing appraisal and wants to continue through the normal claims process, and that their file does not show ever receiving our demand letter - a conflict worth resolving with the homeowner directly before doing further work on this file.",
+      "needed": "Confirm with the homeowner whether he still wants to pursue the appraisal - Allstate says he told them he does not, and that they never received our demand letter.",
+      "threadsRead": ["1a07d5113767eb62", "1a07d4ec1924e411", "1a07d4ab4b66b464", "1a07d4121ed6eb0e", "19f801724e774de3"],
+      "threadsDropped": ["1a07d5113767eb62", "1a07d4ec1924e411", "1a07d4121ed6eb0e", "1a07d4ab4b66b464"],
+      "trelloItemsAdded": 2,
+      "notes": "Four threads were internal staff call-list broadcast emails covering many files; substantive content came from this file's own dedicated correspondence thread with Allstate instead."
+    }
+  ],
+  "checked": 6,
+  "withNewEvents": 6
+}

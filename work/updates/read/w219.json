@@ -1,0 +1,79 @@
+{
+ "batch": 19,
+ "results": [
+  {
+   "cardId": "69d6e6b3c1770d388f30132a",
+   "newEvents": [
+    {"date": "2026-09-07", "event": "The carrier's appraiser agreed on an umpire, and the signed appraisal agreement was exchanged ahead of the scheduled joint inspection."}
+   ],
+   "update": "The carrier's appraiser has been confirmed, an umpire has been agreed upon, and the signed agreement is in place ahead of the joint property inspection scheduled for September 7.",
+   "needed": null,
+   "threadsRead": ["1a034a2e15a67eec", "1a0226c2f5916f98", "19f14817964325ec", "19d7348b9cb6b58a", "1a01ff9043797ff2"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 1,
+   "notes": "Thread 1a01ff9043797ff2 is a multi-client biweekly digest thread that only briefly references this claim (an appraiser-verification request); its substance is already reflected in the appraiser-confirmation event, so no separate event was added from it."
+  },
+  {
+   "cardId": "6a564ca75275822b96fca2a8",
+   "newEvents": [
+    {"date": "2026-09-07", "event": "Denny Martin's scheduler reconfirmed Denny Martin for the joint inspection taking place that day."}
+   ],
+   "update": "The umpire has been selected, the signed agreement is in place, and a joint property inspection with the carrier's appraiser is confirmed for September 7.",
+   "needed": null,
+   "threadsRead": ["1a03a5daf41ab0e8", "19fa9af7c64e36e3", "19f610f32e021172"],
+   "threadsDropped": ["1a06d9c3e2543daa", "1a06d7283f487dae", "1a024fcd17b2daf9", "19f86d1ed2f6b709", "19fa670019504325"],
+   "trelloItemsAdded": 1,
+   "notes": "Dropped threads belonged to other insureds/claims picked up on surname or claim-number fragment matches: 1a06d9c3e2543daa and 1a06d7283f487dae concern a Solomon & April Griffin claim (Nationwide); 1a024fcd17b2daf9 concerns a Mejia claim's packout invoices; 19f86d1ed2f6b709 concerns Imran Shaik's Homesite claim; 19fa670019504325 concerns a different homeowner, Luz Ruiz, who ultimately declined to pursue appraisal."
+  },
+  {
+   "cardId": "6a2c2e60d5ab2c05704c4c1d",
+   "newEvents": [
+    {"date": "2026-08-11", "event": "Joseph's office received the carrier's appraiser's position on the claim; it is now under review."},
+    {"date": "2026-09-02", "event": "The carrier's appraiser is still coordinating a re-inspection of the roof after their inspector was unable to deliver a report; the most recently proposed date was not confirmed by the homeowner and will need to be rescheduled."}
+   ],
+   "update": "The carrier's appraiser has submitted their position, which is under review, while a re-inspection of the roof on the carrier's side is still being rescheduled after the homeowner did not confirm the most recent proposed date.",
+   "needed": null,
+   "threadsRead": ["19f1ad9fdfb578be", "19ebc6387af51108", "19fb465d5490859e", "19fa52317ea8b600"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 2,
+   "notes": ""
+  },
+  {
+   "cardId": "6a4be23dc6e8dfa71821f45a",
+   "newEvents": [],
+   "update": "The carrier's appraiser has our position and photo report and is still completing his review; he said in early September he would finish once he returns from other inspections.",
+   "needed": null,
+   "threadsRead": ["19f3d3b5a921512e"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 0,
+   "notes": "All new content in this thread (our position sent July 29, follow-up September 5) was already reflected in the Trello checklist, so no new items were added."
+  },
+  {
+   "cardId": "6a7a119d2eceb51184288445",
+   "newEvents": [],
+   "update": "The signed agreement is in place, an umpire has been selected, and the completed inspection with our position have been sent to the carrier's appraiser following the September 2 inspection.",
+   "needed": null,
+   "threadsRead": ["1a03e832843f1ae5", "1a016bdfe0fb94c8", "1a014fcca8086139"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 0,
+   "notes": "All new content across these threads (umpire selection, signed agreement, September 2 inspection, and our position/photo report sent September 5) was already reflected in the Trello checklist, so no new items were added."
+  },
+  {
+   "cardId": "69d59926aca942018e05acb7",
+   "newEvents": [
+    {"date": "2026-08-18", "event": "Joseph's office followed up with the carrier's appraiser for a status update; he said he'd have his position ready by the end of the week."},
+    {"date": "2026-08-18", "event": "The homeowner forwarded documentation showing the original window color is discontinued and cannot be matched, supporting the case for full window replacement."},
+    {"date": "2026-09-03", "event": "Joseph's office sent our position and photo report to the carrier's appraiser."},
+    {"date": "2026-09-05", "event": "Joseph's office followed up asking when the carrier's appraiser's position would be ready."}
+   ],
+   "update": "Our position and photo report have been sent to the carrier's appraiser, along with documentation supporting full window replacement due to a discontinued color match; we are now waiting on the carrier's appraiser to send back his position.",
+   "needed": null,
+   "threadsRead": ["19e29a200c838eab", "1a01678f99c8d792", "1a0167a15f16fc06"],
+   "threadsDropped": ["1a079ea21963bce7", "1a0276e8be9ecf32", "1a062a352e64f803", "1a03a1283b4f0672", "1a0161cf01663f16", "19fda2ab664a4ab4", "19fd7c2b3487c9f0", "19fd4c2c05a62fed", "19fc48339db6b4a8"],
+   "trelloItemsAdded": 4,
+   "notes": "This claim number and the surname 'Garza' matched many unrelated threads picked up by the scan. Dropped as belonging to other insureds/claims entirely: 1a079ea21963bce7 (Agustin Contreras Ledesma), 1a0276e8be9ecf32 (Jorge Valenzuela), 1a062a352e64f803 (Luis Olivo/Allstate claim naming Benjamin Dittman), 1a03a1283b4f0672 (a separate 'De La Garza' claim), 19fda2ab664a4ab4 (a separate 'Juan Garza' claim, also just an out-of-office auto-reply), 19fd7c2b3487c9f0 (Beshay), 19fd4c2c05a62fed (a signed award for a different Garza matter with no matching claim number), 19fc48339db6b4a8 (Pastrana). 1a0161cf01663f16 is an unrelated real-estate closing (title company), not an insurance appraisal matter at all."
+  }
+ ],
+ "checked": 6,
+ "withNewEvents": 4
+}

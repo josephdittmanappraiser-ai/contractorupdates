@@ -1,0 +1,73 @@
+{"batch":38,"results":[
+{"cardId":"6a2c512033cb0ef082d1cb10",
+ "newEvents":[
+   {"date":"2026-08-17","event":"Joseph's office told the contractor the carrier's appraiser's position had been received and was under review."},
+   {"date":"2026-08-29","event":"Joseph sent our position and estimate to the carrier's appraiser for review."},
+   {"date":"2026-08-31","event":"The carrier's appraiser disagreed with our estimate, particularly on the tile roof scope, and raised invoking the umpire."},
+   {"date":"2026-09-03","event":"The umpire's invoice was forwarded to the contractor for review and payment."}
+ ],
+ "update":"The carrier's appraiser rejected our tile-roof position and the file moved into umpire review; the umpire accepted the assignment, exchanged the signed agreement, and his invoice has gone out for payment.",
+ "needed":"Review and pay the umpire's invoice that was forwarded on September 3.",
+ "threadsRead":["1a0684f669ab19f1","1a05cf9ad08ae815","1a007cfb103f8c22","19f00b8fb729d275"],
+ "threadsDropped":[],
+ "trelloItemsAdded":4,
+ "notes":""},
+
+{"cardId":"69a6fbeff06aa9b43aa2a40e",
+ "newEvents":[],
+ "update":"The file remains with the umpire, Jerry Daniels, following confirmation that both umpire invoices were paid; no new activity specific to this file surfaced this week.",
+ "needed":null,
+ "threadsRead":[],
+ "threadsDropped":["19fc48339db6b4a8","19c34f0a5a68fe38"],
+ "trelloItemsAdded":0,
+ "notes":"Both candidate threads were dropped: 19fc48339db6b4a8 is an unrelated appraisal-invoice thread for a different insured (Pastrana); 19c34f0a5a68fe38 is a shared multi-file scheduling-reminder thread whose post-searchAfter messages concern other insureds, not the Weirs."},
+
+{"cardId":"69e15f85f9121db5bcca036f",
+ "newEvents":[
+   {"date":"2026-08-17","event":"The homeowner confirmed the September 9 umpire inspection including interior access, and Joseph's office relayed that date to the insured's legal team after their client asked about it directly."}
+ ],
+ "update":"The file is set for a full-panel umpire inspection on September 9 with interior access confirmed by the homeowner; next step is that inspection taking place and the umpire issuing his findings.",
+ "needed":null,
+ "threadsRead":["19e6afa9ee81a731","19d96e776b1054a4"],
+ "threadsDropped":["19fc48339db6b4a8"],
+ "trelloItemsAdded":1,
+ "notes":"Dropped 19fc48339db6b4a8 (unrelated Pastrana invoice thread)."},
+
+{"cardId":"69d58031b4e858e988cc3aee",
+ "newEvents":[
+   {"date":"2026-08-18","event":"The panel confirmed September 8 at 10:00 AM for the inspection, and the homeowner confirmed that (exterior-only) date."},
+   {"date":"2026-08-24","event":"Joseph requested to reschedule the September 8 inspection due to a scheduling conflict."},
+   {"date":"2026-08-28","event":"A new panel inspection date of September 21 at 10:00 AM was set and confirmed by the homeowner."}
+ ],
+ "update":"After an initial panel inspection date of September 8 had to be rescheduled, the panel and homeowner have confirmed a new inspection date of September 21.",
+ "needed":null,
+ "threadsRead":["19d82a445084e4ec","19d6d9bf37fd24e2"],
+ "threadsDropped":["19fc48339db6b4a8","19c34f0a5a68fe38"],
+ "trelloItemsAdded":3,
+ "notes":"Dropped 19fc48339db6b4a8 (unrelated Pastrana invoice thread); 19c34f0a5a68fe38 (shared scheduling-reminder thread with no Davila-specific content after searchAfter)."},
+
+{"cardId":"69ebd61c1dd6e6239c560383",
+ "newEvents":[
+   {"date":"2026-08-18","event":"The carrier's appraiser and the umpire both confirmed September 16 at 10:00 AM for the panel inspection."},
+   {"date":"2026-09-07","event":"The contractor asked for a status update; Joseph's office confirmed the panel inspection remains scheduled for September 16."}
+ ],
+ "update":"The panel inspection is now confirmed for September 16 at 10:00 AM; the contractor checked in this week and was given that date.",
+ "needed":null,
+ "threadsRead":["1a07c7fa828d9e15","19f65de3bb6874a2"],
+ "threadsDropped":[],
+ "trelloItemsAdded":2,
+ "notes":""},
+
+{"cardId":"69ea406acf6619e5f819709f",
+ "newEvents":[
+   {"date":"2026-08-13","event":"The umpire confirmed the carrier's portion of his fee had arrived."},
+   {"date":"2026-08-28","event":"The umpire confirmed payment had been received from both sides and, together with Joseph and the carrier's appraiser, the panel set the umpire inspection for September 22 at 12:00 PM."}
+ ],
+ "update":"With both sides' umpire payments confirmed, the panel inspection is set for September 22 at 12:00 PM (interior access required); the homeowner asked to move it a day earlier but ultimately kept the original date.",
+ "needed":null,
+ "threadsRead":["19fcc39f2127d218","19dbac3cd8c94fdc","1a03474947b844a4"],
+ "threadsDropped":[],
+ "trelloItemsAdded":2,
+ "notes":""}
+],
+"checked":6,"withNewEvents":5}

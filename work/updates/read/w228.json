@@ -1,0 +1,99 @@
+{
+ "batch": 28,
+ "results": [
+  {
+   "cardId": "6a4ae78e45a16a686b82dfd7",
+   "newEvents": [
+    {"date": "2026-08-05", "event": "A joint inspection of the property was conducted with the carrier's appraiser."},
+    {"date": "2026-08-06", "event": "Our estimate and supporting photo documentation were sent to the carrier's appraiser for review."},
+    {"date": "2026-08-25", "event": "We followed up with the carrier's appraiser for a status update after receiving no response."},
+    {"date": "2026-09-04", "event": "The carrier's appraiser sent his own estimate and photo report, agreeing there was wind damage warranting repair but disputing hail damage, and proposed an umpire, asking for our position in response."}
+   ],
+   "update": "The carrier's appraiser inspected the property jointly with us on August 5, and we sent over our estimate and photos the next day. After follow-ups with no response, he finally sent back his own numbers on September 4 - agreeing there's wind damage warranting repair but disputing hail damage - and proposed an umpire. We're reviewing his position now and will let you know how we plan to proceed.",
+   "needed": null,
+   "threadsRead": ["1a06a9a82727dd4d", "19fab018114eeebf", "19f2ff3bf4f610c4"],
+   "threadsDropped": ["19fed6444095b93c", "19f8ada5ace59590", "1a03af43174e8402", "19ff0b4fed2d0312", "19ffb4f0d13ad6c1", "1a07c16d6bb29478"],
+   "trelloItemsAdded": 4,
+   "notes": "Dropped threads belong to other files: 19fed6444095b93c, 19f8ada5ace59590, 1a03af43174e8402 and 19ff0b4fed2d0312 are all Derik Disney's claim (5042515496-1-1), not Amit Jain. 19ffb4f0d13ad6c1 is an unrelated Sirridge/Olathe KS mutual-appraisal file. 1a07c16d6bb29478 was an erroneous internal test email listing five unrelated files that does not mention Amit Jain at all."
+  },
+  {
+   "cardId": "6a5abfa555133919fdfa8718",
+   "newEvents": [
+    {"date": "2026-08-17", "event": "The signed agreement with the carrier's appraiser was finalized, with an umpire agreed upon in case one is needed."},
+    {"date": "2026-08-25", "event": "The contractor sent roof photo documentation for the property."},
+    {"date": "2026-08-26", "event": "The carrier's appraiser inspected the property."},
+    {"date": "2026-09-02", "event": "The carrier's appraiser sent his position, including a proposed award, after finding some additional damage during his inspection (paint, garage door, gutters, and roof metal)."},
+    {"date": "2026-09-04", "event": "We asked the carrier's appraiser to reconsider a few more items, and he revised his position to include some of them; if the remaining items aren't resolved, the file may go to the umpire."},
+    {"date": "2026-09-04", "event": "The contractor confirmed the main house roof was already fully photographed and that the shed roof could not be reached due to a tree and bush blocking access."}
+   ],
+   "update": "The appraisal is moving quickly - the signed agreement and umpire were finalized in mid-August, the carrier's appraiser inspected the property on August 26, and by September 2 he'd sent his own position, which included some added damage he found on inspection. We pushed back on a few items and he agreed to add some of them; if we can't close the rest of the gap, this may go to the umpire next.",
+   "needed": null,
+   "threadsRead": ["19fed6444095b93c", "1a03af43174e8402"],
+   "threadsDropped": ["1a07c16d6bb29478", "19ffb4f0d13ad6c1"],
+   "trelloItemsAdded": 6,
+   "notes": "1a07c16d6bb29478 was an erroneous internal test email that only name-checked Derik Disney in a reply, with no actual claim content - dropped. 19ffb4f0d13ad6c1 belongs to an unrelated Sirridge/Olathe KS mutual-appraisal file - dropped."
+  },
+  {
+   "cardId": "6a62943cf62e844fab3e5082",
+   "newEvents": [
+    {"date": "2026-08-20", "event": "Our estimate and a partial settlement letter were sent to the insurance adjuster reviewing this claim."},
+    {"date": "2026-08-20", "event": "Joseph personally inspected the property (exterior only), following an earlier inspection by the carrier's appraiser."},
+    {"date": "2026-08-29", "event": "Our position and supporting photo documentation were sent to the carrier's appraiser."},
+    {"date": "2026-09-03", "event": "The carrier's appraiser sent back his position."},
+    {"date": "2026-09-04", "event": "We reviewed his position and asked him to add a few items (supervision, gutter replacement, fence cleaning, and debris removal); we're waiting on his response."}
+   ],
+   "update": "Both inspections are done - the carrier's appraiser looked at the property August 14 and Joseph followed on August 20. Our position went out August 29, and the carrier's appraiser sent his numbers back September 3. We've asked him to add a few items we felt were missed and are waiting to hear back.",
+   "needed": null,
+   "threadsRead": ["1a020815eb622749", "19ff76fd3cbc0bbb", "19ff8853826dcece"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 2,
+   "notes": "The position-sent (8/29), carrier-position-received (9/3), and reconsider-items (9/4) events were already on the Trello checklist from a prior pass, so only the two genuinely new items (the 8/20 estimate/settlement letter to the adjuster, and Joseph's own 8/20 inspection) were added there."
+  },
+  {
+   "cardId": "6a4daacf8d70f33b661b3c96",
+   "newEvents": [
+    {"date": "2026-07-24", "event": "A solo inspection with the carrier's appraiser was scheduled for August 18 and confirmed by the homeowner with interior access."},
+    {"date": "2026-08-18", "event": "The carrier's appraiser conducted the solo inspection of the property."},
+    {"date": "2026-09-03", "event": "The carrier's appraiser sent over his position for the repairs, including a proposed award."},
+    {"date": "2026-09-04", "event": "We reviewed his position and asked him to reconsider a few items; he responded with his assessment of the additional scope requested (gutters, fence staining, and a small interior repair)."}
+   ],
+   "update": "The carrier's appraiser inspected the property on August 18, and by September 3 had sent over his position along with a proposed award. We asked him to take another look at a few items - gutters, fence staining, and a small interior repair - and he's responded; we're working through the remaining details now.",
+   "needed": null,
+   "threadsRead": ["19f814702df807d1"],
+   "threadsDropped": ["1a07d5113767eb62", "1a07d4ec1924e411", "1a07d4121ed6eb0e", "1a079ea21963bce7", "1a0701478aa574aa", "1a062c13f06f95f5", "1a062bb70cb5b803", "1a062b7cc76e29a4", "1a062a8035d6323c", "1a0629f6d002a00e"],
+   "trelloItemsAdded": 0,
+   "notes": "All four events found were already present on the Trello checklist from a prior pass (inspection scheduling/confirmation, the appraiser attending, his position and award, and the reconsideration exchange), so nothing new was added there. Nine of the fourteen candidate threads had nothing to do with Sean Cooper: three were internal status-tracking emails about a batch of unrelated files; one was about a different claim (Agustin Contreras Ledesma); one was about a different Cooper (Rachael Cooper, claim 012381196-801); and five were all about Faris Farassati's various properties, matched only because the adjuster on those files happens to be named Brian Cooper. All dropped."
+  },
+  {
+   "cardId": "6a20b302452677803b649e18",
+   "newEvents": [
+    {"date": "2026-08-12", "event": "The carrier's appraiser inspected the property (solo inspection)."},
+    {"date": "2026-08-25", "event": "The carrier's appraiser sent his photo documentation and position/estimate for review."},
+    {"date": "2026-08-25", "event": "We asked him to review and add a few additional roofing items; he agreed to review and asked for our own position estimate in return."},
+    {"date": "2026-09-03", "event": "We sent our position/estimate to the carrier's appraiser as requested."}
+   ],
+   "update": "The carrier's appraiser inspected the property in mid-August and sent over his numbers by August 25. We asked him to add a few items, and he asked for our own position in return - which we sent on September 3. We're now waiting on his response to see where the gap stands.",
+   "needed": null,
+   "threadsRead": ["19fcdedc35b0d0c7"],
+   "threadsDropped": ["1a03f30fd8fdb413", "19ffbf8ef51c9f70", "19ff2b0b4e6321b4", "19fed0691db3054c"],
+   "trelloItemsAdded": 4,
+   "notes": "Four of the five candidate threads were about different people entirely, matched only on the surname Trevino: two are about a Curtis Redwine claim handled by an adjuster named Rene Trevino, and two are about a different insured, Jose Trevino. None mention Roosevelt Trevino or claim 00108712684. All dropped."
+  },
+  {
+   "cardId": "6a2b3d5638100479a306c7a2",
+   "newEvents": [
+    {"date": "2026-08-26", "event": "The opposing appraiser sent over his position along with an engineer's report and supporting photos."},
+    {"date": "2026-08-27", "event": "Our own inspection of the property was completed (interior access), including floor plan renderings and photo documentation."},
+    {"date": "2026-08-28", "event": "We confirmed to the referring attorney that the opposing position had been received and was under review."}
+   ],
+   "update": "Both sides have now inspected the property and exchanged positions - the opposing appraiser sent his estimate, an engineer's report, and photos on August 26, and our own inspection followed on August 27. We're reviewing everything now; if the gap doesn't close, this file may need to go to the umpire next.",
+   "needed": null,
+   "threadsRead": ["1a0597bc40a4aae8", "1a047badc5a54624", "19f665da1dc2d8f7", "19ebd384d28d024c"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 3,
+   "notes": ""
+  }
+ ],
+ "checked": 6,
+ "withNewEvents": 6
+}
