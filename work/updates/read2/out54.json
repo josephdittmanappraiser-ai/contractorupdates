@@ -1,0 +1,90 @@
+{
+ "batch": 54,
+ "results": [
+  {
+   "cardId": "6a63c4350fa816aab4ffafb8",
+   "newEvents": [
+    {"date": "2026-08-19", "event": "Country Financial responded that it will not name an appraiser until we outline the specific items in dispute with supporting documentation."},
+    {"date": "2026-08-20", "event": "Sent supporting photos to Country Financial; the carrier again asked us to specify exactly what is being appraised."},
+    {"date": "2026-08-24", "event": "Our position outlining the items to be appraised was sent to Country Financial."},
+    {"date": "2026-09-01", "event": "Followed up to check whether Country Financial had responded to our position; no response had been received yet."},
+    {"date": "2026-09-07", "event": "Sent a formal follow-up to Country Financial noting the demand is now well past due and asking them to confirm or name an appraiser."}
+   ],
+   "update": "Country Financial required a clear outline of the disputed items before it would consider naming an appraiser; we sent supporting photos and our position in August, and this week sent a formal follow-up since the file is now well past the original demand deadline with no appraiser named.",
+   "needed": null,
+   "threadsRead": ["1a07d5113767eb62", "1a07d4ec1924e411", "1a07d4121ed6eb0e", "19fb084342e7caed"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 5,
+   "notes": ""
+  },
+  {
+   "cardId": "6a637d5922bae829574ab521",
+   "newEvents": [
+    {"date": "2026-08-19", "event": "Allied Trust asked for photos of the damage, which were provided to them."},
+    {"date": "2026-09-02", "event": "Allied Trust told us it was reviewing the photos and estimate and would update the homeowner that week."},
+    {"date": "2026-09-07", "event": "Sent a formal follow-up to Allied Trust noting the demand is now well past due and asking whether an appraiser has been named."},
+    {"date": "2026-09-08", "event": "Allied Trust said it is reviewing the claim directly with the homeowner and will name an appraiser if it cannot resolve it; we pushed to expedite and the adjuster agreed to push for a resolution by the end of the week."}
+   ],
+   "update": "Allied Trust has been reviewing photos and our position directly with the homeowner and told us this week it will only name an appraiser if it can't resolve the claim on its own; we pushed for an update and the adjuster committed to a resolution by the end of the week.",
+   "needed": null,
+   "threadsRead": ["1a07d5113767eb62", "1a07d4ec1924e411", "1a07d4121ed6eb0e", "1a06341956b56f9b", "19fd3b2f06493bb3", "19fcdebe6aaff7bf"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 4,
+   "notes": ""
+  },
+  {
+   "cardId": "6a6a7921b317e23973a9cdfe",
+   "newEvents": [
+    {"date": "2026-09-07", "event": "The claim remains without a named appraiser from Liberty Mutual, now more than a month past the appraisal demand."}
+   ],
+   "update": "This file remains stalled waiting on Liberty Mutual to name an appraiser — as of this week it is still over a month past the demand letter with no appraiser named. No action is needed from us until the carrier responds.",
+   "needed": null,
+   "threadsRead": ["1a07d5113767eb62", "1a07d4ec1924e411", "1a07d4121ed6eb0e", "1a07d0c4fd2d64de", "1a06d20cfbff4916", "1a067fbc0e8bc255", "1a064b1ff0a96e09", "1a05ea696281e43c", "1a03f7835e3b5b89"],
+   "threadsDropped": ["1a07d0c4fd2d64de", "1a06d20cfbff4916", "1a067fbc0e8bc255", "1a064b1ff0a96e09", "1a05ea696281e43c", "1a03f7835e3b5b89"],
+   "trelloItemsAdded": 1,
+   "notes": "This card is claim 061798958 (one of several properties this landlord has appraisals on). The six dropped threads all concern other properties/claims for the same landlord (a Foster St claim, two different W 157th Ter claims, and a Conser St claim under a different insured name) and were not about this file."
+  },
+  {
+   "cardId": "6a6a85e2f0bc15b089b1001c",
+   "newEvents": [
+    {"date": "2026-08-24", "event": "USAA's manager said the file would get a reinspection before moving forward with the appraisal; the contractor's contact info was provided to coordinate scheduling."},
+    {"date": "2026-09-03", "event": "The homeowner was asked to resend his request to USAA with only the claim number in the subject line, after adjuster calls kept going to voicemail, to help it reach the right department."},
+    {"date": "2026-09-07", "event": "Sent a formal follow-up to USAA noting the demand is now well past due and asking whether an appraiser has been named."}
+   ],
+   "update": "USAA agreed to reinspect the property before moving the appraisal forward, but scheduling has stalled despite repeated follow-ups; this week we sent a formal notice that the file is now a month past due with no appraiser named.",
+   "needed": null,
+   "threadsRead": ["1a07d5113767eb62", "1a07d4ec1924e411", "1a07d4121ed6eb0e", "1a0786559777e35a", "1a03b1b3b87133af", "19fddf4f4abd6f2a"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 3,
+   "notes": ""
+  },
+  {
+   "cardId": "6a557535ac17ff1b5bdc07d9",
+   "newEvents": [
+    {"date": "2026-08-26", "event": "The contractor's contact information was shared with Allstate to schedule the reinspection directly."},
+    {"date": "2026-08-28", "event": "Allstate said the originally selected reinspection time was unavailable and would contact the contractor directly to reschedule."},
+    {"date": "2026-09-03", "event": "The reinspection was rescheduled with the contractor for September 9."}
+   ],
+   "update": "Allstate's reinspection got rescheduled after the first date fell through; the contractor is now set to meet Allstate's inspector on September 9. No action is needed from us until that inspection happens.",
+   "needed": null,
+   "threadsRead": ["1a07d5113767eb62", "1a07d4ec1924e411", "1a07d4121ed6eb0e", "1a027252174c5847", "1a00feb63066e600", "19fe5bd85e20647a"],
+   "threadsDropped": ["1a027252174c5847", "1a00feb63066e600"],
+   "trelloItemsAdded": 3,
+   "notes": "Threads 1a027252174c5847 (claim EV2026042511, insured Basilio A Miranda, Trident Claims) and 1a00feb63066e600 (claim 5043590830-1, Mid-Century Insurance) were dropped — both are a different insured/claim than this file's Gloria Miranda / Allstate claim 0828700435, matched only on the shared surname."
+  },
+  {
+   "cardId": "6a693f92ba536d5f0d846583",
+   "newEvents": [
+    {"date": "2026-09-07", "event": "Sent a formal follow-up to Allstate noting the demand is now well past due and asking whether an appraiser has been named."}
+   ],
+   "update": "Allstate is reviewing a supplemental document it uploaded to the claim portal in early September; we sent a formal follow-up this week since the file is now well past due with no appraiser named.",
+   "needed": null,
+   "threadsRead": ["1a07d5113767eb62", "1a07d4ec1924e411", "1a07d4121ed6eb0e", "19fedac0c71b087a", "19fb710f44159eb8"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 1,
+   "notes": ""
+  }
+ ],
+ "checked": 6,
+ "withNewEvents": 6
+}
