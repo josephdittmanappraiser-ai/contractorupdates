@@ -479,7 +479,7 @@ for _f in (sorted(glob.glob(os.path.join(_UP, 'verify', 'out*.json')))
         continue
     for _r in (_d.get('results') if isinstance(_d, dict) else _d) or []:
         _cid = (_r.get('cardId') or '').strip()
-        if not _cid or not (_r.get('hasNewer') or _r.get('newEvents')):
+        if not _cid or not (_r.get('hasNewer') or _r.get('newEvents') or _r.get('staleReason')):
             continue
         _base = ENRICH.setdefault(_cid, {'cardId': _cid, 'timeline': []})
         _tl = list(_base.get('timeline') or [])
@@ -495,12 +495,17 @@ for _f in (sorted(glob.glob(os.path.join(_UP, 'verify', 'out*.json')))
             _base['update'] = _r['update']
         if 'needed' in _r:
             _base['needed'] = _r['needed']
+        # A record that only explains a gap (settled file out of freshening scope,
+        # or a scan/read pass that positively confirmed nothing new) carries no
+        # events of its own -- it must not silently vanish for want of one.
+        if _r.get('staleReason'):
+            _base['staleReason'] = _r['staleReason']
 
 
 def main(csv_path, outdir='work/pages'):
     rows = list(csv.DictReader(open(csv_path, encoding='utf-8-sig')))
     os.makedirs(outdir, exist_ok=True)
-    updated = "Saturday, August 15, 2026"
+    updated = AS_OF.strftime("%A, %B ") + str(AS_OF.day) + AS_OF.strftime(", %Y")
 
     buckets = collections.defaultdict(lambda: collections.defaultdict(list))
     dropped = collections.Counter()
