@@ -74,3 +74,70 @@ Resolved since 2026-09-05: Blanca Cazares and Huy Hoang / Huy Trong Hoang, previ
 Data-quality notes for Joseph to spot-check:
 - Thread 1a07902b7d2e81ba (No Stress Claims bulk status-check reply) bundles 3+ separate files in one email — the subagent could not safely split it onto individual cards without a clearer per-insured breakdown, so it went to the unmatched list as one entry covering all three claims above.
 - Threads 1a07712c32b68d3d and 1a06d882f3c314bf (TWIA claim 1275532) both matched the same card, "WILLIAM and ANNETTA WOMACK - 09-08" — worth confirming that's the right card given the claim correspondence goes through M&M Build Group / Bill Womack (Invesco), not directly through a Womack household contact.
+
+2026-09-09 | 255 threads scanned | 184 logged | 55 unmatched | 5 skipped as noise, 12 skipped as duplicate
+
+Discovery found 296 threads matching `newer_than:1d` across 6 pages; 41 were dropped before dispatch as
+plain non-dialogue noise (invoicely payment notifications, iink bank-transfer notifications, DocuSign/
+Adobe Sign/signNow e-signature confirmations, State Farm/Allstate auto-replies and portal boilerplate,
+SiriusXM/choicehotels/awin/LinkedIn marketing, CompanyCam, a mail-bounce). The remaining 255 were
+dispatched to 43 `sonnet` subagents (~6 threads each, all concurrent); 7 batches hit this session's
+20-concurrent-subagent cap on the first dispatch and were retried once slots freed — all 43 completed.
+
+Unmatched insureds named in email with no card on the Insured Appraisals board:
+- Bart McKay — still open from prior runs (2026-09-05)
+- Albert Rodriguez / Steven Rodriguez (Legacy Roofing GC roof inspection/report threads)
+- Geoffrey and Latisha Mburu (State Farm claim 53-0B4Z-843) — the claim itself was flagged unmatched on 2026-09-05 too
+- Yolanda Reyes (Texas Bulldog Law deposition threads; two separate threads, same gap)
+- Patrick Masota
+- Sharon Peter (vs. Travelers)
+- Western Inn / Western Inn Hamilton — looks like a new commercial claim (Great Lakes Insurance SE), not yet on the board
+- Irma Muralles Ortiz & Gustavo Adolfo Contreras (Missouri City, TX, claim 1622936) — still open from 2026-09-05
+- Raquel Garcia / Hernandez
+- Landgrebe (Riverstone BC umpire service request)
+- Alfredo Rincon (only a different "Alexander Rincon" card exists)
+- Kathryn Napoleon / Deselous Napoleon (Pearland, TX — two related Napoleon claims, neither matched cleanly)
+- Cengiz Satir
+- Roel Garcia (Acculynx photos)
+- Bill Womack / TWIA claim 1275532 re-assignment thread (separate from the already-logged Womack card)
+- Texco Roofing demand-letter thread — insured not named
+- Ziqi Wang / Jane Huang
+- Meghana & Karan Wadhwani
+- Cadalia Gonsales and Eliakim Gonsales
+- Ann & Tom Bierschenk
+- Willy Coulter
+- Peter Sharon
+- Benjamin Jackson
+- Richard and Phyllis Pender
+- Cook/Benavidez
+- Besa
+- Kishore Vine
+- Imran Shaik
+- Jeff & Francine Perez
+- Abilene Swimming Club, Inc. (commercial insured)
+- 300 Quarry Rock CV, Liberty Hill — still open from prior runs, insured name not stated in thread
+- Tim Redwine (Legacy Roofing claim-status thread) — still open from prior runs
+- State Farm claim 43-97L7-57D — insured not named in thread
+- Foremost claim 5043827229-1 — insured not named in thread
+- Allstate claim 000795806488 — insured not named in thread
+- Travelers claim A3G4425 — insured not named in thread
+- Crawford & Company claim 036322810-800 — insured not named in thread
+- Travelers claim JHM0516 — still open from 2026-09-05, insured not named in thread
+- Legacy Roofing GC denial letter, claim 53-0M6M-778 — insured not named in thread
+
+Resolved since 2026-09-05/07: nothing newly confirmed resolved this run — several names above (Bart McKay,
+Irma Muralles Ortiz/Gustavo Adolfo Contreras, Travelers JHM0516, 300 Quarry Rock CV) are the same gaps
+recurring across multiple runs and likely need a card created or an existing card's name corrected.
+
+Data-quality notes for Joseph to spot-check:
+- Two subagent runs (batches covering Andrei/Marie Estacio, KAL SHAH, JOSE VILLALTA, ROXANNE DYLLA;
+  and Scott Povlick, Edgar Garcia Valdez, Rachel Cooper, Mazen Nabil Doha) reported that this session's
+  safety classifier was rate-limited during their self-review step — their actions are very likely fine
+  (both reported clean completions with specific per-card results) but are flagged for a spot-check.
+- Thread 1a0815fd34f0a734 (Roxanna North bulk status-check) bundled 4 separate insureds (Britney
+  Menchaca, Jason and Leticia Sharp, Jeanette Miranda, Jin Baik) — the same item was logged once on
+  each of the 4 matching cards rather than invented as a single combined entry.
+- Threads 19f60c365031ba7e and 19f168df5061d378 (Tania Morei umpire pick) turned out to be the same
+  underlying Gmail thread reached via two different search hits — logged once, second marked duplicate.
+- Batch 9's subagent reported it had to correct an initial mis-placement before finishing (cross-checked
+  and re-verified in place) — worth a glance at the KAL SHAH / JEREMY CHAMPAGNE / ROXANNE DYLLA cards.
