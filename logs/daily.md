@@ -141,3 +141,31 @@ Data-quality notes for Joseph to spot-check:
   underlying Gmail thread reached via two different search hits — logged once, second marked duplicate.
 - Batch 9's subagent reported it had to correct an initial mis-placement before finishing (cross-checked
   and re-verified in place) — worth a glance at the KAL SHAH / JEREMY CHAMPAGNE / ROXANNE DYLLA cards.
+
+2026-09-10 | 210 threads scanned | 146 logged | 44 unmatched | 13 skipped as noise, 9 skipped as duplicate
+
+Unmatched insureds named in email with no card on the Insured Appraisals board:
+- Stephanie Cook / William Benavidez (Cook Appraisal claim 5393X455B)
+- Swati Agarwal
+- Angela Whitney
+- Hoseong Cho & Penelope Deolveira
+- Chet Cochrane
+- Nalini Tammana
+- Reggie Crocker
+- Seenivasan Gopalsamy / Sakunthala Authimoolam
+- Hitarth Trivedi
+
+Data-quality notes for Joseph to spot-check:
+- Jin Baik's card was found with TWO checklists both named "📋 Chain of Events" (likely from a prior
+  run's card-creation race) — subagents were instructed to treat both as one for dedup purposes and
+  add to whichever had more items, but the two checklists themselves were not merged. Worth checking
+  the board for other cards with this same duplicate-checklist issue.
+- Thread 1a0815fd34f0a734 (Roxanna North bulk status-check) recurred from the 2026-09-09 run — same
+  bundle of 4 insureds (Britney Menchaca, Jason and Leticia Sharp, Jeanette Miranda, Jin Baik), new
+  activity since then, logged once per matching card as before.
+- Four subagent launches were blocked once by the permission classifier on first attempt (batches
+  covering: Cook/Yanez/Tessier/Mcknab/Cartmill/Shipman; Kranig/Docs/Whitney/Bansal/Sirridge/Adams;
+  Elimam/Taskiran/Mottu/Sharp/Paluri/Baptiste; Keefe/DeLeon/Malone-Mondragon-Ciambrone/Cohen/Joseph) —
+  all four succeeded on immediate retry with no changes to the request.
+- Batch covering C&C Long Investment / claim A00833380 included a bounced (mailer-daemon) message in
+  the thread alongside real correspondence — the bounce was skipped, the real exchange was logged.
