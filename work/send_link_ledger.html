@@ -1,0 +1,419 @@
+<title>Send Link Ledger</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+:root {
+  --bg: #f6f3ee;
+  --surface: #ffffff;
+  --surface-alt: #f0ece4;
+  --ink: #23262b;
+  --muted: #6c7278;
+  --border: #e2ddd2;
+  --accent: #2b5d63;
+  --accent-ink: #ffffff;
+  --accent-soft: #dfe9e6;
+  --warn-ink: #8a5a10;
+  --warn-soft: #f6e9ce;
+  --focus: #2b5d63;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #191b1d;
+    --surface: #212427;
+    --surface-alt: #26292c;
+    --ink: #eceae6;
+    --muted: #9a9fa4;
+    --border: #34383b;
+    --accent: #6fb3ab;
+    --accent-ink: #10201e;
+    --accent-soft: #24403e;
+    --warn-ink: #f2cf8a;
+    --warn-soft: #3a3220;
+    --focus: #6fb3ab;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #191b1d;
+  --surface: #212427;
+  --surface-alt: #26292c;
+  --ink: #eceae6;
+  --muted: #9a9fa4;
+  --border: #34383b;
+  --accent: #6fb3ab;
+  --accent-ink: #10201e;
+  --accent-soft: #24403e;
+  --warn-ink: #f2cf8a;
+  --warn-soft: #3a3220;
+  --focus: #6fb3ab;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  padding: clamp(20px, 4vw, 48px) 16px;
+}
+
+.wrap {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px 32px;
+  margin-bottom: 22px;
+}
+
+.title-block h1 {
+  font-size: clamp(1.5rem, 1.1rem + 1.6vw, 2.15rem);
+  font-weight: 700;
+  margin: 0 0 6px;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+
+.title-block p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+  max-width: 52ch;
+}
+
+.stats {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.stat {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 8px 14px;
+  text-align: right;
+  min-width: 92px;
+}
+
+.stat .n {
+  display: block;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-variant-numeric: tabular-nums;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.stat .l {
+  display: block;
+  font-size: 0.68rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-top: 2px;
+}
+
+.search-bar {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background: var(--bg);
+  padding-block: 10px 12px;
+}
+
+.search-shell {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--surface);
+  border: 1.5px solid var(--border);
+  border-radius: 10px;
+  padding: 10px 14px;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.search-shell:focus-within {
+  border-color: var(--focus);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--focus) 20%, transparent);
+}
+
+.search-shell svg {
+  flex: none;
+  color: var(--muted);
+}
+
+#q {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: var(--ink);
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1rem;
+  min-width: 0;
+}
+
+#q::placeholder { color: var(--muted); }
+
+.result-count {
+  flex: none;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.78rem;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.clear-btn {
+  flex: none;
+  border: none;
+  background: var(--surface-alt);
+  color: var(--muted);
+  border-radius: 6px;
+  width: 26px;
+  height: 26px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 0.9rem;
+  line-height: 1;
+}
+.clear-btn:hover { color: var(--ink); }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+thead th {
+  text-align: left;
+  font-size: 0.7rem;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--muted);
+  font-weight: 600;
+  padding: 10px 14px;
+  background: var(--surface-alt);
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 53px;
+}
+
+tbody tr {
+  border-bottom: 1px solid var(--border);
+}
+tbody tr:last-child { border-bottom: none; }
+
+tbody td {
+  padding: 10px 14px;
+  vertical-align: middle;
+  font-size: 0.92rem;
+}
+
+td.name { font-weight: 500; }
+td.name .company {
+  display: block;
+  font-size: 0.78rem;
+  color: var(--muted);
+  font-weight: 400;
+}
+
+td.link a {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.82rem;
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid color-mix(in srgb, var(--accent) 45%, transparent);
+}
+td.link a:hover { border-bottom-style: solid; opacity: 0.85; }
+
+td.email { font-family: "IBM Plex Mono", monospace; font-size: 0.82rem; }
+
+.email-row { display: flex; align-items: center; gap: 8px; }
+
+.copy-btn {
+  flex: none;
+  border: 1px solid var(--border);
+  background: var(--surface-alt);
+  color: var(--muted);
+  border-radius: 6px;
+  width: 24px;
+  height: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.copy-btn:hover { color: var(--accent); border-color: var(--accent); }
+.copy-btn.copied { color: var(--accent); border-color: var(--accent); }
+
+.pill {
+  display: inline-block;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: var(--warn-ink);
+  background: var(--warn-soft);
+  border-radius: 999px;
+  padding: 3px 10px;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 40px 20px;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.foot-note {
+  margin-top: 16px;
+  color: var(--muted);
+  font-size: 0.78rem;
+  line-height: 1.5;
+}
+
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+
+@media (max-width: 640px) {
+  thead th:nth-child(2), td.link { display: none; }
+  thead th { top: 49px; }
+  td.name .company { margin-top: 2px; }
+}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="title-block">
+      <h1>Send Link Ledger</h1>
+      <p>Every contractor, referring party, and rep's Send.co status-page link for TX Insurance Appraisals &mdash; searchable by name or email.</p>
+    </div>
+    <div class="stats">
+      <div class="stat"><span class="n" id="stat-total">171</span><span class="l">Links</span></div>
+      <div class="stat"><span class="n" id="stat-email">31</span><span class="l">With email</span></div>
+    </div>
+  </header>
+
+  <div class="search-bar">
+    <div class="search-shell">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+      <input id="q" type="text" placeholder="Type a name, company, or email to filter&hellip;" autocomplete="off" spellcheck="false">
+      <button class="clear-btn" id="clear" type="button" aria-label="Clear search">&times;</button>
+      <span class="result-count" id="count"></span>
+    </div>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Name / Company</th>
+        <th>Send.co Link</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody id="rows"></tbody>
+  </table>
+  <div class="empty-state" id="empty" hidden>No matches. Try a different name or email.</div>
+
+  <p class="foot-note">Rows without a verified email are marked &ldquo;no email on file&rdquo; rather than filled with a guess &mdash; only real addresses from configuration or confirmed Gmail correspondence appear here.</p>
+</div>
+
+<script>
+const DATA = [{"name":"Alberto Zenteno (Linear Roofing & General Contractors)","url":"https://www.send.co/a/pMitM9aK","email":"azenteno@linearroofing.com"},{"name":"Andres Soto (Linear Roofing & General Contractors)","url":"https://www.send.co/a/3YCzp1LR","email":"andres@linearroofing.com"},{"name":"Andrew Perales (Linear Roofing & General Contractors)","url":"https://www.send.co/a/dZTCr3hI","email":"andrewp@linearroofing.com"},{"name":"Austin Queen (Linear Roofing & General Contractors)","url":"https://www.send.co/a/J2niBBpI","email":""},{"name":"Bo Serros (Linear Roofing & General Contractors)","url":"https://www.send.co/a/97LkciO7","email":"bserros@linearroofing.com"},{"name":"Brandon Petitt (Linear Roofing & General Contractors)","url":"https://www.send.co/a/33AxV2eh","email":""},{"name":"Cade Cassady (Linear Roofing & General Contractors)","url":"https://www.send.co/a/i8vsETnk","email":""},{"name":"Christopher Mathis (Linear Roofing & General Contractors)","url":"https://www.send.co/a/C1tr9C4K","email":""},{"name":"Clayton Grassi (Linear Roofing & General Contractors)","url":"https://www.send.co/a/wvkjd6bR","email":""},{"name":"Daniel Ferrel (Linear Roofing & General Contractors)","url":"https://www.send.co/a/ODDr9ncY","email":""},{"name":"David Jaimes (Linear Roofing & General Contractors)","url":"https://www.send.co/a/3vItXSb8","email":""},{"name":"David Webster (Linear Roofing & General Contractors)","url":"https://www.send.co/a/UC6gOUvV","email":"dwebster@linearroofing.com"},{"name":"Eric Campoli (Linear Roofing & General Contractors)","url":"https://www.send.co/a/fUQ8FhGa","email":"ecampoli@linearroofing.com"},{"name":"Garrett Lucas (Linear Roofing & General Contractors)","url":"https://www.send.co/a/psn5nOS0","email":"glucas@linearroofing.com"},{"name":"Garritt Doyle (Linear Roofing & General Contractors)","url":"https://www.send.co/a/CsBwD56E","email":""},{"name":"Grant Reber (Linear Roofing & General Contractors)","url":"https://www.send.co/a/cfU9JVyl","email":""},{"name":"Heather Griffiths (Linear Roofing & General Contractors)","url":"https://www.send.co/a/XqaMZt5i","email":""},{"name":"Jacob Diaz (Linear Roofing & General Contractors)","url":"https://www.send.co/a/VGyJD1wY","email":""},{"name":"John Payne (Linear Roofing & General Contractors)","url":"https://www.send.co/a/VaWXHk0M","email":""},{"name":"Jose Diaz (Linear Roofing & General Contractors)","url":"https://www.send.co/a/58SNDLNB","email":""},{"name":"Jose Hernandez (Linear Roofing & General Contractors)","url":"https://www.send.co/a/30CwlAn3","email":""},{"name":"Justin Bach (Linear Roofing & General Contractors)","url":"https://www.send.co/a/AqUZL0wm","email":"justinb@linearroofing.com"},{"name":"Justin Kouri (Linear Roofing & General Contractors)","url":"https://www.send.co/a/zj67I1Md","email":"justink@linearroofing.com"},{"name":"Kevin Salazar (Linear Roofing & General Contractors)","url":"https://www.send.co/a/hbqaTzve","email":"ksalazar@linearroofing.com"},{"name":"Kevin Shuford (Linear Roofing & General Contractors)","url":"https://www.send.co/a/aSvey7GM","email":""},{"name":"Kristopher Bigham (Linear Roofing & General Contractors)","url":"https://www.send.co/a/w9Gh6vQH","email":""},{"name":"Luis Garcia (Linear Roofing & General Contractors)","url":"https://www.send.co/a/pxYWJJr4","email":""},{"name":"Madison Smith (Linear Roofing & General Contractors)","url":"https://www.send.co/a/mQ9eGQMA","email":""},{"name":"Marcus Stein (Linear Roofing & General Contractors)","url":"https://www.send.co/a/aDBxl6nR","email":""},{"name":"Matt Meredith (Linear Roofing & General Contractors)","url":"https://www.send.co/a/Fc5dbei3","email":""},{"name":"Mazin Shahin (Linear Roofing & General Contractors)","url":"https://www.send.co/a/KWAdeHFs","email":""},{"name":"Melvin Pierce (Linear Roofing & General Contractors)","url":"https://www.send.co/a/NJ8RltSx","email":""},{"name":"Michael Hopkins (Linear Roofing & General Contractors)","url":"https://www.send.co/a/fnd4kGBs","email":""},{"name":"Michael Lakomowski (Linear Roofing & General Contractors)","url":"https://www.send.co/a/25QtA1lt","email":""},{"name":"Michael Shemas (Linear Roofing & General Contractors)","url":"https://www.send.co/a/XfhcBgrc","email":"mshemas@linearroofing.com"},{"name":"Mike Stokes (Linear Roofing & General Contractors)","url":"https://www.send.co/a/5KvGYbFK","email":""},{"name":"Nicholas Wnukowski (Linear Roofing & General Contractors)","url":"https://www.send.co/a/aosAg7aV","email":""},{"name":"Noah Nichter (Linear Roofing & General Contractors)","url":"https://www.send.co/a/ZCkckDO1","email":"nnichter@linearroofing.com"},{"name":"Patrick Davis (Linear Roofing & General Contractors)","url":"https://www.send.co/a/EnZXkDw7","email":""},{"name":"Patrick Dubose (Linear Roofing & General Contractors)","url":"https://www.send.co/a/wEZQsZ7Z","email":""},{"name":"Patrick Nations (Linear Roofing & General Contractors)","url":"https://www.send.co/a/FLw5JxCQ","email":""},{"name":"Paul Bowen (Linear Roofing & General Contractors)","url":"https://www.send.co/a/NsLO2nOG","email":""},{"name":"Paul Ravel (Linear Roofing & General Contractors)","url":"https://www.send.co/a/Jj6onNyN","email":""},{"name":"Paulino Ortega (Linear Roofing & General Contractors)","url":"https://www.send.co/a/QSqBoukR","email":""},{"name":"Ricardo Hernandez (Linear Roofing & General Contractors)","url":"https://www.send.co/a/CpQZ9LtX","email":""},{"name":"Robert Crotty (Linear Roofing & General Contractors)","url":"https://www.send.co/a/XRbBTenE","email":""},{"name":"Robert Ferguson (Linear Roofing & General Contractors)","url":"https://www.send.co/a/JkmOSCGO","email":""},{"name":"Rolando Charles (Linear Roofing & General Contractors)","url":"https://www.send.co/a/2oka9bIW","email":""},{"name":"Rusty Coffman (Linear Roofing & General Contractors)","url":"https://www.send.co/a/EuIQUdKg","email":"rustyc@linearroofing.com"},{"name":"Ryan Olson (Linear Roofing & General Contractors)","url":"https://www.send.co/a/jFk0MKvw","email":""},{"name":"Samuel Mata (Linear Roofing & General Contractors)","url":"https://www.send.co/a/wDPxEfiY","email":""},{"name":"Samuel Peters (Linear Roofing & General Contractors)","url":"https://www.send.co/a/XPISl13h","email":""},{"name":"Sean Roberts (Linear Roofing & General Contractors)","url":"https://www.send.co/a/tAanMITM","email":"sroberts@linearroofing.com"},{"name":"Sergio Dehoyos (Linear Roofing & General Contractors)","url":"https://www.send.co/a/VSSquq0s","email":"sdehoyos@linearroofing.com"},{"name":"Stephen Buttino (Linear Roofing & General Contractors)","url":"https://www.send.co/a/YiOGBJZ7","email":""},{"name":"Stephen Vaughn (Linear Roofing & General Contractors)","url":"https://www.send.co/a/iqgo0zV8","email":""},{"name":"Tomas Cuevas (Linear Roofing & General Contractors)","url":"https://www.send.co/a/aK1bDxHz","email":""},{"name":"Tony Saldana (Linear Roofing & General Contractors)","url":"https://www.send.co/a/2DU3Yn4s","email":""},{"name":"Trey Elliott (Linear Roofing & General Contractors)","url":"https://www.send.co/a/ANQ8zEnL","email":""},{"name":"Zacharias Khan (Linear Roofing & General Contractors)","url":"https://www.send.co/a/9VzsADlf","email":"zachariask@linearroofing.com"},{"name":"Linear Roofing & General Contractors \u2014 Unassigned","url":"https://www.send.co/a/3EyCbafl","email":""},{"name":"Aaron Faughn (Stronghouse Pro)","url":"https://www.send.co/a/eRCpUFsw","email":""},{"name":"Alberto Zenteno (Stronghouse Pro)","url":"https://www.send.co/a/N0qifUeg","email":""},{"name":"Amir Mobalegh (Stronghouse Pro)","url":"https://www.send.co/a/NifVZq81","email":"amobalegh@stronghousepro.com"},{"name":"Andres Soto (Stronghouse Pro)","url":"https://www.send.co/a/ep99zSaB","email":"asoto@stronghousebrands.com"},{"name":"Andrew Perales (Stronghouse Pro)","url":"https://www.send.co/a/DlIKTBQI","email":""},{"name":"Baha Abushehab (Stronghouse Pro)","url":"https://www.send.co/a/spdevhk0","email":"babushehab@stronghousepro.com"},{"name":"Christopher Mathis (Stronghouse Pro)","url":"https://www.send.co/a/Wdh4SK41","email":"cmathis@stronghousepro.com"},{"name":"Clayton Grassi (Stronghouse Pro)","url":"https://www.send.co/a/zXWmm7Tj","email":"cgrassi@stronghousepro.com"},{"name":"Daniel Rodriguez (Stronghouse Pro)","url":"https://www.send.co/a/srHxOk2y","email":""},{"name":"David Webster (Stronghouse Pro)","url":"https://www.send.co/a/6om1Ew5L","email":"dwebster@stronghousepro.com"},{"name":"Garritt Doyle (Stronghouse Pro)","url":"https://www.send.co/a/BObKXMhK","email":""},{"name":"Heather Griffiths (Stronghouse Pro)","url":"https://www.send.co/a/W0P3tNFw","email":""},{"name":"Jacob Diaz (Stronghouse Pro)","url":"https://www.send.co/a/HyFEhfbE","email":""},{"name":"Jeffrey Speight (Stronghouse Pro)","url":"https://www.send.co/a/XEJ8aIkj","email":"jspeight@stronghousebrands.com"},{"name":"Joel Rivera (Stronghouse Pro)","url":"https://www.send.co/a/AJbFveoq","email":""},{"name":"Jose Diaz (Stronghouse Pro)","url":"https://www.send.co/a/MZbmhkIV","email":""},{"name":"Jose Hernandez (Stronghouse Pro)","url":"https://www.send.co/a/VTYG7Q8l","email":""},{"name":"Kevin Salazar (Stronghouse Pro)","url":"https://www.send.co/a/udwGcQyo","email":""},{"name":"Kevin Shuford (Stronghouse Pro)","url":"https://www.send.co/a/UsCWiuFS","email":"kshuford@stronghousepro.com"},{"name":"Luis Garcia (Stronghouse Pro)","url":"https://www.send.co/a/NmAH7dr2","email":"lgarcia@stronghousepro.com"},{"name":"Marcus Stein (Stronghouse Pro)","url":"https://www.send.co/a/CdSdKzBe","email":""},{"name":"Melvin Pierce (Stronghouse Pro)","url":"https://www.send.co/a/IVL76bWg","email":""},{"name":"Michael Shemas (Stronghouse Pro)","url":"https://www.send.co/a/iLdQjjop","email":""},{"name":"Omar Haner (Stronghouse Pro)","url":"https://www.send.co/a/HDqyl7Pa","email":""},{"name":"Patrick Nations (Stronghouse Pro)","url":"https://www.send.co/a/aIM59lx4","email":"pnations@stronghousepro.com"},{"name":"Ricardo Hernandez (Stronghouse Pro)","url":"https://www.send.co/a/Ydo49muU","email":""},{"name":"Rusty Coffman (Stronghouse Pro)","url":"https://www.send.co/a/rfKqhxtS","email":""},{"name":"Samuel Peters (Stronghouse Pro)","url":"https://www.send.co/a/OrM1fbu1","email":""},{"name":"Stephen Buttino (Stronghouse Pro)","url":"https://www.send.co/a/8IMjRXkV","email":""},{"name":"Stephen Gossett (Stronghouse Pro)","url":"https://www.send.co/a/5766Rnc3","email":""},{"name":"Tim Berry (Stronghouse Pro)","url":"https://www.send.co/a/zCdvSAvl","email":""},{"name":"Tomas Cuevas (Stronghouse Pro)","url":"https://www.send.co/a/alXtyuZJ","email":"tcuevas@stronghousepro.com"},{"name":"Trey Elliott (Stronghouse Pro)","url":"https://www.send.co/a/56Mrout2","email":"telliott@stronghousepro.com"},{"name":"Zacharias Khan (Stronghouse Pro)","url":"https://www.send.co/a/nTJcEreq","email":""},{"name":"Stronghouse Pro \u2014 Unassigned","url":"https://www.send.co/a/PrXSVkbG","email":""},{"name":"Legacy Roofing GC","url":"https://www.send.co/a/do5DL1Om","email":""},{"name":"No Stress Claims","url":"https://www.send.co/a/JTSciawp","email":""},{"name":"Assured Value Claims","url":"https://www.send.co/a/CSIhM4fp","email":""},{"name":"Cross Country Public Adjusting","url":"https://www.send.co/a/696GL2Lq","email":"info@crosscountrypublicadjusting.com"},{"name":"TCB Elite Fleet LLC","url":"https://www.send.co/a/93IB0fH1","email":"astevens@tcbelitefleet.com"},{"name":"The Lawgical Firm","url":"https://www.send.co/a/FsAQgx8X","email":""},{"name":"ADC Roofing","url":"https://www.send.co/a/HEIQwf7s","email":"info@adcroofing.com"},{"name":"Remys Roofing","url":"https://www.send.co/a/remys-roofing-D9yHIakD","email":""},{"name":"Kenny North","url":"https://www.send.co/a/IEuQEgFv","email":""},{"name":"Cohen","url":"https://www.send.co/a/bqvsu2oB","email":""},{"name":"Texco Roofing","url":"https://www.send.co/a/eWExQUuF","email":""},{"name":"Coastal Claims","url":"https://www.send.co/a/egJAeCzM","email":""},{"name":"Powerhaus Solutions","url":"https://www.send.co/a/4u3xJ3HE","email":""},{"name":"Waggoner Roofing","url":"https://www.send.co/a/ihk8RTdM","email":""},{"name":"Tarrytown Roofing","url":"https://www.send.co/a/tarrytown-roofing-W8LSoszM","email":""},{"name":"Dashboard Roofing","url":"https://www.send.co/a/3rdy2Qsx","email":""},{"name":"Now Roofing","url":"https://www.send.co/a/hk3QMzCw","email":""},{"name":"Victory Claims Consilting","url":"https://www.send.co/a/xAEO7hyc","email":""},{"name":"Rush Builders","url":"https://www.send.co/a/rush-builders-Ja8smZ2o","email":""},{"name":"Precision Roofing","url":"https://www.send.co/a/precision-roofing-AU9By9ZE","email":""},{"name":"Campbell","url":"https://www.send.co/a/9Jx21ufk","email":""},{"name":"Hai Nguyen","url":"https://www.send.co/a/hM2wiYlv","email":""},{"name":"Beyond Solutions","url":"https://www.send.co/a/beyond-solutions-Dfq47XNr","email":""},{"name":"Buck Lewis","url":"https://www.send.co/a/gjmKWx6T","email":""},{"name":"Impact Building Solutions","url":"https://www.send.co/a/6J9nvPl2","email":""},{"name":"Millers Law Firm","url":"https://www.send.co/a/millers-law-firm-1gHKwHfD","email":""},{"name":"Greyhound Roofing","url":"https://www.send.co/a/ZlF0tyCf","email":""},{"name":"1st Choice Roofing & Restoration LLC","url":"https://www.send.co/a/II3TDBJ4","email":""},{"name":"Len Lenard","url":"https://www.send.co/a/len-lenard-5TTb3HGK","email":""},{"name":"One Call Roofing","url":"https://www.send.co/a/one-call-roofing-lfgJ5mAW","email":""},{"name":"Pinnacle Public Adjusting","url":"https://www.send.co/a/dWTtrwqy","email":""},{"name":"Roofing Technologies Unlimitied","url":"https://www.send.co/a/roofing-technologies-unlimitied-DFWBb1ai","email":""},{"name":"Crossroads Insurance Recovery","url":"https://www.send.co/a/crossroads-insurance-recovery-hOkG76Y7","email":""},{"name":"Eagle A Improvements LLC","url":"https://www.send.co/a/eagle-a-improvements-llc-M9UkGsl7","email":""},{"name":"NextGen Construction Group","url":"https://www.send.co/a/5lSBPf8p","email":""},{"name":"Statewide Public Adjusters","url":"https://www.send.co/a/statewide-public-adjusters-2syRrO0P","email":""},{"name":"Storm Guard","url":"https://www.send.co/a/vSne6sTI","email":""},{"name":"Barry","url":"https://www.send.co/a/barry-DImtj4Ck","email":""},{"name":"Generation Construction Solutions, LLC.","url":"https://www.send.co/a/qr0pJvfz","email":""},{"name":"Gulf Coast Public Adjusting","url":"https://www.send.co/a/gulf-coast-public-adjusting-TfzADIHb","email":""},{"name":"Roofing Experts Pro","url":"https://www.send.co/a/roofing-experts-pro-KoiZbLXF","email":""},{"name":"Roofing Near Me GC","url":"https://www.send.co/a/roofing-near-me-gc-glWXWBjd","email":""},{"name":"TCM Adjusting LLC","url":"https://www.send.co/a/zg7gAtdq","email":""},{"name":"Timeless Roofing & Construction","url":"https://www.send.co/a/timeless-roofing-amp-construction-78ANZTqW","email":""},{"name":"Top Gun Restoration","url":"https://www.send.co/a/vd0qGwKY","email":""},{"name":"Impressive Roofing Solutions","url":"https://www.send.co/a/0lerh7Pt","email":""},{"name":"Storm Recovery Group","url":"https://www.send.co/a/4LL4TBND","email":""},{"name":"All American Contractors","url":"https://www.send.co/a/iE0GA6GF","email":""},{"name":"All Home Exterior Solutions","url":"https://www.send.co/a/all-home-exterior-solutions-HQdzSX0e","email":""},{"name":"Brickwall Adjusters","url":"https://www.send.co/a/s0HsNCqI","email":""},{"name":"Crest Consulting","url":"https://www.send.co/a/wnA8wUyu","email":""},{"name":"Elliotts Roofing","url":"https://www.send.co/a/MwqQobYQ","email":""},{"name":"Fox Roofing","url":"https://www.send.co/a/fox-roofing-HORr2I1D","email":""},{"name":"Gustin Law","url":"https://www.send.co/a/qeE5Xkxv","email":""},{"name":"Holden Roofing","url":"https://www.send.co/a/KSFa6LSe","email":""},{"name":"Iron Adjuster","url":"https://www.send.co/a/iron-adjuster-Pv2LlKWh","email":""},{"name":"Jeremy Hill Refferals","url":"https://www.send.co/a/jeremy-hill-refferals-6b4PFz0d","email":""},{"name":"Jonathan Wells","url":"https://www.send.co/a/jonathan-wells-5EQPhAXH","email":""},{"name":"Lower Bids Roofing","url":"https://www.send.co/a/lower-bids-roofing-n7hW37cA","email":""},{"name":"M and M Build Group","url":"https://www.send.co/a/gPMc9smG","email":""},{"name":"Montgomery Roofing","url":"https://www.send.co/a/montgomery-roofing-OoNryWcZ","email":""},{"name":"Priority Roofs","url":"https://www.send.co/a/aywra6Bx","email":""},{"name":"Purple Turtle Roofing","url":"https://www.send.co/a/jsZFMQnt","email":""},{"name":"Ridgway Roofing","url":"https://www.send.co/a/d9eQ0R1E","email":""},{"name":"Roofing Experts","url":"https://www.send.co/a/roofing-experts-3zfoMZmL","email":""},{"name":"Schilter Law Firm","url":"https://www.send.co/a/aqfjRBr9","email":""},{"name":"Tony's Roofing Services","url":"https://www.send.co/a/EkDm2oIn","email":""},{"name":"Trinity Roof and Home","url":"https://www.send.co/a/0e7Otd6F","email":""},{"name":"VP Realty Services","url":"https://www.send.co/a/CM4osepp","email":""},{"name":"VS Pro Painting","url":"https://www.send.co/a/vs-pro-painting-zFHYypLI","email":""},{"name":"YFPA Claim Solutions","url":"https://www.send.co/a/ghhsIEbo","email":""},{"name":"Hermes Renovations","url":"https://www.send.co/a/emmW1jRh","email":""},{"name":"J & L CityScapes & Painting","url":"https://www.send.co/a/j-l-cityscapes-painting-Qj6HNIBh","email":""},{"name":"Robinson Roofer","url":"https://www.send.co/a/robinson-roofer-4Nhu3qdB","email":""},{"name":"Texas Premier Roofing","url":"https://www.send.co/a/bTAL7cC8","email":""}];
+
+function escapeHtml(s) {
+  return s.replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c]);
+}
+
+function splitName(full) {
+  const m = full.match(/^(.*?)\s*\(([^)]+)\)\s*$/);
+  return m ? { name: m[1], company: m[2] } : { name: full, company: '' };
+}
+
+const rowsEl = document.getElementById('rows');
+const emptyEl = document.getElementById('empty');
+const countEl = document.getElementById('count');
+const input = document.getElementById('q');
+const clearBtn = document.getElementById('clear');
+
+function render(list) {
+  rowsEl.innerHTML = '';
+  emptyEl.hidden = list.length !== 0;
+  const frag = document.createDocumentFragment();
+  for (const row of list) {
+    const { name, company } = splitName(row.name);
+    const tr = document.createElement('tr');
+
+    const tdName = document.createElement('td');
+    tdName.className = 'name';
+    tdName.innerHTML = escapeHtml(name) + (company ? `<span class="company">${escapeHtml(company)}</span>` : '');
+
+    const tdLink = document.createElement('td');
+    tdLink.className = 'link';
+    const a = document.createElement('a');
+    a.href = row.url;
+    a.target = '_blank';
+    a.rel = 'noopener noreferrer';
+    a.textContent = row.url.replace(/^https:\/\//, '');
+    tdLink.appendChild(a);
+
+    const tdEmail = document.createElement('td');
+    tdEmail.className = 'email';
+    if (row.email) {
+      const box = document.createElement('div');
+      box.className = 'email-row';
+      const span = document.createElement('span');
+      span.textContent = row.email;
+      const btn = document.createElement('button');
+      btn.className = 'copy-btn';
+      btn.type = 'button';
+      btn.setAttribute('aria-label', 'Copy email');
+      btn.innerHTML = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>';
+      btn.addEventListener('click', () => {
+        navigator.clipboard?.writeText(row.email).catch(() => {});
+        btn.classList.add('copied');
+        setTimeout(() => btn.classList.remove('copied'), 900);
+      });
+      box.appendChild(span);
+      box.appendChild(btn);
+      tdEmail.appendChild(box);
+    } else {
+      const pill = document.createElement('span');
+      pill.className = 'pill';
+      pill.textContent = 'no email on file';
+      tdEmail.appendChild(pill);
+    }
+
+    tr.appendChild(tdName);
+    tr.appendChild(tdLink);
+    tr.appendChild(tdEmail);
+    frag.appendChild(tr);
+  }
+  rowsEl.appendChild(frag);
+  countEl.textContent = list.length === DATA.length ? '' : `${list.length} / ${DATA.length}`;
+}
+
+function filter() {
+  const q = input.value.trim().toLowerCase();
+  clearBtn.style.display = q ? 'flex' : 'none';
+  if (!q) { render(DATA); return; }
+  const terms = q.split(/\s+/);
+  const filtered = DATA.filter(row => {
+    const haystack = (row.name + ' ' + row.email).toLowerCase();
+    return terms.every(t => haystack.includes(t));
+  });
+  render(filtered);
+}
+
+input.addEventListener('input', filter);
+clearBtn.addEventListener('click', () => { input.value = ''; filter(); input.focus(); });
+
+render(DATA);
+</script>
