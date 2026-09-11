@@ -1,5 +1,6 @@
 {
   "permissions": {
+    "defaultMode": "bypassPermissions",
     "allow": [
       "mcp__Trello__trelloReadCard",
       "mcp__Trello__trelloSearch",
@@ -13,10 +14,9 @@
       "mcp__Trello__trelloWriteChecklist",
       "mcp__Trello__trelloWriteCard",
       "mcp__Send__EditSite",
-      "mcp__Send__CreateSite"
-  "defaultMode": "bypassPermissions",
-  "allow": [ ...your existing entries... ]
-}
+      "mcp__Send__CreateSite",
+      "Bash(git *)",
+      "Bash(python3 *)"
     ]
   }
 }
