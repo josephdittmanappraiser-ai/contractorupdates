@@ -36,6 +36,9 @@
     - A file needing the contractor to act gets class="file needs-you" and a
       <p class="ask"> line saying exactly what is needed.
     - Never include another contractor's files on this page.
+    - Every .file div carries data-q="<insured> <address> <claim>" (lowercase) so the
+      search box below can filter without re-reading the visible text. files.js reads
+      that attribute only -- never Trello card text -- so nothing unsanitized reaches it.
 -->
 
 <section class="head">
@@ -51,6 +54,15 @@
   <div class="tile good"><span class="n">{{SETTLED}}</span><span class="l">Settled</span></div>
 </section>
 
+<section class="filesearch">
+  <div class="search-shell">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+    <input type="text" id="fileq" placeholder="Search by name, address, or claim #" autocomplete="off" spellcheck="false">
+    <span class="search-count" id="fileqcount"></span>
+  </div>
+  <p class="fileqempty is-hidden" id="fileqempty">No files match that search.</p>
+</section>
+
 <section class="stage">
   <div class="stage-head">
     <h2>Negotiating with the carrier's appraiser</h2>
@@ -58,7 +70,7 @@
   </div>
   <p class="stage-blurb">Positions exchanged. We are working the gap.</p>
 
-  <div class="file needs-you">
+  <div class="file needs-you" data-q="khang truong 906 cambridge dr, duncanville tx 0820277473">
     <div class="file-top">
       <h3>Khang Truong</h3>
       <span class="when">last activity Aug 14</span>
@@ -68,7 +80,7 @@
     <p class="ask">Need from you: the signed scope of work so we can support the interior line items.</p>
   </div>
 
-  <div class="file">
+  <div class="file" data-q="maribel mendoza 6742 spring hurst st, san antonio tx 7010350940-1-1">
     <div class="file-top">
       <h3>Maribel Mendoza</h3>
       <span class="when">last activity Aug 15</span>
@@ -82,6 +94,13 @@
   <p>Questions on any file here? Reply to your last email thread with us, or call 737-258-3127.</p>
   <p class="fine">This page refreshes every Monday morning. Bookmark it &mdash; the link stays the same.</p>
 </section>
+
+<script>
+  /* files.js -- filters .file cards by the data-q attribute the builder writes on each
+     one. Reads no visible text, so sanitizing rules upstream are the only thing that
+     ever reaches this box. Collapses a .stage (and the settled-group wrapper) to
+     nothing when every file inside it is hidden. */
+</script>
 
 <style>
   :root{
@@ -239,6 +258,25 @@
   .foot{border-top:1px solid var(--line); padding-top:18px; color:var(--muted); font-size:14px}
   .foot p{margin:0 0 6px}
   .fine{font-size:12.5px}
+
+  /* Search box: type a name, address, or claim # and files.js hides the rest.
+     Built once here and reused on every page regardless of file count. */
+  .filesearch{margin-bottom:26px}
+  .search-shell{
+    display:flex; align-items:center; gap:10px;
+    background:var(--card); border:1px solid var(--line); border-radius:var(--radius);
+    padding:10px 14px;
+  }
+  .search-shell:focus-within{border-color:var(--accent)}
+  .search-shell svg{flex:none; color:var(--muted)}
+  #fileq{
+    flex:1; min-width:0; border:none; outline:none; background:transparent;
+    color:var(--ink); font:inherit;
+  }
+  #fileq::placeholder{color:var(--muted)}
+  .search-count{flex:none; font-size:12.5px; color:var(--muted); white-space:nowrap; font-variant-numeric:tabular-nums}
+  .is-hidden{display:none !important}
+  .fileqempty{margin:12px 2px 0; color:var(--muted); font-size:14px}
 
   @media(max-width:520px){
     body{padding:22px 14px 48px}

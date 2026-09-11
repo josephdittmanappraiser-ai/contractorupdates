@@ -125,6 +125,63 @@ def excluded(list_name, card_name, desc):
 CSS = open(os.path.join(os.path.dirname(__file__), '..', 'templates', 'status-page.html')).read()
 CSS = CSS[CSS.index('<style>'):CSS.index('</style>') + 8]
 
+# Search box markup, dropped between the tiles and the first stage. Every .file div
+# carries data-q="<insured> <address> <claim>" (see below); files.js reads only that
+# attribute, never visible page text, so the box can't surface anything the sanitizer
+# upstream didn't already clear for this client's page.
+SEARCH_HTML = (
+    '<section class="filesearch"><div class="search-shell">'
+    '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" '
+    'stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'
+    '<circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65">'
+    '</line></svg>'
+    '<input type="text" id="fileq" placeholder="Search by name, address, or claim #" '
+    'autocomplete="off" spellcheck="false">'
+    '<span class="search-count" id="fileqcount"></span></div>'
+    '<p class="fileqempty is-hidden" id="fileqempty">No files match that search.</p></section>'
+)
+
+SEARCH_JS = """<script>
+(function(){
+  var input = document.getElementById('fileq');
+  if (!input) return;
+  var countEl = document.getElementById('fileqcount');
+  var emptyEl = document.getElementById('fileqempty');
+  function apply(){
+    var terms = input.value.trim().toLowerCase().split(/\\s+/).filter(Boolean);
+    var files = document.querySelectorAll('.file');
+    var shown = 0;
+    files.forEach(function(f){
+      var hay = f.getAttribute('data-q') || '';
+      var match = terms.every(function(t){ return hay.indexOf(t) !== -1; });
+      f.classList.toggle('is-hidden', !match);
+      if (match) shown++;
+    });
+    document.querySelectorAll('.stage').forEach(function(s){
+      s.classList.toggle('is-hidden', !s.querySelector('.file:not(.is-hidden)'));
+    });
+    // The settled divider and its lead line aren't inside a .stage -- they sit just
+    // before the first settled section as plain siblings -- so hide them by hand
+    // when every settled section they introduce has nothing left visible.
+    var divider = document.querySelector('.settled-divider');
+    if (divider) {
+      var anySettledVisible = false;
+      document.querySelectorAll('.stage.settled').forEach(function(s){
+        if (!s.classList.contains('is-hidden')) anySettledVisible = true;
+      });
+      divider.classList.toggle('is-hidden', !anySettledVisible);
+      var lead = divider.nextElementSibling;
+      if (lead && lead.classList.contains('settled-lead')) {
+        lead.classList.toggle('is-hidden', !anySettledVisible);
+      }
+    }
+    if (countEl) countEl.textContent = terms.length ? (shown + ' / ' + files.length) : '';
+    if (emptyEl) emptyEl.classList.toggle('is-hidden', !(terms.length && shown === 0));
+  }
+  input.addEventListener('input', apply);
+})();
+</script>"""
+
 def E(text):
     """Escape, then fold to ASCII. Order matters: asciify emits entities, and escaping
     afterwards would turn &mdash; into &amp;mdash; on the page."""
@@ -341,7 +398,8 @@ def render(display_name, files, updated, cap=None):
            f'<div class="tile"><span class="n">{active}</span><span class="l">In appraisal</span></div>',
            f'<div class="tile alert"><span class="n">{needs}</span><span class="l">Need you</span></div>',
            f'<div class="tile good"><span class="n">{settled}</span><span class="l">Settled</span></div>',
-           '</section>']
+           '</section>',
+           SEARCH_HTML]
 
     seen_settled = False
     for name, items in stages:
@@ -362,7 +420,8 @@ def render(display_name, files, updated, cap=None):
             meta = " &middot; ".join(x for x in [E(f['addr']), (f"Claim {E(f['claim'])}" if f['claim'] else '')] if x)
             stalled = stalled_days(f)
             cls = ' needs-you' if f['needs_you'] else (' waiting' if stalled else '')
-            out.append(f'<div class="file{cls}">'
+            search_q = E(f"{f['insured']} {f['addr']} {f['claim']}".strip().lower())
+            out.append(f'<div class="file{cls}" data-q="{search_q}">'
                        f'<div class="file-top"><h3>{E(f["insured"])}</h3>'
                        f'<span class="when">last activity {E(last_activity(f))}</span></div>'
                        + (f'<p class="meta">{meta}</p>' if meta else '')
@@ -387,6 +446,7 @@ def render(display_name, files, updated, cap=None):
                '<p class="fine">This page refreshes every Monday morning. Bookmark it &mdash; '
                'the link stays the same.</p></section>')
     out.append(CSS)
+    out.append(SEARCH_JS)
     out.append('</body></html>')
     return "\n".join(out)
 

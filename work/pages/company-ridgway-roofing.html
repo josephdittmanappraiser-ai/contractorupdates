@@ -10,9 +10,10 @@
 <div class="tile alert"><span class="n">0</span><span class="l">Need you</span></div>
 <div class="tile good"><span class="n">1</span><span class="l">Settled</span></div>
 </section>
+<section class="filesearch"><div class="search-shell"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg><input type="text" id="fileq" placeholder="Search by name, address, or claim #" autocomplete="off" spellcheck="false"><span class="search-count" id="fileqcount"></span></div><p class="fileqempty is-hidden" id="fileqempty">No files match that search.</p></section>
 <hr class="settled-divider"><p class="settled-lead">Closed files &mdash; nothing needed from you on these.</p>
 <section class="stage settled"><div class="stage-head"><h2>Settled - paid</h2><span class="count">1 file</span></div><p class="stage-blurb">Closed out and paid. Nothing outstanding.</p>
-<div class="file"><div class="file-top"><h3>Abigail Garcia</h3><span class="when">last activity 2026-02-06</span></div><p class="meta">3623 Odessa St</p><p class="what">Closed out and paid. Nothing outstanding.</p></div>
+<div class="file" data-q="abigail garcia 3623 odessa st"><div class="file-top"><h3>Abigail Garcia</h3><span class="when">last activity 2026-02-06</span></div><p class="meta">3623 Odessa St</p><p class="what">Closed out and paid. Nothing outstanding.</p></div>
 </section>
 <section class="foot"><p>Questions on any file here? Reply to your last email thread with us, or call 737-258-3127.</p><p class="fine">This page refreshes every Monday morning. Bookmark it &mdash; the link stays the same.</p></section>
 <style>
@@ -172,9 +173,68 @@
   .foot p{margin:0 0 6px}
   .fine{font-size:12.5px}
 
+  /* Search box: type a name, address, or claim # and files.js hides the rest.
+     Built once here and reused on every page regardless of file count. */
+  .filesearch{margin-bottom:26px}
+  .search-shell{
+    display:flex; align-items:center; gap:10px;
+    background:var(--card); border:1px solid var(--line); border-radius:var(--radius);
+    padding:10px 14px;
+  }
+  .search-shell:focus-within{border-color:var(--accent)}
+  .search-shell svg{flex:none; color:var(--muted)}
+  #fileq{
+    flex:1; min-width:0; border:none; outline:none; background:transparent;
+    color:var(--ink); font:inherit;
+  }
+  #fileq::placeholder{color:var(--muted)}
+  .search-count{flex:none; font-size:12.5px; color:var(--muted); white-space:nowrap; font-variant-numeric:tabular-nums}
+  .is-hidden{display:none !important}
+  .fileqempty{margin:12px 2px 0; color:var(--muted); font-size:14px}
+
   @media(max-width:520px){
     body{padding:22px 14px 48px}
     .tiles{grid-template-columns:repeat(2,1fr)}
   }
 </style>
+<script>
+(function(){
+  var input = document.getElementById('fileq');
+  if (!input) return;
+  var countEl = document.getElementById('fileqcount');
+  var emptyEl = document.getElementById('fileqempty');
+  function apply(){
+    var terms = input.value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+    var files = document.querySelectorAll('.file');
+    var shown = 0;
+    files.forEach(function(f){
+      var hay = f.getAttribute('data-q') || '';
+      var match = terms.every(function(t){ return hay.indexOf(t) !== -1; });
+      f.classList.toggle('is-hidden', !match);
+      if (match) shown++;
+    });
+    document.querySelectorAll('.stage').forEach(function(s){
+      s.classList.toggle('is-hidden', !s.querySelector('.file:not(.is-hidden)'));
+    });
+    // The settled divider and its lead line aren't inside a .stage -- they sit just
+    // before the first settled section as plain siblings -- so hide them by hand
+    // when every settled section they introduce has nothing left visible.
+    var divider = document.querySelector('.settled-divider');
+    if (divider) {
+      var anySettledVisible = false;
+      document.querySelectorAll('.stage.settled').forEach(function(s){
+        if (!s.classList.contains('is-hidden')) anySettledVisible = true;
+      });
+      divider.classList.toggle('is-hidden', !anySettledVisible);
+      var lead = divider.nextElementSibling;
+      if (lead && lead.classList.contains('settled-lead')) {
+        lead.classList.toggle('is-hidden', !anySettledVisible);
+      }
+    }
+    if (countEl) countEl.textContent = terms.length ? (shown + ' / ' + files.length) : '';
+    if (emptyEl) emptyEl.classList.toggle('is-hidden', !(terms.length && shown === 0));
+  }
+  input.addEventListener('input', apply);
+})();
+</script>
 </body></html>
