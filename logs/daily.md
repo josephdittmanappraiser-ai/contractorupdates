@@ -169,3 +169,57 @@ Data-quality notes for Joseph to spot-check:
   all four succeeded on immediate retry with no changes to the request.
 - Batch covering C&C Long Investment / claim A00833380 included a bounced (mailer-daemon) message in
   the thread alongside real correspondence — the bounce was skipped, the real exchange was logged.
+
+2026-09-11 | 234 threads scanned | 174 logged | 31 unmatched | 10 skipped as noise, 17 skipped as duplicate
+
+Unmatched insureds named in email with no card on the Insured Appraisals board:
+- Travelers claim A3G4425 (insured not named in thread)
+- Davis Appraisal (claim 0817585771, 3795 Robinson St, Beaumont TX) — 8+ unrelated "Davis" cards on
+  the board, none matching claim number or address
+- HO-2026-224324287 (insured not named; appraiser Blake Pyka)
+- Ben & Danielle Jackson (expired check reissue / signing-routing question)
+- Kishore Jonnavittula
+- Eloy Aguilar
+- Steven Drachenberg (claim 061624395, 1501 Casey Ln, Round Rock)
+- Srikanth Koppisetty (claim 062074716-01, 486 Martha Dr, Buda TX) — a different Koppisetty card
+  exists on the board (different claim/address, already Paid), not a match
+- HO-2026-772243977 (SageSure, insured not named in thread)
+- Cadalia Gonsales / Eliakim Gonsales (claim 01-008-405968-02) — recurred across two threads today
+- Baldomero Alvarado (2916 Highgate Ln, Allstate claim 0809413628)
+- Heidi Romanick
+- Bulfrano Bueno
+- Monique E. Johnston & Brian C. Johnston (claim 061603262-01) — recurred across two threads today
+- Linda & Chris Nelon
+- Russell Peter (attorney-client email setup)
+- Harold Booze
+- Liberty Mutual claim 061826503-01 (insured not named in thread)
+- Veeramuthu Balakrishnan
+- Allstate claim 000834698317 (insured not named in thread)
+- Ronald Orr
+- Nationwide claim 057046-GR (insured not named in thread)
+- Joe & Elvira Ramirez (claim 0104850)
+- Marline Ponce DeLeon / Joseph McGettrick
+- Leticia Perez (Farmers claim)
+- Annie/Alonzo Haynes (Allstate)
+- Kishore Kumar Munigety & Neelima Bitla (claim 7010483200-1-2)
+- Foremost claim 5043827229-1 (insured not named in thread)
+- Jampani Srinivas (AAA claim 017541983)
+- John & Misti Surgeon (StarStone claim CSMH-00000041)
+- Benavidez/Cook (State Farm claim 5393X455B, appraiser Chad Sanders)
+
+Data-quality notes for Joseph to spot-check:
+- This was an unusually high-volume day (234 candidate threads vs. ~35-190 on prior runs) — discovery
+  paginated through 268 raw Gmail threads matching newer_than:1d, of which ~34 were dropped up front
+  as plain automated noise (Invoicely payment notices, Send.co view alerts, Verisk OTP/survey mail,
+  CompanyCam links, LinkedIn, marketing, iink approval reminders, e-signature/SignWell notices,
+  calendar-invite mechanics, and auto-replies) before the remaining 234 were fanned out to 39 sonnet
+  subagents (~6 threads each, dispatched concurrently across three waves).
+- Two more cards found with duplicate "📋 Chain of Events" checklists (same pre-existing issue noted
+  for Jin Baik on 2026-09-05): Ravi Bhasin and Jun Tian. Subagents wrote to the checklist matching the
+  thread's topic on each and did not merge the duplicates — still worth Joseph merging by hand.
+- One subagent (batch covering Rowe Biggs/Ronald Orr/Nationwide 057046-GR/Robert Martinez/Stovall/
+  Chavez) reported it briefly mis-wrote a Biggs-related line onto the Robert Martinez card before
+  self-correcting; spot-checked the Robert Martinez card afterward and its checklist is clean (all 10
+  items are genuinely about that file, no stray content).
+- Yen-Thi Kim Nguyen, flagged unmatched on 2026-09-05, now has a matching card ("Kim Nguyen") and was
+  logged today — that gap appears resolved.
