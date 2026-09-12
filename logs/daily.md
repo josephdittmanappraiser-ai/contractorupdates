@@ -2,7 +2,45 @@
 
 One line per run: date | threads scanned | logged | unmatched | skipped as noise
 
-2026-09-05 | 192 threads scanned | 144 logged | 32 unmatched | 9 skipped as noise, 7 skipped as duplicate
+2026-09-12 | 216 threads scanned | 234 exchanges logged across 156 threads | 44 unmatched | 24 skipped as noise, 24 skipped as duplicate
+
+Unmatched insureds named in email with no card on the Insured Appraisals board:
+- Richard and Phyllis Pender (claim 43-0B3Z-137)
+- Airman Robert Sloan
+- Jikai Chen
+- Kalyan Parajuli (claim 01-009-528773)
+- Yen-Thi Kim Nguyen (flagged resolved on 2026-09-11, but a new PA-invoice thread today came back UNMATCHED again — worth a recheck)
+- Deepa Parikh (PA consultant file)
+- Gordon Cloutier (Allstate claim, forwarded)
+- Baldomero Alvarado (2916 Highgate Ln)
+- Bulfrano Bueno (claim 53-97K0-83W — a card exists but only on the "PA FILES" board, not Insured Appraisals)
+- Uma Koturu / Kotaru Chakravarthy (cards exist on other boards — "PA FILES" and "OA APPRAISAL TASK" — ambiguous which to use)
+- Lalitha Ranganathan & Venkateswaran Tekkalur (two National General claims, 260240713 and 260142775)
+- Kishore Jonnavittula
+- Ronald Orr (Allstate claim 0831160627 — still unmatched, flagged before)
+- Kathleen Miller (claim 43-99W6-98W)
+- Ben & Danielle Jackson (Liberty Mutual dwelling-check reissue)
+- Mildred Davis (claim 0817538218 — attorney representation/claim-file demand)
+- Jett Baker (JDM1543)
+- Davis Appraisal (claim 0817585771, Beaumont TX)
+- Farassati (10+ open cards on the board, too ambiguous to pick one)
+
+Data-quality notes for Joseph to spot-check:
+- Discovery paginated through 269 raw Gmail threads matching newer_than:1d; ~53 were dropped up front
+  as automated noise (Google Drive photo-share notices, iink payment/job notices, Verisk OTP mail,
+  CompanyCam links, LinkedIn, HP marketing, QuickBooks invoice notices, SignWell e-signature notices,
+  ClaimWizard file-share notices, Send.co view alerts, an internal JustCall/reminder-run alert pair,
+  and a couple of Allstate/State Farm pure auto-acknowledgements) before the remaining 216 were fanned
+  out to 36 sonnet subagents (~6 threads each, dispatched concurrently; some batches hit the session's
+  concurrent-subagent limit or an auto-mode content classifier on the first pass and were re-dispatched
+  once earlier batches freed up a slot — all 36 batches completed on the second pass).
+- Matthew Brown's card ("Matthew Brown - 09-15") has two pre-existing Chain of Events items about a
+  Farmers Insurance appraisal that read as misfiled from the Nancy Rumold/Farmers thread — left as-is
+  per the no-fix rule, but worth a human check.
+- Two cards (Ravi Bhasin, Jun Tian) still carry duplicate "📋 Chain of Events" checklists from
+  2026-09-05/09 — still unmerged, still worth Joseph doing by hand.
+- Sharon & Charles Price's card had no "📋 Chain of Events" checklist (only an unrelated "📧 Email log"
+  checklist) — one was created per the runbook and today's item logged there.
 
 Unmatched insureds named in email with no card on the Insured Appraisals board:
 - Margaret Grant
