@@ -223,3 +223,51 @@ Data-quality notes for Joseph to spot-check:
   items are genuinely about that file, no stray content).
 - Yen-Thi Kim Nguyen, flagged unmatched on 2026-09-05, now has a matching card ("Kim Nguyen") and was
   logged today — that gap appears resolved.
+
+2026-09-13 | 129 threads scanned | 93 logged | 13 unmatched | 3 skipped as noise, 17 skipped as duplicate
+
+Discovery found 140 threads matching `newer_than:1d` across 3 pages; 11 were dropped before dispatch as
+plain non-dialogue noise (a Dropbox ToS update, 3 Send.co "new view" alerts, SiriusXM marketing, a
+CompanyCam download-link notice, a Hartford small-biz marketing email, an Invoicely payment notice, and
+2 auto-reply/do-not-reply bounces). The remaining 129 were dispatched to 22 `sonnet` subagents (~6 threads
+each, all concurrent); one batch (Sains/Paluri/Wavefront/Parad/Barnes/Hranicka) was denied outright by
+this session's permission classifier on first dispatch and was relaunched once — it completed cleanly on
+retry with no changes to the request.
+
+Unmatched insureds named in email with no card on the Insured Appraisals board:
+- Ladie Velazquez (Fw: Claim No. SWYBMHO13513) — recurred across two threads today
+- Marissa Griebel (Allied Trust claim 2610333) — still open from 2026-09-07
+- Kathleen Miller (claim OKHO-00014370)
+- Robert Sloan (Airman referral via Engle Martin)
+- Travelers claim JHM0516 — insured not named in thread, still open from 2026-09-05/09
+- Davis Appraisal (claim 0817585771, 3795 Robinson St, Beaumont TX) — still open from 2026-09-11
+- Unnamed insured, Demonteverde referral — no claim details given in thread
+- Alfredo Rincon (No Stress Claims PA referral) — still open from 2026-09-09; only a different
+  "Alexander Rincon" card exists
+- Unnamed homeowner in Woodlands, TX (Legacy Roofing new-client referral) — 8 ambiguous "Woodlands"
+  card matches, none clearly this file
+- Shannon Roussos (Progressive appraisal, 4100 Thistle Hl, Denton TX, claim 1658178-264402) —
+  recurred across three threads today
+- Obernal (Allstate claim 000827947599) — only ambiguous, non-matching "Bernal" cards found
+- Rudy/Rudia Mejia Jr. — not a true gap, but two open cards exist for the same insured (claim
+  018551777-023 and -024) and today's invoice thread gave no way to tell which one it belongs to
+- Tim Redwine (Legacy Roofing claim-status thread) — still open from 2026-09-09
+
+Resolved since prior runs: nothing newly confirmed resolved today — Marissa Griebel, Davis Appraisal
+0817585771, Alfredo Rincon, and Tim Redwine are the same gaps recurring from 2026-09-07/09/11 and likely
+still need a card created or an existing card's name/claim number corrected.
+
+Data-quality notes for Joseph to spot-check:
+- Two more cards found with duplicate checklists: Ravi Bhasin has two checklists both named
+  "📋 Chain of Events" (one for umpire/inspection-scheduling dialogue, one for a separate Travelers
+  reassignment thread — the subagent added to the correct one and did not merge them), and Stephen
+  Becker has the same duplicate-name issue (subagent appended to whichever checklist's last entry
+  immediately preceded the new item). Same pre-existing issue noted for Jin Baik (2026-09-05) and
+  Ravi Bhasin/Jun Tian (2026-09-11) — still unmerged.
+- One subagent treated Joseph's own self-addressed "For Geralden — Estimates Sent action items —
+  09/12/2026" email as noise rather than fanning writes across the ~19 files it bundled together,
+  since it carried internal shorthand (AD, DOA, CN, staff names) and no single matching card — worth
+  a look if that digest needs to reach the board some other way.
+- A one-line internal note from Joseph ("Progressive appraisal", advising withdrawal from an
+  appraisal over disputed terms) named only a claim number tied to Shannon Roussos — no card exists
+  for that insured, so nothing was logged; see unmatched list above.
