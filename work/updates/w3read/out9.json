@@ -77,8 +77,67 @@
    "threadsDropped": [],
    "trelloItemsAdded": 2,
    "notes": ""
+  },
+  {
+   "cardId": "691368743a951db9b6578207",
+   "newEvents": [
+    {"date":"2026-03-08","event":"Joseph asked the carrier to escalate the file to a supervisor after it maintained its position on the soft metals."},
+    {"date":"2026-03-10","event":"The adjuster confirmed he and his manager had reviewed the file together and were maintaining their position."}
+   ],
+   "update": "Liberty Mutual/Safeco is holding its position on the soft metals despite the hail evidence Joseph submitted; he escalated to a supervisor and the adjuster confirmed on March 10 that he and his manager reviewed the file together and are maintaining their position. No contractor action is needed.",
+   "needed": null,
+   "threadsRead": ["19c6bd5de2bc4b32","19c355d163364ab7","19bb2e3a4febe82a","19b687db485b7583","19a9294959290a46","19a7d9d85293f740","19a73cdfa008450e","19a73cd511c32b6a","1a092702669d10a5","1a0877740b3b89a7","1a086e96a20d746b","1a03fe73a9fe72d3","1a015dbf2f5921dc","1a014ff1f00b88fd","1a00fc5fb8900dee","19fce80604601670","19fca01082a1cd9e","19fc9ac173142da6","19faf03ae73595ee","19fa9e7f7463a38c","19f848a796b16322","19f6ce05da8e2020","19f51d7c8a01f3a6","19f14d6f0b2c2a59","19f350a0ecf3e268","19f3cb4056910d2b","19f3965e7a2cd368","19ef5dda971bcfae"],
+   "threadsDropped": ["1a092702669d10a5","1a0877740b3b89a7","1a086e96a20d746b","1a03fe73a9fe72d3","1a015dbf2f5921dc","1a014ff1f00b88fd","1a00fc5fb8900dee","19fce80604601670","19fca01082a1cd9e","19fc9ac173142da6","19faf03ae73595ee","19fa9e7f7463a38c","19f848a796b16322","19f6ce05da8e2020","19f51d7c8a01f3a6","19f14d6f0b2c2a59","19f350a0ecf3e268","19f3cb4056910d2b","19f3965e7a2cd368","19ef5dda971bcfae"],
+   "trelloItemsAdded": 2,
+   "notes": "This file's insured is Marilyn Gregory (Linear Roofing / Liberty Mutual-Safeco claim 060390543). 20 of the 21 candidate threads the scan surfaced turned out to be about entirely different clients/claims picked up on loose name or contractor matches: Gregory Miller / Shayna Miller (appraisal invoice, photos), Gregory Gossett & Leslie Gossett (Liberty Mutual claim 061308511-01), Humaira Shaikh (Allstate claim 000834531121, ADC Roofing), Ketan Patel (Fortegra, Tarrytown Roofing), Sirridges (Farmers claim 5043731264-1), John and Carolyn Malone/other PA-board digest items, plus a LinkedIn newsletter and three Trello bulk-notification digests with no Marilyn Gregory content. Only 19c355d163364ab7 (\"Response to review of PA estimate & photos\", explicitly addressed to \"Mr. Dittman & Mrs. Gregory\") is genuinely this file; its new events after searchAfter are recorded above."
+  },
+  {
+   "cardId": "6952bb96047f1f3c785015d1",
+   "newEvents": [],
+   "update": "This file is closed. The appraiser confirmed on September 9 that Dave Ciambrone's claim has been concluded; no further action remains.",
+   "needed": null,
+   "threadsRead": ["1a08626b6699fb0d","19fba229287afa2f"],
+   "threadsDropped": ["19fba229287afa2f"],
+   "trelloItemsAdded": 0,
+   "notes": "The 2026-09-09 closure event from thread 1a08626b6699fb0d was already on the checklist. Dropped 19fba229287afa2f: a general monthly service-invoice email from appraiser vendor Wynn Corps with no mention of this insured."
+  },
+  {
+   "cardId": "6993648c36167ff0baf32a33",
+   "newEvents": [
+    {"date":"2026-09-14","event":"The contractor sent the carrier's estimate so the additional requested supplement items could be identified."}
+   ],
+   "update": "The file is in post-appraisal supplement work: the contractor submitted photos and a coverage rationale for decking and chimney-siding damage, and on September 14 sent the carrier's estimate so Joseph can identify the additional items to pursue.",
+   "needed": null,
+   "threadsRead": ["1a0868c83803a467","1a01154808bfc4c4","1a00fd1db3be62dd"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 1,
+   "notes": "1a01154808bfc4c4 and 1a00fd1db3be62dd are automated iink payment-processing notifications; the only new dated content extractable for this file (the Sept 14 estimate) came from 1a0868c83803a467 and is recorded above."
+  },
+  {
+   "cardId": "69962dcecea7166c293a21b4",
+   "newEvents": [
+    {"date":"2026-09-02","event":"The carrier confirmed it is releasing the remaining depreciation except for the window replacement, which stays open until the window is replaced within the policy's timeframe."}
+   ],
+   "update": "Allstate has agreed to release the remaining recoverable depreciation on the completed roof and gutter work, holding back only the portion tied to the window replacement until that item is done. No contractor action is currently needed.",
+   "needed": null,
+   "threadsRead": ["1a0628c88788448a","1a010a75a83f49cf","1a010908635c4896","1a00fc5fb8900dee","1a00c11c32dd6953","19fa56583c31f8f7","19fa4693c0e5197b","19d9168e25af8669","19d94724c9880f44","19cd28f754f1e643"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 1,
+   "notes": "Several threads are Trello bulk-notification digests, but each contained an embedded comment specific to the \"Niranjan Mohan\" card; those snippets were cross-checked against the direct-email threads and matched the same facts already on the checklist, except for the September 2 depreciation-release confirmation, which was new."
+  },
+  {
+   "cardId": "699350b41c7ee5539bbca4a8",
+   "newEvents": [
+    {"date":"2026-07-29","event":"The carrier confirmed receipt of the completion documentation and released the remaining depreciation, with payment mailed to the office."}
+   ],
+   "update": "The carrier released the remaining recoverable depreciation on July 29 after receiving the completion documentation; payment was mailed to the office. No contractor action is currently needed.",
+   "needed": null,
+   "threadsRead": ["1a04630be1023a9e","1a03e39a47ef53a7","19fae35442c10ae3","19f42e21625dc098","19f42cfca732662e"],
+   "threadsDropped": ["1a04630be1023a9e","1a03e39a47ef53a7","19f42e21625dc098","19f42cfca732662e"],
+   "trelloItemsAdded": 1,
+   "notes": "Dropped 1a04630be1023a9e: a LinkedIn newsletter digest, unrelated. Dropped 1a03e39a47ef53a7: a different insured (Peter Mora, contents claim). Dropped 19f42e21625dc098 and 19f42cfca732662e: a different insured (Brian/Hollie Bevil, Farmers contents claim). Only 19fae35442c10ae3 (a Trello digest with an embedded comment on the \"Frank Ivy\" card confirming the depreciation release) is genuinely this file."
   }
  ],
- "checked": 5,
- "withNewEvents": 3
+ "checked": 10,
+ "withNewEvents": 7
 }
