@@ -223,3 +223,21 @@ Data-quality notes for Joseph to spot-check:
   items are genuinely about that file, no stray content).
 - Yen-Thi Kim Nguyen, flagged unmatched on 2026-09-05, now has a matching card ("Kim Nguyen") and was
   logged today — that gap appears resolved.
+
+2026-09-14 | RUN FAILED — no Gmail/Trello tools in session | 0 scanned | 0 logged
+
+Same failure mode as 2026-09-08, recurring after three successful runs (09-09, 09-10, 09-11).
+`ListConnectors` again reports Gmail and Trello as `connected: true, enabledInChat: true`, but
+no Gmail or Trello tool was reachable via `ToolSearch` — tried the exact names from the runbook
+(`mcp__Gmail__search_threads`, `mcp__Trello__trelloSearch`, `mcp__Trello__trelloReadChecklist`,
+`mcp__Trello__trelloWriteChecklist`, `mcp__Gmail__get_thread`) plus broad keyword sweeps
+("email inbox message thread", "board card list workspace", "gmail search threads", "trello
+search card checklist") — nothing beyond built-in Bash/Read/Edit/etc. and GitHub MCP tools
+loaded. No email was read, no Trello card was touched, no destructive action was taken.
+
+Per `runbooks/schedules.md`, this is the diagnosed failure where a Routine created through the
+API cannot carry connector grants, so a session it fires starts with no Gmail/Trello/Send
+tools. That the previous three runs succeeded suggests the Routines-UI fix was in place and
+then this firing reverted to (or duplicated) the old disabled `[NEEDS CONNECTORS]` API Routine.
+Worth Joseph re-checking that only the Routines-UI schedule is enabled and the old API Routine
+is actually deleted, not just disabled.
