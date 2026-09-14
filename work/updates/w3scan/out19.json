@@ -142,6 +142,45 @@
    {"id":"19fa8f928a65a613","newest":"2026-07-28","from":"3j75pzzplq8bm@claims.usaa.com"},
    {"id":"19fa8bc127ee0909","newest":"2026-07-28","from":"3j7zcmq8jbj9w@claims.usaa.com"}
   ],
-  "newestOverall":"2026-09-14","hasNewer":true}
+  "newestOverall":"2026-09-14","hasNewer":true},
+ {"cardId":"69c2bfb862652fb6bf23cd62","searchAfter":"2026-05-20",
+  "threads":[
+   {"id":"19e437d339b1516a","newest":"2026-05-20","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19e2c3cd6cf36091","newest":"2026-05-20","from":"Kenneth.Saras@afics.com"},
+   {"id":"19e2bfe19429df2d","newest":"2026-05-15","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19dd48b32cc977ec","newest":"2026-05-01","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19d258f1d2d668ee","newest":"2026-04-07","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19d2582ee983d64d","newest":"2026-03-25","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19d2099a91de5333","newest":"2026-03-24","from":"josephdittmanappraiser@gmail.com"}
+  ],
+  "newestOverall":"2026-05-20","hasNewer":false},
+ {"cardId":"69dff38a25963b181e9ba153","searchAfter":"2026-08-05",
+  "threads":[
+   {"id":"19df3efafcc85337","newest":"2026-05-04","from":"drive-shares-dm-noreply@google.com"},
+   {"id":"19daaedf19bcd50c","newest":"2026-05-14","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19daadd0a58fcd8d","newest":"2026-04-20","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19d917a1ebda65d6","newest":"2026-04-16","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19d916be1d4c885e","newest":"2026-04-15","from":"reply@mail.acculynx.com"},
+   {"id":"19d916acae57ea63","newest":"2026-04-15","from":"ryani@legacyroofinggc.com"},
+   {"id":"19d9168e25af8669","newest":"2026-08-05","from":"ryani@legacyroofinggc.com"}
+  ],
+  "newestOverall":"2026-08-05","hasNewer":false},
+ {"cardId":"69ef7b0d3c4174ca03afe22f","searchAfter":"2026-07-25",
+  "threads":[
+   {"id":"19f973e4caf093e1","newest":"2026-09-02","from":"Dylan.Lovell@afics.com"},
+   {"id":"19f4929c5728ddc6","newest":"2026-07-09","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19f48f5207a473d1","newest":"2026-07-09","from":"jazhielm@legacyroofinggc.com"},
+   {"id":"19f4825218f94cb7","newest":"2026-07-09","from":"luist@legacyroofinggc.com"},
+   {"id":"19f175e4b7796f88","newest":"2026-06-30","from":"ClaimCorrespondence@afics.com"},
+   {"id":"19e7b619fc20cafa","newest":"2026-05-31","from":"wynncorpsllc@gmail.com"},
+   {"id":"19e709a3f09f7950","newest":"2026-05-29","from":"ClaimCorrespondence@afics.com"},
+   {"id":"19e21e8e466d8979","newest":"2026-05-13","from":"esmay4752@gmail.com"},
+   {"id":"19ddac9336e95de9","newest":"2026-05-04","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19dda77048d20228","newest":"2026-04-29","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19dda1663abfe1db","newest":"2026-05-23","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19dc66c915b40076","newest":"2026-05-28","from":"luist@legacyroofinggc.com"},
+   {"id":"19dc6670c12d0198","newest":"2026-04-25","from":"reply@mail.acculynx.com"}
+  ],
+  "newestOverall":"2026-09-02","hasNewer":true}
 ],
-"checked":7}
+"checked":10}
