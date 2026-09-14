@@ -1,0 +1,107 @@
+[
+ {
+  "cardId": "6a6bdb8493134562f8c3c525",
+  "insured": "Anthony Archer",
+  "claim": "",
+  "address": "",
+  "searchAfter": "2026-09-07"
+ },
+ {
+  "cardId": "6a7111ed1bc516d92bf1c376",
+  "insured": "CARLOS RAMIREZ",
+  "claim": "",
+  "address": "** 20758 Hardwick Oaks Dr, Houston, TX 77073",
+  "searchAfter": "2026-08-03"
+ },
+ {
+  "cardId": "6a71126736620bca9cd963a3",
+  "insured": "Jose Lopez",
+  "claim": "",
+  "address": "** 2219 Turtle Creek Dr, Missouri City, TX 77459",
+  "searchAfter": "2026-08-03"
+ },
+ {
+  "cardId": "6a71270bb252230c80d3afbe",
+  "insured": "CLAUDIA RON",
+  "claim": "",
+  "address": "** 16110 Glen Mar Dr, Houston, TX 77082",
+  "searchAfter": "2026-08-03"
+ },
+ {
+  "cardId": "6a71ff3c8f6cb653484f1163",
+  "insured": "Alberto Bazaldua",
+  "claim": "",
+  "address": "** 280 County Rd 309,, Jarrell, TX 76537",
+  "searchAfter": "2026-08-03"
+ },
+ {
+  "cardId": "6a721f9e3486038970346b1d",
+  "insured": "Teresa Garcia",
+  "claim": "",
+  "address": "** 915 Milwakee St, Houston, TX 77009",
+  "searchAfter": "2026-08-04"
+ },
+ {
+  "cardId": "6a7cf9a7e796f5172dbf1630",
+  "insured": "SHANE LAXEN",
+  "claim": "",
+  "address": "** 5411 Enchanted Mist Dr,, Humble, TX 77346",
+  "searchAfter": "2026-08-13"
+ },
+ {
+  "cardId": "6a832f86bef0be96f9707f69",
+  "insured": "SANDRA CARDENAS PRADO",
+  "claim": "",
+  "address": "** 315 Wimberley St, Hutto, TX 78634",
+  "searchAfter": "2026-08-17"
+ },
+ {
+  "cardId": "6a84cd3fa6c255d8656a850f",
+  "insured": "SERGIO ALEJANDRO",
+  "claim": "",
+  "address": "** 19507 Tigris Springs Cir,, Katy, TX 77449",
+  "searchAfter": "2026-08-18"
+ },
+ {
+  "cardId": "6a876a26f3a0fbd8ec99cedd",
+  "insured": "ANITA SHELLEY",
+  "claim": "",
+  "address": "** 3302 Parker Trace Dr,, Missouri City, TX 77459",
+  "searchAfter": "2026-08-21"
+ },
+ {
+  "cardId": "6a88bd2bde15488373d11463",
+  "insured": "Vanessa & Howard Jones",
+  "claim": "",
+  "address": "** 1806 Eastfield Dr, Missouri City, TX 77459",
+  "searchAfter": "2026-08-21"
+ },
+ {
+  "cardId": "6a8f657bed1fd0121822775c",
+  "insured": "Jose Gallegos",
+  "claim": "",
+  "address": "** 8723 Harvest Acres Dr,, Manvel, TX 77578",
+  "searchAfter": "2026-08-26"
+ },
+ {
+  "cardId": "6a8f695a01f1200ace22f997",
+  "insured": "GARY DOW [00300104161]",
+  "claim": "",
+  "address": "** 8143 Evadean Cir,, Austin, TX 78745",
+  "searchAfter": "2026-09-10"
+ },
+ {
+  "cardId": "6a90a2ea903f3a533a5ac48a",
+  "insured": "Gary Dow [00201968322]",
+  "claim": "",
+  "address": "** 8143 Evadean Cir,, Austin, TX 78745",
+  "searchAfter": "2026-09-10"
+ },
+ {
+  "cardId": "6a90a4511be30841419ee0c0",
+  "insured": "MARIA BAZANTE",
+  "claim": "",
+  "address": "** 8415 Fredericksburg Lane,, Houston, TX 77083",
+  "searchAfter": "2026-08-27"
+ }
+]

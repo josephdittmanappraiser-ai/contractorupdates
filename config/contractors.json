@@ -1665,6 +1665,33 @@
    "shareId": "bTAL7cC8",
    "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
    "url": "https://www.send.co/a/bTAL7cC8"
+  },
+  {
+   "label": "Easy Button Construction",
+   "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/69d730d75452b9ea77bb2122",
+   "company": "Easy Button Construction",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-14 weekly run: label had 12 open cards and no entry in this config. Several of those cards also carry a company label (LINEAR roofing, No Stress Claims, Legacy Roofing) or a Linear rep label -- this looks like a contractor that refers files jointly with other companies, so those cards belong on both pages, not just this one. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "Baker Law",
+   "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/6aa1c9563b18e0810ed17af1",
+   "company": "Baker Law",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-14 weekly run: label had 1 open card and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+  },
+  {
+   "label": "Rusty Coffman - infinite roofing",
+   "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/67ffa04e7150d2006e610226",
+   "company": "Infinite Roofing",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-09-14 weekly run: label had 1 open card and no entry in this config. NEEDS JOSEPH'S CALL: this label reads like a variant of the existing LINEAR/Stronghouse rep 'Rusty Coffman' (label id 6a80ddf94f505ca9d8a1b2c0), but the one card carrying it has no LINEAR roofing / Strong House Pro company label at all, so it was not merged into that rep's page automatically -- never guess on a page assignment. If this is the same person doing business as a separate company, this entry is right; if it should be the same Rusty Coffman, merge the card's label in Trello instead and delete this entry."
   }
  ],
  "_supersededComment": [
