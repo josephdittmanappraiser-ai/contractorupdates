@@ -1,0 +1,121 @@
+{
+ "batch": 2,
+ "results": [
+  {
+   "cardId": "6a94343aa913526291222b72",
+   "newEvents": [
+    {"date": "2026-09-02", "event": "Joseph sent the contractor (Stronghouse Solutions, Noah Nichter) the draft estimate and depreciation report for review."},
+    {"date": "2026-09-03", "event": "Nichter flagged that the living room ceiling oak trim damage was missing from the report and that the back and right fascia measurements needed correction."},
+    {"date": "2026-09-03", "event": "Joseph sent a revised draft addressing the contractor's feedback."},
+    {"date": "2026-09-14", "event": "Nichter said the living room trim and deck paint valuations were still too low and sent a photo for reference."}
+   ],
+   "update": "The estimate is still under review by the contractor's project manager, who flagged as recently as September 14 that the living room trim and deck paint values are undervalued; another revision is needed before the position can go out.",
+   "needed": null,
+   "threadsRead": ["1a05f6f237fff55e"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 4,
+   "notes": "Only one thread was newer than searchAfter and it was unambiguously this file (subject 'Minnie Hadley Contractor', same contractor Stronghouse Solutions)."
+  },
+  {
+   "cardId": "6a515e15d6d643c1d92b33e8",
+   "newEvents": [
+    {"date": "2026-09-14", "event": "Kidd Roofing (Sean McArthur) sent photos of the detached back structure's damage via a shared photo folder link."}
+   ],
+   "update": "Kidd Roofing sent photos of the detached back-structure damage on September 14; those still need to be reviewed and incorporated into a revised position before it can go out. Note: this file does have a roofer of record (Kidd Roofing) despite the card's standing note that it is a no-roofer Direct Customer file.",
+   "needed": null,
+   "threadsRead": ["19f2333d39fca18b"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 1,
+   "notes": "Only one thread was newer than searchAfter; confirmed as this file by subject and homeowner email."
+  },
+  {
+   "cardId": "6a83872e535042aca38df386",
+   "newEvents": [],
+   "update": "No new developments for this file. The roofer (Gavin Alvarado, Strong House Pro) approved the estimate September 4 and the position was already sent to Nationwide the same day; the file is complete for this stage.",
+   "needed": null,
+   "threadsRead": ["1a071f507111088c"],
+   "threadsDropped": ["1a071f507111088c"],
+   "trelloItemsAdded": 0,
+   "notes": "Dropped 1a071f507111088c: subject 'CLAYTON GRASSI 0821195467 Umpire' — a different insured (Clayton Grassi, claim 0821195467) picked up by a broad search, not Mike Russell."
+  },
+  {
+   "cardId": "6a838ed484b8fd225fb86d60",
+   "newEvents": [],
+   "update": "No new developments for this file. The roofer (Buddy Crotty, Powerhaus Solutions) approved the estimate September 3; nothing further is pending on their end.",
+   "needed": null,
+   "threadsRead": ["1a09240d6bdb80a9"],
+   "threadsDropped": ["1a09240d6bdb80a9"],
+   "trelloItemsAdded": 0,
+   "notes": "Dropped 1a09240d6bdb80a9: a Letter of Representation to State Farm (claim 53-0K0D-995) for insureds Eric Copeland & Tanya Rodriguez — a different insured sharing only the Rodriguez surname, not Dorothy Rodriguez."
+  },
+  {
+   "cardId": "6a7e42a38ea17e75c14526d3",
+   "newEvents": [],
+   "update": "No new developments for this file specifically. The roofer (Matt Godfrey, Stronghouse) approved the estimate back in August and the demand letter is out for the homeowner's signature; a human follow-up was already logged September 11-12 outside this routine.",
+   "needed": null,
+   "threadsRead": ["1a0a0037450c9275", "1a095fb02e558275", "1a08bc2a8235fd05", "1a08319b055068df", "1a082567947c1c31", "1a081571b8d94c37", "1a081558f9c49410", "1a09b294aa50fce8", "1a09600b8b1f0578", "1a090ddbcf5e5a87", "1a08bb54771787f1", "1a0869206684dea5", "1a07d0c4fd2d64de"],
+   "threadsDropped": ["1a0a0037450c9275", "1a095fb02e558275", "1a08bc2a8235fd05", "1a08319b055068df", "1a082567947c1c31", "1a081571b8d94c37", "1a081558f9c49410", "1a09b294aa50fce8", "1a09600b8b1f0578", "1a090ddbcf5e5a87", "1a08bb54771787f1", "1a0869206684dea5", "1a07d0c4fd2d64de"],
+   "trelloItemsAdded": 0,
+   "notes": "Every thread newer than searchAfter turned out to belong to someone else: a generic iink claim-status digest (1a0a0037450c9275); an Erin Beasley invoice (1a095fb02e558275); a Manzoor Mir/John Malone status check (1a08bc2a8235fd05); a Kal Shah claim (1a08319b055068df); a Roel Garcia photo share, claim #202505220027 (1a082567947c1c31); an Ann Bierschenk State Farm claim (1a081571b8d94c37); and a Jazmin Leal De Garcia iink job (1a081558f9c49410) — several of these matched only on the shared 'Garcia' surname. The remaining six (1a09b294aa50fce8, 1a09600b8b1f0578, 1a090ddbcf5e5a87, 1a08bb54771787f1, 1a0869206684dea5, 1a07d0c4fd2d64de) are Joseph's own internal daily 'Estimates Sent action items' digest emails covering 19-27 files at once — not primary correspondence for this file, so not used as a source of events for it."
+  },
+  {
+   "cardId": "6a7a50afef5394d94cab7f50",
+   "newEvents": [
+    {"date": "2026-08-16", "event": "Joseph sent Legacy Roofing (Anthony Perez) the estimate for review and approval."},
+    {"date": "2026-09-07", "event": "Joseph followed up with Legacy Roofing after receiving no reply to the estimate sent August 16."}
+   ],
+   "update": "The estimate has been sitting with the roofer (Legacy Roofing, Anthony Perez) since August 16 with no reply; we followed up September 7 and are still waiting on their approval before the file can move forward.",
+   "needed": "Their approval of the estimate sent August 16 — followed up September 7, still no response.",
+   "threadsRead": ["1a00c6f71a5ea90c", "1a09b294aa50fce8", "1a09600b8b1f0578", "1a090ddbcf5e5a87", "1a08bb54771787f1", "1a0869206684dea5", "1a07d0c4fd2d64de"],
+   "threadsDropped": ["1a09b294aa50fce8", "1a09600b8b1f0578", "1a090ddbcf5e5a87", "1a08bb54771787f1", "1a0869206684dea5", "1a07d0c4fd2d64de"],
+   "trelloItemsAdded": 2,
+   "notes": "Kept 1a00c6f71a5ea90c (subject 'ATHEE, KRISHNA Contractor', direct correspondence with the roofer). Dropped the six internal daily digest emails as not primary correspondence for this file specifically."
+  },
+  {
+   "cardId": "6a73c18856f0971811e19cf7",
+   "newEvents": [],
+   "update": "No new developments for this file. The roofer (Zacharias Khan, Strong House Pro) approved the estimate September 7; the file is now waiting on Farm Bureau to assign an adjuster, which is outside the contractor's control.",
+   "needed": null,
+   "threadsRead": ["1a0960540dadf4b4", "1a095feba842b2da", "1a091f22878ce826", "1a0100f9e0911b40", "1a09163662bca9ab", "1a087de777b42d60", "1a086e5249a5f566", "1a083bb28180c783", "19f936c6d95cd7ae", "1a0828a1f05a7924", "1a09b294aa50fce8", "1a09600b8b1f0578", "1a090ddbcf5e5a87", "1a08bb54771787f1", "1a0869206684dea5"],
+   "threadsDropped": ["1a0960540dadf4b4", "1a095feba842b2da", "1a091f22878ce826", "1a0100f9e0911b40", "1a09163662bca9ab", "1a087de777b42d60", "1a086e5249a5f566", "1a083bb28180c783", "19f936c6d95cd7ae", "1a0828a1f05a7924", "1a09b294aa50fce8", "1a09600b8b1f0578", "1a090ddbcf5e5a87", "1a08bb54771787f1", "1a0869206684dea5"],
+   "trelloItemsAdded": 0,
+   "notes": "Every thread newer than searchAfter belonged to a different insured: Debra Summers and Christina Drown invoices; Matthew Brown appraisal correspondence (two threads, sharing only the 'Brown' surname with Robert Brown); a Venugopal Yelishetty mold claim; William & Annetta Womack's Texas Windstorm claim; a Schimpf v. Liberty appraisal assignment; a Sharon Peter vs Travelers matter; John & Carolyn Malone's appraisal; and a Travelers claim A3G4425 (St Paul Fire and Marine). The five remaining threads are the internal daily 'Estimates Sent action items' digest, not primary correspondence for this file."
+  },
+  {
+   "cardId": "6a694d0b652c4b53a35f1c99",
+   "newEvents": [
+    {"date": "2026-09-12", "event": "Bo Serros (LINEAR Roofing) asked for a status update on all of Richard Rong Dai's properties, including this one (6722 West 157th Terrace)."}
+   ],
+   "update": "The contractor asked for a status update covering all of Richard Rong Dai's properties, including this one, on September 12; we have not located correspondence confirming this property's estimate was ever approved by the roofer, which still needs to be confirmed before the file can move forward.",
+   "needed": null,
+   "threadsRead": ["1a0942fed9a80c20", "1a091eef1465c244", "1a08c8dbd35c44bb", "1a081e0f43d3539b", "1a081afd6b2bba1d", "1a09b294aa50fce8", "1a09600b8b1f0578", "1a090ddbcf5e5a87", "1a08bb54771787f1", "1a0869206684dea5"],
+   "threadsDropped": ["1a091eef1465c244", "1a08c8dbd35c44bb", "1a081e0f43d3539b", "1a081afd6b2bba1d", "1a09b294aa50fce8", "1a09600b8b1f0578", "1a090ddbcf5e5a87", "1a08bb54771787f1", "1a0869206684dea5"],
+   "trelloItemsAdded": 0,
+   "notes": "Richard Rong Dai has 7 properties on file; 1a091eef1465c244 and 1a081e0f43d3539b are both claim #061798649-01, a different claim number from this property's CN 061798653 — a different Rong Dai property, dropped. 1a081afd6b2bba1d is explicitly about 15040 W 145th Ter, Olathe — a different property, dropped. 1a08c8dbd35c44bb is a Google eSignature notice for 'DOA_SOU_RongDai' that does not name which of the 7 properties it covers — dropped rather than risk misattribution. The Bo Serros multi-property status-update event (1a0942fed9a80c20) was already present verbatim on the checklist ('2026-09-12 — The referring contractor asked for a status update on this file.'), so nothing new was added."
+  },
+  {
+   "cardId": "6a6a7b9c5d1379b414fadc80",
+   "newEvents": [
+    {"date": "2026-09-12", "event": "Bo Serros (LINEAR Roofing) asked for a status update on all of Richard Rong Dai's properties, including this one (15278 Conser Street)."}
+   ],
+   "update": "The contractor asked for a status update covering all of Richard Rong Dai's properties, including this one, on September 12; the estimate approval and signed agreement are already in hand for this address, and the file is ready to move toward carrier submission.",
+   "needed": null,
+   "threadsRead": ["1a0942fed9a80c20", "1a091eef1465c244", "1a08c8dbd35c44bb", "1a081e0f43d3539b", "1a081afd6b2bba1d", "1a09b294aa50fce8", "1a09600b8b1f0578", "1a090ddbcf5e5a87", "1a08bb54771787f1", "1a0869206684dea5"],
+   "threadsDropped": ["1a091eef1465c244", "1a08c8dbd35c44bb", "1a081e0f43d3539b", "1a081afd6b2bba1d", "1a09b294aa50fce8", "1a09600b8b1f0578", "1a090ddbcf5e5a87", "1a08bb54771787f1", "1a0869206684dea5"],
+   "trelloItemsAdded": 0,
+   "notes": "Same multi-property mailbox as card 6a694d0b652c4b53a35f1c99 above (Richard Rong Dai has 7 properties). 1a091eef1465c244 and 1a081e0f43d3539b are claim #061798649-01, not this property's Steadily/Liberty Mutual claim (26PRKS371451278) — dropped. 1a081afd6b2bba1d is explicitly 15040 W 145th Ter, Olathe — a different property, dropped. 1a08c8dbd35c44bb (Google eSignature for 'DOA_SOU_RongDai') does not specify which property — dropped rather than risk misattribution. The Bo Serros status-update event was already present verbatim on the checklist, so nothing new was added."
+  },
+  {
+   "cardId": "6a42e1a39872ef2c0c618aff",
+   "newEvents": [],
+   "update": "No new developments beyond what is already logged. The estimate has been unapproved by the roofer since June with 7+ follow-ups sent (most recently September 9); still waiting on their word on both estimate approval and whether the older couple signed the demand letter in person.",
+   "needed": "Their approval of the estimate, and confirmation of whether Barbra & Keith Rhoades signed the demand letter in person — last followed up September 9, no response since June.",
+   "threadsRead": ["19fa6709ac1e1938", "1a09b294aa50fce8", "1a09600b8b1f0578", "1a090ddbcf5e5a87", "1a08bb54771787f1", "1a0869206684dea5", "1a07d0c4fd2d64de"],
+   "threadsDropped": ["1a09b294aa50fce8", "1a09600b8b1f0578", "1a090ddbcf5e5a87", "1a08bb54771787f1", "1a0869206684dea5", "1a07d0c4fd2d64de"],
+   "trelloItemsAdded": 0,
+   "notes": "Thread 19fa6709ac1e1938 (direct correspondence with the roofer, Michael Shemas) was read in full; every follow-up date found in it (8/18, 8/25, 8/28, 9/9) was already present on the checklist, so nothing new was added. The six digest threads were dropped as internal daily summaries, not primary correspondence for this file."
+  }
+ ],
+ "checked": 10,
+ "withNewEvents": 5
+}

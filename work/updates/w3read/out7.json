@@ -1,0 +1,47 @@
+{
+ "batch": 7,
+ "results": [
+  {
+   "cardId": "6a976bf80ad6fcca769cbcec",
+   "newEvents": [],
+   "update": "The appraisal demand letter and revised estimate already went to the carrier on the partial-approval dispute; the file is waiting on the carrier to confirm receipt and name their appraiser.",
+   "needed": null,
+   "threadsRead": [],
+   "threadsDropped": ["1a020fada18d7b2f"],
+   "trelloItemsAdded": 0,
+   "notes": "Only thread newer than searchAfter was about Jesal Shah, a different insured with a similar surname (invoice/payment follow-up with The Lawgical Firm) — dropped, not Kal Shah's file."
+  },
+  {
+   "cardId": "6a518a8643f6e498691ce08a",
+   "newEvents": [],
+   "update": "The revised estimate with 20% overhead and profit was resent and approved by the roofer, and our office formally notified the carrier that the homeowner is initiating the appraisal process; we're waiting on the carrier to confirm receipt and name their appraiser.",
+   "needed": null,
+   "threadsRead": ["1a0880fd9f853fca", "1a07dd99ed754a75", "1a0869206684dea5"],
+   "threadsDropped": ["1a06cca35c4a8129", "19f89dfa46433695"],
+   "trelloItemsAdded": 0,
+   "notes": "Two threads (Koteshwar Pilla Rao's file) were dropped as a different insured unrelated to Brian Laughlin. The remaining threads only confirm events already logged on the card (O&P revision, carrier notification) — no activity found past 09-09."
+  },
+  {
+   "cardId": "6a98a434ba47bc114ab220be",
+   "newEvents": [],
+   "update": "The finalized position went to the insurance company on 09-10 after the contractor approved the draft; the file is waiting on the carrier to confirm receipt and name their appraiser.",
+   "needed": null,
+   "threadsRead": [],
+   "threadsDropped": ["1a09ce91c9b96b57", "1a09cd2802b72d76", "1a09bd4c8eeb2987", "1a08cb49487c0af0"],
+   "trelloItemsAdded": 0,
+   "notes": "All four threads found were unrelated to this file — two were internal inspection-reminder digests naming other insureds, one was a SignWell notice for Oscar Hernandez-Gamboa, and one concerned Manuel Hernandez's claim in Indiana. None mention Paul Hernandez, his claim, or his address."
+  },
+  {
+   "cardId": "6a9095020e1bb2b60f48a747",
+   "newEvents": [],
+   "update": "The approved file went to the carrier on 09-11 after the contractor signed off; the file is waiting on the carrier to confirm receipt and name their appraiser.",
+   "needed": null,
+   "threadsRead": [],
+   "threadsDropped": ["1a09b294aa50fce8", "1a0960540dadf4b4", "19f936c6d95cd7ae"],
+   "trelloItemsAdded": 0,
+   "notes": "All three threads were unrelated to Matthew Brown — an internal estimates-sent digest, a Debra Summers invoice thread, and a Malone appraisal thread. Nothing new found for this file since 09-11."
+  }
+ ],
+ "checked": 4,
+ "withNewEvents": 0
+}

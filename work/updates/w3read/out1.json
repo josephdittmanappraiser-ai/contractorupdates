@@ -1,0 +1,50 @@
+{
+ "batch": 1,
+ "results": [
+  {
+   "cardId": "6a1dfbf17c61e4c01e938953",
+   "newEvents": [
+    {"date": "2026-08-21", "event": "Appraiser Steven Smallwood circulated the appraisal award positions for review."},
+    {"date": "2026-08-31", "event": "Joseph sent the appraisal invoice for the completed work, requesting payment."}
+   ],
+   "update": "The appraisal award has been circulated and Joseph has invoiced for the completed appraisal; the file is wrapping up pending payment of that invoice.",
+   "needed": "Send payment for the appraisal invoice to avoid delaying close-out.",
+   "threadsRead": ["1a059554a9e19f8c", "1a02597aea67e6c2"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 0,
+   "notes": "Both events were already recorded on the Chain of Events checklist; nothing new was added to avoid duplicates."
+  },
+  {
+   "cardId": "6872b7b43d21fee0af22f904",
+   "newEvents": [],
+   "update": "No confirmed new activity. The homeowner previously confirmed then the roofer advised an appraisal wasn't needed, so the file was not pursued further; nothing found since changes that.",
+   "needed": null,
+   "threadsRead": ["1a096a9cc5fe112a", "1a095e7b5d281169", "1a07360da71f8861", "1a024fcd17b2daf9", "19fdd5e260d350e2", "19fd3c0a986df595"],
+   "threadsDropped": ["1a096a9cc5fe112a", "1a095e7b5d281169", "1a07360da71f8861", "1a024fcd17b2daf9", "19fdd5e260d350e2", "19fd3c0a986df595"],
+   "trelloItemsAdded": 0,
+   "notes": "All six threads belonged to other clients sharing the Mejia surname: an appraisal-panel/umpire matter for 'Rudy Mejia Jr.' (claim 018551777-23, umpire Flying Coconuts, contact david@mosaic.claims), and a separate 'Hugo Anzora' invoice sent to the same roofing contact. None mention claim 0487F286R, 809 Emerald St, or Edwin Mejia by name; dropped as belonging to other clients."
+  },
+  {
+   "cardId": "697babeb19aff0419cb9d330",
+   "newEvents": [],
+   "update": "No confirmed new activity found. The card carries no recorded claim number or address; the last logged status is the Allstate follow-up from February 2026.",
+   "needed": null,
+   "threadsRead": ["1a04403db611e178", "1a0942fed9a80c20", "1a091eef1465c244", "1a08c8dbd35c44bb", "1a05ea696281e43c", "1a0842dbe8b12cf1", "1a06d20cfbff4916", "1a06d2a73e7c146c", "1a068aeea3a7387a", "1a059283fc8afbc4", "1a0491073f2a536c", "1a03ab8760964acb", "1a0259305feac822", "19ff843ee437a1cb"],
+   "threadsDropped": ["1a04403db611e178", "1a0942fed9a80c20", "1a091eef1465c244", "1a08c8dbd35c44bb", "1a05ea696281e43c", "1a0842dbe8b12cf1", "1a06d20cfbff4916", "1a06d2a73e7c146c", "1a068aeea3a7387a", "1a059283fc8afbc4", "1a0491073f2a536c", "1a03ab8760964acb", "1a0259305feac822", "19ff843ee437a1cb"],
+   "trelloItemsAdded": 0,
+   "notes": "None of the 14 threads the scan pulled named Sheril Foster or an Allstate claim. They belonged to: Christina Drown (Fort Worth TX, different carrier), Richard 'Rong Dai' and his several Overland Park/Olathe KS properties (Liberty Mutual/Cullen & Associates), Mark & Jill Connelly (Farmers claim), a separate 'Gayle Foster' file with a different contractor (texcoroofs@gmail.com), and two generic Square invoice reminders with no claim tied to them. All dropped as belonging to other clients or not identifiable as this file."
+  },
+  {
+   "cardId": "69bad1ae861bc5abe177df60",
+   "newEvents": [],
+   "update": "No confirmed new activity found. The card carries no claim number or address, and no thread the scan pulled names Olga Gordon.",
+   "needed": null,
+   "threadsRead": ["1a0918c86d0e919c", "1a0828a1f05a7924", "1a04b17b7f78100a", "1a020f51095a3aaa", "19fa4dd63ea5ed3c", "19faeb6f47256de4", "19f6c1c60f8fff7c", "19ef4d38af67e849", "19ddff4859fe0dac", "19db15bd06f8a1ce", "19d8862f89560c16", "19d48ecd75cda0c3", "19d2d00ca9e33521", "19d2e53d8672a886", "19cf75246a56a757", "19cbfb0e90c1bc21"],
+   "threadsDropped": ["1a0918c86d0e919c", "1a0828a1f05a7924", "1a04b17b7f78100a", "1a020f51095a3aaa", "19fa4dd63ea5ed3c", "19faeb6f47256de4", "19f6c1c60f8fff7c", "19ef4d38af67e849", "19ddff4859fe0dac", "19db15bd06f8a1ce", "19d8862f89560c16", "19d48ecd75cda0c3", "19d2d00ca9e33521", "19d2e53d8672a886", "19cf75246a56a757", "19cbfb0e90c1bc21", "1a08b818543c7dd8"],
+   "trelloItemsAdded": 0,
+   "notes": "Card name is Olga Gordon, but every thread the scan surfaced belonged to someone else sharing the token 'Gordon': Gordon Cloutier (Allstate claim 0817988678 -- an unrelated insured whose first name is Gordon), Tyson Gordon (State Farm claim), Nathaniel Gordon Druckerman (State Farm claim), adjuster Rickeeta Gordon on a Tammana claim, plus unrelated files (P&D Paint Body Shop/Travelers, Mark & Jill Connelly/Farmers, a title-company closing package, and one Semrush marketing email). None named Olga Gordon; all dropped."
+  }
+ ],
+ "checked": 4,
+ "withNewEvents": 1
+}

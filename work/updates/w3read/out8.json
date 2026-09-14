@@ -1,0 +1,47 @@
+{
+ "batch": 8,
+ "results": [
+  {
+   "cardId": "681057affabeef4e9bc65fb7",
+   "newEvents": [],
+   "update": "No new correspondence specific to Mr. Armstrong's claim turned up since our last update; the recent inbox activity carrying this surname belongs to other insureds' files.",
+   "needed": null,
+   "threadsRead": ["19fae1823b03aa3b","19e22104c11daf79","19dbbf730eaa237e","19cd7a0bccc814ca","19cc47b5f52830dd","19c33ffb76e905d8","19be6c46f7d9a5ca","19bd7b7627792851"],
+   "threadsDropped": ["19fae1823b03aa3b","19e22104c11daf79","19dbbf730eaa237e","19cd7a0bccc814ca","19cc47b5f52830dd","19c33ffb76e905d8","19be6c46f7d9a5ca","19bd7b7627792851"],
+   "trelloItemsAdded": 0,
+   "notes": "All 8 candidate threads dropped. 19fae1823b03aa3b carried Armstrong's own claim number in its header but the message body was USAA flagging a misdirected email about an unrelated claim (Sergeant Thomas/Georgetown) -- not a real update to Armstrong's file. The rest were entirely different claims/insureds picked up by surname or adjuster-CC overlap: 19e22104c11daf79 and 19cc47b5f52830dd/19c33ffb76e905d8 are all the Coleman (BRIH-00000194) claim; 19dbbf730eaa237e is the Pannell (Praetorian) claim; 19cd7a0bccc814ca is a Sedgwick auto-reply that merely mentions a 'Toni.Armstrong' staffer; 19be6c46f7d9a5ca is the Dat Nguyen (USAA) claim; 19bd7b7627792851 is the Andrew D'Armond claim."
+  },
+  {
+   "cardId": "684b593d310e794f76743511",
+   "newEvents": [],
+   "update": "The carrier's appraiser sent the award letter and his estimate for review on 8/29; no further correspondence on this file has come in since. All other recent inbox activity under this surname belongs to unrelated claims.",
+   "needed": null,
+   "threadsRead": ["1a07cb8a04a4cdad","19ff7fad19fa20a0","1a08c082be05f75b","19f936c6d95cd7ae","1a07bd9b89062897","1a07902b7d2e81ba","1a039d127e88204a","1a05ec600056de21","1a06331a1ddd6946","19f6bef6867d84c1","19ffbdd523a15c9f","1a06d882f3c314bf","1a062ce58b74f4d9","1a06f75cef22f10d","1a03a47b3cc0c662","1a04e2240183c532"],
+   "threadsDropped": ["1a09d4f02f4dd2da","1a088b595cc3da96","1a07942797762117","1a069cf62025bf87","1a07cb8a04a4cdad","19ff7fad19fa20a0","1a08c082be05f75b","19f936c6d95cd7ae","1a07bd9b89062897","1a07902b7d2e81ba","1a039d127e88204a","1a05ec600056de21","1a06331a1ddd6946","19f6bef6867d84c1","19ffbdd523a15c9f","1a06d882f3c314bf","1a062ce58b74f4d9","1a06f75cef22f10d","1a03a47b3cc0c662"],
+   "trelloItemsAdded": 0,
+   "notes": "4 LinkedIn notification threads skipped unread. Of 16 opened, 15 belonged to other insureds/claims picked up by surname or CC overlap (Mervish, Coffman & Harper, Middleton & Williams, Malone, Siller x3, a No Stress bulk status-check email listing many unrelated claims, Taskiran, Elimam, Pawar & Desai, Tranchon, Chidi, a TWIA claim for M&M Build Group, Xu Ouyang). The one genuine match -- 1a04e2240183c532, subject 'JONES - AUP ESTIMATE', an appraiser's estimate sent 8/29 -- is already recorded as the last item on this card's Chain of Events checklist, so no new item was added."
+  },
+  {
+   "cardId": "681ce17c279159567a8bcfbd",
+   "newEvents": [],
+   "update": "The roof claim (0779300433) shows no further movement past the felt-supplement resolution already on record. The only recent activity under Mr. Irwin's name is a separate flooding-damage claim for a family member (a different property and claim number) that Joseph took on as a new, unrelated engagement.",
+   "needed": null,
+   "threadsRead": ["19c2a204b07bf120","19c200837cd30949","19d68087cf8e5bdf","19d8752e3be936c7","19d88f77e76e1173","19d5eb832307c3a1","19e16b285640726a","19df87772b5acd96","19e693131f2e8112","19f3cb341eeeed41","19fd85c46f1ba266","1a06777077dc679e"],
+   "threadsDropped": ["19c2a204b07bf120","19c200837cd30949","19d68087cf8e5bdf","19d8752e3be936c7","19d88f77e76e1173","19d5eb832307c3a1","19e16b285640726a","19df87772b5acd96","19e693131f2e8112","19f3cb341eeeed41","19fd85c46f1ba266","1a06777077dc679e"],
+   "trelloItemsAdded": 0,
+   "notes": "19c2a204b07bf120 and 19c200837cd30949 restate the felt-removal estimate/photo resend already logged as the checklist's last item (2026-02-04). 19d88f77e76e1173 and 19df87772b5acd96 are Steve Irwin referring Joseph a brand-new, separate claim for his daughter's flooding damage (claim 000822369674, a different property) -- a different file, not this roof claim. The rest (19d68087cf8e5bdf, 19d8752e3be936c7, 19d5eb832307c3a1, 19e16b285640726a, 19e693131f2e8112, 19f3cb341eeeed41, 19fd85c46f1ba266, 1a06777077dc679e) are entirely different insureds picked up by adjuster/CC overlap."
+  },
+  {
+   "cardId": "680c993e747738afdbbab607",
+   "newEvents": [],
+   "update": "No correspondence specific to this claim (005749, 2604 Belliser Court) turned up in the new threads; everything found under this file's search terms belonged to other insureds, including an unrelated AAA claim for a different 'Li' (Yachin Li, claim 017901269). The file appears to have had no further activity since it was last updated.",
+   "needed": null,
+   "threadsRead": ["1a09d77b5d0b2477","1a067d960985b878","1a086935849bca4b","1a083bb28180c783","1a0828a1f05a7924","1a08135664e6db39","1a072ae18c7d4d43","1a06e38e24645fef","1a068f9d8260aa2d","1a05ea7bed932c36","1a046bbd94a6bf6c","19f6cbb970375aef","1a03fdd7f0b6fabf","1a03f03bef7abb2e","1a03ee40a3aa2c3a"],
+   "threadsDropped": ["1a063373a42a1304","1a05968fed72b1f8","1a03f4556ecef2d0","1a0623bec734b136","19ff7fad19fa20a0","1a09d77b5d0b2477","1a067d960985b878","1a086935849bca4b","1a083bb28180c783","1a0828a1f05a7924","1a08135664e6db39","1a072ae18c7d4d43","1a06e38e24645fef","1a068f9d8260aa2d","1a05ea7bed932c36","1a046bbd94a6bf6c","19f6cbb970375aef","1a03fdd7f0b6fabf","1a03f03bef7abb2e","1a03ee40a3aa2c3a"],
+   "trelloItemsAdded": 0,
+   "notes": "4 Trello-notification threads and 1 Google-payment-receipt thread skipped unread (not claim correspondence). Of the 15 opened, every one was a different insured/claim: Liberty Mutual (Mondragon), a supplement request (JDM4903001H), Sharon Peter vs Travelers, a Travelers content claim (A3G4425), a Progressive appraisal invocation (Doha/Abdulkader), an umpire assignment (Liles), a Lone Star/West Fire appraisal (Muralles Ortiz), a Travelers policy (JHM0516), a Williams appraisal (HL Claims), the Teer claim, a Transverse claim, the Doan/Travelers umpire panel, a Chhabra denial referral, and the Yachin Li AAA withdrawal. No checklist exists yet on this card since there is nothing new to record."
+  }
+ ],
+ "checked": 4,
+ "withNewEvents": 0
+}

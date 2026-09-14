@@ -1,0 +1,52 @@
+{
+ "batch": 10,
+ "results": [
+  {
+   "cardId": "69a709d45e662098c6d10e3e",
+   "newEvents": [
+    {"date": "2026-06-28", "event": "Homesite Insurance Company issued payment on the claim, to be mailed to the PA office."}
+   ],
+   "update": "Payment has been issued by the carrier and is being routed to the PA office; the file is winding down pending the funds' arrival.",
+   "needed": null,
+   "threadsRead": ["19f0cf6242561039"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 1,
+   "notes": ""
+  },
+  {
+   "cardId": "69a863982872eaee578f4935",
+   "newEvents": [
+    {"date": "2026-08-14", "event": "John Wynn sent the finalized appraisal award along with the updated estimate; the carrier's appraiser had signed the award and returned it."},
+    {"date": "2026-08-24", "event": "Joseph told Legacy Roofing the appraisal award has been signed and the payment check is being mailed out, and sent the contractor the finalized estimate."}
+   ],
+   "update": "The appraisal award has been signed by both sides and payment is being mailed out; Joseph sent Legacy Roofing the finalized estimate, and the file is winding down.",
+   "needed": null,
+   "threadsRead": ["19fee78fe4a72aa2", "19ec3f1dd5bec084", "19e653e1fd22e8ab"],
+   "threadsDropped": ["1a05c3ee0139ffe5", "19ffd2a400fb0204", "19f385469339d018"],
+   "trelloItemsAdded": 2,
+   "notes": "Dropped 1a05c3ee0139ffe5 (multi-file status sweep that never mentions Adityakumar Raval), 19ffd2a400fb0204 and 19f385469339d018 (both about a different Raval file - Atman & Jigisha Raval, Safeco/Liberty Mutual claim 061678536-01, 1005 Comfort Dr, Forney TX - not Adityakumar Raval / AFICS)."
+  },
+  {
+   "cardId": "6993b4f1ea5f465c5736ec2c",
+   "newEvents": [],
+   "update": "No correspondence specific to this file (claim 01-009-078154, Anal Shah and Dhara Mehta) turned up this pass; the ten threads pulled by the surname search were all about other Shah-named clients or unrelated matters. The file's last recorded status stands: appraisal demand sent to AFICS in February, files delivered, awaiting the carrier's response.",
+   "needed": null,
+   "threadsRead": [],
+   "threadsDropped": ["1a08319b055068df", "1a07f6579812b68a", "1a07d0c4fd2d64de", "1a06a3fbccbc42c9", "1a05ff08feee42b8", "1a05fa6d87638aea", "1a05fa6c430a25f3", "1a05eb592b55e09d", "1a020fada18d7b2f", "19fc48339db6b4a8"],
+   "trelloItemsAdded": 0,
+   "notes": "All 10 threads pulled by the surname search were about other clients: Kal Shah (appraisal demand/contractor estimate, several threads), Hetvi Shah (706 Ireland Way recoverable depreciation), Jesal Shah (appraisal invoice via The Lawgical Firm), and a 'Pastrana' appraisal invoice - none mention Anal Shah, Dhara Mehta, or claim 01-009-078154."
+  },
+  {
+   "cardId": "6955455394e326bd6d1394d1",
+   "newEvents": [],
+   "update": "No correspondence specific to this file (claim NG4108259, Sequina Moore) turned up this pass; the ten threads pulled by the surname search were all about other 'Moore' matters or unrelated files. The file's last recorded status stands: waiting on the homeowner to confirm with the insurer that she wants to proceed with appraisal.",
+   "needed": null,
+   "threadsRead": [],
+   "threadsDropped": ["1a09ce91c9b96b57", "1a08f258b437c33d", "1a07e816e6f0a58e", "1a07902b7d2e81ba", "1a068b0aad5d98ef", "1a06833e71c15550", "1a067e65c291e1d3", "1a0262b7cdee375a", "1a04e1b15e8e189a", "1a020f51095a3aaa"],
+   "trelloItemsAdded": 0,
+   "notes": "All 10 threads pulled by the surname search concerned other 'Moore' matters (an Allstate adjuster named Yalonda Moore, appraiser Mike Moore on a 'Stewart' award, a Liberty Mutual claim at 602 Royal Glen Dr, a Tammana appraisal demand, an Aguirre/Allstate dispute, a LinkedIn notification, and an internal reminder-system watchdog email) or unrelated files - none mention Sequina Moore or claim NG4108259."
+  }
+ ],
+ "checked": 4,
+ "withNewEvents": 2
+}

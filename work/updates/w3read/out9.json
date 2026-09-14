@@ -1,0 +1,84 @@
+{
+ "batch": 9,
+ "results": [
+  {
+   "cardId": "687bafd8f4f1a7da96d1e004",
+   "newEvents": [
+    {"date":"2025-09-19","event":"An independent inspection vendor and the homeowner confirmed a property inspection for September 22."},
+    {"date":"2025-09-22","event":"The property inspection took place with the vendor and the homeowner."},
+    {"date":"2025-09-24","event":"The inspection vendor sent the photos from the September 22 inspection."},
+    {"date":"2025-11-22","event":"Joseph sent his position to the carrier's adjuster: the estimate and the photo report, and requested a re-inspection."},
+    {"date":"2025-12-05","event":"The carrier's adjuster declined to change the estimate and offered to meet for a re-inspection."},
+    {"date":"2025-12-12","event":"The re-inspection did not happen because Joseph did not attend the appointment the carrier's adjuster had confirmed."},
+    {"date":"2026-01-05","event":"Since the carrier would not grant a re-inspection, Joseph submitted a formal appraisal demand on the insured's behalf."},
+    {"date":"2026-01-06","event":"The carrier rejected the appraisal demand, saying it needed to be signed by all named insureds and accompanied by the repair estimate."},
+    {"date":"2026-01-07","event":"Joseph disputed the carrier's position and said he would have the other named insured sign the demand and send the estimate."},
+    {"date":"2026-02-09","event":"Joseph told the carrier to name an appraiser within 20 days or he would petition for a court-appointed umpire."},
+    {"date":"2026-02-11","event":"The carrier acknowledged the signed appraisal demand and asked for the estimate; Joseph sent his position: the estimate and the photo report."},
+    {"date":"2026-02-16","event":"The carrier's adjuster asked to schedule a re-inspection before management would approve appraisal, and Joseph scheduled it for February 20."},
+    {"date":"2026-03-07","event":"Joseph formally requested that the carrier pay statutory prompt-payment interest under the Texas Insurance Code for the delay in paying the claim."},
+    {"date":"2026-04-22","event":"The carrier responded that no interest was due because no appraisal award was issued and payment had been made promptly."},
+    {"date":"2026-04-25","event":"Joseph acknowledged the carrier's position."},
+    {"date":"2026-06-25","event":"The carrier issued payment on the claim."},
+    {"date":"2026-08-07","event":"The carrier requested a completed W-9 form for tax reporting on the payment issued."}
+   ],
+   "update": "The claim reached appraisal after the carrier repeatedly declined re-inspection; the carrier issued payment on the claim in June and is now asking Joseph to submit a completed W-9 for its tax reporting. Nothing further is needed from the referring party.",
+   "needed": null,
+   "threadsRead": ["19fddc65e4fa738d","19f0037e0179706d","19db739448b53d67","19b8dd63d2d7ff25","199638ee9d3d67d0","1996390e3a7f66b3","199531ae2a77951f","198aec460061ccc9"],
+   "threadsDropped": ["199531ae2a77951f"],
+   "trelloItemsAdded": 17,
+   "notes": "Dropped thread 199531ae2a77951f (\"Fwd: HO-2025-936297800\"): it concerns a different insured, Trang K. Duong, claim HO-2025-936297800 at 2311 Mesa Park Dr, Kerrville, TX — not this file's insured, Tan Duong, claim 01-008-673192 at 13521 Coomer Path, Pflugerville, TX. Picked up by the scan only because of the shared surname."
+  },
+  {
+   "cardId": "6938b1198d253e996f3bfd90",
+   "newEvents": [],
+   "update": "Travelers has affirmed its denial (normal wear and tear, not a covered cause of loss) and declined to add repair of the nail holes left by loss-mitigation tarps; the adjuster escalated to his manager and is waiting on Joseph after he speaks with the insured. No developments since the last recorded update.",
+   "needed": null,
+   "threadsRead": ["19f001ec47948bc5","19f39368a466ec5c","19c43191a87a0e52"],
+   "threadsDropped": ["19f001ec47948bc5","19f39368a466ec5c"],
+   "trelloItemsAdded": 0,
+   "notes": "Dropped 19f001ec47948bc5 (\"Claim - 202604090001\"): a fire/mold-mitigation dispute for insured Vanessa Cruz Gonzalez, an unrelated claim; a Jorge Terrazas is only cc'd. Dropped 19f39368a466ec5c (\"Jon mottu - appraisal\"): a separate appraisal referral for insured Jonathan Mottu from the same roofer; the email itself notes Mottu's roof is 'the next street over from Robert Terrazas,' confirming it is a different file. The one genuine thread (19c43191a87a0e52) matches this card's insured and claim (ROBERTO TERRAZAS GEETJE TERRAZAS-JCL4183); its two events after searchAfter were already present on the checklist, so nothing new was added."
+  },
+  {
+   "cardId": "695d4a87f20527f941216ec8",
+   "newEvents": [
+    {"date":"2026-02-19","event":"Joseph sent the Letter of Representation to the carrier and requested the policy, prior estimates, and correspondence on the claim."},
+    {"date":"2026-03-10","event":"After no response, Joseph resent the Letter of Representation to the carrier's claims department."},
+    {"date":"2026-05-11","event":"Joseph told the contractor a property inspection was scheduled for May 18, after which an estimate and photo report would follow."},
+    {"date":"2026-05-21","event":"A new claims examiner at the carrier took over the file, sent the certified policy, and asked Joseph to confirm the insured's position on appraisal."},
+    {"date":"2026-06-03","event":"Joseph told the contractor the file had been forwarded to an attorney."}
+   ],
+   "update": "The claim was escalated to an attorney after months without a substantive carrier response; a new examiner at the carrier has since taken over, sent the certified policy, and is waiting on Joseph to confirm the insured's stance on appraisal.",
+   "needed": null,
+   "threadsRead": ["19e7b619fc20cafa","19e4ca324d7e273b","19cd81d3738a4829","19c771c4d46eaedf","19bc54e2931be484"],
+   "threadsDropped": ["19e7b619fc20cafa"],
+   "trelloItemsAdded": 5,
+   "notes": "Dropped 19e7b619fc20cafa: a general monthly service-invoice email from appraiser vendor Wynn Corps covering multiple clients across April and May, with no mention of this insured or property — not specific to this file."
+  },
+  {
+   "cardId": "699ca27259abc8c1c3d1d82d",
+   "newEvents": [],
+   "update": "The claim remains with the attorney after the carrier denied it following a reinspection review of the submitted estimate; the contractor asked for an update again on July 23 with no new response yet.",
+   "needed": null,
+   "threadsRead": ["19d4958aaf6f4bd5"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 0,
+   "notes": "The only new-dated event (2026-05-18, file forwarded to the attorney) was already present on the checklist. The July 23 message is the contractor asking for an update again; no response has been sent yet."
+  },
+  {
+   "cardId": "6909369b70aa8d0fafc5a6df",
+   "newEvents": [
+    {"date":"2026-07-11","event":"The homeowner asked Joseph for an update, having not heard from the office in some time."},
+    {"date":"2026-07-13","event":"Joseph told the homeowner the file had been forwarded to the attorney for next steps."}
+   ],
+   "update": "The file remains with the attorney after months of dispute with the carrier over hail damage to the roof; Joseph told the homeowner on July 13 that the attorney has it and will be kept informed.",
+   "needed": null,
+   "threadsRead": ["19c7a9e727b8b73c"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 2,
+   "notes": ""
+  }
+ ],
+ "checked": 5,
+ "withNewEvents": 3
+}
