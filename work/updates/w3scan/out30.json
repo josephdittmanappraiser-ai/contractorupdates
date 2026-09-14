@@ -208,6 +208,39 @@
   {"id":"19e3c8b351c5600b","newest":"2026-05-20T23:15:09Z","from":"jdiaz@linearroofing.com"},
   {"id":"19bd7b7627792851","newest":"2026-04-07T00:10:10Z","from":"jprankin.claims@gmail.com"}
  ],
- "newestOverall":"2026-09-02T17:22:05Z","hasNewer":true}
+ "newestOverall":"2026-09-02T17:22:05Z","hasNewer":true},
+{"cardId":"69c32dc96db949f2f15db542","searchAfter":"2026-07-17",
+ "threads":[
+  {"id":"1a0276e8be9ecf32","newest":"2026-09-10T15:43:55Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"1a062a352e64f803","newest":"2026-09-05T09:54:37Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"1a03a1283b4f0672","newest":"2026-08-25T17:58:06Z","from":"carmen.nostressclaims@gmail.com"},
+  {"id":"1a0167a15f16fc06","newest":"2026-08-18T21:06:55Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"1a01678f99c8d792","newest":"2026-08-18T20:03:26Z","from":"dpena_15@yahoo.com"},
+  {"id":"1a0161cf01663f16","newest":"2026-08-18T18:23:05Z","from":"katanderson@mcknighttitle.com"},
+  {"id":"19fda2ab664a4ab4","newest":"2026-08-07T03:00:58Z","from":"tyrrell_furlow@us.crawco.com"},
+  {"id":"19fd7c2b3487c9f0","newest":"2026-09-11T16:09:50Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"19fd4c2c05a62fed","newest":"2026-08-06T01:49:19Z","from":"signwelldocs@signwell.com"},
+  {"id":"19fc48339db6b4a8","newest":"2026-09-07T15:02:50Z","from":"pididdypastrana@gmail.com"},
+  {"id":"1a079ea21963bce7","newest":"2026-09-15T13:00:00Z","from":"josephdittmanappraiser@gmail.com"}
+ ],
+ "newestOverall":"2026-09-15T13:00:00Z","hasNewer":true},
+{"cardId":"697cee458453b97cb67ec6b9","searchAfter":"2026-07-20",
+ "threads":[
+  {"id":"1a06884c957e9cdc","newest":"2026-09-03T18:25:19Z","from":"danmoynahan@outlook.com"},
+  {"id":"1a05f6357223cc85","newest":"2026-09-04T12:48:29Z","from":"danmoynahan@outlook.com"},
+  {"id":"19fd500ede951e59","newest":"2026-08-24T15:38:53Z","from":"accounting@nostressintl.com"},
+  {"id":"19f9d4a8ae452be1","newest":"2026-08-05T23:29:49Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"19f80181a7db531d","newest":"2026-07-22T02:17:33Z","from":"claims@claims.allstate.com"},
+  {"id":"19f7d91973ec44a5","newest":"2026-07-21T11:48:02Z","from":"amazingadjuster@gmail.com"},
+  {"id":"19f5c32a72b6a59f","newest":"2026-07-20T17:24:02Z","from":"allstate@service01.email-allstate.com"},
+  {"id":"19f06a9cfbbe86ea","newest":"2026-06-27T01:20:05Z","from":"wynncorpsllc@gmail.com"},
+  {"id":"19f008eca862734c","newest":"2026-06-26T15:39:02Z","from":"wynncorpsllc@gmail.com"},
+  {"id":"19ed18dc1badd3c3","newest":"2026-06-16T18:58:09Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"19e94536ce3de1d8","newest":"2026-06-15T19:54:57Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"19c25a6ab8f53a04","newest":"2026-09-02T12:00:00Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"19cb411a9ca1788d","newest":"2026-03-03T14:19:41Z","from":"claims@claims.allstate.com"},
+  {"id":"19c0fdc478601c23","newest":"2026-02-03T17:14:40Z","from":"claims@claims.allstate.com"}
+ ],
+ "newestOverall":"2026-09-04T12:48:29Z","hasNewer":true}
 ],
-"checked":13}
+"checked":15}

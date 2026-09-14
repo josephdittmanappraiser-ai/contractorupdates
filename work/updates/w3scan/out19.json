@@ -181,6 +181,41 @@
    {"id":"19dc66c915b40076","newest":"2026-05-28","from":"luist@legacyroofinggc.com"},
    {"id":"19dc6670c12d0198","newest":"2026-04-25","from":"reply@mail.acculynx.com"}
   ],
-  "newestOverall":"2026-09-02","hasNewer":true}
+  "newestOverall":"2026-09-02","hasNewer":true},
+ {"cardId":"69dd230e0608a749781d4588","searchAfter":"2026-08-11",
+  "threads":[
+   {"id":"1a046bbd94a6bf6c","newest":"2026-09-02","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"1a0447a87604ac6c","newest":"2026-08-27","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19fd8a255eb7c405","newest":"2026-08-06","from":"jira@upgraded-workspace-joseph-dittman.atlassian.net"},
+   {"id":"19fc8abbb6ef0305","newest":"2026-08-28","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19fb4a36976157c2","newest":"2026-07-30","from":"jira@upgraded-workspace-joseph-dittman.atlassian.net"},
+   {"id":"19fb4743c15debd7","newest":"2026-07-31","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19f908dd5edaf47b","newest":"2026-07-23","from":"jira@upgraded-workspace-joseph-dittman.atlassian.net"},
+   {"id":"19f85ec27d16bf9a","newest":"2026-07-21","from":"Coha@coandcolaw.com"},
+   {"id":"19f6c7c9caebe19b","newest":"2026-07-16","from":"jira@upgraded-workspace-joseph-dittman.atlassian.net"}
+  ],
+  "newestOverall":"2026-09-02","hasNewer":true},
+ {"cardId":"69d0624ef0500d0730086826","searchAfter":"2026-08-03",
+  "threads":[
+   {"id":"19f936c6d95cd7ae","newest":"2026-09-14","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19e73be1ca5849b4","newest":"2026-07-16","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19e69b75a947b5dc","newest":"2026-05-27","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19e698dac6356c6b","newest":"2026-05-27","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19d793d43103f4cf","newest":"2026-04-25","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19d546dc98213777","newest":"2026-04-06","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19e4d1229eb0d5d6","newest":"2026-07-07","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19e3d1a962833bbc","newest":"2026-05-18","from":"lgarcia@stronghousepro.com"},
+   {"id":"19d6948448fcbe91","newest":"2026-05-11","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"1a05c3ee0139ffe5","newest":"2026-09-01","from":"wynncorpsllc@gmail.com"},
+   {"id":"1a0597bc40a4aae8","newest":"2026-08-31","from":"wynncorpsllc@gmail.com"},
+   {"id":"1a08d137960c3b8e","newest":"2026-09-14","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"1a08bc2a8235fd05","newest":"2026-09-11","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19fc7f2280618a08","newest":"2026-08-04","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19f80ecb680275e4","newest":"2026-07-20","from":"statefarmfireclaims@statefarm.com"},
+   {"id":"1a08626b6699fb0d","newest":"2026-09-09","from":"wynncorpsllc@gmail.com"},
+   {"id":"1a0737316307dedb","newest":"2026-09-08","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19fee78fe4a72aa2","newest":"2026-08-13","from":"wynncorpsllc@gmail.com"}
+  ],
+  "newestOverall":"2026-09-14","hasNewer":true}
 ],
-"checked":10}
+"checked":12}
