@@ -241,3 +241,13 @@ tools. That the previous three runs succeeded suggests the Routines-UI fix was i
 then this firing reverted to (or duplicated) the old disabled `[NEEDS CONNECTORS]` API Routine.
 Worth Joseph re-checking that only the Routines-UI schedule is enabled and the old API Routine
 is actually deleted, not just disabled.
+
+Manual rerun attempted same day after a user request. Mid-session, github/Send/Trello MCP
+servers briefly reported "disconnected" then "reconnecting"; github and two resource-listing
+tools came back, but Gmail, Trello and Send tool schemas never did — repeated `ToolSearch`
+calls (exact runbook names, plus "trelloSearch", "trello checklist add item card board",
+"mail message search read", "Gmail") all returned no match, and `ListConnectors` kept
+reporting all three as `connected: true, enabledInChat: true` throughout. Same result: 0
+scanned, 0 logged, nothing touched. The connector grant is clearly not reaching this session's
+tool list regardless of retries within a session — this needs a fix outside the session
+(recreate/re-verify the Routines-UI schedule per `runbooks/schedules.md`), not another rerun.
