@@ -29,6 +29,37 @@
   {"id":"19f866ed8e57f569","newest":"2026-08-07T14:06:19Z","from":"josephdittmanappraiser@gmail.com"},
   {"id":"1a0815fd34f0a734","newest":"2026-09-10T00:28:45Z","from":"josephdittmanappraiser@gmail.com"}
  ],
- "newestOverall":"2026-09-10T20:55:29Z","hasNewer":false}
+ "newestOverall":"2026-09-10T20:55:29Z","hasNewer":false},
+{"cardId":"6942dfdfa540033aef38bb1a","searchAfter":"2026-09-12",
+ "threads":[
+  {"id":"1a02080309dd2670","newest":"2026-08-20T18:47:43Z","from":"dreed@reedinsadj.com"},
+  {"id":"19fcfc3fd4cd7c0e","newest":"2026-08-05T02:33:34Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"19eb169460a6d0df","newest":"2026-06-10T12:02:05Z","from":"dreed@reedinsadj.com"},
+  {"id":"19e3e062b2203c8f","newest":"2026-06-29T21:07:24Z","from":"s.moloo@yahoo.com"},
+  {"id":"19c95aa1c4d09b84","newest":"2026-09-02T19:58:35Z","from":"amartin@jtparkerclaims.com"},
+  {"id":"19c2e5d3abac6b1a","newest":"2026-02-05T15:48:42Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"19b9f3f51f9a1461","newest":"2026-01-31T07:00:27Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"19b9ef657fcee219","newest":"2026-01-08T18:54:59Z","from":"amartin@jtparkerclaims.com"},
+  {"id":"19b9ee0d2efb7b5c","newest":"2026-01-08T19:20:25Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"19b6dac7e4da6de7","newest":"2026-03-20T13:51:24Z","from":"erikbrewer@gorillapa.com"},
+  {"id":"19b2d39cf4cd5254","newest":"2026-05-25T13:06:26Z","from":"dakota.mccombs@dmclaims.com"},
+  {"id":"19a83354af43cba4","newest":"2025-11-14T16:36:50Z","from":"erikbrewer@gorillapa.com"},
+  {"id":"19a093b6d9ebcc98","newest":"2025-10-22T00:04:35Z","from":"s.moloo@yahoo.com"},
+  {"id":"199e616109bc34e0","newest":"2025-12-30T05:01:15Z","from":"erikbrewer@gorillapa.com"}
+ ],
+ "newestOverall":"2026-09-02T19:58:35Z","hasNewer":false},
+{"cardId":"6a665739ce53a7cf5fa898e2","searchAfter":"2026-08-15",
+ "threads":[
+  {"id":"1a0970ad2c5399bf","newest":"2026-09-12T19:14:20Z","from":"brian.cooper@countryfinancial.com"},
+  {"id":"1a096663eba81cff","newest":"2026-09-12T16:15:15Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"1a0921187c0ce895","newest":"2026-09-11T20:27:50Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"1a08c6d2582c6b46","newest":"2026-09-10T17:47:35Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"19fddf4f4abd6f2a","newest":"2026-09-10T19:58:05Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"1a046205197b39fd","newest":"2026-09-10T23:52:59Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"1a079ea21963bce7","newest":"2026-09-15T13:00:00Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"1a0701478aa574aa","newest":"2026-09-10T17:49:30Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"1a06e05e9a9a28cd","newest":"2026-09-04T20:04:34Z","from":"GarlynSheltonBuickGMCCadillac@service.dealer-enews.com"}
+ ],
+ "newestOverall":"2026-09-15T13:00:00Z","hasNewer":true}
 ],
-"checked":2}
+"checked":4}
