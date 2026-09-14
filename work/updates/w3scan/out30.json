@@ -114,6 +114,18 @@
   {"id":"19dbc9cec62f2a57","newest":"2026-04-23T23:47:42Z","from":"josephdittmanappraiser@gmail.com"},
   {"id":"19dad67aaead31c1","newest":"2026-04-21T00:23:38Z","from":"josephdittmanappraiser@gmail.com"}
  ],
- "newestOverall":"2026-09-13T12:00:00Z","hasNewer":true}
+ "newestOverall":"2026-09-13T12:00:00Z","hasNewer":true},
+{"cardId":"6a6caf24f8d0200e38622641","searchAfter":"2026-08-07",
+ "threads":[
+  {"id":"1a08d49403f6d378","newest":"2026-09-11T21:38:29Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"1a03f0bb421f7c3a","newest":"2026-09-12T12:00:00Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"1a020bd8bc5b8fd7","newest":"2026-08-20T23:31:26Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"19ffe3603110434d","newest":"2026-08-17T04:52:21Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"19fd95b1fa68877b","newest":"2026-08-24T18:12:30Z","from":"mindyclammer@yahoo.com"},
+  {"id":"19fd9039568ccb03","newest":"2026-08-06T23:16:12Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"19fc8d673e687303","newest":"2026-08-03T19:44:53Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"1a05857f59b8b20b","newest":"2026-09-03T17:15:34Z","from":"andres@roundonellc.com"}
+ ],
+ "newestOverall":"2026-09-12T12:00:00Z","hasNewer":true}
 ],
-"checked":7}
+"checked":8}
