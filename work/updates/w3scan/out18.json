@@ -268,6 +268,20 @@
    {"id":"19ca1c40c83d7078","newest":"2026-02-28","from":"reply@mail.acculynx.com"},
    {"id":"19ca1c2fa515a9d1","newest":"2026-02-28","from":"ryani@legacyroofinggc.com"}
   ],
-  "newestOverall":"2026-08-14","hasNewer":false}
+  "newestOverall":"2026-08-14","hasNewer":false},
+ {"cardId":"69a709d45e662098c6d10e3e","searchAfter":"2026-06-27",
+  "threads":[
+   {"id":"19f0cf6242561039","newest":"2026-06-28","from":"ClaimCorrespondence@afics.com"},
+   {"id":"19f01b23984c8a4d","newest":"2026-06-27","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19e6fc3f453ba351","newest":"2026-05-28","from":"ClaimCorrespondence@afics.com"},
+   {"id":"19e1ad3759dd401a","newest":"2026-05-12","from":"Shawn.Cooper@afics.com"},
+   {"id":"19dee1fe92a43bbc","newest":"2026-05-12","from":"Shawn.Cooper@afics.com"},
+   {"id":"19d6e6be41446091","newest":"2026-04-22","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19d202e2c0a06765","newest":"2026-03-26","from":"jdiaz@linearroofing.com"},
+   {"id":"19cba11ece16fbbb","newest":"2026-05-03","from":"Shawn.Cooper@afics.com"},
+   {"id":"19cb16a5c8da0d7a","newest":"2026-03-03","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19cb16685fe14221","newest":"2026-03-03","from":"josephdittmanappraiser@gmail.com"}
+  ],
+  "newestOverall":"2026-06-28","hasNewer":true}
 ],
- "checked":13}
+ "checked":14}
