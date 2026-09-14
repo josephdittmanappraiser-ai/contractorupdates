@@ -76,6 +76,44 @@
   {"id":"1a01bcfbe8a6a9d6","newest":"2026-08-19T21:41:34Z","from":"josephdittmanappraiser@gmail.com"},
   {"id":"1a09c963778b6218","newest":"2026-09-13T21:04:34Z","from":"robert@riverstonebc.com"}
  ],
- "newestOverall":"2026-09-13T21:04:34Z","hasNewer":false}
+ "newestOverall":"2026-09-13T21:04:34Z","hasNewer":false},
+{"cardId":"6a564ca75275822b96fca2a8","searchAfter":"2026-07-28",
+ "threads":[
+  {"id":"1a06d9c3e2543daa","newest":"2026-09-14T16:41:15Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"1a06d7283f487dae","newest":"2026-09-04T17:23:30Z","from":"nationwide_claims015@nationwide.com"},
+  {"id":"1a03a5daf41ab0e8","newest":"2026-08-25T19:21:42Z","from":"amazingadjuster@gmail.com"},
+  {"id":"1a024fcd17b2daf9","newest":"2026-08-21T16:13:25Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"19f86d1ed2f6b709","newest":"2026-09-14T00:15:06Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"19fa670019504325","newest":"2026-08-13T20:02:54Z","from":"mpierce@stronghousepro.com"},
+  {"id":"19fa9af7c64e36e3","newest":"2026-09-14T15:19:26Z","from":"denny@dmcclaims.com"},
+  {"id":"19f610f32e021172","newest":"2026-08-25T19:20:26Z","from":"amazingadjuster@gmail.com"},
+  {"id":"1a0922c4cf35fac2","newest":"2026-09-12T00:11:37Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"1a092256bd3b1b8a","newest":"2026-09-11T20:29:11Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"1a08cc904d52153c","newest":"2026-09-10T19:26:18Z","from":"myclaim@farmersinsurance.com"},
+  {"id":"1a07bf8de6725943","newest":"2026-09-07T13:05:02Z","from":"support@app.iink.com"},
+  {"id":"1a06d017fe5bcf0a","newest":"2026-09-04T15:20:07Z","from":"support@app.iink.com"},
+  {"id":"1a06b1f110ccaaa6","newest":"2026-09-11T20:29:31Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"1a06a5d787a931a2","newest":"2026-09-11T20:36:09Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"1a067b5f4311efb7","newest":"2026-09-10T16:08:28Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"1a05f8b12bd144c7","newest":"2026-09-02T23:00:30Z","from":"claims@claims.allstate.com"},
+  {"id":"1a0640fe5f4be384","newest":"2026-09-02T21:43:26Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"1a05fa146e49dfaa","newest":"2026-09-03T16:14:49Z","from":"jdiaz@linearroofing.com"}
+ ],
+ "newestOverall":"2026-09-14T16:41:15Z","hasNewer":true},
+{"cardId":"69f8fdad2ec48a6f75b37b36","searchAfter":"2026-08-11",
+ "threads":[
+  {"id":"1a093afba5ffe089","newest":"2026-09-13T12:00:00Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"19e2d2eb48428cff","newest":"2026-09-11T21:15:20Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"19e2cc3a2ef57eb7","newest":"2026-05-15T17:51:18Z","from":"myclaim@farmersinsurance.com"},
+  {"id":"19e0853826a56c85","newest":"2026-05-08T16:06:09Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"19e7582643a7fce8","newest":"2026-05-29T20:57:50Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"19e51783361bf0c8","newest":"2026-05-29T21:29:29Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"19e083f188fdf52e","newest":"2026-09-11T21:16:35Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"19dc07546516a102","newest":"2026-06-25T12:24:34Z","from":"adjculpepper@gmail.com"},
+  {"id":"19dc000bb4648bfb","newest":"2026-04-24T15:01:34Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"19dbc9cec62f2a57","newest":"2026-04-23T23:47:42Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"19dad67aaead31c1","newest":"2026-04-21T00:23:38Z","from":"josephdittmanappraiser@gmail.com"}
+ ],
+ "newestOverall":"2026-09-13T12:00:00Z","hasNewer":true}
 ],
-"checked":5}
+"checked":7}
