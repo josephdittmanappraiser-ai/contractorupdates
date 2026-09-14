@@ -24,3 +24,14 @@ re-checking that only the Routines-UI weekly schedule (with Gmail+Trello+Send at
 enabled, and that the old API `[NEEDS CONNECTORS]` Routine is deleted, not just disabled — it
 appears to have fired again today for both the daily and weekly runs.
 
+2026-09-14 (rerun) | RUN FAILED — still no Trello/Gmail/Send tools | 0 pages refreshed | 0 created
+
+Rerun attempted after the harness reported "MCP server disconnected" for Trello/Send/github mid-
+session, then reported all three "reconnecting" and later "reconnected." Re-ran `ToolSearch`
+after the reconnect notice (exact tool names, bare "trello"/"gmail" keywords, Send-specific
+terms) — still zero Trello/Gmail/Send tools surfaced, only unrelated built-in tools. The
+connection-state notifications are flapping without ever exposing a usable tool. No board read,
+no email searched, no page touched; config unchanged. Not retrying again in this session —
+this is an infrastructure issue on the Routine/connector side, not something fixable by
+re-running the prompt.
+
