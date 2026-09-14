@@ -1,0 +1,134 @@
+{
+ "batch": 5,
+ "results": [
+  {
+   "cardId": "6a6a7a9c59f49342a66d5589",
+   "newEvents": [
+    {"date":"2026-08-17","event":"The signed demand for appraisal, along with the estimate and depreciation summary, was sent to the carrier (Fortegra), copying the homeowner and roofer."},
+    {"date":"2026-08-19","event":"The carrier confirmed receipt and assigned an adjuster to the claim."},
+    {"date":"2026-09-01","event":"Followed up with the carrier for a status update on the appraisal demand."}
+   ],
+   "update": "The demand for appraisal was submitted to Fortegra in mid-August; despite follow-ups on September 1 and 7, the carrier still has not named an appraiser. Next step is a phone follow-up with the carrier per the overdue-response schedule.",
+   "needed": null,
+   "threadsRead": ["1a001c14fdbd6515","1a00d223f3425dca","1a00d2718d9450c0","1a07d588c242e7f0","1a0942fed9a80c20","1a01b0ad0f7647de","1a00d508cae134e8"],
+   "threadsDropped": ["1a081afd6b2bba1d (different Rong Dai property/address, ambiguous carrier)","1a081e0f43d3539b (different Rong Dai claim, 061798649-01)","1a091eef1465c244 (same different claim, umpire correspondence)","1a08c8dbd35c44bb (signed document, but property/claim not identifiable, not attributable to this card)","1a09b294aa50fce8, 1a09600b8b1f0578, 1a090ddbcf5e5a87, 1a08bb54771787f1, 1a0869206684dea5 (internal 'Estimates Sent' run summaries about other Rong Dai properties, not this claim)"],
+   "trelloItemsAdded": 3,
+   "notes": "Roughly 20 remaining threads on this card's list were Trello activity-digest emails (do-not-reply@trello.com) spanning many unrelated cards; a large sample of these was opened across this batch and confirmed to duplicate the card's own Trello comment history with no card-specific facts missing, so the rest were not opened individually."
+  },
+  {
+   "cardId": "6a694b6be0fbd537ee884a02",
+   "newEvents": [
+    {"date":"2026-09-14","event":"The carrier asked that we obtain the homeowner's coverage letter before it will proceed further."}
+   ],
+   "update": "Liberty Mutual has declined to proceed to appraisal until it receives an estimate limited strictly to covered damage; as of September 14 the carrier is asking for the homeowner's coverage letter, and we're pressing them to specify exactly what they consider uncovered.",
+   "needed": null,
+   "threadsRead": ["1a001d9a44017d67","1a00d25fab954363","1a067fbc0e8bc255","1a08160a72518192","1a0942fed9a80c20","1a01acd8c478ce8d"],
+   "threadsDropped": ["1a081afd6b2bba1d (different Rong Dai property/address, ambiguous carrier)","1a081e0f43d3539b (different Rong Dai claim, 061798649-01)","1a091eef1465c244 (same different claim)","1a08c8dbd35c44bb (signed document not attributable to this specific claim)","1a09b294aa50fce8, 1a09600b8b1f0578, 1a090ddbcf5e5a87, 1a08bb54771787f1, 1a0869206684dea5 (internal run summaries about other Rong Dai properties)"],
+   "trelloItemsAdded": 1,
+   "notes": "Same Trello-digest pattern as the Goodman St card (shared thread ids); sampled extensively, not all opened individually — see that card's note."
+  },
+  {
+   "cardId": "6a71136a0b4293b8e2763667",
+   "newEvents": [
+    {"date":"2026-08-26","event":"Followed up with the homeowner to check whether she'd heard back from the carrier; she had not."},
+    {"date":"2026-08-28","event":"Followed up with the carrier for a status update on the claim."},
+    {"date":"2026-09-01","event":"Followed up with the homeowner again; she confirmed she still had not received any reply or physical mail from the carrier."}
+   ],
+   "update": "The demand for appraisal was sent to One Alliance in mid-August; despite repeated follow-ups through September 7 the carrier has not responded or named an appraiser, and the homeowner has heard nothing either.",
+   "needed": null,
+   "threadsRead": ["19fc960d7e292af8","1a00d35200b9128d","1a01acd8c478ce8d","1a00d508cae134e8"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 3,
+   "notes": "Remaining threads on this card's list were Trello activity digests confirmed elsewhere in this batch to be generic multi-card notifications; not all opened individually."
+  },
+  {
+   "cardId": "6a50271bf095ae76caf16f96",
+   "newEvents": [],
+   "update": "Files were submitted to the carrier (Travelers) in mid-August and confirmed received under a claim number; as of September 2 the roofer says the adjuster has the file under review. No further carrier response since.",
+   "needed": null,
+   "threadsRead": ["19fdeb5d95b13d44","1a00c5b8d72de203","1a00d462589a57d8","1a05ee4e58891f10","19fdedd1974333c2","1a07d4ab4b66b464"],
+   "threadsDropped": ["19fdedd1974333c2 (Trello digest, mentions other cards only)"],
+   "trelloItemsAdded": 0,
+   "notes": "The existing Chain of Events checklist already ends at 2026-09-01/02 with exactly this fact (adjuster has file under review), so no new events were added — the file's record is already current. Flagging a discrepancy for a person, not written to the checklist: an internal 2026-09-07 review note (thread 1a07d4ab4b66b464) claims this file has 'no carrier and no claim number,' but a Travelers file-upload confirmation from 2026-08-17 (thread 1a00d462589a57d8) shows a real claim number already exists for this file. The internal note appears to be in error."
+  },
+  {
+   "cardId": "6a73b2f2115fe953ec24ed31",
+   "newEvents": [],
+   "update": "The demand for appraisal was sent to Allstate in mid-August; despite follow-ups through September, the carrier still has not named an appraiser. On September 12 we sent Allstate a citation of Texas appraisal rules and case law urging them to name an appraiser within 20 days before this escalates further.",
+   "needed": null,
+   "threadsRead": ["1a00c43b14606c60","1a011fa0c87f9676","1a017aed264e3b67","1a05f1399a336344","1a068c1e1300551c","1a00c715124b736e","1a01205e964ef790"],
+   "threadsDropped": ["1a00c715124b736e (Trello digest, mentions this card in passing only, already reflected in card comments)","1a01205e964ef790 (Trello digest, same)"],
+   "trelloItemsAdded": 0,
+   "notes": "The existing Chain of Events checklist already ends at 2026-09-12 with exactly the Texas-appraisal-rules follow-up found in this pass; everything else found in this batch (through 2026-09-12) was already recorded, so no new items were added."
+  },
+  {
+   "cardId": "6a3eddb20988740778685cdf",
+   "newEvents": [
+    {"date":"2026-09-11","event":"Sent the homeowner guides for filing complaints with the Missouri and Kansas Departments of Insurance regarding this and his other stalled Country Financial properties."},
+    {"date":"2026-09-14","event":"Learned the adjuster is on vacation and will return September 15."}
+   ],
+   "update": "The demand for appraisal, along with an estimate and photos, was sent to Country Financial in August; the carrier has declined to name an appraiser, saying it needs a written outline of the specific dispute. As of September 14 the adjuster is on vacation until the 15th, and we've given the homeowner guides for filing a state insurance-department complaint if the carrier keeps stalling.",
+   "needed": null,
+   "threadsRead": ["19f37d626959e524","1a01704917b0efd8","1a05ff17fc4b373c","1a0921187c0ce895","19fa66fc34e791f8"],
+   "threadsDropped": ["1a0629f6d002a00e (different Farassati property/claim, 4108 Lloyd St / 600-1348144)","1a062a8035d6323c (different Farassati property/claim, 12704 Woodson St / 600-1348127)","1a017185abff320c, 1a01751b7fcd1a96 (Trello digests, redundant with card comments)"],
+   "trelloItemsAdded": 2,
+   "notes": "Faris Farassati has 11 separate properties/claims with Country Financial referred through the same roofer; several threads on this card's list turned out to belong to sibling properties (matching claim numbers and addresses that are close but not identical to this card's) and were dropped rather than misattributed."
+  },
+  {
+   "cardId": "6a73bdf0587bd77595f66fdb",
+   "newEvents": [
+    {"date":"2026-09-08","event":"Sent a further follow-up to Farmers."},
+    {"date":"2026-09-09","event":"Left a voicemail for the adjuster; Farmers said the claim had been endorsed (transferred) to a different department."}
+   ],
+   "update": "The demand for appraisal was sent to Farmers on August 19. A payment notice on the underlying claim surfaced unexpectedly on September 3, and as of September 9 Farmers says the claim has been moved to a different department — we're following up to find out what that means for the open appraisal request.",
+   "needed": null,
+   "threadsRead": ["19ffa9ada2160edf","1a01a6a8b73a5491","1a0690878e219066"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 2,
+   "notes": "Remaining threads on this card's list were Trello activity digests confirmed elsewhere in this batch to be generic multi-card notifications."
+  },
+  {
+   "cardId": "6a3ec881f0235ef96b225b9d",
+   "newEvents": [
+    {"date":"2026-09-11","event":"Sent the homeowner guides for filing complaints with the Missouri and Kansas Departments of Insurance regarding this and his other stalled Country Financial properties."},
+    {"date":"2026-09-14","event":"Learned the adjuster is on vacation and will return September 15."}
+   ],
+   "update": "The demand for appraisal was sent to Country Financial in August; the carrier keeps asking for a written outline of the specific dispute before it will name an appraiser. We asked the carrier on September 9 to clarify whether it's only disputing our pricing, and gave the homeowner state-complaint guides on September 11 given the delay.",
+   "needed": null,
+   "threadsRead": ["1a01c3b60fe2d794","1a05ff17fc4b373c","1a0921187c0ce895","19fa66fc34e791f8"],
+   "threadsDropped": ["1a062b7cc76e29a4 (different Farassati property/claim, 5833 Highland Ave / 600-1348140)"],
+   "trelloItemsAdded": 2,
+   "notes": "Same 11-property Farassati/Country Financial situation as the 4309 Wayne Ave card; a sibling-property thread (5833 Highland Ave) was dropped rather than misattributed to this 5606 Highland Ave file."
+  },
+  {
+   "cardId": "6a3ebe2e12bbc48e409f2f51",
+   "newEvents": [
+    {"date":"2026-09-09","event":"The homeowner asked us to produce the written dispute outline the carrier keeps requesting, at least for one property, to see how it responds."},
+    {"date":"2026-09-11","event":"Sent the homeowner guides for filing complaints with the Missouri and Kansas Departments of Insurance regarding this and his other stalled Country Financial properties."}
+   ],
+   "update": "The demand for appraisal was sent to Country Financial on August 20; the carrier has repeatedly declined to name an appraiser without a written outline of the dispute. On September 12 we told the carrier the basis of the dispute is the scope of hail damage reflected in our estimate; the homeowner has also been given state-complaint guides given how long this has dragged on.",
+   "needed": null,
+   "threadsRead": ["1a0203267719f4d0","1a020bbeb581e25d","1a05ff17fc4b373c","1a0921187c0ce895","19fa66fc34e791f8"],
+   "threadsDropped": ["1a062c13f06f95f5 (different Farassati property/claim, 3946 Springfield St / 600-1348143)"],
+   "trelloItemsAdded": 2,
+   "notes": "Same 11-property Farassati/Country Financial situation; a sibling-property thread (3946 Springfield St) was dropped rather than misattributed to this 3913 Springfield St file."
+  },
+  {
+   "cardId": "6a3ec75f5991d11d1ccc0b06",
+   "newEvents": [
+    {"date":"2026-08-19","event":"Sent the homeowner a reminder that the demand letter was awaiting his signature."},
+    {"date":"2026-08-24","event":"The signed demand for appraisal was sent to the carrier, copying the homeowner and roofer."},
+    {"date":"2026-08-24","event":"The carrier acknowledged receipt but said it needs a written outline of the specific dispute before it will consider appraisal."},
+    {"date":"2026-08-25","event":"Sent a link to photos and an estimate outlining the items the homeowner wants to appraise; the carrier acknowledged both but repeated its request for a written dispute outline."}
+   ],
+   "update": "The demand for appraisal was signed and sent to Country Financial in late August; the carrier has acknowledged the estimate and photos but continues to withhold naming an appraiser until it receives a written outline of the specific dispute.",
+   "needed": null,
+   "threadsRead": ["1a01c2b650504c1a","1a0357bee65cb961","1a05ff17fc4b373c","1a0921187c0ce895"],
+   "threadsDropped": ["1a062bb70cb5b803 (different Farassati property/claim, 4437 Paseo Blvd / 600-1348133)"],
+   "trelloItemsAdded": 4,
+   "notes": "Same 11-property Farassati/Country Financial situation; a sibling-property thread (4437 Paseo Blvd) was dropped rather than misattributed to this 4429 Paseo Blvd file. This card's existing checklist had a gap between the August 4 signature-chase note and the September 2 scope summary — the August 19/24/25 events above fill that gap."
+  }
+ ],
+ "checked": 10,
+ "withNewEvents": 8
+}
