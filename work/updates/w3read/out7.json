@@ -40,8 +40,76 @@
    "threadsDropped": ["1a09b294aa50fce8", "1a0960540dadf4b4", "19f936c6d95cd7ae"],
    "trelloItemsAdded": 0,
    "notes": "All three threads were unrelated to Matthew Brown — an internal estimates-sent digest, a Debra Summers invoice thread, and a Malone appraisal thread. Nothing new found for this file since 09-11."
+  },
+  {
+   "cardId": "6a7cf8d6ac6570eb9f11b29c",
+   "newEvents": [
+    {"date": "2026-09-07", "event": "The contractor sent the EagleView roof measurement report for the property."}
+   ],
+   "update": "The EagleView roof report came in from the contractor, and the finalized appraisal file — approved by the contractor — went out to Liberty Mutual on 09-11; the file is waiting on the carrier to confirm receipt and name their appraiser.",
+   "needed": null,
+   "threadsRead": ["1a092088b21d2a77", "19ff7399bc906a00"],
+   "threadsDropped": ["1a07c314131ccbbd", "1a07c18500cc58b0", "1a07c16d6bb29478"],
+   "trelloItemsAdded": 1,
+   "notes": "Three threads were broad internal weekly roofer-follow-up digests (or a retracted misfire to the wrong contact), not specific correspondence about this file — dropped. The real correspondence with the contractor (Kevin Shuford) showed the EagleView report actually arrived 09-07, which wasn't yet logged; added that event."
+  },
+  {
+   "cardId": "6a2c4c7e3ce5f51e0561df46",
+   "newEvents": [],
+   "update": "State Farm formally declined to move the claim to appraisal; Denise remains committed to pursuing it, and Joseph reached out to discuss next steps (likely referral to an attorney) — waiting on Denise to confirm how she wants to proceed.",
+   "needed": null,
+   "threadsRead": ["1a0447a87604ac6c", "1a03aa91d0c957cd", "1a05dd0a7ee3c310"],
+   "threadsDropped": ["1a096691be87bd14", "1a092088b21d2a77", "1a08249316b0cdfe", "1a07c314131ccbbd", "1a03f24def225fde", "1a05e5d533de6358", "1a057ea0614419f5", "1a04e94929cb5a54", "1a03febbc25dba4e", "1a03e3dfa8ad85ec", "1a034a2e15a67eec", "1a033e03e36fa6ec", "1a020ba5d52f0648"],
+   "trelloItemsAdded": 0,
+   "notes": "13 of 16 threads were unrelated — other insureds (Terry Mize, Kevin Hill at a similarly-named Fort Morgan street, Jennifer Dobbertin, Tay Nguyen, Gwen Goffney, James & Mary Stovall, Kumar/Sharma) or generic internal/iink digests. The 3 genuine Denise Morgan threads only confirm events already on the card (State Farm's decline letter, the resend, the adjuster-assignment follow-up) — nothing new since 09-05."
+  },
+  {
+   "cardId": "69e654e7dc95b4dba2b0bba3",
+   "newEvents": [
+    {"date": "2026-09-07", "event": "Office called the homeowner and left a voicemail, following up on the claim status."}
+   ],
+   "update": "The homeowner has been unreachable for months and the file has stalled since State Farm's original denial; the office called and left another voicemail on 09-07 and is still waiting to hear back from her.",
+   "needed": null,
+   "threadsRead": ["1a07dd552c662463"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 1,
+   "notes": "The only new thread was a Trello notification digest; it included a 'Left VM' comment on this card from 09-07 that wasn't yet in the Chain of Events, so it was added."
+  },
+  {
+   "cardId": "6829221ef6fdeb181df1543f",
+   "newEvents": [],
+   "update": "This file shows no activity in the mailbox or on the card since June 2025 and is marked complete; no correspondence naming this insured, his claim number, or his address turned up.",
+   "needed": null,
+   "threadsRead": [],
+   "threadsDropped": ["1a09c94d3f74f4db", "19ff7fad19fa20a0", "1a06dc373d565699", "1a06d882f3c314bf", "1a0601523a9d4dda", "1a04efa903562904", "1a04a661ac2b6b22", "1a0495bbc0499c6b", "1a049001f930196b", "1a0456c0b1713b5b", "1a020e1d8bb2a4c9", "1a01f7b06069fff6", "19f8c36d3e440e4f", "1a011b7f5013e6c1", "1a0011b380222f0d", "19ffc689f13e8346", "19ff5f896686158b", "19ff31c9ec4e090d", "19ff2a8b265380a6", "19ff1f3d10035d03"],
+   "trelloItemsAdded": 0,
+   "notes": "All 20 threads found under this file belong to other insureds and claims entirely (Ruvalcaba/Allstate, Coffman & Harper, Baptiste, Napoleon/TWIA, Nora Jimenez, Pedro Rico, Sump, and more) — none mention Toan Su, claim HO-2025-951708295, or 316 Sweet Leaf Ln. This card is marked complete with no activity since 2025-06-23; nothing suggests it reopened."
+  },
+  {
+   "cardId": "68630385733c798e0d274053",
+   "newEvents": [
+    {"date": "2026-09-13", "event": "Joseph followed up with USAA requesting the newly assigned adjuster's contact information for the reinspection."}
+   ],
+   "update": "USAA has not yet named the reinspection adjuster despite agreeing back in early August; Joseph followed up again on 09-13 asking for that adjuster's information — the file is waiting on USAA to respond.",
+   "needed": null,
+   "threadsRead": ["19fcd2b6a0feaca7"],
+   "threadsDropped": ["1a09d066db385c51", "19fd35f04e124028"],
+   "trelloItemsAdded": 1,
+   "notes": "Two threads were auto-reply receipt confirmations from USAA (one for a different member's claim entirely) — dropped as noise. The main claim thread showed a genuine new follow-up from Joseph on 09-13 that wasn't yet logged."
+  },
+  {
+   "cardId": "680cab9cc8d9f69e8d163015",
+   "newEvents": [
+    {"date": "2025-08-24", "event": "Joseph followed up with the contractor asking whether the homeowner wanted to proceed through a Public Adjuster after the full denial; no response was received."}
+   ],
+   "update": "This file stalled after a full denial in spring 2025; Joseph checked back with the contractor in August 2025 asking whether the homeowner wanted to pursue it through a Public Adjuster, and never got an answer.",
+   "needed": "The contractor's answer on whether the homeowner wants to pursue this claim through a Public Adjuster after the full denial.",
+   "threadsRead": ["1966df5707e40ffe"],
+   "threadsDropped": ["19eea38d83ba507b", "19ecdcb6d699e23d", "19ebd1029032581e", "19ebcd847196789c", "19e3d121b2d8a8bc", "19c6a0c4da6ad30e", "19b481bd66acb0f3", "19a9f85c8303dd03", "19a8811ac5fe614e", "198d0276c8829681", "1988eaefa821e096", "19813927fecc0c93", "197f4aeb1b9ae4a7", "197e0e23e705ecbc", "197ada7f264dc919", "1979d30ddccde9b0", "19662c5d63527ae0"],
+   "trelloItemsAdded": 1,
+   "notes": "17 of 18 threads were unrelated — other insureds sharing the surname Payne (Denise & Calvin Payne, Deborah Manuel-Payne) or matched via a contractor rep's own first name (John/Jacob Payne on other files: Keefe, Donald Walker, Rhonda Mitchell, Kameron Terry, Cheri Stripling, 92350 Flores, Davin Woodcliff, SeungJae Oh, Gia docs, Lonestar Park Plaza), plus a Trello digest and a LinkedIn notice. Only one thread was genuinely this file (3411 Parkway Ter); it held one new event, added to a newly created checklist."
   }
  ],
- "checked": 4,
- "withNewEvents": 0
+ "checked": 10,
+ "withNewEvents": 4
 }
