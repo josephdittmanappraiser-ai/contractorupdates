@@ -1,0 +1,43 @@
+{
+  "batch": 0,
+  "results": [
+    {
+      "cardId": "6a2b3c42d4325ac10cb83887",
+      "verified": true,
+      "hasNewer": true,
+      "evidence": "Claim-number, surname, and address searches after 2026-07-13 surfaced two live threads whose search-preview appeared to stop in June/early July but which get_thread revealed ran to September: the carrier's appraiser's inspection, position/award exchange, and the homeowner's counsel status updates.",
+      "newEvents": [
+        {"date": "2026-07-13", "event": "Joseph's inspection scheduled for that day was rescheduled due to rain; the carrier's appraiser's inspection remained on schedule for July 22."},
+        {"date": "2026-07-16", "event": "Joseph's inspection was rescheduled to July 17 at 3:00–4:00 PM; the carrier's appraiser's inspection remained set for July 22."},
+        {"date": "2026-07-22", "event": "The carrier's appraiser completed his solo inspection, running about an hour behind schedule."},
+        {"date": "2026-08-11", "event": "Office confirmed to the homeowner's counsel that both inspections were completed and the file was awaiting the carrier's appraiser's position."},
+        {"date": "2026-08-16", "event": "The carrier's appraiser sent his position and proposed award for review."},
+        {"date": "2026-08-28", "event": "Office confirmed to the homeowner's counsel that the carrier's appraiser's position had been received and was under review."},
+        {"date": "2026-09-01", "event": "Joseph sent his own position to the carrier's appraiser for review."},
+        {"date": "2026-09-02", "event": "The carrier's appraiser acknowledged receipt and said he would review it."}
+      ],
+      "update": "Both inspections are complete and both appraisers have exchanged their positions; the file is now waiting on the carrier's appraiser to respond before next steps toward umpire, if needed.",
+      "needed": null,
+      "trelloItemsAdded": 8
+    },
+    {
+      "cardId": "6a394e61c399533150eaa97d",
+      "verified": true,
+      "hasNewer": true,
+      "evidence": "Claim-number, surname, and address searches after 2026-08-04 surfaced live threads with the carrier's appraiser and the contractor; get_thread showed the preview undercounted messages (5 of 17 shown on one thread), hiding a rescheduled inspection, a position exchange, and a contractor follow-up all dated after 2026-08-04.",
+      "newEvents": [
+        {"date": "2026-08-07", "event": "Homeowner asked to avoid a weekend inspection date; office asked the carrier's appraiser for weekday availability, and he offered evening times the following week."},
+        {"date": "2026-08-10", "event": "Inspection rescheduled to August 13 at 5:30 PM with interior access, confirmed by the homeowner and the carrier's appraiser."},
+        {"date": "2026-09-01", "event": "The carrier's appraiser sent his position for review."},
+        {"date": "2026-09-02", "event": "Office reviewed the position and asked that overhead and profit and other missing items be added."},
+        {"date": "2026-09-05", "event": "The carrier's appraiser sent a revised position with the requested items added."},
+        {"date": "2026-09-10", "event": "Contractor followed up asking for a status update, noting the homeowner recalled a meeting back in mid-July."}
+      ],
+      "update": "The appraisal inspection is complete and both sides have exchanged their estimates; an invoice has been sent and the file is now waiting on the carrier's appraiser to issue his final award.",
+      "needed": null,
+      "trelloItemsAdded": 6
+    }
+  ],
+  "checked": 2,
+  "corrected": 2
+}
