@@ -1,0 +1,163 @@
+{
+ "batch": 6,
+ "results": [
+  {
+   "cardId": "6a3ee07de9dc6b22f67825e6",
+   "newEvents": [
+    {"date":"2026-08-18","event":"The roofer (Michael Shemas) reported the demand letters had expired and asked that they be resent for signature."},
+    {"date":"2026-08-19","event":"A follow-up was sent asking the roofer to approve the estimate and the homeowner to sign the demand letter."},
+    {"date":"2026-08-24","event":"The signed demand letter and estimate were sent to Country Financial to formally open the appraisal; the carrier declined the same day to name an appraiser, saying the dispute had not been specifically identified."},
+    {"date":"2026-08-25","event":"Supporting photos were sent to the carrier."},
+    {"date":"2026-08-26","event":"The carrier acknowledged the photos but again asked for a written outline of the specific items in dispute."},
+    {"date":"2026-08-27","event":"The estimate was resent to the carrier to outline the disputed items."},
+    {"date":"2026-08-31","event":"The carrier acknowledged the estimate but said it still didn't explain the specific pricing differences, and asked again for a written outline of the dispute."},
+    {"date":"2026-09-07","event":"A follow-up was sent to the carrier asking whether an appraiser had been named, 14 days after the demand."},
+    {"date":"2026-09-08","event":"The carrier again declined to name an appraiser, referring back to its earlier requests for a written outline of the dispute."},
+    {"date":"2026-09-11","event":"Joseph sent the homeowner state insurance department complaint-filing guides for Missouri and Kansas, for use if a formal complaint becomes necessary."},
+    {"date":"2026-09-12","event":"Joseph identified the specific dispute to the carrier: hail damage to the roof, gutters, AC, and deck not fully accounted for in the carrier's estimate quantities."},
+    {"date":"2026-09-14","event":"The carrier responded that its estimate is now largely consistent with our scope, and sent a supplement review and a revised estimate addressing the remaining differences; the carrier said no supplemental payment will be issued until a full updated scope is agreed."}
+   ],
+   "update": "Country Financial has moved off its initial refusal to name an appraiser: after we identified hail damage to the roof, gutters, AC and deck as the specific dispute, the carrier sent a revised estimate and supplement review on September 14 addressing the remaining differences. A reply reconciling the last items is needed before the carrier will issue any further payment or move to appraisal.",
+   "needed": null,
+   "threadsRead": ["1a0921187c0ce895","1a07d5113767eb62","1a07d4ec1924e411","1a07d4121ed6eb0e","1a05ff17fc4b373c","1a035850e3ad279f","19fa66fc34e791f8","1a01c40e1a051534","1a0970786d1dfc56","1a040b86ea86a6ed","1a039cdc0c973e17","1a0359900a52577c","1a01c45963ad5043"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 12,
+   "notes": "Trello-notification digest threads (do-not-reply@trello.com) were read where opened but found to be generic whole-board digests, not file-specific; several others on the scan list were not individually opened since their content is mirrored in the card's own Trello comment log, which was checked directly for corroboration. All substantive (non-digest) threads confirmed on-topic for Faris/claim 600-1348128."
+  },
+  {
+   "cardId": "6a80955a15b3b2c1ce85cbb5",
+   "newEvents": [
+    {"date":"2026-08-26","event":"Our files were sent to USAA."},
+    {"date":"2026-08-27","event":"A follow-up voicemail was left with the adjuster."},
+    {"date":"2026-08-31","event":"The adjuster's name and contact information were confirmed with USAA."},
+    {"date":"2026-09-02","event":"A follow-up voicemail was left with the adjuster, and the homeowner was asked whether USAA had reached out to him."},
+    {"date":"2026-09-02","event":"The homeowner reported that USAA has not confirmed receipt of our files and is still gathering information; USAA's own engineer had an inspection scheduled for September 8."},
+    {"date":"2026-09-10","event":"A follow-up voicemail was left with the adjuster."},
+    {"date":"2026-09-14","event":"Called USAA directly and asked the representative to have the adjuster reach out to the homeowner, since we have been unable to reach him by phone."}
+   ],
+   "update": "USAA has not confirmed receipt of our files or moved the claim forward; the homeowner reports USAA sent its own engineer to inspect on September 8 but has otherwise gone quiet. Repeated adjuster voicemails have gone unanswered, so on September 14 we called USAA's main line asking them to have the adjuster reach out to the homeowner directly.",
+   "needed": null,
+   "threadsRead": ["1a0922c4cf35fac2","1a090ddbcf5e5a87","1a0883b408ef208f","1a0869206684dea5","1a06a5d787a931a2","1a0641bd86d3764a","1a08bb54771787f1"],
+   "threadsDropped": ["1a0922c4cf35fac2 — Maria Sanchez, Allstate claim 0832815286, a different insured (surname-only match).","1a06a5d787a931a2 — Maria Sanchez / Allstate, same different insured.","1a0883b408ef208f — Aldair Alvarado, Alacrity claim 26PRTX773899035, a different insured.","1a0641bd86d3764a — same Aldair Alvarado/Alacrity file, different insured.","1a090ddbcf5e5a87, 1a0869206684dea5, 1a08bb54771787f1 — internal multi-client 'Estimates Sent' status digests; none mention Joe Sanchez, 167 Millview Rd, or a USAA claim."],
+   "trelloItemsAdded": 7,
+   "notes": "None of the surname-matched Gmail threads scanned for this card were actually about this file — all belonged to other Sanchez/Alvarado-named clients or were internal multi-client digests. Real activity on this file (phone calls, homeowner updates) only appears in the card's own Trello comment log, which was read directly and used to build the events above since no corroborating email thread exists for phone-call actions. Trello-notification digest threads (do-not-reply@trello.com, 13 total on the scan list) were not individually opened."
+  },
+  {
+   "cardId": "6a47f62e66acc647e7e3392d",
+   "newEvents": [
+    {"date":"2026-08-27","event":"The demand letter, estimate and photos were sent to Allstate to formally invoke appraisal."},
+    {"date":"2026-08-27","event":"The roofer relayed that the homeowner was asking for an update."},
+    {"date":"2026-09-07","event":"A follow-up was sent to Allstate asking whether an appraiser had been named."},
+    {"date":"2026-09-08","event":"Allstate said the homeowner told them on 9/1 he was unsure about proceeding and wanted to talk to the contractor first; the adjuster had not heard back and left him a message for a callback."},
+    {"date":"2026-09-08","event":"The adjuster's message was forwarded to the roofer."},
+    {"date":"2026-09-10","event":"A follow-up was sent to the homeowner and the roofer asking whether the claim is still proceeding with the appraisal."}
+   ],
+   "update": "Allstate is holding this file pending the homeowner's decision on whether to proceed with the appraisal at all; the adjuster reached him briefly on September 1 but hasn't heard back since despite leaving a message. We've asked both the homeowner and the roofer to confirm their intent.",
+   "needed": "Confirm with the homeowner whether he wants to proceed with the appraisal — Allstate is waiting on his decision before it will name an appraiser.",
+   "threadsRead": ["1a081f33ba965280","1a068560c228270e","1a04902d06522d27","1a04529f1d7e4daa","1a04521fe14f1943"],
+   "threadsDropped": ["1a081f33ba965280 — Raymond Arnold, USAA claim 016112698-803, a different insured (surname collision: Arnold vs. Raymond).","1a068560c228270e — a generic attorney/adjuster networking 'Group Email,' not specific to this file.","1a04902d06522d27 — a Farmers claim (01-26-0004-8352) attorney/umpire dispute unrelated to Chad Raymond."],
+   "trelloItemsAdded": 6,
+   "notes": "Trello-notification digest threads on the scan list were not individually opened."
+  },
+  {
+   "cardId": "6a3ec0ad0eac5405409a56b8",
+   "newEvents": [
+    {"date":"2026-08-18","event":"The roofer reported the demand letters had expired and asked that they be resent for signature."},
+    {"date":"2026-09-02","event":"The signed demand letter, estimate and photo link were sent to Country Financial to formally open the appraisal; the carrier declined the same day to name an appraiser, saying the dispute had not been specifically identified."},
+    {"date":"2026-09-11","event":"Joseph sent the homeowner state insurance department complaint-filing guides for Missouri and Kansas, for use if a formal complaint becomes necessary."}
+   ],
+   "update": "Country Financial declined to name an appraiser on September 2, citing an unclear scope of dispute; no further reply has gone out on this specific claim yet, though guidance on filing a state insurance department complaint was sent to the homeowner September 11 in case that becomes necessary across his properties.",
+   "needed": null,
+   "threadsRead": ["1a0921187c0ce895","1a08214f6064d2ef","1a081da3aa605418","1a081a275942cd1a","1a07d5113767eb62","1a07d4ec1924e411","1a07d4121ed6eb0e","1a069641b705e065","1a0683ed6e24d1d0","1a064571fca815a1","1a0640fb2cca0af0","1a062fbd89c026d1","1a062c49684b7816","1a062c13f06f95f5","1a062bb70cb5b803","1a062b7cc76e29a4","1a062a8035d6323c","1a0629f6d002a00e","1a05ff17fc4b373c","1a05eafca5896673"],
+   "threadsDropped": ["1a062c13f06f95f5 — claim 600-1348143 (3946 Springfield St), a different Farassati property.","1a062bb70cb5b803 — claim 600-1348133 (4437 Paseo Blvd), a different Farassati property.","1a062b7cc76e29a4 — claim 600-1348140 (5833 Highland Ave), a different Farassati property.","1a062a8035d6323c — claim 600-1348127 (12704 Woodson St), a different Farassati property."],
+   "trelloItemsAdded": 3,
+   "notes": "This homeowner has 11 properties sharing one contact email, so the scan surfaces every property's thread on every card; only 600-1348144-specific threads and the shared portfolio-wide items (AD status, DOI guide) were applied here. Trello-notification digest threads on the scan list were not individually opened."
+  },
+  {
+   "cardId": "6a3edf5a2347cd07582d5eaf",
+   "newEvents": [
+    {"date":"2026-08-18","event":"The roofer reported the demand letters had expired and asked that they be resent for signature."},
+    {"date":"2026-09-02","event":"The signed demand letter, estimate and photo link were sent to Country Financial to formally open the appraisal; the homeowner confirmed receipt; the carrier declined the next day to name an appraiser, saying the dispute had not been specifically identified."},
+    {"date":"2026-09-11","event":"Joseph sent the homeowner state insurance department complaint-filing guides for Missouri and Kansas, for use if a formal complaint becomes necessary."}
+   ],
+   "update": "Country Financial declined to name an appraiser on this claim, citing an unclear scope of dispute; no further reply has gone out on it specifically, though guidance on filing a state insurance department complaint was sent to the homeowner September 11 in case that becomes necessary across his properties.",
+   "needed": null,
+   "threadsRead": ["1a0921187c0ce895","1a08214f6064d2ef","1a081da3aa605418","1a081a275942cd1a","1a07d5113767eb62","1a07d4ec1924e411","1a07d4121ed6eb0e","1a069641b705e065","1a0683ed6e24d1d0","1a064571fca815a1","1a0640fb2cca0af0","1a062fbd89c026d1","1a062c49684b7816","1a062c13f06f95f5","1a062bb70cb5b803","1a062b7cc76e29a4","1a062a8035d6323c","1a0629f6d002a00e","1a05ff17fc4b373c","1a05eafca5896673"],
+   "threadsDropped": ["1a062c13f06f95f5 — claim 600-1348143 (3946 Springfield St), a different Farassati property.","1a062bb70cb5b803 — claim 600-1348133 (4437 Paseo Blvd), a different Farassati property.","1a062b7cc76e29a4 — claim 600-1348140 (5833 Highland Ave), a different Farassati property.","1a0629f6d002a00e — claim 600-1348144 (4108 Lloyd St), a different Farassati property."],
+   "trelloItemsAdded": 3,
+   "notes": "Same 11-property portfolio as above; only 600-1348127-specific and shared portfolio-wide items applied. Trello-notification digest threads on the scan list were not individually opened."
+  },
+  {
+   "cardId": "6a3ec1efd198968cf8e089bb",
+   "newEvents": [
+    {"date":"2026-08-18","event":"The roofer reported the demand letters had expired and asked that they be resent for signature."},
+    {"date":"2026-09-02","event":"The signed demand letter, estimate and photo link were sent to Country Financial to formally open the appraisal; the carrier declined the same day to name an appraiser, saying the dispute had not been specifically identified."},
+    {"date":"2026-09-11","event":"Joseph sent the homeowner state insurance department complaint-filing guides for Missouri and Kansas, for use if a formal complaint becomes necessary."}
+   ],
+   "update": "Country Financial declined to name an appraiser on this claim, citing an unclear scope of dispute; no further reply has gone out on it specifically, though guidance on filing a state insurance department complaint was sent to the homeowner September 11 in case that becomes necessary across his properties.",
+   "needed": null,
+   "threadsRead": ["1a0921187c0ce895","1a08214f6064d2ef","1a081da3aa605418","1a081a275942cd1a","1a07d5113767eb62","1a07d4ec1924e411","1a07d4121ed6eb0e","1a069641b705e065","1a0683ed6e24d1d0","1a064571fca815a1","1a0640fb2cca0af0","1a062fbd89c026d1","1a062c49684b7816","1a062c13f06f95f5","1a062bb70cb5b803","1a062b7cc76e29a4","1a062a8035d6323c","1a0629f6d002a00e","1a05ff17fc4b373c","1a05eafca5896673"],
+   "threadsDropped": ["1a062c13f06f95f5 — claim 600-1348143 (3946 Springfield St), a different Farassati property.","1a062bb70cb5b803 — claim 600-1348133 (4437 Paseo Blvd), a different Farassati property.","1a062a8035d6323c — claim 600-1348127 (12704 Woodson St), a different Farassati property.","1a0629f6d002a00e — claim 600-1348144 (4108 Lloyd St), a different Farassati property."],
+   "trelloItemsAdded": 3,
+   "notes": "Same 11-property portfolio; only 600-1348140-specific and shared portfolio-wide items applied. Trello-notification digest threads on the scan list were not individually opened."
+  },
+  {
+   "cardId": "6a3ec6815df0cd10e49989c5",
+   "newEvents": [
+    {"date":"2026-08-18","event":"The roofer reported the demand letters had expired and asked that they be resent for signature."},
+    {"date":"2026-09-02","event":"The signed demand letter, estimate and photo link were sent to Country Financial to formally open the appraisal; the carrier declined the next day to name an appraiser, saying the dispute had not been specifically identified."},
+    {"date":"2026-09-04","event":"Joseph clarified the specific dispute to the carrier: differences in roof pricing, the need for supervision, and removing and resetting the gutters to replace the drip edge."},
+    {"date":"2026-09-11","event":"Joseph sent the homeowner state insurance department complaint-filing guides for Missouri and Kansas, for use if a formal complaint becomes necessary."}
+   ],
+   "update": "After Country Financial declined to name an appraiser, Joseph clarified the specific dispute (roof pricing, supervision, and gutter drip-edge work) on September 4. The carrier has not yet responded to that clarification.",
+   "needed": null,
+   "threadsRead": ["1a0921187c0ce895","1a08214f6064d2ef","1a081da3aa605418","1a081a275942cd1a","1a07d5113767eb62","1a07d4ec1924e411","1a07d4121ed6eb0e","1a069641b705e065","1a0683ed6e24d1d0","1a064571fca815a1","1a0640fb2cca0af0","1a062fbd89c026d1","1a062c49684b7816","1a062c13f06f95f5","1a062bb70cb5b803","1a062b7cc76e29a4","1a062a8035d6323c","1a0629f6d002a00e","1a05ff17fc4b373c","1a05eafca5896673"],
+   "threadsDropped": ["1a062c13f06f95f5 — claim 600-1348143 (3946 Springfield St), a different Farassati property.","1a062b7cc76e29a4 — claim 600-1348140 (5833 Highland Ave), a different Farassati property.","1a062a8035d6323c — claim 600-1348127 (12704 Woodson St), a different Farassati property.","1a0629f6d002a00e — claim 600-1348144 (4108 Lloyd St), a different Farassati property."],
+   "trelloItemsAdded": 4,
+   "notes": "Same 11-property portfolio; only 600-1348133-specific and shared portfolio-wide items applied. Trello-notification digest threads on the scan list were not individually opened."
+  },
+  {
+   "cardId": "6a3ea8ed04532d29c652f6fd",
+   "newEvents": [
+    {"date":"2026-08-18","event":"The roofer reported the demand letters had expired and asked that they be resent for signature."},
+    {"date":"2026-09-02","event":"The signed demand letter, estimate and photo link were sent to Country Financial to formally open the appraisal; the carrier declined the next day to name an appraiser, saying the dispute had not been specifically identified."},
+    {"date":"2026-09-03","event":"The homeowner voiced frustration with the carrier's response."},
+    {"date":"2026-09-11","event":"Joseph sent the homeowner state insurance department complaint-filing guides for Missouri and Kansas, for use if a formal complaint becomes necessary."}
+   ],
+   "update": "Country Financial declined to name an appraiser on this claim, citing an unclear scope of dispute, which has frustrated the homeowner. No further reply has gone out on it specifically, though guidance on filing a state insurance department complaint was sent September 11 in case that becomes necessary across his properties.",
+   "needed": null,
+   "threadsRead": ["1a0921187c0ce895","1a08214f6064d2ef","1a081da3aa605418","1a081a275942cd1a","1a07d5113767eb62","1a07d4ec1924e411","1a07d4121ed6eb0e","1a069641b705e065","1a0683ed6e24d1d0","1a064571fca815a1","1a0640fb2cca0af0","1a062fbd89c026d1","1a062c49684b7816","1a062c13f06f95f5","1a062bb70cb5b803","1a062b7cc76e29a4","1a062a8035d6323c","1a0629f6d002a00e","1a05ff17fc4b373c","1a05eafca5896673"],
+   "threadsDropped": ["1a062bb70cb5b803 — claim 600-1348133 (4437 Paseo Blvd), a different Farassati property.","1a062b7cc76e29a4 — claim 600-1348140 (5833 Highland Ave), a different Farassati property.","1a062a8035d6323c — claim 600-1348127 (12704 Woodson St), a different Farassati property.","1a0629f6d002a00e — claim 600-1348144 (4108 Lloyd St), a different Farassati property."],
+   "trelloItemsAdded": 4,
+   "notes": "Same 11-property portfolio; only 600-1348143-specific and shared portfolio-wide items applied. Trello-notification digest threads on the scan list were not individually opened."
+  },
+  {
+   "cardId": "6a4d1d9dbc7889168aec2321",
+   "newEvents": [
+    {"date":"2026-09-02","event":"The demand letter and denial/estimate documents were sent to Alacrity to formally invoke appraisal."},
+    {"date":"2026-09-03","event":"The contractor's estimate was sent to Alacrity."},
+    {"date":"2026-09-07","event":"A follow-up was sent asking whether an appraiser had been named."},
+    {"date":"2026-09-09","event":"Alacrity said it could not consider the appraisal request without a contractor's estimate and supporting photos; the estimate and photo link were sent the same day."},
+    {"date":"2026-09-11","event":"Alacrity confirmed receipt of the photos and estimate and said it would review for possible adjustments, with an update expected the following week."}
+   ],
+   "update": "Alacrity initially said it couldn't process the appraisal request without a contractor's estimate and supporting photos; those went out September 9, and the examiner confirmed receipt September 11 and is reviewing for possible adjustments, with an update expected the week of September 15.",
+   "needed": null,
+   "threadsRead": ["1a0883b408ef208f","1a0641bd86d3764a","1a0a0037450c9275","1a09212e4d127a88","1a0819e861b9fd25","1a07bf8de6725943","1a07902b7d2e81ba","1a0722ed8adc83a8","1a06d9d4b4b51504","1a06cf93f9ed4af4","1a06ced34df66e55","1a06b79a132ac9a4","1a0688b023942e57"],
+   "threadsDropped": ["1a0a0037450c9275, 1a09212e4d127a88, 1a0819e861b9fd25, 1a07bf8de6725943, 1a06cf93f9ed4af4, 1a06ced34df66e55, 1a0688b023942e57 — iink payment/check-status digests for other named claimants (Griselda Vicente, Rong Dai, Yulanda Washington, etc.), none for this claim.","1a07902b7d2e81ba — a No Stress Claims bulk status list covering ~30 other claimants; mentions an unrelated 'Adrian Alvarado,' not this insured.","1a0722ed8adc83a8 — Baldomero Alvarado, an Allstate roof-install claim at a different property (2916 Highgate Ln), a different insured.","1a06d9d4b4b51504, 1a06b79a132ac9a4 — Mike Russell/Nationwide, a different insured."],
+   "trelloItemsAdded": 5,
+   "notes": "The surname/portfolio scan pulled in many unrelated 'Alvarado'-named claims and generic multi-claim iink/No-Stress digests; only the two threads matching claim 26PRTX773899035 (this insured's actual claim) were used."
+  },
+  {
+   "cardId": "6a88859cb6e5e54258d3f22b",
+   "newEvents": [],
+   "update": null,
+   "needed": null,
+   "threadsRead": ["1a0a0037450c9275","1a069564bbd15b28"],
+   "threadsDropped": ["1a0a0037450c9275 — an iink multi-claim check-status digest; the only 'Gomez' entry in it is a different claimant (Rodolfo Gomez Patino), not Jose Gomez.","1a069564bbd15b28 — 'Brian Sears appraisal invoice' to Legacy Roofing, a completely different insured/claim (01-009-895449)."],
+   "trelloItemsAdded": 0,
+   "notes": "Both threads the scan surfaced past searchAfter belong to other clients. No genuine correspondence for this file (235 Levi Landing / Allstate) was found after 2026-09-09; the last real activity remains Allstate's 09-08 acknowledgment already on record."
+  }
+ ],
+ "checked": 10,
+ "withNewEvents": 9
+}
