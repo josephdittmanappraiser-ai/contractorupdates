@@ -131,6 +131,42 @@
   {"id":"19f38ba5fc2b218d","newest":"2026-07-07T02:04:02Z","from":"josephdittmanappraiser@gmail.com"},
   {"id":"19bd7b7627792851","newest":"2026-04-07T00:10:10Z","from":"jprankin.claims@gmail.com"}
  ],
- "newestOverall":"2026-09-12T18:38:36Z","hasNewer":true}
+ "newestOverall":"2026-09-12T18:38:36Z","hasNewer":true},
+{"cardId":"6a582262a4f82f3d2970720b","searchAfter":"2026-08-12",
+ "threads":[
+  {"id":"1a0878f85b01dc17","newest":"2026-09-09T19:38:03Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"1a072f2bcc930d8a","newest":"2026-09-09T18:03:57Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"1a07d5113767eb62","newest":"2026-09-07T19:21:00Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"1a07d4ec1924e411","newest":"2026-09-07T19:18:28Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"1a07d4ab4b66b464","newest":"2026-09-07T19:14:03Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"1a07d4121ed6eb0e","newest":"2026-09-07T19:03:35Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"19fc91cb373f9faf","newest":"2026-09-03T20:04:38Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"19fc7c0909cdac14","newest":"2026-08-03T16:26:28Z","from":"josephdittmanappraiser@gmail.com"}
+ ],
+ "newestOverall":"2026-09-09T19:38:03Z","hasNewer":true},
+{"cardId":"6a502b7d083706c4926570dc","searchAfter":"2026-08-12",
+ "threads":[
+  {"id":"1a091aa013ab966f","newest":"2026-09-11T20:46:29Z","from":"ryani@legacyroofinggc.com"},
+  {"id":"1a07d5113767eb62","newest":"2026-09-07T19:21:00Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"1a07d4ec1924e411","newest":"2026-09-07T19:18:28Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"1a07d4ab4b66b464","newest":"2026-09-07T19:14:03Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"1a07d4121ed6eb0e","newest":"2026-09-07T19:03:35Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"19fc88c510126139","newest":"2026-08-03T17:35:43Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"19f9149c772edafe","newest":"2026-09-11T20:53:05Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"19f77d24a8b051f2","newest":"2026-07-21T02:14:15Z","from":"bserros@linearroofing.com"}
+ ],
+ "newestOverall":"2026-09-11T20:53:05Z","hasNewer":true},
+{"cardId":"6a5abd8d865a34fda9f63440","searchAfter":"2026-08-06",
+ "threads":[
+  {"id":"1a07d5113767eb62","newest":"2026-09-07T19:21:00Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"1a07d4ec1924e411","newest":"2026-09-07T19:18:28Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"1a07d4ab4b66b464","newest":"2026-09-07T19:14:03Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"1a07d4121ed6eb0e","newest":"2026-09-07T19:03:35Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"1a03423991a20052","newest":"2026-09-08T17:10:08Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"19f048c66bfc62d0","newest":"2026-08-07T19:51:59Z","from":"tdsproperty@gmail.com"},
+  {"id":"19fa5ddde66271e5","newest":"2026-08-06T19:44:25Z","from":"josephdittmanappraiser@gmail.com"},
+  {"id":"19f9f6cb74633414","newest":"2026-07-27T23:19:52Z","from":"josephdittmanappraiser@gmail.com"}
+ ],
+ "newestOverall":"2026-09-08T17:10:08Z","hasNewer":true}
 ],
-"checked":6}
+"checked":9}
