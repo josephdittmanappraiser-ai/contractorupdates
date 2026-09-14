@@ -45,8 +45,83 @@
    "threadsDropped": ["1a09ce91c9b96b57", "1a08f258b437c33d", "1a07e816e6f0a58e", "1a07902b7d2e81ba", "1a068b0aad5d98ef", "1a06833e71c15550", "1a067e65c291e1d3", "1a0262b7cdee375a", "1a04e1b15e8e189a", "1a020f51095a3aaa"],
    "trelloItemsAdded": 0,
    "notes": "All 10 threads pulled by the surname search concerned other 'Moore' matters (an Allstate adjuster named Yalonda Moore, appraiser Mike Moore on a 'Stewart' award, a Liberty Mutual claim at 602 Royal Glen Dr, a Tammana appraisal demand, an Aguirre/Allstate dispute, a LinkedIn notification, and an internal reminder-system watchdog email) or unrelated files - none mention Sequina Moore or claim NG4108259."
+  },
+  {
+   "cardId": "69bb34d66958766861c0405d",
+   "newEvents": [
+    {"date": "2026-07-25", "event": "LINEAR Roofing confirmed the roof was installed May 19, 2026 and sent completion photos so the recoverable depreciation could be requested from USAA."},
+    {"date": "2026-09-02", "event": "Joseph submitted the recoverable depreciation request to USAA with the completion photos, and asked LINEAR Roofing for a certificate of completion."}
+   ],
+   "update": "The roof work is done and the recoverable depreciation request has been submitted to USAA; the file is waiting on LINEAR Roofing to send the certificate of completion to close it out.",
+   "needed": "LINEAR Roofing needs to send a certificate of completion so the recoverable depreciation request with USAA can be finalized.",
+   "threadsRead": ["19f96340d133a559", "19e02978bb658f5b"],
+   "threadsDropped": ["19fa3f436be55432", "19f18677e23529bf"],
+   "trelloItemsAdded": 0,
+   "notes": "Both events were already recorded on the Chain of Events checklist from a prior pass; skipped to avoid duplicates. Dropped 19fa3f436be55432 (a bulk thread of USAA auto-received confirmations, all for claim 014544005-800 - a different file, David Thomas) and 19f18677e23529bf (Allstate claim 0827477167 for Shaoze Ouyang - a different insured)."
+  },
+  {
+   "cardId": "69cd5cd22ecbe5eccd287911",
+   "newEvents": [
+    {"date": "2026-09-14", "event": "Joseph asked the appraisal panel and Liberty Mutual to reconsider the appraisal, citing a roof measurement error (only half of this duplex's roof was originally measured) and again asking that contents and ALE be included."},
+    {"date": "2026-09-14", "event": "The panel member agreed to review the roof measurement issue within 3-5 business days but said the appraisal would not be reopened for contents or ALE, directing those questions to the carrier's adjuster."}
+   ],
+   "update": "Joseph asked the appraisal panel to correct a roof measurement error on this duplex and to add contents/ALE. The panel agreed to review the measurement issue within 3-5 business days but declined to reopen the appraisal for contents or ALE.",
+   "needed": null,
+   "threadsRead": ["1a09d77b5d0b2477"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 2,
+   "notes": "Card has two separate 'Chain of Events' checklists (apparent duplicate from an earlier pass); new items were added to the first/main one. A second checklist says the file was 'closed' 2026-09-09, which is inconsistent with the active correspondence found on 2026-09-14 - worth flagging to Joseph."
+  },
+  {
+   "cardId": "69cd3d5a91933e8db15aaa8c",
+   "newEvents": [
+    {"date": "2026-07-27", "event": "Sumit Asija electronically signed the check endorsement paperwork through iink."},
+    {"date": "2026-07-31", "event": "Sumit reported he keeps getting reminder texts about the signature but sees nothing pending in the iink portal, and asked Joseph to help resolve it."}
+   ],
+   "update": "The check endorsement signature hit a snag - the homeowner signed via iink but the portal shows nothing pending and he keeps getting reminder texts; Joseph needs to sort out the iink issue before the check can move forward.",
+   "needed": null,
+   "threadsRead": ["19f95aca89ab68e9"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 0,
+   "notes": "Both events were already recorded on the Chain of Events checklist from a prior pass; skipped to avoid duplicates."
+  },
+  {
+   "cardId": "69a8a5b1de9764311fd7089e",
+   "newEvents": [
+    {"date": "2026-08-27", "event": "John Wynn asked Joseph for the estimate (ESX) file for this claim."},
+    {"date": "2026-08-28", "event": "Joseph sent John Wynn the estimate (ESX) for the file."},
+    {"date": "2026-09-01", "event": "John Wynn confirmed the estimate had been forwarded to the carrier's appraiser, and the file is awaiting his position."}
+   ],
+   "update": "The estimate has been sent to the carrier's appraiser and the file is now awaiting his position, following the joint inspection held August 20.",
+   "needed": null,
+   "threadsRead": ["1a05c3ee0139ffe5", "19fee78fe4a72aa2", "19fb367520a24015"],
+   "threadsDropped": ["1a095ea297029762", "1a0924d48430da31", "1a092329095622ea", "1a015af28db9de8b", "1a081571b8d94c37", "1a07d46417774c67", "1a0737316307dedb", "1a06d499e6bdfb6c", "1a06d15fca435c0c", "1a06939dfdd03361", "1a06864d6350cdba", "1a068560c228270e", "1a05fa4b07cc66b3", "1a05ec600056de21", "19ff104ce4a9fdb6", "1a05c54dc3b50ea7", "1a0597bc40a4aae8", "1a04630be1023a9e"],
+   "trelloItemsAdded": 0,
+   "notes": "All three events were already recorded on the Chain of Events checklist from a prior pass; skipped to avoid duplicates. The other 18 threads pulled by search were all about other files/people that happen to share the surname 'Thomas' (Thomas Bierschenk, Bindu Thomas, Kayla Thomas, adjuster Danielle Thomas) or contractor 'Marcel Thomas', or were unrelated admin/invoice/social threads - none concern David Thomas, claim 014544005-800."
+  },
+  {
+   "cardId": "69ef7b0d3c4174ca03afe22f",
+   "newEvents": [
+    {"date": "2026-09-02", "event": "Joseph followed up with AFICS seeking release of the remaining recoverable depreciation; AFICS responded that a final payment had already been sent and cashed on 6/30/2026, which needs to be reconciled with our records."}
+   ],
+   "update": "AFICS says a final payment was already sent June 30 and cashed, though our July 25 depreciation request suggests we hadn't caught this - needs reconciling with the carrier's desk adjuster before further follow-up.",
+   "needed": null,
+   "threadsRead": ["19f973e4caf093e1"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 0,
+   "notes": "Event already recorded on the Chain of Events checklist from a prior pass; skipped to avoid duplicates."
+  },
+  {
+   "cardId": "69dd230e0608a749781d4588",
+   "newEvents": [],
+   "update": "No correspondence specific to this file was found this pass; the three threads pulled by the search were about other clients. The file's last recorded status stands.",
+   "needed": null,
+   "threadsRead": [],
+   "threadsDropped": ["1a046bbd94a6bf6c", "1a0447a87604ac6c", "19fc8abbb6ef0305"],
+   "trelloItemsAdded": 0,
+   "notes": "All three threads matched by search were about other files: 'Michael & Sandy Teer' (a new referral/intake), a State Farm appraisal denial addressed to Denise Morgan (replied to by a State Farm rep coincidentally named Samantha Richards, not our insured), and the Mary Swaney appraisal (unrelated claim). None mention Terrance or Yvonne Richards."
   }
  ],
- "checked": 4,
- "withNewEvents": 2
+ "checked": 10,
+ "withNewEvents": 6
 }
