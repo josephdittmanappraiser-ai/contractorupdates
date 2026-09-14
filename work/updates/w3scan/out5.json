@@ -112,6 +112,50 @@
    {"id":"1a07902b7d2e81ba","newest":"2026-09-07","from":"m.uribe@nostressintl.com"},
    {"id":"1a070153555e4621","newest":"2026-09-07","from":"josephdittmanappraiser@gmail.com"}
   ],
-  "newestOverall":"2026-09-14","hasNewer":true}
+  "newestOverall":"2026-09-14","hasNewer":true},
+ {"cardId":"691dd63ff51cc69dad3ba852","searchAfter":"2026-07-20",
+  "threads":[
+   {"id":"19f7d358139d43b3","newest":"2026-07-20","from":"info@crosscountrypublicadjusting.com"},
+   {"id":"19a923144368c1ef","newest":"2025-11-19","from":"josephdittmanappraiser@gmail.com"}
+  ],
+  "newestOverall":"2026-07-20","hasNewer":false},
+ {"cardId":"69ab5b95d0d9e098dc090031","searchAfter":"2026-07-28",
+  "threads":[
+   {"id":"1a07902b7d2e81ba","newest":"2026-09-07","from":"m.uribe@nostressintl.com"},
+   {"id":"19f9af87016c9f72","newest":"2026-07-28","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19f7d354b9c58da4","newest":"2026-07-20","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19e39492827abc14","newest":"2026-05-22","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19cba13692d252a2","newest":"2026-03-06","from":"josephdittmanappraiser@gmail.com"}
+  ],
+  "newestOverall":"2026-09-07","hasNewer":true},
+ {"cardId":"69b18cc7679c6b5debbc90be","searchAfter":"2026-08-21",
+  "threads":[
+   {"id":"19ff6c257555f470","newest":"2026-08-12","from":"do-not-reply@trello.com"},
+   {"id":"19ff10a6ce5f5543","newest":"2026-08-12","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19f7d358f410484b","newest":"2026-07-20","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19cd8d9b80f6b201","newest":"2026-04-13","from":"knorth@coastalclaims.net"},
+   {"id":"1990b1559048badd","newest":"2025-09-02","from":"CCleveland@txfb-ins.com"}
+  ],
+  "newestOverall":"2026-08-12","hasNewer":false},
+ {"cardId":"69bb403dea0212a9758f4335","searchAfter":"2026-07-28",
+  "threads":[
+   {"id":"1a07902b7d2e81ba","newest":"2026-09-07","from":"m.uribe@nostressintl.com"},
+   {"id":"19f9af87016c9f72","newest":"2026-07-28","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19f7d354b9c58da4","newest":"2026-07-20","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19e39492827abc14","newest":"2026-05-22","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19d034e66b882d6d","newest":"2026-03-19","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19cb01019f0aa109","newest":"2026-03-02","from":"claims@claims.allstate.com"}
+  ],
+  "newestOverall":"2026-09-07","hasNewer":true},
+ {"cardId":"69bc0668d9d4d3144266464a","searchAfter":"2026-07-28",
+  "threads":[
+   {"id":"1a07902b7d2e81ba","newest":"2026-09-07","from":"m.uribe@nostressintl.com"},
+   {"id":"19f9af87016c9f72","newest":"2026-07-28","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19f7d354b9c58da4","newest":"2026-07-20","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19e3adaf45f728b9","newest":"2026-05-18","from":"amazingadjuster@gmail.com"},
+   {"id":"19e39492827abc14","newest":"2026-05-22","from":"josephdittmanappraiser@gmail.com"},
+   {"id":"19d0637cb01ef04f","newest":"2026-03-19","from":"josephdittmanappraiser@gmail.com"}
+  ],
+  "newestOverall":"2026-09-07","hasNewer":true}
 ],
- "checked":10}
+ "checked":15}
