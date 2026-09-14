@@ -1,0 +1,153 @@
+{
+ "batch": 4,
+ "results": [
+  {
+   "cardId": "6a582262a4f82f3d2970720b",
+   "newEvents": [
+    {"date": "2026-08-18", "event": "The homeowner said he'd heard Western Mutual might be dismissing the appraisal because a prior claim was never processed; we asked him to confirm and share anything in writing."},
+    {"date": "2026-08-31", "event": "The homeowner confirmed Western Mutual still had not approved the claim after the reinspection, so the appraisal will proceed."},
+    {"date": "2026-09-09", "event": "After an earlier attempt with the wrong subject line, the homeowner resent the appraisal demand letter directly to Western Mutual, and we followed up asking them to name their appraiser."}
+   ],
+   "update": "The homeowner has now sent Western Mutual the appraisal demand letter himself and we've asked them to name their appraiser; the file is waiting on Western Mutual's response.",
+   "needed": null,
+   "threadsRead": ["1a0878f85b01dc17", "1a072f2bcc930d8a", "19fc91cb373f9faf"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 0,
+   "notes": "All three new events were already recorded on the card's Chain of Events checklist; nothing added."
+  },
+  {
+   "cardId": "6a502b7d083706c4926570dc",
+   "newEvents": [
+    {"date": "2026-08-26", "event": "With no reply from National General since the reinspection, we sent them a formal status-update request on the insureds' behalf."},
+    {"date": "2026-09-11", "event": "The roofer forwarded National General's engineer report from the reinspection; after we asked whether to proceed, the homeowners confirmed through the roofer that they want to move forward with the appraisal, and we resent the demand letter asking National General to name their appraiser."}
+   ],
+   "update": "National General's engineer report is in and the McKennas have confirmed they want to proceed; we've resent the demand letter asking the carrier to name their appraiser.",
+   "needed": null,
+   "threadsRead": ["1a091aa013ab966f", "19f9149c772edafe"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 0,
+   "notes": "Both new events were already recorded on the card's Chain of Events checklist; nothing added."
+  },
+  {
+   "cardId": "6a5abd8d865a34fda9f63440",
+   "newEvents": [
+    {"date": "2026-09-08", "event": "We followed up again asking whether the roofer had connected with Allstate's adjuster, who wanted to discuss settling on the reinspected estimate; no response has come back yet."}
+   ],
+   "update": "Allstate's adjuster said she wanted to call the roofer to discuss settling on the reinspected estimate, but as of our latest follow-up the roofer had not received that call; we're waiting to hear back.",
+   "needed": "The roofer (Bo Serros) needs to connect with Allstate's adjuster, who wants to discuss settling on the reinspected estimate.",
+   "threadsRead": ["1a03423991a20052", "19fa5ddde66271e5"],
+   "threadsDropped": ["19f048c66bfc62d0"],
+   "trelloItemsAdded": 0,
+   "notes": "Dropped 19f048c66bfc62d0 — it is about a different insured entirely (Praveen Krishna's Austin, TX appraisal, adjuster Corey Capps/tdsproperty@gmail.com), not Dale Henderson's Allstate claim 0830970018. The one genuine new event was already recorded on the card's checklist."
+  },
+  {
+   "cardId": "6a63c4350fa816aab4ffafb8",
+   "newEvents": [
+    {"date": "2026-08-19", "event": "Country Financial declined to name an appraiser, saying we hadn't provided enough documentation identifying the specific amount-of-loss dispute."},
+    {"date": "2026-08-24", "event": "After sending photos, we sent Country Financial a formal estimate outlining exactly what the insured wants appraised, following up with the roofer to confirm he'd seen the carrier's request."},
+    {"date": "2026-09-07", "event": "We sent Country Financial a follow-up noting 39 days since the demand letter with no appraiser named."}
+   ],
+   "update": "We've sent Country Financial the specific estimate they asked for and followed up citing the lapsed response window; the file is waiting on them to name an appraiser.",
+   "needed": null,
+   "threadsRead": ["19fb084342e7caed"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 0,
+   "notes": "All new events were already recorded on the card's Chain of Events checklist; nothing added."
+  },
+  {
+   "cardId": "6a637d5922bae829574ab521",
+   "newEvents": [
+    {"date": "2026-08-05", "event": "Allied Trust reassigned the file to a new claims manager, who confirmed receipt of our demand and disputed estimate."},
+    {"date": "2026-08-19", "event": "Allied Trust asked for more photos of the damage, which we sent."},
+    {"date": "2026-08-31", "event": "With no reply for two weeks, we sent Allied Trust a formal status-update request."},
+    {"date": "2026-09-02", "event": "The adjuster told the roofer he'd reviewed the photos and would update the homeowner that week, but no further update came."},
+    {"date": "2026-09-08", "event": "We followed up noting the 20-day response period had lapsed; Allied Trust said it's reviewing the claim with the insured and will name an appraiser if it can't resolve it, promising a decision by end of week."}
+   ],
+   "update": "Allied Trust says it's reviewing the claim directly with the homeowner and has promised a decision by the end of the week; if it can't resolve the claim it will name an appraiser.",
+   "needed": null,
+   "threadsRead": ["1a06341956b56f9b", "19fd3b2f06493bb3", "19fcdebe6aaff7bf"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 1,
+   "notes": "Added the 2026-08-31 status-update-request event, which was missing from the checklist; all other events were already recorded."
+  },
+  {
+   "cardId": "6a6a7921b317e23973a9cdfe",
+   "newEvents": [
+    {"date": "2026-08-11", "event": "Liberty Mutual acknowledged receipt of the appraisal demand and said it was reviewing the file and policy for next steps."},
+    {"date": "2026-08-21", "event": "Liberty Mutual completed a reinspection of the property and said it was reviewing the results for possible revisions to its estimate."},
+    {"date": "2026-08-26", "event": "With no report received, we checked with the homeowner whether Liberty Mutual had sent anything."},
+    {"date": "2026-09-01", "event": "Liberty Mutual reported the reinspection found no additional damage and said it was scheduling an internal meeting to review the policy and next steps."},
+    {"date": "2026-09-02", "event": "Liberty Mutual said it had requested additional photos through its vendor inspector, who would contact the homeowner to schedule."},
+    {"date": "2026-09-07", "event": "We sent Liberty Mutual a formal follow-up noting 33 days since the demand letter with no appraiser named."},
+    {"date": "2026-09-08", "event": "Liberty Mutual said it still hadn't named an appraiser because its vendor was waiting on a call from the roofer to schedule the additional-photos reinspection; its vendor then called and we passed along the roofer's contact information."},
+    {"date": "2026-09-10", "event": "The roofer confirmed the reinspection was scheduled for the following day."},
+    {"date": "2026-09-12", "event": "The roofer asked for a status update covering all of the homeowner's properties, including this one."}
+   ],
+   "update": "Liberty Mutual's vendor inspector was waiting on the roofer to schedule an additional-photos reinspection, which the roofer has now confirmed for September 11; the file is waiting on that reinspection and on Liberty Mutual naming an appraiser.",
+   "needed": null,
+   "threadsRead": ["1a0942fed9a80c20", "1a081afd6b2bba1d", "1a0262f6c92b8ad3", "19fed7794285f622", "19fd30fa550aeab6"],
+   "threadsDropped": ["1a09b294aa50fce8", "1a09600b8b1f0578", "1a090ddbcf5e5a87", "1a08bb54771787f1", "1a0869206684dea5", "1a091eef1465c244", "1a081e0f43d3539b", "1a08c8dbd35c44bb"],
+   "trelloItemsAdded": 3,
+   "notes": "Dropped 5 internal 'Estimates Sent action items' digest emails (Joseph to Geralden, covering ~20 unrelated files each) and 2 threads that are for other Rong Dai properties (claim #061798649-01 via Cullen & Associates, and a generic Rong Dai eSignature notification with no property identified) — none reference this property (15040 W 145th Ter / claim 061798958). Added the 2026-08-21, 09-01 and 09-02 events, which were missing from the checklist."
+  },
+  {
+   "cardId": "6a6a85e2f0bc15b089b1001c",
+   "newEvents": [
+    {"date": "2026-09-06", "event": "USAA said the adjuster had been notified of our reinspection request and would reach out, while another representative filled in for the absent file handler."},
+    {"date": "2026-09-09", "event": "USAA told us the reinspection scheduled for September 8 had been cancelled for an unclear reason and they were assigning a new field adjuster; we asked USAA to expedite since the response period had lapsed."}
+   ],
+   "update": "USAA cancelled the scheduled reinspection and is assigning a new field adjuster; the file is waiting on USAA to reschedule and name an appraiser.",
+   "needed": null,
+   "threadsRead": ["1a086ac93e56f92f", "1a0786559777e35a", "1a03b1b3b87133af"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 0,
+   "notes": "Both new events were already recorded on the card's Chain of Events checklist; nothing added."
+  },
+  {
+   "cardId": "6a557535ac17ff1b5bdc07d9",
+   "newEvents": [
+    {"date": "2026-08-13", "event": "Allstate denied the appraisal demand as premature and said it had advised the roofer a reinspection was needed."},
+    {"date": "2026-08-26", "event": "After back-and-forth on scheduling, the reinspection was set for September 9 with the roofer present."},
+    {"date": "2026-09-09", "event": "The Allstate adjuster missed the September 9 reinspection appointment and it was rescheduled for September 17, between 10 AM and 12 PM."}
+   ],
+   "update": "Allstate's adjuster missed the rescheduled reinspection appointment; it's now set for September 17 between 10 AM and noon, with the roofer confirmed to attend.",
+   "needed": null,
+   "threadsRead": ["19fe5bd85e20647a"],
+   "threadsDropped": ["1a0a0097451cdcfb", "1a08dcad898ea8ca", "1a0815fd34f0a734", "1a027252174c5847", "1a00feb63066e600"],
+   "trelloItemsAdded": 0,
+   "notes": "Dropped 5 threads that all turned out to be about a different Miranda or a different claim entirely: Basilio A Miranda's unrelated Trident Claims file (claim EV2026042511) appears in 3 of them, a 'Jeanette Miranda' is mentioned in a multi-file status email, and one is a Farmers/Mid-Century claim whose adjuster happens to be surnamed Miranda — none are Gloria Miranda's Allstate claim 0828700435. The genuine new events, from the one correctly-matched thread, were already recorded on the checklist."
+  },
+  {
+   "cardId": "6a693f92ba536d5f0d846583",
+   "newEvents": [
+    {"date": "2026-08-27", "event": "With no reply since mid-August, we sent Allstate a status-update request; Allstate acknowledged and said it would follow up on next steps."},
+    {"date": "2026-09-04", "event": "Allstate uploaded a document reviewing our supplemental request, which the homeowner forwarded to the roofer."},
+    {"date": "2026-09-09", "event": "We followed up noting the 20-day response period had lapsed; Allstate said it would have the supplemental request reviewed by the next day and might proceed to the next step."}
+   ],
+   "update": "Allstate is reviewing our supplemental request and said it would have an answer within a day; the file is waiting on that review and on an appraiser being named.",
+   "needed": null,
+   "threadsRead": ["19fedac0c71b087a", "19fb710f44159eb8"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 0,
+   "notes": "All new events were already recorded on the card's Chain of Events checklist; nothing added."
+  },
+  {
+   "cardId": "6a73b5008c66474f04f99229",
+   "newEvents": [
+    {"date": "2026-08-17", "event": "AAA acknowledged receipt of our files and said it was reviewing the claim."},
+    {"date": "2026-08-20", "event": "AAA scheduled a reinspection for August 21; since AAA had not yet appointed an appraiser, Joseph could not attend, so we asked the roofer to be present instead."},
+    {"date": "2026-08-27", "event": "The homeowner had an engineer's appointment on August 31 arranged by AAA."},
+    {"date": "2026-09-09", "event": "With no word after the engineer's visit, we sent AAA a follow-up citing the lapsed response period and requesting a status update."},
+    {"date": "2026-09-12", "event": "The homeowner forwarded AAA's engineering report and follow-up letter from the August 31 inspection for our review."}
+   ],
+   "update": "The homeowner has forwarded AAA's engineering report and letter from the August 31 inspection; we're reviewing it while waiting on AAA to name an appraiser.",
+   "needed": null,
+   "threadsRead": ["1a0118d29029fd20", "19ff8209eb8f6e4e", "19ff289df646c056"],
+   "threadsDropped": ["1a08214f6064d2ef", "1a0683ed6e24d1d0", "1a0455a0bd72184f", "1a044120156f1fc9", "1a021d488d23ad51", "1a01195562b94e67", "1a0115d9820188d1", "19ff847ff17133c4"],
+   "trelloItemsAdded": 0,
+   "notes": "Dropped 8 do-not-reply@trello.com threads — automated notifications of our own Trello activity, not correspondence about the claim. All genuine new events were already recorded on the checklist. Anomaly (not fixed, since this pass only adds): the existing checklist already carries two 2026-09-08 items about 'Allied Trust' that belong to a different file (Nazmul Qureshi's claim 2620065, Allied Trust) rather than this one (AAA, claim 017936054) — worth a cleanup pass."
+  }
+ ],
+ "checked": 10,
+ "withNewEvents": 10
+}
