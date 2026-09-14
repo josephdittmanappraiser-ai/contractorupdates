@@ -77,8 +77,38 @@
    "threadsDropped": [],
    "trelloItemsAdded": 1,
    "notes": ""
+  },
+  {
+   "cardId": "6aa1b9095841da0448b6afcf",
+   "newEvents": [],
+   "update": "No confirmed new activity found. The appraisal demand letter was already sent to the homeowner as of 09-10; nothing further has been confirmed since.",
+   "needed": null,
+   "threadsRead": ["1a09ce91c9b96b57", "1a09cd2802b72d76", "1a09b294aa50fce8", "1a09600b8b1f0578", "1a09240d6bdb80a9", "1a090ddbcf5e5a87"],
+   "threadsDropped": ["1a09ce91c9b96b57", "1a09cd2802b72d76", "1a09b294aa50fce8", "1a09600b8b1f0578", "1a09240d6bdb80a9", "1a090ddbcf5e5a87"],
+   "trelloItemsAdded": 0,
+   "notes": "None of the six threads concern this file. Five are internal automated pipeline/watchdog status emails Joseph sends himself covering many unrelated clients across the whole office (Krenda Ray, Rong Dai, Pedro Rico, etc.), and one is a Letter of Representation for a different insured, Eric Copeland & Tanya Rodriguez (State Farm claim 53-0K0D-995) -- a surname collision with Albert Rodriguez. Dropped as not this file's history."
+  },
+  {
+   "cardId": "6a9e98a3f0ac87279ec488ee",
+   "newEvents": [],
+   "update": "No confirmed new activity found; last known status is the appraisal demand letter resent on 09-09.",
+   "needed": null,
+   "threadsRead": ["1a07d0e5af89150e"],
+   "threadsDropped": ["1a07d0e5af89150e"],
+   "trelloItemsAdded": 0,
+   "notes": "The only thread newer than searchAfter is a new-claim referral for a different insured, Tim Mclaine, from a different contractor (Linear Roofing / Zach Khan) rather than this file's Strong House Pro contact. Dropped as belonging to another client."
+  },
+  {
+   "cardId": "6a9b391ab706d843920b1b89",
+   "newEvents": [],
+   "update": "No confirmed new activity found for this file.",
+   "needed": null,
+   "threadsRead": ["1a0892115ec3f566", "1a0010953d669fc2"],
+   "threadsDropped": ["1a0892115ec3f566", "1a0010953d669fc2"],
+   "trelloItemsAdded": 0,
+   "notes": "Both threads belong to other insureds: one is a new appraisal referral for 'Mary Kranig' (claim OKHO-00014370) from adjuster Craig Vining/Timberline Adjusting -- 'Scott Carter' appears only as a name on the umpire candidate list, not the insured; the other concerns a different claim entirely for 'Davette Cooper' (claim 0833383508). Dropped as belonging to other clients."
   }
  ],
- "checked": 7,
+ "checked": 10,
  "withNewEvents": 3
 }

@@ -9,7 +9,7 @@
    "threadsRead": ["19fae1823b03aa3b","19e22104c11daf79","19dbbf730eaa237e","19cd7a0bccc814ca","19cc47b5f52830dd","19c33ffb76e905d8","19be6c46f7d9a5ca","19bd7b7627792851"],
    "threadsDropped": ["19fae1823b03aa3b","19e22104c11daf79","19dbbf730eaa237e","19cd7a0bccc814ca","19cc47b5f52830dd","19c33ffb76e905d8","19be6c46f7d9a5ca","19bd7b7627792851"],
    "trelloItemsAdded": 0,
-   "notes": "All 8 candidate threads dropped. 19fae1823b03aa3b carried Armstrong's own claim number in its header but the message body was USAA flagging a misdirected email about an unrelated claim (Sergeant Thomas/Georgetown) -- not a real update to Armstrong's file. The rest were entirely different claims/insureds picked up by surname or adjuster-CC overlap: 19e22104c11daf79 and 19cc47b5f52830dd/19c33ffb76e905d8 are all the Coleman (BRIH-00000194) claim; 19dbbf730eaa237e is the Pannell (Praetorian) claim; 19cd7a0bccc814ca is a Sedgwick auto-reply that merely mentions a 'Toni.Armstrong' staffer; 19be6c46f7d9a5ca is the Dat Nguyen (USAA) claim; 19bd7b7627792851 is the Andrew D'Armond claim."
+   "notes": "All 8 candidate threads dropped. 19fae1823b03aa3b carried Armstrong's own claim number in its header but the message body was USAA flagging a misdirected email about an unrelated claim (Sergeant Thomas/Georgetown) -- not a real update to Armstrong's file. The rest were entirely different claims/insureds picked up by surname or adjuster-CC overlap: 19e22104c11daf79, 19cc47b5f52830dd and 19c33ffb76e905d8 are all the Coleman (BRIH-00000194) claim; 19dbbf730eaa237e is the Pannell (Praetorian) claim; 19cd7a0bccc814ca is a Sedgwick auto-reply that merely mentions a 'Toni.Armstrong' staffer; 19be6c46f7d9a5ca is the Dat Nguyen (USAA) claim; 19bd7b7627792851 is the Andrew D'Armond claim."
   },
   {
    "cardId": "684b593d310e794f76743511",
@@ -40,8 +40,71 @@
    "threadsDropped": ["1a063373a42a1304","1a05968fed72b1f8","1a03f4556ecef2d0","1a0623bec734b136","19ff7fad19fa20a0","1a09d77b5d0b2477","1a067d960985b878","1a086935849bca4b","1a083bb28180c783","1a0828a1f05a7924","1a08135664e6db39","1a072ae18c7d4d43","1a06e38e24645fef","1a068f9d8260aa2d","1a05ea7bed932c36","1a046bbd94a6bf6c","19f6cbb970375aef","1a03fdd7f0b6fabf","1a03f03bef7abb2e","1a03ee40a3aa2c3a"],
    "trelloItemsAdded": 0,
    "notes": "4 Trello-notification threads and 1 Google-payment-receipt thread skipped unread (not claim correspondence). Of the 15 opened, every one was a different insured/claim: Liberty Mutual (Mondragon), a supplement request (JDM4903001H), Sharon Peter vs Travelers, a Travelers content claim (A3G4425), a Progressive appraisal invocation (Doha/Abdulkader), an umpire assignment (Liles), a Lone Star/West Fire appraisal (Muralles Ortiz), a Travelers policy (JHM0516), a Williams appraisal (HL Claims), the Teer claim, a Transverse claim, the Doan/Travelers umpire panel, a Chhabra denial referral, and the Yachin Li AAA withdrawal. No checklist exists yet on this card since there is nothing new to record."
+  },
+  {
+   "cardId": "681bd2745dc8bb13fe112222",
+   "newEvents": [],
+   "update": "No correspondence specific to claim 5383C686L (4531 Magnolia Ln, Sugar Land) turned up in the new threads; everything found belonged to other insureds picked up through broad adjuster/contractor overlap.",
+   "needed": null,
+   "threadsRead": ["1a094e2ebdf97bca","1a05a2d66597126a","1a08335d228be9f4","1a096663eba81cff","1a0961f14bf3bd38","1a0960540dadf4b4","1a095eec9bfd2547","1a095ea297029762","1a095e190cb5a54e","1a095d5f916d4d47","1a093b6a6f187839","1a093afba5ffe089","1a0927a35554a3a7","19ff7abccb766c8d","1a0915b5a1e47bef","19fef12a5ecc7cc8","19ef5031b01e9cbe","1a08be02b3226d5d","1a09d77b5d0b2477","1a067d960985b878"],
+   "threadsDropped": ["1a094e2ebdf97bca","1a05a2d66597126a","1a08335d228be9f4","1a096663eba81cff","1a0961f14bf3bd38","1a0960540dadf4b4","1a095eec9bfd2547","1a095ea297029762","1a095e190cb5a54e","1a095d5f916d4d47","1a093b6a6f187839","1a093afba5ffe089","1a0927a35554a3a7","19ff7abccb766c8d","1a0915b5a1e47bef","19fef12a5ecc7cc8","19ef5031b01e9cbe","1a08be02b3226d5d","1a09d77b5d0b2477","1a067d960985b878"],
+   "trelloItemsAdded": 0,
+   "notes": "All 20 candidate threads were different insureds/claims (Amit Jain, Dhiraj More, Bodine, Sean Cooper, Judy Hoffman, Debra Summers, Tharith Konh, Satari Shaw, Hermanlinda Almanza, Edward Nguyen, a State Farm shingle claim, Norma Lopes, George Ochoa, Meziou, a Farmers claim, Jett Baker, Cook Appraisal, Nedunchezhian, and the Mondragon Liberty Mutual claim read for an earlier card). None mentioned Hung/Shenhsiu, claim 5383C686L, or the Magnolia Ln address."
+  },
+  {
+   "cardId": "676f8b5431fa18899be6c8db",
+   "newEvents": [{"date":"2026-01-03","event":"Liberty Mutual's HVAC vendor reached out to schedule an onsite assessment of the claim, and Joseph confirmed."}],
+   "update": "An HVAC assessment was scheduled with the carrier's vendor in early January and Joseph confirmed it; no further correspondence on this specific claim has come in since. Recent inbox activity under this surname belongs to other insureds (Horacio Ponce, Marline Ponce DeLeon).",
+   "needed": null,
+   "threadsRead": ["19b09c08175ee1ee","19b812e4522e28ee","19b88fb86a94116a","19b945a75919e90a","19baaafd7106eea7","19b0304db464a720","19ce7f1aa6f8c3a8","19d7400af79e0f0d","19da6ed0d800a7e4","19df3371c1b41c4d","19e2c57540c5be4c","19e2f3979868a558","19e386fe7b67fb24","19e980da30ce5b0a","19ecc71a1542413f","19e422df7ee1f1f9","19faf3e565d564e1","19fc7cdd29ab2b62","1a0355dda5e118d3","1a08bd659d0c031f"],
+   "threadsDropped": ["19b09c08175ee1ee","19b88fb86a94116a","19b945a75919e90a","19baaafd7106eea7","19b0304db464a720","19ce7f1aa6f8c3a8","19d7400af79e0f0d","19da6ed0d800a7e4","19df3371c1b41c4d","19e2c57540c5be4c","19e2f3979868a558","19e386fe7b67fb24","19e980da30ce5b0a","19ecc71a1542413f","19e422df7ee1f1f9","19faf3e565d564e1","19fc7cdd29ab2b62","1a0355dda5e118d3","1a08bd659d0c031f"],
+   "trelloItemsAdded": 1,
+   "notes": "Only 19b812e4522e28ee (HVACi/Liberty Mutual claim #058307212, addressed to Miguel Ponce by name) matched this file. Everything else was a different Ponce (Horacio Ponce, claim 53-91J7-88G, an unrelated umpire-panel saga spanning most of these threads) or a different claim entirely (Allstate 0809844680, a Jideonwo/guardyourclaim matter, an Allstate roof claim 0826218372, a State Farm claim 43-98F2-10H for Marline Ponce DeLeon, an Allstate invocation for Carlos Sifuentes Ramirez)."
+  },
+  {
+   "cardId": "686444a797103b2730ab6222",
+   "newEvents": [{"date":"2025-08-24","event":"Joseph resigned from the file, citing coverage issues that need attorney involvement, and advised the homeowner to consider small claims court given the small claim size."}],
+   "update": "Joseph resigned from this file on 8/24 after finding coverage issues that need attorney involvement, and pointed the homeowner toward small claims court for a claim this size. No contractor is on this file (direct customer).",
+   "needed": null,
+   "threadsRead": ["197c206e931a71a6","197c16a3a02c26c4"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 1,
+   "notes": "197c206e931a71a6 predates searchAfter and was not opened for events. 197c16a3a02c26c4 is genuinely this file (Judith Ruder, Travelers claim IXI9438) and supplied the resignation event above; no other threads existed for this card."
+  },
+  {
+   "cardId": "686d871e49b978a2e3166272",
+   "newEvents": [{"date":"2025-07-24","event":"Joseph followed up with the contractor to confirm the homeowner still wants to move forward with representation."}],
+   "update": "Joseph followed up with the roofing contractor on 7/24 to confirm the homeowner (denied by Liberty Mutual, claim 059417934-01) still wants to proceed with representation; no reply is on record yet.",
+   "needed": "Confirm whether the homeowner still wants to proceed with representation, and relay that answer back.",
+   "threadsRead": ["197eb300b24ea234"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 1,
+   "notes": "3 LinkedIn notification threads skipped unread (not claim correspondence). The one real thread (197eb300b24ea234) is this file (Harry Nair, Liberty Mutual claim 059417934-01, Priority Roofs); only its 7/24 message fell after searchAfter, the rest of the thread predates it."
+  },
+  {
+   "cardId": "687a69bc4f4ac331d7ec9e2c",
+   "newEvents": [
+    {"date":"2025-07-19","event":"Joseph asked whether to proceed with sending the Letter of Representation to begin negotiations."},
+    {"date":"2025-08-24","event":"Joseph followed up again after no response, asking to schedule a call."}
+   ],
+   "update": "Joseph asked on 7/19 whether to proceed with the Letter of Representation and followed up again on 8/24 after hearing nothing back; the file is still waiting on a decision from the contractor/homeowner on whether to move forward.",
+   "needed": "Confirm whether to proceed with sending the Letter of Representation to start negotiations.",
+   "threadsRead": ["1981d9506905bce7"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 2,
+   "notes": "Only one candidate thread existed past searchAfter; the other listed thread predates it. Contractor here is the renovation company (Divine Renovation), not a roofer."
+  },
+  {
+   "cardId": "67db6a4e858987b263dae5b1",
+   "newEvents": [],
+   "update": "No correspondence specific to Michael Duncan's claim (012815937, 2900 Canadian River Loop) turned up in the new threads. Everything found under this surname belongs to an unrelated, active appraisal for a different 'Christopher Duncan' in Fort Worth, plus other unrelated claims. The file appears to remain in the same stalled state as last recorded, with LINEAR Roofing having reported no response from the homeowner and declining to pursue the PA route further.",
+   "needed": null,
+   "threadsRead": ["19ff6584529e8281","19e2da296500806a","19fbecb1c00ad722","19fb9fdda050d0a9","19fa3f436be55432","19f8ac9fce22db1e","19f4d0cbffeb67cf","19f38d88886ac5ea","19f2452d2b068e66","19f1ddc4535b125f","19f0088bfafd73b5"],
+   "threadsDropped": ["19fa7d3c9906006e","19fa748bc37250e7","19f94f15059bc4d6","19f6da012fa8fa3f","19f64d0db20a5aa5","19f38767628fe2f5","19f2360dcf7e1092","19f00b13de95815e","19f00381beee08f5","19ff6584529e8281","19e2da296500806a","19fbecb1c00ad722","19fb9fdda050d0a9","19fa3f436be55432","19f8ac9fce22db1e","19f4d0cbffeb67cf","19f38d88886ac5ea","19f2452d2b068e66","19f1ddc4535b125f","19f0088bfafd73b5"],
+   "trelloItemsAdded": 0,
+   "notes": "9 Trello-notification threads skipped unread. Of 11 opened, none were Michael Duncan: 19ff6584529e8281 (Gloria Medina/Hochheim Prairie), 19e2da296500806a (Olayinka Akinyemi), 19fb9fdda050d0a9 (an unrelated AAA claim 017861825), 19fa3f436be55432 (a batch of USAA auto-reply receipts for dozens of unrelated members), 19f8ac9fce22db1e (Tyler Fields claim), 19f4d0cbffeb67cf/19f38d88886ac5ea (Foremost claim for Susana Soto), 19f1ddc4535b125f (Bodine appraisal), and 19fbecb1c00ad722/19f2452d2b068e66/19f0088bfafd73b5 all belong to a different, unrelated 'Christopher Duncan' appraisal (claim 030705962, Fort Worth) that is a wholly separate active case."
   }
  ],
- "checked": 4,
- "withNewEvents": 0
+ "checked": 10,
+ "withNewEvents": 4
 }
