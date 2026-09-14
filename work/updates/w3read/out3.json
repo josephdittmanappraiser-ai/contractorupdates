@@ -1,0 +1,114 @@
+{
+ "batch": 3,
+ "results": [
+  {
+   "cardId": "6a2af0a187c0a450a0bfda22",
+   "newEvents": [],
+   "update": "Eric Coleman has still not signed the assignment of benefits; Joseph's office reminded him and the roofer on 9/7 and reconfirmed as of 9/13 that the DocuSign envelope remains unsigned. The carrier and claim number are still unknown and are needed before the file can move once it's signed.",
+   "needed": "Help get Eric Coleman to sign the assignment of benefits (AD).",
+   "threadsRead": ["1a09b294aa50fce8","1a09600b8b1f0578","1a090ddbcf5e5a87","1a08bb54771787f1","1a0869206684dea5","1a07d0c4fd2d64de","1a05c453dca27f72","1a0260cf8b4e9d16","1a01f4047f337f44","19ff20fd110475d1","19fdf31936a96b38","19fdcffcb9fb6b0e","19fdcb8233b6963d","19fd8768109f859e"],
+   "threadsDropped": ["1a05c453dca27f72","1a0260cf8b4e9d16","1a01f4047f337f44","19ff20fd110475d1","19fdf31936a96b38","19fdcffcb9fb6b0e","19fdcb8233b6963d","19fd8768109f859e"],
+   "trelloItemsAdded": 0,
+   "notes": "8 of 14 candidate threads were about a different person named Coleman (Jonathan/Nicholas/Adrianne Coleman — separate Tower Hill and G-G Law Group matters) or an unrelated LinkedIn digest email; dropped as not this file. The other 6 threads were this office's own internal 'Estimates Sent' daily digest emails, which restate what's already logged in the card's own comments verbatim — no new information."
+  },
+  {
+   "cardId": "6a0dc1355575f952b9f4b522",
+   "newEvents": [],
+   "update": "No carrier reply since the 9/7 follow-up; State Farm has never named an appraiser, and the 250B3J484 claim-number question (originally flagged as possibly belonging to the insured's auto claim) is still unresolved.",
+   "needed": null,
+   "threadsRead": ["19fa5febf7de490d"],
+   "threadsDropped": ["19fa5febf7de490d"],
+   "trelloItemsAdded": 0,
+   "notes": "The only thread newer than searchAfter (19fa5febf7de490d) was entirely about a different client, Donald Strahan (claim 0821424645, appraiser Lonnie Tidwell) — dropped as not this file's history."
+  },
+  {
+   "cardId": "6a7a5303a553ef17b870f622",
+   "newEvents": [
+    {"date": "2026-08-25", "event": "State Farm assigned a claim specialist and the claim moved under review, after the roofer asked for a status update."},
+    {"date": "2026-09-10", "event": "After reviewing State Farm's reinspection, the roofer confirmed he wants to proceed with the appraisal."}
+   ],
+   "update": "State Farm has assigned a claim specialist and the roofer, after reinspection, confirmed he wants to continue with the appraisal; a second appraiser-naming letter went to State Farm on 9/10 and no appraiser has been named yet.",
+   "needed": null,
+   "threadsRead": ["1a08be02b3226d5d","1a07d2fd2689eb93","1a00d1f697d4f86e","19ffabb4d94ed071"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 0,
+   "notes": "Both events found were already present on the card's Chain of Events checklist (added by an earlier pass) — skipped writing to avoid duplicating."
+  },
+  {
+   "cardId": "6a90a4fbb9c851e9f022997f",
+   "newEvents": [],
+   "update": "Files were sent for carrier review on 9/8 and confirmed received on 9/10; no further correspondence about this file has come in since.",
+   "needed": null,
+   "threadsRead": ["1a091ec7e051aa89","1a08e7425f5b4cbf","1a08e736b0a49aae"],
+   "threadsDropped": ["1a091ec7e051aa89","1a08e7425f5b4cbf","1a08e736b0a49aae"],
+   "trelloItemsAdded": 0,
+   "notes": "All 3 threads newer than searchAfter turned out to belong to a different homeowner, Benjamin Jackson (Liberty Mutual claim #060545725-01, a different property) — matched only on the shared first name 'Benjamin', not this file's Ronald Benjamin / claim 330M4X542. Dropped."
+  },
+  {
+   "cardId": "69e24d445440bcc948653610",
+   "newEvents": [
+    {"date": "2026-09-08", "event": "Sent Allstate the roofer's supporting photo documentation for the disputed damage items."},
+    {"date": "2026-09-09", "event": "Allstate said it still needed more specific documentation on several items; the office replied that the files already sent are all the contractor has available."},
+    {"date": "2026-09-11", "event": "Allstate confirmed receipt of the supplemental documentation and said it would need up to 14 days to complete its review."}
+   ],
+   "update": "Allstate maintains its coverage/causation objection and has not named an appraiser; the office sent all available contractor documentation on 9/8, and Allstate confirmed on 9/11 it needs up to 14 days to review before deciding on the appraisal request.",
+   "needed": null,
+   "threadsRead": ["1a07d5113767eb62","1a07d4ec1924e411","1a07d4ab4b66b464","1a07d4121ed6eb0e","1a03995335efdad6","19ff78a87f3ee760"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 0,
+   "notes": "All three events found were already present on the card's Chain of Events checklist — skipped writing to avoid duplicating."
+  },
+  {
+   "cardId": "6a306e5686192e8b44f6f0b8",
+   "newEvents": [],
+   "update": "No progress since 9/7: the written statement of dispute for Southern Vanguard (Brittney Porter) still has not been drafted or sent, so the file remains stalled on our side.",
+   "needed": null,
+   "threadsRead": ["1a09ce91c9b96b57","1a09cd2802b72d76","1a09240d6bdb80a9","1a0888b855575078","1a088891bd960481","1a088876f2cea0fc","1a08443bc0280585","1a084403731a7cbd","1a08439bef9e71fe","1a09b294aa50fce8","1a09600b8b1f0578","1a090ddbcf5e5a87","1a08bb54771787f1","1a0869206684dea5"],
+   "threadsDropped": ["1a09ce91c9b96b57","1a09cd2802b72d76","1a09240d6bdb80a9","1a0888b855575078","1a088891bd960481","1a088876f2cea0fc","1a08443bc0280585","1a084403731a7cbd","1a08439bef9e71fe","1a09b294aa50fce8","1a09600b8b1f0578","1a090ddbcf5e5a87","1a08bb54771787f1","1a0869206684dea5"],
+   "trelloItemsAdded": 0,
+   "notes": "All 14 threads newer than searchAfter were unrelated to this file: internal inspection-reminder watchdog/digest emails with no mention of Leonel Rodriguez, a different State Farm insured (Eric Copeland & Tanya Rodriguez, claim 53-0K0D-995), and a different Legacy Roofing client (Albert Rodriguez, State Farm claim 53-0M6M-778) — all matched only by the shared surname 'Rodriguez'. None concerned this file's Southern Vanguard claim 102749."
+  },
+  {
+   "cardId": "69f3831a0c0b411184da545e",
+   "newEvents": [],
+   "update": "Still blocked: no working Lloyd's claims address has been found, so the demand cannot be resent and the file cannot move.",
+   "needed": null,
+   "threadsRead": ["1a0961a0903b75ce","1a095eec9bfd2547","1a095d5f916d4d47","1a09085a18955b09","1a08ee027a42912c","1a08759a38d8d618","1a07bd9b89062897","1a07902b7d2e81ba","1a0695b87cdfa018","1a07d5113767eb62","1a07d4ec1924e411","1a07d4ab4b66b464","1a07d4121ed6eb0e","1a07d2fd2689eb93"],
+   "threadsDropped": ["1a0961a0903b75ce","1a095eec9bfd2547","1a095d5f916d4d47","1a09085a18955b09","1a08ee027a42912c","1a08759a38d8d618","1a07bd9b89062897","1a07902b7d2e81ba","1a0695b87cdfa018","1a07d5113767eb62","1a07d4ec1924e411","1a07d4ab4b66b464","1a07d4121ed6eb0e","1a07d2fd2689eb93"],
+   "trelloItemsAdded": 0,
+   "notes": "All 14 threads newer than searchAfter were about other 'No Stress Insurance Claims' referrals (Muhammad Ahmad, Tharith Konh, Edward Nguyen, Carlos/Carolina Siller, Joyce Turner, Peralez, a 30-file status roundup, and others) or the general State Farm weekly digest — none concerned Roberto Jimenez or his Lloyd's/Loan #0689830388 claim. Dropped."
+  },
+  {
+   "cardId": "6a3d59cd0631c0ed4929af89",
+   "newEvents": [],
+   "update": "USAA completed its reinspection of the property; Jason Stumbaugh is still deciding whether to move forward with the appraisal, and the office has continued checking in with USAA without a new decision yet.",
+   "needed": null,
+   "threadsRead": ["1a07d55eed05e599","1a07d5113767eb62","1a07d4ec1924e411","1a07d4ab4b66b464","1a05f1e14b6641ef","1a05d5fcd5fb6f2f","1a05978e2307b00f","1a04568abf35a6de","1a00e1bfa0bbc4c4","1a00e14d05f3f37e","1a0013e94832431f"],
+   "threadsDropped": [],
+   "trelloItemsAdded": 0,
+   "notes": "The USAA 'Your Email to USAA Has Been Received' messages are auto-replies and were skipped. The substantive messages (reinspection update 9/1, contractor phone coordination 8/17, follow-ups 8/27 and 8/31) are already reflected in the card's own comments — no new information found."
+  },
+  {
+   "cardId": "6a4c5d8c3d4e4a504aec9ac1",
+   "newEvents": [],
+   "update": "Still blocked on the Premises 3 & 4 interior inspection that Mills Mehr needs before proceeding — Zacharias Khan cancelled the 8/10 inspection and it has not been rescheduled despite follow-ups on 8/17 and 8/26.",
+   "needed": "Get Zacharias Khan to reschedule the interior inspection with Mills Mehr's adjuster that was cancelled on 8/10.",
+   "threadsRead": ["1a096bdf76e5b0e0","1a0970506e4e87e8","1a094954d26aeb82","1a094e2ebdf97bca","1a0a094948166dbb","1a0a093a442ec133","1a0a0785107b6d15","1a0a0509e028f63c","1a0868c83803a467","1a0a0097451cdcfb","1a092839f9753037","1a09f4688a339897","1a09f36121393015","1a09dd5cd2a3dbe4","1a09dc4c3ee9b70d","1a09d77b5d0b2477","1a09d3ff2923ed92","19fcd2b6a0feaca7","19ddb21c5f5043fe","1a0828a1f05a7924","1a016ea830cd52f4","19faf8d2bad82dfd","1a07d5113767eb62","1a07d4ec1924e411","1a07d4ab4b66b464","1a07d4121ed6eb0e","1a0888b855575078","1a088891bd960481","1a088876f2cea0fc","1a08443bc0280585","1a084403731a7cbd","1a08439bef9e71fe","19ff20fd110475d1"],
+   "threadsDropped": ["1a096bdf76e5b0e0","1a0970506e4e87e8","1a094954d26aeb82","1a094e2ebdf97bca","1a0a094948166dbb","1a0a093a442ec133","1a0a0785107b6d15","1a0a0509e028f63c","1a0868c83803a467","1a0a0097451cdcfb","1a092839f9753037","1a09f4688a339897","1a09f36121393015","1a09dd5cd2a3dbe4","1a09dc4c3ee9b70d","1a09d77b5d0b2477","1a09d3ff2923ed92","19fcd2b6a0feaca7","19ddb21c5f5043fe","1a0828a1f05a7924","1a016ea830cd52f4","1a0888b855575078","1a088891bd960481","1a088876f2cea0fc","1a08443bc0280585","1a084403731a7cbd","19ff20fd110475d1"],
+   "trelloItemsAdded": 0,
+   "notes": "21 of the 22 newly-checked threads belonged to other files entirely — other umpire assignments, other roofing clients (Legacy Roofing, Stronghouse, Nostress), a different Rodriguez, a different Coleman, and an unrelated Humble TX 'Burgos' claim — matched only by shared contractor mailboxes or surnames. The one genuine Lyss Woods 1306 thread (19faf8d2bad82dfd, claim 20.34657.460.PD) contained only content already logged in the card's comments."
+  },
+  {
+   "cardId": "6a4c5cec413089b6c58504a1",
+   "newEvents": [],
+   "update": "Same blocker as the sibling 1306 Maple St claim: Mills Mehr will not proceed until the Premises 3 & 4 interior inspection is rebooked. Follow-ups went to the homeowner (8/27) and Zacharias Khan (9/8) asking for a status update, with no new inspection date yet.",
+   "needed": "Get Zacharias Khan to reschedule the interior inspection with Mills Mehr's adjuster that was cancelled on 8/10.",
+   "threadsRead": ["19ddb21c5f5043fe","1a0828a1f05a7924","1a07d5113767eb62","1a07d4ec1924e411","1a07d4ab4b66b464","1a07d4121ed6eb0e","1a0276013ae625f0","1a016ea830cd52f4","19faf8d2bad82dfd","19f6cbb970375aef","19ff20fd110475d1"],
+   "threadsDropped": ["19ddb21c5f5043fe","1a0828a1f05a7924","1a0276013ae625f0","1a016ea830cd52f4","19faf8d2bad82dfd","19ff20fd110475d1"],
+   "trelloItemsAdded": 0,
+   "notes": "The genuinely-relevant thread (19f6cbb970375aef, claim 20.34656.460.PD) only restates what's already on the card. The sibling claim's thread (19faf8d2bad82dfd, 20.34657.460.PD / 1306 Maple St) was dropped as belonging to the other Lyss Woods card; four other threads belonged to unrelated files (a Humble TX 'Burgos' claim, a Travelers claim, a Joshua York invoice, a Kholamkar invoice, and a different Coleman)."
+  }
+ ],
+ "checked": 10,
+ "withNewEvents": 2
+}
