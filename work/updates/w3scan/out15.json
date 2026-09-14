@@ -1,1 +1,1476 @@
-{"batch":15,"results":[],"checked":0}
+{
+ "batch": 15,
+ "results": [
+  {
+   "cardId": "6a47f62e66acc647e7e3392d",
+   "searchAfter": "2026-07-23",
+   "threads": [
+    {
+     "id": "1a08c36c17c74737",
+     "newest": "2026-09-10",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a08380e7db83b4c",
+     "newest": "2026-09-09",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a082cd62c07124f",
+     "newest": "2026-09-08",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a081f33ba965280",
+     "newest": "2026-09-08",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a068560c228270e",
+     "newest": "2026-09-06",
+     "from": "ray@axiomadjusters.com"
+    },
+    {
+     "id": "1a04902d06522d27",
+     "newest": "2026-08-28",
+     "from": "mike@claimattorney.com"
+    },
+    {
+     "id": "1a048f2b78d82656",
+     "newest": "2026-08-28",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a0455a0bd72184f",
+     "newest": "2026-08-27",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a04529f1d7e4daa",
+     "newest": "2026-09-10",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a04521fe14f1943",
+     "newest": "2026-08-27",
+     "from": "ClaytonG@powerhaussolutions.com"
+    },
+    {
+     "id": "19f8fe911f63c27b",
+     "newest": "2026-07-23",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "19f8fe13ac916d61",
+     "newest": "2026-07-23",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "19f4e4b3b8f1cc6b",
+     "newest": "2026-07-10",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "19f423d5568c2936",
+     "newest": "2026-07-08",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "19f40afe7101cdb4",
+     "newest": "2026-07-08",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "19f40b4289938f24",
+     "newest": "2026-07-08",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "19f3f2a06fc77fcd",
+     "newest": "2026-07-08",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "19f3a74b3be29b10",
+     "newest": "2026-07-07",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "19f293e524761d45",
+     "newest": "2026-07-03",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "19f25c3cf302f422",
+     "newest": "2026-07-07",
+     "from": "josephdittmanappraiser@gmail.com"
+    }
+   ],
+   "newestOverall": "2026-09-10",
+   "hasNewer": true
+  },
+  {
+   "cardId": "6a8e0ce6dc2c82b19cf7a3c7",
+   "searchAfter": "2026-09-10",
+   "threads": [
+    {
+     "id": "1a08bcd806190e3f",
+     "newest": "2026-09-10",
+     "from": "np@neilpatel.com"
+    },
+    {
+     "id": "1a0880fcc171acca",
+     "newest": "2026-09-09",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a086b6a9bfe1fc5",
+     "newest": "2026-09-09",
+     "from": "np@neilpatel.com"
+    },
+    {
+     "id": "1a0824dcbacadb4b",
+     "newest": "2026-09-08",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a08214f6064d2ef",
+     "newest": "2026-09-08",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a07d5113767eb62",
+     "newest": "2026-09-07",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a07d4ec1924e411",
+     "newest": "2026-09-07",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a07d4ab4b66b464",
+     "newest": "2026-09-07",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a07d4121ed6eb0e",
+     "newest": "2026-09-07",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a07c314131ccbbd",
+     "newest": "2026-09-07",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a07c18500cc58b0",
+     "newest": "2026-09-07",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a07c16bf37a8917",
+     "newest": "2026-09-07",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a0637155d936fdc",
+     "newest": "2026-09-02",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a062a974a81450f",
+     "newest": "2026-09-02",
+     "from": "np@neilpatel.com"
+    },
+    {
+     "id": "1a05fa6ae72a439e",
+     "newest": "2026-09-03",
+     "from": "nishant@vprealtyservices.com"
+    },
+    {
+     "id": "1a05fa0d25dc0028",
+     "newest": "2026-09-02",
+     "from": "samjota14@msn.com"
+    },
+    {
+     "id": "1a05a5705f71d67a",
+     "newest": "2026-09-01",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a058e28998c21bc",
+     "newest": "2026-08-31",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a058a5efc9ef0bd",
+     "newest": "2026-08-31",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a045a07bf73853d",
+     "newest": "2026-08-27",
+     "from": "do-not-reply@trello.com"
+    }
+   ],
+   "newestOverall": "2026-09-10",
+   "hasNewer": false
+  },
+  {
+   "cardId": "6a847fc7dde57e0eb18571f3",
+   "searchAfter": "2026-09-13",
+   "threads": [
+    {
+     "id": "1a0683ed6e24d1d0",
+     "newest": "2026-09-03",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a05f8d16ee145c5",
+     "newest": "2026-09-02",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a05f56127c3610b",
+     "newest": "2026-09-13",
+     "from": "Demetrius.Parker@afics.com"
+    },
+    {
+     "id": "1a059a3936efd073",
+     "newest": "2026-08-31",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a0492ed97eb8345",
+     "newest": "2026-08-28",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a0063eb800ca239",
+     "newest": "2026-08-28",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a0063d963f104e9",
+     "newest": "2026-09-01",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "19e07f2b0c89edc9",
+     "newest": "2026-08-12",
+     "from": "dwaynedstewart@gmail.com"
+    },
+    {
+     "id": "19d303923b738eac",
+     "newest": "2026-06-12",
+     "from": "dwaynedstewart@gmail.com"
+    },
+    {
+     "id": "19c42f74bce8c12f",
+     "newest": "2026-03-23",
+     "from": "John.Clarke@sedgwick.com"
+    },
+    {
+     "id": "19c0aab3949bcb20",
+     "newest": "2026-02-05",
+     "from": "davidvalaer@gmail.com"
+    },
+    {
+     "id": "19ba9b972cfe7b4a",
+     "newest": "2026-01-10",
+     "from": "davidvalaer@gmail.com"
+    },
+    {
+     "id": "19b9ed6d77143c10",
+     "newest": "2026-02-01",
+     "from": "John.Clarke@sedgwick.com"
+    },
+    {
+     "id": "19b99842f245a6c7",
+     "newest": "2026-01-10",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "19b98df249c32058",
+     "newest": "2026-01-07",
+     "from": "davidvalaer@gmail.com"
+    },
+    {
+     "id": "19b952a4696e295d",
+     "newest": "2026-01-06",
+     "from": "david.valaer@greentaxiaerospace.com"
+    },
+    {
+     "id": "194d71297d1488c8",
+     "newest": "2025-02-05",
+     "from": "amazingadjuster@gmail.com"
+    },
+    {
+     "id": "194ae28f27d7c821",
+     "newest": "2025-02-20",
+     "from": "josephdittmanappraiser@gmail.com"
+    }
+   ],
+   "newestOverall": "2026-09-13",
+   "hasNewer": false
+  },
+  {
+   "cardId": "6a3ec0ad0eac5405409a56b8",
+   "searchAfter": "2026-08-12",
+   "threads": [
+    {
+     "id": "1a0921187c0ce895",
+     "newest": "2026-09-11",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a08214f6064d2ef",
+     "newest": "2026-09-08",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a081da3aa605418",
+     "newest": "2026-09-08",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a081a275942cd1a",
+     "newest": "2026-09-08",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a07d5113767eb62",
+     "newest": "2026-09-07",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a07d4ec1924e411",
+     "newest": "2026-09-07",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a07d4121ed6eb0e",
+     "newest": "2026-09-07",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a069641b705e065",
+     "newest": "2026-09-03",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a0683ed6e24d1d0",
+     "newest": "2026-09-03",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a064571fca815a1",
+     "newest": "2026-09-02",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a0640fb2cca0af0",
+     "newest": "2026-09-02",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a062fbd89c026d1",
+     "newest": "2026-09-02",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a062c49684b7816",
+     "newest": "2026-09-02",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a062c13f06f95f5",
+     "newest": "2026-09-03",
+     "from": "ffarassati@gmail.com"
+    },
+    {
+     "id": "1a062bb70cb5b803",
+     "newest": "2026-09-04",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a062b7cc76e29a4",
+     "newest": "2026-09-02",
+     "from": "brian.cooper@countryfinancial.com"
+    },
+    {
+     "id": "1a062a8035d6323c",
+     "newest": "2026-09-03",
+     "from": "brian.cooper@countryfinancial.com"
+    },
+    {
+     "id": "1a0629f6d002a00e",
+     "newest": "2026-09-02",
+     "from": "brian.cooper@countryfinancial.com"
+    },
+    {
+     "id": "1a05ff17fc4b373c",
+     "newest": "2026-09-02",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a05eafca5896673",
+     "newest": "2026-09-01",
+     "from": "do-not-reply@trello.com"
+    }
+   ],
+   "newestOverall": "2026-09-11",
+   "hasNewer": true
+  },
+  {
+   "cardId": "6a3edf5a2347cd07582d5eaf",
+   "searchAfter": "2026-08-12",
+   "threads": [
+    {
+     "id": "1a0921187c0ce895",
+     "newest": "2026-09-11",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a08214f6064d2ef",
+     "newest": "2026-09-08",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a081da3aa605418",
+     "newest": "2026-09-08",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a081a275942cd1a",
+     "newest": "2026-09-08",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a07d5113767eb62",
+     "newest": "2026-09-07",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a07d4ec1924e411",
+     "newest": "2026-09-07",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a07d4121ed6eb0e",
+     "newest": "2026-09-07",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a069641b705e065",
+     "newest": "2026-09-03",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a0683ed6e24d1d0",
+     "newest": "2026-09-03",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a064571fca815a1",
+     "newest": "2026-09-02",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a0640fb2cca0af0",
+     "newest": "2026-09-02",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a062fbd89c026d1",
+     "newest": "2026-09-02",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a062c49684b7816",
+     "newest": "2026-09-02",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a062c13f06f95f5",
+     "newest": "2026-09-03",
+     "from": "ffarassati@gmail.com"
+    },
+    {
+     "id": "1a062bb70cb5b803",
+     "newest": "2026-09-04",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a062b7cc76e29a4",
+     "newest": "2026-09-02",
+     "from": "brian.cooper@countryfinancial.com"
+    },
+    {
+     "id": "1a062a8035d6323c",
+     "newest": "2026-09-03",
+     "from": "brian.cooper@countryfinancial.com"
+    },
+    {
+     "id": "1a0629f6d002a00e",
+     "newest": "2026-09-02",
+     "from": "brian.cooper@countryfinancial.com"
+    },
+    {
+     "id": "1a05ff17fc4b373c",
+     "newest": "2026-09-02",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a05eafca5896673",
+     "newest": "2026-09-01",
+     "from": "do-not-reply@trello.com"
+    }
+   ],
+   "newestOverall": "2026-09-11",
+   "hasNewer": true
+  },
+  {
+   "cardId": "6a3ec1efd198968cf8e089bb",
+   "searchAfter": "2026-08-12",
+   "threads": [
+    {
+     "id": "1a0921187c0ce895",
+     "newest": "2026-09-11",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a08214f6064d2ef",
+     "newest": "2026-09-08",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a081da3aa605418",
+     "newest": "2026-09-08",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a081a275942cd1a",
+     "newest": "2026-09-08",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a07d5113767eb62",
+     "newest": "2026-09-07",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a07d4ec1924e411",
+     "newest": "2026-09-07",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a07d4121ed6eb0e",
+     "newest": "2026-09-07",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a069641b705e065",
+     "newest": "2026-09-03",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a0683ed6e24d1d0",
+     "newest": "2026-09-03",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a064571fca815a1",
+     "newest": "2026-09-02",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a0640fb2cca0af0",
+     "newest": "2026-09-02",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a062fbd89c026d1",
+     "newest": "2026-09-02",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a062c49684b7816",
+     "newest": "2026-09-02",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a062c13f06f95f5",
+     "newest": "2026-09-03",
+     "from": "ffarassati@gmail.com"
+    },
+    {
+     "id": "1a062bb70cb5b803",
+     "newest": "2026-09-04",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a062b7cc76e29a4",
+     "newest": "2026-09-02",
+     "from": "brian.cooper@countryfinancial.com"
+    },
+    {
+     "id": "1a062a8035d6323c",
+     "newest": "2026-09-03",
+     "from": "brian.cooper@countryfinancial.com"
+    },
+    {
+     "id": "1a0629f6d002a00e",
+     "newest": "2026-09-02",
+     "from": "brian.cooper@countryfinancial.com"
+    },
+    {
+     "id": "1a05ff17fc4b373c",
+     "newest": "2026-09-02",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a05eafca5896673",
+     "newest": "2026-09-01",
+     "from": "do-not-reply@trello.com"
+    }
+   ],
+   "newestOverall": "2026-09-11",
+   "hasNewer": true
+  },
+  {
+   "cardId": "6a3ec6815df0cd10e49989c5",
+   "searchAfter": "2026-07-28",
+   "threads": [
+    {
+     "id": "1a0921187c0ce895",
+     "newest": "2026-09-11",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a08214f6064d2ef",
+     "newest": "2026-09-08",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a081da3aa605418",
+     "newest": "2026-09-08",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a081a275942cd1a",
+     "newest": "2026-09-08",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a07d5113767eb62",
+     "newest": "2026-09-07",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a07d4ec1924e411",
+     "newest": "2026-09-07",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a07d4121ed6eb0e",
+     "newest": "2026-09-07",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a069641b705e065",
+     "newest": "2026-09-03",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a0683ed6e24d1d0",
+     "newest": "2026-09-03",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a064571fca815a1",
+     "newest": "2026-09-02",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a0640fb2cca0af0",
+     "newest": "2026-09-02",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a062fbd89c026d1",
+     "newest": "2026-09-02",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a062c49684b7816",
+     "newest": "2026-09-02",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a062c13f06f95f5",
+     "newest": "2026-09-03",
+     "from": "ffarassati@gmail.com"
+    },
+    {
+     "id": "1a062bb70cb5b803",
+     "newest": "2026-09-04",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a062b7cc76e29a4",
+     "newest": "2026-09-02",
+     "from": "brian.cooper@countryfinancial.com"
+    },
+    {
+     "id": "1a062a8035d6323c",
+     "newest": "2026-09-03",
+     "from": "brian.cooper@countryfinancial.com"
+    },
+    {
+     "id": "1a0629f6d002a00e",
+     "newest": "2026-09-02",
+     "from": "brian.cooper@countryfinancial.com"
+    },
+    {
+     "id": "1a05ff17fc4b373c",
+     "newest": "2026-09-02",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a05eafca5896673",
+     "newest": "2026-09-01",
+     "from": "do-not-reply@trello.com"
+    }
+   ],
+   "newestOverall": "2026-09-11",
+   "hasNewer": true
+  },
+  {
+   "cardId": "6a3ea8ed04532d29c652f6fd",
+   "searchAfter": "2026-08-12",
+   "threads": [
+    {
+     "id": "1a0921187c0ce895",
+     "newest": "2026-09-11",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a08214f6064d2ef",
+     "newest": "2026-09-08",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a081da3aa605418",
+     "newest": "2026-09-08",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a081a275942cd1a",
+     "newest": "2026-09-08",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a07d5113767eb62",
+     "newest": "2026-09-07",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a07d4ec1924e411",
+     "newest": "2026-09-07",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a07d4121ed6eb0e",
+     "newest": "2026-09-07",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a069641b705e065",
+     "newest": "2026-09-03",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a0683ed6e24d1d0",
+     "newest": "2026-09-03",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a064571fca815a1",
+     "newest": "2026-09-02",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a0640fb2cca0af0",
+     "newest": "2026-09-02",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a062fbd89c026d1",
+     "newest": "2026-09-02",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a062c49684b7816",
+     "newest": "2026-09-02",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a062c13f06f95f5",
+     "newest": "2026-09-03",
+     "from": "ffarassati@gmail.com"
+    },
+    {
+     "id": "1a062bb70cb5b803",
+     "newest": "2026-09-04",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a062b7cc76e29a4",
+     "newest": "2026-09-02",
+     "from": "brian.cooper@countryfinancial.com"
+    },
+    {
+     "id": "1a062a8035d6323c",
+     "newest": "2026-09-03",
+     "from": "brian.cooper@countryfinancial.com"
+    },
+    {
+     "id": "1a0629f6d002a00e",
+     "newest": "2026-09-02",
+     "from": "brian.cooper@countryfinancial.com"
+    },
+    {
+     "id": "1a05ff17fc4b373c",
+     "newest": "2026-09-02",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a05eafca5896673",
+     "newest": "2026-09-01",
+     "from": "do-not-reply@trello.com"
+    }
+   ],
+   "newestOverall": "2026-09-11",
+   "hasNewer": true
+  },
+  {
+   "cardId": "6a4d1d9dbc7889168aec2321",
+   "searchAfter": "2026-07-29",
+   "threads": [
+    {
+     "id": "1a0a0037450c9275",
+     "newest": "2026-09-14",
+     "from": "support@app.iink.com"
+    },
+    {
+     "id": "1a092e2183fa5166",
+     "newest": "2026-09-11",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a09212e4d127a88",
+     "newest": "2026-09-11",
+     "from": "support@app.iink.com"
+    },
+    {
+     "id": "1a08884f0dc73a29",
+     "newest": "2026-09-09",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a0883b408ef208f",
+     "newest": "2026-09-11",
+     "from": "claims@tpa.alacritysolutions.com"
+    },
+    {
+     "id": "1a0851007eebff31",
+     "newest": "2026-09-09",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a084baee75df208",
+     "newest": "2026-09-09",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a0819e861b9fd25",
+     "newest": "2026-09-08",
+     "from": "support@app.iink.com"
+    },
+    {
+     "id": "1a07bf8de6725943",
+     "newest": "2026-09-07",
+     "from": "support@app.iink.com"
+    },
+    {
+     "id": "1a07902b7d2e81ba",
+     "newest": "2026-09-07",
+     "from": "m.uribe@nostressintl.com"
+    },
+    {
+     "id": "1a0722ed8adc83a8",
+     "newest": "2026-09-11",
+     "from": "operations@allhomeexteriorsolutions.com"
+    },
+    {
+     "id": "1a06fb54922aea46",
+     "newest": "2026-09-05",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a06e33645c1d165",
+     "newest": "2026-09-04",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a06d9d4b4b51504",
+     "newest": "2026-09-04",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a06cf93f9ed4af4",
+     "newest": "2026-09-04",
+     "from": "support@app.iink.com"
+    },
+    {
+     "id": "1a06ced34df66e55",
+     "newest": "2026-09-04",
+     "from": "support@app.iink.com"
+    },
+    {
+     "id": "1a06b79a132ac9a4",
+     "newest": "2026-09-04",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a0688b023942e57",
+     "newest": "2026-09-03",
+     "from": "support@app.iink.com"
+    },
+    {
+     "id": "1a0680355a74c229",
+     "newest": "2026-09-03",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a064571fca815a1",
+     "newest": "2026-09-02",
+     "from": "do-not-reply@trello.com"
+    }
+   ],
+   "newestOverall": "2026-09-14",
+   "hasNewer": true
+  },
+  {
+   "cardId": "6a88859cb6e5e54258d3f22b",
+   "searchAfter": "2026-09-09",
+   "threads": [
+    {
+     "id": "1a0a0037450c9275",
+     "newest": "2026-09-14",
+     "from": "support@app.iink.com"
+    },
+    {
+     "id": "1a086ce0852fb7bd",
+     "newest": "2026-09-09",
+     "from": "support@app.iink.com"
+    },
+    {
+     "id": "1a082cd62c07124f",
+     "newest": "2026-09-08",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a07bf8de6725943",
+     "newest": "2026-09-07",
+     "from": "support@app.iink.com"
+    },
+    {
+     "id": "1a06e29e9a82ae50",
+     "newest": "2026-09-04",
+     "from": "support@app.iink.com"
+    },
+    {
+     "id": "1a069564bbd15b28",
+     "newest": "2026-09-10",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a067c0313705333",
+     "newest": "2026-09-03",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a067b64da88f430",
+     "newest": "2026-09-08",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a05d5da2af90276",
+     "newest": "2026-09-01",
+     "from": "support@app.iink.com"
+    },
+    {
+     "id": "1a057ea0614419f5",
+     "newest": "2026-08-31",
+     "from": "support@app.iink.com"
+    },
+    {
+     "id": "1a057e9acd41dca7",
+     "newest": "2026-08-31",
+     "from": "support@app.iink.com"
+    },
+    {
+     "id": "1a0540846197c2fb",
+     "newest": "2026-08-30",
+     "from": "noreply@mc.siriusxm.com"
+    },
+    {
+     "id": "1a04a66681328f07",
+     "newest": "2026-08-28",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a043d5a691c5ad5",
+     "newest": "2026-08-27",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a03474947b844a4",
+     "newest": "2026-08-28",
+     "from": "kcadjuster@gmail.com"
+    },
+    {
+     "id": "1a025897532a4290",
+     "newest": "2026-08-21",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a0254a538ffb0b2",
+     "newest": "2026-08-21",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a0254752f6a6f32",
+     "newest": "2026-08-21",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a025466a70b80ed",
+     "newest": "2026-09-03",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "19fd88e432f93be3",
+     "newest": "2026-08-06",
+     "from": "do-not-reply@trello.com"
+    }
+   ],
+   "newestOverall": "2026-09-14",
+   "hasNewer": true
+  },
+  {
+   "cardId": "6a909e4fef89eb3756af89f1",
+   "searchAfter": "2026-09-14",
+   "threads": [
+    {
+     "id": "1a08d22a64ed85dd",
+     "newest": "2026-09-14",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a06d5db17a5135a",
+     "newest": "2026-09-07",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a0456b2c6d73ee7",
+     "newest": "2026-08-27",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a040d590334c9c3",
+     "newest": "2026-08-27",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a040d2c618214cd",
+     "newest": "2026-08-27",
+     "from": "glucas@linearroofing.com"
+    },
+    {
+     "id": "1a08d62289da86bd",
+     "newest": "2026-09-10",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a086e4099020305",
+     "newest": "2026-09-09",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a06d8cd1c4aa9fa",
+     "newest": "2026-09-04",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a06b70852d7f24d",
+     "newest": "2026-09-04",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a045a07bf73853d",
+     "newest": "2026-08-27",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a0456c0b1713b5b",
+     "newest": "2026-08-27",
+     "from": "josephdittmanappraiser@gmail.com"
+    }
+   ],
+   "newestOverall": "2026-09-14",
+   "hasNewer": false
+  },
+  {
+   "cardId": "6a90959907b07619b8d6bb87",
+   "searchAfter": "2026-09-09",
+   "threads": [
+    {
+     "id": "1a086e4099020305",
+     "newest": "2026-09-09",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a06d8cd1c4aa9fa",
+     "newest": "2026-09-04",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a06d7c20cefbdda",
+     "newest": "2026-09-07",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a06b58ea73e03fe",
+     "newest": "2026-09-04",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a05dfef88cfe936",
+     "newest": "2026-09-01",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a045221debf2750",
+     "newest": "2026-08-27",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a044e690e8865e5",
+     "newest": "2026-08-27",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a040dfb7e31fc6f",
+     "newest": "2026-09-04",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a040ab74457095f",
+     "newest": "2026-08-27",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a0157790d04119e",
+     "newest": "2026-08-18",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "19ffda9d1405404a",
+     "newest": "2026-08-14",
+     "from": "messages-noreply@linkedin.com"
+    },
+    {
+     "id": "19fc84ebe66afdf1",
+     "newest": "2026-09-08",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "19f8fe911f63c27b",
+     "newest": "2026-07-23",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "19f8a69b7e334e63",
+     "newest": "2026-07-22",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "19f80fd5e8630648",
+     "newest": "2026-07-20",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "19f7cd0911773555",
+     "newest": "2026-07-19",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "19f665bb45a64231",
+     "newest": "2026-07-15",
+     "from": "amazingadjuster@gmail.com"
+    },
+    {
+     "id": "19c34f0a5a68fe38",
+     "newest": "2026-08-13",
+     "from": "scheduling3@nostressintl.com"
+    },
+    {
+     "id": "19f435f01ee47381",
+     "newest": "2026-07-08",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "19f4347e4cb11c9b",
+     "newest": "2026-07-08",
+     "from": "amazingadjuster@gmail.com"
+    }
+   ],
+   "newestOverall": "2026-09-09",
+   "hasNewer": false
+  },
+  {
+   "cardId": "6a88ab5c0ffe445c8bb54dc6",
+   "searchAfter": "2026-09-10",
+   "threads": [
+    {
+     "id": "1a08c7d2b58574af",
+     "newest": "2026-09-10",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a082cd62c07124f",
+     "newest": "2026-09-08",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a082a741942b9b5",
+     "newest": "2026-09-08",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a06d54f436e4a07",
+     "newest": "2026-09-04",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a06655151294407",
+     "newest": "2026-09-08",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a03f24def225fde",
+     "newest": "2026-09-08",
+     "from": "brittwmike@aol.com"
+    },
+    {
+     "id": "1a0260d9f0d8cd9e",
+     "newest": "2026-08-21",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a025bf8d057563a",
+     "newest": "2026-08-21",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a011ca26f136e46",
+     "newest": "2026-08-20",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "19dd157434d535a2",
+     "newest": "2026-04-28",
+     "from": "stevejenkinspa@gmail.com"
+    },
+    {
+     "id": "19b156dc7ca17fb9",
+     "newest": "2025-12-13",
+     "from": "updates-noreply@linkedin.com"
+    },
+    {
+     "id": "1948f78165d997a4",
+     "newest": "2025-01-22",
+     "from": "vance.ducusin@gmail.com"
+    }
+   ],
+   "newestOverall": "2026-09-10",
+   "hasNewer": false
+  },
+  {
+   "cardId": "6a976bf80ad6fcca769cbcec",
+   "searchAfter": "2026-09-10",
+   "threads": [
+    {
+     "id": "1a08c7d2b58574af",
+     "newest": "2026-09-10",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a083475a85eded9",
+     "newest": "2026-09-08",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a08319b055068df",
+     "newest": "2026-09-08",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a07f6579812b68a",
+     "newest": "2026-09-08",
+     "from": "danielarnold.claims@gmail.com"
+    },
+    {
+     "id": "1a07d0c4fd2d64de",
+     "newest": "2026-09-07",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a06d54f436e4a07",
+     "newest": "2026-09-04",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a06a3fbccbc42c9",
+     "newest": "2026-09-08",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a0699dd3b332b31",
+     "newest": "2026-09-03",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a05ff08feee42b8",
+     "newest": "2026-09-02",
+     "from": "updates-noreply@linkedin.com"
+    },
+    {
+     "id": "1a05fa6d87638aea",
+     "newest": "2026-09-02",
+     "from": "viren@vprealtyservices.com"
+    },
+    {
+     "id": "1a05fa6c430a25f3",
+     "newest": "2026-09-02",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a05f8d16ee145c5",
+     "newest": "2026-09-02",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a05eb592b55e09d",
+     "newest": "2026-09-03",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a020fada18d7b2f",
+     "newest": "2026-09-14",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "19fd2775d4d1db1c",
+     "newest": "2026-08-05",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "19fc85bc858a3fdd",
+     "newest": "2026-08-03",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "19fc48339db6b4a8",
+     "newest": "2026-09-07",
+     "from": "pididdypastrana@gmail.com"
+    },
+    {
+     "id": "19fb8a2590f93883",
+     "newest": "2026-07-31",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "19fa55f9117ff5c0",
+     "newest": "2026-07-29",
+     "from": "erik.walker@thelawgicalfirm.com"
+    },
+    {
+     "id": "19fa55bc8e8a4f8b",
+     "newest": "2026-07-27",
+     "from": "erik.walker@thelawgicalfirm.com"
+    }
+   ],
+   "newestOverall": "2026-09-14",
+   "hasNewer": true
+  },
+  {
+   "cardId": "6a837a929172fd30dee64db9",
+   "searchAfter": "2026-09-12",
+   "threads": [
+    {
+     "id": "1a08c36c17c74737",
+     "newest": "2026-09-10",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a08380e7db83b4c",
+     "newest": "2026-09-09",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a083475a85eded9",
+     "newest": "2026-09-08",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a08342375ab95e1",
+     "newest": "2026-09-11",
+     "from": "agentil@gaig.com"
+    },
+    {
+     "id": "1a07d0c4fd2d64de",
+     "newest": "2026-09-07",
+     "from": "josephdittmanappraiser@gmail.com"
+    },
+    {
+     "id": "1a058a5efc9ef0bd",
+     "newest": "2026-08-31",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a03e9beab53bb82",
+     "newest": "2026-08-26",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a011ce15ae1fc7a",
+     "newest": "2026-08-17",
+     "from": "do-not-reply@trello.com"
+    },
+    {
+     "id": "1a011676350b3576",
+     "newest": "2026-09-08",
+     "from": "josephdittmanappraiser@gmail.com"
+    }
+   ],
+   "newestOverall": "2026-09-11",
+   "hasNewer": false
+  }
+ ],
+ "checked": 15
+}
