@@ -2,6 +2,66 @@
 
 One line per run: date | threads scanned | logged | unmatched | skipped as noise
 
+2026-09-15 | 249 threads scanned | 171 logged | 54 unmatched | 14 skipped as noise, 8 skipped as duplicate
+
+Unmatched insureds named in email with no card on the Insured Appraisals board:
+- Suzanne Ramos (State Farm 43-0K2L-462)
+- Mildred Davis (Allstate 0817538218)
+- Billy / "Brackett" insured (contractor ahexteriorsco@gmail.com)
+- Mohammadershad Shaik (Nationwide claim 300571-GR)
+- Yen-Thi Kim Nguyen (TXIA appraisal with Michael Peterman) — also flagged 2026-08-15, still no card
+- Brown (surname only, ambiguous — "Estimate Brown"/"Weather Report Brown" attachments, sender Erica@crosscountrypublicadjusting.com)
+- Thiese / Thiese (Texco Roofing contact, texcoroofs@gmail.com)
+- Beverly "Bev" George (State Farm 43-0M2M-552, Arlington TX)
+- Tammana Nalini (John Wynn referral)
+- Francisco and Isidra Gabino (claim 01010084862)
+- Harold Booze
+- Richard "Rong" Dai — multi-property status request, ambiguous which of his several open cards; also Lisa & Chris Sirridge, same thread
+- Dale Henderson
+- Michelle Hawkins
+- Travelers claim JHM0516 (insured not named in thread — raccoon/ceiling loss)
+- Stephanie Cook / William P Benavidez (claim 5393X455B)
+- MRIDA Realty LLC / Ajay Jain (claim 196263AB)
+- Karen Thiesse (Texco Roofs contact Kaisa Lupardus)
+- Yatrik Munshi (Liberty Mutual claim 060515276-01)
+- Salazar (ambiguous — San Antonio property, 3 open Salazar cards, none match)
+- Jikai Chen
+- Jerado/Jerardo Vaquera (Assurant claim 00201953271, 917 Desert Sage St)
+- Richard and Phyllis Pender (claim 43-0B3Z-137)
+- William "Stan" O'Hagan
+- Angela Whitney (claim 01-009-632647)
+- Jeff & Francine Perez (claim 068339-GR)
+- Allstate claim 000834698317 (insured not named in thread)
+- Alonzo Haynes (El Paso, Roto-Rooter/Assurant referral) — also flagged 2026-08-15, still no card
+- Leticia Perez (Farmers claim 7010512803-1)
+- Gustavo Uretafrias (RYZE Claims umpire process, claim 00300107088)
+- Timothy & Valerie Redwine / Tim Redwine (claim 067417-GR and Legacy Roofing contact — same surname, two separate threads)
+- Katonna Cunningham / Richard Burns (USAA claims 022550340-801 / 011431280-800)
+- Robert Sloan ("Airman Robert Sloan", USAA claim)
+- John Surgeon — also flagged 2026-08-15 as part of "John & Misti Surgeon", still no card
+- Max Holthaus (2010 Ridgeview Rd, Salina, KS)
+- Alex Salazar (claim 5378H495P)
+- Eric Copeland & Tanya Rodriguez (State Farm 53-0K0D-995)
+- Arthur Greene (Allstate claim 0830981956)
+- Chet Cochrane (Travelers claim JHM1751)
+- Veronica Natividad (Farmers claim 5044232547-1)
+- Karl McGettrick (claim 43-98F2-10H)
+- Marissa Griebel (Allied Trust claim 2610333)
+- Lakeland West Capital / Veronica Renobato (no individual insured named)
+- Benjamin Jackson (Liberty Mutual/Safeco claim 060545725-01)
+- Kishore Kumar Munigety & Neelima Bitla (claim 7010483200-1-2)
+- Claim HO-2026-224324287 (insured never named in thread; panel appraisers Blake Pyka & Steven Smallwood)
+- Solomon & April Griffin (Nationwide claim 033932-GR) — also flagged 2026-09-05, still no card
+- Venkata Nomula (claim 017781911)
+- Somya Roy
+- Shannon Roussos
+
+Data-quality notes for Joseph to spot-check:
+- An orchestration mixup caused batches 36 and 38 to each be dispatched twice (a genuine retry accidentally duplicated already-succeeded work, while the two batches that had actually failed to launch — 39 and 41 — were caught and dispatched separately). Subagents check for duplicate checklist substance before writing, but please glance at these cards for a possible doubled 2026-09-14 entry: George Savage - PAID, Suresh Velagapalli and Kalpana Kotapati, Guadalupe Hernandez & Alejandro Rodriguez, KISHORE BULUSU & ANUPAMA MANTHA, Timothy Mclaine - 09-16.
+- Several cards already carry two separate checklists both named "📋 Chain of Events" (pre-existing, not created by this run) — worth merging: Mike Russell, Ramesh Muthukrishnan, Joe Sanchez - 09-16.
+- A subagent flagged that the JESUS VIDAL and Dixie Smith cards carry identical checklist wording for an umpire-acceptance event (2026-09-08–09-11) — possibly a mismatch from an earlier run, worth a glance.
+- One subagent flagged an unresolved identity/assignment dispute on the Sandra Gonzales card: the carrier's appraiser questioned why Joseph's office holds a document for a different named appraiser and asserted Joseph is not the insured's appraiser on this file; office maintained that he is.
+
 2026-09-05 | 192 threads scanned | 144 logged | 32 unmatched | 9 skipped as noise, 7 skipped as duplicate
 
 Unmatched insureds named in email with no card on the Insured Appraisals board:
