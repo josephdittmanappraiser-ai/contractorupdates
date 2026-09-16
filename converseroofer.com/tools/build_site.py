@@ -34,7 +34,17 @@ IMGS = {
  "team":   ("1521737711867-e3b97375f902","Roofing team planning a job","tools"),
  "gutter": ("1621905251189-08b45d6a269e","Contractor working along the roof edge","tools"),
 }
+COVER_ALT = {
+ "cover-hail-shingles": "Illustration of golf-ball hail striking an asphalt shingle roof",
+ "cover-claim-guide": "Illustration of a Converse home with a roof inspection report",
+ "cover-seven-questions": "Illustration of a home at dusk with a before-you-sign checklist",
+ "cover-nine-signs": "Illustration of a house with numbered hail damage callouts and a magnifier",
+ "cover-class4": "Illustration of hail bouncing off Class 4 impact-resistant shingles",
+}
 def img(key, root="", cls="", w=1200, attrs=""):
+    if key.startswith("cover-"):
+        clsattr = ('class="' + cls + '"') if cls else ""
+        return '<img src="' + root + 'assets/img/' + key + '.svg" alt="' + html.escape(COVER_ALT[key]) + '" loading="lazy" ' + clsattr + ' ' + attrs + '>'
     pid, alt, fb = IMGS[key]
     clsattr = ('class="' + cls + '"') if cls else ""
     fallback = root + "assets/img/ph-" + fb + ".svg"
@@ -167,7 +177,11 @@ def write(path, content):
 
 def page_hero(title, sub, root="", imgkey="storm2", crumbs=""):
     crumb_html = ('<div class="crumbs">' + crumbs + '</div>') if crumbs else ''
-    return f'''<section class="hero small"><img class="bg" src="https://images.unsplash.com/photo-{IMGS[imgkey][0]}?auto=format&fit=crop&w=1800&q=60" alt="" onerror="this.onerror=null;this.src='{root}assets/img/ph-bg.svg'"><div class="shade"></div>
+    if imgkey.startswith("cover-"):
+        bg = '<img class="bg" src="' + root + 'assets/img/' + imgkey + '.svg" alt="">'
+    else:
+        bg = '<img class="bg" src="https://images.unsplash.com/photo-' + IMGS[imgkey][0] + '?auto=format&fit=crop&w=1800&q=60" alt="" onerror="this.onerror=null;this.src=\'' + root + 'assets/img/ph-bg.svg\'">'
+    return f'''<section class="hero small">{bg}<div class="shade"></div>
 <div class="wrap"><div>{crumb_html}<h1>{title}</h1><p class="lead">{sub}</p></div></div></section>'''
 
 # ---------------- HOME ----------------
@@ -329,7 +343,7 @@ def post(slug, title, desc, date, minutes, imgkey, body, tags):
 post("what-golf-ball-hail-does-to-a-shingle-roof",
  "What Golf-Ball Hail Actually Does to a Shingle Roof (With Photos)",
  "Golf-ball hail hit Converse on September 11. Here's what 1.75-inch hail does to asphalt shingles, why the damage hides for months, and what an inspector looks for.",
- "September 14, 2026", 6, "roof1", f'''
+ "September 14, 2026", 6, "cover-hail-shingles", f'''
 <p>On the night of September 11, 2026, trained spotters reported 1.5-inch hail between Converse and Kirby, and photos posted from Converse neighborhoods showed stones in the 2 to 2.5-inch range. The National Weather Service warning that night called for golf-ball hail (1.75") and 60 mph gusts. That's well past the size that damages a standard asphalt roof.</p>
 <p>Here's what happens to your shingles when a stone that size lands, and why the damage is so easy to miss.</p>
 
@@ -374,7 +388,7 @@ post("what-golf-ball-hail-does-to-a-shingle-roof",
 post("how-to-file-a-hail-damage-claim-in-texas",
  "How to File a Hail Damage Roof Claim in Texas: Step by Step",
  "A homeowner's guide to filing a hail claim in Texas after the September 11 storm: deadlines, what to say, the adjuster visit, deductibles, and what to do if you're denied.",
- "September 13, 2026", 8, "docs", f'''
+ "September 13, 2026", 8, "cover-claim-guide", f'''
 <p>If the September 11 storm hit your house, the claim process is less scary than it sounds. Here's how it generally goes, in order, with the Texas-specific rules that matter.</p>
 
 <h2>Step 1: Get the roof inspected before you call</h2>
@@ -423,7 +437,7 @@ post("how-to-file-a-hail-damage-claim-in-texas",
 post("7-questions-before-you-sign-with-a-roofer-after-a-storm",
  "7 Questions to Ask Before You Sign With a Roofer After a Hail Storm",
  "Out-of-town crews are already knocking doors in Converse and Kirby after the 9/11 hail storm. Ask these seven questions before you sign anything.",
- "September 15, 2026", 5, "handshake", f'''
+ "September 15, 2026", 5, "cover-seven-questions", f'''
 <p>Within 48 hours of the September 11 storm there were trucks with out-of-state plates working the streets around Converse and Kirby. Some of those companies are fine. Some will be gone by Thanksgiving, and your warranty goes with them. Here's how to tell the difference in a five-minute conversation.</p>
 
 <h2>1. "Where's your office?"</h2>
@@ -457,7 +471,7 @@ post("7-questions-before-you-sign-with-a-roofer-after-a-storm",
 post("9-signs-your-roof-took-hail-damage",
  "Hail Hit Your Neighborhood? 9 Signs to Check From the Ground Today",
  "You don't need a ladder to spot most of these. Nine ground-level signs your Converse-area roof took hail damage on September 11, and what to do next.",
- "September 12, 2026", 4, "hail2", f'''
+ "September 12, 2026", 4, "cover-nine-signs", f'''
 <p>You can't safely inspect shingles from the ground, but you can absolutely tell whether it's worth having someone come out. Walk around your house with your phone and check these nine things. Photograph anything you find; the timestamp is useful later.</p>
 {dia("where-hail-hides", root="../")}
 
@@ -482,7 +496,7 @@ post("9-signs-your-roof-took-hail-damage",
 post("class-4-impact-resistant-shingles-bexar-county",
  "Class 4 Impact-Resistant Shingles: Worth It in Bexar County?",
  "Bexar County gets hail nearly every year. Here's what Class 4 shingles are, what they cost extra, the insurance discount, and when they're worth it on a Converse home.",
- "September 10, 2026", 6, "house5", f'''
+ "September 10, 2026", 6, "cover-class4", f'''
 <p>If you're replacing a roof after a hail claim, you'll be asked whether you want to upgrade to Class 4 impact-resistant shingles. Here's a straight answer on what you're buying.</p>
 
 <h2>What "Class 4" means</h2>
