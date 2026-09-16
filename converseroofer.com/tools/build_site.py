@@ -1,4 +1,4 @@
-import os, html
+import os, html, json
 OUT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PHONE = "956-465-6045"; TEL = "tel:+19564656045"; SMS = "sms:+19564656045"
 BRAND = "Converse Roofer"; DOMAIN = "https://converseroofer.com"
@@ -67,7 +67,7 @@ def strip(items, root="", cols=None):
     cols = cols or len(items)
     return '<div class="gallery" style="grid-template-columns:repeat(' + str(cols) + ',1fr)">' + "".join(f'<figure>{img(k, root=root, w=800)}<figcaption>{c}</figcaption></figure>' for k,c in items) + '</div>'
 
-NAV = [("index.html","Home"),("hail-storm-september-11-2026.html","9/11 Hail Storm"),("weather.html","Weather"),("gallery.html","Photos"),("blog/index.html","Blog"),("about.html","About Us"),("contact.html","Contact")]
+NAV = [("index.html","Home"),("hail-storm-september-11-2026.html","Hail Storm"),("areas/index.html","Areas"),("weather.html","Weather"),("gallery.html","Photos"),("blog/index.html","Blog"),("about.html","About"),("contact.html","Contact")]
 
 def lead_form(root="", compact=False, title="Get Your Free Roof Inspection", sub="No cost, no pressure. We'll look at your roof, photograph any hail damage, and tell you honestly what it needs."):
     notes_field = "" if compact else '<div><label for="f-notes">Anything we should know?</label><textarea id="f-notes" name="notes" rows="3" placeholder="Leaks, missing shingles, dents on gutters or AC unit, best time to call…"></textarea></div>'
@@ -165,7 +165,7 @@ def layout(title, desc, body, root="", active=None, canonical="", extra_head="",
       </div>
       <div><h4>Pages</h4><ul>{"".join(f'<li><a href="{root}{h}">{t}</a></li>' for h,t in NAV)}</ul></div>
       <div><h4>Services</h4><ul><li><a href="{root}contact.html">Free hail inspections</a></li><li><a href="{root}contact.html">Storm damage documentation</a></li><li><a href="{root}contact.html">Roof replacement</a></li><li><a href="{root}contact.html">Roof repair &amp; leaks</a></li><li><a href="{root}contact.html">Gutters &amp; emergency tarping</a></li></ul></div>
-      <div><h4>Service area</h4><ul><li>Converse</li><li>Kirby &amp; Windcrest</li><li>Universal City &amp; Live Oak</li><li>Schertz, Cibolo &amp; Selma</li><li>St. Hedwig</li><li>NE San Antonio</li></ul></div>
+      <div><h4>Service area</h4><ul><li><a href="{root}areas/converse.html">Converse</a></li><li><a href="{root}areas/kirby-windcrest.html">Kirby &amp; Windcrest</a></li><li><a href="{root}areas/universal-city-live-oak.html">Universal City &amp; Live Oak</a></li><li><a href="{root}areas/schertz-cibolo-selma.html">Schertz, Cibolo &amp; Selma</a></li><li><a href="{root}areas/st-hedwig.html">St. Hedwig</a></li><li><a href="{root}areas/ne-san-antonio.html">NE San Antonio</a></li></ul></div>
     </div>
     <div class="bottom"><span>© <span data-year></span> {BRAND} · converseroofer.com</span><span>Texas law prohibits roofers from paying or waiving insurance deductibles (Tex. Bus. &amp; Com. Code §27.02). We never do.</span></div>
   </div>
@@ -307,6 +307,7 @@ home = f'''
       <p>Active leak, missing shingles, tree limb through the decking? Call the number at the top of this page. Emergency Converse roof repair starts with a tarp the same day, then a proper fix once the weather clears.</p>
       <h3>Storm damage roofing</h3>
       <p>Hail damage Converse roof repair and wind damage repairs are most of what a Converse roofer does in a year like this one. We know what NWS reported for the September 11 storm, we photograph the collateral damage on vents, gutters and screens, and we put the repair cost in writing. If you use insurance, you pay your deductible and nothing more. Read our <a href="hail-storm-september-11-2026.html">Converse hail storm report</a> or our <a href="blog/how-to-file-a-hail-damage-claim-in-texas.html">homeowner's guide to Texas hail claims</a>.</p>
+      <p>Outside Converse? See our pages for <a href="areas/kirby-windcrest.html">Kirby &amp; Windcrest</a>, <a href="areas/universal-city-live-oak.html">Universal City &amp; Live Oak</a>, <a href="areas/schertz-cibolo-selma.html">Schertz, Cibolo &amp; Selma</a>, <a href="areas/st-hedwig.html">St. Hedwig</a> and <a href="areas/ne-san-antonio.html">northeast San Antonio</a>.</p>
       <p><a class="btn primary" href="contact.html">Get a free Converse roofing quote</a></p>
   </div>
 </section>
@@ -836,8 +837,149 @@ contact = page_hero("Free Roof Inspection &amp; Contact", f"Call or text {PHONE}
 write("contact.html", layout(f"Free Roof Inspection in Converse, TX | Call {PHONE} | Converse Roofer",
   f"Request a free hail damage roof inspection in Converse, Kirby, Windcrest or NE San Antonio. Call or text {PHONE}. Same-day callback, photo report, no obligation.", contact, active="contact.html", canonical="contact.html"))
 
+
+# ---------------- SERVICE AREA PAGES ----------------
+AREAS = [
+ dict(slug="converse", name="Converse", short="Converse", zips="78109", state="TX",
+   towns=["Converse"], img="house2", nearby=["kirby-windcrest","universal-city-live-oak","ne-san-antonio"],
+   geo="Converse sits on the northeast edge of San Antonio along FM 78, between Loop 1604 and I-10, next door to Randolph Air Force Base. Most of the housing stock is 1990s to 2020s single-family homes with architectural shingle roofs, which is exactly the roof that golf-ball hail bruises.",
+   storm="Converse was under the core of the September 11, 2026 storm. The first NWS warning at 10:12 PM placed golf-ball hail over Kirby, near Converse, moving southwest at 15 mph. Residents photographed stones in the 2 to 2.5 inch range, cars lost windshields, and CPS Energy reported about 4,600 outages around Kirby and Converse alone.",
+   roofs="Converse subdivisions built in the same few years tend to share the same shingle, the same age and the same hail exposure. When one roof on a street has confirmed damage, the neighbors usually do too. North- and east-facing slopes took the direct hits on September 11.",
+   faq=[("Do you actually work in Converse or just advertise here?","We're based in Converse. Same phone number before, during and after the job, and you'll see our trucks on FM 78."),
+        ("How fast can a Converse roofer get to my house?","Usually the same day or next day anywhere in 78109. Active leaks get tarped first."),
+        ("Is my Converse roof covered by insurance for the September 11 hail?","Most homeowner policies cover hail as a named peril. We document the damage and give you a written estimate; you file with your carrier and pay only your deductible if the claim is approved.")]),
+ dict(slug="kirby-windcrest", name="Kirby &amp; Windcrest", short="Kirby and Windcrest", zips="78219, 78239", state="TX",
+   towns=["Kirby","Windcrest"], img="house3", nearby=["converse","ne-san-antonio","universal-city-live-oak"],
+   geo="Kirby and Windcrest sit just inside Loop 410 on San Antonio's northeast side, along Binz-Engleman Road, Walzem Road and I-35. Both have a lot of 1960s to 1990s homes with lower-slope roofs and mature trees, and both were named in the first NWS warning on September 11.",
+   storm="The NWS warning at 10:12 PM on September 11, 2026 was centered on Kirby, with golf-ball hail and 60 mph gusts. Trained spotters reported 1.5 inch hail between Converse and Kirby. This is also the area hit by the late-May 2026 wind storm that downed trees and pushed a truck down a Kirby street, so many Kirby roofs have taken two events this year.",
+   roofs="Older Kirby and Windcrest roofs with 3-tab shingles show hail damage more readily than newer architectural shingles, and roofs already stressed by the May wind event are more likely to have lifted or creased tabs on top of the September hail bruising.",
+   faq=[("Do you cover both Kirby and Windcrest?","Yes. Both 78219 and 78239 are inside our core service area, about ten minutes from our base in Converse."),
+        ("My Kirby roof took wind damage in May and hail in September. Which do I claim?","Both can be documented. We photograph each type of damage separately so your written estimate is clear about what happened when."),
+        ("Do you do roof repair in Windcrest for older homes?","Yes. A lot of Windcrest roofs are candidates for repair rather than replacement, and we tell you which is which in writing.")]),
+ dict(slug="universal-city-live-oak", name="Universal City &amp; Live Oak", short="Universal City and Live Oak", zips="78148, 78233, 78150", state="TX",
+   towns=["Universal City","Live Oak","Randolph AFB"], img="house5", nearby=["converse","schertz-cibolo-selma","kirby-windcrest"],
+   geo="Universal City and Live Oak straddle Loop 1604 and I-35 on the north side of Randolph Air Force Base. Lots of military families, lots of homes bought in the last ten years, and a mix of 1970s ranch homes near Pat Booker Road and newer subdivisions off Kitty Hawk and Toepperwein.",
+   storm="Universal City, Live Oak and Randolph AFB were all listed in the NWS warnings on the night of September 11, 2026, on the north edge of the golf-ball hail core that sat over Kirby and Converse. Hail size reports here ranged from quarter to golf ball, with 60 mph gusts and more than 2 inches of rain in spots.",
+   roofs="On the north edge of a storm moving southwest, damage in Universal City and Live Oak is often concentrated on one or two slopes. A roof can be fine from the street and have a slope full of bruising on the side that faced the storm.",
+   faq=[("Do you work with military families at Randolph?","All the time. We work around deployment and PCS timelines and can coordinate inspections with a spouse or property manager."),
+        ("Are you a Universal City roofer or a Converse roofer?","We're based in Converse, about eight minutes down FM 78 from Universal City and Live Oak. Same-day inspections are the norm."),
+        ("How much does roof replacement cost in Live Oak?","It depends on roof size, pitch and shingle choice. We put a written price on every estimate, and if insurance is involved your cost is usually the deductible.")]),
+ dict(slug="schertz-cibolo-selma", name="Schertz, Cibolo &amp; Selma", short="Schertz, Cibolo and Selma", zips="78154, 78108", state="TX",
+   towns=["Schertz","Cibolo","Selma"], img="house7", nearby=["universal-city-live-oak","converse","st-hedwig"],
+   geo="Schertz, Cibolo and Selma run along the I-35 corridor northeast of San Antonio into Guadalupe County. Fast-growing, mostly newer subdivisions with large architectural-shingle roofs, plus a growing number of standing-seam metal roofs on custom homes off FM 78 and FM 1103.",
+   storm="Schertz and Cibolo were both named in the NWS severe thunderstorm warnings on September 11, 2026, on the northern flank of the storm that dropped golf-ball hail on Kirby and Converse. Hail here was generally quarter to golf-ball size with 60 mph gusts, enough to bruise shingles and dent soft metals.",
+   roofs="Newer roofs in Schertz and Cibolo can look untouched and still have mat fractures under the granules. Big, complex rooflines also mean more valleys, more flashing and more places for hail-related leaks to start. Metal roofs usually survive but can show cosmetic denting.",
+   faq=[("Do you cover Cibolo and Selma too, or just Schertz?","All three. Schertz 78154, Cibolo 78108 and Selma are about fifteen minutes from our Converse base up FM 78 and I-35."),
+        ("My Cibolo roof is only five years old. Can hail still damage it?","Yes. Newer shingles bruise less visibly but still fracture under golf-ball hail. A free inspection settles it either way."),
+        ("Do you install metal roofing in Schertz?","Yes. Standing-seam metal is one of our common replacements in Schertz and Cibolo. We price it alongside Class 4 shingles so you can compare.")]),
+ dict(slug="st-hedwig", name="St. Hedwig", short="St. Hedwig", zips="78152", state="TX",
+   towns=["St. Hedwig"], img="house10", nearby=["converse","ne-san-antonio","schertz-cibolo-selma"],
+   geo="St. Hedwig is the rural stretch east of Converse along FM 1346 and Loop 1604, with acreage homes, barns, workshops and long driveways. Roofs here run bigger, lower-pitched and more often metal than in the subdivisions, and there are a lot of outbuildings that also take hail.",
+   storm="St. Hedwig was in the NWS warning area on September 11, 2026, on the southeast side of the hail core that sat over Kirby and Converse. Quarter to golf-ball hail with 60 mph gusts was reported across the area, along with heavy rain.",
+   roofs="On St. Hedwig properties we inspect the house, the barn, the shop and the well house in one visit. Metal roofs are checked for seam damage and fastener back-out; shingle roofs for bruising and wind lift on the open, exposed sides.",
+   faq=[("Do you come out to St. Hedwig for a free inspection?","Yes. 78152 is fifteen minutes from our base in Converse and we schedule St. Hedwig inspections every week."),
+        ("Can you inspect my barn and shop roofs too?","Yes, and we document them separately so each structure has its own written estimate."),
+        ("Do you repair metal roofs in St. Hedwig?","Yes. Panel replacement, seam repair, fastener replacement and full metal re-roofs.")]),
+ dict(slug="ne-san-antonio", name="Northeast San Antonio", short="northeast San Antonio", zips="78218, 78219, 78239, 78244, 78247", state="TX",
+   towns=["San Antonio (NE side)","Alamo Heights","Terrell Hills"], img="house8", nearby=["kirby-windcrest","converse","universal-city-live-oak"],
+   geo="The northeast side of San Antonio covers everything from Alamo Heights and Terrell Hills out along I-35 and I-10 East to Loop 1604: Camelot, Northeast Crossing, El Dorado, Woodlake and the neighborhoods around Rolling Oaks. A wide range of roof ages, from 1950s homes inside Loop 410 to 2020s builds near 1604.",
+   storm="The September 11, 2026 NWS warnings listed San Antonio, Alamo Heights, Terrell Hills, Olmos Park and the northeast side as impacted, with golf-ball hail near Kirby stepping down to quarter and nickel size as the storm moved southwest toward China Grove and Stinson Airport. CPS Energy reported more than 8,000 customers without power citywide, most on the east side.",
+   roofs="Inside Loop 410 the roofs skew older and more varied: tile, low-slope, and multi-layer shingle roofs that need careful inspection. Out toward 1604 it's the same architectural shingles as Converse, with the same bruising pattern on north- and east-facing slopes.",
+   faq=[("Which San Antonio zip codes do you cover?","Anything on the northeast side: 78218, 78219, 78239, 78244, 78247 and the neighborhoods around them. If you're inside Loop 1604 east of US 281, we come out."),
+        ("Do you work on tile and flat roofs in Alamo Heights and Terrell Hills?","Yes. Tile repair, low-slope membrane repair and full replacements."),
+        ("Are you a San Antonio roofing company?","We're a Converse roofing company that serves the northeast side of San Antonio. Local, insured, with a written estimate before any work.")]),
+]
+AREA_BY_SLUG = {a["slug"]: a for a in AREAS}
+
+def area_page(a):
+    root = "../"
+    towns_h = " and ".join(a["towns"]) if len(a["towns"]) <= 2 else ", ".join(a["towns"][:-1]) + " and " + a["towns"][-1]
+    n = a["name"]; s = a["short"]
+    title = f"Roofer in {n}, TX | Roof Repair &amp; Hail Damage | Converse Roofer"
+    hero = page_hero(f"Roofer in {n}, TX: hail damage roof repair &amp; roof replacement",
+        f"Local {s} roofing company for free roof inspections, hail damage roof repair, roof leak repair and full roof replacement. Serving {a['zips']} after the September 11 hail storm.",
+        root=root, imgkey=a["img"], crumbs=f'<a href="../index.html">Home</a> › <a href="index.html">Service Areas</a> › {n}')
+    nearby = "".join(f'<a href="{AREA_BY_SLUG[x]["slug"]}.html" class="btn dark" style="margin:4px">{AREA_BY_SLUG[x]["name"]}</a>' for x in a["nearby"])
+    faq = "".join(f'<details{" open" if i==0 else ""}><summary>{q}</summary><p>{ans}</p></details>' for i,(q,ans) in enumerate(a["faq"]))
+    body = hero + f'''
+<section class="section"><div class="wrap split" style="align-items:start">
+  <div>
+    <span class="eyebrow">{n} roofing · {a['zips']}</span>
+    <h2>Looking for a roofer near you in {n}?</h2>
+    <p>{a['geo']}</p>
+    <p>Converse Roofer is the local roofing contractor {s} homeowners call after a storm: free roof inspections with a dated photo report, hail damage roof repair, roof leak and emergency roof repair, and full roof replacement with architectural, Class 4 impact-resistant or metal roofing. Every {n} roof repair or replacement comes with a written estimate before you sign anything.</p>
+    <ul class="checks">
+      <li>Free roof inspection anywhere in {a['zips']}, usually within a day</li>
+      <li>Hail damage roof repair and storm damage documentation you can share with your insurer</li>
+      <li>Roof replacement in {n} with a written scope: tear-off, decking, underlayment, flashing, ventilation</li>
+      <li>Emergency roof repair and same-day tarping for active leaks</li>
+    </ul>
+    <a class="btn primary lg" href="{TEL}">📞 Call {PHONE}</a>
+  </div>
+  <div>{lead_form(root=root, compact=True, title=f"Free roof inspection in {n}", sub=f"Tell us the address and a Converse Roofer inspector will check the roof, photograph any hail damage, and give you a straight answer on repair versus replacement.")}</div>
+</div></section>
+
+<section class="section alt"><div class="wrap"><article class="article">
+  <span class="eyebrow">September 11, 2026 hail storm</span>
+  <h2>What the storm did to roofs in {n}</h2>
+  <p>{a['storm']}</p>
+  {dia("storm-track-map", f"Where the NWS warnings placed the hail core relative to {n}. Schematic based on the warning text.", root=root)}
+  <h3>What we see on {n} roofs</h3>
+  <p>{a['roofs']}</p>
+  {dia("where-hail-hides", "What a Converse Roofer inspector checks on every visit, and what you can check from the ground.", root=root)}
+  <p>Read the <a href="../hail-storm-september-11-2026.html">full September 11 storm report</a> or the <a href="../blog/9-signs-your-roof-took-hail-damage.html">nine ground-level signs of hail damage</a>.</p>
+</article></div></section>
+
+<section class="section"><div class="wrap">
+  <span class="eyebrow">{n} roofing services</span>
+  <h2>Roof repair, roof replacement and storm roofing in {n}, TX</h2>
+  <div class="grid c3" style="margin-top:24px">
+    <div class="card"><div class="img">{img('roofer1', root=root)}</div><div class="body"><h3>Free roof inspection in {n}</h3><p>Slope-by-slope photo report, hit counts, collateral damage on vents, gutters and screens, and a written estimate. Yours to keep whether or not you hire us.</p><a class="more" href="../contact.html">Book an inspection →</a></div></div>
+    <div class="card"><div class="img">{img('roof1', root=root)}</div><div class="body"><h3>Hail damage roof repair {n}</h3><p>Bruised shingles, cracked pipe boots, dented vents, lifted ridge cap and leaking flashing, repaired properly and documented for your insurance company.</p><a class="more" href="../blog/what-golf-ball-hail-does-to-a-shingle-roof.html">What hail does to a roof →</a></div></div>
+    <div class="card"><div class="img">{img('roof2', root=root)}</div><div class="body"><h3>Roof replacement {n}</h3><p>Full tear-off and re-roof with architectural shingles, Class 4 impact-resistant shingles or standing-seam metal. Decking, ice-and-water, drip edge, ridge vent, magnet sweep.</p><a class="more" href="../gallery.html">See our work →</a></div></div>
+  </div>
+  {strip([("house4","Architectural shingle re-roof"),("crew","Tear-off crew on site"),("house9","Composition roof replacement"),("gutter","New drip edge and gutters")], root=root)}
+</div></section>
+
+<section class="section alt"><div class="wrap split">
+  <div>{dia("service-area-map", root=root)}</div>
+  <div>
+    <span class="eyebrow">Why {s} homeowners call us</span>
+    <h2>A Converse roofing company, not a storm-chasing crew</h2>
+    <ul class="checks">
+      <li>Based in Converse, minutes from {towns_h}. Same number after the out-of-town trucks leave.</li>
+      <li>Insured, and we'll send the certificate before we set foot on your roof.</li>
+      <li>Written estimate before you sign. You pay your deductible, we never touch it.</li>
+      <li>Photo-documented inspections you can share with any insurance company.</li>
+    </ul>
+    <p><strong>Nearby areas:</strong></p>
+    <div>{nearby}</div>
+  </div>
+</div></section>
+
+<section class="section"><div class="wrap narrow faq">
+  <span class="eyebrow">{n} roofing FAQ</span>
+  <h2>Questions from {s} homeowners</h2>
+  {faq}
+  <details><summary>Can you cover my deductible?</summary><p>No. It's been illegal for Texas roofers since 2019, and your insurer can require proof you paid it. We'll help you understand it up front so there are no surprises.</p></details>
+</div></section>'''
+    schema = f'''<script type="application/ld+json">{{"@context":"https://schema.org","@type":"Service","serviceType":"Roofing","name":"Roof repair and roof replacement in {html.unescape(n)}, TX","provider":{{"@type":"RoofingContractor","name":"{BRAND}","telephone":"+1-{PHONE}","url":"{DOMAIN}/"}},"areaServed":{json.dumps([{"@type":"City","name":t} for t in a["towns"]])},"url":"{DOMAIN}/areas/{a['slug']}.html"}}</script>
+<script type="application/ld+json">{{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{{"@type":"ListItem","position":1,"name":"Home","item":"{DOMAIN}/"}},{{"@type":"ListItem","position":2,"name":"Service Areas","item":"{DOMAIN}/areas/"}},{{"@type":"ListItem","position":3,"name":"{html.unescape(n)}","item":"{DOMAIN}/areas/{a['slug']}.html"}}]}}</script>
+<script type="application/ld+json">{{"@context":"https://schema.org","@type":"FAQPage","mainEntity":{json.dumps([{"@type":"Question","name":html.unescape(q),"acceptedAnswer":{"@type":"Answer","text":html.unescape(ans)}} for q,ans in a["faq"]])}}}</script>'''
+    desc = f"{html.unescape(n)} roofer for hail damage roof repair, roof replacement, roof leak and emergency roof repair. Free roof inspections in {a['zips']} after the September 11, 2026 hail storm. Call {PHONE}."
+    write(f"areas/{a['slug']}.html", layout(html.unescape(title), desc, body, root=root, active="areas/index.html", canonical=f"areas/{a['slug']}.html", schema=schema))
+
+for a in AREAS: area_page(a)
+
+areas_cards = "".join(f'''<div class="card"><div class="img"><a href="{a['slug']}.html">{img(a['img'], root='../', w=800)}</a></div><div class="body"><div class="meta">{a['zips']}</div><h3><a href="{a['slug']}.html" style="color:inherit;text-decoration:none">Roofer in {a['name']}, TX</a></h3><p>Free roof inspections, hail damage roof repair and roof replacement for {a['short']} homeowners.</p><a class="more" href="{a['slug']}.html">{a['name']} roofing →</a></div></div>''' for a in AREAS)
+areas_index = page_hero("Service Areas: Roofing Across Converse &amp; Northeast San Antonio", "Free roof inspections, hail damage roof repair and roof replacement in Converse, Kirby, Windcrest, Universal City, Live Oak, Schertz, Cibolo, Selma, St. Hedwig and the northeast side of San Antonio.", root="../", imgkey="house2", crumbs='<a href="../index.html">Home</a> › Service Areas') + f'''
+<section class="section"><div class="wrap"><div class="grid c3">{areas_cards}</div></div></section>
+<section class="section alt"><div class="wrap split"><div>{dia("service-area-map", root="../")}</div><div><span class="eyebrow">One local crew</span><h2>Everything inside about fifteen minutes of Converse</h2><p>We stay close on purpose. Every town on this page is a short drive from our base in Converse, which is how we do same-day inspections and how we're still around when you need us years later.</p><a class="btn primary lg" href="{TEL}">📞 Call {PHONE}</a></div></div></section>'''
+write("areas/index.html", layout("Service Areas | Roofing in Converse, Kirby, Schertz, Universal City & NE San Antonio | Converse Roofer",
+  "Converse Roofer serves Converse, Kirby, Windcrest, Universal City, Live Oak, Schertz, Cibolo, Selma, St. Hedwig and northeast San Antonio with free roof inspections and hail damage roof repair.", areas_index, root="../", active="areas/index.html", canonical="areas/"))
+
 # ---------------- sitemap, robots, 404 ----------------
-urls = ["", "hail-storm-september-11-2026.html","weather.html","gallery.html","about.html","contact.html","blog/"] + [f"blog/{p['slug']}.html" for p in posts]
+urls = ["", "hail-storm-september-11-2026.html","weather.html","gallery.html","about.html","contact.html","blog/","areas/"] + [f"blog/{p['slug']}.html" for p in posts] + [f"areas/{a['slug']}.html" for a in AREAS]
 write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "".join(f"  <url><loc>{DOMAIN}/{u}</loc><lastmod>2026-09-16</lastmod></url>\n" for u in urls) + "</urlset>\n")
 write("robots.txt", f"User-agent: *\nAllow: /\nSitemap: {DOMAIN}/sitemap.xml\n")
 write("404.html", layout("Page not found | Converse Roofer", "That page doesn't exist.", f'<section class="section"><div class="wrap narrow" style="text-align:center;padding:60px 20px"><h1>Page not found</h1><p class="lead">That link is broken or the page moved. Try the home page, or just call us.</p><a class="btn primary lg" href="{TEL}">📞 {PHONE}</a> <a class="btn dark lg" href="index.html">Home</a></div></section>', canonical="404.html", storm_bar=False))
