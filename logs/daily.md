@@ -2,7 +2,82 @@
 
 One line per run: date | threads scanned | logged | unmatched | skipped as noise
 
-2026-09-15 | 249 threads scanned | 171 logged | 54 unmatched | 14 skipped as noise, 8 skipped as duplicate
+2026-09-16 | 263 threads scanned | 188 logged | 43 unmatched | 24 skipped as noise, 16 skipped as duplicate
+
+Highest-volume run to date. Discovery paginated through 263 unique Gmail threads matching
+`newer_than:1d` (six pages of 50); ~20 were dropped up front as plain automated noise (Deluxe/
+Chase/OnStar/GMC marketing, a Verisk OTP email, Google Maps contribution thanks, three Send.co
+"new view" alerts, six `support@app.iink.com` job/approval notifications with no real dialogue,
+two pure Allstate auto-ack/undeliverable stubs, two State Farm/Progressive autoreplies, and one
+internal "inspection reminders did not go out" system alert to Joseph himself). The remaining 243
+threads were fanned out to 41 `sonnet` subagents (~6 threads each, dispatched concurrently; the
+session's 20-concurrent-subagent cap was hit on first dispatch for one batch, which was retried
+once a slot freed and completed normally).
+
+Unmatched insureds named in email with no card on the Insured Appraisals board:
+- Billy Thomas (no claim #, ref via Lawgical/Wynn thread)
+- Nelvyn Minter, Claim #1209034
+- Max Holthaus, 2010 Ridgeview Rd, Salina KS — still open from prior runs
+- 3847 Port Royal Dr, Dallas TX (GAF QuickMeasure forward, no insured name)
+- Veeramuthu Balakrishnan, claim 061862649-01
+- Alina Oslobodyanyuk/Valerii Naida, claim HO-2025-573928484
+- Devangi (surname not given), claim 060629198
+- Mildred Davis, claim 0817538218 — still open from 2026-09-15
+- Margaret Grant(?), claim 01-009-473140 — a "Margaret Grant" gap was also flagged 2026-09-05
+- Curtis and Jamie Shakotko, claim 01-009-856585
+- Hitarth Trivedi, claim JFE8094 — recurred across 3 separate threads this run
+- Vijaya Bandi, claim 1601394-264402
+- Billy Thomas, claim 0819148271, N Richland Hills TX
+- Sailaja Mahendrakar & Bharath, claim 0820685766
+- Oleksii (surname unknown), claim 01-009-376909
+- "Mary J" insured, Kansas, State Farm wear-and-tear denial
+- Johanna Aguirre Strauss, Allstate claim 0832455752
+- Sapna Narendra, claim 060801867-01
+- Kalyan Parajuli, claim 01009528773 (AFICS/Homesite)
+- Attorney Michael P. Bowman's client (insured not named in thread)
+- Manish P. Ganatra, National General ref 260837392
+- Ofelia Bernal, claim 0827947599 — two ambiguous "Bernal" cards on the board, neither matches
+- Mongeau v. State Farm (no claim # given)
+- New Pilgrim Rest Baptist Church, claim 0694377 (Brotherhood Mutual, commercial)
+- Tarak Railkar & Anagha Railkar, claim 170529AB-001
+- Allstate claim 000834698317 — insured never named in thread, recurring gap
+- Sheldrake (real attorney correspondence, no card found under that name — needs a human to confirm the right card)
+- Matt Riehs / Hackberry Ranchettes Lot 1 & 2, Salado TX (fence estimate, no claim #)
+- Claim 5043827229-1, Foremost Insurance — recurring gap since 2026-09-09
+- "Brackett" check inquiry, contractor AH Exteriors Co — recurring gap since 2026-09-05
+- John Dye v. State Farm
+- Jett Baker, file JDM1543, Wynn Corps LLC — recurred across 2 threads; still no matching card
+- MRIDA Realty LLC / Ajay Jain, claim 196263AB — recurring gap since 2026-09-15
+- Richard "Rong" Dai, 7 Kansas rental properties bundled in one status-check email (ambiguous across multiple existing Dai cards) + Christopher & Lisa Sirridge — recurring ambiguity, needs Joseph to disambiguate
+- Daniel Tucker / RoofingNearMeGC, homeowner referred to only as "Sean" (no surname)
+- Solomon & April Griffin, claim 033932-GR — recurring gap since 2026-09-05
+- Lakeland West Capital LLC, claim KY26K2203157 (TDI complaint correspondence)
+- Somya Roy, contractor Patrick Davis
+- Satir, Vault Insurance claim 26PRTX899373228
+- Griebel (Marissa), Allied Trust claim 2610333 — recurring gap since 2026-09-15
+- Bruce Pettengill, claim 0834459380, Allstate — recurred across 2 threads
+- Daniel Romero, Claim No. 2512794 (named in a Lawgical Firm bulk status update, but that claim # actually belongs to Miriam Cruz Zamora — looks like a copy/paste error in the source email, flagging rather than guessing)
+- Claim 43-99M7-92V, State Farm — insured never named in thread
+
+Resolved since 2026-09-15: Yen-Thi Kim Nguyen, John Surgeon, and Alonzo Haynes (all repeat
+flags from 2026-08-15 onward) did not resurface as gaps this run.
+
+Data-quality notes for Joseph to spot-check:
+- Duplicate "📋 Chain of Events" checklists (two checklists with the same name on one card) were
+  found on at least 10 cards this run: Praveen Mandali, KISHORE BULUSU & ANUPAMA MANTHA, Jin Baik
+  (three checklists, not two), Chad Raymond, RAVI BHASIN, RAMON VILLAGOMEZ, HERNANDO VELASQUEZ,
+  Mike Russell, GEORGE & SANDRA MAHLER TEER, and Joe Sanchez. In every case the subagent logged to
+  the checklist with the most existing items and left the other untouched, per instructions — these
+  are worth merging by hand.
+- The Brenda Cealfarhi and (per a 2026-09-05 note) some older cards carry a checklist literally
+  named "📧 Email log" instead of "📋 Chain of Events" — a second naming convention still lingers on
+  the board from before this run's standard was set.
+- A contractor (Texco Roofing, on the Karen Thiesse file) asked Joseph's office directly to
+  "inflate" a new estimate if one had to be prepared. This was not written to the card — the
+  existing log entry there already uses sanitized wording — but Joseph should be aware of the ask.
+- One subagent reported observing other checklist items appearing on the Rudy Mejia Jr. and Ramon
+  Villagomez cards mid-run that it did not write itself — consistent with multiple concurrent
+  subagents in this run legitimately converging on the same high-traffic cards, not an error.
 
 Unmatched insureds named in email with no card on the Insured Appraisals board:
 - Suzanne Ramos (State Farm 43-0K2L-462)
