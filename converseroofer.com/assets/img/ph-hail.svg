@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#16294a"/><stop offset="1" stop-color="#5aa9e6" stop-opacity=".55"/></linearGradient></defs>
+<rect width="400" height="300" fill="url(#g)"/>
+<g transform="translate(100 40)" fill="none" stroke="#5aa9e6" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><path d="M70 70 a14 14 0 1 0 0.1 0 M120 85 a11 11 0 1 0 0.1 0 M95 130 a9 9 0 1 0 0.1 0 M140 130 a7 7 0 1 0 0.1 0"/></g>
+<text x="200" y="272" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700" fill="#ffffff" opacity=".85">CONVERSE ROOFER · HAIL</text>
+</svg>

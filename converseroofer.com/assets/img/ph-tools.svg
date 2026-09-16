@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f1f33"/><stop offset="1" stop-color="#f26a1b" stop-opacity=".55"/></linearGradient></defs>
+<rect width="400" height="300" fill="url(#g)"/>
+<g transform="translate(100 40)" fill="none" stroke="#f26a1b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><path d="M60 150 L130 80 M120 70 L140 90 M60 60 L100 100 M150 150 L110 110"/></g>
+<text x="200" y="272" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700" fill="#ffffff" opacity=".85">CONVERSE ROOFER · CREW</text>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f1f33"/><stop offset="1" stop-color="#2b8ccf" stop-opacity=".55"/></linearGradient></defs>
+<rect width="400" height="300" fill="url(#g)"/>
+<g transform="translate(100 40)" fill="none" stroke="#2b8ccf" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><path d="M40 120 L100 60 L160 120 Z M56 118 L56 150 L144 150 L144 118"/></g>
+<text x="200" y="272" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700" fill="#ffffff" opacity=".85">CONVERSE ROOFER · ROOF INSPECTION</text>
+</svg>

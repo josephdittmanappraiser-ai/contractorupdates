@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1626"/><stop offset="1" stop-color="#f26a1b" stop-opacity=".55"/></linearGradient></defs>
+<rect width="400" height="300" fill="url(#g)"/>
+<g transform="translate(100 40)" fill="none" stroke="#f26a1b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><path d="M60 105 a25 25 0 0 1 48 -8 a20 20 0 0 1 38 8 a14 14 0 0 1 -2 28 L62 133 a14 14 0 0 1 -2 -28 Z M105 135 L92 165 L108 160 L98 185"/></g>
+<text x="200" y="272" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700" fill="#ffffff" opacity=".85">CONVERSE ROOFER · STORM</text>
+</svg>
