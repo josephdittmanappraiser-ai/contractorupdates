@@ -62,11 +62,15 @@
           fail('Something went wrong sending the form. Please call or text ' + (cfg.phone||'us') + '.');
         });
       } else {
-        // No endpoint configured: open an email draft with the lead details.
-        var body = Object.keys(data).map(function(k){ return k + ': ' + data[k]; }).join('\n');
-        var to = cfg.leadEmail || '';
-        window.location.href = 'mailto:' + to + '?subject=' + encodeURIComponent('Free roof inspection request — ' + (data.name||'')) + '&body=' + encodeURIComponent(body);
-        ok('Thanks — your email app should open with the details. If it did not, call or text ' + (cfg.phone||'us') + '.');
+        // No endpoint configured: hand the lead off as an email draft (if leadEmail is set) or a prefilled text message.
+        var body = ['Free roof inspection request'].concat(['name','phone','address','storm','insurance_contacted','notes'].filter(function(k){ return data[k]; }).map(function(k){ return k + ': ' + data[k]; })).join('\n');
+        if (cfg.leadEmail) {
+          window.location.href = 'mailto:' + cfg.leadEmail + '?subject=' + encodeURIComponent('Free roof inspection request — ' + (data.name||'')) + '&body=' + encodeURIComponent(body);
+          ok('Thanks — your email app should open with the details. If it did not, call or text ' + (cfg.phone||'us') + '.');
+        } else {
+          window.location.href = (cfg.smsHref || 'sms:') + '?&body=' + encodeURIComponent(body);
+          ok('Thanks — your messaging app should open with the details ready to send to ' + (cfg.phone||'us') + '. If it did not, just call or text that number.');
+        }
       }
     });
   });
