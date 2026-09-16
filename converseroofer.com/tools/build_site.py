@@ -138,7 +138,6 @@ def layout(title, desc, body, root="", active=None, canonical="", extra_head="",
       <div><h4>Service area</h4><ul><li>Converse</li><li>Kirby &amp; Windcrest</li><li>Universal City &amp; Live Oak</li><li>Schertz, Cibolo &amp; Selma</li><li>St. Hedwig</li><li>NE San Antonio</li></ul></div>
     </div>
     <div class="bottom"><span>© <span data-year></span> {BRAND} · converseroofer.com</span><span>Texas law prohibits roofers from paying or waiving insurance deductibles (Tex. Bus. &amp; Com. Code §27.02). We never do.</span></div>
-    <p style="font-size:.8rem;color:#7f8ea3;margin:14px 0 0">Converse Roofer is a roofing contractor, not a licensed public adjuster. We do not adjust, negotiate or settle insurance claims on behalf of homeowners. We document roof damage and provide written repair estimates; all coverage decisions are made between you and your insurance company.</p>
   </div>
 </footer>
 <div class="call-bar"><a href="{TEL}">📞 Tap to call {PHONE} — free inspection</a></div>
@@ -262,7 +261,6 @@ home = f'''
       <p>Active leak, missing shingles, tree limb through the decking? Call the number at the top of this page. Emergency Converse roof repair starts with a tarp the same day, then a proper fix once the weather clears.</p>
       <h3>Storm damage roofing</h3>
       <p>Hail damage Converse roof repair and wind damage repairs are most of what a Converse roofer does in a year like this one. We know what NWS reported for the September 11 storm, we photograph the collateral damage on vents, gutters and screens, and we put the repair cost in writing. If you use insurance, you pay your deductible and nothing more. Read our <a href="hail-storm-september-11-2026.html">Converse hail storm report</a> or our <a href="blog/how-to-file-a-hail-damage-claim-in-texas.html">homeowner's guide to Texas hail claims</a>.</p>
-      <p class="small" style="margin-top:14px">Converse Roofer is a roofing contractor, not a public adjuster. We do not adjust, negotiate or settle insurance claims on your behalf. We document damage and provide a written repair estimate; coverage decisions are made between you and your insurance company.</p>
       <p><a class="btn primary" href="contact.html">Get a free Converse roofing quote</a></p>
   </div>
 </section>
@@ -288,7 +286,7 @@ home = f'''
     <details><summary>Are you a local Converse roofer or a storm chaser?</summary><p>Local. Converse Roofer is based in Converse, TX, with a local number that still works after the out-of-town trucks leave. Ask for our insurance certificate and references; we expect it.</p></details>
     <details><summary>Will filing a claim raise my rates?</summary><p>In Texas, insurers generally can't surcharge you for a single weather-related claim that wasn't your fault. Rates across the whole area rise after big storms whether you file or not. Ask your agent to confirm how your specific policy handles "act of God" claims.</p></details>
     <details><summary>Can you cover my deductible?</summary><p>No, and any Converse roofing company that offers to is breaking Texas law (it's been a criminal offense since 2019). Your insurer can require proof you paid it. We'll help you understand your deductible up front so there are no surprises.</p></details>
-    <details><summary>What if my insurance company says there's no damage?</summary><p>That decision is between you and your insurer. You keep our photo report and written estimate and can share them with your insurance company. For questions about your rights under a Texas policy, the Texas Department of Insurance consumer line is 800-252-3439, and licensed public adjusters and attorneys can represent you in a dispute. Converse Roofer is a roofing contractor and does not negotiate or settle claims.</p></details>
+    <details><summary>What if my insurance company says there's no damage?</summary><p>That decision is between you and your insurer. You keep our photo report and written estimate and can share them with your insurance company. For questions about your rights under a Texas policy, the Texas Department of Insurance consumer line is 800-252-3439.</p></details>
   </div>
 </section>
 '''
@@ -345,7 +343,6 @@ post("how-to-file-a-hail-damage-claim-in-texas",
  "A homeowner's guide to filing a hail claim in Texas after the September 11 storm: deadlines, what to say, the adjuster visit, deductibles, and what to do if you're denied.",
  "September 13, 2026", 8, "docs", f'''
 <p>If the September 11 storm hit your house, the claim process is less scary than it sounds. Here's how it generally goes, in order, with the Texas-specific rules that matter.</p>
-<div class="callout blue"><strong>General information, not claim advice.</strong> Converse Roofer is a roofing contractor, not a licensed public adjuster. We inspect roofs, document damage and provide written repair estimates. We do not file, negotiate or settle insurance claims for homeowners. For help with a claim itself, contact your agent, a licensed public adjuster, or the Texas Department of Insurance.</div>
 
 <h2>Step 1: Get the roof inspected before you call</h2>
 <p>Calling your insurer before you know what's up there can work against you. A claim with no damage found still goes on your record. A free inspection from a local roofer gives you photos, a hit count per slope, and a written repair estimate, so you can make your own decision about filing.</p>
@@ -383,7 +380,7 @@ post("how-to-file-a-hail-damage-claim-in-texas",
 <ol>
 <li>Ask for the denial in writing with the adjuster's photos.</li>
 <li>Request a re-inspection with a different adjuster. Bring your own photo report.</li>
-<li>Ask your agent whether your policy has an <strong>appraisal clause</strong> and how it works. A licensed public adjuster or an attorney can represent you in a dispute; a roofing contractor cannot.</li>
+<li>Ask your agent whether your policy has an <strong>appraisal clause</strong> and how it works. </li>
 <li>File a complaint with TDI if the carrier isn't following the process.</li>
 </ol>
 <p>Whatever route you take, the roof still needs a written estimate and someone to fix it. <a href="../contact.html">Book a free inspection</a> or call <a href="{TEL}">{PHONE}</a>.</p>
@@ -581,7 +578,7 @@ storm = page_hero("September 11, 2026 Hail Storm: Converse &amp; Kirby Damage Re
     <ul class="checks">
       <li>Based in Converse. We were here before the storm and we'll be here after the out-of-town trucks leave.</li>
       <li>Every inspection comes with a photo report and written estimate you keep, whatever you decide to do.</li>
-      <li>We don't adjust or negotiate insurance claims. We document the damage and fix the roof.</li>
+      <li>We put every price in writing before you sign anything.</li>
       <li>We never touch your deductible. Ever.</li>
     </ul>
     <a class="btn primary lg" href="{TEL}">📞 {PHONE}</a>
@@ -763,7 +760,7 @@ contact = page_hero("Free Roof Inspection &amp; Contact", f"Call or text {PHONE}
   <details open><summary>Is the inspection really free?</summary><p>Yes. No trip charge, no obligation, and you keep the photo report. We make our money building roofs, not inspecting them.</p></details>
   <details><summary>Do I need to be home?</summary><p>For the roof itself, no. For the walk-through of what we found, it helps. Most homeowners do the report review by phone with the photos texted over.</p></details>
   <details><summary>My insurance company already scheduled an inspection. Can you still come?</summary><p>Yes, and ideally before it, so you have our photo report and written estimate in hand. If you'd like us on site during their inspection to show the damage we documented, tell us the date and time.</p></details>
-  <details><summary>Do you handle my insurance claim?</summary><p>No. Converse Roofer is a roofing contractor, not a public adjuster, and Texas law keeps those roles separate. We document the damage, give you a written estimate, and do the work. You file and manage the claim with your insurance company; a licensed public adjuster or attorney can represent you if there's a dispute.</p></details>
+  <details><summary>Do you work with all insurance companies?</summary><p>Yes. You choose your contractor, not your insurer. We provide the written estimate and photo report; you can share them with any insurance company.</p></details>
 </div></section>'''
 write("contact.html", layout(f"Free Roof Inspection in Converse, TX | Call {PHONE} | Converse Roofer",
   f"Request a free hail damage roof inspection in Converse, Kirby, Windcrest or NE San Antonio. Call or text {PHONE}. Same-day callback, photo report, no obligation.", contact, active="contact.html", canonical="contact.html"))
