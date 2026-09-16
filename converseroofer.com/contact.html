@@ -48,7 +48,7 @@
   <div>
 <div class="lead-card">
   <h3>Get Your Free Roof Inspection</h3>
-  <p class="sub">No cost, no pressure. We'll look at your roof, photograph any hail damage, and tell you honestly whether you have a claim.</p>
+  <p class="sub">No cost, no pressure. We'll look at your roof, photograph any hail damage, and tell you honestly what it needs.</p>
   <form class="form" data-lead novalidate>
     <div class="row">
       <div><label for="f-name">Name</label><input id="f-name" name="name" required autocomplete="name" placeholder="Your name"></div>
@@ -58,8 +58,8 @@
     <div class="row">
       <div><label for="f-storm">Were you hit by the 9/11 hail storm?</label>
         <select id="f-storm" name="storm"><option>Yes — Sept 11, 2026 storm</option><option>Not sure</option><option>Different storm / date</option><option>No storm — repair or replacement quote</option></select></div>
-      <div><label for="f-claim">Insurance claim status</label>
-        <select id="f-claim" name="claim"><option>Haven't filed yet</option><option>Filed, waiting on adjuster</option><option>Adjuster came out</option><option>Claim was denied / underpaid</option><option>Paying out of pocket</option></select></div>
+      <div><label for="f-claim">Have you contacted your insurance company?</label>
+        <select id="f-claim" name="insurance_contacted"><option>Not yet</option><option>Yes, waiting on their inspection</option><option>Yes, their adjuster already came out</option><option>Not using insurance</option></select></div>
     </div>
     <div><label for="f-notes">Anything we should know?</label><textarea id="f-notes" name="notes" rows="3" placeholder="Leaks, missing shingles, dents on gutters or AC unit, best time to call…"></textarea></div>
     <div class="hp"><label>Leave blank<input name="company" tabindex="-1" autocomplete="off"></label></div>
@@ -78,7 +78,7 @@
     <div class="steps" style="grid-template-columns:1fr;gap:12px">
       <div class="step"><h3 style="font-size:1.05rem">We call you back the same day</h3><p>Usually within the hour during business hours. We'll ask about the storm date, what you've noticed, and your insurance situation.</p></div>
       <div class="step"><h3 style="font-size:1.05rem">Roof inspection within 1–2 days</h3><p>About 45 minutes. We get on the roof, photograph every slope, and check gutters, vents, screens and the AC unit.</p></div>
-      <div class="step"><h3 style="font-size:1.05rem">You get the honest answer</h3><p>Damage or no damage, claim-worthy or not, with the photos to back it up. What you do next is up to you.</p></div>
+      <div class="step"><h3 style="font-size:1.05rem">You get the honest answer</h3><p>Damage or no damage, with the photos and a written estimate to back it up. What you do next is up to you.</p></div>
     </div>
     <h3 style="margin-top:28px">Service area</h3>
     <div class="areas"><span>Converse</span><span>Kirby</span><span>Windcrest</span><span>Universal City</span><span>Live Oak</span><span>Schertz</span><span>Cibolo</span><span>Selma</span><span>St. Hedwig</span><span>NE San Antonio</span></div>
@@ -88,8 +88,8 @@
   <h2>Before you call</h2>
   <details open><summary>Is the inspection really free?</summary><p>Yes. No trip charge, no obligation, and you keep the photo report. We make our money building roofs, not inspecting them.</p></details>
   <details><summary>Do I need to be home?</summary><p>For the roof itself, no. For the walk-through of what we found, it helps. Most homeowners do the report review by phone with the photos texted over.</p></details>
-  <details><summary>I already have an adjuster appointment. Can you still come?</summary><p>Yes, and ideally before the appointment so we can meet the adjuster with our findings in hand. Tell us the date and time.</p></details>
-  <details><summary>Do you work with all insurance companies?</summary><p>Yes. You choose your contractor, not your insurer. We've worked claims with every major carrier writing in Bexar County.</p></details>
+  <details><summary>My insurance company already scheduled an inspection. Can you still come?</summary><p>Yes, and ideally before it, so you have our photo report and written estimate in hand. If you'd like us on site during their inspection to show the damage we documented, tell us the date and time.</p></details>
+  <details><summary>Do you handle my insurance claim?</summary><p>No. Converse Roofer is a roofing contractor, not a public adjuster, and Texas law keeps those roles separate. We document the damage, give you a written estimate, and do the work. You file and manage the claim with your insurance company; a licensed public adjuster or attorney can represent you if there's a dispute.</p></details>
 </div></section>
 </main>
 <section class="cta-band">
@@ -103,14 +103,15 @@
     <div class="cols">
       <div>
         <a class="brand" href="index.html" style="margin-bottom:12px"><img src="assets/img/logo.svg" alt="" width="40" height="40"><span>Converse Roofer</span></a>
-        <p>Local storm-damage roofing for Converse and the northeast side of San Antonio. Free hail inspections, insurance-claim help, repairs and full replacements.</p>
+        <p>Local storm-damage roofing for Converse and the northeast side of San Antonio. Free hail inspections, written estimates, repairs and full replacements.</p>
         <a class="phone" href="tel:+18325035866">832-503-5866</a><br><small>Call or text · 7 days a week</small>
       </div>
       <div><h4>Pages</h4><ul><li><a href="index.html">Home</a></li><li><a href="hail-storm-september-11-2026.html">9/11 Hail Storm</a></li><li><a href="weather.html">Weather</a></li><li><a href="gallery.html">Photos</a></li><li><a href="blog/index.html">Blog</a></li><li><a href="about.html">About Us</a></li><li><a href="contact.html">Contact</a></li></ul></div>
-      <div><h4>Services</h4><ul><li><a href="contact.html">Free hail inspections</a></li><li><a href="blog/how-to-file-a-hail-damage-claim-in-texas.html">Insurance claim help</a></li><li><a href="contact.html">Roof replacement</a></li><li><a href="contact.html">Roof repair &amp; leaks</a></li><li><a href="contact.html">Gutters &amp; emergency tarping</a></li></ul></div>
+      <div><h4>Services</h4><ul><li><a href="contact.html">Free hail inspections</a></li><li><a href="contact.html">Storm damage documentation</a></li><li><a href="contact.html">Roof replacement</a></li><li><a href="contact.html">Roof repair &amp; leaks</a></li><li><a href="contact.html">Gutters &amp; emergency tarping</a></li></ul></div>
       <div><h4>Service area</h4><ul><li>Converse</li><li>Kirby &amp; Windcrest</li><li>Universal City &amp; Live Oak</li><li>Schertz, Cibolo &amp; Selma</li><li>St. Hedwig</li><li>NE San Antonio</li></ul></div>
     </div>
     <div class="bottom"><span>© <span data-year></span> Converse Roofer · converseroofer.com</span><span>Texas law prohibits roofers from paying or waiving insurance deductibles (Tex. Bus. &amp; Com. Code §27.02). We never do.</span></div>
+    <p style="font-size:.8rem;color:#7f8ea3;margin:14px 0 0">Converse Roofer is a roofing contractor, not a licensed public adjuster. We do not adjust, negotiate or settle insurance claims on behalf of homeowners. We document roof damage and provide written repair estimates; all coverage decisions are made between you and your insurance company.</p>
   </div>
 </footer>
 <div class="call-bar"><a href="tel:+18325035866">📞 Tap to call 832-503-5866 — free inspection</a></div>
