@@ -47,7 +47,7 @@ def img(key, root="", cls="", w=1200, attrs=""):
         return '<img src="' + root + 'assets/img/' + key + '.svg" alt="' + html.escape(COVER_ALT[key]) + '" loading="lazy" ' + clsattr + ' ' + attrs + '>'
     pid, alt, fb = IMGS[key]
     clsattr = ('class="' + cls + '"') if cls else ""
-    fallback = root + "assets/img/ph-" + fb + ".svg"
+    fallback = root + "assets/img/scene-" + fb + ".svg"
     return ('<img src="https://images.unsplash.com/photo-' + pid + '?auto=format&fit=crop&w=' + str(w) + '&q=70" alt="' + html.escape(alt) + '" '
             'loading="lazy" ' + clsattr + ' ' + attrs + ' '
             "onerror=\"this.onerror=null;this.src='" + fallback + "'\">")
@@ -180,14 +180,14 @@ def page_hero(title, sub, root="", imgkey="storm2", crumbs=""):
     if imgkey.startswith("cover-"):
         bg = '<img class="bg" src="' + root + 'assets/img/' + imgkey + '.svg" alt="">'
     else:
-        bg = '<img class="bg" src="https://images.unsplash.com/photo-' + IMGS[imgkey][0] + '?auto=format&fit=crop&w=1800&q=60" alt="" onerror="this.onerror=null;this.src=\'' + root + 'assets/img/ph-bg.svg\'">'
+        bg = '<img class="bg" src="https://images.unsplash.com/photo-' + IMGS[imgkey][0] + '?auto=format&fit=crop&w=1800&q=60" alt="" onerror="this.onerror=null;this.src=\'' + root + 'assets/img/scene-bg.svg\'">'
     return f'''<section class="hero small">{bg}<div class="shade"></div>
 <div class="wrap"><div>{crumb_html}<h1>{title}</h1><p class="lead">{sub}</p></div></div></section>'''
 
 # ---------------- HOME ----------------
 home = f'''
 <section class="hero">
-  <img class="bg" src="https://images.unsplash.com/photo-{IMGS['hero'][0]}?auto=format&fit=crop&w=1800&q=60" alt="Converse roofing company completing a roof replacement on a brick home in Converse, TX" onerror="this.onerror=null;this.src='assets/img/ph-bg.svg'"><div class="shade"></div>
+  <img class="bg" src="https://images.unsplash.com/photo-{IMGS['hero'][0]}?auto=format&fit=crop&w=1800&q=60" alt="Converse roofing company completing a roof replacement on a brick home in Converse, TX" onerror="this.onerror=null;this.src='assets/img/scene-bg.svg'"><div class="shade"></div>
   <div class="wrap">
     <div>
       <span class="badge">Converse roofing · Storm response · Sept 11 hail</span>

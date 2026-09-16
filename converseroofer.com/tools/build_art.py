@@ -158,19 +158,19 @@ covers["cover-nine-signs"] = finish(s)
 covers["cover-class4"] = finish(shingle_field(None, shield=True))
 
 # ---- Fallback scenes ----
-s, _, _ = scene("day"); covers["ph-house"] = finish(neighborhood(s))
-s, _, _ = scene("hail"); s = neighborhood(s, roof="#141c2b", wall="#cfc3b0"); s += hail(seed=5, n=90, area=(0,0,W,600), rmin=7, rmax=18); covers["ph-hail"] = finish(s)
-s, _, _ = scene("storm"); s += lightning(880, 60, 420); s = neighborhood(s, roof="#141c2b", wall="#cfc3b0"); s += rain(); covers["ph-storm"] = finish(s)
-covers["ph-roof"] = finish(shingle_field(None))
+s, _, _ = scene("day"); covers["scene-house"] = finish(neighborhood(s))
+s, _, _ = scene("hail"); s = neighborhood(s, roof="#141c2b", wall="#cfc3b0"); s += hail(seed=5, n=90, area=(0,0,W,600), rmin=7, rmax=18); covers["scene-hail"] = finish(s)
+s, _, _ = scene("storm"); s += lightning(880, 60, 420); s = neighborhood(s, roof="#141c2b", wall="#cfc3b0"); s += rain(); covers["scene-storm"] = finish(s)
+covers["scene-roof"] = finish(shingle_field(None))
 s, _, _ = scene("day"); s = neighborhood(s)
 s += f'<g stroke="#8d6e4e" stroke-width="14" stroke-linecap="round"><line x1="820" y1="640" x2="700" y2="330"/><line x1="880" y1="640" x2="760" y2="330"/></g>'
 for i in range(7): t=i/6; s += f'<line x1="{820-120*t+2}" y1="{640-310*t}" x2="{880-120*t-2}" y2="{640-310*t}" stroke="#8d6e4e" stroke-width="10" stroke-linecap="round"/>'
 s += f'<g filter="url(#soft)"><rect x="150" y="560" width="170" height="80" rx="10" fill="#f26a1b"/><rect x="200" y="540" width="70" height="30" rx="8" fill="#0f1f33"/><rect x="170" y="590" width="130" height="8" rx="4" fill="#0f1f33" opacity=".3"/></g>'
-covers["ph-tools"] = finish(s)
+covers["scene-tools"] = finish(s)
 s, _, _ = scene("day"); s = neighborhood(s)
 s += f'<g filter="url(#soft)" transform="translate(960 330)"><path d="M0,-110 L88,-77 L88,0 Q88,74 0,110 Q-88,74 -88,0 L-88,-77 Z" fill="#1f9d55"/><path d="M-40,4 L-11,33 L44,-30" fill="none" stroke="#fff" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/></g>'
-covers["ph-shield"] = finish(s)
-s, _, _ = scene("dusk"); covers["ph-bg"] = finish(neighborhood(s, roof="#141c2b"))
+covers["scene-shield"] = finish(s)
+s, _, _ = scene("dusk"); covers["scene-bg"] = finish(neighborhood(s, roof="#141c2b"))
 
 for name, svg in covers.items():
     open(os.path.join(OUT, name + ".svg"), "w").write(svg)
