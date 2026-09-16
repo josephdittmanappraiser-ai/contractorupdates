@@ -158,17 +158,17 @@ def page_hero(title, sub, root="", imgkey="storm2", crumbs=""):
 # ---------------- HOME ----------------
 home = f'''
 <section class="hero">
-  <img class="bg" src="https://images.unsplash.com/photo-{IMGS['hero'][0]}?auto=format&fit=crop&w=1800&q=60" alt="" onerror="this.onerror=null;this.src='assets/img/ph-bg.svg'"><div class="shade"></div>
+  <img class="bg" src="https://images.unsplash.com/photo-{IMGS['hero'][0]}?auto=format&fit=crop&w=1800&q=60" alt="Converse roofing company completing a roof replacement on a brick home in Converse, TX" onerror="this.onerror=null;this.src='assets/img/ph-bg.svg'"><div class="shade"></div>
   <div class="wrap">
     <div>
-      <span class="badge">Storm response · Sept 11, 2026 hail</span>
-      <h1 style="margin-top:14px">Converse's hail-damage roofers. Free inspection, honest answer.</h1>
-      <p class="lead">Golf-ball hail hit Converse, Kirby and Windcrest on the night of September 11. If your roof is more than a few years old, there's a real chance it took damage you can't see from the ground. We'll check it for free and show you photos.</p>
-      <div class="cta"><a class="btn primary lg" href="{TEL}">📞 Call {PHONE}</a><a class="btn ghost lg" href="#inspection">Request Free Inspection</a></div>
-      <div class="trust"><span>Local to Converse</span><span>Insurance claim help</span><span>Photo-documented inspections</span><span>No deductible games</span></div>
+      <span class="badge">Converse roofing · Storm response · Sept 11 hail</span>
+      <h1 style="margin-top:14px">Converse Roofer: hail damage roof repair &amp; roof replacement in Converse, TX</h1>
+      <p class="lead">Converse Roofer is the local Converse roofing company homeowners call after a storm. Golf-ball hail hit Converse, Kirby and Windcrest on September 11. Whether you need Converse roof repair, a full roof replacement, or a free roof inspection to find out which, we'll get on the roof, photograph it, and give you a straight answer.</p>
+      <div class="cta"><a class="btn primary lg" href="{TEL}">📞 Call {PHONE}</a><a class="btn ghost lg" href="#inspection">Free Roof Inspection</a></div>
+      <div class="trust"><span>Local Converse roofing company</span><span>Free roof inspections</span><span>Insurance claim help</span><span>Emergency roof repair</span></div>
       <div class="wx-mini" id="wx-mini"><span class="ic">🌤️</span><div><span class="t">—</span><small>Loading live Converse weather…</small></div></div>
     </div>
-    <div id="inspection">{lead_form(compact=True)}</div>
+    <div id="inspection">{lead_form(compact=True, title="Free Roof Inspection in Converse, TX", sub="No cost, no pressure. A Converse roofer will check your roof, photograph any hail damage, and tell you honestly whether you need roof repair, roof replacement, or nothing at all.")}</div>
   </div>
 </section>
 
@@ -178,21 +178,24 @@ home = f'''
       <div class="stat"><b>1.75"+</b><span>Golf-ball hail confirmed over Kirby / Converse on 9/11</span></div>
       <div class="stat"><b>60 mph</b><span>Wind gusts in the NWS severe thunderstorm warning</span></div>
       <div class="stat"><b>8,000+</b><span>CPS Energy customers lost power that night</span></div>
-      <div class="stat"><b>$0</b><span>Cost of our roof inspection and photo report</span></div>
+      <div class="stat"><b>$0</b><span>Cost of a Converse Roofer inspection and photo report</span></div>
     </div>
-    <p class="small" style="text-align:center;margin-top:12px">Storm figures from NWS Austin/San Antonio warnings and KENS 5 / KSAT reporting. <a href="hail-storm-september-11-2026.html">Read the full storm report →</a></p>
+    <p class="small" style="text-align:center;margin-top:12px">Storm figures from NWS Austin/San Antonio warnings and KENS 5 / KSAT reporting. <a href="hail-storm-september-11-2026.html">Read the full Converse hail storm report →</a></p>
   </div>
 </section>
 
 <section class="section alt">
   <div class="wrap">
-    <span class="eyebrow">What we do</span>
-    <h2>Storm roofing, start to finish</h2>
-    <p class="lead" style="max-width:700px">One local crew handles the inspection, the insurance paperwork, and the build. You deal with one phone number the whole way.</p>
+    <span class="eyebrow">Converse roofing services</span>
+    <h2>Roof repair, roof replacement and storm damage roofing in Converse, TX</h2>
+    <p class="lead" style="max-width:760px">One local Converse roofing crew handles the inspection, the insurance paperwork, and the build. Converse roof repair for hail damage, roof leak repair, emergency roof repair and full roof replacement, all from one phone number.</p>
     <div class="grid c3" style="margin-top:28px">
-      <div class="card"><div class="img">{img('roofer1')}</div><div class="body"><h3>Free hail inspections</h3><p>We walk the roof, mark hail hits, check vents, gutters, screens and AC fins, and hand you a photo report you can keep whether or not you hire us.</p><a class="more" href="contact.html">Book an inspection →</a></div></div>
-      <div class="card"><div class="img">{img('docs')}</div><div class="body"><h3>Insurance claim help</h3><p>We meet your adjuster on the roof, point out every legitimate hit, and make sure the scope covers what a proper replacement actually costs.</p><a class="more" href="blog/how-to-file-a-hail-damage-claim-in-texas.html">How claims work →</a></div></div>
-      <div class="card"><div class="img">{img('roof2')}</div><div class="body"><h3>Repairs &amp; full replacement</h3><p>Architectural and Class 4 impact-resistant shingles, metal, flat roofs, decking, ventilation, gutters and emergency tarping.</p><a class="more" href="gallery.html">See our work →</a></div></div>
+      <div class="card"><div class="img">{img('roofer1')}</div><div class="body"><h3>Free roof inspection</h3><p>Searching "roof inspection near me" after the storm? A Converse Roofer inspector walks the roof, marks hail hits, checks vents, gutters, screens and AC fins, and hands you a photo report you keep whether or not you hire us for the Converse roof repair.</p><a class="more" href="contact.html">Book a free roof inspection →</a></div></div>
+      <div class="card"><div class="img">{img('roof1')}</div><div class="body"><h3>Hail damage roof repair</h3><p>Converse roof repair for bruised shingles, cracked vents, dented flashing and lifted ridge cap. We document every hit so your hail damage roof repair is covered by insurance, not out of pocket.</p><a class="more" href="blog/what-golf-ball-hail-does-to-a-shingle-roof.html">What hail does to a roof →</a></div></div>
+      <div class="card"><div class="img">{img('roof2')}</div><div class="body"><h3>Roof replacement in Converse, TX</h3><p>Full shingle roof replacement with architectural or Class 4 impact-resistant shingles, plus metal roofing. Tear-off, decking check, ice-and-water at valleys, new flashing, ridge vent and cleanup.</p><a class="more" href="gallery.html">See Converse roofing projects →</a></div></div>
+      <div class="card"><div class="img">{img('rain')}</div><div class="body"><h3>Roof leak &amp; emergency roof repair</h3><p>Water coming in tonight? Call for emergency Converse roof repair and we'll tarp it first, then trace the leak to its source: flashing, pipe boots, valleys or storm damage.</p><a class="more" href="{TEL}">Call {PHONE} now →</a></div></div>
+      <div class="card"><div class="img">{img('docs')}</div><div class="body"><h3>Insurance claim roofing</h3><p>Storm damage roof insurance claims are what we do all day. We meet your adjuster on the roof, point out every legitimate hit, and make sure the scope covers a proper Converse roof replacement.</p><a class="more" href="blog/how-to-file-a-hail-damage-claim-in-texas.html">How a Texas hail claim works →</a></div></div>
+      <div class="card"><div class="img">{img('gutter')}</div><div class="body"><h3>Gutters, metal &amp; more</h3><p>Seamless gutters, gutter guards, standing-seam metal roofing, skylights, ventilation and decking. From Converse roof repair to a new metal roof, if it's on a Converse home, Converse Roofer works on it.</p><a class="more" href="contact.html">Get a Converse roofing quote →</a></div></div>
     </div>
   </div>
 </section>
@@ -203,52 +206,69 @@ home = f'''
     <div>
       <span class="eyebrow">Why it matters now</span>
       <h2>Hail damage doesn't leak on day one. It leaks in February.</h2>
-      <p>A golf-ball hailstone hitting a shingle at 60+ mph knocks the protective granules loose and bruises the asphalt mat underneath. The roof looks fine from the driveway. Six months of Texas sun later, those bruises crack, and you get the leak in the middle of a cold front.</p>
+      <p>A golf-ball hailstone hitting a shingle at 60+ mph knocks the protective granules loose and bruises the asphalt mat underneath. The roof looks fine from the driveway. Six months of Texas sun later, those bruises crack, and the Converse roof repair you could have had insurance pay for becomes a leak you pay for yourself.</p>
       <ul class="checks">
         <li>Insurance policies have filing deadlines. Most Texas policies want the claim within a year of the storm, and some are shorter.</li>
         <li>Adjusters look for a pattern of fresh hits. The longer you wait, the harder the damage is to tie to the September 11 storm.</li>
-        <li>A free inspection now gives you a dated photo record either way.</li>
+        <li>A free roof inspection from a local Converse roofer gives you a dated photo record either way.</li>
       </ul>
-      <a class="btn primary" href="contact.html">Schedule My Free Inspection</a>
+      <a class="btn primary" href="contact.html">Schedule My Free Roof Inspection</a>
     </div>
   </div>
 </section>
 
 <section class="section dark">
   <div class="wrap">
-    <span class="eyebrow">How it works</span>
+    <span class="eyebrow">How Converse Roofer works</span>
     <h2>Four steps from "was that hail?" to a finished roof</h2>
     <div class="steps" style="margin-top:28px">
-      <div class="step"><h3>Free inspection</h3><p>We come out, get on the roof, and photograph everything. You get the report the same day.</p></div>
-      <div class="step"><h3>File the claim</h3><p>If there's real damage we help you open the claim with your carrier and schedule the adjuster.</p></div>
-      <div class="step"><h3>Meet the adjuster</h3><p>We're on the roof with them so nothing gets missed. We go over the scope line by line.</p></div>
-      <div class="step"><h3>Build it right</h3><p>Tear-off, decking check, ice-and-water at valleys, new flashing, ridge vent, cleanup with magnets.</p></div>
+      <div class="step"><h3>Free roof inspection</h3><p>A Converse roofer comes out, gets on the roof, and photographs everything. You get the report the same day.</p></div>
+      <div class="step"><h3>File the claim</h3><p>If there's real hail damage we help you open the claim with your carrier and schedule the adjuster.</p></div>
+      <div class="step"><h3>Meet the adjuster</h3><p>We're on the roof with them so nothing gets missed. We go over the Converse roof repair or replacement scope line by line.</p></div>
+      <div class="step"><h3>Build it right</h3><p>Tear-off, decking check, ice-and-water at valleys, new flashing, ridge vent, magnet sweep. Converse roofing done once, done right.</p></div>
     </div>
   </div>
 </section>
 
 <section class="section">
   <div class="wrap">
-    <span class="eyebrow">Recent work &amp; storm photos</span>
-    <h2>Roofs across Converse and NE San Antonio</h2>
+    <span class="eyebrow">Recent Converse roofing work &amp; storm photos</span>
+    <h2>Converse roof repair and roof replacement across the NE side of San Antonio</h2>
     <div class="gallery" style="margin-top:24px">
-      <figure>{img('house2',w=800)}<figcaption>Full replacement · Converse</figcaption></figure>
-      <figure>{img('roof1',w=800)}<figcaption>Hail-bruised shingles</figcaption></figure>
-      <figure>{img('house3',w=800)}<figcaption>Architectural shingles · Kirby</figcaption></figure>
-      <figure>{img('storm1',w=800)}<figcaption>Sept 11 storm cell</figcaption></figure>
-      <figure>{img('crew',w=800)}<figcaption>Our crew on a tear-off</figcaption></figure>
-      <figure>{img('house7',w=800)}<figcaption>Standing-seam metal · Schertz</figcaption></figure>
-      <figure>{img('hail2',w=800)}<figcaption>Hail and heavy rain</figcaption></figure>
-      <figure>{img('house5',w=800)}<figcaption>Class 4 shingles · Windcrest</figcaption></figure>
+      <figure>{img('house2',w=800)}<figcaption>Converse roof replacement · architectural shingles</figcaption></figure>
+      <figure>{img('roof1',w=800)}<figcaption>Hail-bruised shingles before Converse roof repair</figcaption></figure>
+      <figure>{img('house3',w=800)}<figcaption>Converse roofing · roof replacement in Kirby</figcaption></figure>
+      <figure>{img('storm1',w=800)}<figcaption>Sept 11 storm cell over Converse</figcaption></figure>
+      <figure>{img('crew',w=800)}<figcaption>Converse Roofer crew on a tear-off</figcaption></figure>
+      <figure>{img('house7',w=800)}<figcaption>Standing-seam metal roofing · Schertz</figcaption></figure>
+      <figure>{img('hail2',w=800)}<figcaption>Hail and heavy rain, Sept 11</figcaption></figure>
+      <figure>{img('house5',w=800)}<figcaption>Class 4 shingle roof replacement · Windcrest</figcaption></figure>
     </div>
-    <p style="text-align:center;margin-top:20px"><a class="btn dark" href="gallery.html">View the full photo gallery</a></p>
+    <p style="text-align:center;margin-top:20px"><a class="btn dark" href="gallery.html">View the full Converse roofing gallery</a></p>
   </div>
 </section>
 
 <section class="section alt">
+  <div class="wrap narrow">
+    <span class="eyebrow">Roofer near me · Converse, TX 78109</span>
+    <h2>Looking for a roofer near you in Converse?</h2>
+    <p>If you've been searching for a <strong>roofer near me</strong>, a <strong>roofing company in Converse, TX</strong>, or <strong>roof repair near me</strong> since the September 11 hail storm, here's the short version: Converse Roofer is a local Converse roofing contractor, not a storm-chasing crew from out of state. We do free roof inspections, hail damage roof repair, roof leak repair, emergency roof repair, and full roof replacement for homes in Converse, Kirby, Windcrest, Universal City, Live Oak, Schertz, Cibolo, Selma and St. Hedwig.</p>
+      <h3>Converse roof repair</h3>
+      <p>Not every hail-hit roof needs replacing. Converse roof repair covers bruised or cracked shingles on one slope, damaged pipe boots and vents, lifted ridge cap, and flashing that's letting water in. We tell you when a repair is the right call and when it isn't, and we put both in writing.</p>
+      <h3>Roof replacement in Converse, TX</h3>
+      <p>When the hit count in the adjuster's test squares says replacement, we handle the whole Converse roofing job: tear-off, decking, synthetic underlayment, ice-and-water shield, drip edge, starter, architectural or Class 4 impact-resistant shingles, ridge ventilation and a magnet sweep of the yard. Ask about the insurance discount for Class 4 shingles before you pick a product.</p>
+      <h3>Emergency roof repair and roof leak repair</h3>
+      <p>Active leak, missing shingles, tree limb through the decking? Call the number at the top of this page. Emergency Converse roof repair starts with a tarp the same day, then a proper fix once the weather clears.</p>
+      <h3>Storm damage roofing and insurance claims</h3>
+      <p>Hail damage Converse roof repair and wind damage claims are most of what a Converse roofer does in a year like this one. We know what NWS reported for the September 11 storm, we photograph the collateral damage adjusters look for, and we meet them on the roof. You pay your deductible and nothing more. Read our <a href="hail-storm-september-11-2026.html">Converse hail storm report</a> or <a href="blog/how-to-file-a-hail-damage-claim-in-texas.html">how to file a Texas hail claim</a>.</p>
+      <p><a class="btn primary" href="contact.html">Get a free Converse roofing quote</a></p>
+  </div>
+</section>
+
+<section class="section alt" style="padding-top:0">
   <div class="wrap">
-    <span class="eyebrow">From the blog</span>
-    <h2>Straight talk about hail, roofs and insurance</h2>
+    <span class="eyebrow">From the Converse Roofer blog</span>
+    <h2>Straight talk about hail, Converse roof repair and insurance</h2>
     <div class="grid c3" style="margin-top:24px">
       {{blog_cards_home}}
     </div>
@@ -257,12 +277,15 @@ home = f'''
 
 <section class="section">
   <div class="wrap narrow faq">
-    <span class="eyebrow">Questions homeowners ask</span>
-    <h2>Hail damage FAQ</h2>
-    <details open><summary>My roof looks fine from the ground. Should I still get it checked?</summary><p>Yes. Hail bruising on asphalt shingles is almost impossible to see from the driveway. The tell-tale signs are on the roof itself: granule loss, soft spots in the mat, dented vents and dinged gutter lips. Golf-ball hail at 60 mph wind can damage a roof that looks perfect from below.</p></details>
+    <span class="eyebrow">Questions Converse homeowners ask</span>
+    <h2>Converse roofing FAQ</h2>
+    <details open><summary>My roof looks fine from the ground. Do I still need a roof inspection?</summary><p>Yes. Hail bruising on asphalt shingles is almost impossible to see from the driveway. The tell-tale signs are on the roof itself: granule loss, soft spots in the mat, dented vents and dinged gutter lips. A free roof inspection from a Converse roofer settles it in 45 minutes.</p></details>
+    <details><summary>How much does Converse roof repair cost?</summary><p>It depends on what's damaged. A pipe boot or a handful of shingles is a small job. Slope-wide hail damage is usually an insurance claim, where your cost is the deductible. Converse Roofer gives you a written price for any Converse roof repair before work starts, free.</p></details>
+    <details><summary>How much does a roof replacement cost in Converse?</summary><p>Roof size, pitch, layers to tear off, decking condition and the shingle you choose all drive the price. If the roof replacement is a hail claim, your insurer pays the replacement cost minus your deductible. Get a free inspection and we'll quote it either way.</p></details>
+    <details><summary>Do you offer emergency roof repair in Converse?</summary><p>Yes. If you have an active leak or storm damage, call {PHONE}. We tarp first to stop the water, then schedule the permanent Converse roof repair.</p></details>
+    <details><summary>Are you a local Converse roofer or a storm chaser?</summary><p>Local. Converse Roofer is based in Converse, TX, with a local number that still works after the out-of-town trucks leave. Ask for our insurance certificate and references; we expect it.</p></details>
     <details><summary>Will filing a claim raise my rates?</summary><p>In Texas, insurers generally can't surcharge you for a single weather-related claim that wasn't your fault. Rates across the whole area rise after big storms whether you file or not. Ask your agent to confirm how your specific policy handles "act of God" claims.</p></details>
-    <details><summary>Can you cover my deductible?</summary><p>No, and any roofer who offers to is breaking Texas law (it's been a criminal offense since 2019). Your insurer can require proof you paid it. We'll help you understand your deductible up front so there are no surprises.</p></details>
-    <details><summary>How fast can you get out here?</summary><p>Usually within a day or two in Converse, Kirby, Windcrest, Universal City and Live Oak. If you have an active leak, call and we'll tarp it first.</p></details>
+    <details><summary>Can you cover my deductible?</summary><p>No, and any Converse roofing company that offers to is breaking Texas law (it's been a criminal offense since 2019). Your insurer can require proof you paid it. We'll help you understand your deductible up front so there are no surprises.</p></details>
     <details><summary>What if the adjuster says there's no damage?</summary><p>You have the right to a re-inspection, and we'll meet the second adjuster with our photo report. If your carrier still won't budge, the Texas Department of Insurance consumer line is 800-252-3439 and we can walk you through appraisal options.</p></details>
   </div>
 </section>
@@ -456,8 +479,8 @@ def blog_card(p, root=""):
 
 blog_cards_home = "".join(blog_card(p) for p in posts[:3])
 home = home.replace("{blog_cards_home}", blog_cards_home)
-write("index.html", layout("Converse Roofer | Hail Damage Roofing & Free Inspections in Converse, TX",
-  "Local hail-damage roofers in Converse, TX. Free roof inspections after the September 11, 2026 hail storm, insurance claim help, repairs and replacements. Call 832-503-5866.",
+write("index.html", layout("Converse Roofer | Converse Roofing, Roof Repair & Roof Replacement in Converse, TX",
+  "Converse Roofer: local Converse roofing company for hail damage roof repair, roof replacement, roof leak and emergency roof repair. Free roof inspections after the Sept 11, 2026 hail storm. Call 832-503-5866.",
   home, root="", active="index.html", canonical=""))
 
 # blog index
