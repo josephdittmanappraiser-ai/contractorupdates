@@ -1,6 +1,6 @@
 import os, html
 OUT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-PHONE = "832-503-5866"; TEL = "tel:+18325035866"; SMS = "sms:+18325035866"
+PHONE = "956-465-6045"; TEL = "tel:+19564656045"; SMS = "sms:+19564656045"
 BRAND = "Converse Roofer"; DOMAIN = "https://converseroofer.com"
 
 IMGS = {
@@ -532,7 +532,7 @@ def blog_card(p, root=""):
 blog_cards_home = "".join(blog_card(p) for p in posts[:3])
 home = home.replace("{blog_cards_home}", blog_cards_home)
 write("index.html", layout("Converse Roofer | Converse Roofing, Roof Repair & Roof Replacement in Converse, TX",
-  "Converse Roofer: local Converse roofing company for hail damage roof repair, roof replacement, roof leak and emergency roof repair. Free roof inspections after the Sept 11, 2026 hail storm. Call 832-503-5866.",
+  "Converse Roofer: local Converse roofing company for hail damage roof repair, roof replacement, roof leak and emergency roof repair. Free roof inspections after the Sept 11, 2026 hail storm. Call 956-465-6045.",
   home, root="", active="index.html", canonical=""))
 
 # blog index
