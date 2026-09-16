@@ -42,6 +42,21 @@ def img(key, root="", cls="", w=1200, attrs=""):
             'loading="lazy" ' + clsattr + ' ' + attrs + ' '
             "onerror=\"this.onerror=null;this.src='" + fallback + "'\">")
 
+
+DIAGRAMS = {
+ "hail-size-chart": "Hail size chart from pea to baseball showing which sizes damage a roof",
+ "storm-track-map": "Schematic map of the September 11, 2026 hail track over Kirby, Converse and northeast San Antonio",
+ "roof-layers": "Exploded diagram of the layers in a proper roof replacement",
+ "hail-damage-stages": "Cross-section showing how a hail hit becomes granule loss, a bruise, then a leak",
+ "where-hail-hides": "Diagram of a house with callouts showing where hail damage is found",
+ "service-area-map": "Map of the Converse Roofer service area around Converse, TX",
+}
+def dia(name, caption="", root=""):
+    return f'<figure class="fig"><img src="{root}assets/img/{name}.svg" alt="{DIAGRAMS[name]}" loading="lazy" style="width:100%;height:auto;aspect-ratio:auto;object-fit:contain;box-shadow:none;border-radius:14px">{("<figcaption>"+caption+"</figcaption>") if caption else ""}</figure>'
+def strip(items, root="", cols=None):
+    cols = cols or len(items)
+    return '<div class="gallery" style="grid-template-columns:repeat(' + str(cols) + ',1fr)">' + "".join(f'<figure>{img(k, root=root, w=800)}<figcaption>{c}</figcaption></figure>' for k,c in items) + '</div>'
+
 NAV = [("index.html","Home"),("hail-storm-september-11-2026.html","9/11 Hail Storm"),("weather.html","Weather"),("gallery.html","Photos"),("blog/index.html","Blog"),("about.html","About Us"),("contact.html","Contact")]
 
 def lead_form(root="", compact=False, title="Get Your Free Roof Inspection", sub="No cost, no pressure. We'll look at your roof, photograph any hail damage, and tell you honestly what it needs."):
@@ -180,7 +195,16 @@ home = f'''
       <div class="stat"><b>8,000+</b><span>CPS Energy customers lost power that night</span></div>
       <div class="stat"><b>$0</b><span>Cost of a Converse Roofer inspection and photo report</span></div>
     </div>
-    <p class="small" style="text-align:center;margin-top:12px">Storm figures from NWS Austin/San Antonio warnings and KENS 5 / KSAT reporting. <a href="hail-storm-september-11-2026.html">Read the full Converse hail storm report →</a></p>
+    <div class="split" style="margin-top:36px">
+      <div>{dia("storm-track-map")}</div>
+      <div>
+        <span class="eyebrow">Where the hail fell</span>
+        <h2>The core of the storm sat right over Kirby and Converse</h2>
+        <p>The first NWS warning at 10:12 PM put golf-ball hail over Kirby, near Converse, moving southwest at 15 mph. If your home is between Loop 1604, I-10 and FM 78, it was under that core. North- and east-facing slopes took the direct hits.</p>
+        <p class="small">Storm figures from NWS Austin/San Antonio warnings and KENS 5 / KSAT reporting.</p>
+        <a class="btn dark" href="hail-storm-september-11-2026.html">Read the full Converse hail storm report</a>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -215,6 +239,7 @@ home = f'''
       <a class="btn primary" href="contact.html">Schedule My Free Roof Inspection</a>
     </div>
   </div>
+  <div class="wrap" style="margin-top:44px">{dia("hail-damage-stages", "Why a roof that looks fine in September leaks in February.")}</div>
 </section>
 
 <section class="section dark">
@@ -255,8 +280,10 @@ home = f'''
     <p>If you've been searching for a <strong>roofer near me</strong>, a <strong>roofing company in Converse, TX</strong>, or <strong>roof repair near me</strong> since the September 11 hail storm, here's the short version: Converse Roofer is a local Converse roofing contractor, not a storm-chasing crew from out of state. We do free roof inspections, hail damage roof repair, roof leak repair, emergency roof repair, and full roof replacement for homes in Converse, Kirby, Windcrest, Universal City, Live Oak, Schertz, Cibolo, Selma and St. Hedwig.</p>
       <h3>Converse roof repair</h3>
       <p>Not every hail-hit roof needs replacing. Converse roof repair covers bruised or cracked shingles on one slope, damaged pipe boots and vents, lifted ridge cap, and flashing that's letting water in. We tell you when a repair is the right call and when it isn't, and we put both in writing.</p>
+      {dia("where-hail-hides", "What a Converse Roofer inspector checks on every visit, and what you can check from the ground.")}
       <h3>Roof replacement in Converse, TX</h3>
       <p>When the hit count in the adjuster's test squares says replacement, we handle the whole Converse roofing job: tear-off, decking, synthetic underlayment, ice-and-water shield, drip edge, starter, architectural or Class 4 impact-resistant shingles, ridge ventilation and a magnet sweep of the yard. Ask about the insurance discount for Class 4 shingles before you pick a product.</p>
+      {dia("roof-layers", "Every layer is on your written estimate, so you know what you're paying for.")}
       <h3>Emergency roof repair and roof leak repair</h3>
       <p>Active leak, missing shingles, tree limb through the decking? Call the number at the top of this page. Emergency Converse roof repair starts with a tarp the same day, then a proper fix once the weather clears.</p>
       <h3>Storm damage roofing</h3>
@@ -275,6 +302,9 @@ home = f'''
   </div>
 </section>
 
+<section class="section" style="padding-bottom:0">
+  <div class="wrap">{strip([("house4","Craftsman re-roof · Converse"),("house9","Composition roof · Cibolo"),("ladder","Set up for an inspection · Kirby"),("house6","Finished at dusk · Universal City")])}</div>
+</section>
 <section class="section">
   <div class="wrap narrow faq">
     <span class="eyebrow">Questions Converse homeowners ask</span>
@@ -311,6 +341,7 @@ post("what-golf-ball-hail-does-to-a-shingle-roof",
 <tr><td>Golf ball</td><td>1.75"</td><td>Widespread mat fractures, cracked vents, dented gutters, damaged window screens</td></tr>
 <tr><td>Tennis / baseball</td><td>2.50–2.75"</td><td>Punctures through shingles, broken skylights, siding holes</td></tr></table>
 
+{dia("hail-size-chart", root="../")}
 <h2>The three layers of damage</h2>
 <h3>1. Granule loss</h3>
 <p>The colored ceramic granules on top of a shingle are its sunscreen. A hail strike blasts them off in a roughly round pattern, exposing the black asphalt underneath. You'll often find a pile of granules at the bottom of downspouts the morning after a storm.</p>
@@ -318,6 +349,7 @@ post("what-golf-ball-hail-does-to-a-shingle-roof",
 <p>Press a thumb on a hail hit and it feels soft, like a bruise on an apple. The fiberglass mat under the asphalt has fractured. This is the damage that matters to an adjuster, and it's invisible from the ground.</p>
 <h3>3. The crack</h3>
 <p>Over the following months, sun and heat cycles open those fractures into cracks. Water gets to the decking. That's the leak that shows up in winter, long after everyone has forgotten the storm.</p>
+{dia("hail-damage-stages", "Impact, bruise, leak. The middle stage is the one that matters and the one you can't see from the ground.", root="../")}
 <figure class="fig">{img('roof1', root='../')}<figcaption>Granule loss and bruising are what an inspector is looking for. The pattern of fresh hits helps tie the damage to a specific storm date.</figcaption></figure>
 
 <h2>What else gets hit</h2>
@@ -330,6 +362,7 @@ post("what-golf-ball-hail-does-to-a-shingle-roof",
 <li><strong>Painted surfaces:</strong> chipped paint on fascia, decks and mailboxes.</li>
 <li><strong>Vehicles:</strong> if your car was dented in the driveway, your roof was hit at least as hard.</li>
 </ul>
+{dia("where-hail-hides", root="../")}
 
 <div class="callout"><strong>Don't get on the roof yourself.</strong> Hail-damaged shingles are slippery, and walking on them can make bruising worse. Call us and we'll do it for free with a harness and a camera.</div>
 
@@ -363,6 +396,7 @@ post("how-to-file-a-hail-damage-claim-in-texas",
 
 <h2>Step 5: The estimate and the first check</h2>
 <p>You'll receive a scope of work (usually an Xactimate printout) and, on an RCV policy, a first check for the ACV amount minus your deductible. Compare it with your contractor's written estimate. Items that are sometimes left off an initial estimate include drip edge, ice-and-water shield in valleys, starter strip, ridge cap, code-required ventilation, and steep or high-roof labor. If something you need is missing, you can ask your insurance company about it directly; your contractor can supply the estimate and photos you'll want to reference.</p>
+{dia("roof-layers", "A complete replacement estimate covers every one of these layers, not just the shingles.", root="../")}
 
 <h2>Step 6: The work, and the depreciation check</h2>
 <p>Once the roof is done we send the carrier the invoice and completion photos, and they release the recoverable depreciation. You pay your deductible to us directly, and that's it.</p>
@@ -401,6 +435,7 @@ post("7-questions-before-you-sign-with-a-roofer-after-a-storm",
 <h2>3. "Who's actually going to be on my roof?"</h2>
 <p>Many storm companies are sales organizations that sub everything out to whoever's available. Ask who the crew lead is, how long they've worked with the company, and whether a supervisor will be on site.</p>
 
+<figure class="fig">{img('ladder', root='../')}<figcaption>A local crew's truck and ladder should be a familiar sight on your street, not a one-week visitor.</figcaption></figure>
 <h2>4. "What happens with my deductible?"</h2>
 <p>The only correct answer is "you pay it." Anyone offering to waive it, "eat" it, or hand you a rebate that happens to equal it is offering to commit insurance fraud with your name on the claim. It's been a criminal offense in Texas since 2019.</p>
 <div class="callout"><strong>Red flag phrases:</strong> "free roof," "we'll handle the deductible," "sign now so we can hold your spot," "we're only in the neighborhood this week."</div>
@@ -424,6 +459,7 @@ post("9-signs-your-roof-took-hail-damage",
  "You don't need a ladder to spot most of these. Nine ground-level signs your Converse-area roof took hail damage on September 11, and what to do next.",
  "September 12, 2026", 4, "hail2", f'''
 <p>You can't safely inspect shingles from the ground, but you can absolutely tell whether it's worth having someone come out. Walk around your house with your phone and check these nine things. Photograph anything you find; the timestamp is useful later.</p>
+{dia("where-hail-hides", root="../")}
 
 <ol>
 <li><strong>Granules in the downspout splash blocks.</strong> Black or colored sand piled where the downspouts drain. Fresh granule loss is the first sign of hail impact.</li>
@@ -452,6 +488,7 @@ post("class-4-impact-resistant-shingles-bexar-county",
 <h2>What "Class 4" means</h2>
 <p>UL 2218 is a test where a 2-inch steel ball is dropped from 20 feet onto a shingle, twice in the same spot. If the shingle doesn't crack, it passes Class 4, the highest rating. A 2-inch steel ball hits harder than a 2-inch hailstone, so it's a conservative test. Class 4 shingles use a more flexible asphalt blend (often SBS-modified) and sometimes a reinforced mat.</p>
 
+{dia("hail-size-chart", "UL 2218 Class 4 uses a 2-inch steel ball, larger than the golf-ball hail Converse saw on September 11.", root="../")}
 <h2>What they cost</h2>
 <p>Roughly 10 to 25 percent more for materials than a standard architectural shingle from the same manufacturer. On a typical Converse roof that's usually a few hundred to a couple thousand dollars over the standard product. If you're on an insurance replacement, that upgrade cost is yours, not the carrier's.</p>
 
@@ -459,6 +496,7 @@ post("class-4-impact-resistant-shingles-bexar-county",
 <p>Most Texas carriers offer a premium discount for a documented Class 4 roof, commonly in the 5 to 30 percent range on the wind/hail portion of your premium. Ask your agent for the exact figure before you decide. On many policies the discount pays back the upgrade within a few years.</p>
 <div class="callout blue"><strong>Read the fine print.</strong> Some carriers pair the discount with a "cosmetic damage exclusion," meaning they won't pay to replace a Class 4 roof that's dented but not leaking. Make sure you know which you're getting.</div>
 
+{dia("roof-layers", "Class 4 changes only the top layer. Everything underneath should be the same on any quality replacement.", root="../")}
 <h2>When it's worth it</h2>
 <ul>
 <li>You plan to stay in the house more than five years.</li>
@@ -523,11 +561,13 @@ storm = page_hero("September 11, 2026 Hail Storm: Converse &amp; Kirby Damage Re
 <p>CPS Energy reported more than 8,000 customers without power that night, most of them on the east side. About 4,600 of those outages were concentrated around Kirby and Converse.</p>
 
 <div class="two-img">{img('hail1')}{img('storm4')}</div>
+{dia("hail-size-chart", "The NWS warning called for golf-ball hail; photos from Converse showed stones up to tennis-ball size.")}
 
 <h2>Areas in the warning polygon</h2>
 <p>The NWS warnings listed these communities as impacted:</p>
 <div class="areas" style="margin-bottom:1.5em"><span>Converse</span><span>Kirby</span><span>Windcrest</span><span>Universal City</span><span>Live Oak</span><span>Randolph AFB</span><span>Schertz</span><span>Cibolo</span><span>Alamo Heights</span><span>Terrell Hills</span><span>Olmos Park</span><span>St. Hedwig</span><span>China Grove</span><span>Elmendorf</span><span>Zuehl</span><span>Sandy Oaks</span><span>Calaveras Lake</span><span>Stinson Airport area</span><span>Lackland AFB</span><span>San Antonio</span></div>
 <p>The heaviest, largest hail was in the first warning box, centered on <strong>Kirby and Converse</strong>. If you live between Loop 1604, I-10 and FM 78, your roof was almost certainly under the core of the storm.</p>
+{dia("storm-track-map", "Where the warnings placed the hail core and how the storm moved. Schematic based on NWS warning text.")}
 
 <h2>Timeline</h2>
 <table class="data">
@@ -550,6 +590,7 @@ storm = page_hero("September 11, 2026 Hail Storm: Converse &amp; Kirby Damage Re
 </ul>
 <p>Because the storm moved southwest, north- and east-facing roof slopes generally took the direct hits. A roof can be badly damaged on one or two slopes and look untouched from the street.</p>
 <figure class="fig">{img('roof1')}<figcaption>Typical hail bruising on an asphalt shingle. This is the damage adjusters count in a 10x10 test square on each slope.</figcaption></figure>
+{dia("hail-damage-stages", "The bruise is invisible from the ground and the leak shows up months later.")}
 
 <h2>What to do this week</h2>
 <ol>
@@ -559,6 +600,7 @@ storm = page_hero("September 11, 2026 Hail Storm: Converse &amp; Kirby Damage Re
 <li><strong>Be careful who you sign with.</strong> Out-of-town crews are already door-knocking. <a href="blog/7-questions-before-you-sign-with-a-roofer-after-a-storm.html">Seven questions to ask first</a>.</li>
 <li><strong>Never let anyone "cover" your deductible.</strong> It's illegal in Texas and can void your claim.</li>
 </ol>
+{dia("where-hail-hides", "Seven places to look before you call. Two or more usually means the shingles took damage too.")}
 
 <h2>Sources</h2>
 <ul class="small">
@@ -629,7 +671,8 @@ weather = page_hero("Converse, TX Live Weather &amp; Storm Alerts", "Current con
   <p class="wx-note" style="margin-top:10px">Weather data from <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a>. Alerts from the <a href="https://www.weather.gov/" target="_blank" rel="noopener">National Weather Service</a>. Coordinates: 29.518, -98.316 (Converse, TX). Times are Central.</p>
 </div></section>
 
-<section class="section"><div class="wrap"><article class="article">
+<section class="section"><div class="wrap">{strip([("storm2","Storm clouds over FM 78"),("storm3","Cell building west of Converse"),("rain","Heavy rain on the 11th")])}</div></section>
+<section class="section" style="padding-top:0"><div class="wrap"><article class="article">
 <h2>Hail season on the northeast side</h2>
 <p>Bexar County sits on the southern edge of Texas hail alley. Our biggest hail months are April through June, but as the <a href="hail-storm-september-11-2026.html">September 11, 2026 storm</a> proved, a single front in early fall can drop golf-ball stones with no warning beyond a few minutes. The northeast side of San Antonio, from Windcrest out through Converse, Kirby, Universal City and Schertz, takes a disproportionate share of those storms because of how cells track off the Hill Country and along I-35 and I-10.</p>
 <h3>Recent severe weather affecting Converse and Kirby</h3>
@@ -638,6 +681,7 @@ weather = page_hero("Converse, TX Live Weather &amp; Storm Alerts", "Current con
 <tr><td>Sept 11, 2026</td><td>Severe thunderstorm, golf-ball hail (2–2.5" photographed), 60 mph gusts, 8,000+ outages</td><td>Widespread shingle bruising, dented metal, screen damage across Converse and Kirby</td></tr>
 <tr><td>Late May 2026</td><td>Damaging wind storm in Kirby: downed trees, a truck pushed several houses down the street</td><td>Lifted and missing shingles, ridge cap damage, tree impacts</td></tr>
 </table>
+{dia("storm-track-map", "The September 11 hail core over Kirby and Converse.")}
 <p class="small">Want your street checked against a specific storm date? <a href="contact.html">Send us the address</a> and we'll pull the radar and warning history for that day.</p>
 </article></div></section>
 <script src="assets/js/weather.js" defer></script>'''
@@ -657,6 +701,8 @@ gal = [("house2","Full replacement, architectural shingles · Converse",""),("ro
 gallery = page_hero("Photos: Our Work &amp; the Storms Behind It", "Roof replacements, repairs, inspections and storm shots from Converse, Kirby, Windcrest, Universal City, Schertz and around the northeast side.", imgkey="house2", crumbs='<a href="index.html">Home</a> › Photos') + f'''
 <section class="section"><div class="wrap">
   <div class="gallery">{"".join(f'<figure class="{c}">{img(k, w=900)}<figcaption>{t}</figcaption></figure>' for k,t,c in gal)}</div>
+  <h2 style="margin-top:48px">Storm maps &amp; diagrams</h2>
+  <div class="grid c2" style="margin-top:16px">{dia("storm-track-map", "Sept 11, 2026 hail track")}{dia("hail-size-chart", "Hail size vs. roof damage")}{dia("where-hail-hides", "Where hail damage hides")}{dia("roof-layers", "Anatomy of a roof replacement")}</div>
   <p class="small" style="margin-top:18px">Gallery photos are placeholders until your own job and storm photos are added. Drop images into <code>assets/img/</code> and update the captions in <code>gallery.html</code>.</p>
 </div></section>
 <section class="section alt"><div class="wrap split">
@@ -695,6 +741,7 @@ about = page_hero("About Converse Roofer", "A local storm-restoration roofing co
     <div class="icon-card"><div class="ic">🧲</div><h3>Clean job sites</h3><p>Tarps over landscaping, magnet sweeps for nails, and a walk-around with you before we leave.</p></div>
     <div class="icon-card"><div class="ic">📞</div><h3>We answer the phone</h3><p>Same number before, during and after the job. Workmanship warranty backed by a company that's still here.</p></div>
   </div>
+  <div style="margin-top:28px">{strip([("crew","Saturday tear-off crew · Converse"),("ladder","Inspection set-up · Kirby"),("house9","Composition roof · Cibolo")])}</div>
 </div></section>
 
 <section class="section"><div class="wrap split">
@@ -715,11 +762,14 @@ about = page_hero("About Converse Roofer", "A local storm-restoration roofing co
   <div>{img('house8')}</div>
 </div></section>
 
-<section class="section dark"><div class="wrap">
+<section class="section dark"><div class="wrap split">
+  <div>
   <span class="eyebrow">Where we work</span>
   <h2>Converse and the northeast side of San Antonio</h2>
   <p class="lead">We stay close so we can be on your roof fast and back on it later if you ever need us.</p>
   <div class="areas" style="margin-top:18px"><span>Converse</span><span>Kirby</span><span>Windcrest</span><span>Universal City</span><span>Live Oak</span><span>Schertz</span><span>Cibolo</span><span>Selma</span><span>St. Hedwig</span><span>Garden Ridge</span><span>Randolph AFB area</span><span>NE San Antonio (78109, 78219, 78239, 78244)</span></div>
+  </div>
+  <div>{dia("service-area-map")}</div>
 </div></section>
 
 <section class="section alt"><div class="wrap">
@@ -753,8 +803,10 @@ contact = page_hero("Free Roof Inspection &amp; Contact", f"Call or text {PHONE}
     </div>
     <h3 style="margin-top:28px">Service area</h3>
     <div class="areas"><span>Converse</span><span>Kirby</span><span>Windcrest</span><span>Universal City</span><span>Live Oak</span><span>Schertz</span><span>Cibolo</span><span>Selma</span><span>St. Hedwig</span><span>NE San Antonio</span></div>
+    {dia("service-area-map")}
   </div>
 </div></section>
+<section class="section" style="padding-top:0"><div class="wrap">{strip([("roofer2","Walking the estimate with a homeowner"),("roofer1","Marking hits in a test square"),("house3","Finished replacement · Windcrest"),("gutter","New drip edge and gutters")])}</div></section>
 <section class="section alt"><div class="wrap narrow faq">
   <h2>Before you call</h2>
   <details open><summary>Is the inspection really free?</summary><p>Yes. No trip charge, no obligation, and you keep the photo report. We make our money building roofs, not inspecting them.</p></details>
