@@ -140,7 +140,7 @@ covers["cover-hail-shingles"] = finish(s)
 # 2. Claim guide: bright day, house, document card with checks
 s, _, _ = scene("day"); s = neighborhood(s)
 s += card(760, 250, 330, 300, [180,220,150,200], title="Roof inspection report", check=["check","check","check","check"])
-covers["cover-claim-guide"] = finish(s)
+covers["cover-estimate-guide"] = finish(s)
 
 # 3. Seven questions: dusk, house, checklist with question marks
 s, _, _ = scene("questions"); s = neighborhood(s, roof="#141c2b")
