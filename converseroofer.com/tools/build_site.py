@@ -95,7 +95,33 @@ def lead_form(root="", compact=False, title="Get Your Free Roof Inspection", sub
   </form>
 </div>'''
 
+import re as _re
+import posixpath as _pp
+def auto_schema(body, canonical, existing, title=""):
+    out = []
+    if "BreadcrumbList" not in existing:
+        m = _re.search(r'<div class="crumbs">(.*?)</div>', body, _re.S)
+        if m:
+            base = _pp.dirname(canonical)
+            items = [("Home", DOMAIN + "/")]
+            for href, name in _re.findall(r'<a href="([^"]+)">([^<]+)</a>', m.group(1)):
+                if name.strip() == "Home": continue
+                p = _pp.normpath(_pp.join(base, href)).lstrip("./")
+                p = "" if p in (".", "index.html") else p.replace("/index.html", "/")
+                items.append((name.strip(), DOMAIN + "/" + p))
+            tail = _re.sub(r'<a[^>]*>.*?</a>', '', m.group(1)).replace('›', '|').split('|')[-1].strip()
+            if not tail: tail = title.split(" | ")[0]
+            if tail: items.append((html.unescape(tail), DOMAIN + "/" + canonical))
+            out.append('<script type="application/ld+json">' + json.dumps({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":i+1,"name":html.unescape(n),"item":u} for i,(n,u) in enumerate(items)]}) + '</script>')
+    if "FAQPage" not in existing:
+        qa = _re.findall(r'<details[^>]*><summary>(.*?)</summary><p>(.*?)</p></details>', body, _re.S)
+        if qa:
+            strip_tags = lambda s: html.unescape(_re.sub(r'<[^>]+>', '', s)).strip()
+            out.append('<script type="application/ld+json">' + json.dumps({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":strip_tags(q),"acceptedAnswer":{"@type":"Answer","text":strip_tags(a)}} for q,a in qa]}) + '</script>')
+    return "\n".join(out)
+
 def layout(title, desc, body, root="", active=None, canonical="", extra_head="", storm_bar=True, schema=""):
+    schema = (schema + "\n" + auto_schema(body, canonical, schema, title)).strip()
     nav = "".join('<a href="' + root + h + '"' + (' class="active"' if h==active else '') + '>' + t + '</a>' for h,t in NAV)
     bar = f'<div class="storm-bar">⚠️ Hit by the <a href="{root}hail-storm-september-11-2026.html">September 11 hail storm</a>? Golf-ball hail fell on Converse &amp; Kirby. <a href="{root}contact.html">Free inspection</a> · <a href="{TEL}">{PHONE}</a></div>' if storm_bar else ""
     return f'''<!DOCTYPE html>
@@ -163,7 +189,7 @@ def layout(title, desc, body, root="", active=None, canonical="", extra_head="",
         <p>Local storm-damage roofing for Converse and the northeast side of San Antonio. Free hail inspections, written estimates, repairs and full replacements.</p>
         <a class="phone" href="{TEL}">{PHONE}</a><br><small>Call or text · 7 days a week</small>
       </div>
-      <div><h4>Pages</h4><ul>{"".join(f'<li><a href="{root}{h}">{t}</a></li>' for h,t in NAV)}</ul></div>
+      <div><h4>Pages</h4><ul>{"".join(f'<li><a href="{root}{h}">{t}</a></li>' for h,t in NAV)}<li><a href="{root}storms/index.html">Storm Reports</a></li></ul></div>
       <div><h4>Services</h4><ul><li><a href="{root}contact.html">Free hail inspections</a></li><li><a href="{root}contact.html">Storm damage documentation</a></li><li><a href="{root}contact.html">Roof replacement</a></li><li><a href="{root}contact.html">Roof repair &amp; leaks</a></li><li><a href="{root}contact.html">Gutters &amp; emergency tarping</a></li></ul></div>
       <div><h4>Service area</h4><ul><li><a href="{root}areas/converse.html">Converse</a></li><li><a href="{root}areas/kirby-windcrest.html">Kirby &amp; Windcrest</a></li><li><a href="{root}areas/universal-city-live-oak.html">Universal City &amp; Live Oak</a></li><li><a href="{root}areas/schertz-cibolo-selma.html">Schertz, Cibolo &amp; Selma</a></li><li><a href="{root}areas/st-hedwig.html">St. Hedwig</a></li><li><a href="{root}areas/ne-san-antonio.html">NE San Antonio</a></li></ul></div>
     </div>
@@ -172,6 +198,7 @@ def layout(title, desc, body, root="", active=None, canonical="", extra_head="",
 </footer>
 <div class="call-bar"><a href="{TEL}">📞 Tap to call {PHONE} — free inspection</a></div>
 <script src="{root}assets/js/config.js"></script>
+<script src="{root}assets/js/analytics.js"></script>
 <script src="{root}assets/js/main.js"></script>
 </body>
 </html>'''
@@ -622,6 +649,7 @@ storm = page_hero("September 11, 2026 Hail Storm: Converse &amp; Kirby Damage Re
 </ol>
 {dia("where-hail-hides", "Seven places to look before you call. Two or more usually means the shingles took damage too.")}
 
+<p><a class="btn dark" href="storms/index.html">See all storm reports</a></p>
 <h2>Sources</h2>
 <ul class="small">
 <li>NWS Austin/San Antonio Severe Thunderstorm Warnings, September 11, 2026, 10:12 PM, 10:26 PM and 10:34 PM CDT</li>
@@ -702,6 +730,7 @@ weather = page_hero("Converse, TX Live Weather &amp; Storm Alerts", "Current con
 <tr><td>Late May 2026</td><td>Damaging wind storm in Kirby: downed trees, a truck pushed several houses down the street</td><td>Lifted and missing shingles, ridge cap damage, tree impacts</td></tr>
 </table>
 {dia("storm-track-map", "The September 11 hail core over Kirby and Converse.")}
+<p><a class="btn dark" href="storms/index.html">All storm reports</a></p>
 <p class="small">Want your street checked against a specific storm date? <a href="contact.html">Send us the address</a> and we'll pull the radar and warning history for that day.</p>
 </article></div></section>
 <script src="assets/js/weather.js" defer></script>'''
@@ -978,8 +1007,26 @@ areas_index = page_hero("Service Areas: Roofing Across Converse &amp; Northeast 
 write("areas/index.html", layout("Service Areas | Roofing in Converse, Kirby, Schertz, Universal City & NE San Antonio | Converse Roofer",
   "Converse Roofer serves Converse, Kirby, Windcrest, Universal City, Live Oak, Schertz, Cibolo, Selma, St. Hedwig and northeast San Antonio with free roof inspections and hail damage roof repair.", areas_index, root="../", active="areas/index.html", canonical="areas/"))
 
+# ---------------- STORM REPORTS ----------------
+STORMS = [
+ dict(slug="hail-storm-september-11-2026", path="hail-storm-september-11-2026.html", date="2026-09-11", label="September 11, 2026",
+      title="Golf-ball hail over Kirby &amp; Converse", summary="NWS warnings at 10:12, 10:26 and 10:34 PM; 1.75\" hail with 2–2.5\" stones photographed; 60 mph gusts; 8,000+ CPS outages.",
+      areas="Converse, Kirby, Windcrest, Universal City, Live Oak, Schertz, Cibolo, St. Hedwig, NE San Antonio", img="storm1", severity="Severe"),
+]
+def storms_index():
+    cards = "".join(f'''<div class="card"><div class="img"><a href="../{s['path']}">{img(s['img'], root='../', w=800)}</a></div><div class="body"><div class="meta">{s['label']} · {s['severity']}</div><h3><a href="../{s['path']}" style="color:inherit;text-decoration:none">{s['title']}</a></h3><p>{s['summary']}</p><p class="small"><strong>Areas:</strong> {s['areas']}</p><a class="more" href="../{s['path']}">Read the storm report →</a></div></div>''' for s in sorted(STORMS, key=lambda x: x['date'], reverse=True))
+    body = page_hero("Storm Reports for Converse &amp; Northeast San Antonio", "Every hail and wind event that hits our service area gets its own dated report: what fell, where, what the NWS said, and what it means for your roof. Check here after a storm before you call anyone.", root="../", imgkey="storm3", crumbs='<a href="../index.html">Home</a> › Storm Reports') + f'''
+<section class="section"><div class="wrap"><div class="grid c3">{cards}</div></div></section>
+<section class="section alt"><div class="wrap split">
+  <div>{dia("hail-size-chart", root="../")}</div>
+  <div><span class="eyebrow">How we decide what gets a report</span><h2>Any hail at or above quarter size, or wind at or above 58 mph</h2><p>Those are the National Weather Service's severe thresholds and the point where asphalt shingles start taking damage. When a warning covers Converse, Kirby, Windcrest, Universal City, Live Oak, Schertz, Cibolo, Selma or St. Hedwig, we pull the warning text, spotter reports and outage numbers and publish a report within a day or two.</p><p>Want a heads-up when one goes up? Text <a href="{SMS}">{PHONE}</a> with "storm alerts" and your zip code.</p><a class="btn primary" href="../weather.html">Live weather &amp; NWS alerts</a></div>
+</div></section>'''
+    write("storms/index.html", layout("Storm Reports | Hail & Wind Events in Converse, TX | Converse Roofer",
+      "Dated reports on every hail and wind storm affecting Converse, Kirby, Windcrest, Universal City, Schertz, Cibolo and NE San Antonio, with NWS details and what they mean for your roof.", body, root="../", active="hail-storm-september-11-2026.html", canonical="storms/"))
+storms_index()
+
 # ---------------- sitemap, robots, 404 ----------------
-urls = ["", "hail-storm-september-11-2026.html","weather.html","gallery.html","about.html","contact.html","blog/","areas/"] + [f"blog/{p['slug']}.html" for p in posts] + [f"areas/{a['slug']}.html" for a in AREAS]
+urls = ["", "hail-storm-september-11-2026.html","weather.html","gallery.html","about.html","contact.html","blog/","areas/","storms/"] + [f"blog/{p['slug']}.html" for p in posts] + [f"areas/{a['slug']}.html" for a in AREAS]
 write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "".join(f"  <url><loc>{DOMAIN}/{u}</loc><lastmod>2026-09-16</lastmod></url>\n" for u in urls) + "</urlset>\n")
 write("robots.txt", f"User-agent: *\nAllow: /\nSitemap: {DOMAIN}/sitemap.xml\n")
 write("404.html", layout("Page not found | Converse Roofer", "That page doesn't exist.", f'<section class="section"><div class="wrap narrow" style="text-align:center;padding:60px 20px"><h1>Page not found</h1><p class="lead">That link is broken or the page moved. Try the home page, or just call us.</p><a class="btn primary lg" href="{TEL}">📞 {PHONE}</a> <a class="btn dark lg" href="index.html">Home</a></div></section>', canonical="404.html", storm_bar=False))

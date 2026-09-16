@@ -28,6 +28,8 @@
   // Lead forms
   document.querySelectorAll('form[data-lead]').forEach(function(form){
     var msg = form.querySelector('.msg');
+    var started = false;
+    form.addEventListener('focusin', function(){ if (!started) { started = true; try { (window.CR_track || function(){})('form_start', { form: 'lead' }); } catch(_){} } });
     form.addEventListener('submit', function(e){
       e.preventDefault();
       if (form.querySelector('.hp input') && form.querySelector('.hp input').value) return; // honeypot
@@ -43,7 +45,7 @@
         if (msg) { msg.className = 'msg'; msg.style.display = 'block'; msg.textContent = text; }
         form.reset();
         if (btn) { btn.disabled = false; btn.textContent = label; }
-        try { if (window.gtag) gtag('event', 'generate_lead', {source: 'website_form'}); } catch(_){}
+        try { (window.CR_track || function(){})('generate_lead', { source: 'website_form', storm: data.storm || '', insurance_contacted: data.insurance_contacted || '' }); } catch(_){}
       }
       function fail(text){
         if (msg) { msg.className = 'msg err'; msg.style.display = 'block'; msg.textContent = text; }

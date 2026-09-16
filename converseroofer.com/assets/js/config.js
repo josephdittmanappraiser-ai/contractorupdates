@@ -9,6 +9,11 @@ window.CR_CONFIG = {
   formEndpoint: "",
   // Where the email-draft fallback goes when no endpoint is configured.
   leadEmail: "",
+  // Analytics. Paste your GA4 Measurement ID (G-XXXXXXXXXX) to enable Google Analytics
+  // with automatic call-click, text-click and form-lead events. Optional: Google Ads
+  // conversion label for calls, e.g. "AW-123456789/AbCdEfGhIj".
+  gaId: "",
+  adsCallConversion: "",
   // Converse, TX — used for the live weather feed.
   lat: 29.518,
   lon: -98.316,
