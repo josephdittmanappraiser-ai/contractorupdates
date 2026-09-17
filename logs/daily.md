@@ -386,3 +386,22 @@ reporting all three as `connected: true, enabledInChat: true` throughout. Same r
 scanned, 0 logged, nothing touched. The connector grant is clearly not reaching this session's
 tool list regardless of retries within a session — this needs a fix outside the session
 (recreate/re-verify the Routines-UI schedule per `runbooks/schedules.md`), not another rerun.
+
+2026-09-17 | RUN FAILED — Trello MCP server would not connect | 0 scanned | 0 logged
+
+Different failure mode from 2026-09-08/09-14. `ListConnectors` reported Trello as
+`connected: true, enabledInChat: true` throughout, and Gmail tools (`mcp__Gmail__search_threads`,
+`mcp__Gmail__get_thread`) loaded normally via `ToolSearch`. But every Trello tool
+(`mcp__Trello__trelloSearch`, `trelloReadChecklist`, `trelloWriteChecklist`) was unreachable —
+`ToolSearch` reported the server itself failed with `CONNECT_TIMEOUT` ("MCP server Trello
+connection timed out after 30000ms"), not a missing-grant symptom. Retried `ToolSearch` twice
+more (immediately, then after a ~20s wait) with the same timeout each time.
+
+Since Phase 1 discovery needs `trelloSearch` to match threads to cards and Phase 2 needs the
+checklist tools to log anything, no useful work is possible with Gmail alone — per token
+discipline, no Gmail search was run and no email body was read. No Trello card was touched, no
+email was sent. This looks like a transient Trello-side outage or timeout rather than the
+Routines-grant issue from 09-08/09-14 (that one showed `ListConnectors` conflicting with a
+totally absent tool list at server-list level; this one is the Trello server itself timing out
+on connect). Worth a rerun; if this recurs, worth checking Trello's own status/API health
+alongside the Routines-UI schedule setup in `runbooks/schedules.md`.
