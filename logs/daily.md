@@ -405,3 +405,43 @@ Routines-grant issue from 09-08/09-14 (that one showed `ListConnectors` conflict
 totally absent tool list at server-list level; this one is the Trello server itself timing out
 on connect). Worth a rerun; if this recurs, worth checking Trello's own status/API health
 alongside the Routines-UI schedule setup in `runbooks/schedules.md`.
+
+2026-09-19 | 204 threads scanned | 157 logged | 27 unmatched | 10 skipped as noise, 10 skipped as duplicate
+
+Both Gmail and Trello tools loaded and connected normally this run — no repeat of 09-08/09-14/
+09-17's connector failures. Discovery paginated through 230 unique Gmail threads matching
+`newer_than:1d` (five pages of up to 50); 26 were dropped up front as plain automated noise
+(Trello/LinkedIn already excluded by query; plus Dropbox share notices, CompanyCam, QuickBooks/
+Invoicely payment notices, `support@app.iink.com` signature/job notifications, a mailer-daemon
+bounce, two Send.co "new view" marketing alerts, two Deluxe/Semrush marketing emails, and four
+carrier auto-ack/autoreply stubs with no substantive content: two Allstate "We've received your
+email" and two State Farm "Automatic reply"). The remaining 204 threads were fanned out to 34
+`sonnet` subagents (~6 threads each, dispatched concurrently).
+
+Unmatched insureds named in email with no card on the Insured Appraisals board:
+- Kelly Way (contact Patricia Morton), 1339 Douglas Avenue, Flossmoor, IL 60422 — new claim, no card yet
+- Insured unclear — attorney Michael Bowman thread re "Claim" (tsvenky@hotmail.com / nishant@vprealtyservices.com)
+- Atman Raval & Jigisha Raval, claim 061678536-01, Safeco/Liberty Mutual
+- SageSure claim HO-2026-149561270 — insured name never stated in thread
+- Sairam Chowdary Kapa / Sravani Machineni, 1528 Sibley Way, Leander, TX
+- Kimberly Johnson — Stronghouse appraisal demand letter thread
+- Jerry Vaquera, claim #00201953271 (insured of record PennyMac Loan Services LLC)
+- Harrold Booze — PA fee thread
+- Michael Beasom, claim 42-G-4XT130
+- Francisco Gabino, claim 01-010-084862, carrier AFICS
+- Thomas Bierschenk, claim 530D0J727
+- Prashanna Dhungana — roofing estimate thread
+- Maribel Benavides, claim 0000222523, Wellington Insurance Group
+- Annie R. Haynes & Alonzo Haynes, Allstate claim 0835428731
+- Claudia & Juan Ron, claim HO-2026-589318010, 16110 Glen Mar Dr, Houston, TX
+- Suzanne Ramos, State Farm claim 43-0K2L-462 — 6 "Ramos" cards on the board, none match
+- Cadalia & Eliakim Gonsales, Homesite/AFICS claim 01-008-405968
+- Redwine (surname only, from signed award PDF), Nationwide claim 067417-GR
+- Benjamin/Danielle Jackson, 1700 Blufftop Cir, Round Rock TX, Liberty Mutual claim #060545725-01 — recurred across 2 threads
+- Bruce Pettengill, Allstate — recurring gap since 09-16; card exists but only on the separate "PA FILES" board, not this one
+- Rental-property water/termite umpire file between appraisers Clay Heath and Eric Anderson — insured never named in thread
+
+Also flagged but not counted above (card(s) exist, just ambiguous — needs Joseph to disambiguate,
+not a missing-card gap): Momtazul Karim (2 candidate cards), Morales (5 candidate cards),
+Williams (10+ candidate cards), and a Legacy Roofing supplement-quote thread subject "Sairam"
+with no insured name given.
