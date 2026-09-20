@@ -445,3 +445,154 @@ Also flagged but not counted above (card(s) exist, just ambiguous — needs Jose
 not a missing-card gap): Momtazul Karim (2 candidate cards), Morales (5 candidate cards),
 Williams (10+ candidate cards), and a Legacy Roofing supplement-quote thread subject "Sairam"
 with no insured name given.
+
+2026-09-20 | 183 threads scanned | 62 logged (80 checklist entries — two bulk status-update emails each bundled ~10-20 separate files into one thread) | 98 unmatched | 15 skipped as noise, 8 skipped as duplicate
+
+Highest-volume run to date. Discovery paginated through 183 unique Gmail threads matching
+`newer_than:1d` (four pages of up to 50); 8 were dropped up front as plain automated noise
+(a mailer-daemon bounce, three Send.co "new view" alerts, one `support@app.iink.com` claim-check
+delivery notification, one LinkedIn digest, and two carrier auto-ack/autoreply stubs: USAA
+"Your Email...Has Been Received" and a State Farm "Automatic reply"). The remaining 175 threads
+were fanned out to 29 `sonnet` subagents (~6 threads each, dispatched concurrently in one
+message); one batch (threads 1a0bca271925e15c etc.) hit this session's 20-concurrent-subagent
+cap on first dispatch and was retried once slots freed — all 29 completed, plus the retry.
+Two threads (Rise Public Adjusting status-update request, and a related "Additional Files"
+follow-up) each bundled a large multi-file status list into a single email; subagents split
+these into one checklist entry per identifiable insured on a matched card, which is why logged
+entries (80) exceed logged threads (62).
+
+Note on checklist name: the scheduled-task prompt said dialogue goes in a "📧 Email log"
+checklist, but `runbooks/daily-email-to-trello.md` on this branch specifies "📋 Chain of Events"
+(the same timeline the weekly page renders). Followed the runbook as authoritative since it's
+the maintained spec and the prompt is a static/older copy — all entries this run went to
+"📋 Chain of Events". Worth reconciling the scheduled-task prompt text if "📧 Email log" was
+intentional.
+
+Unmatched insureds named in email with no card on the Insured Appraisals board:
+- Ziqi Wang
+- Cadalia & Eliakim Gonsales, Homesite/AFICS claim 01-008-405968 — recurring gap
+- Oscar Padilla
+- Abilene Swimming Club, Inc. — recurring gap
+- Judy Jordan
+- Gustavo Uretafrias, RYZE Claims claim 00300107088 — recurred across 2 threads, recurring gap
+- Veeramuthu Balakrishnan, claim 061862649-01 — recurring gap
+- Chet Cochrane, Travelers claim JHM1751 — recurring gap
+- Sarah Jimeson-Wong & Jack Wong, Nationwide claim 539787-GQ — recurred across 3 threads
+- No insured named, 2448 Loch Haven Ct, Frisco, Liberty Mutual claim 060515276-01
+- No insured named, claim 43-0G5R-270
+- Alonzo Haynes — recurring gap
+- Nicholas Coleman / Dayna Schmidt, Tower Hill claim 3300577729 — recurred across 4 threads; 3
+  candidate "Coleman" cards exist on the board, none matches this claim
+- Bruce Pettengill, Allstate — recurring gap
+- Venkata Nomula, claim 017781911 — recurring gap
+- Justin Carroll
+- Heather & Brian Bevil
+- Cynthia Madden, Allstate claim 0819700996, North Richland Hills — 2 candidate "Madden" cards
+  on the board, neither matches
+- Jayesh Patel, Safeco claim 060448447-01, 1606 Pheasant Creek Dr, Wylie
+- Juan Gonzales, Conifer claim PL2503426, 1318 Jasmine Dr, Lewisville
+- Annette Hoya, Allstate claim 0758954366
+- Baldomero Alvarado, Allstate claim 0809413628 — recurring gap
+- Devangi Nagar, claim 170529AB-001
+- Omar Lopez, 3489 Jefferson Dr, Frisco
+- Bryan Obermeyer, 1212 Dora St, Bedford
+- Jeffrey Bruner, USAA claim 003273567
+- Merrick Ales, 8509 Granada Hills Dr, Austin
+- William & Maureen Rollo, 11402 Hare Trail
+- Kayla Thomas, 3208 Jackal Dr, Lorena
+- Urvish Patel, 128 Sunberry Ln, Caddo Mills
+- Solomon & April Griffin, Nationwide claim 033932-GR — recurring gap
+- Wadhwani — recurring gap
+- Gordon Cloutier, Allstate claim 0817988678
+- Fidencia Mondragon
+- Seenivasan Gopalsamy / Sakunthala Authimoolam — recurring gap
+- Griebel (Marissa), Allied Trust claim 2610333 — recurring gap
+- Margaret Grant, claim 01-009-473140 — recurring gap
+- Sailaja / Bharath Mahendrakar, claim 0820685766 — recurring gap
+- Vijaya Bandi, claim 1601394-264402 — recurring gap
+- Hitarth Trivedi, claim JFE8094 — recurring gap
+- Kalyan Parajuli, claim 01009528773 — recurring gap
+- Curtis Redwine
+- Tim Redwine, claim 067417-GR — recurring gap
+- Multiple properties, no insured named (iink signature-needed bundle thread)
+- No insured named, USAA claim 023053010-801, Bangs TX (Rise Public Adjusting settlement letter)
+- Kimberly Johnson — recurring gap
+- Ariel Abad
+- Reina Ayala
+- Rong Dai — 7+ open rental-property "Dai" cards, ambiguous which; recurred across 3 threads
+  today, recurring gap
+- Judy Hopkins, 1115 Maria Dr
+- Troy, 525 Louise St
+- David Larson, 1325 Marina Grand Ter
+- Jerardo Vaquero — recurring gap
+- Lakeland West Capital 26, 1905 Tulane Dr, Lufkin — recurred across 4 threads today
+- ARC Aerospace and Defense Systems, claim 43-...
+- Spears, USAA claim 027287724
+- Kishore Jonnavittula — recurring gap
+- Heather Rozzell
+- Winson Varghese (fire/microbial claim, ESX file) — recurred across 3 threads; the only
+  "Varghese" card on the board is "MARY VARGHESE - $1000- paid" (unrelated Hail & Wind claim) —
+  a subagent created an empty "📋 Chain of Events" checklist on that card while investigating
+  the possible match, then correctly left it empty once it confirmed the claim didn't match;
+  harmless but worth a glance
+- Andrew Bradshaw, USAA claim 020622939-804
+- Ronald Orr, Allstate claim 0831160627 — recurring gap
+- Jeff & Francine Perez, claim 068339-GR — recurring gap
+- Dena Williams
+- Cody Wherley, Allstate claim 000795806488
+- Jett Baker, Travelers claim JDM1543 — recurring gap
+- Thomas Bierschenk, State Farm claim 53-0D0J-727 — recurring gap
+- Nalini Tammana, Liberty Mutual claim 061746230 — recurring gap
+- Insured unknown, 15808 Dink Pearson roof report
+- Bueno — recurring gap
+- Venkata Kota, Liberty Mutual claim 061322821
+- Brackett (John Brackett), State Farm claim 4396G351K — recurring gap
+- Tarak & Anagha Railkar, claim 170529AB-001 — recurring gap
+- Sapna Narendra, claim 060801867-01 — recurring gap
+- Mario (surname not given), 1334 Sayles Blvd, Abilene
+- Owen / Brandy McLerran, 84 Roundabout Ln, Huntsville
+- Hetvi Shah, Safeco claim 060540937-01
+- James McKinney
+- Curtis Salter
+- Gabriela Carias Green
+- Susan & Travis Crow
+- Mildred Davis — recurring gap
+- Johanna Aguirre Strauss, Allstate claim 0832455752 — recurring gap
+- Hitanshu Bhakta d/b/a Western Inn — recurring gap
+- Willie Burton
+- Scott Mongeau
+- John Dye — recurring gap
+- Sheldrake — recurring gap
+- Alphonso & Mary Ransaw
+- Shayla Myricks
+- Zandral Washington
+- Viswanath Venugopal
+- Max Holthaus — recurring gap
+- Ricardo & Sylvia Ramos
+- Lionel Miller
+- Sang Du
+- Kris'es Wholesale Seafood Inc.
+- Letecia Rodriguez & Kenneth Osorio
+- Donald Matson
+- Daniel Porter
+- Bianca Asteris
+- Israel Rojas
+- Phyllis Giambrone
+- Kevin Locke
+- Juan Rivera
+- Barca (Miguel/Michael), Conifer claim PL2503538
+- Ignacio, Allstate claim 0826374308, Dallas
+- Andreanna Galvan, Allstate claim 0831659222, Austin
+- Arthur, Allstate claim 0830981956, Leonard
+- Dayna, Tower Hill claim, 270 Harvest Creek Dr
+- Lalitha Ranganathan; Atman & Jigisha Raval — recurring gap
+- Brian and Monique, Nationwide claim, 6313 Serpentine Dr, Killeen
+- Marc Dumais — recurring gap
+
+Data-quality notes for Joseph to spot-check:
+- The Rise Public Adjusting "Status Update Request" and "Additional Files" bulk emails alone
+  account for roughly 30 of the unmatched names above — none of those files have a card on this
+  board yet, which may mean they belong on a different board (e.g. "PA FILES") or simply haven't
+  been created here.
+- See the Winson Varghese note above re: an empty checklist created on the wrong card by mistake
+  during investigation — no content was written to it, safe to ignore or delete.
