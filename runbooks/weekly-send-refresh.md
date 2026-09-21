@@ -96,6 +96,28 @@ A count landing on exactly 50 or exactly 100 is a truncation signal, not a real 
 in the run summary and add a footer line to that client's page noting older files are not
 shown. Do not silently present a truncated list as complete.
 
+**2026-09-21 update: this is not just a two-client problem.** The same 50-card cap hit
+*LINEAR roofing* (search reported 50 with `totalCount: 50` -- the true count was 465), *Strong
+House Pro* (reported 50, true count 120), and *Cross country Public Adjusting* (reported 50,
+true count 95), none of which were previously flagged. The dedupe-until-zero-new rule above
+still applies, but do not trust it alone on any label with real volume -- the cursor can report
+a stable, self-consistent 50-card result (same cards, same `endCursor`, `totalCount: 50`) that
+looks like a complete answer and is not.
+
+The reliable fallback, used to fix all of the above: `mcp__Trello__trelloReadCard
+action="list_by_board"` paginates correctly (its cursor genuinely advances) and, as a bonus,
+returns each card's real `labels` array -- `trelloSearch` always returns `labels: []` regardless
+of the query. Filter the full board dump client-side for the label you want. This is more
+expensive (it walks every list on the board, not just one label), so treat it as the verification
+step for any label whose `trelloSearch` count looks suspicious (round numbers, or a total that
+feels low for a client's apparent activity), not the default first move for every label.
+
+`list_by_board` has its own rough edges at real scale: on a board this size its cursor has been
+observed to stop advancing (or a page to time out) right around very large single lists (a
+1000+ card "Paid" list was the failure point in one run). Cross-check any list you can't page
+through cleanly with `trelloReadList` / `list_by_list` and a live spot-check before trusting the
+count.
+
 ### Never cap the file list
 
 Show **every** open file the client has. No per-stage caps, no "top N most recent", no

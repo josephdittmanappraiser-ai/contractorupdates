@@ -35,3 +35,34 @@ no email searched, no page touched; config unchanged. Not retrying again in this
 this is an infrastructure issue on the Routine/connector side, not something fixable by
 re-running the prompt.
 
+2026-09-21 | 169 pages refreshed (1 chunked: No Stress Claims) | 5 created | 1691 open files | 5 new clients (Easy Button Construction, Michael Young Roofing & Construction Inc., Rusty Coffman - Infinite Roofing, Baker Law, Ellah Development)
+
+Tools connected this run. Roster + all per-client Trello pulls fanned out across ~35 subagents
+(haiku for roster/tallies, opus for Linear/Strong House Pro rep attribution, sonnet for
+everything else), writing raw card data to disk only -- the orchestrator never held card
+content, per the token-discipline rule. Pages built deterministically from the aggregated data
+via `tools/build_rep_pages.py` (the proven, tested renderer) rather than hand-authored per
+page, then leak-scanned clean before publish. Publish fanned out across 19 subagents (17
+EditSite batches, 1 CreateSite batch for the 5 new clients, 1 dedicated chunked-publish agent
+for No Stress Claims) -- all 19 succeeded, zero failures, no empty pages.
+
+Found and fixed mid-run: the `trelloSearch` 50-card pagination cap (previously thought specific
+to No Stress Claims and Vince) also silently truncated LINEAR roofing (50 reported vs. 465
+actual), Strong House Pro (50 vs. 120), and Cross country Public Adjusting (50 vs. 95). Re-pulled
+all three via the reliable `list_by_board` method before building pages -- see the runbook's
+updated pagination section. Also fixed a `clean_insured()` gap in `build_rep_pages.py`: a card
+name with a note run on with no space before the hyphen ("Bunch-position sent to umpire") was
+leaking the note as if it were part of the insured's name; the split regex now also breaks on a
+hyphen immediately followed by a lowercase letter.
+
+Rep attribution: LINEAR roofing 389 by label, 41 by Gmail cascade, 35 unassigned (of which ~12
+are current staff not on the canonical rep list -- see run report). Strong House Pro 89 by
+label, 9 by Gmail, 22 unassigned (14 likely-stale-roster reps). Both companies' rep-attribution
+agents flagged the canonical `reps[]` list in config as probably missing a number of active
+people -- worth Joseph reviewing.
+
+One new-client label needs a human call: "Rusty Coffman - infinite roofing" was auto-created as
+its own new client page, but Rusty Coffman is already a named rep on the LINEAR roofing /
+Strong House Pro pages -- Joseph should confirm whether this is a separate company he runs or
+should be folded into his existing rep page(s).
+
