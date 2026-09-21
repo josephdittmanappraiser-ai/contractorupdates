@@ -2,6 +2,63 @@
 
 One line per run: date | threads scanned | logged | unmatched | skipped as noise
 
+2026-09-21 | 114 threads scanned | 60 logged | 26 unmatched | 22 skipped as noise, 6 skipped as duplicate
+
+Discovery paginated through 114 unique Gmail threads matching `newer_than:1d` (three pages,
+50+50+14); 21 were dropped up front as plain automated noise (Semrush/HP/Marriott/Hartford
+marketing, an Otter.ai digest, a Verisk OTP, a Google security alert, USAA/Allstate/ASI
+auto-acks, an invoicely payment receipt, a Send.co "new view" alert, a Google Drive share
+notice, a "no longer in use" bounce, and five internal self-addressed iink-disbursement
+invoice placeholders with empty bodies). The remaining 93 threads were fanned out to 16
+`sonnet` subagents (~6 threads each, dispatched concurrently); one more (an internal
+multi-card "Estimates Sent" status digest) was reclassified as noise by its subagent since
+it wasn't single-file dialogue.
+
+Note: this run's scheduled-task prompt described the target checklist as "📧 Email log," but
+`runbooks/daily-email-to-trello.md` on this branch names it "📋 Chain of Events" — followed
+the runbook as the authoritative spec (per its own "read and follow exactly" instruction).
+
+Unmatched insureds named in email with no card on the Insured Appraisals board:
+- Sairam Chowdary (Legacy Roofing GC quote-update request)
+- Nicole Morales, State Farm claim 53-0G7S-634 (Wolfgang/Tarrytown Roofing) — surfaced 3x this
+  run, including an internal escalation note; the only board card with a contact overlap
+  (SCOTT CARTER) explicitly notes this thread is NOT that file
+- ARC Aerospace / Syeda Nargis, claim 43-00B6W-626
+- Shannon Roussos, ASI-Progressive claim 1658178-264402
+- Michael Peters (referred by Kenny North/Coastal Claims)
+- Owen/Brandy McLerran, State Farm claim 53-93J9-44B, 84 Roundabout Ln, Huntsville
+- Dayna, Tower Hill claim 3300577729, 270 Harvest Creek Dr — recurring gap, also flagged 2026-09-20
+- Richard Burns, USAA claim 011431280-800
+- Gonsales/Gonzales, claim 01008405968-02
+- Katonna Cunningham, USAA claim 022550340-801
+- Baldomero Alvarado, Allstate claim 0809413628, 2916 Highgate Ln, Bedford
+- Shaoze Ouyang, Allstate claim 000827477167, 13024 Tantivy Dr, Austin
+- Jett Baker, leak/contents claim with appraiser John Wynn (surfaced in 2 separate threads)
+- Mohammadershad Shaik, Nationwide claim 300571-GR
+- New Pilgrim Rest Baptist Church, Brotherhood Mutual claim 0694377
+- Lakeland West Capital 26, 1905 Tulane Dr, Lufkin
+- Marissa/J. Griebel, Allied Trust claim 2610333
+- 2500 Meadow Vw, Bedford (Bruner)
+- Gossett and Orr (named in a multi-file scheduling digest; Perez and Muthukrishnan in the
+  same digest do have cards)
+- possible "Stites" file (mstites5@gmail.com), Allstate claim 0836072966 — distinct from the
+  JUDY HOFFMAN card despite a shared prior-claim reference in the thread
+
+Ambiguous — card(s) exist but couldn't be confidently picked (a disambiguation problem, not a
+missing-card one):
+- Faris Farassati (10+ open cards, one per property; thread named no address to disambiguate)
+- a "Brown" file per PA Erica Shamp (5+ open Brown cards; policy ref 530B4F403 given, no
+  address/claim# match)
+- Williams DOU panel thread — appraisers Mohr/Harrison, HVAC/mitigation/fencing dispute (15
+  open Williams cards, none referencing these details)
+
+Data-quality notes for Joseph to spot-check:
+- The Mascarenhas card has two checklists both named "📋 Chain of Events" — worth merging or
+  renaming one so future runs don't have to guess which is current.
+- Not logged (out of scope for this routine, self-addressed system alert, surfaced only for
+  visibility): "ALERT: reminder routine sent OK, but Trello audit logging broken (3rd time) -
+  2026-09-20" — flagging since its own subject says this is the 3rd occurrence.
+
 2026-09-16 | 263 threads scanned | 188 logged | 43 unmatched | 24 skipped as noise, 16 skipped as duplicate
 
 Highest-volume run to date. Discovery paginated through 263 unique Gmail threads matching
