@@ -27,7 +27,10 @@ def main(raw_dir, out_csv):
             continue
         for r in data:
             cid = (r.get('cardId') or '').strip()
-            lab = (r.get('labels') or '').strip()
+            lab = r.get('labels') or ''
+            if isinstance(lab, list):
+                lab = ', '.join(str(x) for x in lab)
+            lab = lab.strip()
             key = (cid, lab)
             if not cid:
                 continue

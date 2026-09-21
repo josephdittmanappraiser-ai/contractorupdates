@@ -54,7 +54,11 @@ def clean_insured(card_name, desc):
     s = re.sub(r'(?i)-\s*(oa|ad|doa|ff|sou|cn)\b', r' - \1', s)  # GRASSI-oa -> GRASSI - oa
     s = re.sub(r'\[[^\]]*\]', ' ', s)          # [CN: 033232/14003 Goodman St]
     s = re.sub(r'\([^)]*\)', ' ', s)           # ( BEN DITTMAN IS OA )
-    s = re.split(r'\s+-\s+|\s*/\s*|,', s)[0]   # cut at the first note separator
+    # Cut at the first note separator. A hyphen right before a lowercase letter is
+    # a note run on with no space ("Bunch-position sent to umpire") -- a real
+    # hyphenated surname is capitalized on both sides ("Smith-Jones"), so this
+    # split point only fires on the note case.
+    s = re.split(r'\s+-\s+|\s*-\s*(?=[a-z])|\s*/\s*|,', s)[0]
     keep = []
     for tok in s.split():
         if any(ch.isdigit() for ch in tok) or '$' in tok:
