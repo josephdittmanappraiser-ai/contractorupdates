@@ -1,2 +1,6 @@
 __pycache__/
 *.pyc
+
+# Weekly refresh scratch data: raw Trello pulls and built pages contain real
+# insured names/addresses/contacts. Intermediate to the run, not committed.
+work/weekly-*/
