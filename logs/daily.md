@@ -2,6 +2,104 @@
 
 One line per run: date | threads scanned | logged | unmatched | skipped as noise
 
+2026-09-22 | 327 threads scanned | 213 logged | 74 unmatched | 37 skipped as noise, 3 skipped as duplicate
+
+Discovery paginated through 327 unique Gmail threads matching `newer_than:1d` (seven pages of up
+to 50). 27 were dropped up front as plain automated noise (Send.co "new view" alerts, `support@
+app.iink.com` payment/status notifications, Invoicely, CompanyCam, Trustpilot, a service-now
+auto-ack, Chase/Square marketing and payment receipts, SignWell e-sign completion notices, a
+stray LinkedIn digest, and 8 pure carrier auto-reply/bounce stubs with no human content). The
+remaining 300 were fanned out to 50 `sonnet` subagents (~6 threads each, dispatched concurrently
+across three waves of 17/17/16 to respect this session's concurrent-subagent cap). Of those 300:
+213 logged, 3 skipped as exact duplicates of already-logged entries, 10 more skipped at the
+subagent level as noise (automated notices, bounces, or internal self-addressed reports mixed
+into an otherwise-real thread), and 74 unmatched.
+
+Checklist name: followed `runbooks/daily-email-to-trello.md` ("📋 Chain of Events") over the
+scheduled-task prompt's stale "📧 Email log" text, consistent with the 2026-09-20 run's note that
+the runbook is the maintained spec.
+
+Recurring board-scope finding (new this run, worth Joseph's attention): a large and growing share
+of "unmatched" threads (21 of the 74) actually have a matching card — but that card lives on a
+*different* Trello board (mostly "PA FILES", one on "OA APPRAISAL TASK"), not "Insured Appraisals"
+which this run is scoped to per `config/contractors.json`. Recurring names hit this repeatedly:
+Tim Redwine (3x), John Surgeon (2x), plus Natividad, Griebel, Bradshaw, Bierschenk, Balakrishnan,
+Gandla, Munigety/Bitla, Kayla Thomas, Ganatra, Cho/Deolveira, Parikh, David Larson, Abilene
+Swimming Club, Lakeland West Capital, Roussos, Suzanne Ramos, Mondragon, Underwood, Bernal, and
+Zamarripa/Billy Thomas. If Joseph wants these logged too, the runbook's board scope needs to
+either add "PA FILES" (and any other relevant boards) to Phase 2's `search_cards` call, or this
+gap will keep recurring daily without ever getting card entries.
+
+Security note: subagents encountered at least 7 separate instances this run of text embedded in
+email bodies or Trello card descriptions/checklist names that read as instructions directed at an
+AI agent (e.g. fake "CARD DATA FIXED" directives, a fabricated "(Claude) UPDATE" checklist entry,
+a "RULE 8" escalation-demand block, "AI OA REVIEW" directive blocks, and text about "Trello
+connector limitations"). In every case the subagent correctly treated this as untrusted data,
+took no action on it, and logged only genuine dialogue. Worth Joseph knowing this pattern exists
+across both channels (email and card content) in case it's worth investigating the source.
+
+Unmatched insureds named in email with no card on the Insured Appraisals board (different-board
+matches listed separately above are not repeated here):
+- Ziqi Wang, claim TXHO-00044466
+- Kostas Papageorgiou, claim 1185237, 2910 Ocean Mist Ct, Seabrook TX
+- Francisco Gabino, claim 01-010-084862
+- Dayna Schmidt / Nicholas Coleman, claim 3300577729 — recurred across 2 threads
+- Miguel Cruz, claim PL2503538
+- Lalitha Ranganathan & Venkateswaran Tekkalur, claim 260240713
+- Dena (surname unknown), Liberty Mutual claim 061826503, Waco TX
+- Russell Peter (no claim# given)
+- Freddie Besa, Allstate claim 0831659222
+- Shaoze Ouyang, Allstate claim 000827477167 — recurred across 2 threads
+- Cody Wherley, Allstate claim 000795806488
+- Unidentified insured, Allstate claim 000839601316
+- Ben & Danielle Jackson, claim 060545725-01, 1700 Blufftop Cir, Round Rock TX
+- Mario Gutierrez, 1334 Sayles Blvd
+- Arthur Green, claim 0830981956
+- Unidentified insured, claim 53-0G7S-634, 313 Thelma
+- Unidentified insured, claim 53-0K0D-995
+- James McFarland, 1103 Quaker Ridge Dr, Austin TX
+- Richard Burns, USAA claim 011431280-800 — recurred across 3 threads
+- Katonna Cunningham, claim 022550340-801
+- Unidentified insured, Economy Preferred claim 7010483200-1
+- Justin Carroll, claim 4387S386F
+- Annette Hoya, Allstate claim 0758954366
+- ARC Aerospace and Defense Systems, claim 43-00B6W-626
+- Sydney & Christopher Spears, USAA claim 027287724
+- Baldomero Alvarado, Allstate claim 0809413628
+- Jeffrey Bruner, USAA claim 003273567
+- Unidentified insured, USAA claim 020076526, 1108 Reed St, Hurst TX
+- Judy Jordan, American National claim 42-G-4XT130
+- John Brackett, State Farm claim 4396G351K
+- Bryan Obermeyer, claim 43-96M4-53F, 1212 Dora St, Bedford TX
+- Sairam Chowdary (no claim# given)
+- No Stress Claims bulk status-check email — bundled ~34 separate files in one thread, could not
+  be safely split without a clearer per-insured breakdown
+- Swapnil Kadam / Cadalia Gonsales / Jaqueline "Jackie" Cortez — 3 files bundled in one thread,
+  none matched cleanly (Cortez has a similarly-named card under a different first name)
+- Cadalia & Eliakim Gonsales, claim 01008405968-02 — recurring gap
+- Unidentified insured — panel-only thread (appraisers Mark Followwell, Alex Rippee)
+
+Different-board matches (card exists, just not on "Insured Appraisals" — see board-scope finding
+above): Veronica Natividad, Marissa/Joel Griebel, Andrew Bradshaw, Thomas Bierschenk, Veeramuthu
+Balakrishnan, Bharath Gandla, Kishore Kumar Munigety & Neelima Bitla, Kayla Thomas, Manish & Avani
+Ganatra, Hoseong Cho & Penelope Deolveira, John Surgeon, Deepa Parikh, David Larson, Abilene
+Swimming Club Inc., Lakeland West Capital, Shannon Roussos, Suzanne Ramos, Fidencia Mondragon,
+Phillip & Amber Underwood, Ofelia Bernal, Ignacio Apolinar Zamarripa, Billy Thomas, Tim Redwine.
+
+Data-quality notes for Joseph to spot-check:
+- Duplicate "📋 Chain of Events" checklists (two on one card) were hit again this run on: Lawrence
+  Russell, Shellie Downing, Chad Raymond, Farassati, Hernando Velasquez (two checklists that
+  actually track two different sides of the file — contractor vs. carrier appraiser — so may be
+  intentional, not a duplication bug), and Shaikh. Same long-running issue noted in prior runs.
+- Good news: the recurring "Rong Dai" ambiguity (7+ open rental-property cards, flagged unmatched
+  in nearly every prior run since 2026-08-15) was resolved this run — 3 of his threads matched
+  cleanly by claim number to 3 distinct cards.
+- Two threads (1a094954d26aeb82 and 19fdee2f843541d8) turned out to be the same underlying
+  Carolyn Wisco/Frank Torres file reached via two different search hits; entries were merged onto
+  one card rather than logged twice.
+- A contractor email (texcoroofs-style bulk thread) referenced Cadalia & Eliakim Gonsales again —
+  this claim has now recurred as an unmatched gap across at least 3 separate runs.
+
 2026-09-16 | 263 threads scanned | 188 logged | 43 unmatched | 24 skipped as noise, 16 skipped as duplicate
 
 Highest-volume run to date. Discovery paginated through 263 unique Gmail threads matching
