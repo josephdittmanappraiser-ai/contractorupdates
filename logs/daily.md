@@ -2,6 +2,80 @@
 
 One line per run: date | threads scanned | logged | unmatched | skipped as noise
 
+2026-09-23 | 286 threads scanned | 194 logged (across 172 threads) | 54 unmatched | 50 skipped as noise, 23 skipped as duplicate
+
+Discovery paginated through 286 unique Gmail threads matching `newer_than:1d` (six pages of up to
+50). 26 were dropped up front as plain automated/marketing noise (Intuit/Invoicely/Deluxe payment
+and marketing notices, CompanyCam download links, `support@app.iink.com` payment/status/message
+notifications, Send.co "new view" alerts, `ssomail.verisk.com` one-time codes, `oneinc.com` carrier
+payment notices, a LinkedIn digest that slipped past the sender filter, a mailer-daemon bounce, and
+four bare "Automatic reply" auto-responses with no substantive content), plus 3 Google Calendar
+"Updated invitation" notices (scheduling-tool bodies, not email dialogue). The remaining 257 threads
+were fanned out to 43 `sonnet` subagents (~6 threads each, dispatched concurrently across three
+waves of 15/14/14 to respect this session's concurrent-subagent cap; two batches in wave 1 were
+denied once by the permission classifier on first dispatch and retried successfully). Of those 257:
+172 threads produced at least one new checklist entry (194 entries total — several threads bundled
+multiple distinct insureds in one bulk status email, or contained more than one new dated event),
+18 were pure duplicates of already-logged entries, 21 were noise the subagents caught only after
+opening the thread (auto-acks, a vendor invoice, an internal automation report, a one-line reply
+with no surname), and 54 had real dialogue but no matching open card on the Insured Appraisals board.
+
+Checklist name: followed `runbooks/daily-email-to-trello.md` ("📋 Chain of Events") over the
+scheduled-task prompt's stale "📧 Email log" text, consistent with the 2026-09-20 and 2026-09-22
+runs' notes that the runbook is the maintained spec.
+
+Recurring board-scope finding (continues from 2026-09-22): several more "unmatched" insureds turned
+out to have a card on a *different* Trello board ("PA FILES"), not "Insured Appraisals" which this
+run is scoped to — Heather Rozzell and Phillip & Amber Underwood (seen twice). Worth deciding
+whether this run's scope should extend to that board.
+
+Duplicate-checklist housekeeping notes surfaced by subagents this run (not fixed, flagged for a
+human pass): several cards now carry two or even three separate checklists all named "📋 Chain of
+Events" (Joe Sanchez, Srinivas Manthena, Mike Russell, Sal Marcuz, Kishore Bulusu & Anupama Mantha,
+Lawrence Russell) — each subagent appended to whichever one already matched that thread's history
+rather than creating a fourth, but these should be merged.
+
+Unmatched insureds named in email with no card on the Insured Appraisals board:
+- Miguel Cruz, Conifer claim PL2503538, 2702 Eagle Pass, Mesquite — attorney and carrier threads
+- Griebel (Marissa Griebel), Allied Trust release agreement
+- Rahul Parekh
+- Katonna Cunningham, USAA claim 022550340 — recurred across 4 threads
+- Mohammadershad Shaik & Sameena Mohammad, Nationwide claim 300571-GR
+- Liberty Mutual claim 061852446-01 — insured never named in thread, appraiser Triston Bannister
+- Lakeland West Capital XXVI / Adam McKey
+- State Farm claim 43-0B3Z-137 — insured never named in thread, adjuster Eric Beasley
+- Geoffrey and Latisha Mburu
+- Rita Aparicio, Progressive claim 1654020-264402
+- Lalitha Ranganathan & Venkateswaran Tekkalur, National General claims 260142775 and 260240713 —
+  recurred across 4 threads
+- Sapna Narendra / Narendra Sohanlal, Safeco claim 060801867-01 — recurring gap
+- Urvish Patel, Allstate claim 0814050795, 128 Sunberry Ln, Caddo Mills
+- Monique E. Johnston & Brian C. Johnston, TxDMV claim 061603262-01 — recurred across 3 threads
+- Judy Hopkins, Allstate claim 0837193036
+- Venkata Kota, Liberty Mutual claim 061322821 — recurring gap
+- Jian Qu
+- Richard E. Burns, USAA claim 011431280 — recurred across 3 threads
+- Kayla Thomas, Nationwide claim 212300-GR, 3208 Jackal Dr, Lorena
+- Chakravarthy, Allstate claim 000834698317
+- Cadalia & Eliakim Gonsales, claim 01-008-405968 — recurring gap
+- Patricia & Peter Mwangi, SageSure claim HO-2025-775945050
+- Brijesh Patel, 10608 Pluchea Cove property only (his other two properties matched existing cards)
+- Shaoze Ouyang, Allstate claim 000827477167, 13024 Tantivy Dr, Austin
+- Stephanie Cook / William P Benavidez, claim 5393X455B
+- Bryan Obermeyer, State Farm claim 43-96M4-53F, 1212 Dora St, Bedford
+- Mildred Davis, claim 0817538218 — recurring gap
+- Curtis & Jamie Shakotko, claim 01-009-856585, 1131 W Walker St, Denison
+- Devangi, 617 Oxford Dr, Wylie (surname not given)
+- Alina Oslobodyanyuk / Valerii Naida, 2304 Airport Dr, Leander
+- Billy Thomas, 7820 Emerald Hill Way, N Richland Hills
+- Hitarth Trivedi, 12475 Cajun Dr, Frisco
+- Brackett, Prosperity Bank mortgage-waiver dispute
+- Becker — two open candidate cards (Jessica Becker Matthews, Stephen Becker), could not disambiguate
+- Sairam Chowdary (Kapa), Legacy Roofing estimate thread
+
+Also flagged: Heather Rozzell and Phillip & Amber Underwood (recurred twice) have cards, but on the
+"PA FILES" board rather than "Insured Appraisals" — see board-scope note above.
+
 2026-09-22 | 327 threads scanned | 213 logged | 74 unmatched | 37 skipped as noise, 3 skipped as duplicate
 
 Discovery paginated through 327 unique Gmail threads matching `newer_than:1d` (seven pages of up
