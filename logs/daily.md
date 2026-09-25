@@ -768,3 +768,87 @@ Data-quality notes for Joseph to spot-check:
   been created here.
 - See the Winson Varghese note above re: an empty checklist created on the wrong card by mistake
   during investigation — no content was written to it, safe to ignore or delete.
+
+2026-09-25 | 338 threads scanned | 209 logged | 52 unmatched | 64 skipped as noise, 13 skipped as duplicate
+
+Discovery paginated through 338 unique Gmail threads matching `newer_than:1d` (seven pages of up
+to 50 via THREAD_VIEW_MINIMAL). 52 were dropped up front as plainly non-file-dialogue: Trello's
+own notification digests, Invoicely payment receipts, `support@app.iink.com` platform automations
+(job-revision/payment/approval-request notices), Google Drive/Dropbox/CompanyCam share notices,
+Verisk one-time-code emails, marketing (Marriott, SiriusXM, a debt-collection-service pitch, a
+Google Ads newsletter), automated carrier "We've Received Your Email"/"Automatic reply" stubs,
+and two internal ops-automation emails Joseph sends himself (an inspection-reminders run report
+and a bulk estimates-sent action-item list).
+
+The remaining 286 threads were fanned out to 48 `sonnet` subagents (~6 threads each, dispatched
+concurrently in one message); 10 batches plus one small leftover batch hit this session's
+20-concurrent-subagent cap on first dispatch and were retried once slots freed — all 48
+completed. Several cards had no "📋 Chain of Events" checklist yet and got one created; a few
+long-running threads (e.g. Prasanna Govindarajan, Clayton Moke, Amy Hildebrand) were backfilled
+with their full multi-week history in one pass since none of it had been logged before.
+
+Note on checklist name: as in the 2026-09-20 run, the scheduled-task prompt said dialogue goes
+in a "📧 Email log" checklist, but `runbooks/daily-email-to-trello.md` on this branch still
+specifies "📋 Chain of Events". Followed the runbook as authoritative — all entries this run went
+to "📋 Chain of Events". One card (Mark Celebron) already had a pre-existing "📧 Email log"
+checklist from an earlier run/convention; left it untouched and created a separate
+"📋 Chain of Events" checklist rather than reusing it, per the runbook's exact-name instruction.
+
+Unmatched insureds named in email with no card on the Insured Appraisals board:
+- Steven Rodriguez — Powerhaus Solutions demand, no claim # given
+- Porter, 5418 Lost Tree, San Antonio, TX 78244 — new referral from Remy's Roofing
+- Annette Hoya — card exists, but only on other boards ("PA FILES", "John Wynn - appraisals")
+- Alex Salazar, claim 5378H495P — 4 candidate "Salazar" cards on the board, none match
+- Steven Knight
+- Jeaqueline Lima
+- Trealla Epps
+- Somya Roy
+- No insured named, claim 53-93X4-55B
+- John Castaneda Jr.
+- Cynthia Madden, Allstate claim 0819700996 — recurred across 2 threads
+- Bruce Pettengill, Allstate claim 0834459380 — recurring gap
+- Abilene Swimming Club, Inc., Selective claim 22898532 — recurring gap
+- Veronica Natividad
+- Billy Thomas
+- Mohammadershad Shaik & Sameena Mohammad, Nationwide claim 300571-GR — recurred across 2 threads
+- Kamran Siddiqui
+- Cruz (surname only, attorney rep-contract follow-up) — 9 candidate "Cruz" cards, none confirmable
+- Johanna Aguirre Strauss — card exists, but only on the "PA FILES" board
+- Robert Huddle — card exists, but only on the "PA FILES" board — recurred across 2 threads
+- Deepa Parikh — card exists, but only on the "PA FILES" board
+- Billy Ray
+- Urvish Patel, 128 Sunberry Ln, Caddo Mills
+- Joseph McGettrick / McGettrick family
+- Sairam Chowdary
+- Misti/John Surgeon, StarStone claim CSMH-00000041
+- Momtazul Karim, Travelers — 2 candidate cards exist but under a different carrier (State Farm)
+- Cadalia & Eliakim Gonsales, Homesite/AFICS claim 01-008-405968 — recurring gap, recurred across
+  2 threads
+- Darlean Fulton
+- ARC Aerospace / Syeda Nargis
+- Lakeland West Capital XXVI / Adam McKey
+- Walker — "Walker v. Homeowners of America" — 2 candidate "Walker" cards, neither matches this
+  carrier/attorney
+- Dena Williams
+- Jakai Chen
+- Ben & Danielle Jackson — recurring gap
+- Francisco (surname not given), AFICS claim 01-010-084862
+- Richard Burns, claim 01008405968-02
+- Katonna Cunningham, claim 022550340-801
+- Marline Ponce De Leon
+- Lauren Brandon
+- Shaoze Ouyang, Allstate claim 000827477167
+- No insured named, Liberty Mutual claim 060448447 ("Pheasant" address)
+- David Larson, claim 01010023446
+- No insured named, claim HO-2026-224324287
+- Veeramuthu Balakrishnan — recurring gap
+- Abdelaziz, State Farm claim 1697W017W
+- Alonzo Haynes — recurring gap
+
+Data-quality notes for Joseph to spot-check:
+- Several names above recur day over day (Balakrishnan, Gonsales, Jackson, Pettengill, Haynes,
+  Abilene Swimming Club) — worth checking whether these files belong on a different board, need a
+  card created here, or are already closed elsewhere.
+- Four insureds (Aguirre Strauss, Huddle, Parikh, Hoya) have real cards, but on the "PA FILES" or
+  other boards rather than "Insured Appraisals" — the runbook scopes card search to the Insured
+  Appraisals board only, so these read as unmatched even though a card exists.
