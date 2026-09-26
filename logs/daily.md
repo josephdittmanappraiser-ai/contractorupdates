@@ -852,3 +852,90 @@ Data-quality notes for Joseph to spot-check:
 - Four insureds (Aguirre Strauss, Huddle, Parikh, Hoya) have real cards, but on the "PA FILES" or
   other boards rather than "Insured Appraisals" — the runbook scopes card search to the Insured
   Appraisals board only, so these read as unmatched even though a card exists.
+
+2026-09-26 | 277 threads scanned | 169 logged | 45 unmatched | 45 skipped as noise, 23 skipped as duplicate
+
+Discovery paginated through 277 unique Gmail threads matching `newer_than:1d` (six pages of up to
+50 via THREAD_VIEW_MINIMAL). 35 were dropped up front as plainly non-file-dialogue: marketing
+(SiriusXM, Marriott, Deluxe, HP, a debt-collection pitch), payment/platform automations
+(Invoicely, QuickBooks/Intuit, `support@app.iink.com` job/payment notices), a Verisk one-time-code
+email, CompanyCam and Send.co alerts, carrier auto-ack/"Automatic reply" stubs (Allstate, State
+Farm, USAA, Beazley, FBFS), Google Calendar invitation mechanics, and two internal ops-automation
+emails Joseph sends himself (an inspection-reminders run report and an estimates-sent action-item
+list).
+
+The remaining 242 threads were fanned out to 41 `sonnet` subagents (~6 threads each, dispatched
+concurrently in three waves of 14/13/14 to respect this session's 20-concurrent-subagent cap; one
+batch was denied on first dispatch by the concurrency limiter and a duplicate retry of an
+already-completed batch was mistakenly sent in its place, which the affected batch correctly
+reported back as all-duplicates on its second pass — the true missing batch was caught and
+dispatched afterward with no data lost either way). Of those 242: 169 threads produced at least
+one new checklist entry (several threads bundled multiple distinct events or insureds, so total
+entries written exceed 169), 23 were exact duplicates of already-logged entries, 10 were noise the
+subagents caught only after opening the thread (auto-notifications, a POC-change email, a
+contractor networking email, a drive-share notice with no claim content), and 45 had real dialogue
+but no matching open card on the Insured Appraisals board (or, in a few cases, no insured name
+identifiable at all).
+
+Checklist name: followed `runbooks/daily-email-to-trello.md` ("📋 Chain of Events") over the
+scheduled-task prompt's stale "📧 Email log" text, consistent with every prior run's decision.
+
+Security note: consistent with 2026-09-22's finding, subagents again encountered text embedded in
+Trello card descriptions/checklists that reads as instructions directed at an AI (e.g. "🤖 AI OA
+REVIEW" analysis blocks with internal dollar-figure/shorthand notes on several cards, and
+"RULE7"/"RULE 8"/"Branch B" directive blocks on some Rong Dai cards, plus a triage-style note on an
+"Apple Tirones" card). In every case the subagent treated this as untrusted data, took no action on
+it, and logged only genuine client-safe dialogue.
+
+Duplicate-checklist housekeeping (not fixed, flagged for a human pass): several cards again turned
+up with more than one checklist named "📋 Chain of Events" — Mike Russell, WRI LLC, Lyss Woods LLC,
+and Aldair Alvarado this run — each subagent wrote to whichever one already matched that thread's
+history rather than creating another; these should be merged by hand.
+
+Unmatched insureds named in email with no card on the Insured Appraisals board:
+- Lakeland West Capital XXVI / Adam McKey, claim KY26K2203157
+- Cadalia & Eliakim Gonsales, claim 01-008-405968-02 — recurring gap, recurred across 2 threads
+- Kamran Siddiqui, State Farm claim 43-97D6-40Q
+- Maribel Benavides, claim 0000222523
+- Abilene Swimming Club, Inc., claim 22898532 — recurring gap
+- Imran Shaik, claim 01-008-870484 (Homesite/AFICS)
+- Unnamed insured — panel-only thread (appraisers Alex Rippee/TrueScope Adjusting, carrier rep
+  Mark Followwell)
+- Cynthia Madden, Allstate claim 0819700996, 5800 Meadows Way, North Richland Hills TX — recurring
+  gap
+- Chakravarthy, Allstate claim 000834698317 — recurring gap
+- Shelley Redwine, claim 1630750-264402 (ASI)
+- Billy Ray (via contractor Jacob Diaz/Strong House Pro)
+- Jeff & Francine Perez, claim 068339-GR — recurring gap
+- Ofelia Bernal, claim 0827947599, 103 East Ave, Florence TX — recurred across 3 threads, recurring
+  gap
+- Margaret Grant, claim 01-009-473140, 210 N LaSalle Dr, Abilene TX — recurring gap
+- Sailaja Mahendrakar / Bharath Pissay, claim 0820685766, 15904 Pearson Brothers Dr, Austin TX —
+  recurring gap
+- Vijaya Bandi, claim 1601394-264402, 2104 Belmont Ln, Seagoville TX — recurring gap
+- Ben (Benjamin) Jackson, claim 060545725-01, 1700 Blufftop Cir, Round Rock TX — recurring gap
+- Curtis Salter, Travelers claim I6Q0931001H
+- Gabriela Carias Green, biBerk claim N9BP401519-001-001-001
+- Susan & Travis Crow, Homesite claim 01-009-647715
+- Max Holthaus, Farm Bureau claim B226474P00 — recurring gap
+- Cory Leech, claim 7010353024-1, 305 Fox Crossing, Burnet TX 78611
+- Abdelaziz Residence, State Farm claim 1697W017W
+- Jakai Chen
+- Darlean Fulton, Travelers claim JHM2588
+- Latisha Kinyua-Mburu, State Farm Lloyds claim 53-0B4Z-843 — recurred across 2 threads, recurring
+  gap
+- Shaoze Ouyang, Allstate claim 000827477167 — recurring gap
+- Richard Burns, USAA claim 011431280-800 — recurred across 3 threads, recurring gap
+- Katonna Cunningham, USAA claim 022550340-801 — recurred across 2 threads, recurring gap
+- Unidentified insured, claim 016608567-820
+- Unidentified insured, Allstate claim 000827947599
+- Gordon & Diane Cloutier, Allstate claim 0817988678
+- Unidentified insured, claim/ref 530B3K846
+- Ignacio Apolinar Zamarripa, Allstate claim 0826374308
+- Paul & Nancy Madigan, claim 0838699683 — recurred across 3 threads (AccuLynx + contractor emails)
+
+Data-quality notes for Joseph to spot-check:
+- Eloy Aguilar card: email cited claim HV2605238 vs the card's on-file 12516539777 — address
+  matched exactly, so the entry was logged, but the claim-number mismatch is flagged for review.
+- Rong Dai (claim 061798958) and several other high-volume cards again show internal automation
+  directive text embedded in card descriptions — see security note above.
