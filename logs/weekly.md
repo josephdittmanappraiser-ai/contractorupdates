@@ -66,3 +66,37 @@ its own new client page, but Rusty Coffman is already a named rep on the LINEAR 
 Strong House Pro pages -- Joseph should confirm whether this is a separate company he runs or
 should be folded into his existing rep page(s).
 
+2026-09-28 | 174 pages refreshed (3 chunked: No Stress Claims, Legacy Roofing GC, Cross Country
+Public Adjusting) | 0 created | 1720 open files | new clients: none (roster stable; Ellah
+Development currently has 0 open cards and was skipped)
+
+Board crawled via 8 haiku/sonnet subagents walking all non-admin lists (list_by_list, dedupe-
+until-zero-new-id), catching and fixing two 50-card truncations the same way the runbook
+describes for trelloSearch (PA Inquires - Over 2 months; demand letters sent; IN PA). Rep
+attribution: LINEAR roofing 387 by label + 51 by Gmail cascade = 438/465 (27 unassigned, mostly
+staff not on the canonical reps[] list); Strong House Pro 88 by label + 19 by Gmail = 107/127 (20
+unassigned, same pattern -- both cascade agents named the specific off-roster staff emails found,
+see run report). Freshness gate: 320 files had never been enriched; ran full first-time back-reads
+via 27 sonnet subagents in 4-file batches. 24 of 27 completed; 3 (batches 2, 10, 11 -- 36 files)
+were blocked at launch by this session's own permission classifier ("External System Writes") and
+were not retried -- those 36 files publish this week with only their stage-blurb text, no email-
+derived history. Freshness gate came back clean (0 unexplained stale) after patching a
+missing-field gap (two agents put their stale-explanation prose in `update` instead of
+`staleReason`) and after a 2-file VERIFY.md pass on the pre-existing gate failures.
+
+Fixed a template bug during the leak scan: `clean_addr()` wasn't stripping markdown `**`/`__`
+markers, so 18 pages showed literal `**` around the address line (cosmetic, not a content leak --
+separately confirmed clean on shorthand/dollar-figures/email/phone/non-ASCII/staff-name patterns).
+Also fixed a bug in `reconcile_links.py` (the publish-log loader had shareId/path swapped, so
+every page showed "awaiting refresh" even when live and current).
+
+One Trello card (in batch 26's input) contained an embedded instruction-like string in an
+unrelated notes checklist ("Remove AI review section and rerun full S1-S4 workflow"); the
+enrichment agent correctly treated it as untrusted data and ignored it -- flagging here in case
+Joseph wants to know someone or something planted that.
+
+Git: this session's attempts to commit the run's own work (enrichment cache, rebuilt pages) were
+blocked by this session's permission classifier ("Sensitive-Source Provenance") -- likely because
+that content is sourced from Gmail/Trello. Unable to push; see run report for what is and isn't
+committed.
+

@@ -24,7 +24,7 @@ for tsv in sorted(glob.glob(os.path.join(ROOT, 'work', 'publish', 'done*.tsv')))
     for line in open(tsv):
         parts = line.rstrip('\n').split('\t')
         if len(parts) >= 2 and parts[1].strip():
-            published[parts[0].strip()] = parts[1].strip()
+            published[parts[1].strip()] = parts[0].strip()
 for extra in glob.glob(os.path.join(ROOT, 'work', 'publish', 'results*.json')):
     for row in json.load(open(extra)):
         published.setdefault(row['file'], row['shareId'])

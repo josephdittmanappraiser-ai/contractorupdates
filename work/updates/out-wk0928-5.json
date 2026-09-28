@@ -1,0 +1,165 @@
+{
+ "batch": 5,
+ "results": [
+  {
+   "cardId": "6a96191d9c84e73a2ae68b1c",
+   "update": "The homeowner has decided to move forward with only two of the three referred properties: the contractor confirmed cancelling the Pluchea Cove appraisal and continuing with Clementine Lane and Wisteria Valley Dr. Both remaining files still need supporting documentation before demand letters can go out.",
+   "needed": "Send the EagleView/roof measurement report and damage photos for 5705 Clementine Ln and 7921 Wisteria Valley Dr so the demand letters can be sent.",
+   "asOf": "2026-09-22",
+   "timeline": [
+    {"date": "2026-07-26", "event": "Homeowner forwarded Allstate claim estimates for all three properties to the contractor, who passed them to Joseph."},
+    {"date": "2026-07-27", "event": "Joseph asked the contractor to confirm the referral was for appraisal and to provide the EagleView report, damage photos, and a description of damage for each property."},
+    {"date": "2026-08-01", "event": "Contractor requested the appraisal demand letter for the main property (10608 Pluchea Cove), reporting roof, gutter, and chimney cap damage."},
+    {"date": "2026-08-01", "event": "Contractor requested the appraisal for the rental property (7921 Wisteria Valley Dr), reporting roof, gutter, and fence hail damage."},
+    {"date": "2026-08-03", "event": "Joseph confirmed receipt of the Pluchea Cove file."},
+    {"date": "2026-08-24", "event": "The homeowner was contacted about the appraisal agreement and declined to sign, saying he does not want to pay anything out of pocket and wants assurance he will never be required to cover expenses personally."},
+    {"date": "2026-09-07", "event": "Joseph followed up with the contractor on all three properties (Pluchea Cove, Clementine Lane, Wisteria Valley Dr) asking what items were still outstanding before demand letters could go out."},
+    {"date": "2026-09-21", "event": "Joseph followed up again on the same three properties after no response."},
+    {"date": "2026-09-22", "event": "Contractor confirmed the homeowner wants to cancel the appraisal for Pluchea Cove and proceed only with the Clementine Lane and Wisteria Valley Dr properties."}
+   ],
+   "trelloItemsAdded": 9,
+   "noEmail": false
+  },
+  {
+   "cardId": "6aa09ee97b675713aad19046",
+   "update": "A Farmers claim was referred on 9/8; the contractor has not yet sent the EagleView report, photos, or damage description needed to prepare the demand letter, but acknowledged the request on 9/23 and confirmed he would send the missing items.",
+   "needed": "Send the EagleView/roof measurement report, damage photos, a brief description of the damage and date of loss, and the homeowner's phone number so the demand letter can go out.",
+   "asOf": "2026-09-23",
+   "timeline": [
+    {"date": "2026-09-08", "event": "The contractor referred a new Farmers Insurance claim for appraisal."},
+    {"date": "2026-09-08", "event": "Joseph's office asked the contractor for the carrier estimate, EagleView report, damage photos, and a description of the damage."},
+    {"date": "2026-09-21", "event": "Joseph's office followed up asking the contractor for the EagleView report, damage photos, damage description, and the homeowner's phone number before the demand letter can be sent."},
+    {"date": "2026-09-23", "event": "Contractor acknowledged the request and confirmed he will send the outstanding items."}
+   ],
+   "trelloItemsAdded": 1,
+   "noEmail": false
+  },
+  {
+   "cardId": "6aa9e72b36624acd84bd8c94",
+   "update": null,
+   "needed": null,
+   "asOf": null,
+   "timeline": [],
+   "trelloItemsAdded": 0,
+   "noEmail": true
+  },
+  {
+   "cardId": "6ab5d99a42516abcaf84bf49",
+   "update": "The appraisal demand letter has gone to the homeowner for signature; the file still needs the EagleView report, photos, a damage description and a contact number from the contractor before the appraisal can proceed.",
+   "needed": "Send the EagleView/roof measurement report, damage photos, a description of the damage, and a phone number for follow-up.",
+   "asOf": "2026-09-25",
+   "timeline": [
+    {"date": "2026-09-24", "event": "Patrick Davis asked that the appraisal demand letter be sent to the homeowner for signature and shared the current repair estimate."},
+    {"date": "2026-09-24", "event": "The demand letter was sent to the homeowner, and the EagleView report, damage photos, a damage description, and a phone number were requested from the contractor."}
+   ],
+   "trelloItemsAdded": 0,
+   "noEmail": false
+  },
+  {
+   "cardId": "6ab70e8c13bfaf3f0f97944f",
+   "update": "The appraisal demand letter has gone to the homeowner for signature; the file still needs the EagleView report, photos, and a damage description from the contractor before the appraisal can proceed.",
+   "needed": "Send the EagleView/roof measurement report, damage photos, and a brief description of the damage.",
+   "asOf": "2026-09-26",
+   "timeline": [
+    {"date": "2026-09-25", "event": "Contractor sent the claim estimate and asked that the appraisal demand letter be sent to the homeowner for signature."},
+    {"date": "2026-09-26", "event": "The demand letter was sent to the homeowner, and the EagleView report, damage photos, and a brief damage description were requested from the contractor."}
+   ],
+   "trelloItemsAdded": 2,
+   "noEmail": false
+  },
+  {
+   "cardId": "6ab7090a16b6b627f7c57148",
+   "update": "File was just referred: the carrier has only agreed to pay for the shingles and fence, not the full roof, and Joseph's office acknowledged the contractor's request to pursue the additional damaged items (window screens, fence, metal awning, shop metal roof, garage door) toward a full roof replacement.",
+   "needed": null,
+   "asOf": "2026-09-25",
+   "timeline": [
+    {"date": "2026-09-24", "event": "Contractor asked Joseph to help pursue the full roof replacement scope, noting the carrier was already covering some items but not others."},
+    {"date": "2026-09-25", "event": "Joseph's office acknowledged receipt of the contractor's request."}
+   ],
+   "trelloItemsAdded": 0,
+   "noEmail": false
+  },
+  {
+   "cardId": "6ab7079a2fb1176eff126ade",
+   "update": "Contractor sent an approved claim for review and wants an Xactimate estimate built out before deciding whether to pursue appraisal, since he has less experience with siding claims; Joseph's office has confirmed it will prepare that estimate for his review.",
+   "needed": null,
+   "asOf": "2026-09-27",
+   "timeline": [
+    {"date": "2026-09-24", "event": "Contractor asked Joseph to review an approved claim to evaluate whether it was worth pursuing an appraisal, citing missing scope items such as siding, chimney work, and a rear shed."},
+    {"date": "2026-09-25", "event": "Office asked the contractor for the homeowner's contact information in order to send the appraisal demand letter."},
+    {"date": "2026-09-25", "event": "Contractor asked to see the Xactimate estimate first before committing to the appraisal process, since he has less experience with siding claims."},
+    {"date": "2026-09-27", "event": "Joseph confirmed his office would prepare the Xactimate estimate for the contractor's review."}
+   ],
+   "trelloItemsAdded": 0,
+   "noEmail": false
+  },
+  {
+   "cardId": "6ab6887d0f2f22a726f99451",
+   "update": "Contractor referred the file with damage photos from his inspection (roof, soft metals, gutters, fascia, hot tub cover, exterior) and the demand letter has gone to the homeowner; still waiting on the EagleView report and the carrier's denial letter the contractor said he would send.",
+   "needed": "Send the EagleView report and the carrier's denial letter that the contractor said he would follow up with.",
+   "asOf": "2026-09-25",
+   "timeline": [
+    {"date": "2026-09-24", "event": "The contractor shared photos of hail and wind damage to the roof and exterior and said the homeowner wants to move forward with an appraisal demand."},
+    {"date": "2026-09-25", "event": "The appraisal demand letter was sent to the homeowner."},
+    {"date": "2026-09-25", "event": "Contractor sent job and estimate documents for the file, which Joseph's office acknowledged receiving."}
+   ],
+   "trelloItemsAdded": 0,
+   "noEmail": false
+  },
+  {
+   "cardId": "6ab5d7eda31420e829b0466f",
+   "update": "Contractor confirmed the file is for appraisal and provided the damage description and inspection/estimate documents; Joseph's office confirmed it has what it needs to move forward.",
+   "needed": null,
+   "asOf": "2026-09-25",
+   "timeline": [
+    {"date": "2026-09-24", "event": "The contractor sent over an estimate to open a new appraisal inquiry for this property."},
+    {"date": "2026-09-24", "event": "Joseph's office asked whether this was for appraisal or PA and requested the EagleView report, damage photos, and a description of the damage."},
+    {"date": "2026-09-24", "event": "The contractor confirmed it is for appraisal and described damage to the roof gutters, gutter guards, window screens, deck paint, and grill, offering to send more photos."},
+    {"date": "2026-09-25", "event": "Joseph's office confirmed the information provided was sufficient to move forward."}
+   ],
+   "trelloItemsAdded": 1,
+   "noEmail": false
+  },
+  {
+   "cardId": "6ab5d52c38c8906a6e7ade29",
+   "update": "Homeowner signed the appraisal demand letter; the contractor has provided the roof measurement report, damage photos, and a description of the hail damage (roof, fence, grill, outdoor furniture).",
+   "needed": null,
+   "asOf": "2026-09-25",
+   "timeline": [
+    {"date": "2026-09-24", "event": "Contractor asked Joseph's office to send the homeowner the e-signature request for the appraisal demand letter and said a roof measurement report had been ordered."},
+    {"date": "2026-09-24", "event": "Joseph's office confirmed the appraisal demand letter was sent to the homeowner and requested photos of the damage and a description of it."},
+    {"date": "2026-09-24", "event": "Contractor sent the completed roof measurement report."},
+    {"date": "2026-09-25", "event": "Contractor provided photos of the property damage along with a description of hail damage to the roof and exterior (fence, grill, outdoor furniture)."},
+    {"date": "2026-09-25", "event": "Contractor confirmed the homeowner had signed the appraisal demand letter."}
+   ],
+   "trelloItemsAdded": 0,
+   "noEmail": false
+  },
+  {
+   "cardId": "6ab5dbdbb0c00466623b73a5",
+   "update": "Contractor referred a new claim (roof, gutter, and downspout damage) and already provided the roof report, photos, and estimate; Joseph's office sent the appraisal demand letter to the homeowner.",
+   "needed": null,
+   "asOf": "2026-09-25",
+   "timeline": [
+    {"date": "2026-09-24", "event": "The roofing contractor referred a new client to appraisal, citing damage to the roof, gutters, and downspouts."},
+    {"date": "2026-09-25", "event": "Joseph's office sent the appraisal demand letter to the homeowner."}
+   ],
+   "trelloItemsAdded": 0,
+   "noEmail": false
+  },
+  {
+   "cardId": "6ab5cbc2a066ea98b453aa63",
+   "update": "Contractor referred the file with reported damage to the roof, garage door, gutters and downspouts, window screens, and AC units, and shared a folder of supporting photos; the file is awaiting Joseph's office review to move it to the demand letter stage.",
+   "needed": null,
+   "asOf": "2026-09-24",
+   "timeline": [
+    {"date": "2026-09-24", "event": "Contractor referred the file for appraisal, sharing a folder of supporting photos and reporting damage to the roof, garage door, gutters and downspouts, window screens, and AC units."}
+   ],
+   "trelloItemsAdded": 1,
+   "noEmail": false
+  }
+ ],
+ "withEmail": 11,
+ "noEmail": 1,
+ "flaggedNeeded": 5
+}

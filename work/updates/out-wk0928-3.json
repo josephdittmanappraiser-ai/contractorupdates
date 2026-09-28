@@ -1,0 +1,147 @@
+{
+ "batch": 3,
+ "results": [
+  {
+   "cardId": "6a90ac9437fcf3ccb21309d8",
+   "update": "The public adjuster invoked the appraisal process with the carrier and named Joseph as the insured's appraiser; the file is waiting on the carrier to name its own appraiser so the two sides can proceed.",
+   "needed": null,
+   "asOf": "2026-08-27",
+   "timeline": [
+    {"date": "2026-08-27", "event": "File referred to Joseph and invocation of appraisal sent to the carrier (Allstate), including the appraisal agreement and inspection report; carrier asked to name its appraiser."}
+   ],
+   "trelloItemsAdded": 1,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a91f9bf0f15908b6dba4868",
+   "update": "The public adjuster invoked the appraisal process with the carrier (HOAIC) and named Joseph as the insured's appraiser; the file is waiting on the carrier to name its own appraiser.",
+   "needed": null,
+   "asOf": "2026-08-28",
+   "timeline": [
+    {"date": "2026-08-28", "event": "Invocation of appraisal sent to the carrier (HOAIC), including the signed appraisal agreement, a plumber's report, and our estimate; carrier asked to name its appraiser."}
+   ],
+   "trelloItemsAdded": 1,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a99f1a9295693f7d7d63b67",
+   "update": "The public adjuster invoked the appraisal process with Allstate, and the carrier has confirmed it is submitting the request for review; the file is waiting on the carrier to name its appraiser.",
+   "needed": null,
+   "asOf": "2026-09-09",
+   "timeline": [
+    {"date": "2026-09-03", "event": "The public adjuster formally invoked the appraisal process with Allstate and named Joseph as the insured's appointed appraiser."},
+    {"date": "2026-09-09", "event": "Allstate confirmed it was submitting the appraisal request for review."}
+   ],
+   "trelloItemsAdded": 0,
+   "noEmail": false
+  },
+  {
+   "cardId": "6aa09a094f8f0ec945b8a3b6",
+   "update": "The public adjuster invoked the appraisal process with the carrier (USAA) and named Joseph as the insured's appraiser; the file is waiting on the carrier to name its own appraiser.",
+   "needed": null,
+   "asOf": "2026-09-08",
+   "timeline": [
+    {"date": "2026-09-08", "event": "The insured's public adjuster formally requested the appraisal process with the carrier and named Joseph Dittman as the insured's appraiser."}
+   ],
+   "trelloItemsAdded": 0,
+   "noEmail": false
+  },
+  {
+   "cardId": "6aa0a26845c110f14bb72fc8",
+   "update": "The public adjuster invoked the appraisal process with the carrier (Farmers Insurance) and named Joseph as the insured's appraiser; the file is waiting on the carrier to name its own appraiser.",
+   "needed": null,
+   "asOf": "2026-09-08",
+   "timeline": [
+    {"date": "2026-09-08", "event": "Steven Lorenzo, the insured's public adjuster, sent Farmers Insurance a letter invoking the appraisal process and naming Joseph Dittman as the insured's appraiser."}
+   ],
+   "trelloItemsAdded": 0,
+   "noEmail": false
+  },
+  {
+   "cardId": "6aa1d46c15c284093ef65398",
+   "update": "The public adjuster invoked the appraisal process with the carrier (Conifer Insurance) and named Joseph as the insured's appraiser; the file is waiting on the carrier to name its own appraiser.",
+   "needed": null,
+   "asOf": "2026-09-09",
+   "timeline": [
+    {"date": "2026-09-09", "event": "The insured's public adjuster invoked the appraisal process and asked the carrier to name its appraiser; our office confirmed receipt."}
+   ],
+   "trelloItemsAdded": 0,
+   "noEmail": false
+  },
+  {
+   "cardId": "6aa9b125099521d8881e7395",
+   "update": "The file is being vetted before a formal appraisal demand goes out: the public adjuster shared the estimate and Joseph judged the damage supports a straightforward roof-replacement appraisal. Next step is sending the formal invocation of appraisal to the carrier.",
+   "needed": null,
+   "asOf": "2026-09-15",
+   "timeline": [
+    {"date": "2026-09-08", "event": "No Stress Claims (public adjuster) said they planned to name Joseph as appraiser, shared their estimates, and asked whether a full roof replacement was achievable."},
+    {"date": "2026-09-12", "event": "Joseph reviewed the estimates and said they looked appropriate for appraisal."},
+    {"date": "2026-09-15", "event": "No Stress Claims said they would send the appraisal materials and notify Joseph once the carrier named its appraiser; Joseph acknowledged."}
+   ],
+   "trelloItemsAdded": 0,
+   "noEmail": false
+  },
+  {
+   "cardId": "6aa9bd27e5b2af61a2d58b50",
+   "update": "The file is being vetted before a formal appraisal demand goes out: the public adjuster shared the estimate and weather report and Joseph judged the damage supports a roof replacement appraisal, likely without needing an umpire.",
+   "needed": null,
+   "asOf": "2026-09-15",
+   "timeline": [
+    {"date": "2026-09-14", "event": "Cross Country Public Adjusting asked for Joseph's opinion on an estimate and weather report for review."},
+    {"date": "2026-09-15", "event": "Joseph gave his assessment that, given the light hail and older roof, most appraisers would likely agree to roof replacement without needing an umpire."},
+    {"date": "2026-09-15", "event": "Cross Country Public Adjusting sent a second carrier estimate and asked for Joseph's opinion on it."}
+   ],
+   "trelloItemsAdded": 0,
+   "noEmail": false
+  },
+  {
+   "cardId": "6aac58af730ae37f27cb9c8f",
+   "update": "The referring company sent the file for Joseph's review and he confirmed receipt; the formal appraisal invocation to the carrier has not yet gone out.",
+   "needed": null,
+   "asOf": "2026-09-17",
+   "timeline": [
+    {"date": "2026-09-17", "event": "Joseph received a new claim file from the referring company for review and confirmed receipt of the documents."}
+   ],
+   "trelloItemsAdded": 0,
+   "noEmail": false
+  },
+  {
+   "cardId": "6aadabb23f4e7cce544ebe5d",
+   "update": "The public adjuster invoked the appraisal process with the carrier (Homesite), but the first invocation email bounced; he is resending it. The file is waiting on the carrier to receive the demand and name its own appraiser.",
+   "needed": null,
+   "asOf": "2026-09-18",
+   "timeline": [
+    {"date": "2026-09-18", "event": "The insured's public adjuster formally invoked the appraisal process with the insurer, naming Joseph as the insured's appraiser."},
+    {"date": "2026-09-18", "event": "The public adjuster reported the invocation email to the carrier had bounced and said he would resend it."}
+   ],
+   "trelloItemsAdded": 1,
+   "noEmail": false
+  },
+  {
+   "cardId": "6ab19f9b71938b332a205aa7",
+   "update": "The public adjuster asked Joseph to take this file on for appraisal and Joseph agreed after reviewing the weather data; the formal appraisal invocation to the carrier has not yet gone out.",
+   "needed": null,
+   "asOf": "2026-09-20",
+   "timeline": [
+    {"date": "2026-09-17", "event": "The public adjuster (Coastal Claims) asked Joseph if he would take this file on for appraisal, sharing the estimate."},
+    {"date": "2026-09-20", "event": "Joseph reviewed the date-of-loss weather data (1-inch hail) and said he was comfortable taking the case."}
+   ],
+   "trelloItemsAdded": 2,
+   "noEmail": false
+  },
+  {
+   "cardId": "6ab2f116487c441546ce67a9",
+   "update": "The public adjuster invoked the appraisal process with the carrier (TWIA) and named Joseph as the insured's appraiser; the file is waiting on the carrier to name its own appraiser.",
+   "needed": null,
+   "asOf": "2026-09-22",
+   "timeline": [
+    {"date": "2026-09-22", "event": "The insured's public adjuster formally invoked the appraisal process with the carrier, naming Joseph as the insured's appraiser and requesting the carrier name its own appraiser; office acknowledged receipt."}
+   ],
+   "trelloItemsAdded": 0,
+   "noEmail": false
+  }
+ ],
+ "withEmail": 12,
+ "noEmail": 0,
+ "flaggedNeeded": 0
+}

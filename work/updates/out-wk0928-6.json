@@ -1,0 +1,211 @@
+{
+ "batch": 6,
+ "results": [
+  {
+   "cardId": "6ab46ca0b12bffde665307b6",
+   "update": "The contractor confirmed we should proceed with the estimate already prepared during the supplement phase rather than wait on new photos, so we are now finalizing it for the appraisal demand.",
+   "needed": null,
+   "asOf": "2026-09-26",
+   "timeline": [
+    {"date": "2026-08-10", "event": "Contractor requested a pre-supplement estimate for hail damage to this Kansas property."},
+    {"date": "2026-08-11", "event": "We requested the EagleView report/roof sketch, damage photos, and a brief description from the contractor."},
+    {"date": "2026-08-12", "event": "Contractor sent photos and details of the hail damage."},
+    {"date": "2026-08-18", "event": "We sent the completed pre-supplement estimate to the contractor for review."},
+    {"date": "2026-08-21", "event": "We asked the contractor to confirm the estimate was acceptable and whether we should send it to the carrier."},
+    {"date": "2026-08-24", "event": "We followed up again requesting that same confirmation."},
+    {"date": "2026-09-23", "event": "Contractor asked that the file be sent to appraisal and asked whether to use the existing supplement estimate or a new one; we requested the homeowner's email and phone."},
+    {"date": "2026-09-23", "event": "Contractor noted two additional hail storms since and asked that the scope of work reflect current damage, and provided the homeowner's email."},
+    {"date": "2026-09-24", "event": "We sent the Appraisal Demand Letter to the homeowner."},
+    {"date": "2026-09-24", "event": "We asked for current photos and a damage description; contractor said none were available yet."},
+    {"date": "2026-09-25", "event": "We asked the contractor to confirm whether to proceed with the supplement-phase estimate or add anything before finalizing."},
+    {"date": "2026-09-26", "event": "Contractor confirmed we should send the estimate already prepared."}
+   ],
+   "trelloItemsAdded": 7,
+   "noEmail": false
+  },
+  {
+   "cardId": "6ab46fa1cc79a6ba1bdf4cc6",
+   "update": "This file just opened this week; we have the carrier's estimate and a damage description, and our own estimate is now being prepared following the homeowner's demand letter.",
+   "needed": null,
+   "asOf": "2026-09-25",
+   "timeline": [
+    {"date": "2026-09-23", "event": "Contractor referred this property for appraisal, noting the homeowner wanted to begin the process."},
+    {"date": "2026-09-24", "event": "We sent the Appraisal Demand Letter to the homeowner and asked the contractor for the carrier's estimate and a description of the damage."},
+    {"date": "2026-09-24", "event": "Contractor described the damage as hail-impacted roof shingles and an attic leak above the garage, noting the insurer called it normal wear and tear and unfinished wood."},
+    {"date": "2026-09-25", "event": "We confirmed receipt of the damage description."}
+   ],
+   "trelloItemsAdded": 0,
+   "noEmail": false
+  },
+  {
+   "cardId": "6ab2f2a471842923f5d6393f",
+   "update": "The contractor has approved our finished estimate; the file now waits on the homeowner, who is away, to sign and return the Appraisal Demand Letter before it can go to the carrier.",
+   "needed": "Chase the homeowner (currently on vacation) to sign and return the Appraisal Demand Letter.",
+   "asOf": "2026-09-26",
+   "timeline": [
+    {"date": "2026-09-22", "event": "Contractor reported the carrier denied the claim for hail and wind damage, listed the affected areas, and said the homeowner wants to send a demand letter and start the appraisal process."},
+    {"date": "2026-09-22", "event": "Contractor shared photos of the damage."},
+    {"date": "2026-09-22", "event": "We acknowledged receipt of the photos and additional documentation."},
+    {"date": "2026-09-22", "event": "We sent the Appraisal Demand Letter to the homeowner."},
+    {"date": "2026-09-24", "event": "Contractor sent further documentation."},
+    {"date": "2026-09-25", "event": "We confirmed to the contractor that the Appraisal Demand Letter had gone out to the homeowner."},
+    {"date": "2026-09-25", "event": "We sent our completed estimate to the contractor for review."},
+    {"date": "2026-09-25", "event": "Contractor approved the estimate."},
+    {"date": "2026-09-25", "event": "We followed up directly with the homeowner asking him to sign the demand letter, and asked the contractor to help remind him."},
+    {"date": "2026-09-26", "event": "Contractor said the homeowner is on vacation."}
+   ],
+   "trelloItemsAdded": 0,
+   "noEmail": false
+  },
+  {
+   "cardId": "6aa1c61994c95ea734204e34",
+   "update": "The homeowner has decided to pursue a new claim on a more recent hail loss date rather than continue appealing the denied claim, so this file is on hold pending that new claim.",
+   "needed": null,
+   "asOf": "2026-09-15",
+   "timeline": [
+    {"date": "2026-09-09", "event": "Contractor sent the previously denied claim file and hurricane engineering report, noting a newer hail loss date might offer a better path and flagging uncertainty over whether the policy is ACV or RCV."},
+    {"date": "2026-09-09", "event": "We sent the Appraisal Demand Letter to the homeowner and said we'd wait for photos."},
+    {"date": "2026-09-14", "event": "Contractor sent a roof photo documentation report."},
+    {"date": "2026-09-15", "event": "We told the contractor we couldn't open the file and asked him to resend it."},
+    {"date": "2026-09-15", "event": "Contractor said the file was too large for Gmail and sent it another way instead."},
+    {"date": "2026-09-15", "event": "Contractor said the homeowner is electing to file a new claim instead and asked us to disregard this claim for now."},
+    {"date": "2026-09-15", "event": "We acknowledged receipt."}
+   ],
+   "trelloItemsAdded": 7,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a42ca7c2df088a55a884dbd",
+   "update": "The demand letter has gone out and the claim remains delayed pending a further third-party inspection the carrier's adjuster ordered; there has been no further correspondence since late June.",
+   "needed": null,
+   "asOf": "2026-06-30",
+   "staleReason": "Last email is from June 30; narrowed searches on the claim number and the insured's name through the card's later activity (Jul 31, Aug 7, Sep 14) turn up only Trello digests, confirming no further correspondence occurred.",
+   "timeline": [
+    {"date": "2026-06-26", "event": "The referring agent (VP Realty Services) forwarded the carrier's consultant estimate for the fire-damage claim."},
+    {"date": "2026-06-26", "event": "Joseph confirmed his team would get the appraisal demand letter sent with him as the appraiser."},
+    {"date": "2026-06-29", "event": "We sent the Appraisal Demand Letter to the homeowner and asked for the homeowner's phone number for follow-up."},
+    {"date": "2026-06-30", "event": "The referring agent provided the homeowner's phone number and forwarded an update noting the carrier's adjuster had ordered a further third-party inspection, delaying the claim."}
+   ],
+   "trelloItemsAdded": 4,
+   "noEmail": false
+  },
+  {
+   "cardId": "6ab469dcab2cbc2d53520e6f",
+   "update": "Our estimate has gone to the contractor for review; he flagged that it's missing the soffit metal and additional discontinued siding, so we need to revise it to include those items before it goes back out.",
+   "needed": null,
+   "asOf": "2026-09-28",
+   "timeline": [
+    {"date": "2026-09-23", "event": "Contractor sent photos of siding and soffit damage left out of the initial scope, noting the homeowner believes the siding is original/discontinued and wants the wind-damaged soffit/siding covered along with the roof items."},
+    {"date": "2026-09-23", "event": "We acknowledged receipt."},
+    {"date": "2026-09-28", "event": "We sent our completed estimate to the contractor for review."},
+    {"date": "2026-09-28", "event": "Contractor flagged that the estimate is missing the soffit metal and the rest of the house's siding, which he said is faded and likely discontinued."}
+   ],
+   "trelloItemsAdded": 0,
+   "noEmail": false
+  },
+  {
+   "cardId": "6ab2fa559e629a147976e0ac",
+   "update": "We sent our completed estimate to the contractor for review on 9/28; it's now awaiting his sign-off, alongside getting the appraisal demand E-Sign out to the second homeowner contact he identified.",
+   "needed": "Review and approve the estimate we sent on 9/28 so the file can move forward.",
+   "asOf": "2026-09-28",
+   "timeline": [
+    {"date": "2026-09-22", "event": "Contractor reported a new claim, described damage to the interior roof, chimney cap, chimney cricket, shed, and garage door, and asked that the E-Sign appraisal demand letter be sent to the homeowner."},
+    {"date": "2026-09-22", "event": "We sent the Appraisal Demand Letter to the homeowner and asked for the carrier estimate, EagleView report, photos, and a callback number."},
+    {"date": "2026-09-23", "event": "Contractor shared photos of the damage."},
+    {"date": "2026-09-23", "event": "We acknowledged receipt of the photos."},
+    {"date": "2026-09-23", "event": "Contractor sent the roof report and asked if anything else was needed."},
+    {"date": "2026-09-23", "event": "We asked for the carrier's estimate (if available) and a callback number."},
+    {"date": "2026-09-24", "event": "Contractor said the carrier (Assurant) has no estimate yet since the homeowner never received one, provided the homeowner's phone number, and asked that the E-Sign also be sent to a second homeowner contact."},
+    {"date": "2026-09-24", "event": "We asked for clarification on who the second contact was."},
+    {"date": "2026-09-24", "event": "Contractor identified him as John Esquivel and gave his email."},
+    {"date": "2026-09-25", "event": "We acknowledged receipt."},
+    {"date": "2026-09-26", "event": "Contractor followed up asking whether the E-Sign had been sent to the second contact yet."},
+    {"date": "2026-09-28", "event": "We sent our completed estimate to the contractor for review."}
+   ],
+   "trelloItemsAdded": 0,
+   "noEmail": false
+  },
+  {
+   "cardId": "6ab30c63982d25c052f1650e",
+   "update": "We sent our completed estimate to the contractor on 9/25; the file is currently waiting on his sign-off before we proceed to the appraisal demand.",
+   "needed": "Review and approve the estimate we sent on 9/25 so we can move it forward.",
+   "asOf": "2026-09-25",
+   "timeline": [
+    {"date": "2026-09-22", "event": "Contractor referred a new claim, requesting an increased roof scope, full house siding and wrap, gutter replacement, and overhead and profit."},
+    {"date": "2026-09-22", "event": "We acknowledged receipt."},
+    {"date": "2026-09-25", "event": "We sent our completed estimate to the contractor for review."}
+   ],
+   "trelloItemsAdded": 0,
+   "noEmail": false
+  },
+  {
+   "cardId": "6aad98dfca88318477e691bd",
+   "update": "Joseph sent Stronghouse a revised estimate on 9/25 reflecting the three separate structures on the property; it's awaiting his sign-off, alongside a separate dispute with the prior owner's broker over the claim being closed prematurely.",
+   "needed": "Review and approve the revised estimate sent on 9/25 so the file can move forward.",
+   "asOf": "2026-09-25",
+   "timeline": [
+    {"date": "2026-09-17", "event": "Contractor asked to reactivate the file and requested a copy of the appraisal demand letter for the homeowner's signature."},
+    {"date": "2026-09-18", "event": "We sent the Appraisal Demand Letter to the homeowner and asked the contractor to confirm whether the prior EagleView report was still valid and to describe the damages."},
+    {"date": "2026-09-21", "event": "Contractor provided a description of the damage found during inspection along the dwelling and ADU roofing systems, along with the EagleView roof measurement report."},
+    {"date": "2026-09-24", "event": "We sent the contractor the draft estimate for review."},
+    {"date": "2026-09-24", "event": "Contractor reported three structures on the property and sent the roof report along with a previously drafted contractor bid."},
+    {"date": "2026-09-24", "event": "Contractor said the roof has a wood shake layer underneath and confirmed the buyer will cover the appraisal fees for this claim."},
+    {"date": "2026-09-24", "event": "Contractor said they are still waiting on the seller's real estate broker to respond regarding the claim being closed before the buyer was aware."},
+    {"date": "2026-09-25", "event": "We sent the contractor a revised estimate for review."}
+   ],
+   "trelloItemsAdded": 1,
+   "noEmail": false
+  },
+  {
+   "cardId": "6ab19a470157b9594c0e7026",
+   "update": "The estimate we sent is missing the full exterior siding because the contractor hadn't yet ordered wall/window measurements; he's since ordered them and the file is on hold until he sends them.",
+   "needed": "Send the wall/window siding measurements he ordered so we can finish the estimate.",
+   "asOf": "2026-09-22",
+   "timeline": [
+    {"date": "2026-09-19", "event": "Stronghouse Solutions submitted a new appraisal request for the roof, gutters, guards, siding, and window wraps after the carrier's initial denial."},
+    {"date": "2026-09-19", "event": "The contractor forwarded the carrier's estimates for the denied claim items for appraisal review."},
+    {"date": "2026-09-22", "event": "We sent the contractor the draft depreciation document for review and asked for any revisions."},
+    {"date": "2026-09-22", "event": "The contractor said the draft was missing the full exterior siding measurements (his own oversight) and that he would send them once received."}
+   ],
+   "trelloItemsAdded": 0,
+   "noEmail": false
+  },
+  {
+   "cardId": "6aa893c399260f270b25a62d",
+   "update": "We sent the contractor our draft estimate for this Stronghouse file on 9/21; it's now awaiting his review and sign-off.",
+   "needed": "Review and approve the estimate we sent on 9/21 so we can move the file forward.",
+   "asOf": "2026-09-21",
+   "timeline": [
+    {"date": "2026-09-14", "event": "The contractor outlined the proposed scope of work (full roof replacement, gutters/downspouts, siding, garage doors, and interior repairs) and sent supporting documents and photos for review."},
+    {"date": "2026-09-21", "event": "We sent the contractor the draft estimate/depreciation breakdown for review and asked for any revisions."}
+   ],
+   "trelloItemsAdded": 0,
+   "noEmail": false
+  },
+  {
+   "cardId": "6a8478f377e908d5f34b017f",
+   "update": "The appraiser handling this file found no hail damage on the property's metal roof and is now checking whether his position is ready to finalize as-is or should be pushed further, possibly to an umpire.",
+   "needed": null,
+   "asOf": "2026-09-26",
+   "timeline": [
+    {"date": "2026-08-24", "event": "The contact requested paperwork to begin the appraisal process for this Allstate roof claim."},
+    {"date": "2026-08-24", "event": "We asked whether this file is for Appraisal or Public Adjusting and requested the carrier estimate, EagleView report/sketch, photos of the damage, a description of the damage, and a phone number."},
+    {"date": "2026-08-28", "event": "Appraisal Demand Letter sent to the homeowner; EagleView report/sketch, photos, damage description, and a phone number were requested again."},
+    {"date": "2026-09-07", "event": "We followed up asking for the carrier estimate by email and confirmation of whether this is Appraisal or Public Adjusting."},
+    {"date": "2026-09-07", "event": "The contact shared a link to the carrier's estimate and asked that future correspondence be kept in a single email chain."},
+    {"date": "2026-09-07", "event": "The contact said no photos or EagleView report were available for this property and asked us to order an EagleView report."},
+    {"date": "2026-09-17", "event": "Steven Smallwood sent a draft appraiser position for review, asking whether to send it as-is or add more items first."},
+    {"date": "2026-09-18", "event": "We sent the draft estimate for review and asked for any revisions."},
+    {"date": "2026-09-18", "event": "The contact asked about the appraisal fee and whether additional gutter and skylight damage could be included; we said everything needs to be added in, and the contact confirmed that was the complete list."},
+    {"date": "2026-09-20", "event": "We asked whether the metal roof shown in the draft position showed hail damage."},
+    {"date": "2026-09-20", "event": "Steven Smallwood reported no hail damage was found on the metal roof from either above or below."},
+    {"date": "2026-09-26", "event": "Steven Smallwood followed up asking whether the position looks acceptable as-is or whether he should push for more, potentially bringing in an umpire."}
+   ],
+   "trelloItemsAdded": 1,
+   "noEmail": false
+  }
+ ],
+ "withEmail": 12,
+ "noEmail": 0,
+ "flaggedNeeded": 6
+}

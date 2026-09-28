@@ -1,0 +1,29 @@
+{
+ "batch": 0,
+ "results": [
+  {
+   "cardId": "6a2b3c42d4325ac10cb83887",
+   "verified": true,
+   "hasNewer": true,
+   "evidence": "Searched \"Arzate\" after:2026/07/13 (claim and address were blank on this record); real, non-digest activity turned up from 2026-07-16 through 2026-09-18 (rescheduled inspection, both inspections completed, carrier's appraiser's position, Joseph's position, the move to umpire, umpire assignment/invoicing, the September 29 panel inspection being set, and the umpire invoice being forwarded to and acknowledged by the homeowner's counsel) \u2014 every one of these is already logged on the card's Chain of Events checklist through 2026-09-18, so nothing further needed adding.",
+   "newEvents": [],
+   "update": "The file is now in the umpire process: the umpire's invoice was forwarded to the homeowner's counsel for payment processing, and a joint inspection with the umpire is scheduled for September 29. Next step is that inspection and the umpire's ruling.",
+   "needed": null,
+   "trelloItemsAdded": 0,
+   "staleReason": "All real activity through Sept 18 (umpire process, joint inspection scheduled Sept 29) is already logged on the card; nothing further has happened since."
+  },
+  {
+   "cardId": "6a394e61c399533150eaa97d",
+   "verified": true,
+   "hasNewer": true,
+   "evidence": "Searched \"0826517559\" after:2026/08/04, \"Ochoa\" after:2026/08/04, and \"KICKING HORSE PASS\" after:2026/08/04; real activity turned up from the carrier's appraiser sending a revised position (O&P added) through the signed award being exchanged and the contractor's September 22 thank-you \u2014 all of it is already logged on the card's Chain of Events checklist through 2026-09-22, so nothing further needed adding.",
+   "newEvents": [],
+   "update": "The carrier's appraiser sent the signed award and the file has settled as paid, with the contractor confirming receipt on September 22. No further action is needed on this file.",
+   "needed": null,
+   "trelloItemsAdded": 0,
+   "staleReason": "File settled and paid Sept 22 (signed award, contractor confirmed receipt); nothing further to add, file is closed out."
+  }
+ ],
+ "checked": 2,
+ "corrected": 0
+}

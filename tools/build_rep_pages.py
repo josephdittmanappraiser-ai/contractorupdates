@@ -88,7 +88,8 @@ def clean_addr(s):
     """A street address, or nothing. Card descriptions are free text and the address
     line picks up whatever sits next to it."""
     s = re.sub(r'\[([^\]]*)\]\([^)]*\)', r'\1', s)   # [text](mailto:...) -> text
-    s = re.sub(r'\s+', ' ', s).strip(' .,;:-')
+    s = s.replace('**', '').replace('__', '')        # markdown bold/italic markers
+    s = re.sub(r'\s+', ' ', s).strip(' .,;:-*')
     if '@' in s or 'mailto' in s.lower():
         return ''
     if re.search(r'\(\d{3}\)\s?\d{3}-\d{4}|\b\d{3}-\d{3}-\d{4}\b', s):
