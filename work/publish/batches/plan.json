@@ -1,9 +1,17 @@
 {
- "batches": 4,
+ "batches": 12,
  "chunked": [
   {
    "shareId": "JTSciawp",
-   "file": "work/pages/company-no-stress-claims.html"
+   "file": "work/weekly-2026-09-28/pages/company-no-stress-claims.html"
+  },
+  {
+   "shareId": "696GL2Lq",
+   "file": "work/weekly-2026-09-28/pages/company-cross-country-public-adjusting.html"
+  },
+  {
+   "shareId": "do5DL1Om",
+   "file": "work/weekly-2026-09-28/pages/company-legacy-roofing-gc.html"
   }
  ]
 }
