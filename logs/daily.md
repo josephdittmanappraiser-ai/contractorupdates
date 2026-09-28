@@ -2,6 +2,51 @@
 
 One line per run: date | threads scanned | logged | unmatched | skipped as noise
 
+2026-09-28 | 92 threads scanned | 46 threads logged | 25 unmatched | 19 skipped as noise (pre-dispatch), 2 skipped as noise (post-open), 1 skipped as duplicate
+
+Discovery paginated through 92 unique Gmail threads matching `newer_than:1d` (two pages). 19 were
+dropped up front as plain automated/marketing noise (HP marketing, Send.co "new view" alerts,
+Invoicely payment notifications, Semrush marketing, `ssomail.verisk.com` one-time code, a Sircon
+licensing receipt, three LinkedIn digests, an out-of-office auto-reply, four bare State Farm
+"Automatic reply — mailbox not monitored" auto-acks, a personal "let's meet up" email with no file
+attached, and three internal automation reports/alerts the business sends itself). The remaining 73
+threads were fanned out to 12 `sonnet` subagents (~6 threads each, dispatched concurrently in one
+wave). Of those 73: 46 threads produced at least one new "📋 Chain of Events" checklist entry
+(several added more than one dated item; one bulk contractor weekly-report email logged the same
+line to 7 different cards), 1 was a pure duplicate of an already-logged item (Dadios — the only
+new content since was an internal strategy note, correctly withheld), 2 turned out to be noise
+only after opening (an Allstate portal notice with no insured named, and forwarded domain-sales
+spam), and 25 threads named a real insured/file with no matching open card on the board.
+
+Unmatched insureds for Joseph to check — do any of these need a card created, or are they simply
+not tracked on this board (e.g. umpire-side disputes between two other appraisers)?
+Shaoze Ouyang (Allstate 000827477167, 13024 Tantivy Dr, Austin), Robert Bryant (Powerhaus
+Solutions, 720 Regalwood, DeSoto), Gemar Mitchell (86 Artesian Way, New Caney), Marlin Richardson
+(7717 Forest Stream, Live Oak), Gordon & Diane Cloutier (Allstate 0817988678 — recurring gap, see
+prior runs), Ofelia Bernal (claim 0827947599 — also a recurring gap), Natividad (Farmers
+5044232547-1), Gautham Ravi (Safeco 061249206), Greg & Leslie Gossett (Safeco 061308511), Cengiz
+Satir (Vault 26PRTX899373228), Phillip & Amber Underwood (State Farm 43-97L7-57D), Jett Baker
+(Travelers JDM1543), Billy Thomas (Allstate 0819148271), Alex Salazar (State Farm 53-78H4-95P —
+closest name match "Alexander Salazar" carries a different claim#, treated as a different file),
+William P. Benavidez / Stephanie Cook (MBI Commercial claim 5393X455B), Latisha Kinyua-Mburu
+(State Farm 53-0B4Z-843), Bruce Pettengill (Allstate 0834459380), Bart McKay (State Farm
+43-99M7-92V), an insured known only as "Dena" (Liberty Mutual 061826503, 3115 Lake Shore Dr,
+Waco), an insured known only as "Pender" (State Farm 43-0B3Z-137), a second Benavidez/Cook file
+(claim 53-93X4-55B, distinct claim# from above, Joseph acting as umpire), Abdelaziz (claim
+1697W017W, Leawood KS), Trealla Epps (claim 53-0C0J-635), a second Momtazul Karim file (Travelers
+JDM4066, Round Rock — two other Karim cards exist but neither matches this claim/carrier), and
+Hoya/Kennedy/Bruner/Obermeyer (named alongside Cloutier in one contractor's roofing-progress
+update; no cards for any of the four).
+
+Data-quality notes for Joseph to spot-check:
+- Sal Marcuz card carries two separate "📋 Chain of Events" checklists; logged to the more recently
+  active one, but the duplicate itself is worth cleaning up.
+- Julian & Claudia Vizcaino has two open cards for what looks like the same file (one card's own
+  notes flag a claim#/address entry error needing reconciliation with the other).
+- Malone card's own description claim# (PP0021451714) doesn't match the claim# referenced in this
+  run's email thread and an existing checklist entry (Y4R DP 62889) — card match was unambiguous
+  by name, logged as-is, but the mismatch may be worth a look.
+
 2026-09-23 | 286 threads scanned | 194 logged (across 172 threads) | 54 unmatched | 50 skipped as noise, 23 skipped as duplicate
 
 Discovery paginated through 286 unique Gmail threads matching `newer_than:1d` (six pages of up to
