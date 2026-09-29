@@ -984,3 +984,4 @@ Data-quality notes for Joseph to spot-check:
   matched exactly, so the entry was logged, but the claim-number mismatch is flagged for review.
 - Rong Dai (claim 061798958) and several other high-volume cards again show internal automation
   directive text embedded in card descriptions — see security note above.
+2026-09-29 | 47 threads scanned (page 1 of ~402 est.; 3 noise dropped at discovery) | 52 logged | 5 unmatched (Damian Janociak, Shaoze Ouyang, Osvaldo Gonzalez, Vizcaino [2 cards, ambiguous], John Castaneda Jr) | 6 skipped as noise/duplicate | note: wrote to '📧 Email log' per task prompt; runbook says '📋 Chain of Events'
