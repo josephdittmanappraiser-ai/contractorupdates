@@ -1,9 +1,13 @@
 {
- "batches": 4,
+ "batches": 12,
  "chunked": [
   {
    "shareId": "JTSciawp",
    "file": "work/pages/company-no-stress-claims.html"
+  },
+  {
+   "shareId": "do5DL1Om",
+   "file": "work/pages/company-legacy-roofing-gc.html"
   }
  ]
 }
