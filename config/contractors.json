@@ -1710,6 +1710,15 @@
    "shareId": "dOUIz2my",
    "_note": "Auto-discovered 2026-09-21 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful. A page will be created this run.",
    "url": "https://www.send.co/a/dOUIz2my"
+  },
+  {
+   "label": "Kidd Roofing",
+   "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/6abad6ae89f6a5a0cc7e7d1f",
+   "company": "Kidd Roofing",
+   "domains": [],
+   "pageMode": "company",
+   "shareId": null,
+   "_note": "Auto-discovered 2026-10-12 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful. A page will be created this run."
   }
  ],
  "_supersededComment": [
