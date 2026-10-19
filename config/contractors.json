@@ -1,1731 +1,1819 @@
 {
- "_comment": [
-  "Roster + overrides for the contractor update agent.",
-  "This file is NOT the source of truth for which contractors exist -- Trello is.",
-  "Each weekly run discovers every label on the Insured Appraisals board that has at",
-  "least one open card, and treats it as a client unless it appears in 'nonClientLabels'.",
-  "This file supplies the things Trello cannot know: display names, email domains,",
-  "per-rep splits, and the Send shareId once a page has been published."
- ],
- "board": {
-  "name": "Insured Appraisals",
-  "id": "ari:cloud:trello::board/workspace/65d7eb00496a914bf3ffb423/666e58adc67768660a580af4",
-  "url": "https://trello.com/b/lAdc1ZW8/insured-appraisals"
- },
- "_repLabelComment": [
-  "Rep attribution reads a Trello LABEL on the card first -- authoritative, see runbook Pass 0.",
-  "'labelName' overrides the display 'name' when the Trello label is spelled differently.",
-  "The connector can attach an existing label but CANNOT create one: new rep labels must be",
-  "made in the Trello UI before a run can attach or read them."
- ],
- "gmail": {
-  "contractorInboundLabel": "AA - Roofers emailing us",
-  "contractorInboundLabelId": "Label_889619139836162734",
-  "owner": "josephdittmanappraiser@gmail.com"
- },
- "_stageMapComment": [
-  "The board has ~84 lists whose names carry operator instructions. Contractors see the",
-  "client-facing stage, never the raw list name.",
-  "TWO different orderings live here, do not conflate them:",
-  "  * ARRAY ORDER = matching precedence. Lowercase the list name, walk this array in",
-  "    order, first stage with a matching substring wins. Most specific stages come first,",
-  "    which is why 'In umpire' precedes 'Settled' ('Umpire invoice paid' contains 'paid')",
-  "    and why the payment-outstanding stage precedes 'Settled - paid' ('closed but not",
-  "    paid' also contains 'paid').",
-  "  * 'order' FIELD = display order on the page, sorted descending, so the files closest",
-  "    to money appear first.",
-  "If a list matches nothing it falls to 'New / intake' -- which is usually wrong, so the",
-  "run must report any list that fell through and the matcher gets added here."
- ],
- "stageMap": [
-  {
-   "stage": "In umpire",
-   "order": 8,
-   "blurb": "The two appraisers did not agree, so an umpire is deciding the file.",
-   "matchers": [
-    "umpire"
-   ]
+  "_comment": [
+    "Roster + overrides for the contractor update agent.",
+    "This file is NOT the source of truth for which contractors exist -- Trello is.",
+    "Each weekly run discovers every label on the Insured Appraisals board that has at",
+    "least one open card, and treats it as a client unless it appears in 'nonClientLabels'.",
+    "This file supplies the things Trello cannot know: display names, email domains,",
+    "per-rep splits, and the Send shareId once a page has been published."
+  ],
+  "board": {
+    "name": "Insured Appraisals",
+    "id": "ari:cloud:trello::board/workspace/65d7eb00496a914bf3ffb423/666e58adc67768660a580af4",
+    "url": "https://trello.com/b/lAdc1ZW8/insured-appraisals"
   },
-  {
-   "stage": "Settled - payment outstanding",
-   "order": 10,
-   "blurb": "The claim is resolved. Our appraisal invoice is still open.",
-   "matchers": [
-    "not paid",
-    "invoice + payment link",
-    "past dues",
-    "debt collection",
-    "in iink",
-    "legacy deals",
-    "waiting on payment to sign award",
-    "paid - waiting for appraiser",
-    "close out"
-   ]
+  "_repLabelComment": [
+    "Rep attribution reads a Trello LABEL on the card first -- authoritative, see runbook Pass 0.",
+    "'labelName' overrides the display 'name' when the Trello label is spelled differently.",
+    "The connector can attach an existing label but CANNOT create one: new rep labels must be",
+    "made in the Trello UI before a run can attach or read them."
+  ],
+  "gmail": {
+    "contractorInboundLabel": "AA - Roofers emailing us",
+    "contractorInboundLabelId": "Label_889619139836162734",
+    "owner": "josephdittmanappraiser@gmail.com"
   },
-  {
-   "stage": "Settled - paid",
-   "order": 11,
-   "blurb": "Closed out and paid. Nothing outstanding.",
-   "matchers": [
-    "paid"
-   ]
-  },
-  {
-   "stage": "Referred out (attorney or public adjuster)",
-   "order": 9,
-   "blurb": "Appraisal was not the right route. The file has moved to an attorney or a public adjuster.",
-   "matchers": [
-    "sent to attorney",
-    "send to attorney",
-    "in pa -",
-    "in pa-"
-   ]
-  },
-  {
-   "stage": "Negotiating with the carrier's appraiser",
-   "order": 7,
-   "blurb": "Positions exchanged. We are working the gap.",
-   "matchers": [
-    "sent oa my position",
-    "need to review oa",
-    "reviewed oa",
-    "carrier appraiser responded",
-    "2nd offer is to low",
-    "awaiting on opposing appraiser",
-    "joseph did first review",
-    "position written"
-   ]
-  },
-  {
-   "stage": "Inspected / building our position",
-   "order": 6,
-   "blurb": "Property inspected. Our estimate and position are being prepared.",
-   "matchers": [
-    "inspected",
-    "estimate under review",
-    "further ressearch",
-    "estimate done but reassigned"
-   ]
-  },
-  {
-   "stage": "Inspection scheduling",
-   "order": 5,
-   "blurb": "The carrier's appraiser is named. Locking in the inspection date.",
-   "matchers": [
-    "carrier appraisers info provided",
-    "carrier appraiser info provided",
-    "need to confirm schedule",
-    "scheduled",
-    "for rescheduling"
-   ]
-  },
-  {
-   "stage": "Appraisal demanded / waiting on carrier",
-   "order": 4,
-   "blurb": "The demand is with the carrier. Waiting for them to name their appraiser.",
-   "matchers": [
-    "demand letters sent",
-    "appraiser named but no",
-    "no appraiser named",
-    "homesite files",
-    "state farm claims",
-    "out of state"
-   ]
-  },
-  {
-   "stage": "Estimate sent - needs sign-off",
-   "order": 3,
-   "blurb": "The estimate is with you and/or the homeowner. We need approval to move.",
-   "matchers": [
-    "estimates sent",
-    "waiting for roofer's go signal"
-   ]
-  },
-  {
-   "stage": "Estimate being prepared",
-   "order": 2,
-   "blurb": "We are writing the estimate.",
-   "matchers": [
-    "estimates prepared to send",
-    "for supplement/or estimate only"
-   ]
-  },
-  {
-   "stage": "New / intake",
-   "order": 1,
-   "blurb": "File received. Confirming details before we demand appraisal.",
-   "matchers": [
-    "roofing company inquires",
-    "still verifying",
-    "pa inquires",
-    "pa's and attorney inquires",
-    "call homeowners",
-    "direct customers",
-    "triage"
-   ]
-  }
- ],
- "_debtCollectionNote": [
-  "JUDGEMENT CALL, easy to change: files sitting in 'Need to send to debt collections',",
-  "'Sent to Debt Collections' and 'PAST DUES' are shown to the client as",
-  "'Settled - payment outstanding'. That is accurate -- the invoice IS open -- and it stops",
-  "an automated page from picking a fight with a client on Joseph's behalf. If Joseph wants",
-  "collections stated plainly, give those three lists their own stage here."
- ],
- "_excludeListsComment": [
-  "Lists that do NOT hold client files. A card sitting in one of these is a contact record,",
-  "an agent rule, a divider or a staff task -- never a file, so it must never reach a status",
-  "page. Applied BEFORE stage mapping. Matched as lowercased substrings of the list name."
- ],
- "excludeLists": [
-  "ai agent",
-  "repeat clients",
-  "appraisers info that works for us",
-  "interested roofers",
-  "admin work",
-  "assignments",
-  "new list"
- ],
- "_excludeCardMarkersComment": [
-  "Markers Joseph writes into a card's name or description to say it is not a live appraisal",
-  "file. A card carrying one never reaches a status page, whatever list it sits in.",
-  "Matched case-insensitively against card name + description."
- ],
- "excludeCardMarkers": [
-  "[NOT AN APPRAISAL]",
-  "NOT AN APPRAISAL",
-  "DO NOT SHOW",
-  "TEST CARD"
- ],
- "_nonClientComment": "Labels that are markets, difficulty tags, staff assignments or workflow flags -- never a client. Matched case-insensitively.",
- "nonClientLabels": [
-  "Houston",
-  "Austin",
-  "DFW",
-  "San Antonio",
-  "payments",
-  "Mid level",
-  "Easy",
-  "Hard",
-  "On Hold",
-  "Lacking Info - need to follow up",
-  "Call/ Follow up",
-  "FOR RESCHEDULING",
-  "Appraiser: joseph Dittman",
-  "Needs PA (Joseph)",
-  "Mark's task",
-  "Erwin's task",
-  "Direct Customer"
- ],
- "_contractorComment": [
-  "pageMode 'per-rep'  -> one Send page per named rep, plus one catch-all page for that",
-  "                      company's files with no rep resolved yet.",
-  "pageMode 'company'  -> one Send page for the whole company (the default).",
-  "shareId is written back by the weekly run the first time it publishes a page.",
-  "aliasLabels folds duplicate/typo labels into one client."
- ],
- "contractors": [
-  {
-   "label": "LINEAR roofing",
-   "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/6789f096f28b3d90d7c62897",
-   "aliasLabels": [
-    "linear roofing"
-   ],
-   "company": "Linear Roofing & General Contractors",
-   "domains": [
-    "linearroofing.com"
-   ],
-   "pageMode": "per-rep",
-   "affiliatedWith": "Strong House Pro",
-   "reps": [
+  "_stageMapComment": [
+    "The board has ~84 lists whose names carry operator instructions. Contractors see the",
+    "client-facing stage, never the raw list name.",
+    "TWO different orderings live here, do not conflate them:",
+    "  * ARRAY ORDER = matching precedence. Lowercase the list name, walk this array in",
+    "    order, first stage with a matching substring wins. Most specific stages come first,",
+    "    which is why 'In umpire' precedes 'Settled' ('Umpire invoice paid' contains 'paid')",
+    "    and why the payment-outstanding stage precedes 'Settled - paid' ('closed but not",
+    "    paid' also contains 'paid').",
+    "  * 'order' FIELD = display order on the page, sorted descending, so the files closest",
+    "    to money appear first.",
+    "If a list matches nothing it falls to 'New / intake' -- which is usually wrong, so the",
+    "run must report any list that fell through and the matcher gets added here."
+  ],
+  "stageMap": [
     {
-     "name": "Alberto Zenteno",
-     "emails": [],
-     "shareId": "pMitM9aK",
-     "url": "https://www.send.co/a/pMitM9aK"
+      "stage": "In umpire",
+      "order": 8,
+      "blurb": "The two appraisers did not agree, so an umpire is deciding the file.",
+      "matchers": [
+        "umpire"
+      ]
     },
     {
-     "name": "Andres Soto",
-     "emails": [
-      "andres@linearroofing.com",
-      "asoto@stronghousebrands.com"
-     ],
-     "shareId": "3YCzp1LR",
-     "url": "https://www.send.co/a/3YCzp1LR"
+      "stage": "Settled - payment outstanding",
+      "order": 10,
+      "blurb": "The claim is resolved. Our appraisal invoice is still open.",
+      "matchers": [
+        "not paid",
+        "invoice + payment link",
+        "past dues",
+        "debt collection",
+        "in iink",
+        "legacy deals",
+        "waiting on payment to sign award",
+        "paid - waiting for appraiser",
+        "close out"
+      ]
     },
     {
-     "name": "Andrew Perales",
-     "emails": [],
-     "shareId": "dZTCr3hI",
-     "url": "https://www.send.co/a/dZTCr3hI"
+      "stage": "Settled - paid",
+      "order": 11,
+      "blurb": "Closed out and paid. Nothing outstanding.",
+      "matchers": [
+        "paid"
+      ]
     },
     {
-     "name": "Austin Queen",
-     "emails": [],
-     "shareId": "J2niBBpI",
-     "url": "https://www.send.co/a/J2niBBpI"
+      "stage": "Referred out (attorney or public adjuster)",
+      "order": 9,
+      "blurb": "Appraisal was not the right route. The file has moved to an attorney or a public adjuster.",
+      "matchers": [
+        "sent to attorney",
+        "send to attorney",
+        "in pa -",
+        "in pa-"
+      ]
     },
     {
-     "name": "Bo Serros",
-     "emails": [],
-     "shareId": "97LkciO7",
-     "url": "https://www.send.co/a/97LkciO7"
+      "stage": "Negotiating with the carrier's appraiser",
+      "order": 7,
+      "blurb": "Positions exchanged. We are working the gap.",
+      "matchers": [
+        "sent oa my position",
+        "need to review oa",
+        "reviewed oa",
+        "carrier appraiser responded",
+        "2nd offer is to low",
+        "awaiting on opposing appraiser",
+        "joseph did first review",
+        "position written"
+      ]
     },
     {
-     "name": "Brandon Petitt",
-     "emails": [],
-     "shareId": "33AxV2eh",
-     "url": "https://www.send.co/a/33AxV2eh"
+      "stage": "Inspected / building our position",
+      "order": 6,
+      "blurb": "Property inspected. Our estimate and position are being prepared.",
+      "matchers": [
+        "inspected",
+        "estimate under review",
+        "further ressearch",
+        "estimate done but reassigned"
+      ]
     },
     {
-     "name": "Cade Cassady",
-     "emails": [],
-     "shareId": "i8vsETnk",
-     "url": "https://www.send.co/a/i8vsETnk"
+      "stage": "Inspection scheduling",
+      "order": 5,
+      "blurb": "The carrier's appraiser is named. Locking in the inspection date.",
+      "matchers": [
+        "carrier appraisers info provided",
+        "carrier appraiser info provided",
+        "need to confirm schedule",
+        "scheduled",
+        "for rescheduling"
+      ]
     },
     {
-     "name": "Christopher Mathis",
-     "emails": [],
-     "shareId": "C1tr9C4K",
-     "url": "https://www.send.co/a/C1tr9C4K"
+      "stage": "Appraisal demanded / waiting on carrier",
+      "order": 4,
+      "blurb": "The demand is with the carrier. Waiting for them to name their appraiser.",
+      "matchers": [
+        "demand letters sent",
+        "appraiser named but no",
+        "no appraiser named",
+        "homesite files",
+        "state farm claims",
+        "out of state"
+      ]
     },
     {
-     "name": "Clayton Grassi",
-     "emails": [],
-     "shareId": "wvkjd6bR",
-     "url": "https://www.send.co/a/wvkjd6bR"
+      "stage": "Estimate sent - needs sign-off",
+      "order": 3,
+      "blurb": "The estimate is with you and/or the homeowner. We need approval to move.",
+      "matchers": [
+        "estimates sent",
+        "waiting for roofer's go signal"
+      ]
     },
     {
-     "name": "Daniel Ferrel",
-     "emails": [],
-     "shareId": "ODDr9ncY",
-     "url": "https://www.send.co/a/ODDr9ncY"
+      "stage": "Estimate being prepared",
+      "order": 2,
+      "blurb": "We are writing the estimate.",
+      "matchers": [
+        "estimates prepared to send",
+        "for supplement/or estimate only"
+      ]
     },
     {
-     "name": "David Jaimes",
-     "emails": [],
-     "shareId": "3vItXSb8",
-     "url": "https://www.send.co/a/3vItXSb8"
-    },
-    {
-     "name": "David Webster",
-     "emails": [],
-     "shareId": "UC6gOUvV",
-     "url": "https://www.send.co/a/UC6gOUvV"
-    },
-    {
-     "name": "Eric Campoli",
-     "emails": [],
-     "shareId": "fUQ8FhGa",
-     "url": "https://www.send.co/a/fUQ8FhGa"
-    },
-    {
-     "name": "Garrett Lucas",
-     "emails": [],
-     "shareId": "psn5nOS0",
-     "url": "https://www.send.co/a/psn5nOS0"
-    },
-    {
-     "name": "Garritt Doyle",
-     "emails": [],
-     "shareId": "CsBwD56E",
-     "url": "https://www.send.co/a/CsBwD56E"
-    },
-    {
-     "name": "Grant Reber",
-     "emails": [],
-     "shareId": "cfU9JVyl",
-     "url": "https://www.send.co/a/cfU9JVyl"
-    },
-    {
-     "name": "Heather Griffiths",
-     "emails": [],
-     "shareId": "XqaMZt5i",
-     "url": "https://www.send.co/a/XqaMZt5i"
-    },
-    {
-     "name": "Jacob Diaz",
-     "emails": [],
-     "shareId": "VGyJD1wY",
-     "url": "https://www.send.co/a/VGyJD1wY"
-    },
-    {
-     "name": "John Payne",
-     "emails": [],
-     "shareId": "VaWXHk0M",
-     "url": "https://www.send.co/a/VaWXHk0M"
-    },
-    {
-     "name": "Jose Diaz",
-     "emails": [],
-     "shareId": "58SNDLNB",
-     "url": "https://www.send.co/a/58SNDLNB"
-    },
-    {
-     "name": "Jose Hernandez",
-     "emails": [],
-     "shareId": "30CwlAn3",
-     "url": "https://www.send.co/a/30CwlAn3"
-    },
-    {
-     "name": "Justin Bach",
-     "emails": [],
-     "shareId": "AqUZL0wm",
-     "url": "https://www.send.co/a/AqUZL0wm"
-    },
-    {
-     "name": "Justin Kouri",
-     "emails": [],
-     "shareId": "zj67I1Md",
-     "url": "https://www.send.co/a/zj67I1Md"
-    },
-    {
-     "name": "Kevin Salazar",
-     "emails": [],
-     "shareId": "hbqaTzve",
-     "url": "https://www.send.co/a/hbqaTzve"
-    },
-    {
-     "name": "Kevin Shuford",
-     "emails": [],
-     "shareId": "aSvey7GM",
-     "url": "https://www.send.co/a/aSvey7GM"
-    },
-    {
-     "name": "Kristopher Bigham",
-     "emails": [],
-     "shareId": "w9Gh6vQH",
-     "url": "https://www.send.co/a/w9Gh6vQH"
-    },
-    {
-     "name": "Luis Garcia",
-     "emails": [],
-     "shareId": "pxYWJJr4",
-     "url": "https://www.send.co/a/pxYWJJr4"
-    },
-    {
-     "name": "Madison Smith",
-     "emails": [],
-     "shareId": "mQ9eGQMA",
-     "url": "https://www.send.co/a/mQ9eGQMA"
-    },
-    {
-     "name": "Marcus Stein",
-     "emails": [],
-     "shareId": "aDBxl6nR",
-     "url": "https://www.send.co/a/aDBxl6nR"
-    },
-    {
-     "name": "Matt Meredith",
-     "emails": [],
-     "shareId": "Fc5dbei3",
-     "url": "https://www.send.co/a/Fc5dbei3"
-    },
-    {
-     "name": "Mazin Shahin",
-     "emails": [],
-     "shareId": "KWAdeHFs",
-     "url": "https://www.send.co/a/KWAdeHFs"
-    },
-    {
-     "name": "Melvin Pierce",
-     "emails": [],
-     "shareId": "NJ8RltSx",
-     "url": "https://www.send.co/a/NJ8RltSx"
-    },
-    {
-     "name": "Michael Hopkins",
-     "emails": [],
-     "shareId": "fnd4kGBs",
-     "url": "https://www.send.co/a/fnd4kGBs"
-    },
-    {
-     "name": "Michael Lakomowski",
-     "emails": [],
-     "shareId": "25QtA1lt",
-     "url": "https://www.send.co/a/25QtA1lt"
-    },
-    {
-     "name": "Michael Shemas",
-     "emails": [],
-     "shareId": "XfhcBgrc",
-     "url": "https://www.send.co/a/XfhcBgrc"
-    },
-    {
-     "name": "Mike Stokes",
-     "emails": [],
-     "shareId": "5KvGYbFK",
-     "url": "https://www.send.co/a/5KvGYbFK"
-    },
-    {
-     "name": "Nicholas Wnukowski",
-     "emails": [],
-     "shareId": "aosAg7aV",
-     "url": "https://www.send.co/a/aosAg7aV"
-    },
-    {
-     "name": "Noah Nichter",
-     "emails": [],
-     "shareId": "ZCkckDO1",
-     "url": "https://www.send.co/a/ZCkckDO1"
-    },
-    {
-     "name": "Patrick Davis",
-     "emails": [],
-     "shareId": "EnZXkDw7",
-     "url": "https://www.send.co/a/EnZXkDw7"
-    },
-    {
-     "name": "Patrick Dubose",
-     "emails": [],
-     "shareId": "wEZQsZ7Z",
-     "url": "https://www.send.co/a/wEZQsZ7Z"
-    },
-    {
-     "name": "Patrick Nations",
-     "emails": [],
-     "shareId": "FLw5JxCQ",
-     "url": "https://www.send.co/a/FLw5JxCQ"
-    },
-    {
-     "name": "Paul Bowen",
-     "emails": [],
-     "shareId": "NsLO2nOG",
-     "url": "https://www.send.co/a/NsLO2nOG"
-    },
-    {
-     "name": "Paul Ravel",
-     "emails": [],
-     "shareId": "Jj6onNyN",
-     "url": "https://www.send.co/a/Jj6onNyN"
-    },
-    {
-     "name": "Paulino Ortega",
-     "emails": [],
-     "shareId": "QSqBoukR",
-     "url": "https://www.send.co/a/QSqBoukR"
-    },
-    {
-     "name": "Ricardo Hernandez",
-     "emails": [],
-     "shareId": "CpQZ9LtX",
-     "url": "https://www.send.co/a/CpQZ9LtX"
-    },
-    {
-     "name": "Robert Crotty",
-     "emails": [],
-     "shareId": "XRbBTenE",
-     "url": "https://www.send.co/a/XRbBTenE"
-    },
-    {
-     "name": "Robert Ferguson",
-     "emails": [],
-     "shareId": "JkmOSCGO",
-     "url": "https://www.send.co/a/JkmOSCGO"
-    },
-    {
-     "name": "Rolando Charles",
-     "emails": [],
-     "shareId": "2oka9bIW",
-     "url": "https://www.send.co/a/2oka9bIW"
-    },
-    {
-     "name": "Rusty Coffman",
-     "emails": [
-      "rustyc@linearroofing.com",
-      "rcoffman@stronghousepro.com"
-     ],
-     "shareId": "EuIQUdKg",
-     "url": "https://www.send.co/a/EuIQUdKg"
-    },
-    {
-     "name": "Ryan Olson",
-     "emails": [],
-     "shareId": "jFk0MKvw",
-     "url": "https://www.send.co/a/jFk0MKvw"
-    },
-    {
-     "name": "Samuel Mata",
-     "emails": [],
-     "shareId": "wDPxEfiY",
-     "url": "https://www.send.co/a/wDPxEfiY"
-    },
-    {
-     "name": "Samuel Peters",
-     "emails": [],
-     "shareId": "XPISl13h",
-     "url": "https://www.send.co/a/XPISl13h"
-    },
-    {
-     "name": "Sean Roberts",
-     "emails": [],
-     "shareId": "tAanMITM",
-     "url": "https://www.send.co/a/tAanMITM"
-    },
-    {
-     "name": "Sergio Dehoyos",
-     "emails": [],
-     "shareId": "VSSquq0s",
-     "url": "https://www.send.co/a/VSSquq0s"
-    },
-    {
-     "name": "Stephen Buttino",
-     "emails": [],
-     "shareId": "YiOGBJZ7",
-     "url": "https://www.send.co/a/YiOGBJZ7"
-    },
-    {
-     "name": "Stephen Vaughn",
-     "emails": [],
-     "shareId": "iqgo0zV8",
-     "url": "https://www.send.co/a/iqgo0zV8"
-    },
-    {
-     "name": "Tomas Cuevas",
-     "emails": [],
-     "shareId": "aK1bDxHz",
-     "url": "https://www.send.co/a/aK1bDxHz"
-    },
-    {
-     "name": "Tony Saldana",
-     "emails": [],
-     "shareId": "2DU3Yn4s",
-     "url": "https://www.send.co/a/2DU3Yn4s"
-    },
-    {
-     "name": "Trey Elliott",
-     "emails": [],
-     "shareId": "ANQ8zEnL",
-     "url": "https://www.send.co/a/ANQ8zEnL"
-    },
-    {
-     "name": "Zacharias Khan",
-     "emails": [
-      "zachariask@linearroofing.com",
-      "zkhan@stronghousepro.com"
-     ],
-     "shareId": "9VzsADlf",
-     "url": "https://www.send.co/a/9VzsADlf"
+      "stage": "New / intake",
+      "order": 1,
+      "blurb": "File received. Confirming details before we demand appraisal.",
+      "matchers": [
+        "roofing company inquires",
+        "still verifying",
+        "pa inquires",
+        "pa's and attorney inquires",
+        "call homeowners",
+        "direct customers",
+        "triage"
+      ]
     }
-   ],
-   "shareId": null,
-   "unassignedShareId": "3EyCbafl",
-   "unassignedUrl": "https://www.send.co/a/3EyCbafl",
-   "supersededPages": [
+  ],
+  "_debtCollectionNote": [
+    "JUDGEMENT CALL, easy to change: files sitting in 'Need to send to debt collections',",
+    "'Sent to Debt Collections' and 'PAST DUES' are shown to the client as",
+    "'Settled - payment outstanding'. That is accurate -- the invoice IS open -- and it stops",
+    "an automated page from picking a fight with a client on Joseph's behalf. If Joseph wants",
+    "collections stated plainly, give those three lists their own stage here."
+  ],
+  "_excludeListsComment": [
+    "Lists that do NOT hold client files. A card sitting in one of these is a contact record,",
+    "an agent rule, a divider or a staff task -- never a file, so it must never reach a status",
+    "page. Applied BEFORE stage mapping. Matched as lowercased substrings of the list name."
+  ],
+  "excludeLists": [
+    "ai agent",
+    "repeat clients",
+    "appraisers info that works for us",
+    "interested roofers",
+    "admin work",
+    "assignments",
+    "new list"
+  ],
+  "_excludeCardMarkersComment": [
+    "Markers Joseph writes into a card's name or description to say it is not a live appraisal",
+    "file. A card carrying one never reaches a status page, whatever list it sits in.",
+    "Matched case-insensitively against card name + description."
+  ],
+  "excludeCardMarkers": [
+    "[NOT AN APPRAISAL]",
+    "NOT AN APPRAISAL",
+    "DO NOT SHOW",
+    "TEST CARD"
+  ],
+  "_nonClientComment": "Labels that are markets, difficulty tags, staff assignments or workflow flags -- never a client. Matched case-insensitively.",
+  "nonClientLabels": [
+    "Houston",
+    "Austin",
+    "DFW",
+    "San Antonio",
+    "payments",
+    "Mid level",
+    "Easy",
+    "Hard",
+    "On Hold",
+    "Lacking Info - need to follow up",
+    "Call/ Follow up",
+    "FOR RESCHEDULING",
+    "Appraiser: joseph Dittman",
+    "Needs PA (Joseph)",
+    "Mark's task",
+    "Erwin's task",
+    "Direct Customer"
+  ],
+  "_contractorComment": [
+    "pageMode 'per-rep'  -> one Send page per named rep, plus one catch-all page for that",
+    "                      company's files with no rep resolved yet.",
+    "pageMode 'company'  -> one Send page for the whole company (the default).",
+    "shareId is written back by the weekly run the first time it publishes a page.",
+    "aliasLabels folds duplicate/typo labels into one client."
+  ],
+  "contractors": [
     {
-     "name": "A. Queen",
-     "shareId": "OmWENjKs"
+      "label": "LINEAR roofing",
+      "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/6789f096f28b3d90d7c62897",
+      "aliasLabels": [
+        "linear roofing"
+      ],
+      "company": "Linear Roofing & General Contractors",
+      "domains": [
+        "linearroofing.com"
+      ],
+      "pageMode": "per-rep",
+      "affiliatedWith": "Strong House Pro",
+      "reps": [
+        {
+          "name": "Alberto Zenteno",
+          "emails": [],
+          "shareId": "pMitM9aK",
+          "url": "https://www.send.co/a/pMitM9aK"
+        },
+        {
+          "name": "Andres Soto",
+          "emails": [
+            "andres@linearroofing.com",
+            "asoto@stronghousebrands.com"
+          ],
+          "shareId": "3YCzp1LR",
+          "url": "https://www.send.co/a/3YCzp1LR"
+        },
+        {
+          "name": "Andrew Perales",
+          "emails": [],
+          "shareId": "dZTCr3hI",
+          "url": "https://www.send.co/a/dZTCr3hI"
+        },
+        {
+          "name": "Austin Queen",
+          "emails": [],
+          "shareId": "J2niBBpI",
+          "url": "https://www.send.co/a/J2niBBpI"
+        },
+        {
+          "name": "Bo Serros",
+          "emails": [],
+          "shareId": "97LkciO7",
+          "url": "https://www.send.co/a/97LkciO7"
+        },
+        {
+          "name": "Brandon Petitt",
+          "emails": [],
+          "shareId": "33AxV2eh",
+          "url": "https://www.send.co/a/33AxV2eh"
+        },
+        {
+          "name": "Cade Cassady",
+          "emails": [],
+          "shareId": "i8vsETnk",
+          "url": "https://www.send.co/a/i8vsETnk"
+        },
+        {
+          "name": "Christopher Mathis",
+          "emails": [],
+          "shareId": "C1tr9C4K",
+          "url": "https://www.send.co/a/C1tr9C4K"
+        },
+        {
+          "name": "Clayton Grassi",
+          "emails": [],
+          "shareId": "wvkjd6bR",
+          "url": "https://www.send.co/a/wvkjd6bR"
+        },
+        {
+          "name": "Daniel Ferrel",
+          "emails": [],
+          "shareId": "ODDr9ncY",
+          "url": "https://www.send.co/a/ODDr9ncY"
+        },
+        {
+          "name": "David Jaimes",
+          "emails": [],
+          "shareId": "3vItXSb8",
+          "url": "https://www.send.co/a/3vItXSb8"
+        },
+        {
+          "name": "David Webster",
+          "emails": [],
+          "shareId": "UC6gOUvV",
+          "url": "https://www.send.co/a/UC6gOUvV"
+        },
+        {
+          "name": "Eric Campoli",
+          "emails": [],
+          "shareId": "fUQ8FhGa",
+          "url": "https://www.send.co/a/fUQ8FhGa"
+        },
+        {
+          "name": "Garrett Lucas",
+          "emails": [],
+          "shareId": "psn5nOS0",
+          "url": "https://www.send.co/a/psn5nOS0"
+        },
+        {
+          "name": "Garritt Doyle",
+          "emails": [],
+          "shareId": "CsBwD56E",
+          "url": "https://www.send.co/a/CsBwD56E"
+        },
+        {
+          "name": "Grant Reber",
+          "emails": [],
+          "shareId": "cfU9JVyl",
+          "url": "https://www.send.co/a/cfU9JVyl"
+        },
+        {
+          "name": "Heather Griffiths",
+          "emails": [],
+          "shareId": "XqaMZt5i",
+          "url": "https://www.send.co/a/XqaMZt5i"
+        },
+        {
+          "name": "Jacob Diaz",
+          "emails": [],
+          "shareId": "VGyJD1wY",
+          "url": "https://www.send.co/a/VGyJD1wY"
+        },
+        {
+          "name": "John Payne",
+          "emails": [],
+          "shareId": "VaWXHk0M",
+          "url": "https://www.send.co/a/VaWXHk0M"
+        },
+        {
+          "name": "Jose Diaz",
+          "emails": [],
+          "shareId": "58SNDLNB",
+          "url": "https://www.send.co/a/58SNDLNB"
+        },
+        {
+          "name": "Jose Hernandez",
+          "emails": [],
+          "shareId": "30CwlAn3",
+          "url": "https://www.send.co/a/30CwlAn3"
+        },
+        {
+          "name": "Justin Bach",
+          "emails": [],
+          "shareId": "AqUZL0wm",
+          "url": "https://www.send.co/a/AqUZL0wm"
+        },
+        {
+          "name": "Justin Kouri",
+          "emails": [],
+          "shareId": "zj67I1Md",
+          "url": "https://www.send.co/a/zj67I1Md"
+        },
+        {
+          "name": "Kevin Salazar",
+          "emails": [],
+          "shareId": "hbqaTzve",
+          "url": "https://www.send.co/a/hbqaTzve"
+        },
+        {
+          "name": "Kevin Shuford",
+          "emails": [],
+          "shareId": "aSvey7GM",
+          "url": "https://www.send.co/a/aSvey7GM"
+        },
+        {
+          "name": "Kristopher Bigham",
+          "emails": [],
+          "shareId": "w9Gh6vQH",
+          "url": "https://www.send.co/a/w9Gh6vQH"
+        },
+        {
+          "name": "Luis Garcia",
+          "emails": [],
+          "shareId": "pxYWJJr4",
+          "url": "https://www.send.co/a/pxYWJJr4"
+        },
+        {
+          "name": "Madison Smith",
+          "emails": [],
+          "shareId": "mQ9eGQMA",
+          "url": "https://www.send.co/a/mQ9eGQMA"
+        },
+        {
+          "name": "Marcus Stein",
+          "emails": [],
+          "shareId": "aDBxl6nR",
+          "url": "https://www.send.co/a/aDBxl6nR"
+        },
+        {
+          "name": "Matt Meredith",
+          "emails": [],
+          "shareId": "Fc5dbei3",
+          "url": "https://www.send.co/a/Fc5dbei3"
+        },
+        {
+          "name": "Mazin Shahin",
+          "emails": [],
+          "shareId": "KWAdeHFs",
+          "url": "https://www.send.co/a/KWAdeHFs"
+        },
+        {
+          "name": "Melvin Pierce",
+          "emails": [],
+          "shareId": "NJ8RltSx",
+          "url": "https://www.send.co/a/NJ8RltSx"
+        },
+        {
+          "name": "Michael Hopkins",
+          "emails": [],
+          "shareId": "fnd4kGBs",
+          "url": "https://www.send.co/a/fnd4kGBs"
+        },
+        {
+          "name": "Michael Lakomowski",
+          "emails": [],
+          "shareId": "25QtA1lt",
+          "url": "https://www.send.co/a/25QtA1lt"
+        },
+        {
+          "name": "Michael Shemas",
+          "emails": [],
+          "shareId": "XfhcBgrc",
+          "url": "https://www.send.co/a/XfhcBgrc"
+        },
+        {
+          "name": "Mike Stokes",
+          "emails": [],
+          "shareId": "5KvGYbFK",
+          "url": "https://www.send.co/a/5KvGYbFK"
+        },
+        {
+          "name": "Nicholas Wnukowski",
+          "emails": [],
+          "shareId": "aosAg7aV",
+          "url": "https://www.send.co/a/aosAg7aV"
+        },
+        {
+          "name": "Noah Nichter",
+          "emails": [],
+          "shareId": "ZCkckDO1",
+          "url": "https://www.send.co/a/ZCkckDO1"
+        },
+        {
+          "name": "Patrick Davis",
+          "emails": [],
+          "shareId": "EnZXkDw7",
+          "url": "https://www.send.co/a/EnZXkDw7"
+        },
+        {
+          "name": "Patrick Dubose",
+          "emails": [],
+          "shareId": "wEZQsZ7Z",
+          "url": "https://www.send.co/a/wEZQsZ7Z"
+        },
+        {
+          "name": "Patrick Nations",
+          "emails": [],
+          "shareId": "FLw5JxCQ",
+          "url": "https://www.send.co/a/FLw5JxCQ"
+        },
+        {
+          "name": "Paul Bowen",
+          "emails": [],
+          "shareId": "NsLO2nOG",
+          "url": "https://www.send.co/a/NsLO2nOG"
+        },
+        {
+          "name": "Paul Ravel",
+          "emails": [],
+          "shareId": "Jj6onNyN",
+          "url": "https://www.send.co/a/Jj6onNyN"
+        },
+        {
+          "name": "Paulino Ortega",
+          "emails": [],
+          "shareId": "QSqBoukR",
+          "url": "https://www.send.co/a/QSqBoukR"
+        },
+        {
+          "name": "Ricardo Hernandez",
+          "emails": [],
+          "shareId": "CpQZ9LtX",
+          "url": "https://www.send.co/a/CpQZ9LtX"
+        },
+        {
+          "name": "Robert Crotty",
+          "emails": [],
+          "shareId": "XRbBTenE",
+          "url": "https://www.send.co/a/XRbBTenE"
+        },
+        {
+          "name": "Robert Ferguson",
+          "emails": [],
+          "shareId": "JkmOSCGO",
+          "url": "https://www.send.co/a/JkmOSCGO"
+        },
+        {
+          "name": "Rolando Charles",
+          "emails": [],
+          "shareId": "2oka9bIW",
+          "url": "https://www.send.co/a/2oka9bIW"
+        },
+        {
+          "name": "Rusty Coffman",
+          "emails": [
+            "rustyc@linearroofing.com",
+            "rcoffman@stronghousepro.com"
+          ],
+          "shareId": "EuIQUdKg",
+          "url": "https://www.send.co/a/EuIQUdKg"
+        },
+        {
+          "name": "Ryan Olson",
+          "emails": [],
+          "shareId": "jFk0MKvw",
+          "url": "https://www.send.co/a/jFk0MKvw"
+        },
+        {
+          "name": "Samuel Mata",
+          "emails": [],
+          "shareId": "wDPxEfiY",
+          "url": "https://www.send.co/a/wDPxEfiY"
+        },
+        {
+          "name": "Samuel Peters",
+          "emails": [],
+          "shareId": "XPISl13h",
+          "url": "https://www.send.co/a/XPISl13h"
+        },
+        {
+          "name": "Sean Roberts",
+          "emails": [],
+          "shareId": "tAanMITM",
+          "url": "https://www.send.co/a/tAanMITM"
+        },
+        {
+          "name": "Sergio Dehoyos",
+          "emails": [],
+          "shareId": "VSSquq0s",
+          "url": "https://www.send.co/a/VSSquq0s"
+        },
+        {
+          "name": "Stephen Buttino",
+          "emails": [],
+          "shareId": "YiOGBJZ7",
+          "url": "https://www.send.co/a/YiOGBJZ7"
+        },
+        {
+          "name": "Stephen Vaughn",
+          "emails": [],
+          "shareId": "iqgo0zV8",
+          "url": "https://www.send.co/a/iqgo0zV8"
+        },
+        {
+          "name": "Tomas Cuevas",
+          "emails": [],
+          "shareId": "aK1bDxHz",
+          "url": "https://www.send.co/a/aK1bDxHz"
+        },
+        {
+          "name": "Tony Saldana",
+          "emails": [],
+          "shareId": "2DU3Yn4s",
+          "url": "https://www.send.co/a/2DU3Yn4s"
+        },
+        {
+          "name": "Trey Elliott",
+          "emails": [],
+          "shareId": "ANQ8zEnL",
+          "url": "https://www.send.co/a/ANQ8zEnL"
+        },
+        {
+          "name": "Zacharias Khan",
+          "emails": [
+            "zachariask@linearroofing.com",
+            "zkhan@stronghousepro.com"
+          ],
+          "shareId": "9VzsADlf",
+          "url": "https://www.send.co/a/9VzsADlf"
+        }
+      ],
+      "shareId": null,
+      "unassignedShareId": "3EyCbafl",
+      "unassignedUrl": "https://www.send.co/a/3EyCbafl",
+      "supersededPages": [
+        {
+          "name": "A. Queen",
+          "shareId": "OmWENjKs"
+        },
+        {
+          "name": "Andrew P.",
+          "shareId": "1EOlBGaa"
+        },
+        {
+          "name": "B. Serros",
+          "shareId": "rUFeUA5C"
+        },
+        {
+          "name": "D. Webster",
+          "shareId": "XaOK4wxw"
+        },
+        {
+          "name": "De Hoyos",
+          "shareId": "H5jRlOeB"
+        },
+        {
+          "name": "G. Reber",
+          "shareId": "O9XdEwiI"
+        },
+        {
+          "name": "Jake Mathew",
+          "shareId": "dG5WLSF4"
+        },
+        {
+          "name": "Justin K.",
+          "shareId": "VrV0E3mc"
+        },
+        {
+          "name": "K. Bigham",
+          "shareId": "HfntO0Eb"
+        },
+        {
+          "name": "M. Meredith",
+          "shareId": "80VpU2zC"
+        },
+        {
+          "name": "M. Pierce",
+          "shareId": "sAWfqcXq"
+        },
+        {
+          "name": "Omar Haner",
+          "shareId": "F3K39cC7"
+        },
+        {
+          "name": "Travis Elliott",
+          "shareId": "Q7C2bKu9"
+        }
+      ]
     },
     {
-     "name": "Andrew P.",
-     "shareId": "1EOlBGaa"
+      "label": "Strong House Pro",
+      "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/69c177f6ee6b083568b6a6b3",
+      "company": "Stronghouse Pro",
+      "domains": [
+        "stronghousepro.com",
+        "stronghousebrands.com"
+      ],
+      "pageMode": "per-rep",
+      "affiliatedWith": "LINEAR roofing",
+      "reps": [
+        {
+          "name": "Aaron Faughn",
+          "emails": [],
+          "shareId": "eRCpUFsw",
+          "url": "https://www.send.co/a/eRCpUFsw"
+        },
+        {
+          "name": "Alberto Zenteno",
+          "emails": [],
+          "shareId": "N0qifUeg",
+          "url": "https://www.send.co/a/N0qifUeg"
+        },
+        {
+          "name": "Amir Mobalegh",
+          "emails": [],
+          "shareId": "NifVZq81",
+          "url": "https://www.send.co/a/NifVZq81"
+        },
+        {
+          "name": "Andres Soto",
+          "emails": [],
+          "shareId": "ep99zSaB",
+          "url": "https://www.send.co/a/ep99zSaB"
+        },
+        {
+          "name": "Andrew Perales",
+          "emails": [],
+          "shareId": "DlIKTBQI",
+          "url": "https://www.send.co/a/DlIKTBQI"
+        },
+        {
+          "name": "Baha Abushehab",
+          "emails": [],
+          "shareId": "spdevhk0",
+          "url": "https://www.send.co/a/spdevhk0"
+        },
+        {
+          "name": "Christopher Mathis",
+          "emails": [],
+          "shareId": "Wdh4SK41",
+          "url": "https://www.send.co/a/Wdh4SK41"
+        },
+        {
+          "name": "Clayton Grassi",
+          "emails": [],
+          "shareId": "zXWmm7Tj",
+          "url": "https://www.send.co/a/zXWmm7Tj"
+        },
+        {
+          "name": "Daniel Rodriguez",
+          "emails": [],
+          "shareId": "srHxOk2y",
+          "url": "https://www.send.co/a/srHxOk2y"
+        },
+        {
+          "name": "David Webster",
+          "emails": [],
+          "shareId": "6om1Ew5L",
+          "url": "https://www.send.co/a/6om1Ew5L"
+        },
+        {
+          "name": "Garritt Doyle",
+          "emails": [],
+          "shareId": "BObKXMhK",
+          "url": "https://www.send.co/a/BObKXMhK"
+        },
+        {
+          "name": "Heather Griffiths",
+          "emails": [],
+          "shareId": "W0P3tNFw",
+          "url": "https://www.send.co/a/W0P3tNFw"
+        },
+        {
+          "name": "Jacob Diaz",
+          "emails": [],
+          "shareId": "HyFEhfbE",
+          "url": "https://www.send.co/a/HyFEhfbE"
+        },
+        {
+          "name": "Jeffrey Speight",
+          "emails": [],
+          "shareId": "XEJ8aIkj",
+          "url": "https://www.send.co/a/XEJ8aIkj"
+        },
+        {
+          "name": "Joel Rivera",
+          "emails": [],
+          "shareId": "AJbFveoq",
+          "url": "https://www.send.co/a/AJbFveoq"
+        },
+        {
+          "name": "Jose Diaz",
+          "emails": [],
+          "shareId": "MZbmhkIV",
+          "url": "https://www.send.co/a/MZbmhkIV"
+        },
+        {
+          "name": "Jose Hernandez",
+          "emails": [],
+          "shareId": "VTYG7Q8l",
+          "url": "https://www.send.co/a/VTYG7Q8l"
+        },
+        {
+          "name": "Kevin Salazar",
+          "emails": [],
+          "shareId": "udwGcQyo",
+          "url": "https://www.send.co/a/udwGcQyo"
+        },
+        {
+          "name": "Kevin Shuford",
+          "emails": [],
+          "shareId": "UsCWiuFS",
+          "url": "https://www.send.co/a/UsCWiuFS"
+        },
+        {
+          "name": "Luis Garcia",
+          "emails": [],
+          "shareId": "NmAH7dr2",
+          "url": "https://www.send.co/a/NmAH7dr2"
+        },
+        {
+          "name": "Marcus Stein",
+          "emails": [],
+          "shareId": "CdSdKzBe",
+          "url": "https://www.send.co/a/CdSdKzBe"
+        },
+        {
+          "name": "Melvin Pierce",
+          "emails": [],
+          "shareId": "IVL76bWg",
+          "url": "https://www.send.co/a/IVL76bWg"
+        },
+        {
+          "name": "Michael Shemas",
+          "emails": [],
+          "shareId": "iLdQjjop",
+          "url": "https://www.send.co/a/iLdQjjop"
+        },
+        {
+          "name": "Omar Haner",
+          "emails": [],
+          "shareId": "HDqyl7Pa",
+          "url": "https://www.send.co/a/HDqyl7Pa"
+        },
+        {
+          "name": "Patrick Nations",
+          "emails": [],
+          "shareId": "aIM59lx4",
+          "url": "https://www.send.co/a/aIM59lx4"
+        },
+        {
+          "name": "Ricardo Hernandez",
+          "emails": [],
+          "shareId": "Ydo49muU",
+          "url": "https://www.send.co/a/Ydo49muU"
+        },
+        {
+          "name": "Rusty Coffman",
+          "emails": [],
+          "shareId": "rfKqhxtS",
+          "url": "https://www.send.co/a/rfKqhxtS"
+        },
+        {
+          "name": "Samuel Peters",
+          "emails": [],
+          "shareId": "OrM1fbu1",
+          "url": "https://www.send.co/a/OrM1fbu1"
+        },
+        {
+          "name": "Stephen Buttino",
+          "emails": [],
+          "shareId": "8IMjRXkV",
+          "url": "https://www.send.co/a/8IMjRXkV"
+        },
+        {
+          "name": "Stephen Gossett",
+          "emails": [],
+          "shareId": "5766Rnc3",
+          "url": "https://www.send.co/a/5766Rnc3"
+        },
+        {
+          "name": "Tim Berry",
+          "emails": [],
+          "shareId": "zCdvSAvl",
+          "url": "https://www.send.co/a/zCdvSAvl"
+        },
+        {
+          "name": "Tomas Cuevas",
+          "emails": [],
+          "shareId": "alXtyuZJ",
+          "url": "https://www.send.co/a/alXtyuZJ"
+        },
+        {
+          "name": "Trey Elliott",
+          "emails": [],
+          "shareId": "56Mrout2",
+          "url": "https://www.send.co/a/56Mrout2"
+        },
+        {
+          "name": "Zacharias Khan",
+          "emails": [],
+          "shareId": "nTJcEreq",
+          "url": "https://www.send.co/a/nTJcEreq"
+        }
+      ],
+      "shareId": null,
+      "unassignedShareId": "PrXSVkbG",
+      "unassignedUrl": "https://www.send.co/a/PrXSVkbG",
+      "supersededPages": [
+        {
+          "name": "M. Pierce",
+          "shareId": "9AwcUoBM"
+        },
+        {
+          "name": "A. Mobalegh",
+          "shareId": "Wj5wFtfl"
+        },
+        {
+          "name": "Andrew Blackburn",
+          "shareId": "Z5wsYcpa"
+        },
+        {
+          "name": "D. Hogan",
+          "shareId": "y3aVAr68"
+        },
+        {
+          "name": "D. Pagoada",
+          "shareId": "PRWk2Mc3"
+        },
+        {
+          "name": "Edgar Zuniga",
+          "shareId": "MjyG13vv"
+        },
+        {
+          "name": "George Jackson",
+          "shareId": "sJrTqUsp"
+        },
+        {
+          "name": "J. De La Cruz",
+          "shareId": "JvuWDAa5"
+        },
+        {
+          "name": "Jake Mathew",
+          "shareId": "VkAOIYXg"
+        },
+        {
+          "name": "Matt Godfrey",
+          "shareId": "GLlVyw21"
+        },
+        {
+          "name": "Terronce Johnson",
+          "shareId": "L89aD0FN"
+        },
+        {
+          "name": "Trevon Chaney",
+          "shareId": "YcSBfyFx"
+        }
+      ]
     },
     {
-     "name": "B. Serros",
-     "shareId": "rUFeUA5C"
+      "label": "Legacy Roofing",
+      "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/68e1a336e2496ed38981c6db",
+      "company": "Legacy Roofing GC",
+      "domains": [
+        "legacyroofinggc.com"
+      ],
+      "pageMode": "company",
+      "reps": [
+        {
+          "name": "Jazhiel M.",
+          "emails": [
+            "jazhielm@legacyroofinggc.com"
+          ]
+        },
+        {
+          "name": "Alex C.",
+          "emails": [
+            "alexc@legacyroofinggc.com"
+          ]
+        },
+        {
+          "name": "Roberto M.",
+          "emails": [
+            "robertom@legacyroofinggc.com"
+          ]
+        },
+        {
+          "name": "Jose G.",
+          "emails": [
+            "joseg@legacyroofinggc.com"
+          ]
+        }
+      ],
+      "shareId": "do5DL1Om",
+      "url": "https://www.send.co/a/do5DL1Om"
     },
     {
-     "name": "D. Webster",
-     "shareId": "XaOK4wxw"
+      "label": "No Stress Claims",
+      "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/675bbb8fe256c9a8d7b12815",
+      "company": "No Stress Claims",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "JTSciawp",
+      "url": "https://www.send.co/a/JTSciawp"
     },
     {
-     "name": "De Hoyos",
-     "shareId": "H5jRlOeB"
+      "label": "Vince - assured value claims",
+      "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/666e58ad1dc51400eb5238fe",
+      "company": "Assured Value Claims",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "CSIhM4fp",
+      "url": "https://www.send.co/a/CSIhM4fp"
     },
     {
-     "name": "G. Reber",
-     "shareId": "O9XdEwiI"
+      "label": "Cross country Public Adjusting",
+      "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/6842b18b2c83590ef73b83e2",
+      "company": "Cross Country Public Adjusting",
+      "domains": [
+        "crosscountrypublicadjusting.com"
+      ],
+      "pageMode": "company",
+      "shareId": "696GL2Lq",
+      "url": "https://www.send.co/a/696GL2Lq"
     },
     {
-     "name": "Jake Mathew",
-     "shareId": "dG5WLSF4"
+      "label": "TCB Elite Fleet",
+      "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/69c5478508edf5cd6a0c082c",
+      "company": "TCB Elite Fleet LLC",
+      "domains": [
+        "tcbelitefleet.com"
+      ],
+      "pageMode": "company",
+      "reps": [
+        {
+          "name": "A. Stevens",
+          "emails": [
+            "astevens@tcbelitefleet.com"
+          ]
+        },
+        {
+          "name": "C. Schick",
+          "emails": [
+            "cschick@tcbelitefleet.com"
+          ]
+        }
+      ],
+      "shareId": "93IB0fH1",
+      "url": "https://www.send.co/a/93IB0fH1"
     },
     {
-     "name": "Justin K.",
-     "shareId": "VrV0E3mc"
+      "label": "The lawgical firm",
+      "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/68e3a67e4b628e6f90368b9e",
+      "company": "The Lawgical Firm",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "FsAQgx8X",
+      "url": "https://www.send.co/a/FsAQgx8X"
     },
     {
-     "name": "K. Bigham",
-     "shareId": "HfntO0Eb"
+      "label": "ADC Roofing",
+      "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/69a71e042e5bf39d4ecc8b0d",
+      "company": "ADC Roofing",
+      "domains": [
+        "adcroofing.com"
+      ],
+      "pageMode": "company",
+      "reps": [
+        {
+          "name": "Farhan",
+          "emails": [
+            "farhan@adcroofing.com"
+          ]
+        }
+      ],
+      "shareId": "HEIQwf7s",
+      "url": "https://www.send.co/a/HEIQwf7s"
     },
     {
-     "name": "M. Meredith",
-     "shareId": "80VpU2zC"
+      "label": "Remys Roofing",
+      "company": "Remys Roofing",
+      "pageMode": "company",
+      "shareId": "D9yHIakD",
+      "_note": "Added 2026-08-16. The label existed on the board with 8 cards but was never in this config, so the roster never picked it up and its files were never back-read or given a page. Rep is Remy Caruso.",
+      "url": "https://www.send.co/a/remys-roofing-D9yHIakD"
     },
     {
-     "name": "M. Pierce",
-     "shareId": "sAWfqcXq"
+      "label": "Kenny North",
+      "company": "Kenny North",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "IEuQEgFv",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 31 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/IEuQEgFv"
     },
     {
-     "name": "Omar Haner",
-     "shareId": "F3K39cC7"
+      "label": "Cohen",
+      "company": "Cohen",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "bqvsu2oB",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 29 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/bqvsu2oB"
     },
     {
-     "name": "Travis Elliott",
-     "shareId": "Q7C2bKu9"
+      "label": "Texco roofing",
+      "company": "Texco Roofing",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "eWExQUuF",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 26 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/eWExQUuF"
+    },
+    {
+      "label": "Coastal Claims",
+      "company": "Coastal Claims",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "egJAeCzM",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 20 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/egJAeCzM"
+    },
+    {
+      "label": "Powerhaus Solutions",
+      "company": "Powerhaus Solutions",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "4u3xJ3HE",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 18 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/4u3xJ3HE"
+    },
+    {
+      "label": "waggonerroofing",
+      "company": "Waggoner Roofing",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "ihk8RTdM",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 16 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/ihk8RTdM"
+    },
+    {
+      "label": "Tarrytown Roofing",
+      "company": "Tarrytown Roofing",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "W8LSoszM",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 13 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/tarrytown-roofing-W8LSoszM"
+    },
+    {
+      "label": "dashboard roofing",
+      "company": "Dashboard Roofing",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "3rdy2Qsx",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 11 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/3rdy2Qsx"
+    },
+    {
+      "label": "Now Roofing",
+      "company": "Now Roofing",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "hk3QMzCw",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 9 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/hk3QMzCw"
+    },
+    {
+      "label": "Victory Claims Consilting",
+      "company": "Victory Claims Consilting",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "xAEO7hyc",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 9 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/xAEO7hyc"
+    },
+    {
+      "label": "Rush Builders",
+      "company": "Rush Builders",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "Ja8smZ2o",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 8 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/rush-builders-Ja8smZ2o"
+    },
+    {
+      "label": "precision roofing",
+      "company": "Precision Roofing",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "AU9By9ZE",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 8 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/precision-roofing-AU9By9ZE"
+    },
+    {
+      "label": "Campbell",
+      "company": "Campbell",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "9Jx21ufk",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 7 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/9Jx21ufk"
+    },
+    {
+      "label": "Hai Nguyen",
+      "company": "Hai Nguyen",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "hM2wiYlv",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 7 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/hM2wiYlv"
+    },
+    {
+      "label": "BEYOND SOLUTIONS",
+      "company": "Beyond Solutions",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "Dfq47XNr",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 6 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/beyond-solutions-Dfq47XNr"
+    },
+    {
+      "label": "Buck Lewis",
+      "company": "Buck Lewis",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "gjmKWx6T",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 6 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/gjmKWx6T"
+    },
+    {
+      "label": "Impact Building Solutions",
+      "company": "Impact Building Solutions",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "6J9nvPl2",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 6 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/6J9nvPl2"
+    },
+    {
+      "label": "Millers law firm",
+      "company": "Millers Law Firm",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "1gHKwHfD",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 6 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/millers-law-firm-1gHKwHfD"
+    },
+    {
+      "label": "Greyhound Roofing",
+      "company": "Greyhound Roofing",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "ZlF0tyCf",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 5 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/ZlF0tyCf"
+    },
+    {
+      "label": "1st Choice Roofing & Restoration LLC",
+      "company": "1st Choice Roofing & Restoration LLC",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "II3TDBJ4",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 4 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/II3TDBJ4"
+    },
+    {
+      "label": "Len Lenard",
+      "company": "Len Lenard",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "5TTb3HGK",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 4 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/len-lenard-5TTb3HGK"
+    },
+    {
+      "label": "One Call Roofing",
+      "company": "One Call Roofing",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "lfgJ5mAW",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 4 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/one-call-roofing-lfgJ5mAW"
+    },
+    {
+      "label": "pinnacle Public Adjusting",
+      "company": "Pinnacle Public Adjusting",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "dWTtrwqy",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 4 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/dWTtrwqy"
+    },
+    {
+      "label": "roofing Technologies Unlimitied",
+      "company": "Roofing Technologies Unlimitied",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "DFWBb1ai",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 4 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/roofing-technologies-unlimitied-DFWBb1ai"
+    },
+    {
+      "label": "Crossroads Insurance Recovery",
+      "company": "Crossroads Insurance Recovery",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "hOkG76Y7",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 3 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/crossroads-insurance-recovery-hOkG76Y7"
+    },
+    {
+      "label": "Eagle A Improvements LLC",
+      "company": "Eagle A Improvements LLC",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "M9UkGsl7",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 3 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/eagle-a-improvements-llc-M9UkGsl7"
+    },
+    {
+      "label": "NextGen Construction Group",
+      "company": "NextGen Construction Group",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "5lSBPf8p",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 3 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/5lSBPf8p"
+    },
+    {
+      "label": "Statewide Public Adjusters",
+      "company": "Statewide Public Adjusters",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "2syRrO0P",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 3 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/statewide-public-adjusters-2syRrO0P"
+    },
+    {
+      "label": "storm guard",
+      "company": "Storm Guard",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "vSne6sTI",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 3 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/vSne6sTI"
+    },
+    {
+      "label": "BARRY",
+      "company": "Barry",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "DImtj4Ck",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 2 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/barry-DImtj4Ck"
+    },
+    {
+      "label": "Generation Construction Solutions, LLC.",
+      "company": "Generation Construction Solutions, LLC.",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "qr0pJvfz",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 2 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/qr0pJvfz"
+    },
+    {
+      "label": "Gulf Coast Public Adjusting",
+      "company": "Gulf Coast Public Adjusting",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "TfzADIHb",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 2 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/gulf-coast-public-adjusting-TfzADIHb"
+    },
+    {
+      "label": "Roofing Experts Pro",
+      "company": "Roofing Experts Pro",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "KoiZbLXF",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 2 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/roofing-experts-pro-KoiZbLXF"
+    },
+    {
+      "label": "Roofing Near Me GC",
+      "company": "Roofing Near Me GC",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "glWXWBjd",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 2 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/roofing-near-me-gc-glWXWBjd"
+    },
+    {
+      "label": "TCM ADJUSTING LLC",
+      "company": "TCM Adjusting LLC",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "zg7gAtdq",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 2 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/zg7gAtdq"
+    },
+    {
+      "label": "Timeless Roofing & Construction",
+      "company": "Timeless Roofing & Construction",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "78ANZTqW",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 2 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/timeless-roofing-amp-construction-78ANZTqW"
+    },
+    {
+      "label": "Top Gun Restoration",
+      "company": "Top Gun Restoration",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "vd0qGwKY",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 2 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/vd0qGwKY"
+    },
+    {
+      "label": "impressive roofing solutions",
+      "company": "Impressive Roofing Solutions",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "0lerh7Pt",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 2 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/0lerh7Pt"
+    },
+    {
+      "label": "storm recovery group",
+      "company": "Storm Recovery Group",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "4LL4TBND",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 2 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/4LL4TBND"
+    },
+    {
+      "label": "All American Contractors",
+      "company": "All American Contractors",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "iE0GA6GF",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/iE0GA6GF"
+    },
+    {
+      "label": "All Home Exterior Solutions",
+      "company": "All Home Exterior Solutions",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "HQdzSX0e",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/all-home-exterior-solutions-HQdzSX0e"
+    },
+    {
+      "label": "Brickwall Adjusters",
+      "company": "Brickwall Adjusters",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "s0HsNCqI",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/s0HsNCqI"
+    },
+    {
+      "label": "Crest Consulting",
+      "company": "Crest Consulting",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "wnA8wUyu",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/wnA8wUyu"
+    },
+    {
+      "label": "Elliotts Roofing",
+      "company": "Elliotts Roofing",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "MwqQobYQ",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/MwqQobYQ"
+    },
+    {
+      "label": "Fox Roofing",
+      "company": "Fox Roofing",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "HORr2I1D",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/fox-roofing-HORr2I1D"
+    },
+    {
+      "label": "Gustin Law",
+      "company": "Gustin Law",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "qeE5Xkxv",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/qeE5Xkxv"
+    },
+    {
+      "label": "Holden Roofing",
+      "company": "Holden Roofing",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "KSFa6LSe",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/KSFa6LSe"
+    },
+    {
+      "label": "Iron Adjuster",
+      "company": "Iron Adjuster",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "Pv2LlKWh",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/iron-adjuster-Pv2LlKWh"
+    },
+    {
+      "label": "Jeremy Hill Refferals",
+      "company": "Jeremy Hill Refferals",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "6b4PFz0d",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/jeremy-hill-refferals-6b4PFz0d"
+    },
+    {
+      "label": "Jonathan Wells",
+      "company": "Jonathan Wells",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "5EQPhAXH",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/jonathan-wells-5EQPhAXH"
+    },
+    {
+      "label": "Lower Bids Roofing",
+      "company": "Lower Bids Roofing",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "n7hW37cA",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/lower-bids-roofing-n7hW37cA"
+    },
+    {
+      "label": "M and M Build Group",
+      "company": "M and M Build Group",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "gPMc9smG",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/gPMc9smG"
+    },
+    {
+      "label": "Montgomery Roofing",
+      "company": "Montgomery Roofing",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "OoNryWcZ",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/montgomery-roofing-OoNryWcZ"
+    },
+    {
+      "label": "Priority Roofs",
+      "company": "Priority Roofs",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "aywra6Bx",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/aywra6Bx"
+    },
+    {
+      "label": "Purple Turtle Roofing",
+      "company": "Purple Turtle Roofing",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "jsZFMQnt",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/jsZFMQnt"
+    },
+    {
+      "label": "Ridgway Roofing",
+      "company": "Ridgway Roofing",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "d9eQ0R1E",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/d9eQ0R1E"
+    },
+    {
+      "label": "Roofing Experts",
+      "company": "Roofing Experts",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "3zfoMZmL",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/roofing-experts-3zfoMZmL"
+    },
+    {
+      "label": "Schilter Law Firm",
+      "company": "Schilter Law Firm",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "aqfjRBr9",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/aqfjRBr9"
+    },
+    {
+      "label": "Tony's roofing services",
+      "company": "Tony's Roofing Services",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "EkDm2oIn",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/EkDm2oIn"
+    },
+    {
+      "label": "Trinity Roof and Home",
+      "company": "Trinity Roof and Home",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "0e7Otd6F",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/0e7Otd6F"
+    },
+    {
+      "label": "VP Realty Services",
+      "company": "VP Realty Services",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "CM4osepp",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/CM4osepp"
+    },
+    {
+      "label": "VS Pro painting",
+      "company": "VS Pro Painting",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "zFHYypLI",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/vs-pro-painting-zFHYypLI"
+    },
+    {
+      "label": "YFPA CLAIM SOLUTIONS",
+      "company": "YFPA Claim Solutions",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "ghhsIEbo",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/ghhsIEbo"
+    },
+    {
+      "label": "hermesrenovations",
+      "company": "Hermes Renovations",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "emmW1jRh",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/emmW1jRh"
+    },
+    {
+      "label": "j&L CityScapes&Painting",
+      "company": "J & L CityScapes & Painting",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "Qj6HNIBh",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/j-l-cityscapes-painting-Qj6HNIBh"
+    },
+    {
+      "label": "robinson roofer",
+      "company": "Robinson Roofer",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "4Nhu3qdB",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/robinson-roofer-4Nhu3qdB"
+    },
+    {
+      "label": "texas premier roofing",
+      "company": "Texas Premier Roofing",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "bTAL7cC8",
+      "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/bTAL7cC8"
+    },
+    {
+      "label": "Easy Button Construction",
+      "company": "Easy Button Construction",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "vPX4FGyT",
+      "_note": "Auto-discovered 2026-09-21 weekly run: label had 12 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful. A page will be created this run.",
+      "url": "https://www.send.co/a/vPX4FGyT"
+    },
+    {
+      "label": "Michael Young Roofing & Construction Inc.",
+      "company": "Michael Young Roofing & Construction Inc.",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "7dqSfqzc",
+      "_note": "Auto-discovered 2026-09-21 weekly run: label had 3 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful. A page will be created this run.",
+      "url": "https://www.send.co/a/7dqSfqzc"
+    },
+    {
+      "label": "Rusty Coffman - infinite roofing",
+      "company": "Infinite Roofing (Rusty Coffman)",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "Bg4GfzIQ",
+      "_note": "Auto-discovered 2026-09-21 weekly run: label had 1 open card on the board and no entry in this config. FLAG FOR JOSEPH: Rusty Coffman is already a named rep on the LINEAR roofing / Strong House Pro per-rep pages -- this looks like a separate company (Infinite Roofing) he personally runs, but please confirm whether this file belongs on its own new page (as created here) or should instead be folded into his existing rep page(s). Display name is a best guess -- please correct it.",
+      "url": "https://www.send.co/a/Bg4GfzIQ"
+    },
+    {
+      "label": "Baker Law",
+      "company": "Baker Law",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "FvY9zUmp",
+      "_note": "Auto-discovered 2026-09-21 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful. A page will be created this run.",
+      "url": "https://www.send.co/a/FvY9zUmp"
+    },
+    {
+      "label": "Ellah Development",
+      "company": "Ellah Development",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "dOUIz2my",
+      "_note": "Auto-discovered 2026-09-21 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful. A page will be created this run.",
+      "url": "https://www.send.co/a/dOUIz2my"
+    },
+    {
+      "label": "Kidd Roofing",
+      "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/6abad6ae89f6a5a0cc7e7d1f",
+      "company": "Kidd Roofing",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "OJtcZV06",
+      "url": "https://www.send.co/a/OJtcZV06",
+      "_note": "Auto-discovered 2026-10-12 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful. A page will be created this run."
+    },
+    {
+      "label": "JaMar Roofing",
+      "company": "JaMar Roofing",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": null,
+      "_note": "Auto-discovered 2026-10-19 weekly run: label had 2 card(s) per board label usage and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+    },
+    {
+      "label": "NNABUGWU LAW FIRM, PLLC",
+      "company": "Nnabugwu Law Firm, PLLC",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": null,
+      "_note": "Auto-discovered 2026-10-19 weekly run: label had 2 card(s) per board label usage and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+    },
+    {
+      "label": "Family Friend Roofing",
+      "company": "Family Friend Roofing",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": null,
+      "_note": "Auto-discovered 2026-10-19 weekly run: label had 1 card(s) per board label usage and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+    },
+    {
+      "label": "CP4 Claims Group",
+      "company": "CP4 Claims Group",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": null,
+      "_note": "Auto-discovered 2026-10-19 weekly run: label had 1 card(s) per board label usage and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+    },
+    {
+      "label": "psretx",
+      "company": "Psretx",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": null,
+      "_note": "Auto-discovered 2026-10-19 weekly run: label had 1 card(s) per board label usage and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+    },
+    {
+      "label": "Lara's Services Group LLC",
+      "company": "Lara's Services Group LLC",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": null,
+      "_note": "Auto-discovered 2026-10-19 weekly run: label had 1 card(s) per board label usage and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+    },
+    {
+      "label": "Pro roofing",
+      "company": "Pro Roofing",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": null,
+      "_note": "Auto-discovered 2026-10-19 weekly run: label had 1 card(s) per board label usage and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+    },
+    {
+      "label": "Guard your claim",
+      "company": "Guard Your Claim",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": null,
+      "_note": "Auto-discovered 2026-10-19 weekly run: label had 1 card(s) per board label usage and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+    },
+    {
+      "label": "American Dream Construction",
+      "company": "American Dream Construction",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": null,
+      "_note": "Auto-discovered 2026-10-19 weekly run: label had 1 card(s) per board label usage and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+    },
+    {
+      "label": "Teak Claim Consultants",
+      "company": "Teak Claim Consultants",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": null,
+      "_note": "Auto-discovered 2026-10-19 weekly run: label had 1 card(s) per board label usage and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
+    },
+    {
+      "label": "KALL REMODELING",
+      "company": "Kall Remodeling",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": null,
+      "_note": "Auto-discovered 2026-10-19 weekly run: label had 1 card(s) per board label usage and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful."
     }
-   ]
-  },
-  {
-   "label": "Strong House Pro",
-   "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/69c177f6ee6b083568b6a6b3",
-   "company": "Stronghouse Pro",
-   "domains": [
-    "stronghousepro.com",
-    "stronghousebrands.com"
-   ],
-   "pageMode": "per-rep",
-   "affiliatedWith": "LINEAR roofing",
-   "reps": [
-    {
-     "name": "Aaron Faughn",
-     "emails": [],
-     "shareId": "eRCpUFsw",
-     "url": "https://www.send.co/a/eRCpUFsw"
-    },
-    {
-     "name": "Alberto Zenteno",
-     "emails": [],
-     "shareId": "N0qifUeg",
-     "url": "https://www.send.co/a/N0qifUeg"
-    },
-    {
-     "name": "Amir Mobalegh",
-     "emails": [],
-     "shareId": "NifVZq81",
-     "url": "https://www.send.co/a/NifVZq81"
-    },
-    {
-     "name": "Andres Soto",
-     "emails": [],
-     "shareId": "ep99zSaB",
-     "url": "https://www.send.co/a/ep99zSaB"
-    },
-    {
-     "name": "Andrew Perales",
-     "emails": [],
-     "shareId": "DlIKTBQI",
-     "url": "https://www.send.co/a/DlIKTBQI"
-    },
-    {
-     "name": "Baha Abushehab",
-     "emails": [],
-     "shareId": "spdevhk0",
-     "url": "https://www.send.co/a/spdevhk0"
-    },
-    {
-     "name": "Christopher Mathis",
-     "emails": [],
-     "shareId": "Wdh4SK41",
-     "url": "https://www.send.co/a/Wdh4SK41"
-    },
-    {
-     "name": "Clayton Grassi",
-     "emails": [],
-     "shareId": "zXWmm7Tj",
-     "url": "https://www.send.co/a/zXWmm7Tj"
-    },
-    {
-     "name": "Daniel Rodriguez",
-     "emails": [],
-     "shareId": "srHxOk2y",
-     "url": "https://www.send.co/a/srHxOk2y"
-    },
-    {
-     "name": "David Webster",
-     "emails": [],
-     "shareId": "6om1Ew5L",
-     "url": "https://www.send.co/a/6om1Ew5L"
-    },
-    {
-     "name": "Garritt Doyle",
-     "emails": [],
-     "shareId": "BObKXMhK",
-     "url": "https://www.send.co/a/BObKXMhK"
-    },
-    {
-     "name": "Heather Griffiths",
-     "emails": [],
-     "shareId": "W0P3tNFw",
-     "url": "https://www.send.co/a/W0P3tNFw"
-    },
-    {
-     "name": "Jacob Diaz",
-     "emails": [],
-     "shareId": "HyFEhfbE",
-     "url": "https://www.send.co/a/HyFEhfbE"
-    },
-    {
-     "name": "Jeffrey Speight",
-     "emails": [],
-     "shareId": "XEJ8aIkj",
-     "url": "https://www.send.co/a/XEJ8aIkj"
-    },
-    {
-     "name": "Joel Rivera",
-     "emails": [],
-     "shareId": "AJbFveoq",
-     "url": "https://www.send.co/a/AJbFveoq"
-    },
-    {
-     "name": "Jose Diaz",
-     "emails": [],
-     "shareId": "MZbmhkIV",
-     "url": "https://www.send.co/a/MZbmhkIV"
-    },
-    {
-     "name": "Jose Hernandez",
-     "emails": [],
-     "shareId": "VTYG7Q8l",
-     "url": "https://www.send.co/a/VTYG7Q8l"
-    },
-    {
-     "name": "Kevin Salazar",
-     "emails": [],
-     "shareId": "udwGcQyo",
-     "url": "https://www.send.co/a/udwGcQyo"
-    },
-    {
-     "name": "Kevin Shuford",
-     "emails": [],
-     "shareId": "UsCWiuFS",
-     "url": "https://www.send.co/a/UsCWiuFS"
-    },
-    {
-     "name": "Luis Garcia",
-     "emails": [],
-     "shareId": "NmAH7dr2",
-     "url": "https://www.send.co/a/NmAH7dr2"
-    },
-    {
-     "name": "Marcus Stein",
-     "emails": [],
-     "shareId": "CdSdKzBe",
-     "url": "https://www.send.co/a/CdSdKzBe"
-    },
-    {
-     "name": "Melvin Pierce",
-     "emails": [],
-     "shareId": "IVL76bWg",
-     "url": "https://www.send.co/a/IVL76bWg"
-    },
-    {
-     "name": "Michael Shemas",
-     "emails": [],
-     "shareId": "iLdQjjop",
-     "url": "https://www.send.co/a/iLdQjjop"
-    },
-    {
-     "name": "Omar Haner",
-     "emails": [],
-     "shareId": "HDqyl7Pa",
-     "url": "https://www.send.co/a/HDqyl7Pa"
-    },
-    {
-     "name": "Patrick Nations",
-     "emails": [],
-     "shareId": "aIM59lx4",
-     "url": "https://www.send.co/a/aIM59lx4"
-    },
-    {
-     "name": "Ricardo Hernandez",
-     "emails": [],
-     "shareId": "Ydo49muU",
-     "url": "https://www.send.co/a/Ydo49muU"
-    },
-    {
-     "name": "Rusty Coffman",
-     "emails": [],
-     "shareId": "rfKqhxtS",
-     "url": "https://www.send.co/a/rfKqhxtS"
-    },
-    {
-     "name": "Samuel Peters",
-     "emails": [],
-     "shareId": "OrM1fbu1",
-     "url": "https://www.send.co/a/OrM1fbu1"
-    },
-    {
-     "name": "Stephen Buttino",
-     "emails": [],
-     "shareId": "8IMjRXkV",
-     "url": "https://www.send.co/a/8IMjRXkV"
-    },
-    {
-     "name": "Stephen Gossett",
-     "emails": [],
-     "shareId": "5766Rnc3",
-     "url": "https://www.send.co/a/5766Rnc3"
-    },
-    {
-     "name": "Tim Berry",
-     "emails": [],
-     "shareId": "zCdvSAvl",
-     "url": "https://www.send.co/a/zCdvSAvl"
-    },
-    {
-     "name": "Tomas Cuevas",
-     "emails": [],
-     "shareId": "alXtyuZJ",
-     "url": "https://www.send.co/a/alXtyuZJ"
-    },
-    {
-     "name": "Trey Elliott",
-     "emails": [],
-     "shareId": "56Mrout2",
-     "url": "https://www.send.co/a/56Mrout2"
-    },
-    {
-     "name": "Zacharias Khan",
-     "emails": [],
-     "shareId": "nTJcEreq",
-     "url": "https://www.send.co/a/nTJcEreq"
-    }
-   ],
-   "shareId": null,
-   "unassignedShareId": "PrXSVkbG",
-   "unassignedUrl": "https://www.send.co/a/PrXSVkbG",
-   "supersededPages": [
-    {
-     "name": "M. Pierce",
-     "shareId": "9AwcUoBM"
-    },
-    {
-     "name": "A. Mobalegh",
-     "shareId": "Wj5wFtfl"
-    },
-    {
-     "name": "Andrew Blackburn",
-     "shareId": "Z5wsYcpa"
-    },
-    {
-     "name": "D. Hogan",
-     "shareId": "y3aVAr68"
-    },
-    {
-     "name": "D. Pagoada",
-     "shareId": "PRWk2Mc3"
-    },
-    {
-     "name": "Edgar Zuniga",
-     "shareId": "MjyG13vv"
-    },
-    {
-     "name": "George Jackson",
-     "shareId": "sJrTqUsp"
-    },
-    {
-     "name": "J. De La Cruz",
-     "shareId": "JvuWDAa5"
-    },
-    {
-     "name": "Jake Mathew",
-     "shareId": "VkAOIYXg"
-    },
-    {
-     "name": "Matt Godfrey",
-     "shareId": "GLlVyw21"
-    },
-    {
-     "name": "Terronce Johnson",
-     "shareId": "L89aD0FN"
-    },
-    {
-     "name": "Trevon Chaney",
-     "shareId": "YcSBfyFx"
-    }
-   ]
-  },
-  {
-   "label": "Legacy Roofing",
-   "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/68e1a336e2496ed38981c6db",
-   "company": "Legacy Roofing GC",
-   "domains": [
-    "legacyroofinggc.com"
-   ],
-   "pageMode": "company",
-   "reps": [
-    {
-     "name": "Jazhiel M.",
-     "emails": [
-      "jazhielm@legacyroofinggc.com"
-     ]
-    },
-    {
-     "name": "Alex C.",
-     "emails": [
-      "alexc@legacyroofinggc.com"
-     ]
-    },
-    {
-     "name": "Roberto M.",
-     "emails": [
-      "robertom@legacyroofinggc.com"
-     ]
-    },
-    {
-     "name": "Jose G.",
-     "emails": [
-      "joseg@legacyroofinggc.com"
-     ]
-    }
-   ],
-   "shareId": "do5DL1Om",
-   "url": "https://www.send.co/a/do5DL1Om"
-  },
-  {
-   "label": "No Stress Claims",
-   "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/675bbb8fe256c9a8d7b12815",
-   "company": "No Stress Claims",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "JTSciawp",
-   "url": "https://www.send.co/a/JTSciawp"
-  },
-  {
-   "label": "Vince - assured value claims",
-   "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/666e58ad1dc51400eb5238fe",
-   "company": "Assured Value Claims",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "CSIhM4fp",
-   "url": "https://www.send.co/a/CSIhM4fp"
-  },
-  {
-   "label": "Cross country Public Adjusting",
-   "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/6842b18b2c83590ef73b83e2",
-   "company": "Cross Country Public Adjusting",
-   "domains": [
-    "crosscountrypublicadjusting.com"
-   ],
-   "pageMode": "company",
-   "shareId": "696GL2Lq",
-   "url": "https://www.send.co/a/696GL2Lq"
-  },
-  {
-   "label": "TCB Elite Fleet",
-   "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/69c5478508edf5cd6a0c082c",
-   "company": "TCB Elite Fleet LLC",
-   "domains": [
-    "tcbelitefleet.com"
-   ],
-   "pageMode": "company",
-   "reps": [
-    {
-     "name": "A. Stevens",
-     "emails": [
-      "astevens@tcbelitefleet.com"
-     ]
-    },
-    {
-     "name": "C. Schick",
-     "emails": [
-      "cschick@tcbelitefleet.com"
-     ]
-    }
-   ],
-   "shareId": "93IB0fH1",
-   "url": "https://www.send.co/a/93IB0fH1"
-  },
-  {
-   "label": "The lawgical firm",
-   "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/68e3a67e4b628e6f90368b9e",
-   "company": "The Lawgical Firm",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "FsAQgx8X",
-   "url": "https://www.send.co/a/FsAQgx8X"
-  },
-  {
-   "label": "ADC Roofing",
-   "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/69a71e042e5bf39d4ecc8b0d",
-   "company": "ADC Roofing",
-   "domains": [
-    "adcroofing.com"
-   ],
-   "pageMode": "company",
-   "reps": [
-    {
-     "name": "Farhan",
-     "emails": [
-      "farhan@adcroofing.com"
-     ]
-    }
-   ],
-   "shareId": "HEIQwf7s",
-   "url": "https://www.send.co/a/HEIQwf7s"
-  },
-  {
-   "label": "Remys Roofing",
-   "company": "Remys Roofing",
-   "pageMode": "company",
-   "shareId": "D9yHIakD",
-   "_note": "Added 2026-08-16. The label existed on the board with 8 cards but was never in this config, so the roster never picked it up and its files were never back-read or given a page. Rep is Remy Caruso.",
-   "url": "https://www.send.co/a/remys-roofing-D9yHIakD"
-  },
-  {
-   "label": "Kenny North",
-   "company": "Kenny North",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "IEuQEgFv",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 31 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/IEuQEgFv"
-  },
-  {
-   "label": "Cohen",
-   "company": "Cohen",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "bqvsu2oB",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 29 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/bqvsu2oB"
-  },
-  {
-   "label": "Texco roofing",
-   "company": "Texco Roofing",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "eWExQUuF",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 26 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/eWExQUuF"
-  },
-  {
-   "label": "Coastal Claims",
-   "company": "Coastal Claims",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "egJAeCzM",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 20 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/egJAeCzM"
-  },
-  {
-   "label": "Powerhaus Solutions",
-   "company": "Powerhaus Solutions",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "4u3xJ3HE",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 18 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/4u3xJ3HE"
-  },
-  {
-   "label": "waggonerroofing",
-   "company": "Waggoner Roofing",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "ihk8RTdM",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 16 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/ihk8RTdM"
-  },
-  {
-   "label": "Tarrytown Roofing",
-   "company": "Tarrytown Roofing",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "W8LSoszM",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 13 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/tarrytown-roofing-W8LSoszM"
-  },
-  {
-   "label": "dashboard roofing",
-   "company": "Dashboard Roofing",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "3rdy2Qsx",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 11 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/3rdy2Qsx"
-  },
-  {
-   "label": "Now Roofing",
-   "company": "Now Roofing",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "hk3QMzCw",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 9 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/hk3QMzCw"
-  },
-  {
-   "label": "Victory Claims Consilting",
-   "company": "Victory Claims Consilting",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "xAEO7hyc",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 9 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/xAEO7hyc"
-  },
-  {
-   "label": "Rush Builders",
-   "company": "Rush Builders",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "Ja8smZ2o",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 8 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/rush-builders-Ja8smZ2o"
-  },
-  {
-   "label": "precision roofing",
-   "company": "Precision Roofing",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "AU9By9ZE",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 8 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/precision-roofing-AU9By9ZE"
-  },
-  {
-   "label": "Campbell",
-   "company": "Campbell",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "9Jx21ufk",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 7 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/9Jx21ufk"
-  },
-  {
-   "label": "Hai Nguyen",
-   "company": "Hai Nguyen",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "hM2wiYlv",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 7 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/hM2wiYlv"
-  },
-  {
-   "label": "BEYOND SOLUTIONS",
-   "company": "Beyond Solutions",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "Dfq47XNr",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 6 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/beyond-solutions-Dfq47XNr"
-  },
-  {
-   "label": "Buck Lewis",
-   "company": "Buck Lewis",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "gjmKWx6T",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 6 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/gjmKWx6T"
-  },
-  {
-   "label": "Impact Building Solutions",
-   "company": "Impact Building Solutions",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "6J9nvPl2",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 6 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/6J9nvPl2"
-  },
-  {
-   "label": "Millers law firm",
-   "company": "Millers Law Firm",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "1gHKwHfD",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 6 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/millers-law-firm-1gHKwHfD"
-  },
-  {
-   "label": "Greyhound Roofing",
-   "company": "Greyhound Roofing",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "ZlF0tyCf",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 5 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/ZlF0tyCf"
-  },
-  {
-   "label": "1st Choice Roofing & Restoration LLC",
-   "company": "1st Choice Roofing & Restoration LLC",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "II3TDBJ4",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 4 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/II3TDBJ4"
-  },
-  {
-   "label": "Len Lenard",
-   "company": "Len Lenard",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "5TTb3HGK",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 4 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/len-lenard-5TTb3HGK"
-  },
-  {
-   "label": "One Call Roofing",
-   "company": "One Call Roofing",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "lfgJ5mAW",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 4 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/one-call-roofing-lfgJ5mAW"
-  },
-  {
-   "label": "pinnacle Public Adjusting",
-   "company": "Pinnacle Public Adjusting",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "dWTtrwqy",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 4 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/dWTtrwqy"
-  },
-  {
-   "label": "roofing Technologies Unlimitied",
-   "company": "Roofing Technologies Unlimitied",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "DFWBb1ai",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 4 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/roofing-technologies-unlimitied-DFWBb1ai"
-  },
-  {
-   "label": "Crossroads Insurance Recovery",
-   "company": "Crossroads Insurance Recovery",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "hOkG76Y7",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 3 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/crossroads-insurance-recovery-hOkG76Y7"
-  },
-  {
-   "label": "Eagle A Improvements LLC",
-   "company": "Eagle A Improvements LLC",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "M9UkGsl7",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 3 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/eagle-a-improvements-llc-M9UkGsl7"
-  },
-  {
-   "label": "NextGen Construction Group",
-   "company": "NextGen Construction Group",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "5lSBPf8p",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 3 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/5lSBPf8p"
-  },
-  {
-   "label": "Statewide Public Adjusters",
-   "company": "Statewide Public Adjusters",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "2syRrO0P",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 3 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/statewide-public-adjusters-2syRrO0P"
-  },
-  {
-   "label": "storm guard",
-   "company": "Storm Guard",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "vSne6sTI",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 3 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/vSne6sTI"
-  },
-  {
-   "label": "BARRY",
-   "company": "Barry",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "DImtj4Ck",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 2 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/barry-DImtj4Ck"
-  },
-  {
-   "label": "Generation Construction Solutions, LLC.",
-   "company": "Generation Construction Solutions, LLC.",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "qr0pJvfz",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 2 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/qr0pJvfz"
-  },
-  {
-   "label": "Gulf Coast Public Adjusting",
-   "company": "Gulf Coast Public Adjusting",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "TfzADIHb",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 2 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/gulf-coast-public-adjusting-TfzADIHb"
-  },
-  {
-   "label": "Roofing Experts Pro",
-   "company": "Roofing Experts Pro",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "KoiZbLXF",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 2 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/roofing-experts-pro-KoiZbLXF"
-  },
-  {
-   "label": "Roofing Near Me GC",
-   "company": "Roofing Near Me GC",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "glWXWBjd",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 2 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/roofing-near-me-gc-glWXWBjd"
-  },
-  {
-   "label": "TCM ADJUSTING LLC",
-   "company": "TCM Adjusting LLC",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "zg7gAtdq",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 2 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/zg7gAtdq"
-  },
-  {
-   "label": "Timeless Roofing & Construction",
-   "company": "Timeless Roofing & Construction",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "78ANZTqW",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 2 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/timeless-roofing-amp-construction-78ANZTqW"
-  },
-  {
-   "label": "Top Gun Restoration",
-   "company": "Top Gun Restoration",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "vd0qGwKY",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 2 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/vd0qGwKY"
-  },
-  {
-   "label": "impressive roofing solutions",
-   "company": "Impressive Roofing Solutions",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "0lerh7Pt",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 2 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/0lerh7Pt"
-  },
-  {
-   "label": "storm recovery group",
-   "company": "Storm Recovery Group",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "4LL4TBND",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 2 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/4LL4TBND"
-  },
-  {
-   "label": "All American Contractors",
-   "company": "All American Contractors",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "iE0GA6GF",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/iE0GA6GF"
-  },
-  {
-   "label": "All Home Exterior Solutions",
-   "company": "All Home Exterior Solutions",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "HQdzSX0e",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/all-home-exterior-solutions-HQdzSX0e"
-  },
-  {
-   "label": "Brickwall Adjusters",
-   "company": "Brickwall Adjusters",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "s0HsNCqI",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/s0HsNCqI"
-  },
-  {
-   "label": "Crest Consulting",
-   "company": "Crest Consulting",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "wnA8wUyu",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/wnA8wUyu"
-  },
-  {
-   "label": "Elliotts Roofing",
-   "company": "Elliotts Roofing",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "MwqQobYQ",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/MwqQobYQ"
-  },
-  {
-   "label": "Fox Roofing",
-   "company": "Fox Roofing",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "HORr2I1D",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/fox-roofing-HORr2I1D"
-  },
-  {
-   "label": "Gustin Law",
-   "company": "Gustin Law",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "qeE5Xkxv",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/qeE5Xkxv"
-  },
-  {
-   "label": "Holden Roofing",
-   "company": "Holden Roofing",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "KSFa6LSe",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/KSFa6LSe"
-  },
-  {
-   "label": "Iron Adjuster",
-   "company": "Iron Adjuster",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "Pv2LlKWh",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/iron-adjuster-Pv2LlKWh"
-  },
-  {
-   "label": "Jeremy Hill Refferals",
-   "company": "Jeremy Hill Refferals",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "6b4PFz0d",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/jeremy-hill-refferals-6b4PFz0d"
-  },
-  {
-   "label": "Jonathan Wells",
-   "company": "Jonathan Wells",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "5EQPhAXH",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/jonathan-wells-5EQPhAXH"
-  },
-  {
-   "label": "Lower Bids Roofing",
-   "company": "Lower Bids Roofing",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "n7hW37cA",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/lower-bids-roofing-n7hW37cA"
-  },
-  {
-   "label": "M and M Build Group",
-   "company": "M and M Build Group",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "gPMc9smG",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/gPMc9smG"
-  },
-  {
-   "label": "Montgomery Roofing",
-   "company": "Montgomery Roofing",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "OoNryWcZ",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/montgomery-roofing-OoNryWcZ"
-  },
-  {
-   "label": "Priority Roofs",
-   "company": "Priority Roofs",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "aywra6Bx",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/aywra6Bx"
-  },
-  {
-   "label": "Purple Turtle Roofing",
-   "company": "Purple Turtle Roofing",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "jsZFMQnt",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/jsZFMQnt"
-  },
-  {
-   "label": "Ridgway Roofing",
-   "company": "Ridgway Roofing",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "d9eQ0R1E",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/d9eQ0R1E"
-  },
-  {
-   "label": "Roofing Experts",
-   "company": "Roofing Experts",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "3zfoMZmL",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/roofing-experts-3zfoMZmL"
-  },
-  {
-   "label": "Schilter Law Firm",
-   "company": "Schilter Law Firm",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "aqfjRBr9",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/aqfjRBr9"
-  },
-  {
-   "label": "Tony's roofing services",
-   "company": "Tony's Roofing Services",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "EkDm2oIn",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/EkDm2oIn"
-  },
-  {
-   "label": "Trinity Roof and Home",
-   "company": "Trinity Roof and Home",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "0e7Otd6F",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/0e7Otd6F"
-  },
-  {
-   "label": "VP Realty Services",
-   "company": "VP Realty Services",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "CM4osepp",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/CM4osepp"
-  },
-  {
-   "label": "VS Pro painting",
-   "company": "VS Pro Painting",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "zFHYypLI",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/vs-pro-painting-zFHYypLI"
-  },
-  {
-   "label": "YFPA CLAIM SOLUTIONS",
-   "company": "YFPA Claim Solutions",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "ghhsIEbo",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/ghhsIEbo"
-  },
-  {
-   "label": "hermesrenovations",
-   "company": "Hermes Renovations",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "emmW1jRh",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/emmW1jRh"
-  },
-  {
-   "label": "j&L CityScapes&Painting",
-   "company": "J & L CityScapes & Painting",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "Qj6HNIBh",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/j-l-cityscapes-painting-Qj6HNIBh"
-  },
-  {
-   "label": "robinson roofer",
-   "company": "Robinson Roofer",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "4Nhu3qdB",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/robinson-roofer-4Nhu3qdB"
-  },
-  {
-   "label": "texas premier roofing",
-   "company": "Texas Premier Roofing",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "bTAL7cC8",
-   "_note": "Auto-discovered 2026-09-08 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
-   "url": "https://www.send.co/a/bTAL7cC8"
-  },
-  {
-   "label": "Easy Button Construction",
-   "company": "Easy Button Construction",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "vPX4FGyT",
-   "_note": "Auto-discovered 2026-09-21 weekly run: label had 12 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful. A page will be created this run.",
-   "url": "https://www.send.co/a/vPX4FGyT"
-  },
-  {
-   "label": "Michael Young Roofing & Construction Inc.",
-   "company": "Michael Young Roofing & Construction Inc.",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "7dqSfqzc",
-   "_note": "Auto-discovered 2026-09-21 weekly run: label had 3 open cards on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful. A page will be created this run.",
-   "url": "https://www.send.co/a/7dqSfqzc"
-  },
-  {
-   "label": "Rusty Coffman - infinite roofing",
-   "company": "Infinite Roofing (Rusty Coffman)",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "Bg4GfzIQ",
-   "_note": "Auto-discovered 2026-09-21 weekly run: label had 1 open card on the board and no entry in this config. FLAG FOR JOSEPH: Rusty Coffman is already a named rep on the LINEAR roofing / Strong House Pro per-rep pages -- this looks like a separate company (Infinite Roofing) he personally runs, but please confirm whether this file belongs on its own new page (as created here) or should instead be folded into his existing rep page(s). Display name is a best guess -- please correct it.",
-   "url": "https://www.send.co/a/Bg4GfzIQ"
-  },
-  {
-   "label": "Baker Law",
-   "company": "Baker Law",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "FvY9zUmp",
-   "_note": "Auto-discovered 2026-09-21 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful. A page will be created this run.",
-   "url": "https://www.send.co/a/FvY9zUmp"
-  },
-  {
-   "label": "Ellah Development",
-   "company": "Ellah Development",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "dOUIz2my",
-   "_note": "Auto-discovered 2026-09-21 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful. A page will be created this run.",
-   "url": "https://www.send.co/a/dOUIz2my"
-  },
-  {
-   "label": "Kidd Roofing",
-   "labelId": "ari:cloud:trello::label/workspace/65d7eb00496a914bf3ffb423/6abad6ae89f6a5a0cc7e7d1f",
-   "company": "Kidd Roofing",
-   "domains": [],
-   "pageMode": "company",
-   "shareId": "OJtcZV06",
-   "url": "https://www.send.co/a/OJtcZV06",
-   "_note": "Auto-discovered 2026-10-12 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful. A page will be created this run."
-  }
- ],
- "_supersededComment": [
-  "Pages replaced during the 2026-08-15 rebuild when the roster moved from initials",
-  "(derived from email addresses) to full names from the board export. Joseph chose to",
-  "leave them live. They are recorded so a future run never reuses or resurrects them,",
-  "and so work/LINKS.md can warn against sending them."
- ]
+  ],
+  "_supersededComment": [
+    "Pages replaced during the 2026-08-15 rebuild when the roster moved from initials",
+    "(derived from email addresses) to full names from the board export. Joseph chose to",
+    "leave them live. They are recorded so a future run never reuses or resurrects them,",
+    "and so work/LINKS.md can warn against sending them."
+  ]
 }
