@@ -1,25 +1,73 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Statewide Public Adjusters</title></head><body>
-<section class="head"><p class="eyebrow">TX Insurance Appraisals</p>
-<h1>Statewide Public Adjusters</h1>
-<p class="sub">Where every file you sent us currently stands. Updated Monday, October 12, 2026.</p></section>
+<title>Appraisal Status</title>
+</head>
+<body>
+<section class="head">
+  <p class="eyebrow">TX Insurance Appraisals</p>
+  <h1>Statewide Public Adjusters</h1>
+  <p class="sub">Where every file you sent us currently stands. Updated Monday, October 26, 2026.</p>
+</section>
 <section class="tiles">
-<div class="tile"><span class="n">3</span><span class="l">Open files</span></div>
-<div class="tile"><span class="n">0</span><span class="l">In appraisal</span></div>
-<div class="tile alert"><span class="n">0</span><span class="l">Need you</span></div>
-<div class="tile good"><span class="n">3</span><span class="l">Settled</span></div>
+  <div class="tile"><span class="n">3</span><span class="l">Open files</span></div>
+  <div class="tile"><span class="n">0</span><span class="l">In appraisal</span></div>
+  <div class="tile alert"><span class="n">0</span><span class="l">Need you</span></div>
+  <div class="tile good"><span class="n">3</span><span class="l">Settled</span></div>
 </section>
-<section class="filesearch"><div class="search-shell"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg><input type="text" id="fileq" placeholder="Search by name, address, or claim #" autocomplete="off" spellcheck="false"><span class="search-count" id="fileqcount"></span></div><p class="fileqempty is-hidden" id="fileqempty">No files match that search.</p></section>
-<hr class="settled-divider"><p class="settled-lead">Closed files &mdash; nothing needed from you on these.</p>
-<section class="stage settled"><div class="stage-head"><h2>Settled - payment outstanding</h2><span class="count">1 file</span></div><p class="stage-blurb">The claim is resolved. Our appraisal invoice is still open.</p>
-<div class="file" data-q="rowe ann biggs  24123587572"><div class="file-top"><h3>Rowe Ann Biggs</h3><span class="when">last activity 2026-09-11</span></div><p class="meta">Claim 24123587572</p><p class="what">The claim is resolved. Our appraisal invoice is still open.</p></div>
+<section class="filesearch">
+  <div class="search-shell">
+    <input type="text" id="fileq" placeholder="Search by name, address, or claim #" autocomplete="off" spellcheck="false">
+    <span class="search-count" id="fileqcount"></span>
+  </div>
+  <p class="fileqempty is-hidden" id="fileqempty">No files match that search.</p>
 </section>
-<section class="stage settled"><div class="stage-head"><h2>Settled - paid</h2><span class="count">2 files</span></div><p class="stage-blurb">Closed out and paid. Nothing outstanding.</p>
-<div class="file" data-q="ramondre posten  5035986790-1"><div class="file-top"><h3>Ramondre Posten</h3><span class="when">last activity 2026-09-23</span></div><p class="meta">Claim 5035986790-1</p><p class="what">Closed out and paid. Nothing outstanding.</p></div>
-<div class="file" data-q="whitney wheeler"><div class="file-top"><h3>Whitney Wheeler</h3><span class="when">last activity 2026-09-23</span></div><p class="what">Closed out and paid. Nothing outstanding.</p></div>
+<section class="stage settled">
+  <div class="stage-head">
+    <h2>Settled - paid</h2>
+    <span class="count">3 files</span>
+  </div>
+  <p class="stage-blurb">Closed out and paid. Nothing outstanding.</p>
+  <div class="file" data-q="rowe ann biggs 7815 bridgepointe dr, temple tx 24123587572">
+    <div class="file-top">
+      <h3>Rowe Ann Biggs</h3>
+      <span class="when">last activity Oct 23</span>
+    </div>
+    <p class="meta">7815 Bridgepointe Dr, Temple TX &middot; Claim 24123587572</p>
+    <p class="what">Closed out and paid. Nothing further is needed on this file.</p>
+  </div>
+  <div class="file" data-q="ramondre posten 5734 bypass trl, san antonio tx 5035986790-1">
+    <div class="file-top">
+      <h3>Ramondre Posten</h3>
+      <span class="when">last activity Sep 23</span>
+    </div>
+    <p class="meta">5734 Bypass Trl, San Antonio TX &middot; Claim 5035986790-1</p>
+    <p class="what">Closed out and paid. Nothing further is needed on this file.</p>
+  </div>
+  <div class="file" data-q="whitney wheeler">
+    <div class="file-top">
+      <h3>Whitney Wheeler</h3>
+      <span class="when">last activity Sep 23</span>
+    </div>
+    <p class="meta">Details on file</p>
+    <p class="what">Closed out and paid. Nothing further is needed on this file.</p>
+  </div>
 </section>
-<section class="foot"><p>Questions on any file here? Reply to your last email thread with us, or call 737-258-3127.</p><p class="fine">This page refreshes every Monday morning. Bookmark it &mdash; the link stays the same.</p></section>
+<section class="foot">
+  <p>Questions on any file here? Reply to your last email thread with us.</p>
+  <p class="fine">This page refreshes every Monday morning. Bookmark it &mdash; the link stays the same.</p>
+</section>
+<script>
+(function(){var q=document.getElementById("fileq"),cnt=document.getElementById("fileqcount"),em=document.getElementById("fileqempty");
+var fs=[].slice.call(document.querySelectorAll(".file")),ss=[].slice.call(document.querySelectorAll(".stage"));
+q.addEventListener("input",function(){var v=q.value.trim().toLowerCase(),n=0;
+fs.forEach(function(f){var h=v&&(f.getAttribute("data-q")||"").indexOf(v)<0;f.classList.toggle("is-hidden",!!h);if(!h)n++;});
+ss.forEach(function(s){s.classList.toggle("is-hidden",!s.querySelector(".file:not(.is-hidden)"));});
+cnt.textContent=v?n+" of "+fs.length:"";em.classList.toggle("is-hidden",!v||n>0);});})();
+</script>
+
 <style>
   :root{
     --bg:#f7f7f5; --card:#ffffff; --ink:#1a1a17; --muted:#6b6b63;
@@ -201,44 +249,6 @@
     .tiles{grid-template-columns:repeat(2,1fr)}
   }
 </style>
-<script>
-(function(){
-  var input = document.getElementById('fileq');
-  if (!input) return;
-  var countEl = document.getElementById('fileqcount');
-  var emptyEl = document.getElementById('fileqempty');
-  function apply(){
-    var terms = input.value.trim().toLowerCase().split(/\s+/).filter(Boolean);
-    var files = document.querySelectorAll('.file');
-    var shown = 0;
-    files.forEach(function(f){
-      var hay = f.getAttribute('data-q') || '';
-      var match = terms.every(function(t){ return hay.indexOf(t) !== -1; });
-      f.classList.toggle('is-hidden', !match);
-      if (match) shown++;
-    });
-    document.querySelectorAll('.stage').forEach(function(s){
-      s.classList.toggle('is-hidden', !s.querySelector('.file:not(.is-hidden)'));
-    });
-    // The settled divider and its lead line aren't inside a .stage -- they sit just
-    // before the first settled section as plain siblings -- so hide them by hand
-    // when every settled section they introduce has nothing left visible.
-    var divider = document.querySelector('.settled-divider');
-    if (divider) {
-      var anySettledVisible = false;
-      document.querySelectorAll('.stage.settled').forEach(function(s){
-        if (!s.classList.contains('is-hidden')) anySettledVisible = true;
-      });
-      divider.classList.toggle('is-hidden', !anySettledVisible);
-      var lead = divider.nextElementSibling;
-      if (lead && lead.classList.contains('settled-lead')) {
-        lead.classList.toggle('is-hidden', !anySettledVisible);
-      }
-    }
-    if (countEl) countEl.textContent = terms.length ? (shown + ' / ' + files.length) : '';
-    if (emptyEl) emptyEl.classList.toggle('is-hidden', !(terms.length && shown === 0));
-  }
-  input.addEventListener('input', apply);
-})();
-</script>
-</body></html>
+
+</body>
+</html>

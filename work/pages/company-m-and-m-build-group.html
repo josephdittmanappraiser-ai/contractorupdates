@@ -1,20 +1,72 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>M and M Build Group</title></head><body>
-<section class="head"><p class="eyebrow">TX Insurance Appraisals</p>
-<h1>M and M Build Group</h1>
-<p class="sub">Where every file you sent us currently stands. Updated Monday, October 12, 2026.</p></section>
+<title>Appraisal Status</title>
+</head>
+<body>
+
+<section class="head">
+  <p class="eyebrow">TX Insurance Appraisals</p>
+  <h1>M and M Build Group</h1>
+  <p class="sub">Where every file you sent us currently stands. Updated Monday, October 26, 2026.</p>
+</section>
+
 <section class="tiles">
-<div class="tile"><span class="n">1</span><span class="l">Open files</span></div>
-<div class="tile"><span class="n">1</span><span class="l">In appraisal</span></div>
-<div class="tile alert"><span class="n">0</span><span class="l">Need you</span></div>
-<div class="tile good"><span class="n">0</span><span class="l">Settled</span></div>
+  <div class="tile"><span class="n">1</span><span class="l">Open files</span></div>
+  <div class="tile"><span class="n">0</span><span class="l">In appraisal</span></div>
+  <div class="tile alert"><span class="n">0</span><span class="l">Need you</span></div>
+  <div class="tile good"><span class="n">0</span><span class="l">Settled</span></div>
 </section>
-<section class="filesearch"><div class="search-shell"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg><input type="text" id="fileq" placeholder="Search by name, address, or claim #" autocomplete="off" spellcheck="false"><span class="search-count" id="fileqcount"></span></div><p class="fileqempty is-hidden" id="fileqempty">No files match that search.</p></section>
-<section class="stage"><div class="stage-head"><h2>Inspected / building our position</h2><span class="count">1 file</span></div><p class="stage-blurb">Property inspected. Our estimate and position are being prepared.</p>
-<div class="file" data-q="william and annetta womack 6233 ravenwood dr, pearland, tx 77584 1275532"><div class="file-top"><h3>WILLIAM And ANNETTA WOMACK</h3><span class="when">last activity 2026-10-05</span></div><p class="meta">6233 Ravenwood Dr, Pearland, TX 77584 &middot; Claim 1275532</p><ol class="track"><li class="done">Intake</li><li class="done">Estimate</li><li class="done">Demand</li><li class="now">Inspection</li><li class="todo">Negotiating</li><li class="todo">Umpire</li><li class="todo">Settled</li></ol><p class="what">Property inspected. Our estimate and position are being prepared.</p></div>
+
+<section class="filesearch">
+  <div class="search-shell">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+    <input type="text" id="fileq" placeholder="Search by name, address, or claim #" autocomplete="off" spellcheck="false">
+    <span class="search-count" id="fileqcount"></span>
+  </div>
+  <p class="fileqempty is-hidden" id="fileqempty">No files match that search.</p>
 </section>
-<section class="foot"><p>Questions on any file here? Reply to your last email thread with us, or call 737-258-3127.</p><p class="fine">This page refreshes every Monday morning. Bookmark it &mdash; the link stays the same.</p></section>
+
+<section class="stage">
+  <div class="stage-head">
+    <h2>Inspected / building our position</h2>
+    <span class="count">1 file</span>
+  </div>
+  <p class="stage-blurb">Property inspected. Our estimate and position are being prepared.</p>
+
+  <div class="file" data-q="william and annetta womack 6233 ravenwood dr, pearland tx 1275532">
+    <div class="file-top">
+      <h3>William and Annetta Womack</h3>
+      <span class="when">last activity Oct 5</span>
+    </div>
+    <p class="meta">6233 Ravenwood Dr, Pearland TX &middot; Claim 1275532</p>
+    <p class="what">The property has been inspected and we are preparing our estimate and position for the carrier&rsquo;s appraiser.</p>
+  </div>
+</section>
+
+<section class="foot">
+  <p>Questions on any file here? Reply to your last email thread with us.</p>
+  <p class="fine">This page refreshes every Monday morning. Bookmark it &mdash; the link stays the same.</p>
+</section>
+
+<script>
+(function(){
+  var q=document.getElementById('fileq'),c=document.getElementById('fileqcount'),e=document.getElementById('fileqempty');
+  var files=[].slice.call(document.querySelectorAll('.file'));
+  function run(){
+    var v=q.value.trim().toLowerCase(),shown=0;
+    files.forEach(function(f){var m=!v||(f.getAttribute('data-q')||'').indexOf(v)>-1;f.classList.toggle('is-hidden',!m);if(m)shown++;});
+    [].forEach.call(document.querySelectorAll('.stage'),function(s){
+      s.classList.toggle('is-hidden',!s.querySelector('.file:not(.is-hidden)'));});
+    c.textContent=v?shown+' of '+files.length:'';
+    e.classList.toggle('is-hidden',shown>0||!v);
+  }
+  q.addEventListener('input',run);
+})();
+</script>
+
 <style>
   :root{
     --bg:#f7f7f5; --card:#ffffff; --ink:#1a1a17; --muted:#6b6b63;
@@ -196,44 +248,6 @@
     .tiles{grid-template-columns:repeat(2,1fr)}
   }
 </style>
-<script>
-(function(){
-  var input = document.getElementById('fileq');
-  if (!input) return;
-  var countEl = document.getElementById('fileqcount');
-  var emptyEl = document.getElementById('fileqempty');
-  function apply(){
-    var terms = input.value.trim().toLowerCase().split(/\s+/).filter(Boolean);
-    var files = document.querySelectorAll('.file');
-    var shown = 0;
-    files.forEach(function(f){
-      var hay = f.getAttribute('data-q') || '';
-      var match = terms.every(function(t){ return hay.indexOf(t) !== -1; });
-      f.classList.toggle('is-hidden', !match);
-      if (match) shown++;
-    });
-    document.querySelectorAll('.stage').forEach(function(s){
-      s.classList.toggle('is-hidden', !s.querySelector('.file:not(.is-hidden)'));
-    });
-    // The settled divider and its lead line aren't inside a .stage -- they sit just
-    // before the first settled section as plain siblings -- so hide them by hand
-    // when every settled section they introduce has nothing left visible.
-    var divider = document.querySelector('.settled-divider');
-    if (divider) {
-      var anySettledVisible = false;
-      document.querySelectorAll('.stage.settled').forEach(function(s){
-        if (!s.classList.contains('is-hidden')) anySettledVisible = true;
-      });
-      divider.classList.toggle('is-hidden', !anySettledVisible);
-      var lead = divider.nextElementSibling;
-      if (lead && lead.classList.contains('settled-lead')) {
-        lead.classList.toggle('is-hidden', !anySettledVisible);
-      }
-    }
-    if (countEl) countEl.textContent = terms.length ? (shown + ' / ' + files.length) : '';
-    if (emptyEl) emptyEl.classList.toggle('is-hidden', !(terms.length && shown === 0));
-  }
-  input.addEventListener('input', apply);
-})();
-</script>
-</body></html>
+
+</body>
+</html>
