@@ -1720,6 +1720,24 @@
       "shareId": "OJtcZV06",
       "url": "https://www.send.co/a/OJtcZV06",
       "_note": "Auto-discovered 2026-10-12 weekly run: label had 1 open card on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful. A page will be created this run."
+    },
+    {
+      "label": "Sprout Roofing",
+      "company": "Sprout Roofing",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "FruIrgFy",
+      "_note": "Auto-discovered 2026-10-26 weekly run: label had 2 open card(s) on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/sprout-roofing-appraisal-status-FruIrgFy"
+    },
+    {
+      "label": "KKP Firm",
+      "company": "KKP Firm",
+      "domains": [],
+      "pageMode": "company",
+      "shareId": "xNeXMiQ0",
+      "_note": "Auto-discovered 2026-10-26 weekly run: label had 1 open card(s) on the board and no entry in this config. Display name is a best guess from the label text -- please correct it and add a domain if useful.",
+      "url": "https://www.send.co/a/kkp-firm-appraisal-status-xNeXMiQ0"
     }
   ],
   "_supersededComment": [
